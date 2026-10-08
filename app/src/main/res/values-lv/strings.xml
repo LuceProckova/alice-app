@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Nogurums</string>
+    <string name="core_reason_craving">Kāre</string>
+    <string name="core_reason_no_time">Nav laika</string>
+    <string name="core_reason_forgot">Aizmirsu</string>
+    <string name="core_reason_no_alternative">Nav alternatīvas</string>
+    <string name="core_reason_social">Kompānija</string>
+    <string name="core_reason_impulse">Impulss</string>
+    <string name="core_reason_too_expensive">Pārāk dārgi</string>
+    <string name="core_reason_away">Prom no mājām</string>
+
+    <string name="core_nudge_channel">Ikdienas atgādinājums</string>
+    <string name="core_nudge_title">Šodien vēl jāatzīmē</string>
+    <string name="core_save_failed">Neizdevās saglabāt, mēģini vēlreiz</string>
+
+    <string name="core_kind_habit">Ieradums</string>
+    <string name="core_kind_swap">Maiņa</string>
+    <string name="core_kind_avoid">Izvairīties</string>
+    <string name="core_about">Par: %1$s</string>
+    <string name="core_ok">Labi</string>
+    <string name="core_less">Mazāk</string>
+    <string name="core_more">Vairāk</string>
+    <string name="core_cancel">Atcelt</string>
+    <string name="core_settings">Iestatījumi</string>
+    <string name="core_span_week">Nedēļa</string>
+    <string name="core_span_month">Mēnesis</string>
+    <string name="core_span_year">Gads</string>
+    <string name="core_span_all">Viss laiks</string>
+    <string name="core_tab_habits">Ieradumi</string>
+    <string name="core_tab_changes">Izmaiņas</string>
+    <string name="core_tab_avoid">Izvairies</string>
+    <string name="core_tab_insights">Pārskats</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">izdarīts</string>
+    <string name="core_cell_missed">izlaists</string>
+    <string name="core_cell_partial">daļēji izdarīts, līdz šim %1$d</string>
+    <string name="core_cell_unfilled">vēl nav aizpildīts</string>
+    <string name="core_cell_open">jāizdara</string>
+    <string name="core_cell_locked">bloķēts līdz atzīmēšanas laikam</string>
+    <string name="core_cell_future">vēl ne</string>
+    <string name="core_cell_empty">nekas nav vajadzīgs</string>
+    <string name="core_cell_band">šim periodam izdarīts</string>
+    <string name="core_cell_off">nav šī soļa diena</string>
+    <string name="core_cell_none">pirms šī soļa sākuma</string>
+
+    <string name="core_rhythm_one_off">Vienreizējs</string>
+    <string name="core_rhythm_end_of_day">Katru dienu, atzīmē vakarā</string>
+    <string name="core_rhythm_every_day">Katru dienu</string>
+    <string name="core_rhythm_every_days">Katru %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">nedēļā</string>
+    <string name="core_rhythm_a_month">mēnesī</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, jebkurā dienā</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s un %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d mēn.</string>
+    <string name="core_achievement_short_days">%1$d d.</string>
+    <string name="core_glance_step">%1$s, %2$d no %3$d</string>
+
+    <string name="core_slip_never">Nekad</string>
+    <string name="core_slip_once">Vienreiz</string>
+    <string name="core_slip_a_few">Dažas reizes</string>
+    <string name="core_slip_half">Pusi</string>
+    <string name="core_slip_most">Lielāko daļu</string>
+    <string name="core_slip_always">Vienmēr</string>
+
+    <string name="core_ideas_habit_anytime">Ieradumi, jebkurā laikā</string>
+    <string name="core_ideas_habit_end">Ieradumi, vakarā</string>
+    <string name="core_ideas_swap">Maiņas</string>
+    <string name="core_ideas_avoid_product">Izvairīties, produkti</string>
+    <string name="core_ideas_avoid_company">Izvairīties, uzņēmumi</string>
+    <string name="core_ideas_avoid_food">Izvairīties, ēdiens</string>
+
+    <string name="core_tag_ethical">Ētisks</string>
+    <string name="core_tag_health">Veselība</string>
+    <string name="core_tag_clutter">Nekārtība</string>
+    <string name="core_tag_ecological">Ekoloģisks</string>
+    <string name="core_tag_animal_welfare">Dzīvnieku labturība</string>
+    <string name="core_tag_workers_rights">Darbinieku tiesības</string>
+    <string name="core_tag_plastic">Plastmasa</string>
+    <string name="core_tag_palm_oil">Palmu eļļa</string>
+    <string name="core_tag_deforestation">Mežu izciršana</string>
+    <string name="core_category_company">Uzņēmums</string>
+    <string name="core_category_food">Ēdiens</string>
+    <string name="core_category_product">Produkts</string>
+    <string name="core_verdict_avoid">IZVAIRIES</string>
+    <string name="core_verdict_edge">UZ ROBEŽAS</string>
+    <string name="core_verdict_fine">DERĪGS</string>
+
+    <string name="core_theme_off_white_honey">Krēmbalts &amp; medus</string>
+    <string name="core_theme_vanilla_caramel">Vaniļa &amp; karamele</string>
+    <string name="core_theme_sunflower">Saulespuķe</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao &amp; citrons</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; sviests</string>
+    <string name="core_theme_midnight_honey">Pusnakts &amp; medus</string>
+    <string name="core_theme_forest_night">Meža nakts</string>
+    <string name="core_theme_plum_dusk">Plūmju krēsla</string>
+    <string name="core_theme_charcoal_coral">Ogle &amp; korallis</string>
+
+    <string name="core_pic_sunny_meadow">Saulaina pļava</string>
+    <string name="core_pic_sunset_hills">Pakalni saulrietā</string>
+    <string name="core_pic_starry_night">Zvaigžņota nakts</string>
+    <string name="core_pic_beach_day">Pludmales diena</string>
+    <string name="core_pic_mountain_lake">Kalnu ezers</string>
+    <string name="core_pic_snowy_village">Sniegots ciems</string>
+    <string name="core_pic_rainy_garden">Lietains dārzs</string>
+    <string name="core_pic_autumn_forest">Rudens mežs</string>
+    <string name="core_pic_cherry_blossom">Ķiršu ziedi</string>
+    <string name="core_pic_desert_cactus">Tuksneša kaktuss</string>
+    <string name="core_pic_lighthouse">Bāka</string>
+    <string name="core_pic_rainbow_field">Varavīksnes lauks</string>
+    <string name="core_pic_hot_air_balloon">Gaisa balons</string>
+    <string name="core_pic_sailboat">Burulaiva</string>
+    <string name="core_pic_cabin_in_the_woods">Būda mežā</string>
+    <string name="core_pic_tulip_field">Tulpju lauks</string>
+    <string name="core_pic_campfire_night">Ugunskura vakars</string>
+    <string name="core_pic_misty_mountains">Miglaini kalni</string>
+    <string name="core_pic_sunrise_sea">Saullēkts pie jūras</string>
+    <string name="core_pic_snowy_pines">Sniegotas priedes</string>
+    <string name="core_pic_lavender_field">Lavandu lauks</string>
+    <string name="core_pic_waterfall">Ūdenskritums</string>
+    <string name="core_pic_city_at_dusk">Pilsēta krēslā</string>
+    <string name="core_pic_picnic">Pikniks</string>
+    <string name="core_pic_moon_over_the_lake">Mēness pār ezeru</string>
+    <string name="core_pic_palm_island">Palmu sala</string>
+    <string name="core_pic_windmill">Vējdzirnavas</string>
+    <string name="core_pic_bike_path">Velosipēdu celiņš</string>
+    <string name="core_pic_greenhouse">Siltumnīca</string>
+    <string name="core_pic_northern_lights">Ziemeļblāzma</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="zero">Tevi gaida %d soļi.</item>
+        <item quantity="one">Tevi gaida %d solis.</item>
+        <item quantity="other">Tevi gaida %d soļi.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="zero">izdarīts, %d reizes</item>
+        <item quantity="one">izdarīts, %d reizi</item>
+        <item quantity="other">izdarīts, %d reizes</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="zero">%d reizes dienā</item>
+        <item quantity="one">%d reizi dienā</item>
+        <item quantity="other">%d reizes dienā</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="zero">%d reizes</item>
+        <item quantity="one">Vienreiz</item>
+        <item quantity="other">%d reizes</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="zero">ik pēc %d nedēļām</item>
+        <item quantity="one">ik pēc %d nedēļas</item>
+        <item quantity="other">ik pēc %d nedēļām</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="zero">ik pēc %d mēnešiem</item>
+        <item quantity="one">ik pēc %d mēneša</item>
+        <item quantity="other">ik pēc %d mēnešiem</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="zero">ik pēc %d dienām</item>
+        <item quantity="one">ik pēc %d dienas</item>
+        <item quantity="other">ik pēc %d dienām</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="zero">%d mēneši bez izlaidumiem</item>
+        <item quantity="one">%d mēnesis bez izlaidumiem</item>
+        <item quantity="other">%d mēneši bez izlaidumiem</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="zero">%d mēneši pēc kārtas</item>
+        <item quantity="one">%d mēnesis pēc kārtas</item>
+        <item quantity="other">%d mēneši pēc kārtas</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="zero">%d dienas pēc kārtas</item>
+        <item quantity="one">%d diena pēc kārtas</item>
+        <item quantity="other">%d dienas pēc kārtas</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="zero">%d mēneši</item>
+        <item quantity="one">%d mēnesis</item>
+        <item quantity="other">%d mēneši</item>
+    </plurals>
+
+    <string name="tabs_new_step">Jauns solis</string>
+    <string name="tabs_edit">Rediģēt</string>
+    <string name="tabs_delete">Dzēst</string>
+    <string name="tabs_done">Gatavs</string>
+    <string name="tabs_back">Atpakaļ</string>
+    <string name="tabs_earlier">Agrāk</string>
+    <string name="tabs_later">Vēlāk</string>
+    <string name="tabs_delete_title">Dzēst %1$s?</string>
+    <string name="tabs_eod_unlock">Vakara ieradumi atbloķējas plkst. %1$02d:00</string>
+    <string name="tabs_check_up">Pārskats</string>
+    <string name="tabs_one_off">Vienreizējs</string>
+
+    <string name="tabs_checkin_from">Atzīmēšana no plkst. %1$02d:00</string>
+    <string name="tabs_checkin_daily">Dienas atzīmēšana</string>
+    <string name="tabs_checkin_weekly">Nedēļas atzīmēšana</string>
+    <string name="tabs_checkin_quarter">3 mēnešu pārskats</string>
+    <string name="tabs_checked_in">Atzīmēts</string>
+    <string name="tabs_quarter_section">3 MĒNEŠU PĀRSKATS</string>
+    <string name="tabs_previous_week">Iepriekšējā nedēļa</string>
+    <string name="tabs_next_week">Nākamā nedēļa</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="zero">%1$d dienas: %2$s!</item>
+        <item quantity="one">%1$d diena: %2$s!</item>
+        <item quantity="other">%1$d dienas: %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Lieliski. Tagad tas pāriet uz taviem 3 mēnešu pārskatiem, vairs nav jāatzīmē katru dienu.</string>
+    <string name="tabs_celebrate_first">Pirmais būs %1$s.</string>
+    <string name="tabs_glance_title">Tava nedēļa</string>
+    <string name="tabs_glance_ticks_kept">Izdarītās atzīmes</string>
+    <string name="tabs_glance_days_checked_in">Atzīmētās dienas</string>
+    <string name="tabs_glance_top_tag">Biežākais paslīdējuma iemesls:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="zero">%1$s, %2$d reizes</item>
+        <item quantity="one">%1$s, %2$d reizi</item>
+        <item quantity="other">%1$s, %2$d reizes</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Vieglākais:</string>
+    <string name="tabs_glance_hardest">Grūtākais:</string>
+
+    <string name="tabs_changes_ongoing">Pastāvīgās maiņas</string>
+    <string name="tabs_changes_ongoing_tip_title">Pastāvīga maiņa</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="zero">Tu atkal saskarsies ar to pašu izvēli, piemēram, kafijas krūzi vai cieto šampūnu. To atzīmē sadaļā Ieradumi %1$d dienas, pēc tam pārbauda reizi 3 mēnešos.</item>
+        <item quantity="one">Tu atkal saskarsies ar to pašu izvēli, piemēram, kafijas krūzi vai cieto šampūnu. To atzīmē sadaļā Ieradumi %1$d dienu, pēc tam pārbauda reizi 3 mēnešos.</item>
+        <item quantity="other">Tu atkal saskarsies ar to pašu izvēli, piemēram, kafijas krūzi vai cieto šampūnu. To atzīmē sadaļā Ieradumi %1$d dienas, pēc tam pārbauda reizi 3 mēnešos.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Vēl nav maiņu</string>
+    <string name="tabs_changes_day_badge">DIENA %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">IEDZĪVOJAS</string>
+    <string name="tabs_changes_one_off_todo">Vienreizēji, jāizdara</string>
+    <string name="tabs_changes_one_off_tip">Tu to izdari vienreiz, un viss, piemēram, sakārto atvilktni, pārej uz zaļo elektrību vai salabo jaku. Atzīmē to, un tas pāries uz Pabeigtie.</string>
+    <string name="tabs_changes_nothing_waiting">Nekas negaida</string>
+    <string name="tabs_changes_finished">PABEIGTIE · %1$d</string>
+
+    <string name="tabs_avoid_title">Izvairīšanās saraksts</string>
+    <string name="tabs_avoid_search">Meklēt…</string>
+    <string name="tabs_avoid_no_match">Nekas neatbilst</string>
+    <string name="tabs_avoid_companies">Uzņēmumi</string>
+    <string name="tabs_avoid_food">Ēdiens</string>
+    <string name="tabs_avoid_products">Produkti</string>
+
+    <string name="tabs_avoid_added">Pievienots</string>
+    <string name="tabs_avoid_why">Kāpēc tu no tā izvairies</string>
+    <string name="tabs_avoid_own_words">Tavos vārdos</string>
+    <string name="tabs_avoid_brands">Tam piederošie zīmoli · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Viens zīmols katrā rindā</string>
+    <string name="tabs_avoid_more_brands">vēl +%1$d</string>
+    <string name="tabs_avoid_instead">Labāk ņem šo</string>
+    <string name="tabs_avoid_instead_hint">Viens katrā rindā</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="zero">paslīdējumi</item>
+        <item quantity="one">paslīdējums</item>
+        <item quantity="other">paslīdējumi</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">izvairījies</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="zero">mēneši sarakstā</item>
+        <item quantity="one">mēnesis sarakstā</item>
+        <item quantity="other">mēneši sarakstā</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Tas tiks izņemts no tava izvairīšanās saraksta kopā ar vēsturi.</string>
+
+    <string name="tabs_habit_delete_text">Visa tā vēsture pazudīs līdz ar to.</string>
+    <string name="tabs_habit_created">Izveidots</string>
+    <string name="tabs_habit_to_do">Jāizdara</string>
+    <string name="tabs_habit_daily_ticks">Ikdienas atzīmes</string>
+    <string name="tabs_habit_day_of">%1$d. diena no %2$d</string>
+    <string name="tabs_habit_finished">Pabeigts</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="zero">dienas pēc kārtas</item>
+        <item quantity="one">diena pēc kārtas</item>
+        <item quantity="other">dienas pēc kārtas</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="zero">reizes pārtraukts</item>
+        <item quantity="one">reizi pārtraukts</item>
+        <item quantity="other">reizes pārtraukts</item>
+    </plurals>
+    <string name="tabs_habit_success">veiksme</string>
+    <string name="tabs_habit_current_streak">Pašreizējā sērija</string>
+    <string name="tabs_habit_longest_streak">Garākā sērija</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="zero">%1$d dienas</item>
+        <item quantity="one">%1$d diena</item>
+        <item quantity="other">%1$d dienas</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Kāpēc paslīdēja</string>
+    <string name="tabs_habit_remove_reason">Noņemt šo iemeslu</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="zero">veidi, kā uzlaboji savu dzīvi</item>
+        <item quantity="one">veids, kā uzlaboji savu dzīvi</item>
+        <item quantity="other">veidi, kā uzlaboji savu dzīvi</item>
+    </plurals>
+    <string name="tabs_insights_habits">Ieradumi</string>
+    <string name="tabs_insights_swaps">Maiņas</string>
+    <string name="tabs_insights_avoids">Izvairīšanās</string>
+    <string name="tabs_insights_on_track_section">Uz pareizā ceļa</string>
+    <string name="tabs_insights_avg_days">%1$d d.</string>
+    <string name="tabs_insights_average_kept">vidēji izdarīts</string>
+    <string name="tabs_insights_days_checked_in">atzīmētas dienas</string>
+    <string name="tabs_insights_on_track">uz pareizā ceļa</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="zero">paslīdējumi</item>
+        <item quantity="one">paslīdējums</item>
+        <item quantity="other">paslīdējumi</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="zero">jauni soļi</item>
+        <item quantity="one">jauns solis</item>
+        <item quantity="other">jauni soļi</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="zero">vienreizēji izdarīti</item>
+        <item quantity="one">vienreizējs izdarīts</item>
+        <item quantity="other">vienreizēji izdarīti</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Biežākie paslīdējumu iemesli</string>
+    <string name="tabs_insights_added_quarter">Pievienots šajā ceturksnī</string>
+    <string name="tabs_insights_past_summaries">Iepriekšējie 3 mēnešu kopsavilkumi</string>
+    <string name="tabs_insights_first_on">Pirmais būs %1$s</string>
+    <string name="tabs_insights_all_time">Viss laiks</string>
+    <string name="tabs_insights_period">%1$s līdz %2$s %3$d</string>
+
+    <string name="forms_back">Atpakaļ</string>
+    <string name="forms_back_habits">Ieradumi</string>
+    <string name="forms_back_settings">Iestatījumi</string>
+    <string name="forms_add">Pievienot</string>
+    <string name="forms_save">Saglabāt</string>
+    <string name="forms_finish">Pabeigt</string>
+    <string name="forms_delete">Dzēst</string>
+    <string name="forms_why">Kāpēc</string>
+    <string name="forms_never_show">Vairs nerādīt</string>
+    <string name="forms_every">Ik pēc</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="zero">dienas</item>
+        <item quantity="one">diena</item>
+        <item quantity="other">dienas</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Solis %1$d no %2$d</string>
+    <string name="forms_checkin_next_weekly">Tālāk nedēļas atzīmēšana ›</string>
+    <string name="forms_checkin_next_quarter">Tālāk 3 mēnešu pārskats ›</string>
+    <string name="forms_daily_title">Dienas atzīmēšana</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="zero">%1$d iepriekšējās dienas nav aizpildītas</item>
+        <item quantity="one">%1$d iepriekšējā diena nav aizpildīta</item>
+        <item quantity="other">%1$d iepriekšējās dienas nav aizpildītas</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Izlaist visas</string>
+    <string name="forms_daily_today">Šodien · %1$s</string>
+    <string name="forms_daily_skip">Izlaist</string>
+    <string name="forms_daily_undo_skip">Atsaukt</string>
+    <string name="forms_daily_new_tag">Jauns iemesls</string>
+    <string name="forms_daily_new_tag_hint">Miskaste bija pilna</string>
+    <string name="forms_weekly_title">Nedēļas atzīmēšana</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="zero">%1$d nedēļas nokavētas, viens jauns solis aptver tās visas.</item>
+        <item quantity="one">%1$d nedēļa nokavēta, viens jauns solis aptver tās visas.</item>
+        <item quantity="other">%1$d nedēļas nokavētas, viens jauns solis aptver tās visas.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Šonedēļ bez jauna soļa</string>
+    <string name="forms_quarter_title">3 mēnešu pārskats</string>
+    <string name="forms_quarter_nothing">Vēl nav nekā, ko pārskatīt. Tālāk tavs kopsavilkums.</string>
+    <string name="forms_quarter_habits">Ieradumi</string>
+    <string name="forms_quarter_swaps">Maiņas</string>
+    <string name="forms_quarter_avoid">Izvairīties</string>
+    <string name="forms_quarter_missed">Izlaists</string>
+    <string name="forms_quarter_missed_level">Izlaists: %1$s</string>
+
+    <string name="forms_new_title">Jauns solis</string>
+    <string name="forms_edit_title">Rediģēt: %1$s</string>
+    <string name="forms_add_kind">Pievienot: %1$s</string>
+    <string name="forms_title_habit">Ieradums</string>
+    <string name="forms_title_swap">Maiņa</string>
+    <string name="forms_title_avoid">Izvairīties</string>
+    <string name="forms_save_changes">Saglabāt izmaiņas</string>
+    <string name="forms_what_kind">Kāds veids?</string>
+    <string name="forms_name">Nosaukums</string>
+    <string name="forms_your_new_step">Tavs jaunais solis</string>
+    <string name="forms_hint_habit">Izlasīt 10 lappuses</string>
+    <string name="forms_hint_swap">Lufa, nevis sūklis</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Kāds ieradums?</string>
+    <string name="forms_timing_tip_title">Jebkurā laikā vai vakarā</string>
+    <string name="forms_timing_tip">Jebkurā laikā: kaut kas, ko dari vienreiz, piemēram, skrējiens. Atzīmē, tiklīdz tas izdarīts.\n\nVakarā: noteikums, ko ievēro visu dienu, piemēram, bez našķiem. To vari atzīmēt tikai vakarā.</string>
+    <string name="forms_anytime">Jebkurā laikā</string>
+    <string name="forms_end_of_day">Vakarā</string>
+    <string name="forms_what_is_it">Kas tas ir?</string>
+    <string name="forms_how_often">Cik bieži?</string>
+    <string name="forms_often_specific">Noteiktās dienās</string>
+    <string name="forms_often_whenever">Kad vien</string>
+    <string name="forms_often_once">Tikai vienreiz</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="zero">reizes katru</item>
+        <item quantity="one">reizi katru</item>
+        <item quantity="other">reizes katru</item>
+    </plurals>
+    <string name="forms_unit_day">dienu</string>
+    <string name="forms_unit_week">nedēļu</string>
+    <string name="forms_unit_month">mēnesi</string>
+    <string name="forms_unit_x_days">X dienas</string>
+    <string name="forms_ideas">Idejas</string>
+    <string name="forms_ideas_others">Citas</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="zero">Skatīt visas %1$d idejas ›</item>
+        <item quantity="one">Skatīt visu %1$d ideju ›</item>
+        <item quantity="other">Skatīt visas %1$d idejas ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Visas soļu idejas</string>
+    <string name="forms_search">Meklēt…</string>
+    <string name="forms_all">Visi</string>
+
+    <string name="forms_settings_title">Iestatījumi</string>
+    <string name="forms_set_colours">Krāsas</string>
+    <string name="forms_set_style">3 mēnešu kopsavilkuma stils</string>
+    <string name="forms_set_checkins">Atzīmēšana</string>
+    <string name="forms_set_checkin_hour">Dienas atzīmēšana atveras plkst.</string>
+    <string name="forms_set_checkin_hour_tip">No šī laika vari atzīmēt vakara ieradumus un veikt dienas atzīmēšanu.</string>
+    <string name="forms_set_week_start">Nedēļa sākas</string>
+    <string name="forms_set_week_start_tip">Ar kuru dienu sākas tavs Ieradumu režģis, nedēļas un grafiki.</string>
+    <string name="forms_monday">Pirmdiena</string>
+    <string name="forms_sunday">Svētdiena</string>
+    <string name="forms_set_new_step_every">Jauns solis ik pēc</string>
+    <string name="forms_set_new_step_every_tip">Cik nedēļu starp nedēļas atzīmēšanām.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="zero">nedēļām</item>
+        <item quantity="one">nedēļas</item>
+        <item quantity="other">nedēļām</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Nedēļas atzīmēšanas diena</string>
+    <string name="forms_set_weekly_day_tip">Šajā dienā pēc dienas atzīmēšanas tu izvēlies nākamās nedēļas jauno soli.</string>
+    <string name="forms_set_checkup">3 mēnešu pārskats</string>
+    <string name="forms_set_checkup_tip">Visi veic pārskatu vienās dienās: 1. janvārī, 1. aprīlī, 1. jūlijā un 1. oktobrī, lai varētu dalīties ar kopsavilkumiem kopā. Vari izvēlēties arī savu datumu.</string>
+    <string name="forms_set_same">Tāpat kā visiem</string>
+    <string name="forms_set_own">Mans datums</string>
+    <string name="forms_set_starting">Sākot no</string>
+    <string name="forms_set_starting_tip">Tava pirmā paša pārskata mēnesis.</string>
+    <string name="forms_earlier">Agrāk</string>
+    <string name="forms_later">Vēlāk</string>
+    <string name="forms_set_every_tip">Mēneši starp pārskatiem.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="zero">mēnešiem</item>
+        <item quantity="one">mēneša</item>
+        <item quantity="other">mēnešiem</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Mēneša diena</string>
+    <string name="forms_set_day_of_month_tip">Kurā šī mēneša dienā.</string>
+    <string name="forms_set_everyone">Visiem: 1. janv. · 1. apr. · 1. jūl. · 1. okt.</string>
+    <string name="forms_set_days_build">Dienas ieraduma veidošanai</string>
+    <string name="forms_set_days_build_tip">Pētījumos atrasts no 18 līdz 254 dienām, visbiežāk minēts 66 (Lally et al. 2010, Singh et al. 2024). Pēc tik daudzām dienām jaunais solis pāriet uz taviem pārskatiem.</string>
+    <string name="forms_set_nudge">Ikdienas atgādinājums</string>
+    <string name="forms_set_nudge_tip">Atgādinājums šajā laikā, tikai ja kaut kas vēl nav atzīmēts.</string>
+    <string name="forms_set_more">Vairāk</string>
+    <string name="forms_set_reasons">Paslīdējumu iemesli</string>
+    <string name="forms_set_tutorial">Skatīt ievadu vēlreiz</string>
+    <string name="forms_set_export">Eksportēt manus datus</string>
+    <string name="forms_set_import">Importēt datus</string>
+
+    <string name="forms_reasons_title">Paslīdējumu iemesli</string>
+    <string name="forms_reasons_hint">Pievieno savu iemeslu</string>
+    <string name="forms_reasons_used">izmantots %1$d×</string>
+    <string name="forms_reasons_delete_title">Dzēst %1$s?</string>
+    <string name="forms_reasons_delete_text">Paslīdējumi paliek tavā vēsturē, tikai bez šī iemesla.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="zero">%1$d ieradumi</item>
+        <item quantity="one">%1$d ieradums</item>
+        <item quantity="other">%1$d ieradumi</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="zero">%1$d maiņas</item>
+        <item quantity="one">%1$d maiņa</item>
+        <item quantity="other">%1$d maiņas</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="zero">%1$d izvairīšanās</item>
+        <item quantity="one">%1$d izvairīšanās</item>
+        <item quantity="other">%1$d izvairīšanās</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, atzīmes kopš %2$s</string>
+    <string name="forms_export_title">Eksportēt manus datus</string>
+    <string name="forms_export_what">Kas būs failā</string>
+    <string name="forms_export_ticks">Visas atzīmes, paslīdējumi un iemesli</string>
+    <string name="forms_export_ticks_since">Visas atzīmes, paslīdējumi un iemesli kopš %1$s</string>
+    <string name="forms_export_summaries">Tavi 3 mēnešu kopsavilkumi</string>
+    <string name="forms_export_settings">Tavi iestatījumi, krāsas un vārds</string>
+    <string name="forms_export_file">Fails</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Saglabāt failu</string>
+    <string name="forms_export_send">Sūtīt uz…</string>
+    <string name="forms_export_send_title">Sūtīt savus Alice datus</string>
+    <string name="forms_export_saved">Saglabāts: %1$s</string>
+    <string name="forms_export_save_failed">Neizdevās saglabāt failu</string>
+
+    <string name="forms_import_title">Importēt datus</string>
+    <string name="forms_import_choose">Izvēlies Alice dublējumu</string>
+    <string name="forms_import_choose_sub">.json, no eksporta citā tālrunī</string>
+    <string name="forms_import_cant_open">Neizdevās atvērt failu.</string>
+    <string name="forms_import_not_backup">Šis fails nav Alice dublējums.</string>
+    <string name="forms_import_replace_mode">Aizstāt esošos</string>
+    <string name="forms_import_add_mode">Pievienot esošajiem</string>
+    <string name="forms_import_button">Importēt</string>
+    <string name="forms_import_replace_title">Aizstāt tavus datus?</string>
+    <string name="forms_import_add_title">Pievienot šos datus?</string>
+    <string name="forms_import_replace_text">Viss šajā tālrunī tiks aizstāts ar faila saturu. Vispirms eksportē, ja gribi to saglabāt.</string>
+    <string name="forms_import_add_text">Faila ieradumi un vēsture tiks pievienoti taviem.</string>
+    <string name="forms_import_done">Dati importēti</string>
+
+    <string name="look_share">Dalīties</string>
+    <string name="look_save_image">Saglabāt attēlu</string>
+    <string name="look_next_week">Tālāk tava nedēļa ›</string>
+    <string name="look_keep_going">Turpināt</string>
+    <string name="look_storage_needed">Lai saglabātu attēlu, Alice vajag piekļuvi krātuvei</string>
+    <string name="look_share_caption">Mans ceturksnis ar Alice. Sāc savu: %1$s</string>
+    <string name="look_share_clip">Alice kopsavilkums</string>
+    <string name="look_share_chooser">Dalies ar savu ceturksni</string>
+    <string name="look_saved">Saglabāts mapē Pictures/Alice</string>
+    <string name="look_save_failed">Neizdevās saglabāt attēlu</string>
+
+    <string name="look_style_poster">Plakāts</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Trofeju skapis</string>
+    <string name="look_style_receipt">Čeks</string>
+    <string name="look_style_report">Liecība</string>
+    <string name="look_style_boarding">Iekāpšanas karte</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalendārs</string>
+    <string name="look_style_trading">Kolekcijas kartīte</string>
+
+    <string name="look_quote_1">Mazi soļi katru dienu</string>
+    <string name="look_quote_2">Paldies, ka biji klāt</string>
+    <string name="look_quote_3">Progress, nevis perfekcija</string>
+    <string name="look_quote_4">Tu turpināji. Tas ir svarīgi</string>
+    <string name="look_quote_5">Mazas izmaiņas, liela atšķirība</string>
+    <string name="look_quote_6">Katru dienu tu izvēlējies labāk</string>
+    <string name="look_quote_7">Lēni arī ir uz priekšu</string>
+    <string name="look_quote_8">Tu veido dzīvi, kas tev patīk</string>
+    <string name="look_quote_9">Solis pa solim sakrājas daudz</string>
+    <string name="look_quote_10">Turpini būt klāt sev</string>
+    <string name="look_quote_11">Nākotnes tu saka paldies</string>
+    <string name="look_quote_12">Pamazām sanāk daudz</string>
+    <string name="look_quote_13">Neatlaidība ir klusa maģija</string>
+    <string name="look_quote_14">Paskaties, cik tālu tu tiki</string>
+    <string name="look_quote_15">Lepojies ar mazajām uzvarām</string>
+    <string name="look_quote_16">Labas dienas veido, tās neatrod</string>
+
+    <string name="look_stamp_1">IZCILI</string>
+    <string name="look_stamp_2">LIELISKI</string>
+    <string name="look_stamp_3">LABI PADARĪTS</string>
+    <string name="look_stamp_4">SPOŽI</string>
+    <string name="look_stamp_5">SUPER</string>
+    <string name="look_stamp_6">AUGSTĀKĀ ATZĪME</string>
+    <string name="look_stamp_7">ZELTA ZVAIGZNE</string>
+    <string name="look_stamp_8">LABS DARBS</string>
+
+    <string name="look_period">%1$s līdz %2$s</string>
+    <string name="look_scan">NOSKENĒ UN\nSĀC SAVU\nCEĻOJUMU</string>
+    <string name="look_you">Tu</string>
+    <string name="look_on_track">uz pareizā ceļa</string>
+    <string name="look_new_steps">jauni soļi</string>
+    <string name="look_days_in">dienas atzīmētas</string>
+    <string name="look_new">jauni</string>
+    <string name="look_week_by_week">Nedēļu pa nedēļai</string>
+    <string name="look_coming_soon">Drīzumā</string>
+    <string name="look_new_this_quarter">Jauns šajā ceturksnī</string>
+    <string name="look_kept_up_longest">Noturēts visilgāk</string>
+    <string name="look_habits">Ieradumi</string>
+    <string name="look_swaps">Maiņas</string>
+    <string name="look_avoids">Izvairīšanās</string>
+    <string name="look_ways_improved">Uzlabojumi</string>
+    <string name="look_improved_in">Tu uzlaboji savu dzīvi %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="zero">%1$d ieradumi</item>
+        <item quantity="one">%1$d ieradums</item>
+        <item quantity="other">%1$d ieradumi</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="zero">%1$d maiņas</item>
+        <item quantity="one">%1$d maiņa</item>
+        <item quantity="other">%1$d maiņas</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="zero">%1$d izvairīšanās</item>
+        <item quantity="one">%1$d izvairīšanās</item>
+        <item quantity="other">%1$d izvairīšanās</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="zero">%1$d paslīdējumi</item>
+        <item quantity="one">%1$d paslīdējums</item>
+        <item quantity="other">%1$d paslīdējumi</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="zero">%1$d veidos</item>
+        <item quantity="one">%1$d veidā</item>
+        <item quantity="other">%1$d veidos</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="zero">ieradumi</item>
+        <item quantity="one">ieradums</item>
+        <item quantity="other">ieradumi</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="zero">maiņas</item>
+        <item quantity="one">maiņa</item>
+        <item quantity="other">maiņas</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="zero">izvairīšanās</item>
+        <item quantity="one">izvairīšanās</item>
+        <item quantity="other">izvairīšanās</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="zero">paslīdējumi</item>
+        <item quantity="one">paslīdējums</item>
+        <item quantity="other">paslīdējumi</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="zero">veidi</item>
+        <item quantity="one">veids</item>
+        <item quantity="other">veidi</item>
+    </plurals>
+
+    <string name="look_poster_improved">Tu uzlaboji savu dzīvi %1$s</string>
+    <string name="look_poster_on_track">UZ PAREIZĀ CEĻA</string>
+    <string name="look_poster_days">dienas</string>
+    <string name="look_poster_achievements">Sasniegumi</string>
+    <string name="look_poster_first_ones">Pirmie jau nāk</string>
+    <string name="look_poster_added">Ko pievienoji šajā ceturksnī</string>
+
+    <string name="look_wrapped_stars">Tavas zvaigznes</string>
+
+    <string name="look_trophy_ways">veidi, kā uzlaboji\nsavu dzīvi</string>
+    <string name="look_trophy_next_quarter">Nākamais ceturksnis</string>
+    <string name="look_trophy_first_medal">tava pirmā medaļa</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Jauns plauktā:</string>
+
+    <string name="look_receipt_title">3 mēnešu pārskats · %1$s</string>
+    <string name="look_receipt_customer">Klients: %1$s</string>
+    <string name="look_receipt_habits">Izveidoti ieradumi</string>
+    <string name="look_receipt_swaps">Nomainītas lietas</string>
+    <string name="look_receipt_avoids">Lietas, no kurām izvairījies</string>
+    <string name="look_receipt_ways">Veidi, kā uzlaboji savu dzīvi</string>
+    <string name="look_receipt_on_track">Uz pareizā ceļa šajā ceturksnī</string>
+    <string name="look_receipt_slips">Paslīdējumi</string>
+    <string name="look_receipt_new_steps">Jauni soļi</string>
+    <string name="look_receipt_new">Jauns šajā ceturksnī: %1$s</string>
+
+    <string name="look_report_title">Mazo soļu liecība</string>
+    <string name="look_report_pupil">%1$s · Skolēns: %2$s</string>
+    <string name="look_report_subject">PRIEKŠMETS</string>
+    <string name="look_report_built">IZVEIDOTS</string>
+    <string name="look_report_grade">ATZĪME</string>
+    <string name="look_report_attendance">Apmeklējums %1$s</string>
+    <string name="look_report_on_track">Uz pareizā ceļa %1$s</string>
+    <string name="look_report_slips">Paslīdējumi %1$s</string>
+    <string name="look_report_achievements">SASNIEGUMI</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">JAUNI PRIEKŠMETI ŠAJĀ SEMESTRĪ (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Skolotāja komentārs:</string>
+    <string name="look_report_calm">Mierīgs, vienmērīgs semestris.</string>
+    <string name="look_report_ups_downs">Semestris ar kāpumiem un kritumiem, un tu turējies.</string>
+    <string name="look_report_star">%1$s ir bijis izcils. Tā turpināt!</string>
+    <string name="look_report_keep_up">Tā turpināt!</string>
+    <string name="look_report_week">NEDĒĻU PA NEDĒĻAI</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Reiss Q%1$d</string>
+    <string name="look_boarding_from">NO</string>
+    <string name="look_boarding_old">VECIE</string>
+    <string name="look_boarding_habits">ieradumi</string>
+    <string name="look_boarding_to">UZ</string>
+    <string name="look_boarding_new">JAUNAIS</string>
+    <string name="look_boarding_better_you">labākā versija</string>
+    <string name="look_boarding_passenger">Pasažieris</string>
+    <string name="look_boarding_dates">Datumi</string>
+    <string name="look_boarding_miles">Nolidotās jūdzes</string>
+    <string name="look_boarding_on_time">Laikā</string>
+    <string name="look_boarding_turbulence">Turbulence</string>
+    <string name="look_boarding_days">Dienas uz klāja</string>
+    <string name="look_boarding_flyer">PASTĀVĪGAIS LIDOTĀJS, TAVI ILGĀKIE CEĻABIEDRI</string>
+    <string name="look_boarding_log">LIDOJUMU ŽURNĀLS, NEDĒĻU PA NEDĒĻAI</string>
+    <string name="look_boarding_stops">JAUNAS PIETURAS, +%1$d</string>
+    <string name="look_boarding_note">KAPTEIŅA PIEZĪME</string>
+
+    <string name="look_polaroid_life">TAVA DZĪVE</string>
+    <string name="look_polaroid_quarter">ŠAJĀ CETURKSNĪ</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d dienas atzīmētas</string>
+    <string name="look_polaroid_longest">NOTURĒTS VISILGĀK</string>
+    <string name="look_polaroid_new">JAUNI, +%1$d</string>
+
+    <string name="look_calendar_added">Pievienots</string>
+
+    <string name="look_trading_common">Parasta</string>
+    <string name="look_trading_uncommon">Neparasta</string>
+    <string name="look_trading_rare">Reta</string>
+    <string name="look_trading_legendary">Leģendāra</string>
+    <plurals name="look_trading_ways">
+        <item quantity="zero">VEIDI</item>
+        <item quantity="one">VEIDS</item>
+        <item quantity="other">VEIDI</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">Nr. %1$03d · tavs %2$s ceturksnis</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d dienas</string>
+    <string name="look_trading_power">Spēks, nedēļu pa nedēļai</string>
+    <string name="look_trading_edition">%1$s · Q%2$d izdevums</string>
+
+    <string name="look_sample_water_first">Vispirms ūdens</string>
+    <string name="look_sample_own_bag">Sava soma</string>
+    <string name="look_sample_read_pages">Izlasīt 10 lappuses</string>
+    <string name="look_sample_reading">Lasīšana katru dienu</string>
+    <string name="look_sample_late_snacks">Bez vēlām uzkodām</string>
+    <string name="look_sample_stretching">Stiepšanās</string>
+    <string name="look_sample_cooler_home">Vēsākas mājas</string>
+    <string name="look_sample_loofah">Lufa, nevis sūklis</string>
+    <string name="look_sample_palm_oil">Bez palmu eļļas</string>
+    <string name="look_sample_stretch">Stiepties 10 min</string>
+
+    <string name="look_colours_title">Krāsas</string>
+    <string name="look_colours_preview">Priekšskatījums</string>
+    <string name="look_colours_your_summary">Tavs 3 mēnešu kopsavilkums</string>
+    <string name="look_colours_light">Gaišs</string>
+    <string name="look_colours_dark">Tumšs</string>
+    <string name="look_styles_title">3 mēnešu kopsavilkuma stils</string>
+    <string name="look_styles_all_pictures">Skatīt visus 30 polaroīda attēlus</string>
+    <string name="look_styles_refresh">Atsvaidzināt</string>
+    <string name="look_pictures_title">Polaroīda attēli</string>
+    <string name="look_pictures_back">Kopsavilkuma stili</string>
+
+    <string name="look_welcome_name">Tavs vārds</string>
+    <string name="look_welcome_start">Sākt</string>
+    <string name="look_welcome_import">Importēt manus datus</string>
+
+    <string name="look_tut_skip">Izlaist</string>
+    <string name="look_tut_page">%1$d NO %2$d</string>
+    <string name="look_tut_back">Atpakaļ</string>
+    <string name="look_tut_start">Sākt</string>
+    <string name="look_tut_next">Tālāk</string>
+    <string name="look_tut1_title">Kļūsti par labāku sevi, solīti pa solītim</string>
+    <string name="look_tut1_body">Veido jaunus ieradumus, izdari laipnākas izvēles un vēro, kā viss sasniegtais sakrājas.</string>
+    <string name="look_tut1_habits">Veido labus ieradumus dienu no dienas un kļūsti par to, kas gribi būt.</string>
+    <string name="look_tut1_swaps">Nomaini produktus pret laipnākiem, labākiem planētai, cilvēkiem vai tavai veselībai.</string>
+    <string name="look_tut1_avoids">Seko līdzi uzņēmumiem, ēdieniem un produktiem, kurus labāk neatbalstītu.</string>
+    <string name="look_tut2_title">Atzīmē</string>
+    <string name="look_tut2_body">Pieskaries rūtiņai, kad ieradums ir izdarīts. Vakara ieradumi atbloķējas tavā atzīmēšanas laikā.</string>
+    <string name="look_tut3_title">%1$s, pēc tam ik pēc %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="zero">%1$d dienas</item>
+        <item quantity="one">%1$d diena</item>
+        <item quantity="other">%1$d dienas</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="zero">%1$d mēnešiem</item>
+        <item quantity="one">%1$d mēneša</item>
+        <item quantity="other">%1$d mēnešiem</item>
+    </plurals>
+    <string name="look_tut3_body">Pētījumi rāda, ka ieraduma izveidošanai vajag no 18 līdz 254 dienām. Visbiežāk minētais skaitlis ir 66 dienas, tāpēc Alice sāk ar to.</string>
+    <string name="look_tut3_days_label">Dienas ieraduma veidošanai</string>
+    <string name="look_tut3_checkup">Pārskats ik pēc</string>
+    <string name="look_tut3_small">Abus vari mainīt Iestatījumos.</string>
+    <string name="look_tut4_title">Reizi nedēļā viens jauns solis</string>
+    <string name="look_tut4_body">Pievienojot pa vienam jaunam solim, tu vari augt mierīgi, neuzņemoties par daudz uzreiz.</string>
+    <string name="look_tut4_day">Atzīmēšanas diena</string>
+    <string name="look_tut4_small">Arī to vari mainīt Iestatījumos.</string>
+    <string name="look_tut5_title">Katru ceturksni tavs kopsavilkums</string>
+    <string name="look_tut5_body">Parādi draugiem un tuvajiem, cik tālu tu tiki. Pieskaries stilam, kas tev patīk:</string>
+    <string name="look_tut_change_mind">Tu vienmēr vari pārdomāt.</string>
+    <string name="look_tut6_title">Padari to par savu</string>
+    <string name="look_tut6_body">Izvēlies krāsas, kas šķiet patīkamākās. Visa lietotne mainās uzreiz.</string>
+    <string name="look_tut7_title">Maini jebko, jebkurā laikā</string>
+    <string name="look_tut7_body">Atzīmēšanas laiki, dienas ieraduma veidošanai, kopsavilkuma stils, krāsas un tavi dati ir Iestatījumos.</string>
+    <string name="look_tut7_gear">Lai atvērtu Iestatījumus, pieskaries zobratam Ieradumu augšā.</string>
+    <string name="look_tut7_open">Atvērt Iestatījumus</string>
+
+    <string name="lang_title">Valoda</string>
+    <string name="pron_title">Uzruna</string>
+    <string name="pron_she">sieviete</string>
+    <string name="pron_he">vīrietis</string>
+    <string name="pron_they">neitrāli</string>
+    <string name="lang_spotted">Pamanīji kļūdu savā valodā?</string>
+    <string name="lang_search">Meklē savu valodu</string>
+    <string name="lang_phone">Tālruņa valoda</string>
+    <string name="lang_follow">Kā tālrunī</string>
+    <string name="lang_note_title">Palīdzi ar tulkojumiem</string>
+    <string name="lang_note_1">Sveiki, es esmu Lucy, un es izveidoju Alice.</string>
+    <string name="lang_note_2">Es runāju angliski, slovakiski, čehiski un krieviski, tāpēc šos tulkojumus pārbaudīju pati. Pārējās valodas vēl nav pārbaudījis dzimtās valodas runātājs.</string>
+    <string name="lang_note_3">Ja pamani kļūdu savā valodā, lūdzu, pastāsti man, lai varu to izlabot. Un ja esi kādu laiku lietojis Alice savā valodā un viss izklausās pareizi, pastāsti arī to, lai varu atzīmēt to kā apstiprinātu.</string>
+    <string name="lang_note_4">Paldies!</string>
+    <string name="lang_not_approved">VĒL NAV APSTIPRINĀTS</string>
+    <string name="lang_report">Ziņot par kļūdu</string>
+    <string name="lang_all_correct">Mana valoda ir pilnīgi pareiza</string>
+    <string name="lang_mail_mistake_body">Kas izklausās nepareizi un kurā ekrānā:\n\n</string>
+    <string name="lang_mail_correct_body">Esmu kādu laiku lietojis Alice savā valodā, un viss izklausās pareizi.\n\n</string>
+    <string name="lang_no_mail">Nav atrasta e-pasta lietotne</string>
+
+    <!-- pronoun variants for android below 14, same as values-lv-feminine and -masculine -->
+    <string name="look_poster_improved__feminine" translatable="false">Tu esi uzlabojusi savu dzīvi %1$s</string>
+    <string name="look_poster_improved__masculine" translatable="false">Tu esi uzlabojis savu dzīvi %1$s</string>
+    <string name="look_quote_14__feminine" translatable="false">Paskaties, cik tālu esi tikusi</string>
+    <string name="look_quote_14__masculine" translatable="false">Paskaties, cik tālu esi ticis</string>
+    <string name="look_tut5_body__feminine" translatable="false">Parādi draugiem un tuvajiem, cik tālu esi tikusi. Pieskaries stilam, kas tev patīk:</string>
+    <string name="look_tut5_body__masculine" translatable="false">Parādi draugiem un tuvajiem, cik tālu esi ticis. Pieskaries stilam, kas tev patīk:</string>
+    <string name="look_tut2_body__feminine" translatable="false">Pieskaries rūtiņai, kad esi izdarījusi ieradumu. Vakara ieradumi atbloķējas tavā atzīmēšanas laikā.</string>
+    <string name="look_tut2_body__masculine" translatable="false">Pieskaries rūtiņai, kad esi izdarījis ieradumu. Vakara ieradumi atbloķējas tavā atzīmēšanas laikā.</string>
+    <string name="look_boarding_better_you__feminine" translatable="false">labākā tu</string>
+    <string name="look_boarding_better_you__masculine" translatable="false">labākais tu</string>
+    <string name="core_reason_too_tired__feminine" translatable="false">Pārāk nogurusi</string>
+    <string name="core_reason_too_tired__masculine" translatable="false">Pārāk noguris</string>
+    <!-- end pronoun variants -->
+</resources>

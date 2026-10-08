@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Únava</string>
+    <string name="core_reason_craving">Chuť</string>
+    <string name="core_reason_no_time">Málo času</string>
+    <string name="core_reason_forgot">Vypadlo mi to</string>
+    <string name="core_reason_no_alternative">Bez alternativy</string>
+    <string name="core_reason_social">Společnost</string>
+    <string name="core_reason_impulse">Impulz</string>
+    <string name="core_reason_too_expensive">Moc drahé</string>
+    <string name="core_reason_away">Mimo domov</string>
+
+    <string name="core_nudge_channel">Denní připomínka</string>
+    <string name="core_nudge_title">Dnes ještě zbývá odškrtnout</string>
+    <string name="core_save_failed">Nepodařilo se to uložit, zkus to znovu</string>
+
+    <string name="core_kind_habit">Zvyk</string>
+    <string name="core_kind_swap">Změna</string>
+    <string name="core_kind_avoid">Bojkot</string>
+    <string name="core_about">Info: %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Méně</string>
+    <string name="core_more">Více</string>
+    <string name="core_cancel">Zrušit</string>
+    <string name="core_settings">Nastavení</string>
+    <string name="core_span_week">Týden</string>
+    <string name="core_span_month">Měsíc</string>
+    <string name="core_span_year">Rok</string>
+    <string name="core_span_all">Celkem</string>
+    <string name="core_tab_habits">Zvyky</string>
+    <string name="core_tab_changes">Změny</string>
+    <string name="core_tab_avoid">Bojkot</string>
+    <string name="core_tab_insights">Přehled</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">splněno</string>
+    <string name="core_cell_missed">vynecháno</string>
+    <string name="core_cell_partial">částečně, zatím %1$d</string>
+    <string name="core_cell_unfilled">ještě nevyplněno</string>
+    <string name="core_cell_open">zbývá udělat</string>
+    <string name="core_cell_locked">zamčeno do času zápisu</string>
+    <string name="core_cell_future">ještě ne</string>
+    <string name="core_cell_empty">nic není potřeba</string>
+    <string name="core_cell_band">za toto období hotovo</string>
+    <string name="core_cell_off">v tento den se krok nedělá</string>
+    <string name="core_cell_none">před začátkem tohoto kroku</string>
+
+    <string name="core_rhythm_one_off">Jednorázově</string>
+    <string name="core_rhythm_end_of_day">Každý den, odškrtává se večer</string>
+    <string name="core_rhythm_every_day">Každý den</string>
+    <string name="core_rhythm_every_days">Každý týden: %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">za týden</string>
+    <string name="core_rhythm_a_month">za měsíc</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, kterýkoli den</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s a %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d měs.</string>
+    <string name="core_achievement_short_days">%1$d d</string>
+    <string name="core_glance_step">%1$s, %2$d z %3$d</string>
+
+    <string name="core_slip_never">Nikdy</string>
+    <string name="core_slip_once">Jednou</string>
+    <string name="core_slip_a_few">Párkrát</string>
+    <string name="core_slip_half">Polovinu</string>
+    <string name="core_slip_most">Většinou</string>
+    <string name="core_slip_always">Vždy</string>
+
+    <string name="core_ideas_habit_anytime">Zvyky, kdykoli</string>
+    <string name="core_ideas_habit_end">Zvyky, na konci dne</string>
+    <string name="core_ideas_swap">Změny</string>
+    <string name="core_ideas_avoid_product">Bojkot, výrobky</string>
+    <string name="core_ideas_avoid_company">Bojkot, firmy</string>
+    <string name="core_ideas_avoid_food">Bojkot, jídlo</string>
+
+    <string name="core_tag_ethical">Etika</string>
+    <string name="core_tag_health">Zdraví</string>
+    <string name="core_tag_clutter">Nepořádek</string>
+    <string name="core_tag_ecological">Ekologie</string>
+    <string name="core_tag_animal_welfare">Ochrana zvířat</string>
+    <string name="core_tag_workers_rights">Práva pracujících</string>
+    <string name="core_tag_plastic">Plasty</string>
+    <string name="core_tag_palm_oil">Palmový olej</string>
+    <string name="core_tag_deforestation">Odlesňování</string>
+    <string name="core_category_company">Firma</string>
+    <string name="core_category_food">Jídlo</string>
+    <string name="core_category_product">Výrobek</string>
+    <string name="core_verdict_avoid">BOJKOT</string>
+    <string name="core_verdict_edge">NA HRANĚ</string>
+    <string name="core_verdict_fine">V POŘÁDKU</string>
+
+    <string name="core_theme_off_white_honey">Smetana a med</string>
+    <string name="core_theme_vanilla_caramel">Vanilka a karamel</string>
+    <string name="core_theme_sunflower">Slunečnice</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao a citron</string>
+    <string name="core_theme_espresso_butter">Espresso a máslo</string>
+    <string name="core_theme_midnight_honey">Půlnoc a med</string>
+    <string name="core_theme_forest_night">Lesní noc</string>
+    <string name="core_theme_plum_dusk">Švestkový soumrak</string>
+    <string name="core_theme_charcoal_coral">Antracit a korál</string>
+
+    <string name="core_pic_sunny_meadow">Slunná louka</string>
+    <string name="core_pic_sunset_hills">Kopce při západu slunce</string>
+    <string name="core_pic_starry_night">Hvězdná noc</string>
+    <string name="core_pic_beach_day">Den na pláži</string>
+    <string name="core_pic_mountain_lake">Horské jezero</string>
+    <string name="core_pic_snowy_village">Zasněžená vesnička</string>
+    <string name="core_pic_rainy_garden">Zahrada v dešti</string>
+    <string name="core_pic_autumn_forest">Podzimní les</string>
+    <string name="core_pic_cherry_blossom">Kvetoucí třešeň</string>
+    <string name="core_pic_desert_cactus">Kaktus v poušti</string>
+    <string name="core_pic_lighthouse">Maják</string>
+    <string name="core_pic_rainbow_field">Duha nad polem</string>
+    <string name="core_pic_hot_air_balloon">Horkovzdušný balón</string>
+    <string name="core_pic_sailboat">Plachetnice</string>
+    <string name="core_pic_cabin_in_the_woods">Chata v lese</string>
+    <string name="core_pic_tulip_field">Tulipánové pole</string>
+    <string name="core_pic_campfire_night">Večer u ohně</string>
+    <string name="core_pic_misty_mountains">Hory v mlze</string>
+    <string name="core_pic_sunrise_sea">Východ slunce nad mořem</string>
+    <string name="core_pic_snowy_pines">Zasněžené borovice</string>
+    <string name="core_pic_lavender_field">Levandulové pole</string>
+    <string name="core_pic_waterfall">Vodopád</string>
+    <string name="core_pic_city_at_dusk">Město za soumraku</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Měsíc nad jezerem</string>
+    <string name="core_pic_palm_island">Ostrov s palmami</string>
+    <string name="core_pic_windmill">Větrný mlýn</string>
+    <string name="core_pic_bike_path">Cyklostezka</string>
+    <string name="core_pic_greenhouse">Skleník</string>
+    <string name="core_pic_northern_lights">Polární záře</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">Čeká na tebe %d krok.</item>
+        <item quantity="few">Čekají na tebe %d kroky.</item>
+        <item quantity="many">Čeká na tebe %d kroku.</item>
+        <item quantity="other">Čeká na tebe %d kroků.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">splněno, %dkrát</item>
+        <item quantity="few">splněno, %dkrát</item>
+        <item quantity="many">splněno, %dkrát</item>
+        <item quantity="other">splněno, %dkrát</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%dkrát denně</item>
+        <item quantity="few">%dkrát denně</item>
+        <item quantity="many">%dkrát denně</item>
+        <item quantity="other">%dkrát denně</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Jednou</item>
+        <item quantity="few">%dkrát</item>
+        <item quantity="many">%dkrát</item>
+        <item quantity="other">%dkrát</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">za %d týden</item>
+        <item quantity="few">za %d týdny</item>
+        <item quantity="many">za %d týdne</item>
+        <item quantity="other">za %d týdnů</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">za %d měsíc</item>
+        <item quantity="few">za %d měsíce</item>
+        <item quantity="many">za %d měsíce</item>
+        <item quantity="other">za %d měsíců</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">za %d den</item>
+        <item quantity="few">za %d dny</item>
+        <item quantity="many">za %d dne</item>
+        <item quantity="other">za %d dní</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d měsíc bez vynechání</item>
+        <item quantity="few">%d měsíce bez vynechání</item>
+        <item quantity="many">%d měsíce bez vynechání</item>
+        <item quantity="other">%d měsíců bez vynechání</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">drží se %d měsíc</item>
+        <item quantity="few">drží se %d měsíce</item>
+        <item quantity="many">drží se %d měsíce</item>
+        <item quantity="other">drží se %d měsíců</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d den v řadě</item>
+        <item quantity="few">%d dny v řadě</item>
+        <item quantity="many">%d dne v řadě</item>
+        <item quantity="other">%d dní v řadě</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d měsíc</item>
+        <item quantity="few">%d měsíce</item>
+        <item quantity="many">%d měsíce</item>
+        <item quantity="other">%d měsíců</item>
+    </plurals>
+
+    <string name="tabs_new_step">Nový krok</string>
+    <string name="tabs_edit">Upravit</string>
+    <string name="tabs_delete">Smazat</string>
+    <string name="tabs_done">Hotovo</string>
+    <string name="tabs_back">Zpět</string>
+    <string name="tabs_earlier">Dřív</string>
+    <string name="tabs_later">Později</string>
+    <string name="tabs_delete_title">Smazat %1$s?</string>
+    <string name="tabs_eod_unlock">Zvyky na konci dne se odemknou v %1$02d:00</string>
+    <string name="tabs_check_up">Kontrola</string>
+    <string name="tabs_one_off">Jednorázovka</string>
+
+    <string name="tabs_checkin_from">Zápis od %1$02d:00</string>
+    <string name="tabs_checkin_daily">Denní zápis</string>
+    <string name="tabs_checkin_weekly">Týdenní zápis</string>
+    <string name="tabs_checkin_quarter">Tříměsíční kontrola</string>
+    <string name="tabs_checked_in">Zapsáno</string>
+    <string name="tabs_quarter_section">TŘÍMĚSÍČNÍ KONTROLA</string>
+    <string name="tabs_previous_week">Předchozí týden</string>
+    <string name="tabs_next_week">Další týden</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%2$s: %1$d den!</item>
+        <item quantity="few">%2$s: %1$d dny!</item>
+        <item quantity="many">%2$s: %1$d dne!</item>
+        <item quantity="other">%2$s: %1$d dní!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Skvělá práce. Odteď se přesouvá do tříměsíčních kontrol, už žádné denní odškrtávání.</string>
+    <string name="tabs_celebrate_first">První bude %1$s.</string>
+    <string name="tabs_glance_title">Tvůj týden</string>
+    <string name="tabs_glance_ticks_kept">Splněná odškrtnutí</string>
+    <string name="tabs_glance_days_checked_in">Dny se zápisem</string>
+    <string name="tabs_glance_top_tag">Nejčastější důvod přešlapu:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$dkrát</item>
+        <item quantity="few">%1$s, %2$dkrát</item>
+        <item quantity="many">%1$s, %2$dkrát</item>
+        <item quantity="other">%1$s, %2$dkrát</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Nejsnazší:</string>
+    <string name="tabs_glance_hardest">Nejtěžší:</string>
+
+    <string name="tabs_changes_ongoing">Průběžné změny</string>
+    <string name="tabs_changes_ongoing_tip_title">Průběžná změna</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Před stejnou volbou budeš stát znovu, třeba u kelímku na kávu nebo tuhého šamponu. %1$d den se odškrtává ve Zvycích, pak se kontroluje jednou za 3 měsíce.</item>
+        <item quantity="few">Před stejnou volbou budeš stát znovu, třeba u kelímku na kávu nebo tuhého šamponu. %1$d dny se odškrtává ve Zvycích, pak se kontroluje jednou za 3 měsíce.</item>
+        <item quantity="many">Před stejnou volbou budeš stát znovu, třeba u kelímku na kávu nebo tuhého šamponu. %1$d dne se odškrtává ve Zvycích, pak se kontroluje jednou za 3 měsíce.</item>
+        <item quantity="other">Před stejnou volbou budeš stát znovu, třeba u kelímku na kávu nebo tuhého šamponu. %1$d dní se odškrtává ve Zvycích, pak se kontroluje jednou za 3 měsíce.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Zatím žádné změny</string>
+    <string name="tabs_changes_day_badge">DEN %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">DRŽÍ SE</string>
+    <string name="tabs_changes_one_off_todo">Jednorázovky, zbývá udělat</string>
+    <string name="tabs_changes_one_off_tip">Uděláš to jednou a máš hotovo, třeba uklidíš šuplík, přejdeš na zelenou elektřinu nebo zašiješ bundu. Odškrtni to a přesune se to mezi Dokončené.</string>
+    <string name="tabs_changes_nothing_waiting">Nic nečeká</string>
+    <string name="tabs_changes_finished">DOKONČENO · %1$d</string>
+
+    <string name="tabs_avoid_title">Seznam bojkotů</string>
+    <string name="tabs_avoid_search">Hledat…</string>
+    <string name="tabs_avoid_no_match">Nic se nenašlo</string>
+    <string name="tabs_avoid_companies">Firmy</string>
+    <string name="tabs_avoid_food">Jídlo</string>
+    <string name="tabs_avoid_products">Výrobky</string>
+
+    <string name="tabs_avoid_added">Přidáno</string>
+    <string name="tabs_avoid_why">Proč to bojkotuješ</string>
+    <string name="tabs_avoid_own_words">Vlastními slovy</string>
+    <string name="tabs_avoid_brands">Značky, které vlastní · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Jedna značka na řádek</string>
+    <string name="tabs_avoid_more_brands">+%1$d navíc</string>
+    <string name="tabs_avoid_instead">Místo toho si dej</string>
+    <string name="tabs_avoid_instead_hint">Jedno na řádek</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">přešlap</item>
+        <item quantity="few">přešlapy</item>
+        <item quantity="many">přešlapu</item>
+        <item quantity="other">přešlapů</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">bez přešlapu</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">měsíc na seznamu</item>
+        <item quantity="few">měsíce na seznamu</item>
+        <item quantity="many">měsíce na seznamu</item>
+        <item quantity="other">měsíců na seznamu</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Zmizí ze seznamu bojkotů i s celou historií.</string>
+
+    <string name="tabs_habit_delete_text">Smaže se i celá jeho historie.</string>
+    <string name="tabs_habit_created">Vytvořeno</string>
+    <string name="tabs_habit_to_do">Zbývá udělat</string>
+    <string name="tabs_habit_daily_ticks">Denní odškrtnutí</string>
+    <string name="tabs_habit_day_of">Den %1$d z %2$d</string>
+    <string name="tabs_habit_finished">Dokončeno</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">den od začátku</item>
+        <item quantity="few">dny od začátku</item>
+        <item quantity="many">dne od začátku</item>
+        <item quantity="other">dní od začátku</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">přerušení</item>
+        <item quantity="few">přerušení</item>
+        <item quantity="many">přerušení</item>
+        <item quantity="other">přerušení</item>
+    </plurals>
+    <string name="tabs_habit_success">úspěšnost</string>
+    <string name="tabs_habit_current_streak">Aktuální série</string>
+    <string name="tabs_habit_longest_streak">Nejdelší série</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d den</item>
+        <item quantity="few">%1$d dny</item>
+        <item quantity="many">%1$d dne</item>
+        <item quantity="other">%1$d dní</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Proč to nevyšlo</string>
+    <string name="tabs_habit_remove_reason">Odebrat tento důvod</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">způsob, jak si zlepšuješ život</item>
+        <item quantity="few">způsoby, jak si zlepšuješ život</item>
+        <item quantity="many">způsobu, jak si zlepšuješ život</item>
+        <item quantity="other">způsobů, jak si zlepšuješ život</item>
+    </plurals>
+    <string name="tabs_insights_habits">Zvyky</string>
+    <string name="tabs_insights_swaps">Změny</string>
+    <string name="tabs_insights_avoids">Bojkoty</string>
+    <string name="tabs_insights_on_track_section">Podle plánu</string>
+    <string name="tabs_insights_avg_days">%1$d d</string>
+    <string name="tabs_insights_average_kept">průměrně vydrží</string>
+    <string name="tabs_insights_days_checked_in">dní se zápisem</string>
+    <string name="tabs_insights_on_track">podle plánu</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">přešlap</item>
+        <item quantity="few">přešlapy</item>
+        <item quantity="many">přešlapu</item>
+        <item quantity="other">přešlapů</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">nový krok</item>
+        <item quantity="few">nové kroky</item>
+        <item quantity="many">nového kroku</item>
+        <item quantity="other">nových kroků</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">hotová jednorázovka</item>
+        <item quantity="few">hotové jednorázovky</item>
+        <item quantity="many">hotové jednorázovky</item>
+        <item quantity="other">hotových jednorázovek</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Nejčastější důvody přešlapů</string>
+    <string name="tabs_insights_added_quarter">Přidáno toto čtvrtletí</string>
+    <string name="tabs_insights_past_summaries">Předchozí tříměsíční shrnutí</string>
+    <string name="tabs_insights_first_on">První tě čeká %1$s</string>
+    <string name="tabs_insights_all_time">Celkem</string>
+    <string name="tabs_insights_period">%1$s až %2$s %3$d</string>
+
+    <string name="forms_back">Zpět</string>
+    <string name="forms_back_habits">Zvyky</string>
+    <string name="forms_back_settings">Nastavení</string>
+    <string name="forms_add">Přidat</string>
+    <string name="forms_save">Uložit</string>
+    <string name="forms_finish">Dokončit</string>
+    <string name="forms_delete">Smazat</string>
+    <string name="forms_why">Proč</string>
+    <string name="forms_never_show">Už nezobrazovat</string>
+    <string name="forms_every">Interval</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">den</item>
+        <item quantity="few">dny</item>
+        <item quantity="many">dne</item>
+        <item quantity="other">dní</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Část %1$d z %2$d</string>
+    <string name="forms_checkin_next_weekly">Dál týdenní zápis ›</string>
+    <string name="forms_checkin_next_quarter">Dál tříměsíční kontrola ›</string>
+    <string name="forms_daily_title">Denní zápis</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d dřívější den je nevyplněný</item>
+        <item quantity="few">%1$d dřívější dny jsou nevyplněné</item>
+        <item quantity="many">%1$d dřívějšího dne je nevyplněno</item>
+        <item quantity="other">%1$d dřívějších dní je nevyplněno</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Přeskočit vše</string>
+    <string name="forms_daily_today">Dnes · %1$s</string>
+    <string name="forms_daily_skip">Přeskočit</string>
+    <string name="forms_daily_undo_skip">Zrušit přeskočení</string>
+    <string name="forms_daily_new_tag">Nový důvod</string>
+    <string name="forms_daily_new_tag_hint">Koš byl plný</string>
+    <string name="forms_weekly_title">Týdenní zápis</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d týden chybí, jeden nový krok ho pokryje.</item>
+        <item quantity="few">%1$d týdny chybí, jeden nový krok pokryje všechny.</item>
+        <item quantity="many">%1$d týdne chybí, jeden nový krok pokryje všechny.</item>
+        <item quantity="other">%1$d týdnů chybí, jeden nový krok pokryje všechny.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Tento týden bez nového kroku</string>
+    <string name="forms_quarter_title">Tříměsíční kontrola</string>
+    <string name="forms_quarter_nothing">Zatím tu není co kontrolovat. Dál tě čeká shrnutí.</string>
+    <string name="forms_quarter_habits">Zvyky</string>
+    <string name="forms_quarter_swaps">Změny</string>
+    <string name="forms_quarter_avoid">Bojkot</string>
+    <string name="forms_quarter_missed">Vynecháno</string>
+    <string name="forms_quarter_missed_level">Vynecháno: %1$s</string>
+
+    <string name="forms_new_title">Nový krok</string>
+    <string name="forms_edit_title">Upravit: %1$s</string>
+    <string name="forms_add_kind">Přidat: %1$s</string>
+    <string name="forms_title_habit">Zvyk</string>
+    <string name="forms_title_swap">Změna</string>
+    <string name="forms_title_avoid">Bojkot</string>
+    <string name="forms_save_changes">Uložit změny</string>
+    <string name="forms_what_kind">Jaký druh?</string>
+    <string name="forms_name">Název</string>
+    <string name="forms_your_new_step">Tvůj nový krok</string>
+    <string name="forms_hint_habit">Přečíst 10 stránek</string>
+    <string name="forms_hint_swap">Lufa místo houbičky</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Jaký zvyk?</string>
+    <string name="forms_timing_tip_title">Kdykoli, nebo na konci dne</string>
+    <string name="forms_timing_tip">Kdykoli: něco, co uděláš jednou, třeba běh. Odškrtni to hned, jak to máš hotové.\n\nNa konci dne: pravidlo, které dodržuješ celý den, třeba žádné mlsání. Odškrtnout se dá až večer.</string>
+    <string name="forms_anytime">Kdykoli</string>
+    <string name="forms_end_of_day">Na konci dne</string>
+    <string name="forms_what_is_it">Co to je?</string>
+    <string name="forms_how_often">Jak často?</string>
+    <string name="forms_often_specific">Konkrétní dny</string>
+    <string name="forms_often_whenever">Kdykoli</string>
+    <string name="forms_often_once">Jen jednou</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">krát za</item>
+        <item quantity="few">krát za</item>
+        <item quantity="many">krát za</item>
+        <item quantity="other">krát za</item>
+    </plurals>
+    <string name="forms_unit_day">den</string>
+    <string name="forms_unit_week">týden</string>
+    <string name="forms_unit_month">měsíc</string>
+    <string name="forms_unit_x_days">X dní</string>
+    <string name="forms_ideas">Nápady</string>
+    <string name="forms_ideas_others">Další</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Zobrazit všechny nápady (%1$d) ›</item>
+        <item quantity="few">Zobrazit všechny nápady (%1$d) ›</item>
+        <item quantity="many">Zobrazit všechny nápady (%1$d) ›</item>
+        <item quantity="other">Zobrazit všechny nápady (%1$d) ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Všechny nápady na kroky</string>
+    <string name="forms_search">Hledat…</string>
+    <string name="forms_all">Vše</string>
+
+    <string name="forms_settings_title">Nastavení</string>
+    <string name="forms_set_colours">Barvy</string>
+    <string name="forms_set_style">Styl tříměsíčního shrnutí</string>
+    <string name="forms_set_checkins">Zápisy</string>
+    <string name="forms_set_checkin_hour">Denní zápis se otevírá v</string>
+    <string name="forms_set_checkin_hour_tip">Od této doby můžeš odškrtávat zvyky na konci dne a udělat denní zápis.</string>
+    <string name="forms_set_week_start">První den týdne</string>
+    <string name="forms_set_week_start_tip">Kterým dnem začíná mřížka zvyků, týdny a grafy.</string>
+    <string name="forms_monday">Pondělí</string>
+    <string name="forms_sunday">Neděle</string>
+    <string name="forms_set_new_step_every">Nový krok jednou za</string>
+    <string name="forms_set_new_step_every_tip">Kolik týdnů uplyne mezi týdenními zápisy.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">týden</item>
+        <item quantity="few">týdny</item>
+        <item quantity="many">týdne</item>
+        <item quantity="other">týdnů</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Den týdenního zápisu</string>
+    <string name="forms_set_weekly_day_tip">V tento den po denním zápisu vybereš nový krok na další týden.</string>
+    <string name="forms_set_checkup">Tříměsíční kontrola</string>
+    <string name="forms_set_checkup_tip">Všichni mají kontrolu ve stejné dny, 1. ledna, 1. dubna, 1. července a 1. října, abyste mohli shrnutí sdílet společně. Můžeš si ale vybrat i vlastní datum.</string>
+    <string name="forms_set_same">Jako všichni</string>
+    <string name="forms_set_own">Vlastní datum</string>
+    <string name="forms_set_starting">Začátek</string>
+    <string name="forms_set_starting_tip">Měsíc tvé první vlastní kontroly.</string>
+    <string name="forms_earlier">Dřív</string>
+    <string name="forms_later">Později</string>
+    <string name="forms_set_every_tip">Počet měsíců mezi kontrolami.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">měsíc</item>
+        <item quantity="few">měsíce</item>
+        <item quantity="many">měsíce</item>
+        <item quantity="other">měsíců</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Den v měsíci</string>
+    <string name="forms_set_day_of_month_tip">Který den v tom měsíci.</string>
+    <string name="forms_set_everyone">Všichni: 1. 1. · 1. 4. · 1. 7. · 1. 10.</string>
+    <string name="forms_set_days_build">Dny na vybudování zvyku</string>
+    <string name="forms_set_days_build_tip">Výzkumy uvádějí 18 až 254 dní, nejčastěji se zmiňuje 66 (Lally et al. 2010, Singh et al. 2024). Po tolika dnech se nový krok přesune do tvých kontrol.</string>
+    <string name="forms_set_nudge">Denní připomínka</string>
+    <string name="forms_set_nudge_tip">Připomínka v tento čas, jen pokud ještě něco není odškrtnuté.</string>
+    <string name="forms_set_more">Další</string>
+    <string name="forms_set_reasons">Důvody přešlapů</string>
+    <string name="forms_set_tutorial">Znovu spustit návod</string>
+    <string name="forms_set_export">Exportovat moje data</string>
+    <string name="forms_set_import">Importovat data</string>
+
+    <string name="forms_reasons_title">Důvody přešlapů</string>
+    <string name="forms_reasons_hint">Přidej vlastní důvod</string>
+    <string name="forms_reasons_used">použito %1$d×</string>
+    <string name="forms_reasons_delete_title">Smazat %1$s?</string>
+    <string name="forms_reasons_delete_text">Přešlapy zůstanou v tvé historii, jen bez tohoto důvodu.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d zvyk</item>
+        <item quantity="few">%1$d zvyky</item>
+        <item quantity="many">%1$d zvyku</item>
+        <item quantity="other">%1$d zvyků</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d změna</item>
+        <item quantity="few">%1$d změny</item>
+        <item quantity="many">%1$d změny</item>
+        <item quantity="other">%1$d změn</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d bojkot</item>
+        <item quantity="few">%1$d bojkoty</item>
+        <item quantity="many">%1$d bojkotu</item>
+        <item quantity="other">%1$d bojkotů</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, odškrtnutí od %2$s</string>
+    <string name="forms_export_title">Exportovat moje data</string>
+    <string name="forms_export_what">Co bude v souboru</string>
+    <string name="forms_export_ticks">Všechna odškrtnutí, přešlapy a důvody</string>
+    <string name="forms_export_ticks_since">Všechna odškrtnutí, přešlapy a důvody od %1$s</string>
+    <string name="forms_export_summaries">Tvoje tříměsíční shrnutí</string>
+    <string name="forms_export_settings">Tvoje nastavení, barvy a jméno</string>
+    <string name="forms_export_file">Soubor</string>
+    <string name="forms_export_kb">%1$d kB</string>
+    <string name="forms_export_save">Uložit soubor</string>
+    <string name="forms_export_send">Poslat…</string>
+    <string name="forms_export_send_title">Poslat data z Alice</string>
+    <string name="forms_export_saved">Uloženo: %1$s</string>
+    <string name="forms_export_save_failed">Soubor se nepodařilo uložit</string>
+
+    <string name="forms_import_title">Importovat data</string>
+    <string name="forms_import_choose">Vyber zálohu z Alice</string>
+    <string name="forms_import_choose_sub">.json z exportu na jiném telefonu</string>
+    <string name="forms_import_cant_open">Tento soubor nejde otevřít.</string>
+    <string name="forms_import_not_backup">Tento soubor není záloha z Alice.</string>
+    <string name="forms_import_replace_mode">Nahradit, co tu je</string>
+    <string name="forms_import_add_mode">Přidat k tomu, co tu je</string>
+    <string name="forms_import_button">Importovat</string>
+    <string name="forms_import_replace_title">Nahradit tvoje data?</string>
+    <string name="forms_import_add_title">Přidat tato data?</string>
+    <string name="forms_import_replace_text">Všechno v tomto telefonu se nahradí obsahem souboru. Pokud si to chceš nechat, nejdřív to exportuj.</string>
+    <string name="forms_import_add_text">Zvyky a historie ze souboru se přidají k tvým.</string>
+    <string name="forms_import_done">Data jsou importovaná</string>
+
+    <string name="look_share">Sdílet</string>
+    <string name="look_save_image">Uložit obrázek</string>
+    <string name="look_next_week">Dál tvůj týden ›</string>
+    <string name="look_keep_going">Pokračovat</string>
+    <string name="look_storage_needed">Alice potřebuje přístup k úložišti, aby mohla obrázek uložit</string>
+    <string name="look_share_caption">Moje čtvrtletí s Alice. Začni taky: %1$s</string>
+    <string name="look_share_clip">Shrnutí z Alice</string>
+    <string name="look_share_chooser">Sdílej své čtvrtletí</string>
+    <string name="look_saved">Uloženo do Pictures/Alice</string>
+    <string name="look_save_failed">Obrázek se nepodařilo uložit</string>
+
+    <string name="look_style_poster">Plakát</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Vitrína s trofejemi</string>
+    <string name="look_style_receipt">Účtenka</string>
+    <string name="look_style_report">Vysvědčení</string>
+    <string name="look_style_boarding">Palubní vstupenka</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalendář</string>
+    <string name="look_style_trading">Sběratelská karta</string>
+
+    <string name="look_quote_1">Malé kroky, každý den</string>
+    <string name="look_quote_2">Díky, že to nevzdáváš</string>
+    <string name="look_quote_3">Pokrok, ne dokonalost</string>
+    <string name="look_quote_4">Jdeš dál. A to se počítá</string>
+    <string name="look_quote_5">Malé změny, velký rozdíl</string>
+    <string name="look_quote_6">Každý den si vybíráš líp</string>
+    <string name="look_quote_7">I pomalu je pořád dopředu</string>
+    <string name="look_quote_8">Stavíš si život, který tě baví</string>
+    <string name="look_quote_9">Krok za krokem se to nasčítá</string>
+    <string name="look_quote_10">Dělej to dál pro sebe</string>
+    <string name="look_quote_11">Tvoje budoucí já ti děkuje</string>
+    <string name="look_quote_12">Po troškách, a přece hodně</string>
+    <string name="look_quote_13">Vytrvalost je tichá magie</string>
+    <string name="look_quote_14">Podívej, jaký kus cesty máš za sebou</string>
+    <string name="look_quote_15">Raduj se i z malých výher</string>
+    <string name="look_quote_16">Dobré dny se budují, nenacházejí</string>
+
+    <string name="look_stamp_1">VÝBORNĚ</string>
+    <string name="look_stamp_2">VYNIKAJÍCÍ</string>
+    <string name="look_stamp_3">DOBRÁ PRÁCE</string>
+    <string name="look_stamp_4">SKVĚLÉ</string>
+    <string name="look_stamp_5">PARÁDA</string>
+    <string name="look_stamp_6">JEDNIČKA</string>
+    <string name="look_stamp_7">ZLATÁ HVĚZDA</string>
+    <string name="look_stamp_8">SKVĚLÁ PRÁCE</string>
+
+    <string name="look_period">%1$s až %2$s</string>
+    <string name="look_scan">NASKENUJ\nA ZAČNI\nSVOU CESTU</string>
+    <string name="look_you">Ty</string>
+    <string name="look_on_track">podle plánu</string>
+    <string name="look_new_steps">nové kroky</string>
+    <string name="look_days_in">dní se zápisem</string>
+    <string name="look_new">nové</string>
+    <string name="look_week_by_week">Týden po týdnu</string>
+    <string name="look_coming_soon">Už brzy</string>
+    <string name="look_new_this_quarter">Nové toto čtvrtletí</string>
+    <string name="look_kept_up_longest">Vydrželo nejdéle</string>
+    <string name="look_habits">Zvyky</string>
+    <string name="look_swaps">Změny</string>
+    <string name="look_avoids">Bojkoty</string>
+    <string name="look_ways_improved">Zlepšení</string>
+    <string name="look_improved_in">Zlepšuješ si život %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d zvyk</item>
+        <item quantity="few">%1$d zvyky</item>
+        <item quantity="many">%1$d zvyku</item>
+        <item quantity="other">%1$d zvyků</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d změna</item>
+        <item quantity="few">%1$d změny</item>
+        <item quantity="many">%1$d změny</item>
+        <item quantity="other">%1$d změn</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d bojkot</item>
+        <item quantity="few">%1$d bojkoty</item>
+        <item quantity="many">%1$d bojkotu</item>
+        <item quantity="other">%1$d bojkotů</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d přešlap</item>
+        <item quantity="few">%1$d přešlapy</item>
+        <item quantity="many">%1$d přešlapu</item>
+        <item quantity="other">%1$d přešlapů</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d způsobem</item>
+        <item quantity="few">%1$d způsoby</item>
+        <item quantity="many">%1$d způsobu</item>
+        <item quantity="other">%1$d způsoby</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">zvyk</item>
+        <item quantity="few">zvyky</item>
+        <item quantity="many">zvyku</item>
+        <item quantity="other">zvyků</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">změna</item>
+        <item quantity="few">změny</item>
+        <item quantity="many">změny</item>
+        <item quantity="other">změn</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">bojkot</item>
+        <item quantity="few">bojkoty</item>
+        <item quantity="many">bojkotu</item>
+        <item quantity="other">bojkotů</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">přešlap</item>
+        <item quantity="few">přešlapy</item>
+        <item quantity="many">přešlapu</item>
+        <item quantity="other">přešlapů</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">způsob</item>
+        <item quantity="few">způsoby</item>
+        <item quantity="many">způsobu</item>
+        <item quantity="other">způsobů</item>
+    </plurals>
+
+    <string name="look_poster_improved">Zlepšuješ si život %1$s</string>
+    <string name="look_poster_on_track">PODLE PLÁNU</string>
+    <string name="look_poster_days">dní</string>
+    <string name="look_poster_achievements">Úspěchy</string>
+    <string name="look_poster_first_ones">První už jsou na cestě</string>
+    <string name="look_poster_added">Novinky tohoto čtvrtletí</string>
+
+    <string name="look_wrapped_stars">Tvoje hvězdy</string>
+
+    <string name="look_trophy_ways">způsoby si\nzlepšuješ život</string>
+    <string name="look_trophy_next_quarter">Další čtvrtletí</string>
+    <string name="look_trophy_first_medal">tvoje první medaile</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Nové na poličce:</string>
+
+    <string name="look_receipt_title">Tříměsíční kontrola · %1$s</string>
+    <string name="look_receipt_customer">Zákazník: %1$s</string>
+    <string name="look_receipt_habits">Vybudované zvyky</string>
+    <string name="look_receipt_swaps">Vyměněné věci</string>
+    <string name="look_receipt_avoids">Bojkotované věci</string>
+    <string name="look_receipt_ways">Zlepšení tvého života</string>
+    <string name="look_receipt_on_track">Podle plánu toto čtvrtletí</string>
+    <string name="look_receipt_slips">Přešlapy</string>
+    <string name="look_receipt_new_steps">Nové kroky</string>
+    <string name="look_receipt_new">Nové toto čtvrtletí: %1$s</string>
+
+    <string name="look_report_title">Vysvědčení malých kroků</string>
+    <string name="look_report_pupil">%1$s · Jméno: %2$s</string>
+    <string name="look_report_subject">PŘEDMĚT</string>
+    <string name="look_report_built">VYBUDOVÁNO</string>
+    <string name="look_report_grade">ZNÁMKA</string>
+    <string name="look_report_attendance">Docházka %1$s</string>
+    <string name="look_report_on_track">Podle plánu %1$s</string>
+    <string name="look_report_slips">Přešlapy %1$s</string>
+    <string name="look_report_achievements">ÚSPĚCHY</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">NOVÉ PŘEDMĚTY TOTO ČTVRTLETÍ (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Poznámka učitele:</string>
+    <string name="look_report_calm">Klidné, vyrovnané čtvrtletí.</string>
+    <string name="look_report_ups_downs">Čtvrtletí plné vzestupů i pádů, a přesto pořád pokračuješ.</string>
+    <string name="look_report_star">%1$s: vynikající! Jen tak dál!</string>
+    <string name="look_report_keep_up">Jen tak dál!</string>
+    <string name="look_report_week">TÝDEN PO TÝDNU</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Let Q%1$d</string>
+    <string name="look_boarding_from">ODKUD</string>
+    <string name="look_boarding_old">STARÉ</string>
+    <string name="look_boarding_habits">zvyky</string>
+    <string name="look_boarding_to">KAM</string>
+    <string name="look_boarding_new">NOVÉ</string>
+    <string name="look_boarding_better_you">lepší já</string>
+    <string name="look_boarding_passenger">Cestující</string>
+    <string name="look_boarding_dates">Data</string>
+    <string name="look_boarding_miles">Nalétané míle</string>
+    <string name="look_boarding_on_time">Včas</string>
+    <string name="look_boarding_turbulence">Turbulence</string>
+    <string name="look_boarding_days">Dny na palubě</string>
+    <string name="look_boarding_flyer">VĚRNÍ CESTUJÍCÍ, TVOJI NEJDELŠÍ SPOLEČNÍCI</string>
+    <string name="look_boarding_log">LETOVÝ DENÍK, TÝDEN PO TÝDNU</string>
+    <string name="look_boarding_stops">NOVÉ ZASTÁVKY, +%1$d</string>
+    <string name="look_boarding_note">VZKAZ KAPITÁNA</string>
+
+    <string name="look_polaroid_life">TVŮJ ŽIVOT</string>
+    <string name="look_polaroid_quarter">TOTO ČTVRTLETÍ</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d dní se zápisem</string>
+    <string name="look_polaroid_longest">VYDRŽELO NEJDÉLE</string>
+    <string name="look_polaroid_new">NOVÉ, +%1$d</string>
+
+    <string name="look_calendar_added">Přidáno</string>
+
+    <string name="look_trading_common">Běžná</string>
+    <string name="look_trading_uncommon">Neobvyklá</string>
+    <string name="look_trading_rare">Vzácná</string>
+    <string name="look_trading_legendary">Legendární</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">ZPŮSOB</item>
+        <item quantity="few">ZPŮSOBY</item>
+        <item quantity="many">ZPŮSOBU</item>
+        <item quantity="other">ZPŮSOBŮ</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">Č. %1$03d · tvoje %2$s čtvrtletí</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d dní</string>
+    <string name="look_trading_power">Síla, týden po týdnu</string>
+    <string name="look_trading_edition">%1$s · edice Q%2$d</string>
+
+    <string name="look_sample_water_first">Nejdřív voda</string>
+    <string name="look_sample_own_bag">Vlastní taška</string>
+    <string name="look_sample_read_pages">Přečíst 10 stránek</string>
+    <string name="look_sample_reading">Čtení každý den</string>
+    <string name="look_sample_late_snacks">Žádné pozdní mlsání</string>
+    <string name="look_sample_stretching">Protahování</string>
+    <string name="look_sample_cooler_home">Chladnější domov</string>
+    <string name="look_sample_loofah">Lufa místo houbičky</string>
+    <string name="look_sample_palm_oil">Bez palmového oleje</string>
+    <string name="look_sample_stretch">Protažení 10 min</string>
+
+    <string name="look_colours_title">Barvy</string>
+    <string name="look_colours_preview">Náhled</string>
+    <string name="look_colours_your_summary">Tvoje tříměsíční shrnutí</string>
+    <string name="look_colours_light">Světlé</string>
+    <string name="look_colours_dark">Tmavé</string>
+    <string name="look_styles_title">Styl tříměsíčního shrnutí</string>
+    <string name="look_styles_all_pictures">Zobrazit všech 30 obrázků na Polaroid</string>
+    <string name="look_styles_refresh">Obnovit</string>
+    <string name="look_pictures_title">Obrázky na Polaroid</string>
+    <string name="look_pictures_back">Styly shrnutí</string>
+
+    <string name="look_welcome_name">Tvoje jméno</string>
+    <string name="look_welcome_start">Začít</string>
+    <string name="look_welcome_import">Importovat moje data</string>
+
+    <string name="look_tut_skip">Přeskočit</string>
+    <string name="look_tut_page">%1$d Z %2$d</string>
+    <string name="look_tut_back">Zpět</string>
+    <string name="look_tut_start">Začít</string>
+    <string name="look_tut_next">Dál</string>
+    <string name="look_tut1_title">Staň se lepší verzí sebe, krok za krokem</string>
+    <string name="look_tut1_body">Buduj nové zvyky, vybírej si ohleduplněji a sleduj, jak se všechno, co dokážeš, sčítá.</string>
+    <string name="look_tut1_habits">Buduj dobré zvyky den po dni a staň se člověkem, jakým chceš být.</string>
+    <string name="look_tut1_swaps">Vyměň výrobky za ohleduplnější, lepší pro planetu, lidi nebo tvoje zdraví.</string>
+    <string name="look_tut1_avoids">Měj přehled o firmách, jídle a výrobcích, které radši nechceš podporovat.</string>
+    <string name="look_tut2_title">Odškrtni to</string>
+    <string name="look_tut2_body">Až máš zvyk splněný, ťukni na čtvereček. Večerní se odemknou v čase zápisu.</string>
+    <string name="look_tut3_title">%1$s, pak jednou za %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d den</item>
+        <item quantity="few">%1$d dny</item>
+        <item quantity="many">%1$d dne</item>
+        <item quantity="other">%1$d dní</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d měsíc</item>
+        <item quantity="few">%1$d měsíce</item>
+        <item quantity="many">%1$d měsíce</item>
+        <item quantity="other">%1$d měsíců</item>
+    </plurals>
+    <string name="look_tut3_body">Studie zjistily, že vybudovat zvyk trvá 18 až 254 dní. Nejčastěji se uvádí 66 dní, a proto Alice začíná právě tam.</string>
+    <string name="look_tut3_days_label">Dny na vybudování zvyku</string>
+    <string name="look_tut3_checkup">Kontrola jednou za</string>
+    <string name="look_tut3_small">Obojí můžeš změnit v Nastavení.</string>
+    <string name="look_tut4_title">Jednou týdně jeden nový krok</string>
+    <string name="look_tut4_body">Když přidáváš po jednom kroku, rosteš pomalu a nenaložíš si najednou moc.</string>
+    <string name="look_tut4_day">Den zápisu</string>
+    <string name="look_tut4_small">I tohle můžeš změnit v Nastavení.</string>
+    <string name="look_tut5_title">Každé čtvrtletí tvoje shrnutí</string>
+    <string name="look_tut5_body">Ukaž přátelům a blízkým, jaký kus cesty máš za sebou. Ťukni na vzhled, který se ti líbí:</string>
+    <string name="look_tut_change_mind">Kdykoli si to můžeš rozmyslet.</string>
+    <string name="look_tut6_title">Udělej si ji po svém</string>
+    <string name="look_tut6_body">Vyber si barvy, které ti nejvíc sedí. Celá aplikace se změní hned.</string>
+    <string name="look_tut7_title">Změň cokoli, kdykoli</string>
+    <string name="look_tut7_body">Časy zápisů, dny na vybudování zvyku, styl shrnutí, barvy i tvoje data najdeš v Nastavení.</string>
+    <string name="look_tut7_gear">Nastavení otevřeš ozubeným kolečkem nahoře ve Zvycích.</string>
+    <string name="look_tut7_open">Otevřít Nastavení</string>
+
+    <string name="lang_title">Jazyk</string>
+    <string name="pron_title">Oslovení</string>
+    <string name="pron_she">ona</string>
+    <string name="pron_he">on</string>
+    <string name="pron_they">bez rodu</string>
+    <string name="lang_spotted">Vidíš ve svém jazyce chybu?</string>
+    <string name="lang_search">Hledej svůj jazyk</string>
+    <string name="lang_phone">Jazyk telefonu</string>
+    <string name="lang_follow">Podle telefonu</string>
+    <string name="lang_note_title">Pomoc s překlady</string>
+    <string name="lang_note_1">Ahoj, jsem Lucy a Alice jsem vytvořila já.</string>
+    <string name="lang_note_2">Mluvím anglicky, slovensky, česky a rusky, takže tyto překlady jsem zkontrolovala sama. Ostatní jazyky zatím rodilý mluvčí nekontroloval.</string>
+    <string name="lang_note_3">Pokud ve svém jazyce najdeš chybu, dej mi prosím vědět, ať ji můžu opravit. A pokud Alice ve svém jazyce už nějakou dobu používáš a všechno zní správně, řekni mi to taky, abych ho mohla označit jako schválený.</string>
+    <string name="lang_note_4">Děkuju!</string>
+    <string name="lang_not_approved">ZATÍM NESCHVÁLENO</string>
+    <string name="lang_report">Nahlásit chybu</string>
+    <string name="lang_all_correct">Můj jazyk je úplně v pořádku</string>
+    <string name="lang_mail_mistake_body">Co zní špatně a na které obrazovce:\n\n</string>
+    <string name="lang_mail_correct_body">Alice ve svém jazyce používám už nějakou dobu a všechno zní správně.\n\n</string>
+    <string name="lang_no_mail">Nenašla se žádná e-mailová aplikace</string>
+
+    <!-- pronoun variants for android below 14, same as values-cs-feminine and -masculine -->
+    <string name="look_improved_in__feminine" translatable="false">Zlepšila sis život %1$s</string>
+    <string name="look_improved_in__masculine" translatable="false">Zlepšil sis život %1$s</string>
+    <string name="look_poster_improved__feminine" translatable="false">Zlepšila sis život %1$s</string>
+    <string name="look_poster_improved__masculine" translatable="false">Zlepšil sis život %1$s</string>
+    <string name="look_quote_4__feminine" translatable="false">Vydržela jsi. A to se počítá</string>
+    <string name="look_quote_4__masculine" translatable="false">Vydržel jsi. A to se počítá</string>
+    <string name="look_quote_6__feminine" translatable="false">Každý den sis vybrala líp</string>
+    <string name="look_quote_6__masculine" translatable="false">Každý den sis vybral líp</string>
+    <string name="look_report_ups_downs__feminine" translatable="false">Čtvrtletí plné vzestupů i pádů, a přesto jsi vydržela.</string>
+    <string name="look_report_ups_downs__masculine" translatable="false">Čtvrtletí plné vzestupů i pádů, a přesto jsi vydržel.</string>
+    <!-- end pronoun variants -->
+</resources>

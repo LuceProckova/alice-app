@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Quá mệt</string>
+    <string name="core_reason_craving">Thèm quá</string>
+    <string name="core_reason_no_time">Không có thời gian</string>
+    <string name="core_reason_forgot">Quên mất</string>
+    <string name="core_reason_no_alternative">Không có lựa chọn khác</string>
+    <string name="core_reason_social">Đi chơi, gặp bạn</string>
+    <string name="core_reason_impulse">Bốc đồng</string>
+    <string name="core_reason_too_expensive">Quá đắt</string>
+    <string name="core_reason_away">Đi vắng</string>
+
+    <string name="core_nudge_channel">Nhắc nhở hằng ngày</string>
+    <string name="core_nudge_title">Hôm nay vẫn còn việc cần đánh dấu</string>
+    <string name="core_save_failed">Không lưu được, bạn thử lại nhé</string>
+
+    <string name="core_kind_habit">Thói quen</string>
+    <string name="core_kind_swap">Thay thế</string>
+    <string name="core_kind_avoid">Tránh</string>
+    <string name="core_about">Về %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Thu gọn</string>
+    <string name="core_more">Thêm</string>
+    <string name="core_cancel">Hủy</string>
+    <string name="core_settings">Cài đặt</string>
+    <string name="core_span_week">Tuần</string>
+    <string name="core_span_month">Tháng</string>
+    <string name="core_span_year">Năm</string>
+    <string name="core_span_all">Tất cả</string>
+    <string name="core_tab_habits">Thói quen</string>
+    <string name="core_tab_changes">Thay đổi</string>
+    <string name="core_tab_avoid">Tránh</string>
+    <string name="core_tab_insights">Thống kê</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">đã giữ</string>
+    <string name="core_cell_missed">bỏ lỡ</string>
+    <string name="core_cell_partial">làm được một phần, đến giờ %1$d</string>
+    <string name="core_cell_unfilled">chưa điền</string>
+    <string name="core_cell_open">cần làm</string>
+    <string name="core_cell_locked">khóa đến giờ check-in</string>
+    <string name="core_cell_future">chưa tới</string>
+    <string name="core_cell_empty">không cần làm gì</string>
+    <string name="core_cell_band">xong cho giai đoạn này</string>
+    <string name="core_cell_off">không phải ngày của bước này</string>
+    <string name="core_cell_none">trước khi bước này bắt đầu</string>
+
+    <string name="core_rhythm_one_off">Một lần</string>
+    <string name="core_rhythm_end_of_day">Mỗi ngày, đánh dấu vào cuối ngày</string>
+    <string name="core_rhythm_every_day">Mỗi ngày</string>
+    <string name="core_rhythm_every_days">Mỗi %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">một tuần</string>
+    <string name="core_rhythm_a_month">một tháng</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, ngày nào cũng được</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s và %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d th</string>
+    <string name="core_achievement_short_days">%1$d ng</string>
+    <string name="core_glance_step">%1$s, %2$d/%3$d</string>
+
+    <string name="core_slip_never">Không bao giờ</string>
+    <string name="core_slip_once">Một lần</string>
+    <string name="core_slip_a_few">Vài lần</string>
+    <string name="core_slip_half">Một nửa</string>
+    <string name="core_slip_most">Phần lớn</string>
+    <string name="core_slip_always">Luôn luôn</string>
+
+    <string name="core_ideas_habit_anytime">Thói quen, lúc nào cũng được</string>
+    <string name="core_ideas_habit_end">Thói quen, cuối ngày</string>
+    <string name="core_ideas_swap">Thay thế</string>
+    <string name="core_ideas_avoid_product">Tránh, sản phẩm</string>
+    <string name="core_ideas_avoid_company">Tránh, công ty</string>
+    <string name="core_ideas_avoid_food">Tránh, đồ ăn</string>
+
+    <string name="core_tag_ethical">Đạo đức</string>
+    <string name="core_tag_health">Sức khỏe</string>
+    <string name="core_tag_clutter">Bừa bộn</string>
+    <string name="core_tag_ecological">Môi trường</string>
+    <string name="core_tag_animal_welfare">Phúc lợi động vật</string>
+    <string name="core_tag_workers_rights">Quyền người lao động</string>
+    <string name="core_tag_plastic">Nhựa</string>
+    <string name="core_tag_palm_oil">Dầu cọ</string>
+    <string name="core_tag_deforestation">Phá rừng</string>
+    <string name="core_category_company">Công ty</string>
+    <string name="core_category_food">Đồ ăn</string>
+    <string name="core_category_product">Sản phẩm</string>
+    <string name="core_verdict_avoid">TRÁNH</string>
+    <string name="core_verdict_edge">LƯNG CHỪNG</string>
+    <string name="core_verdict_fine">ỔN</string>
+
+    <string name="core_theme_off_white_honey">Trắng ngà &amp; mật ong</string>
+    <string name="core_theme_vanilla_caramel">Vani &amp; caramel</string>
+    <string name="core_theme_sunflower">Hoa hướng dương</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Ca cao &amp; chanh</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; bơ</string>
+    <string name="core_theme_midnight_honey">Nửa đêm &amp; mật ong</string>
+    <string name="core_theme_forest_night">Rừng đêm</string>
+    <string name="core_theme_plum_dusk">Hoàng hôn tím mận</string>
+    <string name="core_theme_charcoal_coral">Than chì &amp; san hô</string>
+
+    <string name="core_pic_sunny_meadow">Đồng cỏ đầy nắng</string>
+    <string name="core_pic_sunset_hills">Đồi chiều hoàng hôn</string>
+    <string name="core_pic_starry_night">Đêm đầy sao</string>
+    <string name="core_pic_beach_day">Một ngày ở biển</string>
+    <string name="core_pic_mountain_lake">Hồ trên núi</string>
+    <string name="core_pic_snowy_village">Làng tuyết</string>
+    <string name="core_pic_rainy_garden">Khu vườn mưa</string>
+    <string name="core_pic_autumn_forest">Rừng mùa thu</string>
+    <string name="core_pic_cherry_blossom">Hoa anh đào</string>
+    <string name="core_pic_desert_cactus">Xương rồng sa mạc</string>
+    <string name="core_pic_lighthouse">Ngọn hải đăng</string>
+    <string name="core_pic_rainbow_field">Cánh đồng cầu vồng</string>
+    <string name="core_pic_hot_air_balloon">Khinh khí cầu</string>
+    <string name="core_pic_sailboat">Thuyền buồm</string>
+    <string name="core_pic_cabin_in_the_woods">Căn chòi trong rừng</string>
+    <string name="core_pic_tulip_field">Cánh đồng tulip</string>
+    <string name="core_pic_campfire_night">Đêm lửa trại</string>
+    <string name="core_pic_misty_mountains">Núi trong sương</string>
+    <string name="core_pic_sunrise_sea">Biển lúc bình minh</string>
+    <string name="core_pic_snowy_pines">Rừng thông tuyết</string>
+    <string name="core_pic_lavender_field">Cánh đồng oải hương</string>
+    <string name="core_pic_waterfall">Thác nước</string>
+    <string name="core_pic_city_at_dusk">Thành phố lúc chạng vạng</string>
+    <string name="core_pic_picnic">Dã ngoại</string>
+    <string name="core_pic_moon_over_the_lake">Trăng trên hồ</string>
+    <string name="core_pic_palm_island">Đảo cọ</string>
+    <string name="core_pic_windmill">Cối xay gió</string>
+    <string name="core_pic_bike_path">Đường xe đạp</string>
+    <string name="core_pic_greenhouse">Nhà kính</string>
+    <string name="core_pic_northern_lights">Cực quang</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="other">%d bước đang chờ bạn.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="other">đã giữ, %d lần</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="other">%d lần một ngày</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="other">%d lần</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="other">mỗi %d tuần</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="other">mỗi %d tháng</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="other">mỗi %d ngày</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="other">%d tháng, chưa bỏ lỡ lần nào</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="other">%d tháng bền bỉ</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="other">%d ngày liên tiếp</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="other">%d tháng</item>
+    </plurals>
+
+    <string name="tabs_new_step">Bước mới</string>
+    <string name="tabs_edit">Sửa</string>
+    <string name="tabs_delete">Xóa</string>
+    <string name="tabs_done">Xong</string>
+    <string name="tabs_back">Quay lại</string>
+    <string name="tabs_earlier">Trước</string>
+    <string name="tabs_later">Sau</string>
+    <string name="tabs_delete_title">Xóa %1$s?</string>
+    <string name="tabs_eod_unlock">Thói quen cuối ngày mở lúc %1$02d:00</string>
+    <string name="tabs_check_up">Kiểm tra</string>
+    <string name="tabs_one_off">Một lần</string>
+
+    <string name="tabs_checkin_from">Check-in từ %1$02d:00</string>
+    <string name="tabs_checkin_daily">Check-in hằng ngày</string>
+    <string name="tabs_checkin_weekly">Check-in hằng tuần</string>
+    <string name="tabs_checkin_quarter">Kiểm tra 3 tháng</string>
+    <string name="tabs_checked_in">Đã check-in</string>
+    <string name="tabs_quarter_section">KIỂM TRA 3 THÁNG</string>
+    <string name="tabs_previous_week">Tuần trước</string>
+    <string name="tabs_next_week">Tuần sau</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="other">%1$d ngày %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Giỏi lắm. Giờ nó chuyển sang Kiểm tra 3 tháng, không cần đánh dấu hằng ngày nữa.</string>
+    <string name="tabs_celebrate_first">Lần đầu tiên là %1$s.</string>
+    <string name="tabs_glance_title">Tuần của bạn</string>
+    <string name="tabs_glance_ticks_kept">Lượt đánh dấu</string>
+    <string name="tabs_glance_days_checked_in">Ngày đã check-in</string>
+    <string name="tabs_glance_top_tag">Lý do trượt nhiều nhất:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="other">%1$s, %2$d lần</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Dễ nhất:</string>
+    <string name="tabs_glance_hardest">Khó nhất:</string>
+
+    <string name="tabs_changes_ongoing">Thay thế lâu dài</string>
+    <string name="tabs_changes_ongoing_tip_title">Thay thế lâu dài</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="other">Bạn sẽ gặp lại cùng lựa chọn này, như cốc cà phê hay dầu gội dạng bánh. Bạn đánh dấu nó trong Thói quen trong %1$d ngày, sau đó kiểm tra mỗi 3 tháng.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Chưa có thay thế nào</string>
+    <string name="tabs_changes_day_badge">NGÀY %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">ĐANG BÉN RỄ</string>
+    <string name="tabs_changes_one_off_todo">Một lần, cần làm</string>
+    <string name="tabs_changes_one_off_tip">Làm một lần là xong, như dọn ngăn kéo, chuyển sang gói điện xanh hay sửa áo khoác. Đánh dấu là nó chuyển sang Đã xong.</string>
+    <string name="tabs_changes_nothing_waiting">Không có gì đang chờ</string>
+    <string name="tabs_changes_finished">ĐÃ XONG · %1$d</string>
+
+    <string name="tabs_avoid_title">Danh sách tránh</string>
+    <string name="tabs_avoid_search">Tìm…</string>
+    <string name="tabs_avoid_no_match">Không có kết quả</string>
+    <string name="tabs_avoid_companies">Công ty</string>
+    <string name="tabs_avoid_food">Đồ ăn</string>
+    <string name="tabs_avoid_products">Sản phẩm</string>
+
+    <string name="tabs_avoid_added">Ngày thêm</string>
+    <string name="tabs_avoid_why">Vì sao bạn tránh</string>
+    <string name="tabs_avoid_own_words">Theo lời của bạn</string>
+    <string name="tabs_avoid_brands">Thương hiệu sở hữu · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Mỗi dòng một thương hiệu</string>
+    <string name="tabs_avoid_more_brands">+%1$d nữa</string>
+    <string name="tabs_avoid_instead">Dùng cái này thay thế</string>
+    <string name="tabs_avoid_instead_hint">Mỗi dòng một cái</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="other">lần trượt</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">đã tránh</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="other">tháng trong danh sách</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Nó sẽ rời khỏi danh sách tránh cùng toàn bộ lịch sử.</string>
+
+    <string name="tabs_habit_delete_text">Toàn bộ lịch sử cũng sẽ bị xóa theo.</string>
+    <string name="tabs_habit_created">Ngày tạo</string>
+    <string name="tabs_habit_to_do">Cần làm</string>
+    <string name="tabs_habit_daily_ticks">Đánh dấu hằng ngày</string>
+    <string name="tabs_habit_day_of">Ngày %1$d/%2$d</string>
+    <string name="tabs_habit_finished">Đã xong</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="other">ngày duy trì</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="other">lần đứt chuỗi</item>
+    </plurals>
+    <string name="tabs_habit_success">thành công</string>
+    <string name="tabs_habit_current_streak">Chuỗi hiện tại</string>
+    <string name="tabs_habit_longest_streak">Chuỗi dài nhất</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Vì sao bị trượt</string>
+    <string name="tabs_habit_remove_reason">Xóa lý do này</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="other">cách bạn làm cuộc sống tốt hơn</item>
+    </plurals>
+    <string name="tabs_insights_habits">Thói quen</string>
+    <string name="tabs_insights_swaps">Thay thế</string>
+    <string name="tabs_insights_avoids">Tránh</string>
+    <string name="tabs_insights_on_track_section">Đúng hướng</string>
+    <string name="tabs_insights_avg_days">%1$d ng</string>
+    <string name="tabs_insights_average_kept">giữ được trung bình</string>
+    <string name="tabs_insights_days_checked_in">ngày đã check-in</string>
+    <string name="tabs_insights_on_track">đúng hướng</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="other">lần trượt</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="other">bước mới</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="other">việc một lần đã xong</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Lý do trượt nhiều nhất</string>
+    <string name="tabs_insights_added_quarter">Thêm trong quý này</string>
+    <string name="tabs_insights_past_summaries">Các bản tóm tắt 3 tháng trước</string>
+    <string name="tabs_insights_first_on">Bản đầu tiên của bạn sẽ có vào %1$s</string>
+    <string name="tabs_insights_all_time">Tất cả</string>
+    <string name="tabs_insights_period">%1$s đến %2$s %3$d</string>
+
+    <string name="forms_back">Quay lại</string>
+    <string name="forms_back_habits">Thói quen</string>
+    <string name="forms_back_settings">Cài đặt</string>
+    <string name="forms_add">Thêm</string>
+    <string name="forms_save">Lưu</string>
+    <string name="forms_finish">Hoàn tất</string>
+    <string name="forms_delete">Xóa</string>
+    <string name="forms_why">Vì sao</string>
+    <string name="forms_never_show">Không hiện lại nữa</string>
+    <string name="forms_every">Mỗi</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="other">ngày</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Bước %1$d/%2$d</string>
+    <string name="forms_checkin_next_weekly">Tiếp theo, check-in hằng tuần ›</string>
+    <string name="forms_checkin_next_quarter">Tiếp theo, kiểm tra 3 tháng ›</string>
+    <string name="forms_daily_title">Check-in hằng ngày</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="other">%1$d ngày trước chưa điền</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Bỏ qua tất cả</string>
+    <string name="forms_daily_today">Hôm nay · %1$s</string>
+    <string name="forms_daily_skip">Bỏ qua</string>
+    <string name="forms_daily_undo_skip">Hoàn tác bỏ qua</string>
+    <string name="forms_daily_new_tag">Thẻ mới</string>
+    <string name="forms_daily_new_tag_hint">Thùng rác đầy</string>
+    <string name="forms_weekly_title">Check-in hằng tuần</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="other">Còn nợ %1$d tuần, một bước mới là đủ cho tất cả.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Tuần này không có bước mới</string>
+    <string name="forms_quarter_title">Kiểm tra 3 tháng</string>
+    <string name="forms_quarter_nothing">Chưa có gì để kiểm tra. Tiếp theo là bản tóm tắt của bạn.</string>
+    <string name="forms_quarter_habits">Thói quen</string>
+    <string name="forms_quarter_swaps">Thay thế</string>
+    <string name="forms_quarter_avoid">Tránh</string>
+    <string name="forms_quarter_missed">Bỏ lỡ</string>
+    <string name="forms_quarter_missed_level">Bỏ lỡ: %1$s</string>
+
+    <string name="forms_new_title">Bước mới</string>
+    <string name="forms_edit_title">Sửa: %1$s</string>
+    <string name="forms_add_kind">Thêm: %1$s</string>
+    <string name="forms_title_habit">Thói quen</string>
+    <string name="forms_title_swap">Thay thế</string>
+    <string name="forms_title_avoid">Tránh</string>
+    <string name="forms_save_changes">Lưu thay đổi</string>
+    <string name="forms_what_kind">Loại nào?</string>
+    <string name="forms_name">Tên</string>
+    <string name="forms_your_new_step">Bước mới của bạn</string>
+    <string name="forms_hint_habit">Đọc 10 trang</string>
+    <string name="forms_hint_swap">Xơ mướp thay miếng bọt biển</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Thói quen loại nào?</string>
+    <string name="forms_timing_tip_title">Lúc nào cũng được hay cuối ngày</string>
+    <string name="forms_timing_tip">Lúc nào cũng được: việc bạn làm một lần, như chạy bộ. Làm xong là đánh dấu ngay.\n\nCuối ngày: quy tắc bạn giữ cả ngày, như không ăn vặt. Chỉ đánh dấu được vào buổi tối.</string>
+    <string name="forms_anytime">Lúc nào cũng được</string>
+    <string name="forms_end_of_day">Cuối ngày</string>
+    <string name="forms_what_is_it">Đó là gì?</string>
+    <string name="forms_how_often">Bao lâu một lần?</string>
+    <string name="forms_often_specific">Ngày cụ thể</string>
+    <string name="forms_often_whenever">Bất cứ lúc nào</string>
+    <string name="forms_often_once">Chỉ một lần</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="other">lần mỗi</item>
+    </plurals>
+    <string name="forms_unit_day">ngày</string>
+    <string name="forms_unit_week">tuần</string>
+    <string name="forms_unit_month">tháng</string>
+    <string name="forms_unit_x_days">X ngày</string>
+    <string name="forms_ideas">Gợi ý</string>
+    <string name="forms_ideas_others">Khác</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="other">Xem cả %1$d gợi ý ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Tất cả gợi ý bước</string>
+    <string name="forms_search">Tìm…</string>
+    <string name="forms_all">Tất cả</string>
+
+    <string name="forms_settings_title">Cài đặt</string>
+    <string name="forms_set_colours">Màu sắc</string>
+    <string name="forms_set_style">Kiểu tóm tắt 3 tháng</string>
+    <string name="forms_set_checkins">Check-in</string>
+    <string name="forms_set_checkin_hour">Check-in hằng ngày mở lúc</string>
+    <string name="forms_set_checkin_hour_tip">Từ giờ này bạn có thể đánh dấu thói quen cuối ngày và làm check-in hằng ngày.</string>
+    <string name="forms_set_week_start">Tuần bắt đầu vào</string>
+    <string name="forms_set_week_start_tip">Ngày bắt đầu của bảng Thói quen, các tuần và biểu đồ.</string>
+    <string name="forms_monday">Thứ Hai</string>
+    <string name="forms_sunday">Chủ Nhật</string>
+    <string name="forms_set_new_step_every">Bước mới mỗi</string>
+    <string name="forms_set_new_step_every_tip">Số tuần giữa các lần check-in hằng tuần.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="other">tuần</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Ngày check-in hằng tuần</string>
+    <string name="forms_set_weekly_day_tip">Vào ngày này, sau check-in hằng ngày bạn sẽ chọn bước mới cho tuần sau.</string>
+    <string name="forms_set_checkup">Kiểm tra 3 tháng</string>
+    <string name="forms_set_checkup_tip">Mọi người kiểm tra vào cùng ngày: 1/1, 1/4, 1/7 và 1/10, để cùng chia sẻ bản tóm tắt. Bạn cũng có thể tự chọn ngày riêng.</string>
+    <string name="forms_set_same">Giống mọi người</string>
+    <string name="forms_set_own">Ngày riêng của tôi</string>
+    <string name="forms_set_starting">Bắt đầu từ</string>
+    <string name="forms_set_starting_tip">Tháng của lần kiểm tra riêng đầu tiên.</string>
+    <string name="forms_earlier">Trước</string>
+    <string name="forms_later">Sau</string>
+    <string name="forms_set_every_tip">Số tháng giữa các lần kiểm tra.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="other">tháng</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Ngày trong tháng</string>
+    <string name="forms_set_day_of_month_tip">Ngày nào trong tháng đó.</string>
+    <string name="forms_set_everyone">Mọi người: 1/1 · 1/4 · 1/7 · 1/10</string>
+    <string name="forms_set_days_build">Số ngày để tạo thói quen</string>
+    <string name="forms_set_days_build_tip">Nghiên cứu cho thấy từ 18 đến 254 ngày, con số hay được nhắc nhất là 66 (Lally et al. 2010, Singh et al. 2024). Sau ngần ấy ngày, bước mới sẽ chuyển sang phần kiểm tra.</string>
+    <string name="forms_set_nudge">Nhắc nhở hằng ngày</string>
+    <string name="forms_set_nudge_tip">Nhắc bạn vào giờ này, chỉ khi còn việc chưa đánh dấu.</string>
+    <string name="forms_set_more">Thêm</string>
+    <string name="forms_set_reasons">Lý do trượt</string>
+    <string name="forms_set_tutorial">Xem lại hướng dẫn</string>
+    <string name="forms_set_export">Xuất dữ liệu của tôi</string>
+    <string name="forms_set_import">Nhập dữ liệu</string>
+
+    <string name="forms_reasons_title">Lý do trượt</string>
+    <string name="forms_reasons_hint">Thêm lý do của bạn</string>
+    <string name="forms_reasons_used">đã dùng %1$d×</string>
+    <string name="forms_reasons_delete_title">Xóa %1$s?</string>
+    <string name="forms_reasons_delete_text">Các lần trượt vẫn nằm trong lịch sử, chỉ là không còn thẻ này.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="other">%1$d thói quen</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="other">%1$d thay thế</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="other">%1$d mục tránh</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, đánh dấu từ %2$s</string>
+    <string name="forms_export_title">Xuất dữ liệu của tôi</string>
+    <string name="forms_export_what">Trong tệp có gì</string>
+    <string name="forms_export_ticks">Mọi lượt đánh dấu, lần trượt và lý do</string>
+    <string name="forms_export_ticks_since">Mọi lượt đánh dấu, lần trượt và lý do từ %1$s</string>
+    <string name="forms_export_summaries">Các bản tóm tắt 3 tháng của bạn</string>
+    <string name="forms_export_settings">Cài đặt, màu sắc và tên của bạn</string>
+    <string name="forms_export_file">Tệp</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Lưu tệp</string>
+    <string name="forms_export_send">Gửi tới…</string>
+    <string name="forms_export_send_title">Gửi dữ liệu Alice của bạn</string>
+    <string name="forms_export_saved">Đã lưu %1$s</string>
+    <string name="forms_export_save_failed">Không lưu được tệp</string>
+
+    <string name="forms_import_title">Nhập dữ liệu</string>
+    <string name="forms_import_choose">Chọn bản sao lưu Alice</string>
+    <string name="forms_import_choose_sub">.json, từ mục Xuất trên điện thoại khác</string>
+    <string name="forms_import_cant_open">Không mở được tệp đó.</string>
+    <string name="forms_import_not_backup">Tệp đó không phải bản sao lưu Alice.</string>
+    <string name="forms_import_replace_mode">Thay dữ liệu hiện có</string>
+    <string name="forms_import_add_mode">Thêm vào dữ liệu hiện có</string>
+    <string name="forms_import_button">Nhập</string>
+    <string name="forms_import_replace_title">Thay dữ liệu của bạn?</string>
+    <string name="forms_import_add_title">Thêm dữ liệu này?</string>
+    <string name="forms_import_replace_text">Mọi thứ trên điện thoại này sẽ được thay bằng tệp. Nếu muốn giữ lại, hãy xuất trước nhé.</string>
+    <string name="forms_import_add_text">Thói quen và lịch sử trong tệp sẽ được thêm vào của bạn.</string>
+    <string name="forms_import_done">Đã nhập dữ liệu</string>
+
+    <string name="look_share">Chia sẻ</string>
+    <string name="look_save_image">Lưu ảnh</string>
+    <string name="look_next_week">Tiếp theo, tuần của bạn ›</string>
+    <string name="look_keep_going">Tiếp tục</string>
+    <string name="look_storage_needed">Alice cần quyền truy cập bộ nhớ để lưu ảnh</string>
+    <string name="look_share_caption">Quý của mình cùng Alice. Bắt đầu hành trình của bạn: %1$s</string>
+    <string name="look_share_clip">Tóm tắt Alice</string>
+    <string name="look_share_chooser">Chia sẻ quý của bạn</string>
+    <string name="look_saved">Đã lưu vào Pictures/Alice</string>
+    <string name="look_save_failed">Không lưu được ảnh</string>
+
+    <string name="look_style_poster">Áp phích</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Tủ cúp</string>
+    <string name="look_style_receipt">Hóa đơn</string>
+    <string name="look_style_report">Sổ liên lạc</string>
+    <string name="look_style_boarding">Thẻ lên máy bay</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Lịch</string>
+    <string name="look_style_trading">Thẻ sưu tầm</string>
+
+    <string name="look_quote_1">Bước Nhỏ, Mỗi Ngày</string>
+    <string name="look_quote_2">Cảm Ơn Bạn Đã Có Mặt</string>
+    <string name="look_quote_3">Tiến Bộ, Không Cần Hoàn Hảo</string>
+    <string name="look_quote_4">Bạn Vẫn Bước Tiếp. Vậy Là Đủ</string>
+    <string name="look_quote_5">Thay Đổi Nhỏ, Khác Biệt Lớn</string>
+    <string name="look_quote_6">Mỗi Ngày Bạn Đã Chọn Tốt Hơn</string>
+    <string name="look_quote_7">Chậm Vẫn Là Tiến Lên</string>
+    <string name="look_quote_8">Bạn Đang Xây Cuộc Sống Mình Thích</string>
+    <string name="look_quote_9">Từng Bước Một Cộng Dồn Lại</string>
+    <string name="look_quote_10">Hãy Luôn Có Mặt Vì Chính Mình</string>
+    <string name="look_quote_11">Bạn Của Tương Lai Cảm Ơn Bạn</string>
+    <string name="look_quote_12">Tích Tiểu Thành Đại</string>
+    <string name="look_quote_13">Bền Bỉ Là Phép Màu Lặng Lẽ</string>
+    <string name="look_quote_14">Nhìn Xem Bạn Đã Đi Xa Thế Nào</string>
+    <string name="look_quote_15">Tự Hào Về Những Chiến Thắng Nhỏ</string>
+    <string name="look_quote_16">Ngày Đẹp Do Mình Tạo Ra</string>
+
+    <string name="look_stamp_1">XUẤT SẮC</string>
+    <string name="look_stamp_2">NỔI BẬT</string>
+    <string name="look_stamp_3">LÀM TỐT LẮM</string>
+    <string name="look_stamp_4">TUYỆT VỜI</string>
+    <string name="look_stamp_5">ĐỈNH CAO</string>
+    <string name="look_stamp_6">ĐIỂM TỐI ĐA</string>
+    <string name="look_stamp_7">NGÔI SAO VÀNG</string>
+    <string name="look_stamp_8">GIỎI LẮM</string>
+
+    <string name="look_period">%1$s đến %2$s</string>
+    <string name="look_scan">QUÉT ĐỂ\nBẮT ĐẦU HÀNH TRÌNH\nCỦA BẠN</string>
+    <string name="look_you">Bạn</string>
+    <string name="look_on_track">đúng hướng</string>
+    <string name="look_new_steps">bước mới</string>
+    <string name="look_days_in">ngày đã qua</string>
+    <string name="look_new">mới</string>
+    <string name="look_week_by_week">Từng tuần</string>
+    <string name="look_coming_soon">Sắp có</string>
+    <string name="look_new_this_quarter">Mới trong quý này</string>
+    <string name="look_kept_up_longest">Duy trì lâu nhất</string>
+    <string name="look_habits">Thói quen</string>
+    <string name="look_swaps">Thay thế</string>
+    <string name="look_avoids">Tránh</string>
+    <string name="look_ways_improved">Cách đã cải thiện</string>
+    <string name="look_improved_in">Bạn đã làm cuộc sống tốt hơn theo %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="other">%1$d thói quen</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="other">%1$d thay thế</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="other">%1$d mục tránh</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="other">%1$d lần trượt</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="other">%1$d cách</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="other">thói quen</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="other">thay thế</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="other">mục tránh</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="other">lần trượt</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="other">cách</item>
+    </plurals>
+
+    <string name="look_poster_improved">Bạn đã làm cuộc sống tốt hơn theo %1$s</string>
+    <string name="look_poster_on_track">ĐÚNG HƯỚNG</string>
+    <string name="look_poster_days">ngày</string>
+    <string name="look_poster_achievements">Thành tích</string>
+    <string name="look_poster_first_ones">Thành tích đầu tiên đang đến</string>
+    <string name="look_poster_added">Những gì bạn thêm trong quý này</string>
+
+    <string name="look_wrapped_stars">Ngôi sao của bạn</string>
+
+    <string name="look_trophy_ways">cách bạn làm\ncuộc sống tốt hơn</string>
+    <string name="look_trophy_next_quarter">Quý sau</string>
+    <string name="look_trophy_first_medal">huy chương đầu tiên của bạn</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Mới lên kệ:</string>
+
+    <string name="look_receipt_title">Kiểm tra 3 tháng · %1$s</string>
+    <string name="look_receipt_customer">Khách hàng: %1$s</string>
+    <string name="look_receipt_habits">Thói quen đã tạo</string>
+    <string name="look_receipt_swaps">Thứ đã thay thế</string>
+    <string name="look_receipt_avoids">Thứ đã tránh</string>
+    <string name="look_receipt_ways">Cách bạn làm cuộc sống tốt hơn</string>
+    <string name="look_receipt_on_track">Đúng hướng trong quý này</string>
+    <string name="look_receipt_slips">Lần trượt</string>
+    <string name="look_receipt_new_steps">Bước mới đã tạo</string>
+    <string name="look_receipt_new">Mới trong quý này: %1$s</string>
+
+    <string name="look_report_title">Sổ Liên Lạc Bước Nhỏ</string>
+    <string name="look_report_pupil">%1$s · Học sinh: %2$s</string>
+    <string name="look_report_subject">MÔN</string>
+    <string name="look_report_built">ĐÃ XÂY</string>
+    <string name="look_report_grade">ĐIỂM</string>
+    <string name="look_report_attendance">Chuyên cần %1$s</string>
+    <string name="look_report_on_track">Đúng hướng %1$s</string>
+    <string name="look_report_slips">Lần trượt %1$s</string>
+    <string name="look_report_achievements">THÀNH TÍCH</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">MÔN MỚI HỌC KỲ NÀY (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Nhận xét của giáo viên:</string>
+    <string name="look_report_calm">Một học kỳ êm đềm, đều đặn.</string>
+    <string name="look_report_ups_downs">Một học kỳ có lên có xuống, và bạn vẫn kiên trì.</string>
+    <string name="look_report_star">%1$s đã rất xuất sắc. Cứ thế phát huy nhé!</string>
+    <string name="look_report_keep_up">Cứ thế phát huy nhé!</string>
+    <string name="look_report_week">TỪNG TUẦN</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Chuyến bay Q%1$d</string>
+    <string name="look_boarding_from">TỪ</string>
+    <string name="look_boarding_old">CŨ</string>
+    <string name="look_boarding_habits">thói quen</string>
+    <string name="look_boarding_to">ĐẾN</string>
+    <string name="look_boarding_new">MỚI</string>
+    <string name="look_boarding_better_you">bạn tốt hơn</string>
+    <string name="look_boarding_passenger">Hành khách</string>
+    <string name="look_boarding_dates">Ngày</string>
+    <string name="look_boarding_miles">Dặm đã bay</string>
+    <string name="look_boarding_on_time">Đúng giờ</string>
+    <string name="look_boarding_turbulence">Nhiễu động</string>
+    <string name="look_boarding_days">Ngày trên chuyến bay</string>
+    <string name="look_boarding_flyer">KHÁCH THƯỜNG XUYÊN, BẠN ĐỒNG HÀNH LÂU NHẤT</string>
+    <string name="look_boarding_log">NHẬT KÝ BAY, TỪNG TUẦN</string>
+    <string name="look_boarding_stops">ĐIỂM DỪNG MỚI, +%1$d</string>
+    <string name="look_boarding_note">LỜI NHẮN CỦA CƠ TRƯỞNG</string>
+
+    <string name="look_polaroid_life">CUỘC SỐNG CỦA BẠN</string>
+    <string name="look_polaroid_quarter">QUÝ NÀY</string>
+    <string name="look_polaroid_days_in">đã qua %1$d/%2$d ngày</string>
+    <string name="look_polaroid_longest">DUY TRÌ LÂU NHẤT</string>
+    <string name="look_polaroid_new">MỚI, +%1$d</string>
+
+    <string name="look_calendar_added">Đã thêm</string>
+
+    <string name="look_trading_common">Thường</string>
+    <string name="look_trading_uncommon">Khá hiếm</string>
+    <string name="look_trading_rare">Hiếm</string>
+    <string name="look_trading_legendary">Huyền thoại</string>
+    <plurals name="look_trading_ways">
+        <item quantity="other">CÁCH</item>
+    </plurals>
+    <string name="look_ordinal_st">thứ %1$d</string>
+    <string name="look_ordinal_nd">thứ %1$d</string>
+    <string name="look_ordinal_rd">thứ %1$d</string>
+    <string name="look_ordinal_th">thứ %1$d</string>
+    <string name="look_trading_number">Số %1$03d · quý %2$s của bạn</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d ngày</string>
+    <string name="look_trading_power">Sức mạnh, từng tuần</string>
+    <string name="look_trading_edition">%1$s · phiên bản Q%2$d</string>
+
+    <string name="look_sample_water_first">Uống nước trước</string>
+    <string name="look_sample_own_bag">Mang túi riêng</string>
+    <string name="look_sample_read_pages">Đọc 10 trang</string>
+    <string name="look_sample_reading">Đọc sách mỗi ngày</string>
+    <string name="look_sample_late_snacks">Không ăn khuya</string>
+    <string name="look_sample_stretching">Giãn cơ</string>
+    <string name="look_sample_cooler_home">Nhà mát hơn</string>
+    <string name="look_sample_loofah">Xơ mướp thay bọt biển</string>
+    <string name="look_sample_palm_oil">Không dầu cọ</string>
+    <string name="look_sample_stretch">Giãn cơ 10 phút</string>
+
+    <string name="look_colours_title">Màu sắc</string>
+    <string name="look_colours_preview">Xem trước</string>
+    <string name="look_colours_your_summary">Bản tóm tắt 3 tháng của bạn</string>
+    <string name="look_colours_light">Sáng</string>
+    <string name="look_colours_dark">Tối</string>
+    <string name="look_styles_title">Kiểu tóm tắt 3 tháng</string>
+    <string name="look_styles_all_pictures">Xem cả 30 ảnh Polaroid</string>
+    <string name="look_styles_refresh">Làm mới</string>
+    <string name="look_pictures_title">Ảnh Polaroid</string>
+    <string name="look_pictures_back">Kiểu tóm tắt</string>
+
+    <string name="look_welcome_name">Tên của bạn</string>
+    <string name="look_welcome_start">Bắt đầu</string>
+    <string name="look_welcome_import">Nhập dữ liệu của tôi</string>
+
+    <string name="look_tut_skip">Bỏ qua</string>
+    <string name="look_tut_page">%1$d / %2$d</string>
+    <string name="look_tut_back">Quay lại</string>
+    <string name="look_tut_start">Bắt đầu</string>
+    <string name="look_tut_next">Tiếp</string>
+    <string name="look_tut1_title">Trở thành phiên bản tốt hơn, từng bước một</string>
+    <string name="look_tut1_body">Xây thói quen mới, chọn lựa tử tế hơn, và nhìn mọi thứ bạn đạt được cộng dồn lại.</string>
+    <string name="look_tut1_habits">Xây thói quen tốt mỗi ngày và trở thành người bạn muốn.</string>
+    <string name="look_tut1_swaps">Đổi sang sản phẩm tử tế hơn, tốt hơn cho hành tinh, cho con người hoặc cho sức khỏe của bạn.</string>
+    <string name="look_tut1_avoids">Ghi lại những công ty, đồ ăn và sản phẩm bạn không muốn ủng hộ.</string>
+    <string name="look_tut2_title">Đánh dấu thôi</string>
+    <string name="look_tut2_body">Chạm vào ô khi bạn đã làm xong một thói quen. Thói quen buổi tối mở vào giờ check-in.</string>
+    <string name="look_tut3_title">%1$s, sau đó mỗi %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="other">%1$d tháng</item>
+    </plurals>
+    <string name="look_tut3_body">Các nghiên cứu cho thấy cần từ 18 đến 254 ngày để tạo một thói quen. Con số hay được nhắc nhất là 66 ngày, nên Alice bắt đầu từ đó.</string>
+    <string name="look_tut3_days_label">Số ngày để tạo thói quen</string>
+    <string name="look_tut3_checkup">Kiểm tra mỗi</string>
+    <string name="look_tut3_small">Bạn có thể đổi cả hai trong Cài đặt.</string>
+    <string name="look_tut4_title">Mỗi tuần một bước mới</string>
+    <string name="look_tut4_body">Thêm từng bước một giúp bạn lớn lên từ từ, không phải ôm quá nhiều cùng lúc.</string>
+    <string name="look_tut4_day">Ngày check-in</string>
+    <string name="look_tut4_small">Cái này bạn cũng đổi được trong Cài đặt.</string>
+    <string name="look_tut5_title">Mỗi quý, bản tóm tắt của bạn</string>
+    <string name="look_tut5_body">Chia sẻ chặng đường của bạn với bạn bè và những người thân thiết. Chạm vào kiểu bạn thích:</string>
+    <string name="look_tut_change_mind">Bạn luôn có thể đổi ý.</string>
+    <string name="look_tut6_title">Biến nó thành của bạn</string>
+    <string name="look_tut6_body">Chọn màu bạn thấy dễ chịu nhất. Cả ứng dụng đổi ngay lập tức.</string>
+    <string name="look_tut7_title">Đổi bất cứ gì, bất cứ lúc nào</string>
+    <string name="look_tut7_body">Giờ check-in, số ngày để tạo thói quen, kiểu tóm tắt, màu sắc và dữ liệu của bạn đều nằm trong Cài đặt.</string>
+    <string name="look_tut7_gear">Chạm vào bánh răng ở trên cùng màn hình Thói quen để mở Cài đặt.</string>
+    <string name="look_tut7_open">Mở Cài đặt</string>
+
+    <string name="lang_title">Ngôn ngữ</string>
+    <string name="pron_title">Danh xưng</string>
+    <string name="pron_she">nữ</string>
+    <string name="pron_he">nam</string>
+    <string name="pron_they">trung tính</string>
+    <string name="lang_spotted">Bạn thấy lỗi trong ngôn ngữ của mình?</string>
+    <string name="lang_search">Tìm ngôn ngữ của bạn</string>
+    <string name="lang_phone">Ngôn ngữ của điện thoại</string>
+    <string name="lang_follow">Theo điện thoại</string>
+    <string name="lang_note_title">Giúp dịch thuật</string>
+    <string name="lang_note_1">Chào bạn, mình là Lucy, người làm ra Alice.</string>
+    <string name="lang_note_2">Mình nói tiếng Anh, tiếng Slovakia, tiếng Séc và tiếng Nga, nên mình đã tự kiểm tra các bản dịch đó. Các ngôn ngữ khác chưa được người bản xứ kiểm tra.</string>
+    <string name="lang_note_3">Nếu bạn thấy lỗi trong ngôn ngữ của mình, hãy báo mình để mình sửa nhé. Và nếu bạn đã dùng Alice bằng ngôn ngữ của mình một thời gian và mọi thứ đều đúng, cũng hãy nói với mình, để mình đánh dấu là đã duyệt.</string>
+    <string name="lang_note_4">Cảm ơn bạn!</string>
+    <string name="lang_not_approved">CHƯA ĐƯỢC DUYỆT</string>
+    <string name="lang_report">Báo lỗi</string>
+    <string name="lang_all_correct">Ngôn ngữ của tôi đúng hết rồi</string>
+    <string name="lang_mail_mistake_body">Chỗ nào đọc chưa đúng, và ở màn hình nào:\n\n</string>
+    <string name="lang_mail_correct_body">Tôi đã dùng Alice bằng ngôn ngữ của mình một thời gian và mọi thứ đều đúng.\n\n</string>
+    <string name="lang_no_mail">Không tìm thấy ứng dụng email</string>
+</resources>

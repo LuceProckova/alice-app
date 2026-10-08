@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose he/him pronouns -->
+<resources>
+    <string name="look_improved_in">Ти покращив своє життя: %1$s</string>
+    <string name="look_poster_improved">Ти покращив своє життя: %1$s</string>
+    <string name="look_quote_4">Ти Не Здався. Це Важливо</string>
+    <string name="look_quote_6">Щодня Ти Обирав Краще</string>
+    <string name="look_report_ups_downs">Семестр зі злетами й падіннями, а ти витримав.</string>
+</resources>

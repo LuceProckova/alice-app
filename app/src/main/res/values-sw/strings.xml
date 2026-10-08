@@ -1,0 +1,772 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Nimechoka sana</string>
+    <string name="core_reason_craving">Tamaa</string>
+    <string name="core_reason_no_time">Sina muda</string>
+    <string name="core_reason_forgot">Nilisahau</string>
+    <string name="core_reason_no_alternative">Hakuna mbadala</string>
+    <string name="core_reason_social">Na watu</string>
+    <string name="core_reason_impulse">Msukumo wa ghafla</string>
+    <string name="core_reason_too_expensive">Ghali mno</string>
+    <string name="core_reason_away">Safarini</string>
+
+    <string name="core_nudge_channel">Kikumbusho cha kila siku</string>
+    <string name="core_nudge_title">Bado za kuweka alama leo</string>
+    <string name="core_save_failed">Imeshindikana kuhifadhi, tafadhali jaribu tena</string>
+
+    <string name="core_kind_habit">Tabia</string>
+    <string name="core_kind_swap">Badala</string>
+    <string name="core_kind_avoid">Epuka</string>
+    <string name="core_about">Kuhusu %1$s</string>
+    <string name="core_ok">Sawa</string>
+    <string name="core_less">Kidogo</string>
+    <string name="core_more">Zaidi</string>
+    <string name="core_cancel">Ghairi</string>
+    <string name="core_settings">Mipangilio</string>
+    <string name="core_span_week">Wiki</string>
+    <string name="core_span_month">Mwezi</string>
+    <string name="core_span_year">Mwaka</string>
+    <string name="core_span_all">Wakati wote</string>
+    <string name="core_tab_habits">Tabia</string>
+    <string name="core_tab_changes">Mabadiliko</string>
+    <string name="core_tab_avoid">Epuka</string>
+    <string name="core_tab_insights">Takwimu</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">imetimizwa</string>
+    <string name="core_cell_missed">imekosekana</string>
+    <string name="core_cell_partial">imefanyika kwa sehemu, %1$d hadi sasa</string>
+    <string name="core_cell_unfilled">bado haijajazwa</string>
+    <string name="core_cell_open">ya kufanya</string>
+    <string name="core_cell_locked">imefungwa hadi wakati wa kuripoti</string>
+    <string name="core_cell_future">bado</string>
+    <string name="core_cell_empty">hakuna kinachohitajika</string>
+    <string name="core_cell_band">imekamilika kwa kipindi hiki</string>
+    <string name="core_cell_off">si siku ya hatua hii</string>
+    <string name="core_cell_none">kabla hatua hii haijaanza</string>
+
+    <string name="core_rhythm_one_off">Mara moja tu</string>
+    <string name="core_rhythm_end_of_day">Kila siku, alama mwisho wa siku</string>
+    <string name="core_rhythm_every_day">Kila siku</string>
+    <string name="core_rhythm_every_days">Kila %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">kwa wiki</string>
+    <string name="core_rhythm_a_month">kwa mwezi</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, siku yoyote</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s na %2$s</string>
+
+    <string name="core_achievement_short_months">miezi %1$d</string>
+    <string name="core_achievement_short_days">siku %1$d</string>
+    <string name="core_glance_step">%1$s, %2$d kati ya %3$d</string>
+
+    <string name="core_slip_never">Kamwe</string>
+    <string name="core_slip_once">Mara moja</string>
+    <string name="core_slip_a_few">Mara chache</string>
+    <string name="core_slip_half">Nusu</string>
+    <string name="core_slip_most">Mara nyingi</string>
+    <string name="core_slip_always">Kila mara</string>
+
+    <string name="core_ideas_habit_anytime">Tabia, wakati wowote</string>
+    <string name="core_ideas_habit_end">Tabia, mwisho wa siku</string>
+    <string name="core_ideas_swap">Mbadala</string>
+    <string name="core_ideas_avoid_product">Epuka, bidhaa</string>
+    <string name="core_ideas_avoid_company">Epuka, kampuni</string>
+    <string name="core_ideas_avoid_food">Epuka, vyakula</string>
+
+    <string name="core_tag_ethical">Maadili</string>
+    <string name="core_tag_health">Afya</string>
+    <string name="core_tag_clutter">Msongamano wa vitu</string>
+    <string name="core_tag_ecological">Mazingira</string>
+    <string name="core_tag_animal_welfare">Ustawi wa wanyama</string>
+    <string name="core_tag_workers_rights">Haki za wafanyakazi</string>
+    <string name="core_tag_plastic">Plastiki</string>
+    <string name="core_tag_palm_oil">Mafuta ya mawese</string>
+    <string name="core_tag_deforestation">Ukataji wa misitu</string>
+    <string name="core_category_company">Kampuni</string>
+    <string name="core_category_food">Chakula</string>
+    <string name="core_category_product">Bidhaa</string>
+    <string name="core_verdict_avoid">EPUKA</string>
+    <string name="core_verdict_edge">MPAKANI</string>
+    <string name="core_verdict_fine">SAWA</string>
+
+    <string name="core_theme_off_white_honey">Nyeupe hafifu &amp; asali</string>
+    <string name="core_theme_vanilla_caramel">Vanila &amp; karameli</string>
+    <string name="core_theme_sunflower">Alizeti</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao &amp; limau</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; siagi</string>
+    <string name="core_theme_midnight_honey">Usiku wa manane &amp; asali</string>
+    <string name="core_theme_forest_night">Usiku msituni</string>
+    <string name="core_theme_plum_dusk">Machweo ya zambarau</string>
+    <string name="core_theme_charcoal_coral">Mkaa &amp; matumbawe</string>
+
+    <string name="core_pic_sunny_meadow">Mbuga yenye jua</string>
+    <string name="core_pic_sunset_hills">Vilima wakati wa machweo</string>
+    <string name="core_pic_starry_night">Usiku wenye nyota</string>
+    <string name="core_pic_beach_day">Siku ufukweni</string>
+    <string name="core_pic_mountain_lake">Ziwa la mlimani</string>
+    <string name="core_pic_snowy_village">Kijiji chenye theluji</string>
+    <string name="core_pic_rainy_garden">Bustani wakati wa mvua</string>
+    <string name="core_pic_autumn_forest">Msitu wa majira ya kupukutika</string>
+    <string name="core_pic_cherry_blossom">Maua ya cheri</string>
+    <string name="core_pic_desert_cactus">Mpungate wa jangwani</string>
+    <string name="core_pic_lighthouse">Mnara wa taa</string>
+    <string name="core_pic_rainbow_field">Shamba la upinde wa mvua</string>
+    <string name="core_pic_hot_air_balloon">Puto la hewa moto</string>
+    <string name="core_pic_sailboat">Mashua ya tanga</string>
+    <string name="core_pic_cabin_in_the_woods">Kibanda msituni</string>
+    <string name="core_pic_tulip_field">Shamba la tulipu</string>
+    <string name="core_pic_campfire_night">Usiku wa moto wa kambi</string>
+    <string name="core_pic_misty_mountains">Milima yenye ukungu</string>
+    <string name="core_pic_sunrise_sea">Bahari wakati wa macheo</string>
+    <string name="core_pic_snowy_pines">Misonobari yenye theluji</string>
+    <string name="core_pic_lavender_field">Shamba la lavenda</string>
+    <string name="core_pic_waterfall">Maporomoko ya maji</string>
+    <string name="core_pic_city_at_dusk">Jiji jioni</string>
+    <string name="core_pic_picnic">Pikiniki</string>
+    <string name="core_pic_moon_over_the_lake">Mwezi juu ya ziwa</string>
+    <string name="core_pic_palm_island">Kisiwa cha mitende</string>
+    <string name="core_pic_windmill">Kinu cha upepo</string>
+    <string name="core_pic_bike_path">Njia ya baiskeli</string>
+    <string name="core_pic_greenhouse">Kitalu cha kioo</string>
+    <string name="core_pic_northern_lights">Mwanga wa kaskazini</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">Hatua %d inakusubiri.</item>
+        <item quantity="other">Hatua %d zinakusubiri.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">imetimizwa, mara %d</item>
+        <item quantity="other">imetimizwa, mara %d</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">mara %d kwa siku</item>
+        <item quantity="other">mara %d kwa siku</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Mara moja</item>
+        <item quantity="other">Mara %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">kila wiki %d</item>
+        <item quantity="other">kila wiki %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">kila mwezi %d</item>
+        <item quantity="other">kila miezi %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">kila siku %d</item>
+        <item quantity="other">kila siku %d</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">mwezi %d, bila kukosa</item>
+        <item quantity="other">miezi %d, bila kukosa</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">mwezi %d imara</item>
+        <item quantity="other">miezi %d imara</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">siku %d mfululizo</item>
+        <item quantity="other">siku %d mfululizo</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">mwezi %d</item>
+        <item quantity="other">miezi %d</item>
+    </plurals>
+
+    <string name="tabs_new_step">Hatua mpya</string>
+    <string name="tabs_edit">Hariri</string>
+    <string name="tabs_delete">Futa</string>
+    <string name="tabs_done">Imekamilika</string>
+    <string name="tabs_back">Rudi</string>
+    <string name="tabs_earlier">Mapema</string>
+    <string name="tabs_later">Baadaye</string>
+    <string name="tabs_delete_title">Ufute %1$s?</string>
+    <string name="tabs_eod_unlock">Tabia za mwisho wa siku zinafunguka saa %1$02d:00</string>
+    <string name="tabs_check_up">Tathmini</string>
+    <string name="tabs_one_off">Mara moja tu</string>
+
+    <string name="tabs_checkin_from">Kuripoti kuanzia %1$02d:00</string>
+    <string name="tabs_checkin_daily">Kuripoti kwa Siku</string>
+    <string name="tabs_checkin_weekly">Kuripoti kwa Wiki</string>
+    <string name="tabs_checkin_quarter">Tathmini ya Miezi 3</string>
+    <string name="tabs_checked_in">Umeripoti</string>
+    <string name="tabs_quarter_section">TATHMINI YA MIEZI 3</string>
+    <string name="tabs_previous_week">Wiki iliyopita</string>
+    <string name="tabs_next_week">Wiki ijayo</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">Siku %1$d ya %2$s!</item>
+        <item quantity="other">Siku %1$d za %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Hongera. Sasa inahamia kwenye Tathmini zako za Miezi 3, hakuna tena alama za kila siku.</string>
+    <string name="tabs_celebrate_first">Ya kwanza ni %1$s.</string>
+    <string name="tabs_glance_title">Wiki yako</string>
+    <string name="tabs_glance_ticks_kept">Alama zilizotimizwa</string>
+    <string name="tabs_glance_days_checked_in">Siku ulizoripoti</string>
+    <string name="tabs_glance_top_tag">Sababu ya kuteleza iliyotumika zaidi:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, mara %2$d</item>
+        <item quantity="other">%1$s, mara %2$d</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Rahisi zaidi:</string>
+    <string name="tabs_glance_hardest">Ngumu zaidi:</string>
+
+    <string name="tabs_changes_ongoing">Mbadala unaoendelea</string>
+    <string name="tabs_changes_ongoing_tip_title">Mbadala unaoendelea</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Utakutana na uchaguzi huo tena, kama kikombe cha kahawa au kipande cha shampuu. Unawekewa alama kwenye Tabia kwa siku %1$d, kisha unaangaliwa kila miezi 3.</item>
+        <item quantity="other">Utakutana na uchaguzi huo tena, kama kikombe cha kahawa au kipande cha shampuu. Unawekewa alama kwenye Tabia kwa siku %1$d, kisha unaangaliwa kila miezi 3.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Bado hakuna mbadala</string>
+    <string name="tabs_changes_day_badge">SIKU %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">INADUMU</string>
+    <string name="tabs_changes_one_off_todo">Mara moja, ya kufanya</string>
+    <string name="tabs_changes_one_off_tip">Unaifanya mara moja na imekwisha, kama kupanga droo, kuhamia mpango wa umeme safi au kushona koti. Weka alama na inahamia Imekamilika.</string>
+    <string name="tabs_changes_nothing_waiting">Hakuna kinachosubiri</string>
+    <string name="tabs_changes_finished">IMEKAMILIKA · %1$d</string>
+
+    <string name="tabs_avoid_title">Orodha ya kuepuka</string>
+    <string name="tabs_avoid_search">Tafuta…</string>
+    <string name="tabs_avoid_no_match">Hakuna kinacholingana</string>
+    <string name="tabs_avoid_companies">Kampuni</string>
+    <string name="tabs_avoid_food">Vyakula</string>
+    <string name="tabs_avoid_products">Bidhaa</string>
+
+    <string name="tabs_avoid_added">Imeongezwa</string>
+    <string name="tabs_avoid_why">Kwa nini unaiepuka</string>
+    <string name="tabs_avoid_own_words">Kwa maneno yako mwenyewe</string>
+    <string name="tabs_avoid_brands">Chapa inazomiliki · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Chapa moja kwa kila mstari</string>
+    <string name="tabs_avoid_more_brands">+%1$d zaidi</string>
+    <string name="tabs_avoid_instead">Tumia hii badala yake</string>
+    <string name="tabs_avoid_instead_hint">Kimoja kwa kila mstari</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">kuteleza</item>
+        <item quantity="other">kuteleza</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">umeepuka</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">mwezi kwenye orodha</item>
+        <item quantity="other">miezi kwenye orodha</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Inaondoka kwenye orodha yako ya Kuepuka pamoja na historia yake.</string>
+
+    <string name="tabs_habit_delete_text">Historia yake yote inaondoka pamoja nayo.</string>
+    <string name="tabs_habit_created">Imeundwa</string>
+    <string name="tabs_habit_to_do">Ya kufanya</string>
+    <string name="tabs_habit_daily_ticks">Alama za kila siku</string>
+    <string name="tabs_habit_day_of">Siku %1$d kati ya %2$d</string>
+    <string name="tabs_habit_finished">Imekamilika</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">siku inaendelea</item>
+        <item quantity="other">siku zinaendelea</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">mara iliyovunjika</item>
+        <item quantity="other">mara zilizovunjika</item>
+    </plurals>
+    <string name="tabs_habit_success">mafanikio</string>
+    <string name="tabs_habit_current_streak">Mfululizo wa sasa</string>
+    <string name="tabs_habit_longest_streak">Mfululizo mrefu zaidi</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">siku %1$d</item>
+        <item quantity="other">siku %1$d</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Kwa nini uliteleza</string>
+    <string name="tabs_habit_remove_reason">Ondoa sababu hii</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">njia uliyoboresha maisha yako</item>
+        <item quantity="other">njia ulizoboresha maisha yako</item>
+    </plurals>
+    <string name="tabs_insights_habits">Tabia</string>
+    <string name="tabs_insights_swaps">Mbadala</string>
+    <string name="tabs_insights_avoids">Unavyoepuka</string>
+    <string name="tabs_insights_on_track_section">Kwenye mstari</string>
+    <string name="tabs_insights_avg_days">siku %1$d</string>
+    <string name="tabs_insights_average_kept">wastani uliotimizwa</string>
+    <string name="tabs_insights_days_checked_in">siku ulizoripoti</string>
+    <string name="tabs_insights_on_track">kwenye mstari</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">kuteleza</item>
+        <item quantity="other">kuteleza</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">hatua mpya</item>
+        <item quantity="other">hatua mpya</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">ya mara moja imekamilika</item>
+        <item quantity="other">za mara moja zimekamilika</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Sababu kuu za kuteleza</string>
+    <string name="tabs_insights_added_quarter">Zilizoongezwa robo hii</string>
+    <string name="tabs_insights_past_summaries">Muhtasari wa Miezi 3 iliyopita</string>
+    <string name="tabs_insights_first_on">Wa kwanza wako unakuja %1$s</string>
+    <string name="tabs_insights_all_time">Wakati wote</string>
+    <string name="tabs_insights_period">%1$s hadi %2$s %3$d</string>
+
+    <string name="forms_back">Rudi</string>
+    <string name="forms_back_habits">Tabia</string>
+    <string name="forms_back_settings">Mipangilio</string>
+    <string name="forms_add">Ongeza</string>
+    <string name="forms_save">Hifadhi</string>
+    <string name="forms_finish">Maliza</string>
+    <string name="forms_delete">Futa</string>
+    <string name="forms_why">Kwa nini</string>
+    <string name="forms_never_show">Usionyeshe tena</string>
+    <string name="forms_every">Kila</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">siku</item>
+        <item quantity="other">siku</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Hatua %1$d kati ya %2$d</string>
+    <string name="forms_checkin_next_weekly">Ifuatayo, Kuripoti kwa Wiki ›</string>
+    <string name="forms_checkin_next_quarter">Ifuatayo, Tathmini ya Miezi 3 ›</string>
+    <string name="forms_daily_title">Kuripoti kwa Siku</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">Siku %1$d ya awali haijajazwa</item>
+        <item quantity="other">Siku %1$d za awali hazijajazwa</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Ruka zote</string>
+    <string name="forms_daily_today">Leo · %1$s</string>
+    <string name="forms_daily_skip">Ruka</string>
+    <string name="forms_daily_undo_skip">Tendua kuruka</string>
+    <string name="forms_daily_new_tag">Lebo mpya</string>
+    <string name="forms_daily_new_tag_hint">Pipa lilikuwa limejaa</string>
+    <string name="forms_weekly_title">Kuripoti kwa Wiki</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">Wiki %1$d inadaiwa, hatua moja mpya inazifunika zote.</item>
+        <item quantity="other">Wiki %1$d zinadaiwa, hatua moja mpya inazifunika zote.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Hakuna hatua mpya wiki hii</string>
+    <string name="forms_quarter_title">Tathmini ya Miezi 3</string>
+    <string name="forms_quarter_nothing">Bado hakuna cha kutathmini. Muhtasari wako unafuata.</string>
+    <string name="forms_quarter_habits">Tabia</string>
+    <string name="forms_quarter_swaps">Mbadala</string>
+    <string name="forms_quarter_avoid">Epuka</string>
+    <string name="forms_quarter_missed">Ulikosa</string>
+    <string name="forms_quarter_missed_level">Ulikosa: %1$s</string>
+
+    <string name="forms_new_title">Hatua mpya</string>
+    <string name="forms_edit_title">Hariri: %1$s</string>
+    <string name="forms_add_kind">Ongeza: %1$s</string>
+    <string name="forms_title_habit">Tabia</string>
+    <string name="forms_title_swap">Badala</string>
+    <string name="forms_title_avoid">Epuka</string>
+    <string name="forms_save_changes">Hifadhi mabadiliko</string>
+    <string name="forms_what_kind">Aina gani?</string>
+    <string name="forms_name">Jina</string>
+    <string name="forms_your_new_step">Hatua yako mpya</string>
+    <string name="forms_hint_habit">Soma kurasa 10</string>
+    <string name="forms_hint_swap">Dodoki, si sifongo</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Tabia ya aina gani?</string>
+    <string name="forms_timing_tip_title">Wakati wowote au mwisho wa siku</string>
+    <string name="forms_timing_tip">Wakati wowote: kitu unachofanya mara moja, kama kukimbia. Weka alama mara tu kimekamilika.\n\nMwisho wa siku: kanuni unayoshika siku nzima, kama kutokula vitafunio. Unaweza kuweka alama jioni tu.</string>
+    <string name="forms_anytime">Wakati wowote</string>
+    <string name="forms_end_of_day">Mwisho wa siku</string>
+    <string name="forms_what_is_it">Ni nini?</string>
+    <string name="forms_how_often">Mara ngapi?</string>
+    <string name="forms_often_specific">Siku maalum</string>
+    <string name="forms_often_whenever">Wakati wowote</string>
+    <string name="forms_often_once">Mara moja tu</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">mara kila</item>
+        <item quantity="other">mara kila</item>
+    </plurals>
+    <string name="forms_unit_day">siku</string>
+    <string name="forms_unit_week">wiki</string>
+    <string name="forms_unit_month">mwezi</string>
+    <string name="forms_unit_x_days">siku X</string>
+    <string name="forms_ideas">Mawazo</string>
+    <string name="forms_ideas_others">Mengine</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Ona wazo %1$d ›</item>
+        <item quantity="other">Ona mawazo yote %1$d ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Mawazo yote ya hatua</string>
+    <string name="forms_search">Tafuta…</string>
+    <string name="forms_all">Zote</string>
+
+    <string name="forms_settings_title">Mipangilio</string>
+    <string name="forms_set_colours">Rangi</string>
+    <string name="forms_set_style">Mtindo wa muhtasari wa Miezi 3</string>
+    <string name="forms_set_checkins">Kuripoti</string>
+    <string name="forms_set_checkin_hour">Kuripoti kwa Siku kunafunguka saa</string>
+    <string name="forms_set_checkin_hour_tip">Kuanzia wakati huu unaweza kuweka alama kwenye tabia za mwisho wa siku na kufanya Kuripoti kwa Siku.</string>
+    <string name="forms_set_week_start">Wiki inaanza</string>
+    <string name="forms_set_week_start_tip">Siku ambayo jedwali lako la Tabia, wiki na chati zinaanza.</string>
+    <string name="forms_monday">Jumatatu</string>
+    <string name="forms_sunday">Jumapili</string>
+    <string name="forms_set_new_step_every">Hatua mpya kila</string>
+    <string name="forms_set_new_step_every_tip">Wiki ngapi kati ya Kuripoti kwa Wiki.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">wiki</item>
+        <item quantity="other">wiki</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Siku ya Kuripoti kwa Wiki</string>
+    <string name="forms_set_weekly_day_tip">Siku hii, baada ya Kuripoti kwa Siku utachagua hatua mpya ya wiki ijayo.</string>
+    <string name="forms_set_checkup">Tathmini ya Miezi 3</string>
+    <string name="forms_set_checkup_tip">Kila mtu anafanya tathmini siku zilezile: 1 Jan, 1 Apr, 1 Jul na 1 Okt, ili mshiriki muhtasari wenu pamoja. Unaweza kuchagua tarehe yako mwenyewe badala yake.</string>
+    <string name="forms_set_same">Sawa na kila mtu</string>
+    <string name="forms_set_own">Tarehe yangu mwenyewe</string>
+    <string name="forms_set_starting">Kuanzia</string>
+    <string name="forms_set_starting_tip">Mwezi wa tathmini yako ya kwanza binafsi.</string>
+    <string name="forms_earlier">Mapema</string>
+    <string name="forms_later">Baadaye</string>
+    <string name="forms_set_every_tip">Miezi kati ya tathmini.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">mwezi</item>
+        <item quantity="other">miezi</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Siku ya mwezi</string>
+    <string name="forms_set_day_of_month_tip">Siku gani ya mwezi huo.</string>
+    <string name="forms_set_everyone">Kila mtu: 1 Jan · 1 Apr · 1 Jul · 1 Okt</string>
+    <string name="forms_set_days_build">Siku za kujenga tabia</string>
+    <string name="forms_set_days_build_tip">Utafiti ulipata siku 18 hadi 254, inayotajwa mara nyingi ni 66 (Lally et al. 2010, Singh et al. 2024). Baada ya siku hizi, hatua mpya inahamia kwenye tathmini zako.</string>
+    <string name="forms_set_nudge">Kikumbusho cha kila siku</string>
+    <string name="forms_set_nudge_tip">Kikumbusho saa hii, ikiwa tu bado kuna kitu bila alama.</string>
+    <string name="forms_set_more">Zaidi</string>
+    <string name="forms_set_reasons">Sababu za kuteleza</string>
+    <string name="forms_set_tutorial">Rudia mafunzo</string>
+    <string name="forms_set_export">Hamisha data yangu</string>
+    <string name="forms_set_import">Leta data</string>
+
+    <string name="forms_reasons_title">Sababu za kuteleza</string>
+    <string name="forms_reasons_hint">Ongeza sababu yako mwenyewe</string>
+    <string name="forms_reasons_used">imetumika %1$d×</string>
+    <string name="forms_reasons_delete_title">Ufute %1$s?</string>
+    <string name="forms_reasons_delete_text">Makosa yanabaki kwenye historia yako, ila bila lebo hii.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">tabia %1$d</item>
+        <item quantity="other">tabia %1$d</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">mbadala %1$d</item>
+        <item quantity="other">mbadala %1$d</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">kinachoepukwa %1$d</item>
+        <item quantity="other">vinavyoepukwa %1$d</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, alama tangu %2$s</string>
+    <string name="forms_export_title">Hamisha data yangu</string>
+    <string name="forms_export_what">Kilichomo kwenye faili</string>
+    <string name="forms_export_ticks">Kila alama, kuteleza na sababu</string>
+    <string name="forms_export_ticks_since">Kila alama, kuteleza na sababu tangu %1$s</string>
+    <string name="forms_export_summaries">Muhtasari wako wa Miezi 3</string>
+    <string name="forms_export_settings">Mipangilio yako, rangi na jina</string>
+    <string name="forms_export_file">Faili</string>
+    <string name="forms_export_kb">KB %1$d</string>
+    <string name="forms_export_save">Hifadhi faili</string>
+    <string name="forms_export_send">Tuma kwa…</string>
+    <string name="forms_export_send_title">Tuma data yako ya Alice</string>
+    <string name="forms_export_saved">Imehifadhiwa %1$s</string>
+    <string name="forms_export_save_failed">Imeshindikana kuhifadhi faili</string>
+
+    <string name="forms_import_title">Leta data</string>
+    <string name="forms_import_choose">Chagua nakala ya Alice</string>
+    <string name="forms_import_choose_sub">.json, kutoka Hamisha kwenye simu nyingine</string>
+    <string name="forms_import_cant_open">Imeshindikana kufungua faili hilo.</string>
+    <string name="forms_import_not_backup">Faili hilo si nakala ya Alice.</string>
+    <string name="forms_import_replace_mode">Badilisha kilichopo</string>
+    <string name="forms_import_add_mode">Ongeza kwenye kilichopo</string>
+    <string name="forms_import_button">Leta</string>
+    <string name="forms_import_replace_title">Ubadilishe data yako?</string>
+    <string name="forms_import_add_title">Uongeze data hii?</string>
+    <string name="forms_import_replace_text">Kila kitu kwenye simu hii kinabadilishwa na faili. Hamisha kwanza kama unataka kukihifadhi.</string>
+    <string name="forms_import_add_text">Tabia na historia iliyomo kwenye faili zinaongezwa kwenye zako.</string>
+    <string name="forms_import_done">Data imeletwa</string>
+
+    <string name="look_share">Shiriki</string>
+    <string name="look_save_image">Hifadhi picha</string>
+    <string name="look_next_week">Ifuatayo, wiki yako ›</string>
+    <string name="look_keep_going">Endelea</string>
+    <string name="look_storage_needed">Alice inahitaji ruhusa ya hifadhi ili kuhifadhi picha</string>
+    <string name="look_share_caption">Robo yangu na Alice. Anza yako: %1$s</string>
+    <string name="look_share_clip">Muhtasari wa Alice</string>
+    <string name="look_share_chooser">Shiriki robo yako</string>
+    <string name="look_saved">Imehifadhiwa kwenye Pictures/Alice</string>
+    <string name="look_save_failed">Imeshindikana kuhifadhi picha</string>
+
+    <string name="look_style_poster">Bango</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Kabati la tuzo</string>
+    <string name="look_style_receipt">Risiti</string>
+    <string name="look_style_report">Ripoti ya shule</string>
+    <string name="look_style_boarding">Tiketi ya kupanda ndege</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalenda</string>
+    <string name="look_style_trading">Kadi ya kubadilishana</string>
+
+    <string name="look_quote_1">Hatua Ndogo, Kila Siku</string>
+    <string name="look_quote_2">Asante kwa Kujitokeza</string>
+    <string name="look_quote_3">Maendeleo, Si Ukamilifu</string>
+    <string name="look_quote_4">Uliendelea. Hilo ni Muhimu</string>
+    <string name="look_quote_5">Mabadiliko Madogo, Tofauti Kubwa</string>
+    <string name="look_quote_6">Kila Siku Ulichagua Bora</string>
+    <string name="look_quote_7">Polepole Bado ni Mbele</string>
+    <string name="look_quote_8">Unajenga Maisha Unayoyapenda</string>
+    <string name="look_quote_9">Hatua Moja Moja Hujumlika</string>
+    <string name="look_quote_10">Endelea Kujitokeza kwa Ajili Yako</string>
+    <string name="look_quote_11">Wewe wa Kesho Anasema Asante</string>
+    <string name="look_quote_12">Haba na Haba Hujaza Kibaba</string>
+    <string name="look_quote_13">Uthabiti ni Uchawi Mtulivu</string>
+    <string name="look_quote_14">Tazama Umefika Wapi</string>
+    <string name="look_quote_15">Jivunie Ushindi Mdogo</string>
+    <string name="look_quote_16">Siku Njema Hujengwa, Hazipatikani Tu</string>
+
+    <string name="look_stamp_1">BORA SANA</string>
+    <string name="look_stamp_2">SHUJAA</string>
+    <string name="look_stamp_3">HONGERA</string>
+    <string name="look_stamp_4">SAFI SANA</string>
+    <string name="look_stamp_5">KIWANGO CHA JUU</string>
+    <string name="look_stamp_6">ALAMA ZA JUU</string>
+    <string name="look_stamp_7">NYOTA YA DHAHABU</string>
+    <string name="look_stamp_8">KAZI NZURI</string>
+
+    <string name="look_period">%1$s hadi %2$s</string>
+    <string name="look_scan">SKANI ILI\nUANZE SAFARI\nYAKO</string>
+    <string name="look_you">Wewe</string>
+    <string name="look_on_track">kwenye mstari</string>
+    <string name="look_new_steps">hatua mpya</string>
+    <string name="look_days_in">siku tangu kuanza</string>
+    <string name="look_new">mpya</string>
+    <string name="look_week_by_week">Wiki kwa wiki</string>
+    <string name="look_coming_soon">Inakuja hivi karibuni</string>
+    <string name="look_new_this_quarter">Mpya robo hii</string>
+    <string name="look_kept_up_longest">Zilizodumu zaidi</string>
+    <string name="look_habits">Tabia</string>
+    <string name="look_swaps">Mbadala</string>
+    <string name="look_avoids">Unavyoepuka</string>
+    <string name="look_ways_improved">Njia ulizoboresha</string>
+    <string name="look_improved_in">Uliboresha maisha yako kwa %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">tabia %1$d</item>
+        <item quantity="other">tabia %1$d</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">mbadala %1$d</item>
+        <item quantity="other">mbadala %1$d</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">kinachoepukwa %1$d</item>
+        <item quantity="other">vinavyoepukwa %1$d</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">kuteleza %1$d</item>
+        <item quantity="other">kuteleza %1$d</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">njia %1$d</item>
+        <item quantity="other">njia %1$d</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">tabia</item>
+        <item quantity="other">tabia</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">mbadala</item>
+        <item quantity="other">mbadala</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">unachoepuka</item>
+        <item quantity="other">unavyoepuka</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">kuteleza</item>
+        <item quantity="other">kuteleza</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">njia</item>
+        <item quantity="other">njia</item>
+    </plurals>
+
+    <string name="look_poster_improved">Umeboresha maisha yako kwa %1$s</string>
+    <string name="look_poster_on_track">KWENYE MSTARI</string>
+    <string name="look_poster_days">siku</string>
+    <string name="look_poster_achievements">Mafanikio</string>
+    <string name="look_poster_first_ones">Ya kwanza yako yako njiani</string>
+    <string name="look_poster_added">Ulichoongeza robo hii</string>
+
+    <string name="look_wrapped_stars">Nyota zako</string>
+
+    <string name="look_trophy_ways">njia ulizoboresha\nmaisha yako</string>
+    <string name="look_trophy_next_quarter">Robo ijayo</string>
+    <string name="look_trophy_first_medal">medali yako ya kwanza</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Mpya kabatini:</string>
+
+    <string name="look_receipt_title">Tathmini ya Miezi 3 · %1$s</string>
+    <string name="look_receipt_customer">Mteja: %1$s</string>
+    <string name="look_receipt_habits">Tabia zilizojengwa</string>
+    <string name="look_receipt_swaps">Vitu vilivyobadilishwa</string>
+    <string name="look_receipt_avoids">Vitu vilivyoepukwa</string>
+    <string name="look_receipt_ways">Njia ulizoboresha maisha yako</string>
+    <string name="look_receipt_on_track">Kwenye mstari robo hii</string>
+    <string name="look_receipt_slips">Kuteleza</string>
+    <string name="look_receipt_new_steps">Hatua mpya zilizojengwa</string>
+    <string name="look_receipt_new">Mpya robo hii: %1$s</string>
+
+    <string name="look_report_title">Ripoti ya Hatua Ndogo</string>
+    <string name="look_report_pupil">%1$s · Mwanafunzi: %2$s</string>
+    <string name="look_report_subject">SOMO</string>
+    <string name="look_report_built">IMEJENGWA</string>
+    <string name="look_report_grade">ALAMA</string>
+    <string name="look_report_attendance">Mahudhurio %1$s</string>
+    <string name="look_report_on_track">Kwenye mstari %1$s</string>
+    <string name="look_report_slips">Kuteleza %1$s</string>
+    <string name="look_report_achievements">MAFANIKIO</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">MASOMO MAPYA MUHULA HUU (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Maoni ya mwalimu:</string>
+    <string name="look_report_calm">Muhula tulivu na thabiti.</string>
+    <string name="look_report_ups_downs">Muhula wenye panda shuka, na uliendelea nao.</string>
+    <string name="look_report_star">%1$s amefanya vizuri sana. Endelea hivyo!</string>
+    <string name="look_report_keep_up">Endelea hivyo!</string>
+    <string name="look_report_week">WIKI KWA WIKI</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Safari Q%1$d</string>
+    <string name="look_boarding_from">KUTOKA</string>
+    <string name="look_boarding_old">ZAMANI</string>
+    <string name="look_boarding_habits">tabia</string>
+    <string name="look_boarding_to">KWENDA</string>
+    <string name="look_boarding_new">MPYA</string>
+    <string name="look_boarding_better_you">wewe bora</string>
+    <string name="look_boarding_passenger">Abiria</string>
+    <string name="look_boarding_dates">Tarehe</string>
+    <string name="look_boarding_miles">Maili zilizosafiriwa</string>
+    <string name="look_boarding_on_time">Kwa wakati</string>
+    <string name="look_boarding_turbulence">Mtikisiko</string>
+    <string name="look_boarding_days">Siku safarini</string>
+    <string name="look_boarding_flyer">MSAFIRI WA MARA KWA MARA, WENZAKO WA MUDA MREFU</string>
+    <string name="look_boarding_log">KUMBUKUMBU ZA SAFARI, WIKI KWA WIKI</string>
+    <string name="look_boarding_stops">VITUO VIPYA, +%1$d</string>
+    <string name="look_boarding_note">UJUMBE WA RUBANI</string>
+
+    <string name="look_polaroid_life">MAISHA YAKO</string>
+    <string name="look_polaroid_quarter">ROBO HII</string>
+    <string name="look_polaroid_days_in">siku %1$d/%2$d</string>
+    <string name="look_polaroid_longest">ZILIZODUMU ZAIDI</string>
+    <string name="look_polaroid_new">MPYA, +%1$d</string>
+
+    <string name="look_calendar_added">Zilizoongezwa</string>
+
+    <string name="look_trading_common">Kawaida</string>
+    <string name="look_trading_uncommon">Si kawaida</string>
+    <string name="look_trading_rare">Adimu</string>
+    <string name="look_trading_legendary">Hadithi</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">NJIA</item>
+        <item quantity="other">NJIA</item>
+    </plurals>
+    <string name="look_ordinal_st">ya %1$d</string>
+    <string name="look_ordinal_nd">ya %1$d</string>
+    <string name="look_ordinal_rd">ya %1$d</string>
+    <string name="look_ordinal_th">ya %1$d</string>
+    <string name="look_trading_number">Na. %1$03d · robo yako %2$s</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">siku %1$d/%2$d</string>
+    <string name="look_trading_power">Nguvu, wiki kwa wiki</string>
+    <string name="look_trading_edition">%1$s · toleo la Q%2$d</string>
+
+    <string name="look_sample_water_first">Maji kwanza</string>
+    <string name="look_sample_own_bag">Mfuko wangu</string>
+    <string name="look_sample_read_pages">Soma kurasa 10</string>
+    <string name="look_sample_reading">Kusoma kila siku</string>
+    <string name="look_sample_late_snacks">Hakuna vitafunio usiku</string>
+    <string name="look_sample_stretching">Kunyoosha mwili</string>
+    <string name="look_sample_cooler_home">Nyumba yenye ubaridi</string>
+    <string name="look_sample_loofah">Dodoki, si sifongo</string>
+    <string name="look_sample_palm_oil">Bila mafuta ya mawese</string>
+    <string name="look_sample_stretch">Nyoosha mwili dk 10</string>
+
+    <string name="look_colours_title">Rangi</string>
+    <string name="look_colours_preview">Onyesho</string>
+    <string name="look_colours_your_summary">Muhtasari wako wa Miezi 3</string>
+    <string name="look_colours_light">Mwanga</string>
+    <string name="look_colours_dark">Giza</string>
+    <string name="look_styles_title">Mtindo wa muhtasari wa Miezi 3</string>
+    <string name="look_styles_all_pictures">Ona picha zote 30 za Polaroid</string>
+    <string name="look_styles_refresh">Onyesha upya</string>
+    <string name="look_pictures_title">Picha za Polaroid</string>
+    <string name="look_pictures_back">Mitindo ya muhtasari</string>
+
+    <string name="look_welcome_name">Jina lako</string>
+    <string name="look_welcome_start">Anza</string>
+    <string name="look_welcome_import">Leta data yangu</string>
+
+    <string name="look_tut_skip">Ruka</string>
+    <string name="look_tut_page">%1$d KATI YA %2$d</string>
+    <string name="look_tut_back">Rudi</string>
+    <string name="look_tut_start">Anza</string>
+    <string name="look_tut_next">Ifuatayo</string>
+    <string name="look_tut1_title">Kuwa toleo bora lako, hatua moja moja</string>
+    <string name="look_tut1_body">Jenga tabia mpya, fanya machaguo ya upole zaidi, na uone kila unachofanikisha kikijumlika.</string>
+    <string name="look_tut1_habits">Jenga tabia nzuri siku baada ya siku na uwe yule unayetaka kuwa.</string>
+    <string name="look_tut1_swaps">Badilisha bidhaa kwa zilizo bora, kwa sayari, kwa watu au kwa afya yako.</string>
+    <string name="look_tut1_avoids">Fuatilia kampuni, vyakula na bidhaa ambazo hupendi kuziunga mkono.</string>
+    <string name="look_tut2_title">Weka alama</string>
+    <string name="look_tut2_body">Gusa mraba ukishafanya tabia. Za jioni zinafunguka wakati wako wa kuripoti.</string>
+    <string name="look_tut3_title">%1$s, kisha kila %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">siku %1$d</item>
+        <item quantity="other">siku %1$d</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">mwezi %1$d</item>
+        <item quantity="other">miezi %1$d</item>
+    </plurals>
+    <string name="look_tut3_body">Tafiti zimegundua kuwa kujenga tabia huchukua kati ya siku 18 na 254. Idadi inayotajwa zaidi ni siku 66, kwa hiyo Alice inaanzia hapo.</string>
+    <string name="look_tut3_days_label">Siku za kujenga tabia</string>
+    <string name="look_tut3_checkup">Tathmini kila</string>
+    <string name="look_tut3_small">Unaweza kubadilisha vyote viwili kwenye Mipangilio.</string>
+    <string name="look_tut4_title">Mara moja kwa wiki, hatua moja mpya</string>
+    <string name="look_tut4_body">Kuongeza hatua moja mpya kwa wakati kunakuwezesha kukua polepole, bila kubeba mengi kwa mara moja.</string>
+    <string name="look_tut4_day">Siku ya kuripoti</string>
+    <string name="look_tut4_small">Unaweza kubadilisha hili pia kwenye Mipangilio.</string>
+    <string name="look_tut5_title">Kila robo, muhtasari wako</string>
+    <string name="look_tut5_body">Shiriki umefika wapi na marafiki zako na watu wako wa karibu. Gusa mwonekano unaoupenda:</string>
+    <string name="look_tut_change_mind">Unaweza kubadili uamuzi wakati wowote.</string>
+    <string name="look_tut6_title">Ifanye iwe yako</string>
+    <string name="look_tut6_body">Chagua rangi zinazokufaa zaidi. Programu nzima inabadilika papo hapo.</string>
+    <string name="look_tut7_title">Badilisha chochote, wakati wowote</string>
+    <string name="look_tut7_body">Muda wa kuripoti, siku za kujenga tabia, mtindo wa muhtasari, rangi na data yako vyote viko kwenye Mipangilio.</string>
+    <string name="look_tut7_gear">Gusa gia juu ya Tabia ili kufungua Mipangilio.</string>
+    <string name="look_tut7_open">Fungua Mipangilio</string>
+
+    <string name="lang_title">Lugha</string>
+    <string name="pron_title">Viwakilishi</string>
+    <string name="pron_she">yeye (ke)</string>
+    <string name="pron_he">yeye (me)</string>
+    <string name="pron_they">bila jinsia</string>
+    <string name="lang_spotted">Umeona kosa katika lugha yako?</string>
+    <string name="lang_search">Tafuta lugha yako</string>
+    <string name="lang_phone">Lugha ya simu</string>
+    <string name="lang_follow">Fuata simu yako</string>
+    <string name="lang_note_title">Saidia na tafsiri</string>
+    <string name="lang_note_1">Habari, mimi ni Lucy na nimetengeneza Alice.</string>
+    <string name="lang_note_2">Ninazungumza Kiingereza, Kislovakia, Kicheki na Kirusi, kwa hiyo nilikagua tafsiri hizo mwenyewe. Lugha nyingine bado hazijakaguliwa na mzungumzaji asilia.</string>
+    <string name="lang_note_3">Ukiona kosa katika lugha yako, tafadhali niambie ili nilirekebishe. Na kama umetumia Alice kwa lugha yako kwa muda na kila kitu kinasomeka vizuri, niambie pia, ili niweze kuiidhinisha.</string>
+    <string name="lang_note_4">Asante!</string>
+    <string name="lang_not_approved">BADO HAIJAIDHINISHWA</string>
+    <string name="lang_report">Ripoti kosa</string>
+    <string name="lang_all_correct">Lugha yangu iko sahihi kabisa</string>
+    <string name="lang_mail_mistake_body">Kinachosomeka vibaya, na kwenye skrini gani:\n\n</string>
+    <string name="lang_mail_correct_body">Nimetumia Alice kwa lugha yangu kwa muda na kila kitu kinasomeka vizuri.\n\n</string>
+    <string name="lang_no_mail">Hakuna programu ya barua pepe iliyopatikana</string>
+</resources>

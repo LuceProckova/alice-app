@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">너무 피곤함</string>
+    <string name="core_reason_craving">너무 당김</string>
+    <string name="core_reason_no_time">시간 없음</string>
+    <string name="core_reason_forgot">깜빡함</string>
+    <string name="core_reason_no_alternative">대안 없음</string>
+    <string name="core_reason_social">모임</string>
+    <string name="core_reason_impulse">충동</string>
+    <string name="core_reason_too_expensive">너무 비쌈</string>
+    <string name="core_reason_away">외출 중</string>
+
+    <string name="core_nudge_channel">하루 알림</string>
+    <string name="core_nudge_title">오늘 아직 체크할 게 있어요</string>
+    <string name="core_save_failed">저장하지 못했어요. 다시 시도해 주세요</string>
+
+    <string name="core_kind_habit">습관</string>
+    <string name="core_kind_swap">바꾸기</string>
+    <string name="core_kind_avoid">피하기</string>
+    <string name="core_about">%1$s 정보</string>
+    <string name="core_ok">확인</string>
+    <string name="core_less">접기</string>
+    <string name="core_more">더 보기</string>
+    <string name="core_cancel">취소</string>
+    <string name="core_settings">설정</string>
+    <string name="core_span_week">주</string>
+    <string name="core_span_month">월</string>
+    <string name="core_span_year">년</string>
+    <string name="core_span_all">전체</string>
+    <string name="core_tab_habits">습관</string>
+    <string name="core_tab_changes">변화</string>
+    <string name="core_tab_avoid">피하기</string>
+    <string name="core_tab_insights">통계</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">지킴</string>
+    <string name="core_cell_missed">놓침</string>
+    <string name="core_cell_partial">일부 완료, 지금까지 %1$d번</string>
+    <string name="core_cell_unfilled">아직 기록 안 함</string>
+    <string name="core_cell_open">할 일</string>
+    <string name="core_cell_locked">체크인 시간까지 잠김</string>
+    <string name="core_cell_future">아직 아님</string>
+    <string name="core_cell_empty">할 일 없음</string>
+    <string name="core_cell_band">이번 기간 완료</string>
+    <string name="core_cell_off">이 단계를 하는 날이 아님</string>
+    <string name="core_cell_none">이 단계 시작 전</string>
+
+    <string name="core_rhythm_one_off">한 번만</string>
+    <string name="core_rhythm_end_of_day">매일, 하루가 끝날 때 체크</string>
+    <string name="core_rhythm_every_day">매일</string>
+    <string name="core_rhythm_every_days">매주 %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">일주일에</string>
+    <string name="core_rhythm_a_month">한 달에</string>
+    <string name="core_rhythm_times_any_day">%2$s %1$s, 아무 날이나</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s, %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d개월</string>
+    <string name="core_achievement_short_days">%1$d일</string>
+    <string name="core_glance_step">%1$s, %3$d번 중 %2$d번</string>
+
+    <string name="core_slip_never">전혀 없음</string>
+    <string name="core_slip_once">한 번</string>
+    <string name="core_slip_a_few">몇 번</string>
+    <string name="core_slip_half">절반</string>
+    <string name="core_slip_most">대부분</string>
+    <string name="core_slip_always">항상</string>
+
+    <string name="core_ideas_habit_anytime">습관, 아무 때나</string>
+    <string name="core_ideas_habit_end">습관, 하루 끝에</string>
+    <string name="core_ideas_swap">바꾸기</string>
+    <string name="core_ideas_avoid_product">피하기, 제품</string>
+    <string name="core_ideas_avoid_company">피하기, 기업</string>
+    <string name="core_ideas_avoid_food">피하기, 음식</string>
+
+    <string name="core_tag_ethical">윤리</string>
+    <string name="core_tag_health">건강</string>
+    <string name="core_tag_clutter">잡동사니</string>
+    <string name="core_tag_ecological">환경</string>
+    <string name="core_tag_animal_welfare">동물 복지</string>
+    <string name="core_tag_workers_rights">노동자 권리</string>
+    <string name="core_tag_plastic">플라스틱</string>
+    <string name="core_tag_palm_oil">팜유</string>
+    <string name="core_tag_deforestation">삼림 파괴</string>
+    <string name="core_category_company">기업</string>
+    <string name="core_category_food">음식</string>
+    <string name="core_category_product">제품</string>
+    <string name="core_verdict_avoid">피하기</string>
+    <string name="core_verdict_edge">애매함</string>
+    <string name="core_verdict_fine">괜찮음</string>
+
+    <string name="core_theme_off_white_honey">오프화이트 &amp; 허니</string>
+    <string name="core_theme_vanilla_caramel">바닐라 &amp; 캐러멜</string>
+    <string name="core_theme_sunflower">해바라기</string>
+    <string name="core_theme_latte">라테</string>
+    <string name="core_theme_cocoa_lemon">코코아 &amp; 레몬</string>
+    <string name="core_theme_espresso_butter">에스프레소 &amp; 버터</string>
+    <string name="core_theme_midnight_honey">미드나잇 &amp; 허니</string>
+    <string name="core_theme_forest_night">숲속의 밤</string>
+    <string name="core_theme_plum_dusk">자두빛 노을</string>
+    <string name="core_theme_charcoal_coral">차콜 &amp; 코랄</string>
+
+    <string name="core_pic_sunny_meadow">햇살 가득한 초원</string>
+    <string name="core_pic_sunset_hills">노을 진 언덕</string>
+    <string name="core_pic_starry_night">별이 빛나는 밤</string>
+    <string name="core_pic_beach_day">바닷가의 하루</string>
+    <string name="core_pic_mountain_lake">산속 호수</string>
+    <string name="core_pic_snowy_village">눈 덮인 마을</string>
+    <string name="core_pic_rainy_garden">비 오는 정원</string>
+    <string name="core_pic_autumn_forest">가을 숲</string>
+    <string name="core_pic_cherry_blossom">벚꽃</string>
+    <string name="core_pic_desert_cactus">사막 선인장</string>
+    <string name="core_pic_lighthouse">등대</string>
+    <string name="core_pic_rainbow_field">무지개 들판</string>
+    <string name="core_pic_hot_air_balloon">열기구</string>
+    <string name="core_pic_sailboat">돛단배</string>
+    <string name="core_pic_cabin_in_the_woods">숲속 오두막</string>
+    <string name="core_pic_tulip_field">튤립 밭</string>
+    <string name="core_pic_campfire_night">캠프파이어의 밤</string>
+    <string name="core_pic_misty_mountains">안개 낀 산</string>
+    <string name="core_pic_sunrise_sea">해 뜨는 바다</string>
+    <string name="core_pic_snowy_pines">눈 덮인 소나무</string>
+    <string name="core_pic_lavender_field">라벤더 밭</string>
+    <string name="core_pic_waterfall">폭포</string>
+    <string name="core_pic_city_at_dusk">해 질 녘 도시</string>
+    <string name="core_pic_picnic">소풍</string>
+    <string name="core_pic_moon_over_the_lake">호수 위의 달</string>
+    <string name="core_pic_palm_island">야자수 섬</string>
+    <string name="core_pic_windmill">풍차</string>
+    <string name="core_pic_bike_path">자전거 길</string>
+    <string name="core_pic_greenhouse">온실</string>
+    <string name="core_pic_northern_lights">오로라</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="other">%d개의 단계가 기다리고 있어요.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="other">지킴, %d번</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="other">하루 %d번</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="other">%d번</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="other">%d주마다</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="other">%d개월마다</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="other">%d일마다</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="other">%d개월, 한 번도 안 놓침</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="other">%d개월째 꾸준히</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="other">%d일 연속</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="other">%d개월</item>
+    </plurals>
+
+    <string name="tabs_new_step">새 단계</string>
+    <string name="tabs_edit">편집</string>
+    <string name="tabs_delete">삭제</string>
+    <string name="tabs_done">완료</string>
+    <string name="tabs_back">뒤로</string>
+    <string name="tabs_earlier">이전</string>
+    <string name="tabs_later">이후</string>
+    <string name="tabs_delete_title">%1$s 삭제할까요?</string>
+    <string name="tabs_eod_unlock">하루 끝 습관은 %1$02d:00에 열려요</string>
+    <string name="tabs_check_up">점검</string>
+    <string name="tabs_one_off">한 번만</string>
+
+    <string name="tabs_checkin_from">%1$02d:00부터 체크인</string>
+    <string name="tabs_checkin_daily">하루 체크인</string>
+    <string name="tabs_checkin_weekly">주간 체크인</string>
+    <string name="tabs_checkin_quarter">3개월 점검</string>
+    <string name="tabs_checked_in">체크인 완료</string>
+    <string name="tabs_quarter_section">3개월 점검</string>
+    <string name="tabs_previous_week">지난주</string>
+    <string name="tabs_next_week">다음 주</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="other">%2$s %1$d일 달성!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">잘했어요. 이제 3개월 점검으로 넘어가서 매일 체크하지 않아도 돼요.</string>
+    <string name="tabs_celebrate_first">첫 점검은 %1$s이에요.</string>
+    <string name="tabs_glance_title">이번 주</string>
+    <string name="tabs_glance_ticks_kept">지킨 체크</string>
+    <string name="tabs_glance_days_checked_in">체크인한 날</string>
+    <string name="tabs_glance_top_tag">가장 많은 실수 이유:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="other">%1$s, %2$d번</item>
+    </plurals>
+    <string name="tabs_glance_easiest">가장 쉬웠던 것:</string>
+    <string name="tabs_glance_hardest">가장 어려웠던 것:</string>
+
+    <string name="tabs_changes_ongoing">계속하는 바꾸기</string>
+    <string name="tabs_changes_ongoing_tip_title">계속하는 바꾸기</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="other">커피 컵이나 고체 샴푸처럼 같은 선택을 또 하게 되는 거예요. %1$d일 동안 습관에서 체크하고, 그 후엔 3개월마다 점검해요.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">아직 바꾸기가 없어요</string>
+    <string name="tabs_changes_day_badge">%1$d/%2$d일째</string>
+    <string name="tabs_changes_sticking">자리 잡는 중</string>
+    <string name="tabs_changes_one_off_todo">한 번만, 할 일</string>
+    <string name="tabs_changes_one_off_tip">서랍 정리, 친환경 전기 요금제로 바꾸기, 재킷 수선처럼 한 번 하면 끝나는 거예요. 체크하면 완료로 옮겨져요.</string>
+    <string name="tabs_changes_nothing_waiting">기다리는 게 없어요</string>
+    <string name="tabs_changes_finished">완료 · %1$d</string>
+
+    <string name="tabs_avoid_title">피하기 목록</string>
+    <string name="tabs_avoid_search">검색…</string>
+    <string name="tabs_avoid_no_match">일치하는 항목이 없어요</string>
+    <string name="tabs_avoid_companies">기업</string>
+    <string name="tabs_avoid_food">음식</string>
+    <string name="tabs_avoid_products">제품</string>
+
+    <string name="tabs_avoid_added">추가한 날</string>
+    <string name="tabs_avoid_why">피하는 이유</string>
+    <string name="tabs_avoid_own_words">내 말로 적기</string>
+    <string name="tabs_avoid_brands">소유한 브랜드 · %1$d</string>
+    <string name="tabs_avoid_brand_hint">한 줄에 브랜드 하나</string>
+    <string name="tabs_avoid_more_brands">+%1$d개 더</string>
+    <string name="tabs_avoid_instead">대신 이걸 써요</string>
+    <string name="tabs_avoid_instead_hint">한 줄에 하나</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="other">실수</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">피함</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="other">목록에 있던 개월</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">기록과 함께 피하기 목록에서 사라져요.</string>
+
+    <string name="tabs_habit_delete_text">모든 기록도 함께 사라져요.</string>
+    <string name="tabs_habit_created">만든 날</string>
+    <string name="tabs_habit_to_do">할 일</string>
+    <string name="tabs_habit_daily_ticks">매일 체크</string>
+    <string name="tabs_habit_day_of">%2$d일 중 %1$d일째</string>
+    <string name="tabs_habit_finished">완료</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="other">일째 진행 중</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="other">번 놓침</item>
+    </plurals>
+    <string name="tabs_habit_success">성공률</string>
+    <string name="tabs_habit_current_streak">현재 연속</string>
+    <string name="tabs_habit_longest_streak">최장 연속</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="other">%1$d일</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">놓친 이유</string>
+    <string name="tabs_habit_remove_reason">이 이유 삭제</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="other">가지 방법으로 삶을 더 낫게 만들었어요</item>
+    </plurals>
+    <string name="tabs_insights_habits">습관</string>
+    <string name="tabs_insights_swaps">바꾸기</string>
+    <string name="tabs_insights_avoids">피하기</string>
+    <string name="tabs_insights_on_track_section">순조로움</string>
+    <string name="tabs_insights_avg_days">%1$d일</string>
+    <string name="tabs_insights_average_kept">평균 유지</string>
+    <string name="tabs_insights_days_checked_in">체크인한 날</string>
+    <string name="tabs_insights_on_track">순조로움</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="other">실수</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="other">새 단계</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="other">한 번만 완료</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">가장 큰 실수 이유</string>
+    <string name="tabs_insights_added_quarter">이번 분기에 추가</string>
+    <string name="tabs_insights_past_summaries">지난 3개월 요약</string>
+    <string name="tabs_insights_first_on">첫 요약은 %1$s에 나와요</string>
+    <string name="tabs_insights_all_time">전체</string>
+    <string name="tabs_insights_period">%3$d년 %1$s~%2$s</string>
+
+    <string name="forms_back">뒤로</string>
+    <string name="forms_back_habits">습관</string>
+    <string name="forms_back_settings">설정</string>
+    <string name="forms_add">추가</string>
+    <string name="forms_save">저장</string>
+    <string name="forms_finish">마치기</string>
+    <string name="forms_delete">삭제</string>
+    <string name="forms_why">이유</string>
+    <string name="forms_never_show">다시 보지 않기</string>
+    <string name="forms_every">매</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="other">일</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">%2$d단계 중 %1$d단계</string>
+    <string name="forms_checkin_next_weekly">다음, 주간 체크인 ›</string>
+    <string name="forms_checkin_next_quarter">다음, 3개월 점검 ›</string>
+    <string name="forms_daily_title">하루 체크인</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="other">기록하지 않은 이전 날 %1$d일</item>
+    </plurals>
+    <string name="forms_daily_skip_all">모두 건너뛰기</string>
+    <string name="forms_daily_today">오늘 · %1$s</string>
+    <string name="forms_daily_skip">건너뛰기</string>
+    <string name="forms_daily_undo_skip">건너뛰기 취소</string>
+    <string name="forms_daily_new_tag">새 태그</string>
+    <string name="forms_daily_new_tag_hint">쓰레기통이 꽉 찼어요</string>
+    <string name="forms_weekly_title">주간 체크인</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="other">밀린 주가 %1$d주예요. 새 단계 하나로 모두 채워져요.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">이번 주엔 새 단계 없음</string>
+    <string name="forms_quarter_title">3개월 점검</string>
+    <string name="forms_quarter_nothing">아직 점검할 게 없어요. 다음은 요약이에요.</string>
+    <string name="forms_quarter_habits">습관</string>
+    <string name="forms_quarter_swaps">바꾸기</string>
+    <string name="forms_quarter_avoid">피하기</string>
+    <string name="forms_quarter_missed">놓침</string>
+    <string name="forms_quarter_missed_level">놓침: %1$s</string>
+
+    <string name="forms_new_title">새 단계</string>
+    <string name="forms_edit_title">편집: %1$s</string>
+    <string name="forms_add_kind">추가: %1$s</string>
+    <string name="forms_title_habit">습관</string>
+    <string name="forms_title_swap">바꾸기</string>
+    <string name="forms_title_avoid">피하기</string>
+    <string name="forms_save_changes">변경 사항 저장</string>
+    <string name="forms_what_kind">어떤 종류인가요?</string>
+    <string name="forms_name">이름</string>
+    <string name="forms_your_new_step">새 단계</string>
+    <string name="forms_hint_habit">10쪽 읽기</string>
+    <string name="forms_hint_swap">스펀지 대신 수세미</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">어떤 습관인가요?</string>
+    <string name="forms_timing_tip_title">아무 때나 또는 하루 끝에</string>
+    <string name="forms_timing_tip">아무 때나: 달리기처럼 한 번 하는 일이에요. 끝나자마자 체크하세요.\n\n하루 끝에: 간식 안 먹기처럼 하루 종일 지키는 규칙이에요. 저녁에만 체크할 수 있어요.</string>
+    <string name="forms_anytime">아무 때나</string>
+    <string name="forms_end_of_day">하루 끝에</string>
+    <string name="forms_what_is_it">무엇인가요?</string>
+    <string name="forms_how_often">얼마나 자주?</string>
+    <string name="forms_often_specific">특정 요일</string>
+    <string name="forms_often_whenever">아무 때나</string>
+    <string name="forms_often_once">딱 한 번</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="other">번, 매</item>
+    </plurals>
+    <string name="forms_unit_day">일</string>
+    <string name="forms_unit_week">주</string>
+    <string name="forms_unit_month">월</string>
+    <string name="forms_unit_x_days">X일</string>
+    <string name="forms_ideas">아이디어</string>
+    <string name="forms_ideas_others">기타</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="other">아이디어 %1$d개 모두 보기 ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">모든 단계 아이디어</string>
+    <string name="forms_search">검색…</string>
+    <string name="forms_all">전체</string>
+
+    <string name="forms_settings_title">설정</string>
+    <string name="forms_set_colours">색상</string>
+    <string name="forms_set_style">3개월 요약 스타일</string>
+    <string name="forms_set_checkins">체크인</string>
+    <string name="forms_set_checkin_hour">하루 체크인 시작 시간</string>
+    <string name="forms_set_checkin_hour_tip">이 시간부터 하루 끝 습관을 체크하고 하루 체크인을 할 수 있어요.</string>
+    <string name="forms_set_week_start">한 주의 시작</string>
+    <string name="forms_set_week_start_tip">습관 표, 주, 차트가 시작하는 요일이에요.</string>
+    <string name="forms_monday">월요일</string>
+    <string name="forms_sunday">일요일</string>
+    <string name="forms_set_new_step_every">새 단계 주기</string>
+    <string name="forms_set_new_step_every_tip">주간 체크인 사이의 주 수예요.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="other">주</item>
+    </plurals>
+    <string name="forms_set_weekly_day">주간 체크인 요일</string>
+    <string name="forms_set_weekly_day_tip">이 요일에는 하루 체크인 다음에 다음 주 새 단계를 골라요.</string>
+    <string name="forms_set_checkup">3개월 점검</string>
+    <string name="forms_set_checkup_tip">모두가 같은 날 점검해요: 1월 1일, 4월 1일, 7월 1일, 10월 1일. 그래서 요약을 함께 공유할 수 있어요. 원하면 내 날짜를 정할 수도 있어요.</string>
+    <string name="forms_set_same">모두와 같게</string>
+    <string name="forms_set_own">내 날짜</string>
+    <string name="forms_set_starting">시작</string>
+    <string name="forms_set_starting_tip">내 첫 점검이 있는 달이에요.</string>
+    <string name="forms_earlier">이전</string>
+    <string name="forms_later">이후</string>
+    <string name="forms_set_every_tip">점검 사이의 개월 수예요.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="other">개월</item>
+    </plurals>
+    <string name="forms_set_day_of_month">날짜</string>
+    <string name="forms_set_day_of_month_tip">그 달의 며칠인지 골라요.</string>
+    <string name="forms_set_everyone">모두: 1월 1일 · 4월 1일 · 7월 1일 · 10월 1일</string>
+    <string name="forms_set_days_build">습관이 되기까지 걸리는 날</string>
+    <string name="forms_set_days_build_tip">연구에 따르면 18일에서 254일까지 걸리고, 가장 많이 인용되는 건 66일이에요 (Lally et al. 2010, Singh et al. 2024). 이 날수가 지나면 새 단계는 점검으로 넘어가요.</string>
+    <string name="forms_set_nudge">하루 알림</string>
+    <string name="forms_set_nudge_tip">아직 체크 안 한 게 있을 때만 이 시간에 알려 줘요.</string>
+    <string name="forms_set_more">더 보기</string>
+    <string name="forms_set_reasons">실수 이유</string>
+    <string name="forms_set_tutorial">튜토리얼 다시 보기</string>
+    <string name="forms_set_export">내 데이터 내보내기</string>
+    <string name="forms_set_import">데이터 가져오기</string>
+
+    <string name="forms_reasons_title">실수 이유</string>
+    <string name="forms_reasons_hint">나만의 이유 추가</string>
+    <string name="forms_reasons_used">%1$d× 사용</string>
+    <string name="forms_reasons_delete_title">%1$s 삭제할까요?</string>
+    <string name="forms_reasons_delete_text">실수 기록은 그대로 남고, 이 태그만 빠져요.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="other">습관 %1$d개</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="other">바꾸기 %1$d개</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="other">피하기 %1$d개</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, %2$s부터의 체크</string>
+    <string name="forms_export_title">내 데이터 내보내기</string>
+    <string name="forms_export_what">파일에 들어가는 것</string>
+    <string name="forms_export_ticks">모든 체크, 실수, 이유</string>
+    <string name="forms_export_ticks_since">%1$s부터의 모든 체크, 실수, 이유</string>
+    <string name="forms_export_summaries">3개월 요약</string>
+    <string name="forms_export_settings">설정, 색상, 이름</string>
+    <string name="forms_export_file">파일</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">파일 저장</string>
+    <string name="forms_export_send">보내기…</string>
+    <string name="forms_export_send_title">Alice 데이터 보내기</string>
+    <string name="forms_export_saved">%1$s 저장됨</string>
+    <string name="forms_export_save_failed">파일을 저장하지 못했어요</string>
+
+    <string name="forms_import_title">데이터 가져오기</string>
+    <string name="forms_import_choose">Alice 백업 선택</string>
+    <string name="forms_import_choose_sub">.json, 다른 폰에서 내보낸 파일</string>
+    <string name="forms_import_cant_open">그 파일을 열 수 없어요.</string>
+    <string name="forms_import_not_backup">Alice 백업 파일이 아니에요.</string>
+    <string name="forms_import_replace_mode">지금 데이터 바꾸기</string>
+    <string name="forms_import_add_mode">지금 데이터에 추가</string>
+    <string name="forms_import_button">가져오기</string>
+    <string name="forms_import_replace_title">데이터를 바꿀까요?</string>
+    <string name="forms_import_add_title">이 데이터를 추가할까요?</string>
+    <string name="forms_import_replace_text">이 폰의 모든 데이터가 파일 내용으로 바뀌어요. 지금 데이터를 남기고 싶으면 먼저 내보내세요.</string>
+    <string name="forms_import_add_text">파일 속 습관과 기록이 지금 데이터에 더해져요.</string>
+    <string name="forms_import_done">데이터를 가져왔어요</string>
+
+    <string name="look_share">공유</string>
+    <string name="look_save_image">이미지 저장</string>
+    <string name="look_next_week">다음, 이번 주 ›</string>
+    <string name="look_keep_going">계속하기</string>
+    <string name="look_storage_needed">사진을 저장하려면 Alice에 저장공간 권한이 필요해요</string>
+    <string name="look_share_caption">Alice와 함께한 내 분기. 너도 시작해 봐: %1$s</string>
+    <string name="look_share_clip">Alice 요약</string>
+    <string name="look_share_chooser">내 분기 공유하기</string>
+    <string name="look_saved">Pictures/Alice에 저장됨</string>
+    <string name="look_save_failed">사진을 저장하지 못했어요</string>
+
+    <string name="look_style_poster">포스터</string>
+    <string name="look_style_wrapped">랩드</string>
+    <string name="look_style_trophy">트로피 진열장</string>
+    <string name="look_style_receipt">영수증</string>
+    <string name="look_style_report">성적표</string>
+    <string name="look_style_boarding">탑승권</string>
+    <string name="look_style_polaroid">폴라로이드</string>
+    <string name="look_style_calendar">달력</string>
+    <string name="look_style_trading">트레이딩 카드</string>
+
+    <string name="look_quote_1">매일, 작은 걸음</string>
+    <string name="look_quote_2">와 줘서 고마워요</string>
+    <string name="look_quote_3">완벽보다 발전</string>
+    <string name="look_quote_4">계속해 왔잖아요. 그걸로 충분해요</string>
+    <string name="look_quote_5">작은 변화, 큰 차이</string>
+    <string name="look_quote_6">매일 더 나은 걸 골랐어요</string>
+    <string name="look_quote_7">느려도 앞으로 가는 중</string>
+    <string name="look_quote_8">좋아하는 삶을 만들어 가고 있어요</string>
+    <string name="look_quote_9">한 걸음씩 쌓이면 커져요</string>
+    <string name="look_quote_10">계속 나를 위해 나타나기</string>
+    <string name="look_quote_11">미래의 내가 고마워해요</string>
+    <string name="look_quote_12">조금씩, 그래서 많이</string>
+    <string name="look_quote_13">꾸준함은 조용한 마법</string>
+    <string name="look_quote_14">얼마나 멀리 왔는지 봐요</string>
+    <string name="look_quote_15">작은 승리를 자랑스러워해요</string>
+    <string name="look_quote_16">좋은 날은 찾는 게 아니라 만드는 것</string>
+
+    <string name="look_stamp_1">훌륭해요</string>
+    <string name="look_stamp_2">최고예요</string>
+    <string name="look_stamp_3">잘했어요</string>
+    <string name="look_stamp_4">멋져요</string>
+    <string name="look_stamp_5">대단해요</string>
+    <string name="look_stamp_6">만점</string>
+    <string name="look_stamp_7">참 잘했어요</string>
+    <string name="look_stamp_8">수고했어요</string>
+
+    <string name="look_period">%1$s~%2$s</string>
+    <string name="look_scan">스캔해서\n나만의 여정을\n시작하세요</string>
+    <string name="look_you">나</string>
+    <string name="look_on_track">순조로움</string>
+    <string name="look_new_steps">새 단계</string>
+    <string name="look_days_in">일째</string>
+    <string name="look_new">새로움</string>
+    <string name="look_week_by_week">주별</string>
+    <string name="look_coming_soon">곧 나와요</string>
+    <string name="look_new_this_quarter">이번 분기 새로 추가</string>
+    <string name="look_kept_up_longest">가장 오래 지킨 것</string>
+    <string name="look_habits">습관</string>
+    <string name="look_swaps">바꾸기</string>
+    <string name="look_avoids">피하기</string>
+    <string name="look_ways_improved">더 나아진 방법</string>
+    <string name="look_improved_in">%1$s로 삶을 더 낫게 만들었어요</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="other">습관 %1$d개</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="other">바꾸기 %1$d개</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="other">피하기 %1$d개</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="other">실수 %1$d번</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="other">%1$d가지 방법</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="other">습관</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="other">바꾸기</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="other">피하기</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="other">실수</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="other">가지 방법</item>
+    </plurals>
+
+    <string name="look_poster_improved">%1$s로 삶을 더 낫게 만들었어요</string>
+    <string name="look_poster_on_track">순조로움</string>
+    <string name="look_poster_days">일</string>
+    <string name="look_poster_achievements">업적</string>
+    <string name="look_poster_first_ones">첫 업적이 다가오고 있어요</string>
+    <string name="look_poster_added">이번 분기에 더한 것</string>
+
+    <string name="look_wrapped_stars">나의 스타</string>
+
+    <string name="look_trophy_ways">가지 방법으로\n삶을 더 낫게</string>
+    <string name="look_trophy_next_quarter">다음 분기</string>
+    <string name="look_trophy_first_medal">첫 메달</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">새로 진열됨:</string>
+
+    <string name="look_receipt_title">3개월 점검 · %1$s</string>
+    <string name="look_receipt_customer">고객: %1$s</string>
+    <string name="look_receipt_habits">만든 습관</string>
+    <string name="look_receipt_swaps">바꾼 것</string>
+    <string name="look_receipt_avoids">피한 것</string>
+    <string name="look_receipt_ways">삶을 더 낫게 만든 방법</string>
+    <string name="look_receipt_on_track">이번 분기 순조로움</string>
+    <string name="look_receipt_slips">실수</string>
+    <string name="look_receipt_new_steps">새로 만든 단계</string>
+    <string name="look_receipt_new">이번 분기 새로 추가: %1$s</string>
+
+    <string name="look_report_title">작은 걸음 성적표</string>
+    <string name="look_report_pupil">%1$s · 학생: %2$s</string>
+    <string name="look_report_subject">과목</string>
+    <string name="look_report_built">달성</string>
+    <string name="look_report_grade">등급</string>
+    <string name="look_report_attendance">출석 %1$s</string>
+    <string name="look_report_on_track">순조로움 %1$s</string>
+    <string name="look_report_slips">실수 %1$s</string>
+    <string name="look_report_achievements">업적</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">이번 학기 새 과목 (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">선생님 한마디:</string>
+    <string name="look_report_calm">차분하고 꾸준한 학기였어요.</string>
+    <string name="look_report_ups_downs">오르락내리락한 학기였지만, 끝까지 함께했어요.</string>
+    <string name="look_report_star">%1$s, 정말 뛰어났어요. 계속 이렇게 해요!</string>
+    <string name="look_report_keep_up">계속 이렇게 해요!</string>
+    <string name="look_report_week">주별</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">항공편 Q%1$d</string>
+    <string name="look_boarding_from">출발</string>
+    <string name="look_boarding_old">예전</string>
+    <string name="look_boarding_habits">습관</string>
+    <string name="look_boarding_to">도착</string>
+    <string name="look_boarding_new">새로운</string>
+    <string name="look_boarding_better_you">더 나은 나</string>
+    <string name="look_boarding_passenger">승객</string>
+    <string name="look_boarding_dates">날짜</string>
+    <string name="look_boarding_miles">비행 거리</string>
+    <string name="look_boarding_on_time">정시 도착</string>
+    <string name="look_boarding_turbulence">난기류</string>
+    <string name="look_boarding_days">탑승 일수</string>
+    <string name="look_boarding_flyer">단골 승객, 가장 오래 함께한 동반자</string>
+    <string name="look_boarding_log">비행 기록, 주별</string>
+    <string name="look_boarding_stops">새 경유지, +%1$d</string>
+    <string name="look_boarding_note">기장의 메모</string>
+
+    <string name="look_polaroid_life">나의 삶</string>
+    <string name="look_polaroid_quarter">이번 분기</string>
+    <string name="look_polaroid_days_in">%2$d일 중 %1$d일째</string>
+    <string name="look_polaroid_longest">가장 오래 지킨 것</string>
+    <string name="look_polaroid_new">새로 추가, +%1$d</string>
+
+    <string name="look_calendar_added">추가함</string>
+
+    <string name="look_trading_common">일반</string>
+    <string name="look_trading_uncommon">고급</string>
+    <string name="look_trading_rare">희귀</string>
+    <string name="look_trading_legendary">전설</string>
+    <plurals name="look_trading_ways">
+        <item quantity="other">가지</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d번째</string>
+    <string name="look_ordinal_nd">%1$d번째</string>
+    <string name="look_ordinal_rd">%1$d번째</string>
+    <string name="look_ordinal_th">%1$d번째</string>
+    <string name="look_trading_number">No. %1$03d · 나의 %2$s 분기</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d일</string>
+    <string name="look_trading_power">파워, 주별</string>
+    <string name="look_trading_edition">%1$s · Q%2$d 에디션</string>
+
+    <string name="look_sample_water_first">물부터 마시기</string>
+    <string name="look_sample_own_bag">장바구니 챙기기</string>
+    <string name="look_sample_read_pages">10쪽 읽기</string>
+    <string name="look_sample_reading">매일 독서</string>
+    <string name="look_sample_late_snacks">야식 안 먹기</string>
+    <string name="look_sample_stretching">스트레칭</string>
+    <string name="look_sample_cooler_home">집 온도 낮추기</string>
+    <string name="look_sample_loofah">스펀지 대신 수세미</string>
+    <string name="look_sample_palm_oil">팜유 없이</string>
+    <string name="look_sample_stretch">10분 스트레칭</string>
+
+    <string name="look_colours_title">색상</string>
+    <string name="look_colours_preview">미리 보기</string>
+    <string name="look_colours_your_summary">나의 3개월 요약</string>
+    <string name="look_colours_light">라이트</string>
+    <string name="look_colours_dark">다크</string>
+    <string name="look_styles_title">3개월 요약 스타일</string>
+    <string name="look_styles_all_pictures">폴라로이드 사진 30장 모두 보기</string>
+    <string name="look_styles_refresh">새로고침</string>
+    <string name="look_pictures_title">폴라로이드 사진</string>
+    <string name="look_pictures_back">요약 스타일</string>
+
+    <string name="look_welcome_name">이름</string>
+    <string name="look_welcome_start">시작</string>
+    <string name="look_welcome_import">내 데이터 가져오기</string>
+
+    <string name="look_tut_skip">건너뛰기</string>
+    <string name="look_tut_page">%1$d / %2$d</string>
+    <string name="look_tut_back">뒤로</string>
+    <string name="look_tut_start">시작</string>
+    <string name="look_tut_next">다음</string>
+    <string name="look_tut1_title">한 걸음씩, 더 나은 내가 되기</string>
+    <string name="look_tut1_body">새 습관을 만들고, 더 따뜻한 선택을 하고, 이뤄 낸 것들이 쌓이는 걸 지켜보세요.</string>
+    <string name="look_tut1_habits">하루하루 좋은 습관을 만들어서 원하는 내가 되어 봐요.</string>
+    <string name="look_tut1_swaps">지구와 사람, 내 건강에 더 좋은 제품으로 바꿔 봐요.</string>
+    <string name="look_tut1_avoids">응원하고 싶지 않은 기업, 음식, 제품을 기록해 둬요.</string>
+    <string name="look_tut2_title">체크하기</string>
+    <string name="look_tut2_body">습관을 했으면 칸을 탭하세요. 저녁 습관은 체크인 시간에 열려요.</string>
+    <string name="look_tut3_title">%1$s, 그다음엔 %2$s마다</string>
+    <plurals name="look_tut3_days">
+        <item quantity="other">%1$d일</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="other">%1$d개월</item>
+    </plurals>
+    <string name="look_tut3_body">연구에 따르면 습관이 되기까지 18일에서 254일이 걸려요. 가장 많이 인용되는 숫자가 66일이라서 Alice도 거기서 시작해요.</string>
+    <string name="look_tut3_days_label">습관이 되기까지 걸리는 날</string>
+    <string name="look_tut3_checkup">점검 주기</string>
+    <string name="look_tut3_small">둘 다 설정에서 바꿀 수 있어요.</string>
+    <string name="look_tut4_title">일주일에 한 번, 새 단계 하나</string>
+    <string name="look_tut4_body">새 단계를 하나씩 더하면 한꺼번에 너무 많이 떠안지 않고 천천히 성장할 수 있어요.</string>
+    <string name="look_tut4_day">체크인 요일</string>
+    <string name="look_tut4_small">이것도 설정에서 바꿀 수 있어요.</string>
+    <string name="look_tut5_title">분기마다, 나의 요약</string>
+    <string name="look_tut5_body">얼마나 멀리 왔는지 친구들, 가까운 사람들과 나눠 보세요. 마음에 드는 스타일을 탭하세요:</string>
+    <string name="look_tut_change_mind">언제든 바꿀 수 있어요.</string>
+    <string name="look_tut6_title">나만의 앱으로</string>
+    <string name="look_tut6_body">가장 편한 색을 골라 보세요. 앱 전체가 바로 바뀌어요.</string>
+    <string name="look_tut7_title">언제든, 무엇이든 바꾸기</string>
+    <string name="look_tut7_body">체크인 시간, 습관이 되기까지 걸리는 날, 요약 스타일, 색상, 데이터 모두 설정에 있어요.</string>
+    <string name="look_tut7_gear">습관 화면 위쪽의 톱니바퀴를 탭하면 설정이 열려요.</string>
+    <string name="look_tut7_open">설정 열기</string>
+
+    <string name="lang_title">언어</string>
+    <string name="pron_title">호칭</string>
+    <string name="pron_she">여성</string>
+    <string name="pron_he">남성</string>
+    <string name="pron_they">중립</string>
+    <string name="lang_spotted">내 언어에서 틀린 걸 발견했나요?</string>
+    <string name="lang_search">언어 검색</string>
+    <string name="lang_phone">휴대폰 언어</string>
+    <string name="lang_follow">휴대폰 설정 따르기</string>
+    <string name="lang_note_title">번역 도와주기</string>
+    <string name="lang_note_1">안녕하세요, 저는 Alice를 만든 Lucy예요.</string>
+    <string name="lang_note_2">저는 영어, 슬로바키아어, 체코어, 러시아어를 해서 그 번역은 직접 확인했어요. 다른 언어는 아직 원어민이 확인하지 않았어요.</string>
+    <string name="lang_note_3">내 언어에서 틀린 걸 발견하면 알려 주세요. 고칠게요. 그리고 Alice를 내 언어로 한동안 써 봤는데 다 자연스럽다면 그것도 알려 주세요. 승인됨으로 표시할 수 있게요.</string>
+    <string name="lang_note_4">고마워요!</string>
+    <string name="lang_not_approved">아직 승인되지 않음</string>
+    <string name="lang_report">틀린 부분 알리기</string>
+    <string name="lang_all_correct">내 언어는 다 맞아요</string>
+    <string name="lang_mail_mistake_body">어떤 부분이 이상한지, 어느 화면인지:\n\n</string>
+    <string name="lang_mail_correct_body">Alice를 내 언어로 한동안 써 봤는데 모두 자연스러워요.\n\n</string>
+    <string name="lang_no_mail">이메일 앱을 찾을 수 없어요</string>
+</resources>

@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">For trøtt</string>
+    <string name="core_reason_craving">Sug</string>
+    <string name="core_reason_no_time">Ingen tid</string>
+    <string name="core_reason_forgot">Glemte det</string>
+    <string name="core_reason_no_alternative">Ikke noe alternativ</string>
+    <string name="core_reason_social">Sosialt</string>
+    <string name="core_reason_impulse">Impuls</string>
+    <string name="core_reason_too_expensive">For dyrt</string>
+    <string name="core_reason_away">Bortreist</string>
+
+    <string name="core_nudge_channel">Daglig påminnelse</string>
+    <string name="core_nudge_title">Igjen å krysse av i dag</string>
+    <string name="core_save_failed">Kunne ikke lagre, prøv igjen</string>
+
+    <string name="core_kind_habit">Vane</string>
+    <string name="core_kind_swap">Bytte</string>
+    <string name="core_kind_avoid">Unngå</string>
+    <string name="core_about">Om %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Mindre</string>
+    <string name="core_more">Mer</string>
+    <string name="core_cancel">Avbryt</string>
+    <string name="core_settings">Innstillinger</string>
+    <string name="core_span_week">Uke</string>
+    <string name="core_span_month">Måned</string>
+    <string name="core_span_year">År</string>
+    <string name="core_span_all">Totalt</string>
+    <string name="core_tab_habits">Vaner</string>
+    <string name="core_tab_changes">Endringer</string>
+    <string name="core_tab_avoid">Unngå</string>
+    <string name="core_tab_insights">Innsikt</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">holdt</string>
+    <string name="core_cell_missed">gått glipp av</string>
+    <string name="core_cell_partial">delvis gjort, %1$d så langt</string>
+    <string name="core_cell_unfilled">ikke fylt ut ennå</string>
+    <string name="core_cell_open">å gjøre</string>
+    <string name="core_cell_locked">låst til innsjekkingstid</string>
+    <string name="core_cell_future">ikke ennå</string>
+    <string name="core_cell_empty">ingenting trengs</string>
+    <string name="core_cell_band">ferdig for denne perioden</string>
+    <string name="core_cell_off">ikke en dag for dette steget</string>
+    <string name="core_cell_none">før dette steget startet</string>
+
+    <string name="core_rhythm_one_off">Engangs</string>
+    <string name="core_rhythm_end_of_day">Hver dag, krysses av på kvelden</string>
+    <string name="core_rhythm_every_day">Hver dag</string>
+    <string name="core_rhythm_every_days">Hver %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">i uka</string>
+    <string name="core_rhythm_a_month">i måneden</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, hvilken som helst dag</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s og %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d md.</string>
+    <string name="core_achievement_short_days">%1$d d</string>
+    <string name="core_glance_step">%1$s, %2$d av %3$d</string>
+
+    <string name="core_slip_never">Aldri</string>
+    <string name="core_slip_once">Én gang</string>
+    <string name="core_slip_a_few">Noen ganger</string>
+    <string name="core_slip_half">Halvparten</string>
+    <string name="core_slip_most">Som oftest</string>
+    <string name="core_slip_always">Alltid</string>
+
+    <string name="core_ideas_habit_anytime">Vaner, når som helst</string>
+    <string name="core_ideas_habit_end">Vaner, på kvelden</string>
+    <string name="core_ideas_swap">Bytter</string>
+    <string name="core_ideas_avoid_product">Unngå, produkter</string>
+    <string name="core_ideas_avoid_company">Unngå, selskaper</string>
+    <string name="core_ideas_avoid_food">Unngå, mat</string>
+
+    <string name="core_tag_ethical">Etisk</string>
+    <string name="core_tag_health">Helse</string>
+    <string name="core_tag_clutter">Rot</string>
+    <string name="core_tag_ecological">Økologisk</string>
+    <string name="core_tag_animal_welfare">Dyrevelferd</string>
+    <string name="core_tag_workers_rights">Arbeidstakerrettigheter</string>
+    <string name="core_tag_plastic">Plast</string>
+    <string name="core_tag_palm_oil">Palmeolje</string>
+    <string name="core_tag_deforestation">Avskoging</string>
+    <string name="core_category_company">Selskap</string>
+    <string name="core_category_food">Mat</string>
+    <string name="core_category_product">Produkt</string>
+    <string name="core_verdict_avoid">UNNGÅ</string>
+    <string name="core_verdict_edge">PÅ GRENSEN</string>
+    <string name="core_verdict_fine">GREIT</string>
+
+    <string name="core_theme_off_white_honey">Off-white &amp; honning</string>
+    <string name="core_theme_vanilla_caramel">Vanilje &amp; karamell</string>
+    <string name="core_theme_sunflower">Solsikke</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao &amp; sitron</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; smør</string>
+    <string name="core_theme_midnight_honey">Midnatt &amp; honning</string>
+    <string name="core_theme_forest_night">Skogsnatt</string>
+    <string name="core_theme_plum_dusk">Plommeskumring</string>
+    <string name="core_theme_charcoal_coral">Kull &amp; korall</string>
+
+    <string name="core_pic_sunny_meadow">Solfylt eng</string>
+    <string name="core_pic_sunset_hills">Åser i solnedgang</string>
+    <string name="core_pic_starry_night">Stjerneklar natt</string>
+    <string name="core_pic_beach_day">Stranddag</string>
+    <string name="core_pic_mountain_lake">Fjellvann</string>
+    <string name="core_pic_snowy_village">Snødekt landsby</string>
+    <string name="core_pic_rainy_garden">Hage i regnvær</string>
+    <string name="core_pic_autumn_forest">Høstskog</string>
+    <string name="core_pic_cherry_blossom">Kirsebærblomster</string>
+    <string name="core_pic_desert_cactus">Ørkenkaktus</string>
+    <string name="core_pic_lighthouse">Fyrtårn</string>
+    <string name="core_pic_rainbow_field">Regnbueeng</string>
+    <string name="core_pic_hot_air_balloon">Luftballong</string>
+    <string name="core_pic_sailboat">Seilbåt</string>
+    <string name="core_pic_cabin_in_the_woods">Hytte i skogen</string>
+    <string name="core_pic_tulip_field">Tulipanåker</string>
+    <string name="core_pic_campfire_night">Bålkveld</string>
+    <string name="core_pic_misty_mountains">Tåkete fjell</string>
+    <string name="core_pic_sunrise_sea">Soloppgang over havet</string>
+    <string name="core_pic_snowy_pines">Snødekte furutrær</string>
+    <string name="core_pic_lavender_field">Lavendelåker</string>
+    <string name="core_pic_waterfall">Foss</string>
+    <string name="core_pic_city_at_dusk">By i skumringen</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Måne over vannet</string>
+    <string name="core_pic_palm_island">Palmeøy</string>
+    <string name="core_pic_windmill">Vindmølle</string>
+    <string name="core_pic_bike_path">Sykkelsti</string>
+    <string name="core_pic_greenhouse">Drivhus</string>
+    <string name="core_pic_northern_lights">Nordlys</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d steg venter på deg.</item>
+        <item quantity="other">%d steg venter på deg.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">holdt, %d gang</item>
+        <item quantity="other">holdt, %d ganger</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d gang om dagen</item>
+        <item quantity="other">%d ganger om dagen</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Én gang</item>
+        <item quantity="other">%d ganger</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">hver %d. uke</item>
+        <item quantity="other">hver %d. uke</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">hver %d. måned</item>
+        <item quantity="other">hver %d. måned</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">hver %d. dag</item>
+        <item quantity="other">hver %d. dag</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d måned uten å gå glipp</item>
+        <item quantity="other">%d måneder uten å gå glipp</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d måned på rad</item>
+        <item quantity="other">%d måneder på rad</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d dag på rad</item>
+        <item quantity="other">%d dager på rad</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d måned</item>
+        <item quantity="other">%d måneder</item>
+    </plurals>
+
+    <string name="tabs_new_step">Nytt steg</string>
+    <string name="tabs_edit">Rediger</string>
+    <string name="tabs_delete">Slett</string>
+    <string name="tabs_done">Ferdig</string>
+    <string name="tabs_back">Tilbake</string>
+    <string name="tabs_earlier">Tidligere</string>
+    <string name="tabs_later">Senere</string>
+    <string name="tabs_delete_title">Slette %1$s?</string>
+    <string name="tabs_eod_unlock">Kveldsvaner låses opp kl. %1$02d:00</string>
+    <string name="tabs_check_up">Sjekk</string>
+    <string name="tabs_one_off">Engangs</string>
+
+    <string name="tabs_checkin_from">Innsjekk fra kl. %1$02d:00</string>
+    <string name="tabs_checkin_daily">Daglig innsjekk</string>
+    <string name="tabs_checkin_weekly">Ukentlig innsjekk</string>
+    <string name="tabs_checkin_quarter">3-månederssjekk</string>
+    <string name="tabs_checked_in">Sjekket inn</string>
+    <string name="tabs_quarter_section">3-MÅNEDERSSJEKK</string>
+    <string name="tabs_previous_week">Forrige uke</string>
+    <string name="tabs_next_week">Neste uke</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d dag med %2$s!</item>
+        <item quantity="other">%1$d dager med %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Godt jobbet. Nå flyttes den til 3-månederssjekkene dine, ikke mer daglig avkrysning.</string>
+    <string name="tabs_celebrate_first">Den første er %1$s.</string>
+    <string name="tabs_glance_title">Uka di</string>
+    <string name="tabs_glance_ticks_kept">Avkrysninger holdt</string>
+    <string name="tabs_glance_days_checked_in">Dager sjekket inn</string>
+    <string name="tabs_glance_top_tag">Mest brukte glippmerke:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d gang</item>
+        <item quantity="other">%1$s, %2$d ganger</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Lettest:</string>
+    <string name="tabs_glance_hardest">Vanskeligst:</string>
+
+    <string name="tabs_changes_ongoing">Løpende bytter</string>
+    <string name="tabs_changes_ongoing_tip_title">Løpende bytte</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Du kommer til å stå overfor det samme valget igjen, som en kaffekopp eller en sjampokake. Det krysses av under Vaner i %1$d dag og sjekkes så hver tredje måned.</item>
+        <item quantity="other">Du kommer til å stå overfor det samme valget igjen, som en kaffekopp eller en sjampokake. Det krysses av under Vaner i %1$d dager og sjekkes så hver tredje måned.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Ingen bytter ennå</string>
+    <string name="tabs_changes_day_badge">DAG %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">SITTER</string>
+    <string name="tabs_changes_one_off_todo">Engangs, å gjøre</string>
+    <string name="tabs_changes_one_off_tip">Du gjør det én gang, så er det gjort, som å rydde en skuff, bytte til grønn strøm eller reparere en jakke. Kryss det av, så flyttes det til Fullført.</string>
+    <string name="tabs_changes_nothing_waiting">Ingenting venter</string>
+    <string name="tabs_changes_finished">FULLFØRT · %1$d</string>
+
+    <string name="tabs_avoid_title">Unngå-liste</string>
+    <string name="tabs_avoid_search">Søk…</string>
+    <string name="tabs_avoid_no_match">Ingen treff</string>
+    <string name="tabs_avoid_companies">Selskaper</string>
+    <string name="tabs_avoid_food">Mat</string>
+    <string name="tabs_avoid_products">Produkter</string>
+
+    <string name="tabs_avoid_added">Lagt til</string>
+    <string name="tabs_avoid_why">Hvorfor du unngår det</string>
+    <string name="tabs_avoid_own_words">Med dine egne ord</string>
+    <string name="tabs_avoid_brands">Merker det eier · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Ett merke per linje</string>
+    <string name="tabs_avoid_more_brands">+%1$d til</string>
+    <string name="tabs_avoid_instead">Ta heller dette</string>
+    <string name="tabs_avoid_instead_hint">Ett per linje</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">glipp</item>
+        <item quantity="other">glipp</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">unngått</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">måned på lista</item>
+        <item quantity="other">måneder på lista</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Det fjernes fra Unngå-lista di sammen med historikken.</string>
+
+    <string name="tabs_habit_delete_text">Hele historikken forsvinner også.</string>
+    <string name="tabs_habit_created">Opprettet</string>
+    <string name="tabs_habit_to_do">Å gjøre</string>
+    <string name="tabs_habit_daily_ticks">Daglige avkrysninger</string>
+    <string name="tabs_habit_day_of">Dag %1$d av %2$d</string>
+    <string name="tabs_habit_finished">Fullført</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">dag i gang</item>
+        <item quantity="other">dager i gang</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">gang brutt</item>
+        <item quantity="other">ganger brutt</item>
+    </plurals>
+    <string name="tabs_habit_success">suksess</string>
+    <string name="tabs_habit_current_streak">Nåværende rekke</string>
+    <string name="tabs_habit_longest_streak">Lengste rekke</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dager</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Hvorfor det glapp</string>
+    <string name="tabs_habit_remove_reason">Fjern denne grunnen</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">måte du har gjort livet ditt bedre på</item>
+        <item quantity="other">måter du har gjort livet ditt bedre på</item>
+    </plurals>
+    <string name="tabs_insights_habits">Vaner</string>
+    <string name="tabs_insights_swaps">Bytter</string>
+    <string name="tabs_insights_avoids">Fravalg</string>
+    <string name="tabs_insights_on_track_section">På sporet</string>
+    <string name="tabs_insights_avg_days">%1$d d</string>
+    <string name="tabs_insights_average_kept">holdt i snitt</string>
+    <string name="tabs_insights_days_checked_in">dager sjekket inn</string>
+    <string name="tabs_insights_on_track">på sporet</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">glipp</item>
+        <item quantity="other">glipp</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">nytt steg</item>
+        <item quantity="other">nye steg</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">engangssteg gjort</item>
+        <item quantity="other">engangssteg gjort</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Største grunner til glipp</string>
+    <string name="tabs_insights_added_quarter">Lagt til dette kvartalet</string>
+    <string name="tabs_insights_past_summaries">Tidligere 3-månedersoppsummeringer</string>
+    <string name="tabs_insights_first_on">Den første kommer %1$s</string>
+    <string name="tabs_insights_all_time">Totalt</string>
+    <string name="tabs_insights_period">%1$s til %2$s %3$d</string>
+
+    <string name="forms_back">Tilbake</string>
+    <string name="forms_back_habits">Vaner</string>
+    <string name="forms_back_settings">Innstillinger</string>
+    <string name="forms_add">Legg til</string>
+    <string name="forms_save">Lagre</string>
+    <string name="forms_finish">Fullfør</string>
+    <string name="forms_delete">Slett</string>
+    <string name="forms_why">Hvorfor</string>
+    <string name="forms_never_show">Ikke vis igjen</string>
+    <string name="forms_every">Hver</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">dag</item>
+        <item quantity="other">dager</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Steg %1$d av %2$d</string>
+    <string name="forms_checkin_next_weekly">Neste: ukentlig innsjekk ›</string>
+    <string name="forms_checkin_next_quarter">Neste: 3-månederssjekk ›</string>
+    <string name="forms_daily_title">Daglig innsjekk</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d tidligere dag ikke fylt ut</item>
+        <item quantity="other">%1$d tidligere dager ikke fylt ut</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Hopp over alle</string>
+    <string name="forms_daily_today">I dag · %1$s</string>
+    <string name="forms_daily_skip">Hopp over</string>
+    <string name="forms_daily_undo_skip">Angre</string>
+    <string name="forms_daily_new_tag">Nytt merke</string>
+    <string name="forms_daily_new_tag_hint">Søpla var full</string>
+    <string name="forms_weekly_title">Ukentlig innsjekk</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d uke mangler, ett nytt steg dekker alle.</item>
+        <item quantity="other">%1$d uker mangler, ett nytt steg dekker alle.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Ikke noe nytt steg denne uka</string>
+    <string name="forms_quarter_title">3-månederssjekk</string>
+    <string name="forms_quarter_nothing">Ingenting å sjekke ennå. Oppsummeringen din kommer nå.</string>
+    <string name="forms_quarter_habits">Vaner</string>
+    <string name="forms_quarter_swaps">Bytter</string>
+    <string name="forms_quarter_avoid">Unngå</string>
+    <string name="forms_quarter_missed">Glapp</string>
+    <string name="forms_quarter_missed_level">Glapp: %1$s</string>
+
+    <string name="forms_new_title">Nytt steg</string>
+    <string name="forms_edit_title">Rediger: %1$s</string>
+    <string name="forms_add_kind">Legg til: %1$s</string>
+    <string name="forms_title_habit">Vane</string>
+    <string name="forms_title_swap">Bytte</string>
+    <string name="forms_title_avoid">Unngå</string>
+    <string name="forms_save_changes">Lagre endringer</string>
+    <string name="forms_what_kind">Hva slags?</string>
+    <string name="forms_name">Navn</string>
+    <string name="forms_your_new_step">Det nye steget ditt</string>
+    <string name="forms_hint_habit">Les 10 sider</string>
+    <string name="forms_hint_swap">Luffa i stedet for svamp</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Hva slags vane?</string>
+    <string name="forms_timing_tip_title">Når som helst eller på kvelden</string>
+    <string name="forms_timing_tip">Når som helst: noe du gjør én gang, som en løpetur. Kryss av så snart det er gjort.\n\nPå kvelden: en regel du holder hele dagen, som ingen snacks. Du kan bare krysse den av om kvelden.</string>
+    <string name="forms_anytime">Når som helst</string>
+    <string name="forms_end_of_day">På kvelden</string>
+    <string name="forms_what_is_it">Hva er det?</string>
+    <string name="forms_how_often">Hvor ofte?</string>
+    <string name="forms_often_specific">Bestemte dager</string>
+    <string name="forms_often_whenever">Når det passer</string>
+    <string name="forms_often_once">Bare én gang</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">gang hver</item>
+        <item quantity="other">ganger hver</item>
+    </plurals>
+    <string name="forms_unit_day">dag</string>
+    <string name="forms_unit_week">uke</string>
+    <string name="forms_unit_month">måned</string>
+    <string name="forms_unit_x_days">X dager</string>
+    <string name="forms_ideas">Ideer</string>
+    <string name="forms_ideas_others">Andre</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Se alle %1$d idé ›</item>
+        <item quantity="other">Se alle %1$d ideer ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Alle ideer til steg</string>
+    <string name="forms_search">Søk…</string>
+    <string name="forms_all">Alle</string>
+
+    <string name="forms_settings_title">Innstillinger</string>
+    <string name="forms_set_colours">Farger</string>
+    <string name="forms_set_style">Stil på 3-månedersoppsummering</string>
+    <string name="forms_set_checkins">Innsjekker</string>
+    <string name="forms_set_checkin_hour">Daglig innsjekk åpner kl.</string>
+    <string name="forms_set_checkin_hour_tip">Fra dette tidspunktet kan du krysse av kveldsvaner og gjøre den daglige innsjekken.</string>
+    <string name="forms_set_week_start">Uka starter på</string>
+    <string name="forms_set_week_start_tip">Hvilken dag Vaner-rutenettet, ukene og diagrammene dine starter på.</string>
+    <string name="forms_monday">Mandag</string>
+    <string name="forms_sunday">Søndag</string>
+    <string name="forms_set_new_step_every">Nytt steg hver</string>
+    <string name="forms_set_new_step_every_tip">Hvor mange uker det går mellom de ukentlige innsjekkene.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">uke</item>
+        <item quantity="other">uker</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Dag for ukentlig innsjekk</string>
+    <string name="forms_set_weekly_day_tip">Denne dagen følges den daglige innsjekken av at du velger neste ukes nye steg.</string>
+    <string name="forms_set_checkup">3-månederssjekk</string>
+    <string name="forms_set_checkup_tip">Alle sjekker på de samme dagene: 1. jan., 1. apr., 1. jul. og 1. okt., så dere kan dele oppsummeringene sammen. Du kan velge din egen dato i stedet.</string>
+    <string name="forms_set_same">Samme som alle andre</string>
+    <string name="forms_set_own">Min egen dato</string>
+    <string name="forms_set_starting">Starter i</string>
+    <string name="forms_set_starting_tip">Måneden for din første egne sjekk.</string>
+    <string name="forms_earlier">Tidligere</string>
+    <string name="forms_later">Senere</string>
+    <string name="forms_set_every_tip">Måneder mellom sjekkene.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">måned</item>
+        <item quantity="other">måneder</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Dag i måneden</string>
+    <string name="forms_set_day_of_month_tip">Hvilken dag i den måneden.</string>
+    <string name="forms_set_everyone">Alle: 1. jan. · 1. apr. · 1. jul. · 1. okt.</string>
+    <string name="forms_set_days_build">Dager for å bygge en vane</string>
+    <string name="forms_set_days_build_tip">Forskning fant 18 til 254 dager, oftest nevnes 66 (Lally et al. 2010, Singh et al. 2024). Etter så mange dager flyttes et nytt steg til sjekkene dine.</string>
+    <string name="forms_set_nudge">Daglig påminnelse</string>
+    <string name="forms_set_nudge_tip">En påminnelse på dette tidspunktet, bare hvis noe fortsatt ikke er krysset av.</string>
+    <string name="forms_set_more">Mer</string>
+    <string name="forms_set_reasons">Grunner til glipp</string>
+    <string name="forms_set_tutorial">Se introduksjonen igjen</string>
+    <string name="forms_set_export">Eksporter dataene mine</string>
+    <string name="forms_set_import">Importer data</string>
+
+    <string name="forms_reasons_title">Grunner til glipp</string>
+    <string name="forms_reasons_hint">Legg til din egen grunn</string>
+    <string name="forms_reasons_used">brukt %1$d×</string>
+    <string name="forms_reasons_delete_title">Slette %1$s?</string>
+    <string name="forms_reasons_delete_text">Glippene blir værende i historikken din, bare uten dette merket.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d vane</item>
+        <item quantity="other">%1$d vaner</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d bytte</item>
+        <item quantity="other">%1$d bytter</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d fravalg</item>
+        <item quantity="other">%1$d fravalg</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, avkrysninger siden %2$s</string>
+    <string name="forms_export_title">Eksporter dataene mine</string>
+    <string name="forms_export_what">Dette havner i fila</string>
+    <string name="forms_export_ticks">Hver avkrysning, glipp og grunn</string>
+    <string name="forms_export_ticks_since">Hver avkrysning, glipp og grunn siden %1$s</string>
+    <string name="forms_export_summaries">3-månedersoppsummeringene dine</string>
+    <string name="forms_export_settings">Innstillingene, fargene og navnet ditt</string>
+    <string name="forms_export_file">Fil</string>
+    <string name="forms_export_kb">%1$d kB</string>
+    <string name="forms_export_save">Lagre fil</string>
+    <string name="forms_export_send">Send til…</string>
+    <string name="forms_export_send_title">Send Alice-dataene dine</string>
+    <string name="forms_export_saved">Lagret %1$s</string>
+    <string name="forms_export_save_failed">Kunne ikke lagre fila</string>
+
+    <string name="forms_import_title">Importer data</string>
+    <string name="forms_import_choose">Velg en Alice-sikkerhetskopi</string>
+    <string name="forms_import_choose_sub">.json, fra Eksporter på en annen telefon</string>
+    <string name="forms_import_cant_open">Kunne ikke åpne fila.</string>
+    <string name="forms_import_not_backup">Den fila er ikke en Alice-sikkerhetskopi.</string>
+    <string name="forms_import_replace_mode">Erstatt det som er her</string>
+    <string name="forms_import_add_mode">Legg til i det som er her</string>
+    <string name="forms_import_button">Importer</string>
+    <string name="forms_import_replace_title">Erstatte dataene dine?</string>
+    <string name="forms_import_add_title">Legge til disse dataene?</string>
+    <string name="forms_import_replace_text">Alt på denne telefonen byttes ut med fila. Eksporter først hvis du vil beholde det.</string>
+    <string name="forms_import_add_text">Vanene og historikken i fila legges til dine.</string>
+    <string name="forms_import_done">Data importert</string>
+
+    <string name="look_share">Del</string>
+    <string name="look_save_image">Lagre bilde</string>
+    <string name="look_next_week">Neste: uka di ›</string>
+    <string name="look_keep_going">Fortsett</string>
+    <string name="look_storage_needed">Alice trenger lagringstilgang for å lagre bildet</string>
+    <string name="look_share_caption">Kvartalet mitt med Alice. Start ditt eget: %1$s</string>
+    <string name="look_share_clip">Alice-oppsummering</string>
+    <string name="look_share_chooser">Del kvartalet ditt</string>
+    <string name="look_saved">Lagret i Bilder/Alice</string>
+    <string name="look_save_failed">Kunne ikke lagre bildet</string>
+
+    <string name="look_style_poster">Plakat</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Pokalskap</string>
+    <string name="look_style_receipt">Kvittering</string>
+    <string name="look_style_report">Karakterkort</string>
+    <string name="look_style_boarding">Boardingkort</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalender</string>
+    <string name="look_style_trading">Samlekort</string>
+
+    <string name="look_quote_1">Små steg, hver dag</string>
+    <string name="look_quote_2">Takk for at du stilte opp</string>
+    <string name="look_quote_3">Fremgang, ikke perfeksjon</string>
+    <string name="look_quote_4">Du holdt ut. Det teller</string>
+    <string name="look_quote_5">Små endringer, stor forskjell</string>
+    <string name="look_quote_6">Hver dag valgte du bedre</string>
+    <string name="look_quote_7">Sakte er fortsatt fremover</string>
+    <string name="look_quote_8">Du bygger et liv du liker</string>
+    <string name="look_quote_9">Ett steg om gangen blir mye</string>
+    <string name="look_quote_10">Fortsett å stille opp for deg selv</string>
+    <string name="look_quote_11">Ditt fremtidige jeg sier takk</string>
+    <string name="look_quote_12">Litt etter litt blir mye</string>
+    <string name="look_quote_13">Utholdenhet er stille magi</string>
+    <string name="look_quote_14">Se hvor langt du har kommet</string>
+    <string name="look_quote_15">Vær stolt av de små seirene</string>
+    <string name="look_quote_16">Gode dager bygges, de finnes ikke</string>
+
+    <string name="look_stamp_1">UTMERKET</string>
+    <string name="look_stamp_2">ENESTÅENDE</string>
+    <string name="look_stamp_3">GODT JOBBET</string>
+    <string name="look_stamp_4">STRÅLENDE</string>
+    <string name="look_stamp_5">SUPERT</string>
+    <string name="look_stamp_6">TOPPKARAKTER</string>
+    <string name="look_stamp_7">GULLSTJERNE</string>
+    <string name="look_stamp_8">FLOTT ARBEID</string>
+
+    <string name="look_period">%1$s til %2$s</string>
+    <string name="look_scan">SKANN FOR Å\nSTARTE DIN\nEGEN REISE</string>
+    <string name="look_you">Deg</string>
+    <string name="look_on_track">på sporet</string>
+    <string name="look_new_steps">nye steg</string>
+    <string name="look_days_in">dager med</string>
+    <string name="look_new">nytt</string>
+    <string name="look_week_by_week">Uke for uke</string>
+    <string name="look_coming_soon">Kommer snart</string>
+    <string name="look_new_this_quarter">Nytt dette kvartalet</string>
+    <string name="look_kept_up_longest">Holdt lengst</string>
+    <string name="look_habits">Vaner</string>
+    <string name="look_swaps">Bytter</string>
+    <string name="look_avoids">Fravalg</string>
+    <string name="look_ways_improved">Måter du ble bedre på</string>
+    <string name="look_improved_in">Du har gjort livet ditt bedre på %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d vane</item>
+        <item quantity="other">%1$d vaner</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d bytte</item>
+        <item quantity="other">%1$d bytter</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d fravalg</item>
+        <item quantity="other">%1$d fravalg</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d glipp</item>
+        <item quantity="other">%1$d glipp</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d måte</item>
+        <item quantity="other">%1$d måter</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">vane</item>
+        <item quantity="other">vaner</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">bytte</item>
+        <item quantity="other">bytter</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">fravalg</item>
+        <item quantity="other">fravalg</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">glipp</item>
+        <item quantity="other">glipp</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">måte</item>
+        <item quantity="other">måter</item>
+    </plurals>
+
+    <string name="look_poster_improved">Du har gjort livet ditt bedre på %1$s</string>
+    <string name="look_poster_on_track">PÅ SPORET</string>
+    <string name="look_poster_days">dager</string>
+    <string name="look_poster_achievements">Prestasjoner</string>
+    <string name="look_poster_first_ones">De første er på vei</string>
+    <string name="look_poster_added">Dette la du til i kvartalet</string>
+
+    <string name="look_wrapped_stars">Stjernene dine</string>
+
+    <string name="look_trophy_ways">måter du har gjort\nlivet ditt bedre på</string>
+    <string name="look_trophy_next_quarter">Neste kvartal</string>
+    <string name="look_trophy_first_medal">din første medalje</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Nytt på hylla:</string>
+
+    <string name="look_receipt_title">3-månederssjekk · %1$s</string>
+    <string name="look_receipt_customer">Kunde: %1$s</string>
+    <string name="look_receipt_habits">Vaner bygget</string>
+    <string name="look_receipt_swaps">Ting byttet</string>
+    <string name="look_receipt_avoids">Ting unngått</string>
+    <string name="look_receipt_ways">Måter du har gjort livet ditt bedre på</string>
+    <string name="look_receipt_on_track">På sporet dette kvartalet</string>
+    <string name="look_receipt_slips">Glipp</string>
+    <string name="look_receipt_new_steps">Nye steg bygget</string>
+    <string name="look_receipt_new">Nytt dette kvartalet: %1$s</string>
+
+    <string name="look_report_title">Karakterkort for små steg</string>
+    <string name="look_report_pupil">%1$s · Elev: %2$s</string>
+    <string name="look_report_subject">FAG</string>
+    <string name="look_report_built">BYGGET</string>
+    <string name="look_report_grade">KARAKTER</string>
+    <string name="look_report_attendance">Oppmøte %1$s</string>
+    <string name="look_report_on_track">På sporet %1$s</string>
+    <string name="look_report_slips">Glipp %1$s</string>
+    <string name="look_report_achievements">PRESTASJONER</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">NYE FAG DENNE TERMINEN (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Lærerens kommentar:</string>
+    <string name="look_report_calm">En rolig og stødig termin.</string>
+    <string name="look_report_ups_downs">En termin med opp- og nedturer, og du holdt ut.</string>
+    <string name="look_report_star">%1$s har vært enestående. Fortsett sånn!</string>
+    <string name="look_report_keep_up">Fortsett sånn!</string>
+    <string name="look_report_week">UKE FOR UKE</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Fly Q%1$d</string>
+    <string name="look_boarding_from">FRA</string>
+    <string name="look_boarding_old">GAMLE</string>
+    <string name="look_boarding_habits">vaner</string>
+    <string name="look_boarding_to">TIL</string>
+    <string name="look_boarding_new">NYE</string>
+    <string name="look_boarding_better_you">bedre deg</string>
+    <string name="look_boarding_passenger">Passasjer</string>
+    <string name="look_boarding_dates">Datoer</string>
+    <string name="look_boarding_miles">Tilbakelagte mil</string>
+    <string name="look_boarding_on_time">I rute</string>
+    <string name="look_boarding_turbulence">Turbulens</string>
+    <string name="look_boarding_days">Dager om bord</string>
+    <string name="look_boarding_flyer">STAMKUNDE, DINE LENGSTE REISEFØLGER</string>
+    <string name="look_boarding_log">FLYLOGG, UKE FOR UKE</string>
+    <string name="look_boarding_stops">NYE STOPP, +%1$d</string>
+    <string name="look_boarding_note">KAPTEINENS NOTAT</string>
+
+    <string name="look_polaroid_life">LIVET DITT</string>
+    <string name="look_polaroid_quarter">DETTE KVARTALET</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d dager med</string>
+    <string name="look_polaroid_longest">HOLDT LENGST</string>
+    <string name="look_polaroid_new">NYTT, +%1$d</string>
+
+    <string name="look_calendar_added">Lagt til</string>
+
+    <string name="look_trading_common">Vanlig</string>
+    <string name="look_trading_uncommon">Uvanlig</string>
+    <string name="look_trading_rare">Sjelden</string>
+    <string name="look_trading_legendary">Legendarisk</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">MÅTE</item>
+        <item quantity="other">MÅTER</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">Nr. %1$03d · ditt %2$s kvartal</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d dager</string>
+    <string name="look_trading_power">Kraft, uke for uke</string>
+    <string name="look_trading_edition">%1$s · Q%2$d-utgave</string>
+
+    <string name="look_sample_water_first">Vann først</string>
+    <string name="look_sample_own_bag">Egen pose</string>
+    <string name="look_sample_read_pages">Les 10 sider</string>
+    <string name="look_sample_reading">Lese hver dag</string>
+    <string name="look_sample_late_snacks">Ingen sene snacks</string>
+    <string name="look_sample_stretching">Tøying</string>
+    <string name="look_sample_cooler_home">Kjøligere hjem</string>
+    <string name="look_sample_loofah">Luffa i stedet for svamp</string>
+    <string name="look_sample_palm_oil">Uten palmeolje</string>
+    <string name="look_sample_stretch">Tøy ut 10 min</string>
+
+    <string name="look_colours_title">Farger</string>
+    <string name="look_colours_preview">Forhåndsvisning</string>
+    <string name="look_colours_your_summary">3-månedersoppsummeringen din</string>
+    <string name="look_colours_light">Lys</string>
+    <string name="look_colours_dark">Mørk</string>
+    <string name="look_styles_title">Stil på 3-månedersoppsummering</string>
+    <string name="look_styles_all_pictures">Se alle 30 polaroidbildene</string>
+    <string name="look_styles_refresh">Oppdater</string>
+    <string name="look_pictures_title">Polaroidbilder</string>
+    <string name="look_pictures_back">Oppsummeringsstiler</string>
+
+    <string name="look_welcome_name">Navnet ditt</string>
+    <string name="look_welcome_start">Start</string>
+    <string name="look_welcome_import">Importer dataene mine</string>
+
+    <string name="look_tut_skip">Hopp over</string>
+    <string name="look_tut_page">%1$d AV %2$d</string>
+    <string name="look_tut_back">Tilbake</string>
+    <string name="look_tut_start">Start</string>
+    <string name="look_tut_next">Neste</string>
+    <string name="look_tut1_title">Bli en bedre versjon av deg selv, ett steg om gangen</string>
+    <string name="look_tut1_body">Bygg nye vaner, ta snillere valg og se alt du får til, hope seg opp.</string>
+    <string name="look_tut1_habits">Bygg gode vaner dag for dag, og bli den du vil være.</string>
+    <string name="look_tut1_swaps">Bytt ut produkter med snillere, bedre for planeten, mennesker eller helsa di.</string>
+    <string name="look_tut1_avoids">Hold oversikt over selskapene, maten og produktene du helst ikke vil støtte.</string>
+    <string name="look_tut2_title">Kryss av</string>
+    <string name="look_tut2_body">Trykk på en rute når du har gjort en vane. Kveldsvaner låses opp ved innsjekkingstiden din.</string>
+    <string name="look_tut3_title">%1$s, så hver %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dager</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d måned</item>
+        <item quantity="other">%1$d måneder</item>
+    </plurals>
+    <string name="look_tut3_body">Studier fant at det tar alt fra 18 til 254 dager å bygge en vane. Tallet som nevnes oftest, er 66 dager, så det er der Alice starter.</string>
+    <string name="look_tut3_days_label">Dager for å bygge en vane</string>
+    <string name="look_tut3_checkup">Sjekk hver</string>
+    <string name="look_tut3_small">Du kan endre begge i Innstillinger.</string>
+    <string name="look_tut4_title">Én gang i uka, ett nytt steg</string>
+    <string name="look_tut4_body">Når du legger til ett nytt steg om gangen, kan du vokse i ditt eget tempo uten å ta på deg for mye på en gang.</string>
+    <string name="look_tut4_day">Innsjekkingsdag</string>
+    <string name="look_tut4_small">Dette kan du også endre i Innstillinger.</string>
+    <string name="look_tut5_title">Hvert kvartal, oppsummeringen din</string>
+    <string name="look_tut5_body">Del hvor langt du har kommet med vennene dine og de som står deg nær. Trykk på stilen du liker:</string>
+    <string name="look_tut_change_mind">Du kan alltid ombestemme deg.</string>
+    <string name="look_tut6_title">Gjør den til din</string>
+    <string name="look_tut6_body">Velg fargene som føles mest behagelige. Hele appen endres med en gang.</string>
+    <string name="look_tut7_title">Endre hva som helst, når som helst</string>
+    <string name="look_tut7_body">Innsjekkingstider, dager for å bygge en vane, oppsummeringsstilen, fargene og dataene dine finner du i Innstillinger.</string>
+    <string name="look_tut7_gear">Trykk på tannhjulet øverst i Vaner for å åpne Innstillinger.</string>
+    <string name="look_tut7_open">Åpne Innstillinger</string>
+
+    <string name="lang_title">Språk</string>
+    <string name="pron_title">Pronomen</string>
+    <string name="pron_she">hun</string>
+    <string name="pron_he">han</string>
+    <string name="pron_they">nøytral</string>
+    <string name="lang_spotted">Funnet en feil på språket ditt?</string>
+    <string name="lang_search">Søk etter språket ditt</string>
+    <string name="lang_phone">Telefonens språk</string>
+    <string name="lang_follow">Følg telefonen</string>
+    <string name="lang_note_title">Hjelp med oversettelser</string>
+    <string name="lang_note_1">Hei, jeg heter Lucy, og jeg har laget Alice.</string>
+    <string name="lang_note_2">Jeg snakker engelsk, slovakisk, tsjekkisk og russisk, så de oversettelsene har jeg sjekket selv. De andre språkene er ikke sjekket av en som har språket som morsmål ennå.</string>
+    <string name="lang_note_3">Hvis du finner en feil på språket ditt, si gjerne fra, så jeg kan rette den. Og hvis du har brukt Alice på språket ditt en stund og alt høres riktig ut, si fra om det også, så jeg kan merke det som godkjent.</string>
+    <string name="lang_note_4">Takk!</string>
+    <string name="lang_not_approved">IKKE GODKJENT ENNÅ</string>
+    <string name="lang_report">Meld fra om en feil</string>
+    <string name="lang_all_correct">Språket mitt er helt riktig</string>
+    <string name="lang_mail_mistake_body">Hva som høres feil ut, og på hvilken skjerm:\n\n</string>
+    <string name="lang_mail_correct_body">Jeg har brukt Alice på språket mitt en stund, og alt høres riktig ut.\n\n</string>
+    <string name="lang_no_mail">Fant ingen e-postapp</string>
+</resources>

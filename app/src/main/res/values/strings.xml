@@ -1,0 +1,1011 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <!-- shared bits, logic words, notification, themes, pictures -->
+    <!-- slip reasons, stored as names on first start -->
+    <string name="core_reason_too_tired">Too tired</string>
+    <string name="core_reason_craving">Craving</string>
+    <string name="core_reason_no_time">No time</string>
+    <string name="core_reason_forgot">Forgot</string>
+    <string name="core_reason_no_alternative">No alternative</string>
+    <string name="core_reason_social">Social</string>
+    <string name="core_reason_impulse">Impulse</string>
+    <string name="core_reason_too_expensive">Too expensive</string>
+    <string name="core_reason_away">Away</string>
+
+    <!-- nudge and toasts -->
+    <string name="core_nudge_channel">Daily nudge</string>
+    <string name="core_nudge_title">Still to tick today</string>
+    <string name="core_save_failed">Could not save that, please try again</string>
+
+    <!-- shared components -->
+    <string name="core_kind_habit">Habit</string>
+    <string name="core_kind_swap">Swap</string>
+    <string name="core_kind_avoid">Avoid</string>
+    <string name="core_about">About %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Less</string>
+    <string name="core_more">More</string>
+    <string name="core_cancel">Cancel</string>
+    <string name="core_settings">Settings</string>
+    <string name="core_span_week">Week</string>
+    <string name="core_span_month">Month</string>
+    <string name="core_span_year">Year</string>
+    <string name="core_span_all">All time</string>
+    <string name="core_tab_habits">Habits</string>
+    <string name="core_tab_changes">Changes</string>
+    <string name="core_tab_avoid">Avoid</string>
+    <string name="core_tab_insights">Insights</string>
+
+    <!-- day squares read by talkback, day then state -->
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">kept</string>
+    <string name="core_cell_missed">missed</string>
+    <string name="core_cell_partial">partly done, %1$d so far</string>
+    <string name="core_cell_unfilled">not filled in yet</string>
+    <string name="core_cell_open">to do</string>
+    <string name="core_cell_locked">locked until check-in time</string>
+    <string name="core_cell_future">not yet</string>
+    <string name="core_cell_empty">nothing needed</string>
+    <string name="core_cell_band">done for this period</string>
+    <string name="core_cell_off">not a day for this step</string>
+    <string name="core_cell_none">before this step started</string>
+
+    <!-- how often a step repeats -->
+    <string name="core_rhythm_one_off">One-off</string>
+    <string name="core_rhythm_end_of_day">Every day, ticked at the end of the day</string>
+    <string name="core_rhythm_every_day">Every day</string>
+    <string name="core_rhythm_every_days">Every %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">a week</string>
+    <string name="core_rhythm_a_month">a month</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, any day</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s and %2$s</string>
+
+    <!-- 3-month summary and week glance -->
+    <string name="core_achievement_short_months">%1$d mo</string>
+    <string name="core_achievement_short_days">%1$d d</string>
+    <string name="core_glance_step">%1$s, %2$d of %3$d</string>
+
+    <!-- check-up answers -->
+    <string name="core_slip_never">Never</string>
+    <string name="core_slip_once">Once</string>
+    <string name="core_slip_a_few">A few</string>
+    <string name="core_slip_half">Half</string>
+    <string name="core_slip_most">Most</string>
+    <string name="core_slip_always">Always</string>
+
+    <!-- idea groups -->
+    <string name="core_ideas_habit_anytime">Habits, anytime</string>
+    <string name="core_ideas_habit_end">Habits, end of day</string>
+    <string name="core_ideas_swap">Swaps</string>
+    <string name="core_ideas_avoid_product">Avoid, products</string>
+    <string name="core_ideas_avoid_company">Avoid, companies</string>
+    <string name="core_ideas_avoid_food">Avoid, food</string>
+
+    <!-- avoid tags shown, stored ones stay english -->
+    <string name="core_tag_ethical">Ethical</string>
+    <string name="core_tag_health">Health</string>
+    <string name="core_tag_clutter">Clutter</string>
+    <string name="core_tag_ecological">Ecological</string>
+    <string name="core_tag_animal_welfare">Animal welfare</string>
+    <string name="core_tag_workers_rights">Workers\' rights</string>
+    <string name="core_tag_plastic">Plastic</string>
+    <string name="core_tag_palm_oil">Palm oil</string>
+    <string name="core_tag_deforestation">Deforestation</string>
+    <string name="core_category_company">Company</string>
+    <string name="core_category_food">Food</string>
+    <string name="core_category_product">Product</string>
+    <string name="core_verdict_avoid">AVOID</string>
+    <string name="core_verdict_edge">ON THE EDGE</string>
+    <string name="core_verdict_fine">FINE</string>
+
+    <!-- colour themes -->
+    <string name="core_theme_off_white_honey">Off-white &amp; honey</string>
+    <string name="core_theme_vanilla_caramel">Vanilla &amp; caramel</string>
+    <string name="core_theme_sunflower">Sunflower</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Cocoa &amp; lemon</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; butter</string>
+    <string name="core_theme_midnight_honey">Midnight &amp; honey</string>
+    <string name="core_theme_forest_night">Forest night</string>
+    <string name="core_theme_plum_dusk">Plum dusk</string>
+    <string name="core_theme_charcoal_coral">Charcoal &amp; coral</string>
+
+    <!-- polaroid pictures -->
+    <string name="core_pic_sunny_meadow">Sunny meadow</string>
+    <string name="core_pic_sunset_hills">Sunset hills</string>
+    <string name="core_pic_starry_night">Starry night</string>
+    <string name="core_pic_beach_day">Beach day</string>
+    <string name="core_pic_mountain_lake">Mountain lake</string>
+    <string name="core_pic_snowy_village">Snowy village</string>
+    <string name="core_pic_rainy_garden">Rainy garden</string>
+    <string name="core_pic_autumn_forest">Autumn forest</string>
+    <string name="core_pic_cherry_blossom">Cherry blossom</string>
+    <string name="core_pic_desert_cactus">Desert cactus</string>
+    <string name="core_pic_lighthouse">Lighthouse</string>
+    <string name="core_pic_rainbow_field">Rainbow field</string>
+    <string name="core_pic_hot_air_balloon">Hot air balloon</string>
+    <string name="core_pic_sailboat">Sailboat</string>
+    <string name="core_pic_cabin_in_the_woods">Cabin in the woods</string>
+    <string name="core_pic_tulip_field">Tulip field</string>
+    <string name="core_pic_campfire_night">Campfire night</string>
+    <string name="core_pic_misty_mountains">Misty mountains</string>
+    <string name="core_pic_sunrise_sea">Sunrise sea</string>
+    <string name="core_pic_snowy_pines">Snowy pines</string>
+    <string name="core_pic_lavender_field">Lavender field</string>
+    <string name="core_pic_waterfall">Waterfall</string>
+    <string name="core_pic_city_at_dusk">City at dusk</string>
+    <string name="core_pic_picnic">Picnic</string>
+    <string name="core_pic_moon_over_the_lake">Moon over the lake</string>
+    <string name="core_pic_palm_island">Palm island</string>
+    <string name="core_pic_windmill">Windmill</string>
+    <string name="core_pic_bike_path">Bike path</string>
+    <string name="core_pic_greenhouse">Greenhouse</string>
+    <string name="core_pic_northern_lights">Northern lights</string>
+
+    <!-- counts -->
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d step is waiting for you.</item>
+        <item quantity="other">%d steps are waiting for you.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">kept, %d time</item>
+        <item quantity="other">kept, %d times</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d time a day</item>
+        <item quantity="other">%d times a day</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Once</item>
+        <item quantity="other">%d times</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">every %d week</item>
+        <item quantity="other">every %d weeks</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">every %d month</item>
+        <item quantity="other">every %d months</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">every %d day</item>
+        <item quantity="other">every %d days</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d month, never missed</item>
+        <item quantity="other">%d months, never missed</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d month strong</item>
+        <item quantity="other">%d months strong</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d day in a row</item>
+        <item quantity="other">%d days in a row</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+
+    <!-- habits, changes, avoid, insights tabs and one habit -->
+    <!-- shared on tab screens -->
+    <string name="tabs_new_step">New step</string>
+    <string name="tabs_edit">Edit</string>
+    <string name="tabs_delete">Delete</string>
+    <string name="tabs_done">Done</string>
+    <string name="tabs_back">Back</string>
+    <string name="tabs_earlier">Earlier</string>
+    <string name="tabs_later">Later</string>
+    <string name="tabs_delete_title">Delete %1$s?</string>
+    <string name="tabs_eod_unlock">End of day habits unlock at %1$02d:00</string>
+    <string name="tabs_check_up">Check-up</string>
+    <string name="tabs_one_off">One-off</string>
+
+    <!-- habits tab -->
+    <string name="tabs_checkin_from">Check-In from %1$02d:00</string>
+    <string name="tabs_checkin_daily">Daily Check-In</string>
+    <string name="tabs_checkin_weekly">Weekly Check-In</string>
+    <string name="tabs_checkin_quarter">3-Month Check-Up</string>
+    <string name="tabs_checked_in">Checked In</string>
+    <string name="tabs_quarter_section">3-MONTH CHECK-UP</string>
+    <string name="tabs_previous_week">Previous week</string>
+    <string name="tabs_next_week">Next week</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d day of %2$s!</item>
+        <item quantity="other">%1$d days of %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Well done. It moves to your 3-Month Check-Ups now, no more daily ticking.</string>
+    <string name="tabs_celebrate_first">First one is %1$s.</string>
+    <string name="tabs_glance_title">Your week</string>
+    <string name="tabs_glance_ticks_kept">Ticks kept</string>
+    <string name="tabs_glance_days_checked_in">Days checked in</string>
+    <string name="tabs_glance_top_tag">Most used slip tag:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d time</item>
+        <item quantity="other">%1$s, %2$d times</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Easiest:</string>
+    <string name="tabs_glance_hardest">Hardest:</string>
+
+    <!-- changes tab -->
+    <string name="tabs_changes_ongoing">Ongoing swaps</string>
+    <string name="tabs_changes_ongoing_tip_title">Ongoing swap</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">You will face the same choice again, like a coffee cup or shampoo bar. It is ticked in Habits for %1$d day, then checked every 3 months.</item>
+        <item quantity="other">You will face the same choice again, like a coffee cup or shampoo bar. It is ticked in Habits for %1$d days, then checked every 3 months.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">No swaps yet</string>
+    <string name="tabs_changes_day_badge">DAY %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">STICKING</string>
+    <string name="tabs_changes_one_off_todo">One-off, to do</string>
+    <string name="tabs_changes_one_off_tip">You do it once and it is done, like clearing a drawer, switching to a green energy tariff or repairing a jacket. Tick it and it moves to Finished.</string>
+    <string name="tabs_changes_nothing_waiting">Nothing waiting</string>
+    <string name="tabs_changes_finished">FINISHED · %1$d</string>
+
+    <!-- avoid list -->
+    <string name="tabs_avoid_title">Avoid list</string>
+    <string name="tabs_avoid_search">Search…</string>
+    <string name="tabs_avoid_no_match">Nothing matches</string>
+    <string name="tabs_avoid_companies">Companies</string>
+    <string name="tabs_avoid_food">Food</string>
+    <string name="tabs_avoid_products">Products</string>
+
+    <!-- one avoid -->
+    <string name="tabs_avoid_added">Added</string>
+    <string name="tabs_avoid_why">Why you avoid it</string>
+    <string name="tabs_avoid_own_words">Your own words</string>
+    <string name="tabs_avoid_brands">Brands it owns · %1$d</string>
+    <string name="tabs_avoid_brand_hint">One brand per line</string>
+    <string name="tabs_avoid_more_brands">+%1$d more</string>
+    <string name="tabs_avoid_instead">Have this instead</string>
+    <string name="tabs_avoid_instead_hint">One per line</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">slip</item>
+        <item quantity="other">slips</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">avoided</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">month on list</item>
+        <item quantity="other">months on list</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">It comes off your Avoid list with its history.</string>
+
+    <!-- one habit -->
+    <string name="tabs_habit_delete_text">Its whole history goes with it.</string>
+    <string name="tabs_habit_created">Created</string>
+    <string name="tabs_habit_to_do">To do</string>
+    <string name="tabs_habit_daily_ticks">Daily ticks</string>
+    <string name="tabs_habit_day_of">Day %1$d of %2$d</string>
+    <string name="tabs_habit_finished">Finished</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">day going</item>
+        <item quantity="other">days going</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">time broken</item>
+        <item quantity="other">times broken</item>
+    </plurals>
+    <string name="tabs_habit_success">success</string>
+    <string name="tabs_habit_current_streak">Current streak</string>
+    <string name="tabs_habit_longest_streak">Longest streak</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Why it slipped</string>
+    <string name="tabs_habit_remove_reason">Remove this reason</string>
+
+    <!-- insights tab -->
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">way you improved your life</item>
+        <item quantity="other">ways you improved your life</item>
+    </plurals>
+    <string name="tabs_insights_habits">Habits</string>
+    <string name="tabs_insights_swaps">Swaps</string>
+    <string name="tabs_insights_avoids">Avoids</string>
+    <string name="tabs_insights_on_track_section">On track</string>
+    <string name="tabs_insights_avg_days">%1$d d</string>
+    <string name="tabs_insights_average_kept">average kept</string>
+    <string name="tabs_insights_days_checked_in">days checked in</string>
+    <string name="tabs_insights_on_track">on track</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">slip</item>
+        <item quantity="other">slips</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">new step</item>
+        <item quantity="other">new steps</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">one-off done</item>
+        <item quantity="other">one-offs done</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Biggest slip reasons</string>
+    <string name="tabs_insights_added_quarter">Added this quarter</string>
+    <string name="tabs_insights_past_summaries">Past 3-Month summaries</string>
+    <string name="tabs_insights_first_on">Your first one comes on %1$s</string>
+    <string name="tabs_insights_all_time">All time</string>
+    <string name="tabs_insights_period">%1$s to %2$s %3$d</string>
+
+    <!-- new step, check-ins, settings, reasons, export, import -->
+    <!-- shared by form screens -->
+    <string name="forms_back">Back</string>
+    <string name="forms_back_habits">Habits</string>
+    <string name="forms_back_settings">Settings</string>
+    <string name="forms_add">Add</string>
+    <string name="forms_save">Save</string>
+    <string name="forms_finish">Finish</string>
+    <string name="forms_delete">Delete</string>
+    <string name="forms_why">Why</string>
+    <string name="forms_never_show">Never show again</string>
+    <string name="forms_every">Every</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+
+    <!-- check-in flow -->
+    <string name="forms_checkin_step_of">Step %1$d of %2$d</string>
+    <string name="forms_checkin_next_weekly">Next, weekly Check-In ›</string>
+    <string name="forms_checkin_next_quarter">Next, 3-Month Check-Up ›</string>
+    <string name="forms_daily_title">Daily Check-In</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d earlier day not filled in</item>
+        <item quantity="other">%1$d earlier days not filled in</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Skip all</string>
+    <string name="forms_daily_today">Today · %1$s</string>
+    <string name="forms_daily_skip">Skip</string>
+    <string name="forms_daily_undo_skip">Undo skip</string>
+    <string name="forms_daily_new_tag">New tag</string>
+    <string name="forms_daily_new_tag_hint">Bin was full</string>
+    <string name="forms_weekly_title">Weekly Check-In</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d week owed, one new step covers them all.</item>
+        <item quantity="other">%1$d weeks owed, one new step covers them all.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">No new step this week</string>
+    <string name="forms_quarter_title">3-Month Check-Up</string>
+    <string name="forms_quarter_nothing">Nothing built yet to check up on. Your summary is next.</string>
+    <string name="forms_quarter_habits">Habits</string>
+    <string name="forms_quarter_swaps">Swaps</string>
+    <string name="forms_quarter_avoid">Avoid</string>
+    <string name="forms_quarter_missed">Missed</string>
+    <string name="forms_quarter_missed_level">Missed: %1$s</string>
+
+    <!-- new and edit step -->
+    <string name="forms_new_title">New step</string>
+    <string name="forms_edit_title">Edit %1$s</string>
+    <string name="forms_add_kind">Add %1$s</string>
+    <string name="forms_title_habit">habit</string>
+    <string name="forms_title_swap">swap</string>
+    <string name="forms_title_avoid">avoid</string>
+    <string name="forms_save_changes">Save changes</string>
+    <string name="forms_what_kind">What kind?</string>
+    <string name="forms_name">Name</string>
+    <string name="forms_your_new_step">Your new step</string>
+    <string name="forms_hint_habit">Read 10 pages</string>
+    <string name="forms_hint_swap">Loofah, not sponge</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">What kind of habit?</string>
+    <string name="forms_timing_tip_title">Anytime or end of day</string>
+    <string name="forms_timing_tip">Anytime: something you do once, like a run. Tick it as soon as it is done.\n\nEnd of day: a rule you keep all day, like no snacks. You can only tick it in the evening.</string>
+    <string name="forms_anytime">Anytime</string>
+    <string name="forms_end_of_day">End of day</string>
+    <string name="forms_what_is_it">What is it?</string>
+    <string name="forms_how_often">How often?</string>
+    <string name="forms_often_specific">Specific days</string>
+    <string name="forms_often_whenever">Whenever</string>
+    <string name="forms_often_once">Just once</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">time every</item>
+        <item quantity="other">times every</item>
+    </plurals>
+    <string name="forms_unit_day">day</string>
+    <string name="forms_unit_week">week</string>
+    <string name="forms_unit_month">month</string>
+    <string name="forms_unit_x_days">X days</string>
+    <string name="forms_ideas">Ideas</string>
+    <string name="forms_ideas_others">Others</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">See all %1$d idea ›</item>
+        <item quantity="other">See all %1$d ideas ›</item>
+    </plurals>
+
+    <!-- all ideas -->
+    <string name="forms_ideas_title">All step ideas</string>
+    <string name="forms_search">Search…</string>
+    <string name="forms_all">All</string>
+
+    <!-- settings -->
+    <string name="forms_settings_title">Settings</string>
+    <string name="forms_set_colours">Colours</string>
+    <string name="forms_set_style">3-Month summary style</string>
+    <string name="forms_set_checkins">Check-ins</string>
+    <string name="forms_set_checkin_hour">Daily Check-In opens at</string>
+    <string name="forms_set_checkin_hour_tip">From this time you can tick end of day habits and do the Daily Check-In.</string>
+    <string name="forms_set_week_start">Week starts on</string>
+    <string name="forms_set_week_start_tip">Which day your Habits grid, weeks and charts start on.</string>
+    <string name="forms_monday">Monday</string>
+    <string name="forms_sunday">Sunday</string>
+    <string name="forms_set_new_step_every">New step every</string>
+    <string name="forms_set_new_step_every_tip">How many weeks between Weekly Check-Ins.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">week</item>
+        <item quantity="other">weeks</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Weekly Check-In day</string>
+    <string name="forms_set_weekly_day_tip">On this day the Daily Check-In is followed by picking next week\'s new step.</string>
+    <string name="forms_set_checkup">3-Month Check-Up</string>
+    <string name="forms_set_checkup_tip">Everyone checks up on the same days: 1 Jan, 1 Apr, 1 Jul and 1 Oct, so you can share your summary together. You can pick your own date instead.</string>
+    <string name="forms_set_same">Same as everyone</string>
+    <string name="forms_set_own">My own date</string>
+    <string name="forms_set_starting">Starting on</string>
+    <string name="forms_set_starting_tip">The month of your first own check-up.</string>
+    <string name="forms_earlier">Earlier</string>
+    <string name="forms_later">Later</string>
+    <string name="forms_set_every_tip">Months between check-ups.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">month</item>
+        <item quantity="other">months</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Day of the month</string>
+    <string name="forms_set_day_of_month_tip">Which day of that month.</string>
+    <string name="forms_set_everyone">Everyone: 1 Jan · 1 Apr · 1 Jul · 1 Oct</string>
+    <string name="forms_set_days_build">Days to build a habit</string>
+    <string name="forms_set_days_build_tip">Research found 18 to 254 days, most often quoted 66 (Lally et al. 2010, Singh et al. 2024). After this many days a new step moves to your check-ups.</string>
+    <string name="forms_set_nudge">Daily nudge</string>
+    <string name="forms_set_nudge_tip">A reminder at this time, only if something is still unticked.</string>
+    <string name="forms_set_more">More</string>
+    <string name="forms_set_reasons">Slip reasons</string>
+    <string name="forms_set_tutorial">Replay tutorial</string>
+    <string name="forms_set_export">Export my data</string>
+    <string name="forms_set_import">Import data</string>
+
+    <!-- slip reasons -->
+    <string name="forms_reasons_title">Slip reasons</string>
+    <string name="forms_reasons_hint">Add your own reason</string>
+    <string name="forms_reasons_used">used %1$d×</string>
+    <string name="forms_reasons_delete_title">Delete %1$s?</string>
+    <string name="forms_reasons_delete_text">Slips keep their place in your history, just without this tag.</string>
+
+    <!-- export -->
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d habit</item>
+        <item quantity="other">%1$d habits</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d swap</item>
+        <item quantity="other">%1$d swaps</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d avoid</item>
+        <item quantity="other">%1$d avoids</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, ticks since %2$s</string>
+    <string name="forms_export_title">Export my data</string>
+    <string name="forms_export_what">What goes in the file</string>
+    <string name="forms_export_ticks">Every tick, slip and reason</string>
+    <string name="forms_export_ticks_since">Every tick, slip and reason since %1$s</string>
+    <string name="forms_export_summaries">Your 3-Month summaries</string>
+    <string name="forms_export_settings">Your settings, colours and name</string>
+    <string name="forms_export_file">File</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Save file</string>
+    <string name="forms_export_send">Send to…</string>
+    <string name="forms_export_send_title">Send your Alice data</string>
+    <string name="forms_export_saved">Saved %1$s</string>
+    <string name="forms_export_save_failed">Could not save the file</string>
+
+    <!-- import -->
+    <string name="forms_import_title">Import data</string>
+    <string name="forms_import_choose">Choose an Alice backup</string>
+    <string name="forms_import_choose_sub">.json, from Export on another phone</string>
+    <string name="forms_import_cant_open">Could not open that file.</string>
+    <string name="forms_import_not_backup">That file is not an Alice backup.</string>
+    <string name="forms_import_replace_mode">Replace what\'s here</string>
+    <string name="forms_import_add_mode">Add to what\'s here</string>
+    <string name="forms_import_button">Import</string>
+    <string name="forms_import_replace_title">Replace your data?</string>
+    <string name="forms_import_add_title">Add this data?</string>
+    <string name="forms_import_replace_text">Everything on this phone is swapped for the file. Export first if you want to keep it.</string>
+    <string name="forms_import_add_text">The habits and history in the file are added to yours.</string>
+    <string name="forms_import_done">Data imported</string>
+
+    <!-- 3-month summaries, colours, styles, tutorial, welcome -->
+    <!-- summary screen, buttons, share, toasts -->
+    <string name="look_share">Share</string>
+    <string name="look_save_image">Save image</string>
+    <string name="look_next_week">Next, your week ›</string>
+    <string name="look_keep_going">Keep going</string>
+    <string name="look_storage_needed">Alice needs storage access to save the picture</string>
+    <string name="look_share_caption">My quarter with Alice. Start your own: %1$s</string>
+    <string name="look_share_clip">Alice summary</string>
+    <string name="look_share_chooser">Share your quarter</string>
+    <string name="look_saved">Saved to Pictures/Alice</string>
+    <string name="look_save_failed">Could not save the picture</string>
+
+    <!-- summary style names, settings order -->
+    <string name="look_style_poster">Poster</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Trophy cabinet</string>
+    <string name="look_style_receipt">Receipt</string>
+    <string name="look_style_report">Report card</string>
+    <string name="look_style_boarding">Boarding pass</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Calendar</string>
+    <string name="look_style_trading">Trading card</string>
+
+    <!-- quotes, already title case, picked by index so keep order -->
+    <string name="look_quote_1">Small Steps, Every Day</string>
+    <string name="look_quote_2">Thank You for Showing Up</string>
+    <string name="look_quote_3">Progress, Not Perfection</string>
+    <string name="look_quote_4">You Kept Going. That Counts</string>
+    <string name="look_quote_5">Tiny Changes, Big Difference</string>
+    <string name="look_quote_6">Every Day You Chose Better</string>
+    <string name="look_quote_7">Slow Is Still Forward</string>
+    <string name="look_quote_8">You Are Building a Life You Like</string>
+    <string name="look_quote_9">One Step at a Time Adds Up</string>
+    <string name="look_quote_10">Keep Showing Up for Yourself</string>
+    <string name="look_quote_11">Your Future Self Says Thanks</string>
+    <string name="look_quote_12">Little by Little, a Lot</string>
+    <string name="look_quote_13">Consistency Is Quiet Magic</string>
+    <string name="look_quote_14">Look How Far You Have Come</string>
+    <string name="look_quote_15">Be Proud of the Small Wins</string>
+    <string name="look_quote_16">Good Days Are Built, Not Found</string>
+
+    <!-- report card stamps, picked by index so keep order -->
+    <string name="look_stamp_1">EXCELLENT</string>
+    <string name="look_stamp_2">OUTSTANDING</string>
+    <string name="look_stamp_3">WELL DONE</string>
+    <string name="look_stamp_4">BRILLIANT</string>
+    <string name="look_stamp_5">SUPERB</string>
+    <string name="look_stamp_6">TOP MARKS</string>
+    <string name="look_stamp_7">GOLD STAR</string>
+    <string name="look_stamp_8">GREAT WORK</string>
+
+    <!-- shared summary bits -->
+    <string name="look_period">%1$s to %2$s</string>
+    <string name="look_scan">SCAN TO\nSTART YOUR\nOWN JOURNEY</string>
+    <string name="look_you">You</string>
+    <string name="look_on_track">on track</string>
+    <string name="look_new_steps">new steps</string>
+    <string name="look_days_in">days in</string>
+    <string name="look_new">new</string>
+    <string name="look_week_by_week">Week by week</string>
+    <string name="look_coming_soon">Coming soon</string>
+    <string name="look_new_this_quarter">New this quarter</string>
+    <string name="look_kept_up_longest">Kept up longest</string>
+    <string name="look_habits">Habits</string>
+    <string name="look_swaps">Swaps</string>
+    <string name="look_avoids">Avoids</string>
+    <string name="look_ways_improved">Ways improved</string>
+    <!-- %1$s is drawn big and bold -->
+    <string name="look_improved_in">You improved your life in %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d habit</item>
+        <item quantity="other">%1$d habits</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d swap</item>
+        <item quantity="other">%1$d swaps</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d avoid</item>
+        <item quantity="other">%1$d avoids</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d slip</item>
+        <item quantity="other">%1$d slips</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d way</item>
+        <item quantity="other">%1$d ways</item>
+    </plurals>
+    <!-- word under a big number, number shown apart -->
+    <plurals name="look_habits_word">
+        <item quantity="one">habit</item>
+        <item quantity="other">habits</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">swap</item>
+        <item quantity="other">swaps</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">avoid</item>
+        <item quantity="other">avoids</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">slip</item>
+        <item quantity="other">slips</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">way</item>
+        <item quantity="other">ways</item>
+    </plurals>
+
+    <!-- poster -->
+    <string name="look_poster_improved">You have improved your life in %1$s</string>
+    <string name="look_poster_on_track">ON TRACK</string>
+    <string name="look_poster_days">days</string>
+    <string name="look_poster_achievements">Achievements</string>
+    <string name="look_poster_first_ones">Your first ones are on the way</string>
+    <string name="look_poster_added">What you added this quarter</string>
+
+    <!-- wrapped -->
+    <string name="look_wrapped_stars">Your stars</string>
+
+    <!-- trophy cabinet -->
+    <string name="look_trophy_ways">ways you improved\nyour life</string>
+    <string name="look_trophy_next_quarter">Next quarter</string>
+    <string name="look_trophy_first_medal">your first medal</string>
+    <!-- %1$s is the bold label -->
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">New on the shelf:</string>
+
+    <!-- receipt -->
+    <string name="look_receipt_title">3-Month Check-Up · %1$s</string>
+    <string name="look_receipt_customer">Customer: %1$s</string>
+    <string name="look_receipt_habits">Habits built</string>
+    <string name="look_receipt_swaps">Things swapped</string>
+    <string name="look_receipt_avoids">Things avoided</string>
+    <string name="look_receipt_ways">Ways you improved your life</string>
+    <string name="look_receipt_on_track">On track this quarter</string>
+    <string name="look_receipt_slips">Slips</string>
+    <string name="look_receipt_new_steps">New steps built</string>
+    <string name="look_receipt_new">New this quarter: %1$s</string>
+
+    <!-- report card, %1$s bold where the text is styled -->
+    <string name="look_report_title">Report of Small Steps</string>
+    <string name="look_report_pupil">%1$s · Pupil: %2$s</string>
+    <string name="look_report_subject">SUBJECT</string>
+    <string name="look_report_built">BUILT</string>
+    <string name="look_report_grade">GRADE</string>
+    <string name="look_report_attendance">Attendance %1$s</string>
+    <string name="look_report_on_track">On track %1$s</string>
+    <string name="look_report_slips">Slips %1$s</string>
+    <string name="look_report_achievements">ACHIEVEMENTS</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">NEW SUBJECTS THIS TERM (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Teacher\'s comment:</string>
+    <string name="look_report_calm">A calm, steady term.</string>
+    <string name="look_report_ups_downs">A term with ups and downs, and you stayed with it.</string>
+    <string name="look_report_star">%1$s has been outstanding. Keep it up!</string>
+    <string name="look_report_keep_up">Keep it up!</string>
+    <string name="look_report_week">WEEK BY WEEK</string>
+
+    <!-- boarding pass -->
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Flight Q%1$d</string>
+    <string name="look_boarding_from">FROM</string>
+    <string name="look_boarding_old">OLD</string>
+    <string name="look_boarding_habits">habits</string>
+    <string name="look_boarding_to">TO</string>
+    <string name="look_boarding_new">NEW</string>
+    <string name="look_boarding_better_you">better you</string>
+    <string name="look_boarding_passenger">Passenger</string>
+    <string name="look_boarding_dates">Dates</string>
+    <string name="look_boarding_miles">Miles flown</string>
+    <string name="look_boarding_on_time">On time</string>
+    <string name="look_boarding_turbulence">Turbulence</string>
+    <string name="look_boarding_days">Days aboard</string>
+    <string name="look_boarding_flyer">FREQUENT FLYER, YOUR LONGEST COMPANIONS</string>
+    <string name="look_boarding_log">FLIGHT LOG, WEEK BY WEEK</string>
+    <string name="look_boarding_stops">NEW STOPS, +%1$d</string>
+    <string name="look_boarding_note">CAPTAIN\'S NOTE</string>
+
+    <!-- polaroid -->
+    <string name="look_polaroid_life">YOUR LIFE</string>
+    <string name="look_polaroid_quarter">THIS QUARTER</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d days in</string>
+    <string name="look_polaroid_longest">KEPT UP LONGEST</string>
+    <string name="look_polaroid_new">NEW, +%1$d</string>
+
+    <!-- calendar -->
+    <string name="look_calendar_added">Added</string>
+
+    <!-- trading card -->
+    <string name="look_trading_common">Common</string>
+    <string name="look_trading_uncommon">Uncommon</string>
+    <string name="look_trading_rare">Rare</string>
+    <string name="look_trading_legendary">Legendary</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">WAY</item>
+        <item quantity="other">WAYS</item>
+    </plurals>
+    <!-- english ordinal ends, picked in code -->
+    <string name="look_ordinal_st">%1$dst</string>
+    <string name="look_ordinal_nd">%1$dnd</string>
+    <string name="look_ordinal_rd">%1$drd</string>
+    <string name="look_ordinal_th">%1$dth</string>
+    <string name="look_trading_number">No. %1$03d · your %2$s quarter</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d days</string>
+    <string name="look_trading_power">Power, week by week</string>
+    <string name="look_trading_edition">%1$s · Q%2$d edition</string>
+
+    <!-- sample summary and tutorial example steps -->
+    <string name="look_sample_water_first">Water first</string>
+    <string name="look_sample_own_bag">Own bag</string>
+    <string name="look_sample_read_pages">Read 10 pages</string>
+    <string name="look_sample_reading">Reading every day</string>
+    <string name="look_sample_late_snacks">No late snacks</string>
+    <string name="look_sample_stretching">Stretching</string>
+    <string name="look_sample_cooler_home">Cooler home</string>
+    <string name="look_sample_loofah">Loofah, not sponge</string>
+    <string name="look_sample_palm_oil">Palm oil free</string>
+    <string name="look_sample_stretch">Stretch 10 min</string>
+
+    <!-- colours, styles, pictures -->
+    <string name="look_colours_title">Colours</string>
+    <string name="look_colours_preview">Preview</string>
+    <string name="look_colours_your_summary">Your 3-Month summary</string>
+    <string name="look_colours_light">Light</string>
+    <string name="look_colours_dark">Dark</string>
+    <string name="look_styles_title">3-Month summary style</string>
+    <string name="look_styles_all_pictures">See all 30 Polaroid pictures</string>
+    <string name="look_styles_refresh">Refresh</string>
+    <string name="look_pictures_title">Polaroid pictures</string>
+    <string name="look_pictures_back">Summary styles</string>
+
+    <!-- welcome -->
+    <string name="look_welcome_name">Your name</string>
+    <string name="look_welcome_start">Start</string>
+    <string name="look_welcome_import">Import my data</string>
+
+    <!-- tutorial -->
+    <string name="look_tut_skip">Skip</string>
+    <string name="look_tut_page">%1$d OF %2$d</string>
+    <string name="look_tut_back">Back</string>
+    <string name="look_tut_start">Start</string>
+    <string name="look_tut_next">Next</string>
+    <string name="look_tut1_title">Become a better you, one step at a time</string>
+    <string name="look_tut1_body">Build new habits, make kinder choices, and watch everything you achieve add up.</string>
+    <string name="look_tut1_habits">Build good habits day by day and become who you want to be.</string>
+    <string name="look_tut1_swaps">Swap products for kinder ones, better for the planet, people or your health.</string>
+    <string name="look_tut1_avoids">Keep track of the companies, food and products you would rather not support.</string>
+    <string name="look_tut2_title">Tick it off</string>
+    <string name="look_tut2_body">Tap a square when you have done a habit. Evening ones unlock at your check-in time.</string>
+    <string name="look_tut3_title">%1$s, then every %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d month</item>
+        <item quantity="other">%1$d months</item>
+    </plurals>
+    <string name="look_tut3_body">Studies found it takes anywhere from 18 to 254 days to build a habit. The most quoted figure is 66 days, so that is where Alice starts.</string>
+    <string name="look_tut3_days_label">Days to build a habit</string>
+    <string name="look_tut3_checkup">Check-up every</string>
+    <string name="look_tut3_small">You can change both in Settings.</string>
+    <string name="look_tut4_title">Once a week, one new step</string>
+    <string name="look_tut4_body">Adding one new step at a time lets you grow slowly, without taking on too much at once.</string>
+    <string name="look_tut4_day">Check-In day</string>
+    <string name="look_tut4_small">You can change this in Settings too.</string>
+    <string name="look_tut5_title">Every quarter, your summary</string>
+    <string name="look_tut5_body">Share how far you have come with your friends and the people close to you. Tap the look you like:</string>
+    <string name="look_tut_change_mind">You can always change your mind.</string>
+    <string name="look_tut6_title">Make it yours</string>
+    <string name="look_tut6_body">Pick the colours that feel most comfortable. The whole app changes straight away.</string>
+    <string name="look_tut7_title">Change anything, any time</string>
+    <string name="look_tut7_body">Check-in times, days to build a habit, your summary style, colours and your data all live in Settings.</string>
+    <string name="look_tut7_gear">Tap the gear at the top of Habits to open Settings.</string>
+    <string name="look_tut7_open">Open Settings</string>
+
+    <!-- language picker and translation note -->
+    <string name="lang_title">Language</string>
+    <string name="pron_title">Pronouns</string>
+    <string name="pron_she">she/her</string>
+    <string name="pron_he">he/him</string>
+    <string name="pron_they">they/them</string>
+    <string name="lang_spotted">Spotted a mistake in your language?</string>
+    <string name="lang_search">Search for your language</string>
+    <string name="lang_phone">Phone’s language</string>
+    <string name="lang_follow">Follow your phone</string>
+    <string name="lang_note_title">Help with translations</string>
+    <string name="lang_note_1">Hi, I’m Lucy and I made Alice.</string>
+    <string name="lang_note_2">I speak English, Slovak, Czech and Russian, so I checked those translations myself. The other languages have not been checked by a native speaker yet.</string>
+    <string name="lang_note_3">If you spot a mistake in your language, please let me know so I can fix it. And if you have used Alice in your language for a while and everything reads right, tell me that too, so I can mark it as approved.</string>
+    <string name="lang_note_4">Thank you!</string>
+    <string name="lang_not_approved">NOT APPROVED YET</string>
+    <string name="lang_report">Report a mistake</string>
+    <string name="lang_all_correct">My language is all correct</string>
+    <string name="lang_mail_mistake_body">What reads wrong, and on which screen:\n\n</string>
+    <string name="lang_mail_correct_body">I have used Alice in my language for a while and everything reads right.\n\n</string>
+    <string name="lang_no_mail">No email app found</string>
+    <!-- subjects and the info lines stay english, so lucy can sort her inbox -->
+    <string name="lang_mail_mistake_subject" translatable="false">Alice translation mistake, %1$s</string>
+    <string name="lang_mail_correct_subject" translatable="false">Alice translation approved, %1$s</string>
+    <string name="lang_mail_info" translatable="false">Language: %1$s\nApp version: %2$s</string>
+
+    <!-- pronoun variants, picked by hand below android 14, point at the normal text unless a language has its own -->
+    <string name="core_reason_away__feminine" translatable="false">@string/core_reason_away</string>
+    <string name="core_reason_away__masculine" translatable="false">@string/core_reason_away</string>
+    <string name="core_reason_too_tired__feminine" translatable="false">@string/core_reason_too_tired</string>
+    <string name="core_reason_too_tired__masculine" translatable="false">@string/core_reason_too_tired</string>
+    <string name="forms_set_checkin_hour_tip__feminine" translatable="false">@string/forms_set_checkin_hour_tip</string>
+    <string name="forms_set_checkin_hour_tip__masculine" translatable="false">@string/forms_set_checkin_hour_tip</string>
+    <string name="forms_set_checkup_tip__feminine" translatable="false">@string/forms_set_checkup_tip</string>
+    <string name="forms_set_checkup_tip__masculine" translatable="false">@string/forms_set_checkup_tip</string>
+    <string name="forms_timing_tip__feminine" translatable="false">@string/forms_timing_tip</string>
+    <string name="forms_timing_tip__masculine" translatable="false">@string/forms_timing_tip</string>
+    <string name="look_boarding_better_you__feminine" translatable="false">@string/look_boarding_better_you</string>
+    <string name="look_boarding_better_you__masculine" translatable="false">@string/look_boarding_better_you</string>
+    <string name="look_improved_in__feminine" translatable="false">@string/look_improved_in</string>
+    <string name="look_improved_in__masculine" translatable="false">@string/look_improved_in</string>
+    <string name="look_poster_improved__feminine" translatable="false">@string/look_poster_improved</string>
+    <string name="look_poster_improved__masculine" translatable="false">@string/look_poster_improved</string>
+    <string name="look_quote_14__feminine" translatable="false">@string/look_quote_14</string>
+    <string name="look_quote_14__masculine" translatable="false">@string/look_quote_14</string>
+    <string name="look_quote_4__feminine" translatable="false">@string/look_quote_4</string>
+    <string name="look_quote_4__masculine" translatable="false">@string/look_quote_4</string>
+    <string name="look_quote_6__feminine" translatable="false">@string/look_quote_6</string>
+    <string name="look_quote_6__masculine" translatable="false">@string/look_quote_6</string>
+    <string name="look_report_ups_downs__feminine" translatable="false">@string/look_report_ups_downs</string>
+    <string name="look_report_ups_downs__masculine" translatable="false">@string/look_report_ups_downs</string>
+    <string name="look_tut2_body__feminine" translatable="false">@string/look_tut2_body</string>
+    <string name="look_tut2_body__masculine" translatable="false">@string/look_tut2_body</string>
+    <string name="look_tut3_small__feminine" translatable="false">@string/look_tut3_small</string>
+    <string name="look_tut3_small__masculine" translatable="false">@string/look_tut3_small</string>
+    <string name="look_tut4_small__feminine" translatable="false">@string/look_tut4_small</string>
+    <string name="look_tut4_small__masculine" translatable="false">@string/look_tut4_small</string>
+    <string name="look_tut5_body__feminine" translatable="false">@string/look_tut5_body</string>
+    <string name="look_tut5_body__masculine" translatable="false">@string/look_tut5_body</string>
+    <string name="look_tut_change_mind__feminine" translatable="false">@string/look_tut_change_mind</string>
+    <string name="look_tut_change_mind__masculine" translatable="false">@string/look_tut_change_mind</string>
+    <string name="core_nudge_title__feminine" translatable="false">@string/core_nudge_title</string>
+    <string name="core_nudge_title__masculine" translatable="false">@string/core_nudge_title</string>
+    <string name="core_save_failed__feminine" translatable="false">@string/core_save_failed</string>
+    <string name="core_save_failed__masculine" translatable="false">@string/core_save_failed</string>
+    <string name="forms_export_send_title__feminine" translatable="false">@string/forms_export_send_title</string>
+    <string name="forms_export_send_title__masculine" translatable="false">@string/forms_export_send_title</string>
+    <string name="forms_export_settings__feminine" translatable="false">@string/forms_export_settings</string>
+    <string name="forms_export_settings__masculine" translatable="false">@string/forms_export_settings</string>
+    <string name="forms_export_summaries__feminine" translatable="false">@string/forms_export_summaries</string>
+    <string name="forms_export_summaries__masculine" translatable="false">@string/forms_export_summaries</string>
+    <string name="forms_import_add_text__feminine" translatable="false">@string/forms_import_add_text</string>
+    <string name="forms_import_add_text__masculine" translatable="false">@string/forms_import_add_text</string>
+    <string name="forms_import_replace_text__feminine" translatable="false">@string/forms_import_replace_text</string>
+    <string name="forms_import_replace_text__masculine" translatable="false">@string/forms_import_replace_text</string>
+    <string name="forms_import_replace_title__feminine" translatable="false">@string/forms_import_replace_title</string>
+    <string name="forms_import_replace_title__masculine" translatable="false">@string/forms_import_replace_title</string>
+    <string name="forms_often_whenever__feminine" translatable="false">@string/forms_often_whenever</string>
+    <string name="forms_often_whenever__masculine" translatable="false">@string/forms_often_whenever</string>
+    <string name="forms_quarter_nothing__feminine" translatable="false">@string/forms_quarter_nothing</string>
+    <string name="forms_quarter_nothing__masculine" translatable="false">@string/forms_quarter_nothing</string>
+    <string name="forms_reasons_delete_text__feminine" translatable="false">@string/forms_reasons_delete_text</string>
+    <string name="forms_reasons_delete_text__masculine" translatable="false">@string/forms_reasons_delete_text</string>
+    <string name="forms_reasons_hint__feminine" translatable="false">@string/forms_reasons_hint</string>
+    <string name="forms_reasons_hint__masculine" translatable="false">@string/forms_reasons_hint</string>
+    <string name="forms_set_days_build_tip__feminine" translatable="false">@string/forms_set_days_build_tip</string>
+    <string name="forms_set_days_build_tip__masculine" translatable="false">@string/forms_set_days_build_tip</string>
+    <string name="forms_set_starting_tip__feminine" translatable="false">@string/forms_set_starting_tip</string>
+    <string name="forms_set_starting_tip__masculine" translatable="false">@string/forms_set_starting_tip</string>
+    <string name="forms_set_week_start_tip__feminine" translatable="false">@string/forms_set_week_start_tip</string>
+    <string name="forms_set_week_start_tip__masculine" translatable="false">@string/forms_set_week_start_tip</string>
+    <string name="forms_set_weekly_day_tip__feminine" translatable="false">@string/forms_set_weekly_day_tip</string>
+    <string name="forms_set_weekly_day_tip__masculine" translatable="false">@string/forms_set_weekly_day_tip</string>
+    <string name="forms_your_new_step__feminine" translatable="false">@string/forms_your_new_step</string>
+    <string name="forms_your_new_step__masculine" translatable="false">@string/forms_your_new_step</string>
+    <string name="lang_follow__feminine" translatable="false">@string/lang_follow</string>
+    <string name="lang_follow__masculine" translatable="false">@string/lang_follow</string>
+    <string name="lang_mail_correct_body__feminine" translatable="false">@string/lang_mail_correct_body</string>
+    <string name="lang_mail_correct_body__masculine" translatable="false">@string/lang_mail_correct_body</string>
+    <string name="lang_note_3__feminine" translatable="false">@string/lang_note_3</string>
+    <string name="lang_note_3__masculine" translatable="false">@string/lang_note_3</string>
+    <string name="lang_search__feminine" translatable="false">@string/lang_search</string>
+    <string name="lang_search__masculine" translatable="false">@string/lang_search</string>
+    <string name="lang_spotted__feminine" translatable="false">@string/lang_spotted</string>
+    <string name="lang_spotted__masculine" translatable="false">@string/lang_spotted</string>
+    <string name="look_boarding_flyer__feminine" translatable="false">@string/look_boarding_flyer</string>
+    <string name="look_boarding_flyer__masculine" translatable="false">@string/look_boarding_flyer</string>
+    <string name="look_boarding_passenger__feminine" translatable="false">@string/look_boarding_passenger</string>
+    <string name="look_boarding_passenger__masculine" translatable="false">@string/look_boarding_passenger</string>
+    <string name="look_colours_your_summary__feminine" translatable="false">@string/look_colours_your_summary</string>
+    <string name="look_colours_your_summary__masculine" translatable="false">@string/look_colours_your_summary</string>
+    <string name="look_keep_going__feminine" translatable="false">@string/look_keep_going</string>
+    <string name="look_keep_going__masculine" translatable="false">@string/look_keep_going</string>
+    <string name="look_next_week__feminine" translatable="false">@string/look_next_week</string>
+    <string name="look_next_week__masculine" translatable="false">@string/look_next_week</string>
+    <string name="look_polaroid_life__feminine" translatable="false">@string/look_polaroid_life</string>
+    <string name="look_polaroid_life__masculine" translatable="false">@string/look_polaroid_life</string>
+    <string name="look_poster_added__feminine" translatable="false">@string/look_poster_added</string>
+    <string name="look_poster_added__masculine" translatable="false">@string/look_poster_added</string>
+    <string name="look_poster_first_ones__feminine" translatable="false">@string/look_poster_first_ones</string>
+    <string name="look_poster_first_ones__masculine" translatable="false">@string/look_poster_first_ones</string>
+    <string name="look_quote_10__feminine" translatable="false">@string/look_quote_10</string>
+    <string name="look_quote_10__masculine" translatable="false">@string/look_quote_10</string>
+    <string name="look_quote_11__feminine" translatable="false">@string/look_quote_11</string>
+    <string name="look_quote_11__masculine" translatable="false">@string/look_quote_11</string>
+    <string name="look_quote_15__feminine" translatable="false">@string/look_quote_15</string>
+    <string name="look_quote_15__masculine" translatable="false">@string/look_quote_15</string>
+    <string name="look_quote_2__feminine" translatable="false">@string/look_quote_2</string>
+    <string name="look_quote_2__masculine" translatable="false">@string/look_quote_2</string>
+    <string name="look_quote_8__feminine" translatable="false">@string/look_quote_8</string>
+    <string name="look_quote_8__masculine" translatable="false">@string/look_quote_8</string>
+    <string name="look_receipt_avoids__feminine" translatable="false">@string/look_receipt_avoids</string>
+    <string name="look_receipt_avoids__masculine" translatable="false">@string/look_receipt_avoids</string>
+    <string name="look_receipt_customer__feminine" translatable="false">@string/look_receipt_customer</string>
+    <string name="look_receipt_customer__masculine" translatable="false">@string/look_receipt_customer</string>
+    <string name="look_receipt_ways__feminine" translatable="false">@string/look_receipt_ways</string>
+    <string name="look_receipt_ways__masculine" translatable="false">@string/look_receipt_ways</string>
+    <string name="look_report_keep_up__feminine" translatable="false">@string/look_report_keep_up</string>
+    <string name="look_report_keep_up__masculine" translatable="false">@string/look_report_keep_up</string>
+    <string name="look_report_pupil__feminine" translatable="false">@string/look_report_pupil</string>
+    <string name="look_report_pupil__masculine" translatable="false">@string/look_report_pupil</string>
+    <string name="look_report_star__feminine" translatable="false">@string/look_report_star</string>
+    <string name="look_report_star__masculine" translatable="false">@string/look_report_star</string>
+    <string name="look_share_chooser__feminine" translatable="false">@string/look_share_chooser</string>
+    <string name="look_share_chooser__masculine" translatable="false">@string/look_share_chooser</string>
+    <string name="look_stamp_2__feminine" translatable="false">@string/look_stamp_2</string>
+    <string name="look_stamp_2__masculine" translatable="false">@string/look_stamp_2</string>
+    <string name="look_stamp_4__feminine" translatable="false">@string/look_stamp_4</string>
+    <string name="look_stamp_4__masculine" translatable="false">@string/look_stamp_4</string>
+    <string name="look_trophy_first_medal__feminine" translatable="false">@string/look_trophy_first_medal</string>
+    <string name="look_trophy_first_medal__masculine" translatable="false">@string/look_trophy_first_medal</string>
+    <string name="look_trophy_ways__feminine" translatable="false">@string/look_trophy_ways</string>
+    <string name="look_trophy_ways__masculine" translatable="false">@string/look_trophy_ways</string>
+    <string name="look_tut1_avoids__feminine" translatable="false">@string/look_tut1_avoids</string>
+    <string name="look_tut1_avoids__masculine" translatable="false">@string/look_tut1_avoids</string>
+    <string name="look_tut1_body__feminine" translatable="false">@string/look_tut1_body</string>
+    <string name="look_tut1_body__masculine" translatable="false">@string/look_tut1_body</string>
+    <string name="look_tut1_habits__feminine" translatable="false">@string/look_tut1_habits</string>
+    <string name="look_tut1_habits__masculine" translatable="false">@string/look_tut1_habits</string>
+    <string name="look_tut1_swaps__feminine" translatable="false">@string/look_tut1_swaps</string>
+    <string name="look_tut1_swaps__masculine" translatable="false">@string/look_tut1_swaps</string>
+    <string name="look_tut1_title__feminine" translatable="false">@string/look_tut1_title</string>
+    <string name="look_tut1_title__masculine" translatable="false">@string/look_tut1_title</string>
+    <string name="look_tut2_title__feminine" translatable="false">@string/look_tut2_title</string>
+    <string name="look_tut2_title__masculine" translatable="false">@string/look_tut2_title</string>
+    <string name="look_tut4_body__feminine" translatable="false">@string/look_tut4_body</string>
+    <string name="look_tut4_body__masculine" translatable="false">@string/look_tut4_body</string>
+    <string name="look_tut5_title__feminine" translatable="false">@string/look_tut5_title</string>
+    <string name="look_tut5_title__masculine" translatable="false">@string/look_tut5_title</string>
+    <string name="look_tut6_body__feminine" translatable="false">@string/look_tut6_body</string>
+    <string name="look_tut6_body__masculine" translatable="false">@string/look_tut6_body</string>
+    <string name="look_tut6_title__feminine" translatable="false">@string/look_tut6_title</string>
+    <string name="look_tut6_title__masculine" translatable="false">@string/look_tut6_title</string>
+    <string name="look_tut7_body__feminine" translatable="false">@string/look_tut7_body</string>
+    <string name="look_tut7_body__masculine" translatable="false">@string/look_tut7_body</string>
+    <string name="look_tut7_gear__feminine" translatable="false">@string/look_tut7_gear</string>
+    <string name="look_tut7_gear__masculine" translatable="false">@string/look_tut7_gear</string>
+    <string name="look_tut7_title__feminine" translatable="false">@string/look_tut7_title</string>
+    <string name="look_tut7_title__masculine" translatable="false">@string/look_tut7_title</string>
+    <string name="look_welcome_name__feminine" translatable="false">@string/look_welcome_name</string>
+    <string name="look_welcome_name__masculine" translatable="false">@string/look_welcome_name</string>
+    <string name="look_wrapped_stars__feminine" translatable="false">@string/look_wrapped_stars</string>
+    <string name="look_wrapped_stars__masculine" translatable="false">@string/look_wrapped_stars</string>
+    <string name="look_you__feminine" translatable="false">@string/look_you</string>
+    <string name="look_you__masculine" translatable="false">@string/look_you</string>
+    <string name="tabs_avoid_avoided__feminine" translatable="false">@string/tabs_avoid_avoided</string>
+    <string name="tabs_avoid_avoided__masculine" translatable="false">@string/tabs_avoid_avoided</string>
+    <string name="tabs_avoid_delete_text__feminine" translatable="false">@string/tabs_avoid_delete_text</string>
+    <string name="tabs_avoid_delete_text__masculine" translatable="false">@string/tabs_avoid_delete_text</string>
+    <string name="tabs_avoid_instead__feminine" translatable="false">@string/tabs_avoid_instead</string>
+    <string name="tabs_avoid_instead__masculine" translatable="false">@string/tabs_avoid_instead</string>
+    <string name="tabs_avoid_own_words__feminine" translatable="false">@string/tabs_avoid_own_words</string>
+    <string name="tabs_avoid_own_words__masculine" translatable="false">@string/tabs_avoid_own_words</string>
+    <string name="tabs_avoid_why__feminine" translatable="false">@string/tabs_avoid_why</string>
+    <string name="tabs_avoid_why__masculine" translatable="false">@string/tabs_avoid_why</string>
+    <string name="tabs_celebrate_text__feminine" translatable="false">@string/tabs_celebrate_text</string>
+    <string name="tabs_celebrate_text__masculine" translatable="false">@string/tabs_celebrate_text</string>
+    <string name="tabs_changes_one_off_tip__feminine" translatable="false">@string/tabs_changes_one_off_tip</string>
+    <string name="tabs_changes_one_off_tip__masculine" translatable="false">@string/tabs_changes_one_off_tip</string>
+    <string name="tabs_glance_title__feminine" translatable="false">@string/tabs_glance_title</string>
+    <string name="tabs_glance_title__masculine" translatable="false">@string/tabs_glance_title</string>
+    <string name="tabs_glance_top_tag__feminine" translatable="false">@string/tabs_glance_top_tag</string>
+    <string name="tabs_glance_top_tag__masculine" translatable="false">@string/tabs_glance_top_tag</string>
+    <string name="tabs_insights_first_on__feminine" translatable="false">@string/tabs_insights_first_on</string>
+    <string name="tabs_insights_first_on__masculine" translatable="false">@string/tabs_insights_first_on</string>
+    <!-- end pronoun variants -->
+</resources>

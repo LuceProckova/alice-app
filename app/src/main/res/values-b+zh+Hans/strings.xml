@@ -1,0 +1,726 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">太累了</string>
+    <string name="core_reason_craving">嘴馋了</string>
+    <string name="core_reason_no_time">没时间</string>
+    <string name="core_reason_forgot">忘了</string>
+    <string name="core_reason_no_alternative">没有替代品</string>
+    <string name="core_reason_social">应酬</string>
+    <string name="core_reason_impulse">一时冲动</string>
+    <string name="core_reason_too_expensive">太贵了</string>
+    <string name="core_reason_away">不在家</string>
+
+    <string name="core_nudge_channel">每日提醒</string>
+    <string name="core_nudge_title">今天还有没打勾的</string>
+    <string name="core_save_failed">没能保存，请再试一次</string>
+
+    <string name="core_kind_habit">习惯</string>
+    <string name="core_kind_swap">替换</string>
+    <string name="core_kind_avoid">避开</string>
+    <string name="core_about">关于%1$s</string>
+    <string name="core_ok">好</string>
+    <string name="core_less">收起</string>
+    <string name="core_more">更多</string>
+    <string name="core_cancel">取消</string>
+    <string name="core_settings">设置</string>
+    <string name="core_span_week">周</string>
+    <string name="core_span_month">月</string>
+    <string name="core_span_year">年</string>
+    <string name="core_span_all">全部</string>
+    <string name="core_tab_habits">习惯</string>
+    <string name="core_tab_changes">改变</string>
+    <string name="core_tab_avoid">避开</string>
+    <string name="core_tab_insights">洞察</string>
+
+    <string name="core_cell_spoken">%1$s，%2$s</string>
+    <string name="core_cell_kept">已完成</string>
+    <string name="core_cell_missed">没做到</string>
+    <string name="core_cell_partial">完成了一部分，目前 %1$d 次</string>
+    <string name="core_cell_unfilled">还没填写</string>
+    <string name="core_cell_open">待完成</string>
+    <string name="core_cell_locked">打卡时间到了才能勾选</string>
+    <string name="core_cell_future">还没到</string>
+    <string name="core_cell_empty">无需操作</string>
+    <string name="core_cell_band">本周期已完成</string>
+    <string name="core_cell_off">这天不用做</string>
+    <string name="core_cell_none">这个目标开始之前</string>
+
+    <string name="core_rhythm_one_off">一次性</string>
+    <string name="core_rhythm_end_of_day">每天，一天结束时打勾</string>
+    <string name="core_rhythm_every_day">每天</string>
+    <string name="core_rhythm_every_days">每%1$s</string>
+    <string name="core_rhythm_day_count">%1$s（%2$d×）</string>
+    <string name="core_rhythm_a_week">每周</string>
+    <string name="core_rhythm_a_month">每月</string>
+    <string name="core_rhythm_times_any_day">%2$s%1$s，哪天都行</string>
+    <string name="core_list_separator">"、"</string>
+    <string name="core_list_last">%1$s和%2$s</string>
+
+    <string name="core_achievement_short_months">%1$d 个月</string>
+    <string name="core_achievement_short_days">%1$d 天</string>
+    <string name="core_glance_step">%1$s，%2$d/%3$d</string>
+
+    <string name="core_slip_never">从不</string>
+    <string name="core_slip_once">一次</string>
+    <string name="core_slip_a_few">几次</string>
+    <string name="core_slip_half">一半</string>
+    <string name="core_slip_most">大多数</string>
+    <string name="core_slip_always">总是</string>
+
+    <string name="core_ideas_habit_anytime">习惯，随时</string>
+    <string name="core_ideas_habit_end">习惯，一天结束时</string>
+    <string name="core_ideas_swap">替换</string>
+    <string name="core_ideas_avoid_product">避开，产品</string>
+    <string name="core_ideas_avoid_company">避开，公司</string>
+    <string name="core_ideas_avoid_food">避开，食物</string>
+
+    <string name="core_tag_ethical">道德</string>
+    <string name="core_tag_health">健康</string>
+    <string name="core_tag_clutter">杂物</string>
+    <string name="core_tag_ecological">环保</string>
+    <string name="core_tag_animal_welfare">动物福利</string>
+    <string name="core_tag_workers_rights">劳工权益</string>
+    <string name="core_tag_plastic">塑料</string>
+    <string name="core_tag_palm_oil">棕榈油</string>
+    <string name="core_tag_deforestation">森林砍伐</string>
+    <string name="core_category_company">公司</string>
+    <string name="core_category_food">食物</string>
+    <string name="core_category_product">产品</string>
+    <string name="core_verdict_avoid">避开</string>
+    <string name="core_verdict_edge">看情况</string>
+    <string name="core_verdict_fine">没问题</string>
+
+    <string name="core_theme_off_white_honey">米白与蜂蜜</string>
+    <string name="core_theme_vanilla_caramel">香草与焦糖</string>
+    <string name="core_theme_sunflower">向日葵</string>
+    <string name="core_theme_latte">拿铁</string>
+    <string name="core_theme_cocoa_lemon">可可与柠檬</string>
+    <string name="core_theme_espresso_butter">浓缩咖啡与黄油</string>
+    <string name="core_theme_midnight_honey">午夜与蜂蜜</string>
+    <string name="core_theme_forest_night">森林之夜</string>
+    <string name="core_theme_plum_dusk">梅子黄昏</string>
+    <string name="core_theme_charcoal_coral">炭灰与珊瑚</string>
+
+    <string name="core_pic_sunny_meadow">阳光草地</string>
+    <string name="core_pic_sunset_hills">日落山丘</string>
+    <string name="core_pic_starry_night">星空之夜</string>
+    <string name="core_pic_beach_day">海滩时光</string>
+    <string name="core_pic_mountain_lake">高山湖泊</string>
+    <string name="core_pic_snowy_village">雪中小村</string>
+    <string name="core_pic_rainy_garden">雨中花园</string>
+    <string name="core_pic_autumn_forest">秋日森林</string>
+    <string name="core_pic_cherry_blossom">樱花</string>
+    <string name="core_pic_desert_cactus">沙漠仙人掌</string>
+    <string name="core_pic_lighthouse">灯塔</string>
+    <string name="core_pic_rainbow_field">彩虹田野</string>
+    <string name="core_pic_hot_air_balloon">热气球</string>
+    <string name="core_pic_sailboat">帆船</string>
+    <string name="core_pic_cabin_in_the_woods">林中小屋</string>
+    <string name="core_pic_tulip_field">郁金香花田</string>
+    <string name="core_pic_campfire_night">篝火之夜</string>
+    <string name="core_pic_misty_mountains">云雾群山</string>
+    <string name="core_pic_sunrise_sea">海上日出</string>
+    <string name="core_pic_snowy_pines">雪中松林</string>
+    <string name="core_pic_lavender_field">薰衣草花田</string>
+    <string name="core_pic_waterfall">瀑布</string>
+    <string name="core_pic_city_at_dusk">黄昏城市</string>
+    <string name="core_pic_picnic">野餐</string>
+    <string name="core_pic_moon_over_the_lake">湖上明月</string>
+    <string name="core_pic_palm_island">棕榈小岛</string>
+    <string name="core_pic_windmill">风车</string>
+    <string name="core_pic_bike_path">自行车道</string>
+    <string name="core_pic_greenhouse">温室</string>
+    <string name="core_pic_northern_lights">北极光</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="other">还有 %d 个目标在等你。</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="other">已完成，%d 次</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="other">每天 %d 次</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="other">%d 次</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="other">每 %d 周</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="other">每 %d 个月</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="other">每 %d 天</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="other">%d 个月，从未错过</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="other">坚持了 %d 个月</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="other">连续 %d 天</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="other">%d 个月</item>
+    </plurals>
+
+    <string name="tabs_new_step">新目标</string>
+    <string name="tabs_edit">编辑</string>
+    <string name="tabs_delete">删除</string>
+    <string name="tabs_done">完成</string>
+    <string name="tabs_back">返回</string>
+    <string name="tabs_earlier">往前</string>
+    <string name="tabs_later">往后</string>
+    <string name="tabs_delete_title">删除%1$s？</string>
+    <string name="tabs_eod_unlock">一天结束时的习惯在 %1$02d:00 解锁</string>
+    <string name="tabs_check_up">回顾</string>
+    <string name="tabs_one_off">一次性</string>
+
+    <string name="tabs_checkin_from">%1$02d:00 起可打卡</string>
+    <string name="tabs_checkin_daily">每日打卡</string>
+    <string name="tabs_checkin_weekly">每周打卡</string>
+    <string name="tabs_checkin_quarter">三个月回顾</string>
+    <string name="tabs_checked_in">已打卡</string>
+    <string name="tabs_quarter_section">三个月回顾</string>
+    <string name="tabs_previous_week">上一周</string>
+    <string name="tabs_next_week">下一周</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="other">坚持%2$s %1$d 天了！</item>
+    </plurals>
+    <string name="tabs_celebrate_text">干得好。它现在转到你的三个月回顾里，不用每天打勾了。</string>
+    <string name="tabs_celebrate_first">第一次在 %1$s。</string>
+    <string name="tabs_glance_title">你的这一周</string>
+    <string name="tabs_glance_ticks_kept">完成的勾</string>
+    <string name="tabs_glance_days_checked_in">打卡天数</string>
+    <string name="tabs_glance_top_tag">最常见的失误标签：</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="other">%1$s，%2$d 次</item>
+    </plurals>
+    <string name="tabs_glance_easiest">最轻松：</string>
+    <string name="tabs_glance_hardest">最难：</string>
+
+    <string name="tabs_changes_ongoing">长期替换</string>
+    <string name="tabs_changes_ongoing_tip_title">长期替换</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="other">你会一次次面对同样的选择，比如咖啡杯或洗发皂。它会在“习惯”里打勾 %1$d 天，之后每三个月回顾一次。</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">还没有替换</string>
+    <string name="tabs_changes_day_badge">第 %1$d/%2$d 天</string>
+    <string name="tabs_changes_sticking">坚持中</string>
+    <string name="tabs_changes_one_off_todo">一次性，待完成</string>
+    <string name="tabs_changes_one_off_tip">做一次就搞定，比如清理一个抽屉、换成绿色电价套餐或补好一件外套。打勾后它就会移到“已完成”。</string>
+    <string name="tabs_changes_nothing_waiting">没有待办</string>
+    <string name="tabs_changes_finished">已完成 · %1$d</string>
+
+    <string name="tabs_avoid_title">避开清单</string>
+    <string name="tabs_avoid_search">搜索…</string>
+    <string name="tabs_avoid_no_match">没有匹配的结果</string>
+    <string name="tabs_avoid_companies">公司</string>
+    <string name="tabs_avoid_food">食物</string>
+    <string name="tabs_avoid_products">产品</string>
+
+    <string name="tabs_avoid_added">添加于</string>
+    <string name="tabs_avoid_why">为什么避开</string>
+    <string name="tabs_avoid_own_words">用你自己的话说</string>
+    <string name="tabs_avoid_brands">旗下品牌 · %1$d</string>
+    <string name="tabs_avoid_brand_hint">每行一个品牌</string>
+    <string name="tabs_avoid_more_brands">还有 %1$d 个</string>
+    <string name="tabs_avoid_instead">换成这个</string>
+    <string name="tabs_avoid_instead_hint">每行一个</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="other">次失误</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">已避开</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="other">个月在清单上</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">它会连同记录一起从你的避开清单中移除。</string>
+
+    <string name="tabs_habit_delete_text">它的所有记录都会一起删除。</string>
+    <string name="tabs_habit_created">创建于</string>
+    <string name="tabs_habit_to_do">待完成</string>
+    <string name="tabs_habit_daily_ticks">每日打勾</string>
+    <string name="tabs_habit_day_of">第 %1$d 天，共 %2$d 天</string>
+    <string name="tabs_habit_finished">已完成</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="other">天坚持中</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="other">次中断</item>
+    </plurals>
+    <string name="tabs_habit_success">成功率</string>
+    <string name="tabs_habit_current_streak">当前连续</string>
+    <string name="tabs_habit_longest_streak">最长连续</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">为什么没做到</string>
+    <string name="tabs_habit_remove_reason">删除这个原因</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="other">种方式让生活变得更好</item>
+    </plurals>
+    <string name="tabs_insights_habits">习惯</string>
+    <string name="tabs_insights_swaps">替换</string>
+    <string name="tabs_insights_avoids">避开</string>
+    <string name="tabs_insights_on_track_section">进展顺利</string>
+    <string name="tabs_insights_avg_days">%1$d 天</string>
+    <string name="tabs_insights_average_kept">平均坚持</string>
+    <string name="tabs_insights_days_checked_in">打卡天数</string>
+    <string name="tabs_insights_on_track">顺利进行</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="other">次失误</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="other">个新目标</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="other">个一次性目标已完成</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">最常见的失误原因</string>
+    <string name="tabs_insights_added_quarter">本季度新增</string>
+    <string name="tabs_insights_past_summaries">以往的三个月总结</string>
+    <string name="tabs_insights_first_on">你的第一份总结在 %1$s</string>
+    <string name="tabs_insights_all_time">全部</string>
+    <string name="tabs_insights_period">%3$d年%1$s至%2$s</string>
+
+    <string name="forms_back">返回</string>
+    <string name="forms_back_habits">习惯</string>
+    <string name="forms_back_settings">设置</string>
+    <string name="forms_add">添加</string>
+    <string name="forms_save">保存</string>
+    <string name="forms_finish">完成</string>
+    <string name="forms_delete">删除</string>
+    <string name="forms_why">原因</string>
+    <string name="forms_never_show">不再显示</string>
+    <string name="forms_every">每</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="other">天</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">第 %1$d 步，共 %2$d 步</string>
+    <string name="forms_checkin_next_weekly">下一步，每周打卡 ›</string>
+    <string name="forms_checkin_next_quarter">下一步，三个月回顾 ›</string>
+    <string name="forms_daily_title">每日打卡</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="other">之前有 %1$d 天还没填写</item>
+    </plurals>
+    <string name="forms_daily_skip_all">全部跳过</string>
+    <string name="forms_daily_today">今天 · %1$s</string>
+    <string name="forms_daily_skip">跳过</string>
+    <string name="forms_daily_undo_skip">撤销跳过</string>
+    <string name="forms_daily_new_tag">新标签</string>
+    <string name="forms_daily_new_tag_hint">垃圾桶满了</string>
+    <string name="forms_weekly_title">每周打卡</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="other">欠了 %1$d 周，一个新目标就能全部补上。</item>
+    </plurals>
+    <string name="forms_weekly_no_step">这周不加新目标</string>
+    <string name="forms_quarter_title">三个月回顾</string>
+    <string name="forms_quarter_nothing">还没有可以回顾的内容。接下来是你的总结。</string>
+    <string name="forms_quarter_habits">习惯</string>
+    <string name="forms_quarter_swaps">替换</string>
+    <string name="forms_quarter_avoid">避开</string>
+    <string name="forms_quarter_missed">没做到</string>
+    <string name="forms_quarter_missed_level">没做到：%1$s</string>
+
+    <string name="forms_new_title">新目标</string>
+    <string name="forms_edit_title">编辑：%1$s</string>
+    <string name="forms_add_kind">添加：%1$s</string>
+    <string name="forms_title_habit">习惯</string>
+    <string name="forms_title_swap">替换</string>
+    <string name="forms_title_avoid">避开</string>
+    <string name="forms_save_changes">保存修改</string>
+    <string name="forms_what_kind">哪一类？</string>
+    <string name="forms_name">名称</string>
+    <string name="forms_your_new_step">你的新目标</string>
+    <string name="forms_hint_habit">读 10 页书</string>
+    <string name="forms_hint_swap">用丝瓜络，不用海绵</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">哪种习惯？</string>
+    <string name="forms_timing_tip_title">随时还是一天结束时</string>
+    <string name="forms_timing_tip">随时：做一次就行的事，比如跑步。做完马上打勾。\n\n一天结束时：一整天都要遵守的规则，比如不吃零食。只能在晚上打勾。</string>
+    <string name="forms_anytime">随时</string>
+    <string name="forms_end_of_day">一天结束时</string>
+    <string name="forms_what_is_it">这是什么？</string>
+    <string name="forms_how_often">多久一次？</string>
+    <string name="forms_often_specific">指定日子</string>
+    <string name="forms_often_whenever">不固定</string>
+    <string name="forms_often_once">只一次</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="other">次，每</item>
+    </plurals>
+    <string name="forms_unit_day">天</string>
+    <string name="forms_unit_week">周</string>
+    <string name="forms_unit_month">月</string>
+    <string name="forms_unit_x_days">X 天</string>
+    <string name="forms_ideas">点子</string>
+    <string name="forms_ideas_others">其他</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="other">查看全部 %1$d 个点子 ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">所有目标点子</string>
+    <string name="forms_search">搜索…</string>
+    <string name="forms_all">全部</string>
+
+    <string name="forms_settings_title">设置</string>
+    <string name="forms_set_colours">颜色</string>
+    <string name="forms_set_style">三个月总结样式</string>
+    <string name="forms_set_checkins">打卡</string>
+    <string name="forms_set_checkin_hour">每日打卡开始时间</string>
+    <string name="forms_set_checkin_hour_tip">从这个时间起，你可以给一天结束时的习惯打勾，并进行每日打卡。</string>
+    <string name="forms_set_week_start">每周开始于</string>
+    <string name="forms_set_week_start_tip">你的习惯格子、每周和图表从哪一天开始。</string>
+    <string name="forms_monday">星期一</string>
+    <string name="forms_sunday">星期日</string>
+    <string name="forms_set_new_step_every">新目标间隔</string>
+    <string name="forms_set_new_step_every_tip">两次每周打卡之间隔几周。</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="other">周</item>
+    </plurals>
+    <string name="forms_set_weekly_day">每周打卡日</string>
+    <string name="forms_set_weekly_day_tip">这一天做完每日打卡后，接着选下周的新目标。</string>
+    <string name="forms_set_checkup">三个月回顾</string>
+    <string name="forms_set_checkup_tip">大家都在同样的日子回顾：1月1日、4月1日、7月1日和10月1日，这样可以一起分享总结。你也可以选自己的日期。</string>
+    <string name="forms_set_same">和大家一样</string>
+    <string name="forms_set_own">我自己的日期</string>
+    <string name="forms_set_starting">开始于</string>
+    <string name="forms_set_starting_tip">你第一次自定回顾所在的月份。</string>
+    <string name="forms_earlier">往前</string>
+    <string name="forms_later">往后</string>
+    <string name="forms_set_every_tip">两次回顾之间隔几个月。</string>
+    <plurals name="forms_unit_months">
+        <item quantity="other">个月</item>
+    </plurals>
+    <string name="forms_set_day_of_month">几号</string>
+    <string name="forms_set_day_of_month_tip">那个月的哪一天。</string>
+    <string name="forms_set_everyone">大家：1月1日 · 4月1日 · 7月1日 · 10月1日</string>
+    <string name="forms_set_days_build">养成习惯的天数</string>
+    <string name="forms_set_days_build_tip">研究发现需要 18 到 254 天，最常被引用的是 66 天（Lally 等，2010；Singh 等，2024）。过了这么多天后，新目标会转到你的回顾里。</string>
+    <string name="forms_set_nudge">每日提醒</string>
+    <string name="forms_set_nudge_tip">在这个时间提醒你，只在还有没打勾的事时才提醒。</string>
+    <string name="forms_set_more">更多</string>
+    <string name="forms_set_reasons">失误原因</string>
+    <string name="forms_set_tutorial">重看教程</string>
+    <string name="forms_set_export">导出我的数据</string>
+    <string name="forms_set_import">导入数据</string>
+
+    <string name="forms_reasons_title">失误原因</string>
+    <string name="forms_reasons_hint">添加你自己的原因</string>
+    <string name="forms_reasons_used">用过 %1$d×</string>
+    <string name="forms_reasons_delete_title">删除%1$s？</string>
+    <string name="forms_reasons_delete_text">失误仍会保留在你的记录里，只是不再带这个标签。</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="other">%1$d 个习惯</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="other">%1$d 个替换</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="other">%1$d 个避开</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s、%2$s、%3$s</string>
+    <string name="forms_backup_since">%1$s，自 %2$s 起的打勾记录</string>
+    <string name="forms_export_title">导出我的数据</string>
+    <string name="forms_export_what">文件里有什么</string>
+    <string name="forms_export_ticks">每一次打勾、失误和原因</string>
+    <string name="forms_export_ticks_since">自 %1$s 起的每一次打勾、失误和原因</string>
+    <string name="forms_export_summaries">你的三个月总结</string>
+    <string name="forms_export_settings">你的设置、颜色和名字</string>
+    <string name="forms_export_file">文件</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">保存文件</string>
+    <string name="forms_export_send">发送到…</string>
+    <string name="forms_export_send_title">发送你的 Alice 数据</string>
+    <string name="forms_export_saved">已保存 %1$s</string>
+    <string name="forms_export_save_failed">没能保存文件</string>
+
+    <string name="forms_import_title">导入数据</string>
+    <string name="forms_import_choose">选择一个 Alice 备份</string>
+    <string name="forms_import_choose_sub">.json，来自另一部手机上的导出</string>
+    <string name="forms_import_cant_open">打不开这个文件。</string>
+    <string name="forms_import_not_backup">这个文件不是 Alice 备份。</string>
+    <string name="forms_import_replace_mode">替换现有数据</string>
+    <string name="forms_import_add_mode">添加到现有数据</string>
+    <string name="forms_import_button">导入</string>
+    <string name="forms_import_replace_title">要替换你的数据吗？</string>
+    <string name="forms_import_add_title">要添加这些数据吗？</string>
+    <string name="forms_import_replace_text">这部手机上的所有内容都会换成文件里的。想保留的话，先导出一份。</string>
+    <string name="forms_import_add_text">文件里的习惯和记录会加到你现有的数据里。</string>
+    <string name="forms_import_done">数据已导入</string>
+
+    <string name="look_share">分享</string>
+    <string name="look_save_image">保存图片</string>
+    <string name="look_next_week">下一步，你的这一周 ›</string>
+    <string name="look_keep_going">继续加油</string>
+    <string name="look_storage_needed">Alice 需要存储权限才能保存图片</string>
+    <string name="look_share_caption">我和 Alice 的这个季度。你也来试试：%1$s</string>
+    <string name="look_share_clip">Alice 总结</string>
+    <string name="look_share_chooser">分享你的季度</string>
+    <string name="look_saved">已保存到 Pictures/Alice</string>
+    <string name="look_save_failed">没能保存图片</string>
+
+    <string name="look_style_poster">海报</string>
+    <string name="look_style_wrapped">年度回顾</string>
+    <string name="look_style_trophy">奖杯柜</string>
+    <string name="look_style_receipt">小票</string>
+    <string name="look_style_report">成绩单</string>
+    <string name="look_style_boarding">登机牌</string>
+    <string name="look_style_polaroid">拍立得</string>
+    <string name="look_style_calendar">日历</string>
+    <string name="look_style_trading">卡牌</string>
+
+    <string name="look_quote_1">每天一小步</string>
+    <string name="look_quote_2">谢谢你一直都在</string>
+    <string name="look_quote_3">求进步，不求完美</string>
+    <string name="look_quote_4">你坚持下来了，这就够了</string>
+    <string name="look_quote_5">小改变，大不同</string>
+    <string name="look_quote_6">每一天，你都选得更好</string>
+    <string name="look_quote_7">慢一点，也是在前进</string>
+    <string name="look_quote_8">你在打造自己喜欢的生活</string>
+    <string name="look_quote_9">一步一步，积少成多</string>
+    <string name="look_quote_10">继续为自己出发</string>
+    <string name="look_quote_11">未来的你会感谢你</string>
+    <string name="look_quote_12">点点滴滴，汇成很多</string>
+    <string name="look_quote_13">坚持是安静的魔法</string>
+    <string name="look_quote_14">看看你已经走了多远</string>
+    <string name="look_quote_15">为小小的胜利骄傲</string>
+    <string name="look_quote_16">好日子是过出来的</string>
+
+    <string name="look_stamp_1">优秀</string>
+    <string name="look_stamp_2">出类拔萃</string>
+    <string name="look_stamp_3">干得好</string>
+    <string name="look_stamp_4">太棒了</string>
+    <string name="look_stamp_5">超赞</string>
+    <string name="look_stamp_6">满分</string>
+    <string name="look_stamp_7">金星</string>
+    <string name="look_stamp_8">做得漂亮</string>
+
+    <string name="look_period">%1$s至%2$s</string>
+    <string name="look_scan">扫码\n开启你自己的\n旅程</string>
+    <string name="look_you">你</string>
+    <string name="look_on_track">顺利进行</string>
+    <string name="look_new_steps">新目标</string>
+    <string name="look_days_in">已打卡天数</string>
+    <string name="look_new">新</string>
+    <string name="look_week_by_week">逐周</string>
+    <string name="look_coming_soon">即将到来</string>
+    <string name="look_new_this_quarter">本季度新增</string>
+    <string name="look_kept_up_longest">坚持最久</string>
+    <string name="look_habits">习惯</string>
+    <string name="look_swaps">替换</string>
+    <string name="look_avoids">避开</string>
+    <string name="look_ways_improved">改善的方面</string>
+    <string name="look_improved_in">你在%1$s上让生活变得更好</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="other">%1$d 个习惯</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="other">%1$d 个替换</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="other">%1$d 个避开</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="other">%1$d 次失误</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="other">%1$d 个方面</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="other">习惯</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="other">替换</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="other">避开</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="other">失误</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="other">方面</item>
+    </plurals>
+
+    <string name="look_poster_improved">你在%1$s上让生活变得更好了</string>
+    <string name="look_poster_on_track">顺利进行</string>
+    <string name="look_poster_days">天</string>
+    <string name="look_poster_achievements">成就</string>
+    <string name="look_poster_first_ones">你的第一批成就就快来了</string>
+    <string name="look_poster_added">本季度新增了什么</string>
+
+    <string name="look_wrapped_stars">你的明星</string>
+
+    <string name="look_trophy_ways">种方式让你的\n生活变得更好</string>
+    <string name="look_trophy_next_quarter">下个季度</string>
+    <string name="look_trophy_first_medal">你的第一枚奖牌</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">新上架：</string>
+
+    <string name="look_receipt_title">三个月回顾 · %1$s</string>
+    <string name="look_receipt_customer">顾客：%1$s</string>
+    <string name="look_receipt_habits">养成的习惯</string>
+    <string name="look_receipt_swaps">替换的东西</string>
+    <string name="look_receipt_avoids">避开的东西</string>
+    <string name="look_receipt_ways">让生活更好的方式</string>
+    <string name="look_receipt_on_track">本季度顺利进行</string>
+    <string name="look_receipt_slips">失误</string>
+    <string name="look_receipt_new_steps">新养成的目标</string>
+    <string name="look_receipt_new">本季度新增：%1$s</string>
+
+    <string name="look_report_title">小步成绩单</string>
+    <string name="look_report_pupil">%1$s · 学生：%2$s</string>
+    <string name="look_report_subject">科目</string>
+    <string name="look_report_built">养成</string>
+    <string name="look_report_grade">成绩</string>
+    <string name="look_report_attendance">出勤 %1$s</string>
+    <string name="look_report_on_track">顺利 %1$s</string>
+    <string name="look_report_slips">失误 %1$s</string>
+    <string name="look_report_achievements">成就</string>
+    <string name="look_report_achievement">★ %1$s，%2$s</string>
+    <string name="look_report_new">本学期新科目（%1$d）</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">老师评语：</string>
+    <string name="look_report_calm">平稳踏实的一个学期。</string>
+    <string name="look_report_ups_downs">有起有落的一个学期，而你坚持下来了。</string>
+    <string name="look_report_star">%1$s表现出色。继续保持！</string>
+    <string name="look_report_keep_up">继续保持！</string>
+    <string name="look_report_week">逐周</string>
+
+    <string name="look_boarding_airline">ALICE 航空</string>
+    <string name="look_boarding_flight">航班 Q%1$d</string>
+    <string name="look_boarding_from">出发</string>
+    <string name="look_boarding_old">旧的</string>
+    <string name="look_boarding_habits">习惯</string>
+    <string name="look_boarding_to">到达</string>
+    <string name="look_boarding_new">新的</string>
+    <string name="look_boarding_better_you">更好的你</string>
+    <string name="look_boarding_passenger">乘客</string>
+    <string name="look_boarding_dates">日期</string>
+    <string name="look_boarding_miles">飞行里程</string>
+    <string name="look_boarding_on_time">准点</string>
+    <string name="look_boarding_turbulence">颠簸</string>
+    <string name="look_boarding_days">飞行天数</string>
+    <string name="look_boarding_flyer">常旅客，陪你最久的伙伴</string>
+    <string name="look_boarding_log">飞行日志，逐周</string>
+    <string name="look_boarding_stops">新的停靠站，+%1$d</string>
+    <string name="look_boarding_note">机长留言</string>
+
+    <string name="look_polaroid_life">你的生活</string>
+    <string name="look_polaroid_quarter">这个季度</string>
+    <string name="look_polaroid_days_in">已过 %1$d/%2$d 天</string>
+    <string name="look_polaroid_longest">坚持最久</string>
+    <string name="look_polaroid_new">新增，+%1$d</string>
+
+    <string name="look_calendar_added">新增</string>
+
+    <string name="look_trading_common">普通</string>
+    <string name="look_trading_uncommon">少见</string>
+    <string name="look_trading_rare">稀有</string>
+    <string name="look_trading_legendary">传说</string>
+    <plurals name="look_trading_ways">
+        <item quantity="other">方面</item>
+    </plurals>
+    <string name="look_ordinal_st">第%1$d</string>
+    <string name="look_ordinal_nd">第%1$d</string>
+    <string name="look_ordinal_rd">第%1$d</string>
+    <string name="look_ordinal_th">第%1$d</string>
+    <string name="look_trading_number">No. %1$03d · 你的%2$s个季度</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d 天</string>
+    <string name="look_trading_power">战力，逐周</string>
+    <string name="look_trading_edition">%1$s · Q%2$d 版</string>
+
+    <string name="look_sample_water_first">先喝水</string>
+    <string name="look_sample_own_bag">自带购物袋</string>
+    <string name="look_sample_read_pages">读 10 页书</string>
+    <string name="look_sample_reading">每天阅读</string>
+    <string name="look_sample_late_snacks">不吃宵夜</string>
+    <string name="look_sample_stretching">拉伸</string>
+    <string name="look_sample_cooler_home">家里少开暖气</string>
+    <string name="look_sample_loofah">用丝瓜络，不用海绵</string>
+    <string name="look_sample_palm_oil">不含棕榈油</string>
+    <string name="look_sample_stretch">拉伸 10 分钟</string>
+
+    <string name="look_colours_title">颜色</string>
+    <string name="look_colours_preview">预览</string>
+    <string name="look_colours_your_summary">你的三个月总结</string>
+    <string name="look_colours_light">浅色</string>
+    <string name="look_colours_dark">深色</string>
+    <string name="look_styles_title">三个月总结样式</string>
+    <string name="look_styles_all_pictures">查看全部 30 张拍立得图片</string>
+    <string name="look_styles_refresh">刷新</string>
+    <string name="look_pictures_title">拍立得图片</string>
+    <string name="look_pictures_back">总结样式</string>
+
+    <string name="look_welcome_name">你的名字</string>
+    <string name="look_welcome_start">开始</string>
+    <string name="look_welcome_import">导入我的数据</string>
+
+    <string name="look_tut_skip">跳过</string>
+    <string name="look_tut_page">%1$d / %2$d</string>
+    <string name="look_tut_back">返回</string>
+    <string name="look_tut_start">开始</string>
+    <string name="look_tut_next">下一步</string>
+    <string name="look_tut1_title">一步一步，成为更好的自己</string>
+    <string name="look_tut1_body">养成新习惯，做出更友善的选择，看着你的每一点成就慢慢累积。</string>
+    <string name="look_tut1_habits">一天天养成好习惯，成为你想成为的人。</string>
+    <string name="look_tut1_swaps">把日常用品换成更友善的，对地球、对他人或对你的健康都更好。</string>
+    <string name="look_tut1_avoids">记下你不想支持的公司、食物和产品。</string>
+    <string name="look_tut2_title">打个勾</string>
+    <string name="look_tut2_body">做完一个习惯就点一下方格。晚上的习惯会在你的打卡时间解锁。</string>
+    <string name="look_tut3_title">%1$s，之后每%2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="other">%1$d 个月</item>
+    </plurals>
+    <string name="look_tut3_body">研究发现，养成一个习惯需要 18 到 254 天不等。最常被引用的数字是 66 天，所以 Alice 就从这里开始。</string>
+    <string name="look_tut3_days_label">养成习惯的天数</string>
+    <string name="look_tut3_checkup">回顾间隔</string>
+    <string name="look_tut3_small">这两项都可以在设置里修改。</string>
+    <string name="look_tut4_title">每周一个新目标</string>
+    <string name="look_tut4_body">一次只加一个新目标，让你慢慢成长，不会一下子负担太重。</string>
+    <string name="look_tut4_day">打卡日</string>
+    <string name="look_tut4_small">这个也可以在设置里修改。</string>
+    <string name="look_tut5_title">每个季度，一份你的总结</string>
+    <string name="look_tut5_body">和朋友、和身边的人分享你走了多远。点一下你喜欢的样式：</string>
+    <string name="look_tut_change_mind">之后随时都可以改。</string>
+    <string name="look_tut6_title">打造你的专属风格</string>
+    <string name="look_tut6_body">选你看着最舒服的颜色。整个应用会马上变样。</string>
+    <string name="look_tut7_title">随时改，什么都能改</string>
+    <string name="look_tut7_body">打卡时间、养成习惯的天数、总结样式、颜色和你的数据，都在设置里。</string>
+    <string name="look_tut7_gear">点一下“习惯”顶部的齿轮，打开设置。</string>
+    <string name="look_tut7_open">打开设置</string>
+
+    <string name="lang_title">语言</string>
+    <string name="pron_title">称呼</string>
+    <string name="pron_she">她</string>
+    <string name="pron_he">他</string>
+    <string name="pron_they">中性</string>
+    <string name="lang_spotted">发现你的语言里有错误？</string>
+    <string name="lang_search">搜索你的语言</string>
+    <string name="lang_phone">手机语言</string>
+    <string name="lang_follow">跟随手机</string>
+    <string name="lang_note_title">帮忙改进翻译</string>
+    <string name="lang_note_1">嗨，我是 Lucy，Alice 是我做的。</string>
+    <string name="lang_note_2">我会说英语、斯洛伐克语、捷克语和俄语，所以这几种翻译是我自己检查的。其他语言还没有母语者检查过。</string>
+    <string name="lang_note_3">如果你发现你的语言里有错误，请告诉我，我好改正。如果你用你的语言用了一段时间，觉得一切都没问题，也请告诉我，我好把它标为已确认。</string>
+    <string name="lang_note_4">谢谢你！</string>
+    <string name="lang_not_approved">尚未确认</string>
+    <string name="lang_report">报告错误</string>
+    <string name="lang_all_correct">我的语言都没问题</string>
+    <string name="lang_mail_mistake_body">哪里读起来不对，在哪个页面：\n\n</string>
+    <string name="lang_mail_correct_body">我用我的语言使用 Alice 有一段时间了，一切读起来都没问题。\n\n</string>
+    <string name="lang_no_mail">找不到邮件应用</string>
+</resources>

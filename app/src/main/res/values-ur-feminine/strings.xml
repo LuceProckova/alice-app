@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose she/her pronouns -->
+<resources>
+    <string name="tabs_avoid_why">تم اس سے کیوں بچتی ہو</string>
+    <string name="tabs_avoid_avoided">بچ گئیں</string>
+    <string name="forms_timing_tip">کسی بھی وقت: کچھ جو تم ایک بار کرتی ہو، جیسے دوڑ۔ ہوتے ہی نشان لگاؤ۔\n\nدن کے آخر میں: ایک اصول جو تم سارا دن نبھاتی ہو، جیسے کوئی اسنیکس نہیں۔ نشان صرف شام کو لگا سکتی ہو۔</string>
+    <string name="forms_set_checkin_hour_tip">اس وقت سے تم دن کے آخر کی عادتوں پر نشان لگا سکتی ہو اور روزانہ جائزہ کر سکتی ہو۔</string>
+    <string name="forms_set_weekly_day_tip">اس دن روزانہ جائزے کے بعد تم اگلے ہفتے کا نیا قدم چنتی ہو۔</string>
+    <string name="forms_set_checkup_tip">سب ایک ہی دنوں میں جائزہ لیتے ہیں: 1 جنوری، 1 اپریل، 1 جولائی اور 1 اکتوبر، تاکہ سب مل کر اپنے خلاصے شیئر کر سکیں۔ چاہو تو اپنی تاریخ بھی چن سکتی ہو۔</string>
+    <string name="look_keep_going">چلتی رہو</string>
+    <string name="look_quote_4">تم چلتی رہیں۔ یہی اہم ہے</string>
+    <string name="look_quote_8">تم اپنی پسند کی زندگی بنا رہی ہو</string>
+    <string name="look_quote_11">آنے والی تم شکریہ کہتی ہو</string>
+    <string name="look_quote_14">دیکھو تم کتنا آگے آ گئیں</string>
+    <string name="look_report_ups_downs">اتار چڑھاؤ والی ٹرم، اور تم ڈٹی رہیں۔</string>
+    <string name="look_receipt_avoids">جن چیزوں سے بچیں</string>
+    <string name="look_report_pupil">%1$s · طالبہ: %2$s</string>
+    <string name="look_tut1_habits">دن بہ دن اچھی عادتیں بناؤ اور وہ بنو جو تم بننا چاہتی ہو۔</string>
+    <string name="look_tut1_avoids">ان کمپنیوں، کھانوں اور مصنوعات پر نظر رکھو جن کی تم حمایت نہیں کرنا چاہتیں۔</string>
+    <string name="look_tut3_small">دونوں ترتیبات میں بدل سکتی ہو۔</string>
+    <string name="look_tut4_small">یہ بھی ترتیبات میں بدل سکتی ہو۔</string>
+    <string name="look_tut5_body">دوستوں اور قریبی لوگوں کو دکھاؤ کہ تم کتنا آگے آئی ہو۔ جو انداز پسند ہو اس پر ٹیپ کرو:</string>
+    <string name="look_tut_change_mind">تم کبھی بھی اپنا فیصلہ بدل سکتی ہو۔</string>
+    <string name="lang_note_3">اگر تمہیں اپنی زبان میں کوئی غلطی نظر آئے تو مجھے بتاؤ تاکہ میں ٹھیک کر سکوں۔ اور اگر تم کچھ عرصے سے Alice اپنی زبان میں استعمال کر رہی ہو اور سب کچھ درست لگتا ہے تو یہ بھی بتاؤ، تاکہ میں اسے منظور شدہ کر سکوں۔</string>
+    <string name="lang_mail_correct_body">میں کچھ عرصے سے Alice اپنی زبان میں استعمال کر رہی ہوں اور سب کچھ درست لگتا ہے۔\n\n</string>
+</resources>

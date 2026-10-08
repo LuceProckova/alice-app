@@ -1,0 +1,300 @@
+HABIT_ANYTIME	Igyál meg egy pohár vizet a kávé előtt	Ébredéskor kicsit kiszáradt vagy, és ha a víz az első, az segíti a koncentrációt és az emésztést.
+HABIT_ANYTIME	Sétálj 10 percet ebéd után	Egy rövid séta evés után kiegyenlíti a vércukrot és elűzi a délutáni fáradtságot.
+HABIT_ANYTIME	Nyújts 5 percet reggel	Lazítja az alvástól merev izmokat, és csökkenti a hát- és nyakfájás kockázatát.
+HABIT_ANYTIME	Egyél meg egy darab gyümölcsöt	Rost, vitamin és víz egy egyszerű nasiban, és a legtöbben túl keveset esznek belőle.
+HABIT_ANYTIME	Egyél egy adag zöldséget ebédre	Ha délben megvan a zöldség, vacsoránál már nem kell bepótolnod.
+HABIT_ANYTIME	Nyiss ablakot 10 percre	A benti levegőben több a CO2 és a szennyező anyag, egy rövid szellőztetés gyorsan kicseréli.
+HABIT_ANYTIME	Vesd be az ágyad	Kétperces siker, rendezetten indul a nap, és a szoba is nyugodtabbnak tűnik.
+HABIT_ANYTIME	Sétálj egy rövidet a szabadban	A nappali fény és a mozgás együtt javítja a hangulatot, és este könnyebben alszol el.
+HABIT_ANYTIME	Csinálj 10 guggolást	Erősen tartja a lábad és a csípőd, ami a korral egyre fontosabb.
+HABIT_ANYTIME	Csinálj 10 fekvőtámaszt	Erősíti a felsőtestet, eszköz és edzőterem nélkül.
+HABIT_ANYTIME	Tarts 5 perc képernyőszünetet	A szemed és az agyad is felfrissül, és élesebben jössz vissza.
+HABIT_ANYTIME	Ülve reggelizz	Ha lassan és figyelmesen eszel, könnyebben észreveszed, mikor laktál jól.
+HABIT_ANYTIME	Vidd otthonról az ebédet	Olcsóbb, általában egészségesebb, és nincs elviteles csomagolás.
+HABIT_ANYTIME	Hordj magadnál vászontáskát	Nem kell új nejlonzacskó a kasszánál, és bármelyik zsebbe belefér.
+HABIT_ANYTIME	Töltsd újra a kulacsod vásárlás helyett	A csapvíz szinte semmibe sem kerül, és nem kell hozzá se palack, se kamion.
+HABIT_ANYTIME	Egy rövid utat tegyél meg biciklivel	A rövid autós utak égetik a legtöbb üzemanyagot kilométerenként, a bicikli semennyit.
+HABIT_ANYTIME	Egy rövid utat tegyél meg gyalog autó helyett	Két kilométer alatt a gyaloglás gyakran majdnem olyan gyors, és ingyen van.
+HABIT_ANYTIME	Menj egyszer tömegközlekedéssel	Egy teli busz több tucat autót vált ki az utakon.
+HABIT_ANYTIME	Zuhanyozz 5 percnél rövidebben	A meleg víz az egyik legnagyobb energiafogyasztó otthon.
+HABIT_ANYTIME	Öblítsd ki és válogasd szét a szelektív hulladékot	A koszos szelektív hulladékot gyakran visszautasítják, és lerakóba kerül.
+HABIT_ANYTIME	Hajtsd össze és lapítsd ki a kartont	Több fér a kukába, és a szállítók tényleg el tudják vinni.
+HABIT_ANYTIME	Nézz bele a hűtőbe vásárlás előtt	Így nem veszed meg, ami már megvan, és később nem kell kidobnod.
+HABIT_ANYTIME	Írj bevásárlólistát, mielőtt elindulsz	Akinek van listája, kevesebbet költ és kevesebb ételt pazarol.
+HABIT_ANYTIME	Edd meg a maradékot, mielőtt újat főzöl	A maradék az az étel, amit a leggyakrabban kidobunk.
+HABIT_ANYTIME	Fagyaszd le, ami hamarosan megromlana	A fagyasztás megállítja az órát, így megeszed, nem kidobod.
+HABIT_ANYTIME	Főzz egy ételt alapanyagokból	Te döntöd el, mennyi só, cukor és zsír kerül bele, és csomagolás sincs.
+HABIT_ANYTIME	Egyél hús nélküli ebédet	A növényi ételek klímahatása általában töredéke a húsénak.
+HABIT_ANYTIME	Reggelizz növényi alapon	Könnyű első lépés, a legtöbb reggeli már félig az.
+HABIT_ANYTIME	Vidd a saját poharad az elviteles kávéhoz	A legtöbb papírpohár belül műanyag bevonatú, és nehéz újrahasznosítani.
+HABIT_ANYTIME	Használj textilszalvétát	Mosható, kellemesebb, és nem kerül papír a kukába.
+HABIT_ANYTIME	Teregess a szárítógép helyett	A szárítógép sok áramot fogyaszt, és gyorsabban elhasználja a ruhát.
+HABIT_ANYTIME	Csak tele mosogatógépet indíts	A félig üres gép majdnem ugyanannyi vizet és energiát használ.
+HABIT_ANYTIME	Moss 30 fokon	A mosás energiájának nagy része a víz melegítésére megy, és 30 fokon is tisztára mos.
+HABIT_ANYTIME	Csak annyi vizet forralj, amennyi kell	A felesleges víz felforralása a lefolyóba öntött energia.
+HABIT_ANYTIME	Tegyél fedőt a lábasra főzés közben	Fedővel gyorsabban melegszik az étel, és kevesebb energia kell.
+HABIT_ANYTIME	Kis adaghoz a mikrót használd a sütő helyett	Egy kis tál melegítése jobb, mint egy egész sütőé.
+HABIT_ANYTIME	Hagyd magától megszáradni az edényeket	Ha kihagyod a mosogatógép szárítóprogramját, energiát spórolsz.
+HABIT_ANYTIME	Locsolj a főzővíz maradékával	A zöldségfőzés kihűlt vize ingyen tápanyag a növényeknek.
+HABIT_ANYTIME	Olvass el 10 oldalt egy könyvből	A napi kis olvasás évente sok könyvvé áll össze, és megnyugtatja az elmét.
+HABIT_ANYTIME	Tanulj meg 5 szót egy új nyelven	A memóriának jobb a napi kis gyakorlás, mint egy hosszú alkalom.
+HABIT_ANYTIME	Írj le egy dolgot, amiért hálás vagy	Ha rendszeresen észreveszed a jót, az jobb hangulattal jár együtt.
+HABIT_ANYTIME	Hívj fel vagy írj valakinek, aki fontos neked	Az erős kapcsolatok a jóllét egyik legjobb előrejelzői.
+HABIT_ANYTIME	Köszönj meg valamit valakinek	A kimondott hála mindkettőtöknek jót tesz.
+HABIT_ANYTIME	Tölts 10 percet kint a nappali fényben	A nappali fény beállítja a belső órádat, és segít éjjel aludni.
+HABIT_ANYTIME	Csinálj 5 perc légzőgyakorlatot	A lassú légzés gyorsan csökkenti a pulzust és a stresszt.
+HABIT_ANYTIME	Meditálj 5 percet	A rövid, rendszeres gyakorlás idővel javítja a figyelmet és csökkenti a stresszt.
+HABIT_ANYTIME	Rakj rendet egy kis helyen	A rendetlenség látványa fárasztó, a kis rendes sarkok összeadódnak.
+HABIT_ANYTIME	Tegyél vissza egy dolgot a helyére	Nem gyűlik fel a rendetlenség, így nagytakarításra sincs szükség.
+HABIT_ANYTIME	Pakold le az asztalod munka végén	A holnap nyugodtan indul, és ez jelzi a munkanap végét.
+HABIT_ANYTIME	Törölj 20 régi fotót vagy fájlt	A tárolt adatok energiaigényes adatközpontokban élnek.
+HABIT_ANYTIME	Iratkozz le egy reklám-hírlevélről	Kevesebb vásárlási kísértés és nyugodtabb postafiók.
+HABIT_ANYTIME	Ürítsd ki egyszer a postafiókod	Az üres postafiók csökkenti az elintézetlen dolgok háttérérzését.
+HABIT_ANYTIME	Töröld le a konyhapultot	Kevesebb a baktérium, és kedvesebb lesz főzni.
+HABIT_ANYTIME	Vegyél fel egy darab szemetet	Az eldobott szemét gyakran folyókba és tengerekbe jut, egy darab eggyel kevesebb.
+HABIT_ANYTIME	Sétálj telefon nélkül	Igazi pihenő a figyelmednek, és többet veszel észre.
+HABIT_ANYTIME	Ne az asztalodnál ebédelj	Egy igazi szünet segíti a délutáni koncentrációt és az emésztést.
+HABIT_ANYTIME	Egy étkezésnél rágj lassan	A teltségérzetnek idő kell, a lassú evés segít időben abbahagyni.
+HABIT_ANYTIME	Nasizz egy marék diót	Az egészséges zsír és a fehérje tovább tart jóllakottan, mint az édesség.
+HABIT_ANYTIME	Egyél egy tál teljes kiőrlésű gabonát	A teljes kiőrlésű gabona rostot ad, ami a legtöbb étrendből hiányzik.
+HABIT_ANYTIME	Szórj magokat egy ételre	A magok rostot, fehérjét és egészséges zsírt adnak, erőfeszítés nélkül.
+HABIT_ANYTIME	Igyál gyógyteát a harmadik kávé helyett	Kevesebb koffein késő délután jobb alvást jelent.
+HABIT_ANYTIME	Vedd be a vitaminjaidat	Csak rendszeresen működik, és segít, ha egy szokáshoz kötöd.
+HABIT_ANYTIME	Használj fogselymet	Eléri a réseket, ahová a fogkefe nem jut el, és védi az ínyt.
+HABIT_ANYTIME	Kenj magadra fényvédőt	A napi fényvédelem megelőzi a bőrkárosodást, felhős napokon is.
+HABIT_ANYTIME	Ellenőrizd a testtartásod	Ha észreveszed, hogy görnyedsz, az az első lépés a hát- és nyakfájás ellen.
+HABIT_ANYTIME	Körözz a válladdal és a nyakaddal	Oldja az asztalnál felgyűlt feszültséget.
+HABIT_ANYTIME	Gyalogolj 7000 lépést	A kutatások szerint már napi nagyjából 7000 lépés egyértelműen jót tesz az egészségnek.
+HABIT_ANYTIME	Jógázz 10 percet	Rövid idő alatt erőt, egyensúlyt és nyugalmat ad.
+HABIT_ANYTIME	Táncolj egy számra	Három perc mozgás és azonnali jókedv.
+HABIT_ANYTIME	Tölts 15 percet egy hobbival	Az idő arra, amit szeretsz, véd a kiégés ellen.
+HABIT_ANYTIME	Gyakorolj 10 percet egy hangszeren	A rövid napi gyakorlás jobb, mint az alkalmi hosszú.
+HABIT_ANYTIME	Rajzolj vagy firkálj 5 percet	A kreatív szünet pihenteti az agyad azt a részét, amelyik dolgozik.
+HABIT_ANYTIME	Írj naplót 5 percig	Ha leírod a gondolataidat, könnyebb rendezni őket, és csökken a stressz.
+HABIT_ANYTIME	Tervezd meg a holnapi három legfontosabb feladatot	Ha tervvel kezdesz, kevesebb idő megy el a döntésre.
+HABIT_ANYTIME	Tarts egy valódi szünetet a munkában	Az igazi szünet jobban visszahozza a fókuszt, mint ha végigtolod.
+HABIT_ANYTIME	Kapcsold ki egy app értesítéseit	Minden rezgés elvonja a figyelmet, kevesebb rezgés nyugodtabb napot jelent.
+HABIT_ANYTIME	Javíts meg egy apróságot	A javítás használatban tartja a dolgokat, és távol a lerakótól.
+HABIT_ANYTIME	Varrj fel egy gombot vagy foltozz be egy szakadást	Egy ötperces javítás éveket adhat egy ruhadarabnak.
+HABIT_ANYTIME	Mielőtt újat vennél, nézz körül használtban	A használt termékhez nem kell új alapanyag és gyári energia.
+HABIT_ANYTIME	Kérj kölcsön vásárlás helyett	Sok szerszámot csak párszor használunk, a kölcsönzés pénzt és holmit spórol.
+HABIT_ANYTIME	Csere előtt nézd meg, javítható-e	A legtöbb dolognak csak egy kis része romlik el, nem az egész.
+HABIT_ANYTIME	Adományozz el egy dolgot, amit már nem használsz	Valaki más használja, és az otthonod is könnyebb lesz.
+HABIT_ANYTIME	Adj el egy dolgot, amit már nem használsz	Visszajön egy kis pénz, és a tárgy második életet kap.
+HABIT_ANYTIME	Használj újra egy befőttesüveget vagy dobozt	Az újrahasználat jobb az újrahasznosításnál, nem kell hozzá energia.
+HABIT_ANYTIME	Tegyél félre egy üveget tárolásra	Ingyenes, strapabíró tároló, ami frissen tartja az ételt.
+HABIT_ANYTIME	Gyűjts esővizet a növényeknek	A növények jobban szeretik, és megspórolod a tisztított csapvizet.
+HABIT_ANYTIME	Reggel locsold meg a növényeket	Kevesebb víz párolog el, mielőtt a növény hasznosítaná.
+HABIT_ANYTIME	Nevelj egy fűszernövényt az ablakpárkányon	Friss fűszer műanyag tálca és szállítás nélkül.
+HABIT_ANYTIME	Vásárolj helyi piacon	Rövidebb az ellátási lánc, és a pénz a helyi termelőknél marad.
+HABIT_ANYTIME	Vegyél ömlesztett gyümölcsöt és zöldséget	Nincs műanyag csomagolás, és csak annyit veszel, amennyi kell.
+HABIT_ANYTIME	Válaszd a kevesebb csomagolású terméket	A csomagolás gyakran a legrövidebb életű dolog, amit megveszel.
+HABIT_ANYTIME	Válassz szezonális terméket	A szezonális ételhez nem kell fűtött üvegház vagy repülős szállítás.
+HABIT_ANYTIME	Vegyél helyi kenyeret	Frissebb, általában kevesebb adalékkal, és egy helyi vállalkozást támogatsz.
+HABIT_ANYTIME	Nézd meg a címkén, van-e benne pálmaolaj	A pálmaolaj az esőerdőirtás egyik fő oka.
+HABIT_ANYTIME	Válassz fair trade kávét vagy csokit	A fair trade azt jelenti, hogy a termelők igazságosabb árat kapnak.
+HABIT_ANYTIME	Vigyél saját dobozt a csemegepulthoz vagy a pékségbe	Teljesen kimarad az egyszer használatos csomagolás.
+HABIT_ANYTIME	Tele hassal menj vásárolni	Aki éhesen vásárol, többet vesz, és több vacakot.
+HABIT_ANYTIME	Főzz dupla adagot, és tedd el a felét	A holnapi étel kész, és egy főzés energiát spórol.
+HABIT_ANYTIME	Tervezd meg a heti étkezéseket	A tervezés az egyik leghatásosabb módja az ételpazarlás csökkentésének.
+HABIT_ANYTIME	Először a hűtő legrégebbi ételét használd fel	Ami először bekerült, az megy ki elsőként, így semmi nem jár le hátul.
+HABIT_ANYTIME	Főzz levest a maradék zöldségből	A fonnyadt zöldségből egy egész étel lesz, nem szemét.
+HABIT_ANYTIME	Otthon főzd a kávét	Olcsóbb, és nincs elviteles pohár vagy tető.
+HABIT_ANYTIME	Vigyél magaddal saját evőeszközt	Nincs műanyag villa az ebédhez.
+HABIT_ANYTIME	Húzd be a függönyt, hogy bent maradjon a meleg	A függöny éjjel csökkenti az ablakokon át távozó hőt.
+HABIT_ANYTIME	Vegyél fel egy pulóvert a fűtés feltekerése helyett	Minden fokkal kevesebb érezhetően csökkenti a fűtési energiát.
+HABIT_ANYTIME	Szellőztess röviden a bukóra hagyott ablak helyett	A rövid, teljes szellőztetés kicseréli a levegőt, és nem hűlnek ki a falak.
+HABIT_ANYTIME	Ellenőrizd az autó guminyomását	A puha gumi növeli a fogyasztást, és gyorsabban kopik.
+HABIT_ANYTIME	Utazz közösen valakivel egy autóban	Két ember egy autóban felezi az út kibocsátását.
+HABIT_ANYTIME	Gyalog kísérd a gyerekeket iskolába	Mozgás mindenkinek, és kevesebb autó az iskola előtt.
+HABIT_ANYTIME	Vedd lejjebb a képernyő fényerejét	Kíméli az akkut és a szemed is.
+HABIT_ANYTIME	Takarítsd ki a telefon tárhelyét bővítés helyett	Tovább működik az a telefon, ami már megvan.
+HABIT_ANYTIME	Tanulj meg egy szelektív szabályt a városodban	A szabályok városonként mások, ha ismered őket, nem szennyezed a gyűjtést.
+HABIT_ANYTIME	Olvass el egy cikket a klímáról	Ha érted a problémát, a kis lépések is megérik.
+HABIT_ANYTIME	Tudj meg egy dolgot arról, honnan jön az ételed	Ha ismered a forrást, legközelebb jobban választasz.
+HABIT_ANYTIME	Mosolyogj rá egy idegenre	Az apró kedves pillanatok mindkettőtök napját egy kicsit jobbá teszik.
+HABIT_ANYTIME	Tartsd nyitva az ajtót valakinek	Apró kedvesség, ami semmibe sem kerül.
+HABIT_ANYTIME	Dicsérj meg valakit őszintén	Az őszinte dicséret erősíti a kapcsolatokat.
+HABIT_ANYTIME	Tölts 10 percet egy háziállattal vagy a természetben	Az állatok és a zöld környezet csökkentik a stresszt.
+HABIT_ANYTIME	Munka után pihenj 10 percet feltett lábbal	A munka és az este közti tiszta határ segít kikapcsolni.
+HABIT_ANYTIME	Írj teendőlistát papírra	Ha kiírod a feladatokat a fejedből, felszabadul a figyelmed.
+HABIT_ANYTIME	Mondj nemet egy dologra, amit nem kell megcsinálnod	Megvéded az idődet a fontos dolgokra.
+HABIT_ANYTIME	Szánj időt egy barátságra	A barátságoknak rendszeres kis kapcsolat kell, hogy erősek maradjanak.
+HABIT_ANYTIME	Főzz egy barátoddal vagy családtaggal	A közös főzés együtt töltött idő és egészségesebb étel.
+HABIT_ANYTIME	Az asztalnál vacsorázz	Képernyő nélkül jobban észreveszed, mit és mennyit eszel.
+HABIT_ANYTIME	Olvass lefekvés előtt	Ha papírt olvasol képernyő helyett, könnyebben elalszol.
+HABIT_ANYTIME	Lefekvés előtt írd le a holnapi tervet	Ha leírod, a fejed nem pörög rajta éjjel.
+HABIT_ANYTIME	Készítsd ki a holnapi ruhádat	Eggyel kevesebb döntés reggel.
+HABIT_ANYTIME	Készítsd el a holnapi ebédet	Így az egészséges és olcsó választás lesz a könnyű.
+HABIT_ANYTIME	Mosogass el lefekvés előtt	Ha tiszta konyhára ébredsz, könnyebben indul a nap.
+HABIT_ANYTIME	Gondold át a napot 2 percig	Ha észreveszed, mi ment jól és mi nem, a holnap könnyebb lesz.
+HABIT_ANYTIME	Nyújts lefekvés előtt	Oldja a feszültséget, így kényelmesebben alszol.
+HABIT_ANYTIME	Rakj rendet a nappaliban lefekvés előtt	Rendes szobára ébredni nyugodtabb.
+HABIT_ANYTIME	Számold össze a mai kis sikereidet	Ha észreveszed a haladást, megmarad a motivációd.
+HABIT_ANYTIME	Éjjelre vedd lejjebb a fűtést	A legtöbben hűvösebben jobban alszanak, és energiát is spórolsz.
+HABIT_ANYTIME	A telefont a hálószobán kívül töltsd	Nem kísért, hogy az ágyban görgess.
+HABIT_ANYTIME	Aludj résnyire nyitott ablaknál	A friss, hűvösebb levegő általában mélyebb alvást jelent.
+HABIT_ANYTIME	Időben menj el a munkából	A rendszeres túlóra felőrli a pihenést és a fókuszt.
+HABIT_END	Semmi nasi 21:00 után	A késői nassolás általában szokás, nem éhség, és zavarja az alvást.
+HABIT_END	Telefon félre 22:00-ra	A késő esti képernyő késlelteti az alvást, és pörgeti az agyat.
+HABIT_END	Semmi képernyő a lefekvés előtti utolsó 30 percben	Az agyadnak ideje marad lelassulni alvás előtt.
+HABIT_END	23:00-ra ágyban	A rendszeres lefekvési idő az egyik legerősebb eszköz a jobb alváshoz.
+HABIT_END	Semmi koffein 14:00 után	A koffein órákig a szervezetben marad, és zavarja az alvást.
+HABIT_END	Hétköznap este semmi alkohol	Az alkohol rontja az alvás minőségét, még ha segít is elaludni.
+HABIT_END	Ma semmi cukros üdítő	A cukros italok a hozzáadott cukor egyik legnagyobb forrásai.
+HABIT_END	Ma semmi elviteles kaja	Az elviteles étel csomagolással, sóval és költséggel jár.
+HABIT_END	Ma semmi online vásárlás	Sok online vásárlás hirtelen ötlet, egy szünnap megtöri a kört.
+HABIT_END	Vacsora után semmi közösségi média	Az este visszajár a pihenésnek és az igazi embereknek.
+HABIT_END	Teljesítsd a mai lépéscélt	Csak a nap végén derül ki, így egész nap mozgásban tart.
+HABIT_END	Ma semmi ételpazarlás	Úgy zárni a napot, hogy semmi nem került a kukába, világos cél.
+HABIT_END	Ma semmi egyszer használatos műanyag	Egy teljes nap nélküle megmutatja, hol lopózik be.
+HABIT_END	Ma semmi autózás	Egy autómentes nap megmutatja, melyik útra van tényleg szükséged.
+HABIT_END	Ma csak egy kávé	Kevesebb koffein, egyenletesebb energia, jobb alvás.
+HABIT_END	Ma semmi végtelen görgetés a rossz hírek között	A végtelen negatív hírfolyam fokozza a szorongást.
+HABIT_END	Ma semmi sült étel	A bő zsírban sült étel tele van zsírral és kalóriával.
+HABIT_END	Ma semmi hús	Heti egy húsmentes nap tényleg csökkenti a lábnyomodat.
+HABIT_END	Egész nap lift nélkül	Csak a nap végén derül ki, és nagyon jót tesz a lábadnak.
+HABIT_END	Igyál meg legalább 1,5 liter vizet	Az egyenletes vízfogyasztás egész nap fenntartja az energiát és a figyelmet.
+HABIT_END	Egész nap leoltott villany az üres szobákban	Egy teljes nap figyelem után automatikussá válik.
+HABIT_END	Maradjon a fűtés 20 fokon	Minden fok 20 felett érezhetően növeli a számlát.
+HABIT_END	Ma 5 percnél rövidebb zuhany	A rövid zuhany meleg vizet és energiát spórol.
+HABIT_END	Ma semmi hirtelen vásárlás	Ha vásárlás előtt vársz egy napot, a legtöbb hirtelen vétel elmarad.
+HABIT_END	Ma semmi költés nem létfontosságú dolgokra	Egy költésmentes nap megmutatja, hol szivárog a pénz.
+HABIT_END	Munkamentes este	A munka és az otthon közti tiszta határ védi a feltöltődést.
+HABIT_END	Semmi hír 20:00 után	A késő esti rossz hírek után nehezebb kikapcsolni.
+HABIT_END	Állj fel minden órában	A hosszú, megszakítás nélküli ülés rosszabb egészséggel jár, még ha sportolsz is.
+HABIT_END	Kapcsold le a villanyt, amikor kimész egy szobából	Az üres szobában égő villany tiszta pazarlás a számládon.
+HABIT_END	Zárd el a csapot fogmosás közben	A folyó csap minden fogmosásnál több liter vizet pazarol.
+HABIT_END	Az üzenetekre egyszerre válaszolj, ne egész nap	Az állandó váltogatás lemeríti a fókuszt, a csoportosítás megvédi.
+HABIT_END	Munka közben tartsd a telefont karnyújtáson kívül	Már az asztalon fekvő telefon is rontja a koncentrációt.
+HABIT_END	Nézz el a képernyőről 20 percenként	Ha a távolba nézel, ellazulnak a fáradt szemizmok.
+HABIT_END	Igyál egy pohár vizet minden étkezéshez	Egyszerű mód arra, hogy gondolkodás nélkül meglegyen a napi víz.
+HABIT_END	Lépcsőzz a lift helyett	Napi pár emelet igazi szívedzéssé áll össze, és a lift energiáját is spórolod.
+HABIT_END	Húzd ki a töltőket, ha nem használod őket	A bedugott töltő egész nap fogyaszt egy kis áramot.
+HABIT_END	Csapvizet igyál palackos helyett	Európa nagy részén a csapvíz biztonságos, ellenőrzött és sokkal olcsóbb.
+HABIT_END	Hordj magadnál kulacsot	Minden újratöltés egy műanyag palack, ami sosem készül el.
+HABIT_END	Fejezz be egy feladatot, mielőtt újat kezdesz	A feladatok közti váltogatás több időbe kerül, mint gondolnád.
+HABIT_END	Használd a papír mindkét oldalát	Erőfeszítés nélkül felezi a papírfogyasztásod.
+HABIT_END	Csak akkor nyomtass, ha tényleg kell	A papírnak és a tintának is valódi lábnyoma van.
+HABIT_END	Az ételmaradékot tedd a komposztba	A lerakóban az étel metánná rothad, a komposzt visszaalakítja talajjá.
+HABIT_END	Kapcsold ki a készülékeket a konnektornál	A készenlét egy háztartás áramának nagyjából tizedét is kiteheti.
+SWAP	Luffa a műanyag szivacs helyett	A műanyag szivacsból mikroműanyag kopik, a luffa növény, és komposztálható.
+SWAP	Samponszappan a flakonos sampon helyett	Egy szappan nagyjából két-három flakonig kitart, műanyag nélkül.
+SWAP	Szappan a tusfürdő helyett	A szappanhoz sokkal kevesebb csomagolás kell, és könnyebb szállítani.
+SWAP	Bambusz fogkefe a műanyag helyett	A műanyag fogkefe évszázadokig megmarad a lerakóban, a bambusz nyél nem.
+SWAP	Méhviaszos kendő a folpack helyett	A kendő egy évig újrahasználható, a folpackot egyszer használod.
+SWAP	Textiltörlő a papírtörlő helyett	A textilt több százszor ki lehet mosni.
+SWAP	Biztonsági borotva az eldobható helyett	Csak a fém pengét kell cserélni, és az újrahasznosítható.
+SWAP	Szálas tea a filteres helyett	Sok teafilterben műanyag van, a szálas teában nincs.
+SWAP	Őrölt kávé a kapszulák helyett	A kapszula csészénként sok nehezen újrahasznosítható szemetet termel.
+SWAP	Vízszűrő kancsó a palackos víz helyett	A szűrőkancsó ugyanazt az ízt adja, palackok nélkül.
+SWAP	Saját pohár az elviteles helyett	A legtöbb elviteles pohár műanyag bevonatú, és ritkán hasznosítják újra.
+SWAP	Vászontáska a nejlonzacskó helyett	Egy sokszor használt vászontáska több száz vékony zacskót ér.
+SWAP	Hálós zsák a zöldséges nejlonzacskó helyett	A mosható hálós zsák egy halom vékony műanyagot vált ki.
+SWAP	Utántöltő vagy mosópor a folyékony mosószer helyett	A mosópor kartonban jön, az utántöltő csökkenti a műanyagot.
+SWAP	Gyapjú szárítólabda az illatosító kendő helyett	A gyapjúlabda évekig kitart, és rövidíti a szárítást.
+SWAP	Mosható rongy a konyhai papírtörlő helyett	A régi pólókból jó rongy lesz, és semmibe sem kerül.
+SWAP	Mosható korong a vattakorong helyett	A pamut sok vizet igényel, a mosható korong évekig kitart.
+SWAP	Textil zsebkendő a papír helyett	Mosható, és kíméletesebb az orrodhoz.
+SWAP	Fém szívószál vagy semmi a műanyag helyett	A legtöbb italhoz egyáltalán nem kell szívószál.
+SWAP	Tölthető elem az eldobható helyett	Egy tölthető elem több száz eldobhatót vált ki.
+SWAP	LED a hagyományos izzó helyett	A LED töredék áramot fogyaszt, és sokkal tovább bírja.
+SWAP	Kapcsolós elosztó a készenlétben hagyott eszközök helyett	Egy kapcsolóval mindennél megszünteted a készenlétet.
+SWAP	Bicikli az autós ingázás helyett	Beépített mozgás a napodba, nulla kibocsátással.
+SWAP	Tömegközlekedés az autós ingázás helyett	Idő olvasni vagy pihenni, és fejenként sokkal kisebb kibocsátás.
+SWAP	Vonat a rövid repülőút helyett	Rövid távon a vonat a repülő kibocsátásának csak töredékét termeli.
+SWAP	Használt ruha az új helyett	A divatiparnak nagy a lábnyoma, a használt ruha ezt kihagyja.
+SWAP	Kevesebb, de jobb ruha a fast fashion helyett	A tartós ruha miatt ritkábban kell vásárolnod.
+SWAP	Könyvtár az új könyvek helyett	Ingyenes, és egy példány sok olvasót kiszolgál.
+SWAP	Használt bútor az új helyett	A jó bútor évtizedekig kitart, valaki másé gyakran tökéletes.
+SWAP	Elektronikus számla a papír helyett	Kevesebb papír, és minden egy helyen van.
+SWAP	Újrahasználható jegyzetfüzet a papír helyett	A letörölhető vagy digitális jegyzet papírt spórol.
+SWAP	Utántölthető toll a műanyag helyett	Csak a betétet cseréled, nem az egész tollat.
+SWAP	Saját evőeszköz az eldobható helyett	Az elviteles evőeszközt percekig használod, és évszázadokig megmarad.
+SWAP	Házi ecetes tisztító a flakonos helyett	Az ecet és a víz a legtöbb felületet olcsón tisztára mossa.
+SWAP	Nyitott ablak a légfrissítő helyett	A légfrissítő vegyszert ad a levegőhöz, a friss levegő elviszi.
+SWAP	Zabpehely a cukros gabonapehely helyett	A zab laktató, olcsó, és kevés benne a cukor.
+SWAP	Szódavíz a szénsavas üdítő helyett	Ugyanaz a buborék, cukor nélkül.
+SWAP	Dió a chips helyett	A dió fehérjét és egészséges zsírt ad só és olaj helyett.
+SWAP	Teljes kiőrlésű kenyér a fehér helyett	A teljes kiőrlésű megtartja a rostot, amit a fehér liszt elveszít.
+SWAP	Étcsoki a tejcsoki helyett	Kevesebb cukor, több kakaó, és kevesebb is elég belőle.
+SWAP	Zabital a tehéntej helyett	A zabitalhoz sokkal kevesebb föld és víz kell.
+SWAP	Heti egyszer lencse a marhahús helyett	A marhahúsnak az egyik legnagyobb lábnyoma van az élelmiszerek közül.
+SWAP	Helyi pékség a bolti kenyér helyett	Frissebb, kevesebb adalék, kevesebb csomagolás.
+SWAP	Szezonális gyümölcs az import helyett	A szezonális gyümölcs kevesebbet utazik, és finomabb.
+SWAP	Egész gyümölcs a palackos gyümölcslé helyett	Az egész gyümölcsben megmarad a rost, a lé főleg cukor.
+SWAP	Előre főzés a készételek helyett	Az előre főzés olcsóbb, egészségesebb, és kevesebb a csomagolás.
+SWAP	Otthon főzött este az elviteles helyett	Pénzt és csomagolást spórolsz, és tudod, mi van benne.
+SWAP	Üvegdoboz a műanyag ételtároló helyett	Az üveg tartós, nem színeződik el, és mehet a sütőbe.
+SWAP	Újrahasználható sütőlap az alufólia helyett	Egy lap évnyi fóliát vált ki.
+SWAP	Öntöttvas serpenyő a tapadásmentes helyett	Az öntöttvas egy életen át kitart, vegyi bevonat nélkül.
+SWAP	Textil vagy újságpapír a csomagolópapír helyett	A legtöbb fényes csomagolópapír nem hasznosítható újra.
+SWAP	E-képeslap a születésnapi kártya helyett	Nincs papír, boríték és postaköltség.
+SWAP	Bolti vásárlás az online visszaküldés helyett	A visszaküldött árut gyakran kidobják, nem adják el újra.
+SWAP	Normál szállítás a gyors helyett	A lassabb szállításnál a furgonokat rendesen meg lehet tölteni.
+SWAP	Normál minőség a HD streaming helyett	Kis képernyőn az alacsonyabb minőség sokkal kevesebb adatot és energiát használ.
+SWAP	Etikus bank a nagybank helyett	A megtakarításod azt finanszírozza, amire a bank hitelt ad.
+SWAP	Fenntartható nyugdíjalap a mostani helyett	A nyugdíj gyakran a legnagyobb összeg, amit befektetsz.
+SWAP	Megújuló áramtarifa a mostani helyett	Egy lépéssel lecseréled, honnan jön az áramod.
+SWAP	Ecosia a mostani keresőmotor helyett	Az Ecosia a nyereségéből fákat ültet.
+SWAP	Mosható maszk az eldobható helyett	A mosható maszk rengeteg egyszer használatos szemetet spórol.
+SWAP	Természetes szivacs a szintetikus helyett	A természetes szivacs élete végén lebomlik.
+SWAP	Golyós vagy szilárd dezodor a spray helyett	A spray flakon terjedelmes, és nehezebb újrahasznosítani.
+SWAP	Fogkrém tabletta a tubus helyett	A tabletta üvegben jön, a tubust nehéz újrahasznosítani.
+SWAP	Fa hajkefe a műanyag helyett	A fa tartós, és nem hagy maga után műanyagot.
+SWAP	Acetonmentes körömlakklemosó a hagyományos helyett	Kíméletesebb a körmödhöz és a bőrödhöz.
+SWAP	Mosható kendő a sminklemosó törlőkendő helyett	A törlőkendőkben gyakran van műanyag, és eldugítják a lefolyót.
+SWAP	Menstruációs kehely a tampon helyett	Egy kehely évekig kitart, és több ezer terméket vált ki.
+SWAP	Mosható pelenka az eldobható helyett	Az eldobható pelenka a háztartási szemét nagy része.
+SWAP	Fa vagy használt játék a műanyag helyett	A fajáték tartós, és tovább lehet adni.
+SWAP	Vadvirágos rét a gyep helyett	A vadvirág táplálja a méheket, és nem kell nyírni.
+SWAP	Természetes kártevőirtás a kerti vegyszerek helyett	A vegyszerek ártanak a rovaroknak és a talajéletnek, amire a kertnek szüksége van.
+SWAP	Tőzegmentes virágföld a tőzeges helyett	A tőzeglápok hatalmas mennyiségű szenet tárolnak.
+SWAP	Teli mosogató a folyó csap helyett	Egy tál víz sokkal kevesebb, mint a folyó csap.
+SWAP	Zuhany a kádfürdő helyett	Egy rövid zuhany sokkal kevesebb meleg vizet használ, mint egy kádfürdő.
+SWAP	Ruhaszárító állvány a szárítógép helyett	A teregetés ingyen van, és kíméletesebb a ruhákhoz.
+SWAP	Telekocsi a hosszú autóút helyett	A közös út megosztja a költséget és a kibocsátást.
+SWAP	A telefon hosszabb használata az évenkénti csere helyett	A telefon lábnyomának nagy része a gyártásból jön.
+SWAP	Felújított telefon az új helyett	A felújított telefon kihagyja a lábnyom legnagyobb részét.
+SWAP	Utántölthető tintapatron az új helyett	Az újratöltés pénzt és műanyag patront spórol.
+SWAP	„Reklámot nem kérek” matrica a kéretlen reklámok helyett	Nem érkezik több papír, amit sosem kértél.
+AVOID_PRODUCT	Egyszer használatos műanyag palackok	A legtöbbet nem hasznosítják újra, és lerakóba vagy tengerbe kerül.
+AVOID_PRODUCT	Hirtelen ötletből vett kütyük	Egy pillanatnyi lelkesedésből veszed, és párszor használod.
+AVOID_PRODUCT	Vicces bögrék és csecsebecsék	Ritkán használt kacat, amit nehéz elajándékozni.
+AVOID_PRODUCT	Olcsó műanyag játékok	Hamar eltörnek, és nem hasznosíthatók újra.
+AVOID_PRODUCT	Eldobható kávéspoharak	Műanyag bevonatúak, és ritkán hasznosítják újra őket.
+AVOID_PRODUCT	Műanyag szívószálak	Percekig használod, évszázadokig megmarad.
+AVOID_PRODUCT	Csillámpor és mikroműanyag	Az apró műanyag darabkák egyenesen a folyókba és tengerekbe mosódnak.
+AVOID_PRODUCT	Nedves törlőkendők	A legtöbbjükben műanyag van, és eldugítják a lefolyót.
+AVOID_PRODUCT	Ingyenes minták, amiket nem használsz	Csomagolás és termék a semmiért.
+AVOID_PRODUCT	Reklámajándékok	Logós kacat, amit eleve kidobásra gyártottak.
+AVOID_PRODUCT	Eldobható borotvák	Összeépített műanyag és fém, lehetetlen újrahasznosítani.
+AVOID_PRODUCT	Eldobható grillsütők	Egyszer használod, és gyakran károsítják a talajt, amin állnak.
+AVOID_PRODUCT	Lufik a bulikon	Az elengedett vagy kipukkadt lufi szemétként végzi, és árt az élővilágnak.
+AVOID_PRODUCT	Olcsó telefonkiegészítők	Hamar tönkremennek, és gyakran nem javíthatók.
+AVOID_PRODUCT	Egyszer felvett ruhák	Egy ruha hatásának nagy része a gyártásból jön.
+AVOID_PRODUCT	Duplán meglévő konyhai eszközök	Egy már van, a második csak a helyet foglalja.
+AVOID_PRODUCT	Egyetlen alkalomra szóló dekoráció	Egy napig használod, évekig tárolod vagy kidobod.
+AVOID_COMPANY	Nestlé	1977 óta nemzetközi bojkott alatt áll amiatt, ahogyan a tápszert reklámozza szegényebb országokban.
+AVOID_COMPANY	Shein	Ultragyors divat, és a Channel 4 meg a Public Eye nagyon hosszú munkaidőről számolt be a beszállító gyáraiban.
+AVOID_COMPANY	Temu	Hatalmas mennyiségű olcsó áru repülővel, és az EU 2024-ben hivatalos vizsgálatot indított ellene.
+AVOID_COMPANY	Coca-Cola	A Break Free From Plastic szemétfelmérései több éven át az első helyen nevezték meg.
+AVOID_COMPANY	PepsiCo	Ugyanezekben a műanyagszemét-felmérésekben folyamatosan a Coca-Cola mögött, az élmezőnyben van.
+AVOID_COMPANY	Amazon	Régóta tartó viták a raktári munkakörülményekről és a dolgozók szervezkedéséről.
+AVOID_COMPANY	Primark	Nagyon olcsó, tömeges ruházat, és a 2013-ban összeomlott Rana Plaza gyárból is rendelt.
+AVOID_COMPANY	Zara	Az egyik márka, amely felépítette a pár hetente új kollekciót hozó fast fashion modellt.
+AVOID_COMPANY	Ryanair	A Transport & Environment Európa legnagyobb szén-dioxid-kibocsátói közé sorolta, szénerőművek mellé.
+AVOID_COMPANY	McDonald's	Rengeteg egyszer használatos csomagolás és marhahúsra épülő menü.
+AVOID_COMPANY	Mondelez	Kampányolók az erdőirtáshoz kötötték kakaó- és pálmaolaj-ellátási láncait.
+AVOID_FOOD	Pálmaolajos termékek	A pálmaolaj-ültetvények az esőerdőirtás egyik fő okai.
+AVOID_FOOD	Energiaitalok	Sok cukor és koffein, ami rossz alvással és remegéssel jár.
+AVOID_FOOD	Cukros szénsavas üdítők	Egyetlen doboz a napi ajánlott cukor nagy részét tartalmazhatja.
+AVOID_FOOD	Ultrafeldolgozott nasik	Úgy tervezték őket, hogy túlegyél belőlük, és kevés bennük a valódi tápanyag.
+AVOID_FOOD	Szezonon kívüli, repülővel hozott gyümölcs	A repülővel szállított étel lábnyoma sokszorosa a hajón szállítottnak.
+AVOID_FOOD	Ketreces tojás	A ketreces tyúkok nagyon rossz körülmények között élnek.
+AVOID_FOOD	Túlhalászott állományból származó hal	A túlhalászás gyorsabban üríti ki a tengert, mint ahogy az állomány helyreáll.
+AVOID_FOOD	Chips	Sok só és zsír, és könnyű egy egész zacskóval megenni.
+AVOID_FOOD	Édesség a kasszánál	Azért van ott, hogy elkapja a fáradt, éhes, hirtelen vásárlást.
+AVOID_FOOD	Elviteles kaja hétköznap este	A rendszeres elviteles kaja sót, költséget és csomagolást hoz.
+AVOID_FOOD	Alkohol hétköznap	A hétköznapi ivás összeadódik, és rontja az alvás minőségét.
+AVOID_FOOD	Feldolgozott hús	Nagyobb egészségügyi kockázattal jár, mint a friss hús.

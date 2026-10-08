@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">עייפות</string>
+    <string name="core_reason_craving">חשק</string>
+    <string name="core_reason_no_time">אין זמן</string>
+    <string name="core_reason_forgot">שכחה</string>
+    <string name="core_reason_no_alternative">אין חלופה</string>
+    <string name="core_reason_social">אירוע חברתי</string>
+    <string name="core_reason_impulse">דחף</string>
+    <string name="core_reason_too_expensive">יקר מדי</string>
+    <string name="core_reason_away">מחוץ לבית</string>
+
+    <string name="core_nudge_channel">תזכורת יומית</string>
+    <string name="core_nudge_title">עוד יש מה לסמן היום</string>
+    <string name="core_save_failed">השמירה נכשלה, כדאי לנסות שוב</string>
+
+    <string name="core_kind_habit">הרגל</string>
+    <string name="core_kind_swap">החלפה</string>
+    <string name="core_kind_avoid">הימנעות</string>
+    <string name="core_about">מידע על %1$s</string>
+    <string name="core_ok">אישור</string>
+    <string name="core_less">פחות</string>
+    <string name="core_more">יותר</string>
+    <string name="core_cancel">ביטול</string>
+    <string name="core_settings">הגדרות</string>
+    <string name="core_span_week">שבוע</string>
+    <string name="core_span_month">חודש</string>
+    <string name="core_span_year">שנה</string>
+    <string name="core_span_all">מההתחלה</string>
+    <string name="core_tab_habits">הרגלים</string>
+    <string name="core_tab_changes">שינויים</string>
+    <string name="core_tab_avoid">הימנעות</string>
+    <string name="core_tab_insights">תובנות</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">בוצע</string>
+    <string name="core_cell_missed">פוספס</string>
+    <string name="core_cell_partial">בוצע חלקית, %1$d עד עכשיו</string>
+    <string name="core_cell_unfilled">עוד לא מולא</string>
+    <string name="core_cell_open">לביצוע</string>
+    <string name="core_cell_locked">נעול עד שעת הבדיקה</string>
+    <string name="core_cell_future">עוד לא</string>
+    <string name="core_cell_empty">לא נדרש כלום</string>
+    <string name="core_cell_band">בוצע לתקופה הזו</string>
+    <string name="core_cell_off">לא יום של הצעד הזה</string>
+    <string name="core_cell_none">לפני שהצעד הזה התחיל</string>
+
+    <string name="core_rhythm_one_off">חד־פעמי</string>
+    <string name="core_rhythm_end_of_day">כל יום, מסמנים בסוף היום</string>
+    <string name="core_rhythm_every_day">כל יום</string>
+    <string name="core_rhythm_every_days">כל %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">בשבוע</string>
+    <string name="core_rhythm_a_month">בחודש</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, בכל יום</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s ו%2$s</string>
+
+    <string name="core_achievement_short_months">%1$d ח׳</string>
+    <string name="core_achievement_short_days">%1$d י׳</string>
+    <string name="core_glance_step">%1$s, %2$d מתוך %3$d</string>
+
+    <string name="core_slip_never">אף פעם</string>
+    <string name="core_slip_once">פעם אחת</string>
+    <string name="core_slip_a_few">כמה פעמים</string>
+    <string name="core_slip_half">חצי</string>
+    <string name="core_slip_most">רוב הזמן</string>
+    <string name="core_slip_always">תמיד</string>
+
+    <string name="core_ideas_habit_anytime">הרגלים, בכל זמן</string>
+    <string name="core_ideas_habit_end">הרגלים, סוף היום</string>
+    <string name="core_ideas_swap">החלפות</string>
+    <string name="core_ideas_avoid_product">הימנעות, מוצרים</string>
+    <string name="core_ideas_avoid_company">הימנעות, חברות</string>
+    <string name="core_ideas_avoid_food">הימנעות, מזון</string>
+
+    <string name="core_tag_ethical">אתיקה</string>
+    <string name="core_tag_health">בריאות</string>
+    <string name="core_tag_clutter">בלגן</string>
+    <string name="core_tag_ecological">אקולוגיה</string>
+    <string name="core_tag_animal_welfare">רווחת בעלי חיים</string>
+    <string name="core_tag_workers_rights">זכויות עובדים</string>
+    <string name="core_tag_plastic">פלסטיק</string>
+    <string name="core_tag_palm_oil">שמן דקלים</string>
+    <string name="core_tag_deforestation">בירוא יערות</string>
+    <string name="core_category_company">חברה</string>
+    <string name="core_category_food">מזון</string>
+    <string name="core_category_product">מוצר</string>
+    <string name="core_verdict_avoid">להימנע</string>
+    <string name="core_verdict_edge">על הגבול</string>
+    <string name="core_verdict_fine">בסדר</string>
+
+    <string name="core_theme_off_white_honey">אוף־וייט ודבש</string>
+    <string name="core_theme_vanilla_caramel">וניל וקרמל</string>
+    <string name="core_theme_sunflower">חמנייה</string>
+    <string name="core_theme_latte">לאטה</string>
+    <string name="core_theme_cocoa_lemon">קקאו ולימון</string>
+    <string name="core_theme_espresso_butter">אספרסו וחמאה</string>
+    <string name="core_theme_midnight_honey">חצות ודבש</string>
+    <string name="core_theme_forest_night">לילה ביער</string>
+    <string name="core_theme_plum_dusk">דמדומי שזיף</string>
+    <string name="core_theme_charcoal_coral">פחם ואלמוג</string>
+
+    <string name="core_pic_sunny_meadow">אחו שטוף שמש</string>
+    <string name="core_pic_sunset_hills">גבעות בשקיעה</string>
+    <string name="core_pic_starry_night">ליל כוכבים</string>
+    <string name="core_pic_beach_day">יום בחוף</string>
+    <string name="core_pic_mountain_lake">אגם הררי</string>
+    <string name="core_pic_snowy_village">כפר מושלג</string>
+    <string name="core_pic_rainy_garden">גינה גשומה</string>
+    <string name="core_pic_autumn_forest">יער בסתיו</string>
+    <string name="core_pic_cherry_blossom">פריחת דובדבן</string>
+    <string name="core_pic_desert_cactus">קקטוס במדבר</string>
+    <string name="core_pic_lighthouse">מגדלור</string>
+    <string name="core_pic_rainbow_field">שדה וקשת</string>
+    <string name="core_pic_hot_air_balloon">כדור פורח</string>
+    <string name="core_pic_sailboat">סירת מפרש</string>
+    <string name="core_pic_cabin_in_the_woods">בקתה ביער</string>
+    <string name="core_pic_tulip_field">שדה צבעונים</string>
+    <string name="core_pic_campfire_night">לילה ליד המדורה</string>
+    <string name="core_pic_misty_mountains">הרים בערפל</string>
+    <string name="core_pic_sunrise_sea">ים בזריחה</string>
+    <string name="core_pic_snowy_pines">אורנים מושלגים</string>
+    <string name="core_pic_lavender_field">שדה לבנדר</string>
+    <string name="core_pic_waterfall">מפל</string>
+    <string name="core_pic_city_at_dusk">עיר בין ערביים</string>
+    <string name="core_pic_picnic">פיקניק</string>
+    <string name="core_pic_moon_over_the_lake">ירח מעל האגם</string>
+    <string name="core_pic_palm_island">אי של דקלים</string>
+    <string name="core_pic_windmill">טחנת רוח</string>
+    <string name="core_pic_bike_path">שביל אופניים</string>
+    <string name="core_pic_greenhouse">חממה</string>
+    <string name="core_pic_northern_lights">זוהר צפוני</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d צעד מחכה לך.</item>
+        <item quantity="two">%d צעדים מחכים לך.</item>
+        <item quantity="other">%d צעדים מחכים לך.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">בוצע, %d פעם</item>
+        <item quantity="two">בוצע, %d פעמים</item>
+        <item quantity="other">בוצע, %d פעמים</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d פעם ביום</item>
+        <item quantity="two">%d פעמים ביום</item>
+        <item quantity="other">%d פעמים ביום</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d פעם</item>
+        <item quantity="two">%d פעמים</item>
+        <item quantity="other">%d פעמים</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">כל %d שבוע</item>
+        <item quantity="two">כל %d שבועות</item>
+        <item quantity="other">כל %d שבועות</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">כל %d חודש</item>
+        <item quantity="two">כל %d חודשים</item>
+        <item quantity="other">כל %d חודשים</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">כל %d יום</item>
+        <item quantity="two">כל %d ימים</item>
+        <item quantity="other">כל %d ימים</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d חודש בלי לפספס</item>
+        <item quantity="two">%d חודשים בלי לפספס</item>
+        <item quantity="other">%d חודשים בלי לפספס</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d חודש ברצף</item>
+        <item quantity="two">%d חודשים ברצף</item>
+        <item quantity="other">%d חודשים ברצף</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d יום ברצף</item>
+        <item quantity="two">%d ימים ברצף</item>
+        <item quantity="other">%d ימים ברצף</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d חודש</item>
+        <item quantity="two">%d חודשים</item>
+        <item quantity="other">%d חודשים</item>
+    </plurals>
+
+    <string name="tabs_new_step">צעד חדש</string>
+    <string name="tabs_edit">עריכה</string>
+    <string name="tabs_delete">מחיקה</string>
+    <string name="tabs_done">סיום</string>
+    <string name="tabs_back">חזרה</string>
+    <string name="tabs_earlier">קודם</string>
+    <string name="tabs_later">אחר כך</string>
+    <string name="tabs_delete_title">למחוק את %1$s?</string>
+    <string name="tabs_eod_unlock">הרגלי סוף היום נפתחים ב־%1$02d:00</string>
+    <string name="tabs_check_up">בדיקה רבעונית</string>
+    <string name="tabs_one_off">חד־פעמי</string>
+
+    <string name="tabs_checkin_from">בדיקה מ־%1$02d:00</string>
+    <string name="tabs_checkin_daily">בדיקה יומית</string>
+    <string name="tabs_checkin_weekly">בדיקה שבועית</string>
+    <string name="tabs_checkin_quarter">בדיקה רבעונית</string>
+    <string name="tabs_checked_in">נבדק</string>
+    <string name="tabs_quarter_section">בדיקה רבעונית</string>
+    <string name="tabs_previous_week">השבוע הקודם</string>
+    <string name="tabs_next_week">השבוע הבא</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d יום של %2$s!</item>
+        <item quantity="two">%1$d ימים של %2$s!</item>
+        <item quantity="other">%1$d ימים של %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">כל הכבוד. מעכשיו זה עובר לבדיקות הרבעוניות, בלי סימון יומי.</string>
+    <string name="tabs_celebrate_first">הראשונה ב־%1$s.</string>
+    <string name="tabs_glance_title">השבוע שלך</string>
+    <string name="tabs_glance_ticks_kept">סימונים שבוצעו</string>
+    <string name="tabs_glance_days_checked_in">ימים עם בדיקה</string>
+    <string name="tabs_glance_top_tag">סיבת המעידה הנפוצה:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d פעם</item>
+        <item quantity="two">%1$s, %2$d פעמים</item>
+        <item quantity="other">%1$s, %2$d פעמים</item>
+    </plurals>
+    <string name="tabs_glance_easiest">הכי קל:</string>
+    <string name="tabs_glance_hardest">הכי קשה:</string>
+
+    <string name="tabs_changes_ongoing">החלפות קבועות</string>
+    <string name="tabs_changes_ongoing_tip_title">החלפה קבועה</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">הבחירה הזו תחזור שוב, כמו כוס קפה או סבון שמפו מוצק. מסמנים אותה בהרגלים במשך %1$d יום, ואחר כך היא נבדקת כל 3 חודשים.</item>
+        <item quantity="two">הבחירה הזו תחזור שוב, כמו כוס קפה או סבון שמפו מוצק. מסמנים אותה בהרגלים במשך %1$d ימים, ואחר כך היא נבדקת כל 3 חודשים.</item>
+        <item quantity="other">הבחירה הזו תחזור שוב, כמו כוס קפה או סבון שמפו מוצק. מסמנים אותה בהרגלים במשך %1$d ימים, ואחר כך היא נבדקת כל 3 חודשים.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">עוד אין החלפות</string>
+    <string name="tabs_changes_day_badge">יום %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">נקלט</string>
+    <string name="tabs_changes_one_off_todo">חד־פעמי, לביצוע</string>
+    <string name="tabs_changes_one_off_tip">עושים פעם אחת וזה גמור, כמו לפנות מגירה, לעבור לתעריף חשמל ירוק או לתקן מעיל. מסמנים וזה עובר להושלמו.</string>
+    <string name="tabs_changes_nothing_waiting">אין שום דבר בהמתנה</string>
+    <string name="tabs_changes_finished">הושלמו · %1$d</string>
+
+    <string name="tabs_avoid_title">רשימת הימנעות</string>
+    <string name="tabs_avoid_search">חיפוש…</string>
+    <string name="tabs_avoid_no_match">אין תוצאות</string>
+    <string name="tabs_avoid_companies">חברות</string>
+    <string name="tabs_avoid_food">מזון</string>
+    <string name="tabs_avoid_products">מוצרים</string>
+
+    <string name="tabs_avoid_added">נוסף</string>
+    <string name="tabs_avoid_why">למה להימנע מזה</string>
+    <string name="tabs_avoid_own_words">במילים שלך</string>
+    <string name="tabs_avoid_brands">מותגים בבעלותה · %1$d</string>
+    <string name="tabs_avoid_brand_hint">מותג אחד בכל שורה</string>
+    <string name="tabs_avoid_more_brands">+%1$d נוספים</string>
+    <string name="tabs_avoid_instead">במקום זה, את זה</string>
+    <string name="tabs_avoid_instead_hint">אחד בכל שורה</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">מעידה</item>
+        <item quantity="two">מעידות</item>
+        <item quantity="other">מעידות</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">נמנעת</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">חודש ברשימה</item>
+        <item quantity="two">חודשים ברשימה</item>
+        <item quantity="other">חודשים ברשימה</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">זה יורד מרשימת ההימנעות יחד עם ההיסטוריה שלו.</string>
+
+    <string name="tabs_habit_delete_text">כל ההיסטוריה שלו נמחקת יחד איתו.</string>
+    <string name="tabs_habit_created">נוצר</string>
+    <string name="tabs_habit_to_do">לביצוע</string>
+    <string name="tabs_habit_daily_ticks">סימונים יומיים</string>
+    <string name="tabs_habit_day_of">יום %1$d מתוך %2$d</string>
+    <string name="tabs_habit_finished">הושלם</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">יום ברצף</item>
+        <item quantity="two">ימים ברצף</item>
+        <item quantity="other">ימים ברצף</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">הפסקה</item>
+        <item quantity="two">הפסקות</item>
+        <item quantity="other">הפסקות</item>
+    </plurals>
+    <string name="tabs_habit_success">הצלחה</string>
+    <string name="tabs_habit_current_streak">הרצף הנוכחי</string>
+    <string name="tabs_habit_longest_streak">הרצף הארוך ביותר</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d יום</item>
+        <item quantity="two">%1$d ימים</item>
+        <item quantity="other">%1$d ימים</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">למה הייתה מעידה</string>
+    <string name="tabs_habit_remove_reason">הסרת הסיבה הזו</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">דרך שבה שיפרת את החיים</item>
+        <item quantity="two">דרכים שבהן שיפרת את החיים</item>
+        <item quantity="other">דרכים שבהן שיפרת את החיים</item>
+    </plurals>
+    <string name="tabs_insights_habits">הרגלים</string>
+    <string name="tabs_insights_swaps">החלפות</string>
+    <string name="tabs_insights_avoids">הימנעויות</string>
+    <string name="tabs_insights_on_track_section">במסלול</string>
+    <string name="tabs_insights_avg_days">%1$d י׳</string>
+    <string name="tabs_insights_average_kept">ממוצע ביצוע</string>
+    <string name="tabs_insights_days_checked_in">ימים עם בדיקה</string>
+    <string name="tabs_insights_on_track">במסלול</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">מעידה</item>
+        <item quantity="two">מעידות</item>
+        <item quantity="other">מעידות</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">צעד חדש</item>
+        <item quantity="two">צעדים חדשים</item>
+        <item quantity="other">צעדים חדשים</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">חד־פעמי הושלם</item>
+        <item quantity="two">חד־פעמיים הושלמו</item>
+        <item quantity="other">חד־פעמיים הושלמו</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">הסיבות העיקריות למעידות</string>
+    <string name="tabs_insights_added_quarter">נוסף ברבעון הזה</string>
+    <string name="tabs_insights_past_summaries">סיכומים רבעוניים קודמים</string>
+    <string name="tabs_insights_first_on">הסיכום הראשון שלך מגיע ב־%1$s</string>
+    <string name="tabs_insights_all_time">מההתחלה</string>
+    <string name="tabs_insights_period">%1$s עד %2$s %3$d</string>
+
+    <string name="forms_back">חזרה</string>
+    <string name="forms_back_habits">הרגלים</string>
+    <string name="forms_back_settings">הגדרות</string>
+    <string name="forms_add">הוספה</string>
+    <string name="forms_save">שמירה</string>
+    <string name="forms_finish">סיום</string>
+    <string name="forms_delete">מחיקה</string>
+    <string name="forms_why">למה</string>
+    <string name="forms_never_show">לא להציג שוב</string>
+    <string name="forms_every">כל</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">יום</item>
+        <item quantity="two">ימים</item>
+        <item quantity="other">ימים</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">שלב %1$d מתוך %2$d</string>
+    <string name="forms_checkin_next_weekly">הבא, בדיקה שבועית ›</string>
+    <string name="forms_checkin_next_quarter">הבא, בדיקה רבעונית ›</string>
+    <string name="forms_daily_title">בדיקה יומית</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d יום קודם לא מולא</item>
+        <item quantity="two">%1$d ימים קודמים לא מולאו</item>
+        <item quantity="other">%1$d ימים קודמים לא מולאו</item>
+    </plurals>
+    <string name="forms_daily_skip_all">לדלג על הכול</string>
+    <string name="forms_daily_today">היום · %1$s</string>
+    <string name="forms_daily_skip">דילוג</string>
+    <string name="forms_daily_undo_skip">ביטול הדילוג</string>
+    <string name="forms_daily_new_tag">תגית חדשה</string>
+    <string name="forms_daily_new_tag_hint">הפח היה מלא</string>
+    <string name="forms_weekly_title">בדיקה שבועית</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d שבוע ממתין, צעד חדש אחד מכסה הכול.</item>
+        <item quantity="two">%1$d שבועות ממתינים, צעד חדש אחד מכסה הכול.</item>
+        <item quantity="other">%1$d שבועות ממתינים, צעד חדש אחד מכסה הכול.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">בלי צעד חדש השבוע</string>
+    <string name="forms_quarter_title">בדיקה רבעונית</string>
+    <string name="forms_quarter_nothing">עוד אין מה לבדוק. הסיכום שלך הוא הבא.</string>
+    <string name="forms_quarter_habits">הרגלים</string>
+    <string name="forms_quarter_swaps">החלפות</string>
+    <string name="forms_quarter_avoid">הימנעות</string>
+    <string name="forms_quarter_missed">פוספס</string>
+    <string name="forms_quarter_missed_level">פוספס: %1$s</string>
+
+    <string name="forms_new_title">צעד חדש</string>
+    <string name="forms_edit_title">עריכה: %1$s</string>
+    <string name="forms_add_kind">הוספה: %1$s</string>
+    <string name="forms_title_habit">הרגל</string>
+    <string name="forms_title_swap">החלפה</string>
+    <string name="forms_title_avoid">הימנעות</string>
+    <string name="forms_save_changes">שמירת השינויים</string>
+    <string name="forms_what_kind">איזה סוג?</string>
+    <string name="forms_name">שם</string>
+    <string name="forms_your_new_step">הצעד החדש שלך</string>
+    <string name="forms_hint_habit">לקרוא 10 עמודים</string>
+    <string name="forms_hint_swap">לופה במקום ספוג</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">איזה סוג של הרגל?</string>
+    <string name="forms_timing_tip_title">בכל זמן או בסוף היום</string>
+    <string name="forms_timing_tip">בכל זמן: משהו שעושים פעם אחת, כמו ריצה. מסמנים ברגע שזה נעשה.\n\nסוף היום: כלל ששומרים עליו כל היום, כמו בלי נשנושים. אפשר לסמן רק בערב.</string>
+    <string name="forms_anytime">בכל זמן</string>
+    <string name="forms_end_of_day">סוף היום</string>
+    <string name="forms_what_is_it">מה זה?</string>
+    <string name="forms_how_often">באיזו תדירות?</string>
+    <string name="forms_often_specific">ימים מסוימים</string>
+    <string name="forms_often_whenever">מתי שנוח</string>
+    <string name="forms_often_once">רק פעם אחת</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">פעם כל</item>
+        <item quantity="two">פעמים כל</item>
+        <item quantity="other">פעמים כל</item>
+    </plurals>
+    <string name="forms_unit_day">יום</string>
+    <string name="forms_unit_week">שבוע</string>
+    <string name="forms_unit_month">חודש</string>
+    <string name="forms_unit_x_days">X ימים</string>
+    <string name="forms_ideas">רעיונות</string>
+    <string name="forms_ideas_others">אחרים</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">לכל %1$d הרעיונות ›</item>
+        <item quantity="two">לכל %1$d הרעיונות ›</item>
+        <item quantity="other">לכל %1$d הרעיונות ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">כל רעיונות הצעדים</string>
+    <string name="forms_search">חיפוש…</string>
+    <string name="forms_all">הכול</string>
+
+    <string name="forms_settings_title">הגדרות</string>
+    <string name="forms_set_colours">צבעים</string>
+    <string name="forms_set_style">סגנון הסיכום הרבעוני</string>
+    <string name="forms_set_checkins">בדיקות</string>
+    <string name="forms_set_checkin_hour">הבדיקה היומית נפתחת ב־</string>
+    <string name="forms_set_checkin_hour_tip">מהשעה הזו אפשר לסמן הרגלי סוף יום ולעשות את הבדיקה היומית.</string>
+    <string name="forms_set_week_start">השבוע מתחיל ביום</string>
+    <string name="forms_set_week_start_tip">באיזה יום מתחילים טבלת ההרגלים, השבועות והגרפים.</string>
+    <string name="forms_monday">שני</string>
+    <string name="forms_sunday">ראשון</string>
+    <string name="forms_set_new_step_every">צעד חדש כל</string>
+    <string name="forms_set_new_step_every_tip">כמה שבועות בין בדיקה שבועית אחת לבאה.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">שבוע</item>
+        <item quantity="two">שבועות</item>
+        <item quantity="other">שבועות</item>
+    </plurals>
+    <string name="forms_set_weekly_day">יום הבדיקה השבועית</string>
+    <string name="forms_set_weekly_day_tip">ביום הזה, אחרי הבדיקה היומית, בוחרים את הצעד החדש לשבוע הבא.</string>
+    <string name="forms_set_checkup">בדיקה רבעונית</string>
+    <string name="forms_set_checkup_tip">כולם עושים את הבדיקה באותם ימים: 1 בינואר, 1 באפריל, 1 ביולי ו־1 באוקטובר, כדי לשתף את הסיכומים יחד. אפשר גם לבחור תאריך משלך.</string>
+    <string name="forms_set_same">כמו כולם</string>
+    <string name="forms_set_own">תאריך משלי</string>
+    <string name="forms_set_starting">החל מ־</string>
+    <string name="forms_set_starting_tip">החודש של הבדיקה הראשונה שלך.</string>
+    <string name="forms_earlier">קודם</string>
+    <string name="forms_later">אחר כך</string>
+    <string name="forms_set_every_tip">חודשים בין בדיקה לבדיקה.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">חודש</item>
+        <item quantity="two">חודשים</item>
+        <item quantity="other">חודשים</item>
+    </plurals>
+    <string name="forms_set_day_of_month">יום בחודש</string>
+    <string name="forms_set_day_of_month_tip">איזה יום באותו חודש.</string>
+    <string name="forms_set_everyone">כולם: 1 בינואר · 1 באפריל · 1 ביולי · 1 באוקטובר</string>
+    <string name="forms_set_days_build">ימים לבניית הרגל</string>
+    <string name="forms_set_days_build_tip">מחקרים מצאו בין 18 ל־254 ימים, והמספר המצוטט ביותר הוא 66 (Lally et al. 2010, Singh et al. 2024). אחרי מספר הימים הזה צעד חדש עובר לבדיקות שלך.</string>
+    <string name="forms_set_nudge">תזכורת יומית</string>
+    <string name="forms_set_nudge_tip">תזכורת בשעה הזו, רק אם עוד משהו לא סומן.</string>
+    <string name="forms_set_more">עוד</string>
+    <string name="forms_set_reasons">סיבות למעידה</string>
+    <string name="forms_set_tutorial">להציג שוב את ההדרכה</string>
+    <string name="forms_set_export">ייצוא הנתונים שלי</string>
+    <string name="forms_set_import">ייבוא נתונים</string>
+
+    <string name="forms_reasons_title">סיבות למעידה</string>
+    <string name="forms_reasons_hint">להוסיף סיבה משלך</string>
+    <string name="forms_reasons_used">שימוש %1$d×</string>
+    <string name="forms_reasons_delete_title">למחוק את %1$s?</string>
+    <string name="forms_reasons_delete_text">המעידות נשארות בהיסטוריה שלך, פשוט בלי התגית הזו.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d הרגל</item>
+        <item quantity="two">%1$d הרגלים</item>
+        <item quantity="other">%1$d הרגלים</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d החלפה</item>
+        <item quantity="two">%1$d החלפות</item>
+        <item quantity="other">%1$d החלפות</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d הימנעות</item>
+        <item quantity="two">%1$d הימנעויות</item>
+        <item quantity="other">%1$d הימנעויות</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, סימונים מאז %2$s</string>
+    <string name="forms_export_title">ייצוא הנתונים שלי</string>
+    <string name="forms_export_what">מה נכנס לקובץ</string>
+    <string name="forms_export_ticks">כל סימון, מעידה וסיבה</string>
+    <string name="forms_export_ticks_since">כל סימון, מעידה וסיבה מאז %1$s</string>
+    <string name="forms_export_summaries">הסיכומים הרבעוניים שלך</string>
+    <string name="forms_export_settings">ההגדרות, הצבעים והשם שלך</string>
+    <string name="forms_export_file">קובץ</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">שמירת הקובץ</string>
+    <string name="forms_export_send">שליחה אל…</string>
+    <string name="forms_export_send_title">שליחת הנתונים שלך מ־Alice</string>
+    <string name="forms_export_saved">נשמר: %1$s</string>
+    <string name="forms_export_save_failed">לא ניתן היה לשמור את הקובץ</string>
+
+    <string name="forms_import_title">ייבוא נתונים</string>
+    <string name="forms_import_choose">בחירת גיבוי של Alice</string>
+    <string name="forms_import_choose_sub">.json, מייצוא בטלפון אחר</string>
+    <string name="forms_import_cant_open">לא ניתן לפתוח את הקובץ.</string>
+    <string name="forms_import_not_backup">הקובץ הזה אינו גיבוי של Alice.</string>
+    <string name="forms_import_replace_mode">להחליף את מה שיש כאן</string>
+    <string name="forms_import_add_mode">להוסיף למה שיש כאן</string>
+    <string name="forms_import_button">ייבוא</string>
+    <string name="forms_import_replace_title">להחליף את הנתונים שלך?</string>
+    <string name="forms_import_add_title">להוסיף את הנתונים האלה?</string>
+    <string name="forms_import_replace_text">כל מה שיש בטלפון הזה יוחלף בתוכן הקובץ. כדאי לייצא קודם אם רוצים לשמור אותו.</string>
+    <string name="forms_import_add_text">ההרגלים וההיסטוריה מהקובץ יתווספו לשלך.</string>
+    <string name="forms_import_done">הנתונים יובאו</string>
+
+    <string name="look_share">שיתוף</string>
+    <string name="look_save_image">שמירת התמונה</string>
+    <string name="look_next_week">הבא, השבוע שלך ›</string>
+    <string name="look_keep_going">ממשיכים</string>
+    <string name="look_storage_needed">Alice צריכה גישה לאחסון כדי לשמור את התמונה</string>
+    <string name="look_share_caption">הרבעון שלי עם Alice. אפשר להתחיל גם: %1$s</string>
+    <string name="look_share_clip">סיכום Alice</string>
+    <string name="look_share_chooser">שיתוף הרבעון שלך</string>
+    <string name="look_saved">נשמר ב־Pictures/Alice</string>
+    <string name="look_save_failed">לא ניתן היה לשמור את התמונה</string>
+
+    <string name="look_style_poster">פוסטר</string>
+    <string name="look_style_wrapped">סיכום מתנה</string>
+    <string name="look_style_trophy">ארון גביעים</string>
+    <string name="look_style_receipt">קבלה</string>
+    <string name="look_style_report">תעודה</string>
+    <string name="look_style_boarding">כרטיס עלייה למטוס</string>
+    <string name="look_style_polaroid">פולארויד</string>
+    <string name="look_style_calendar">לוח שנה</string>
+    <string name="look_style_trading">קלף אספנים</string>
+
+    <string name="look_quote_1">צעדים קטנים, כל יום</string>
+    <string name="look_quote_2">תודה שהגעת</string>
+    <string name="look_quote_3">התקדמות, לא שלמות</string>
+    <string name="look_quote_4">המשכת. זה מה שחשוב</string>
+    <string name="look_quote_5">שינויים קטנים, הבדל גדול</string>
+    <string name="look_quote_6">כל יום בחרת טוב יותר</string>
+    <string name="look_quote_7">לאט זה עדיין קדימה</string>
+    <string name="look_quote_8">בונים חיים שאוהבים</string>
+    <string name="look_quote_9">צעד אחר צעד, זה מצטבר</string>
+    <string name="look_quote_10">להמשיך להיות שם בשביל עצמך</string>
+    <string name="look_quote_11">העתיד שלך אומר תודה</string>
+    <string name="look_quote_12">מעט מעט, הרבה</string>
+    <string name="look_quote_13">התמדה היא קסם שקט</string>
+    <string name="look_quote_14">כמה דרך כבר עברת</string>
+    <string name="look_quote_15">גאווה בניצחונות הקטנים</string>
+    <string name="look_quote_16">ימים טובים בונים, לא מוצאים</string>
+
+    <string name="look_stamp_1">מצוין</string>
+    <string name="look_stamp_2">יוצא מן הכלל</string>
+    <string name="look_stamp_3">כל הכבוד</string>
+    <string name="look_stamp_4">מבריק</string>
+    <string name="look_stamp_5">נהדר</string>
+    <string name="look_stamp_6">ציון מלא</string>
+    <string name="look_stamp_7">כוכב זהב</string>
+    <string name="look_stamp_8">עבודה מעולה</string>
+
+    <string name="look_period">%1$s עד %2$s</string>
+    <string name="look_scan">סרקו כדי\nלהתחיל את\nהמסע שלכם</string>
+    <string name="look_you">את/ה</string>
+    <string name="look_on_track">במסלול</string>
+    <string name="look_new_steps">צעדים חדשים</string>
+    <string name="look_days_in">ימים עד כה</string>
+    <string name="look_new">חדש</string>
+    <string name="look_week_by_week">שבוע אחר שבוע</string>
+    <string name="look_coming_soon">בקרוב</string>
+    <string name="look_new_this_quarter">חדש ברבעון הזה</string>
+    <string name="look_kept_up_longest">הכי הרבה זמן</string>
+    <string name="look_habits">הרגלים</string>
+    <string name="look_swaps">החלפות</string>
+    <string name="look_avoids">הימנעויות</string>
+    <string name="look_ways_improved">דרכים לשיפור</string>
+    <string name="look_improved_in">שיפרת את החיים שלך ב־%1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d הרגל</item>
+        <item quantity="two">%1$d הרגלים</item>
+        <item quantity="other">%1$d הרגלים</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d החלפה</item>
+        <item quantity="two">%1$d החלפות</item>
+        <item quantity="other">%1$d החלפות</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d הימנעות</item>
+        <item quantity="two">%1$d הימנעויות</item>
+        <item quantity="other">%1$d הימנעויות</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d מעידה</item>
+        <item quantity="two">%1$d מעידות</item>
+        <item quantity="other">%1$d מעידות</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d דרך</item>
+        <item quantity="two">%1$d דרכים</item>
+        <item quantity="other">%1$d דרכים</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">הרגל</item>
+        <item quantity="two">הרגלים</item>
+        <item quantity="other">הרגלים</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">החלפה</item>
+        <item quantity="two">החלפות</item>
+        <item quantity="other">החלפות</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">הימנעות</item>
+        <item quantity="two">הימנעויות</item>
+        <item quantity="other">הימנעויות</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">מעידה</item>
+        <item quantity="two">מעידות</item>
+        <item quantity="other">מעידות</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">דרך</item>
+        <item quantity="two">דרכים</item>
+        <item quantity="other">דרכים</item>
+    </plurals>
+
+    <string name="look_poster_improved">שיפרת את החיים שלך ב־%1$s</string>
+    <string name="look_poster_on_track">במסלול</string>
+    <string name="look_poster_days">ימים</string>
+    <string name="look_poster_achievements">הישגים</string>
+    <string name="look_poster_first_ones">ההישגים הראשונים בדרך</string>
+    <string name="look_poster_added">מה נוסף ברבעון הזה</string>
+
+    <string name="look_wrapped_stars">הכוכבים שלך</string>
+
+    <string name="look_trophy_ways">דרכים שבהן שיפרת\nאת החיים</string>
+    <string name="look_trophy_next_quarter">ברבעון הבא</string>
+    <string name="look_trophy_first_medal">המדליה הראשונה שלך</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">חדש על המדף:</string>
+
+    <string name="look_receipt_title">בדיקה רבעונית · %1$s</string>
+    <string name="look_receipt_customer">לכבוד: %1$s</string>
+    <string name="look_receipt_habits">הרגלים שנבנו</string>
+    <string name="look_receipt_swaps">דברים שהוחלפו</string>
+    <string name="look_receipt_avoids">דברים שנמנעת מהם</string>
+    <string name="look_receipt_ways">דרכים שבהן שיפרת את החיים</string>
+    <string name="look_receipt_on_track">במסלול ברבעון הזה</string>
+    <string name="look_receipt_slips">מעידות</string>
+    <string name="look_receipt_new_steps">צעדים חדשים שנבנו</string>
+    <string name="look_receipt_new">חדש ברבעון הזה: %1$s</string>
+
+    <string name="look_report_title">תעודת הצעדים הקטנים</string>
+    <string name="look_report_pupil">%1$s · שם: %2$s</string>
+    <string name="look_report_subject">מקצוע</string>
+    <string name="look_report_built">נבנה</string>
+    <string name="look_report_grade">ציון</string>
+    <string name="look_report_attendance">נוכחות %1$s</string>
+    <string name="look_report_on_track">במסלול %1$s</string>
+    <string name="look_report_slips">מעידות %1$s</string>
+    <string name="look_report_achievements">הישגים</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">מקצועות חדשים במחצית הזו (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">הערת המורה:</string>
+    <string name="look_report_calm">מחצית רגועה ויציבה.</string>
+    <string name="look_report_ups_downs">מחצית של עליות וירידות, ובכל זאת המשכת.</string>
+    <string name="look_report_star">%1$s: עבודה יוצאת מן הכלל. ככה להמשיך!</string>
+    <string name="look_report_keep_up">ככה להמשיך!</string>
+    <string name="look_report_week">שבוע אחר שבוע</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">טיסה Q%1$d</string>
+    <string name="look_boarding_from">מוצא</string>
+    <string name="look_boarding_old">הרגלים</string>
+    <string name="look_boarding_habits">ישנים</string>
+    <string name="look_boarding_to">יעד</string>
+    <string name="look_boarding_new">גרסה</string>
+    <string name="look_boarding_better_you">טובה יותר שלך</string>
+    <string name="look_boarding_passenger">שם</string>
+    <string name="look_boarding_dates">תאריכים</string>
+    <string name="look_boarding_miles">מיילים שנצברו</string>
+    <string name="look_boarding_on_time">בזמן</string>
+    <string name="look_boarding_turbulence">מערבולות</string>
+    <string name="look_boarding_days">ימים על הסיפון</string>
+    <string name="look_boarding_flyer">השותפים הוותיקים שלך לדרך</string>
+    <string name="look_boarding_log">יומן טיסה, שבוע אחר שבוע</string>
+    <string name="look_boarding_stops">תחנות חדשות, +%1$d</string>
+    <string name="look_boarding_note">הודעה מהקברניט</string>
+
+    <string name="look_polaroid_life">החיים שלך</string>
+    <string name="look_polaroid_quarter">ברבעון הזה</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d ימים</string>
+    <string name="look_polaroid_longest">הכי הרבה זמן</string>
+    <string name="look_polaroid_new">חדש, +%1$d</string>
+
+    <string name="look_calendar_added">נוסף</string>
+
+    <string name="look_trading_common">נפוץ</string>
+    <string name="look_trading_uncommon">לא נפוץ</string>
+    <string name="look_trading_rare">נדיר</string>
+    <string name="look_trading_legendary">אגדי</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">דרך</item>
+        <item quantity="two">דרכים</item>
+        <item quantity="other">דרכים</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d</string>
+    <string name="look_ordinal_nd">%1$d</string>
+    <string name="look_ordinal_rd">%1$d</string>
+    <string name="look_ordinal_th">%1$d</string>
+    <string name="look_trading_number">מס׳ %1$03d · הרבעון ה־%2$s שלך</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d ימים</string>
+    <string name="look_trading_power">כוח, שבוע אחר שבוע</string>
+    <string name="look_trading_edition">%1$s · מהדורת Q%2$d</string>
+
+    <string name="look_sample_water_first">קודם מים</string>
+    <string name="look_sample_own_bag">תיק משלי</string>
+    <string name="look_sample_read_pages">לקרוא 10 עמודים</string>
+    <string name="look_sample_reading">קריאה כל יום</string>
+    <string name="look_sample_late_snacks">בלי נשנושי לילה</string>
+    <string name="look_sample_stretching">מתיחות</string>
+    <string name="look_sample_cooler_home">בית קריר יותר</string>
+    <string name="look_sample_loofah">לופה במקום ספוג</string>
+    <string name="look_sample_palm_oil">בלי שמן דקלים</string>
+    <string name="look_sample_stretch">מתיחות 10 דק׳</string>
+
+    <string name="look_colours_title">צבעים</string>
+    <string name="look_colours_preview">תצוגה מקדימה</string>
+    <string name="look_colours_your_summary">הסיכום הרבעוני שלך</string>
+    <string name="look_colours_light">בהיר</string>
+    <string name="look_colours_dark">כהה</string>
+    <string name="look_styles_title">סגנון הסיכום הרבעוני</string>
+    <string name="look_styles_all_pictures">לכל 30 תמונות הפולארויד</string>
+    <string name="look_styles_refresh">רענון</string>
+    <string name="look_pictures_title">תמונות פולארויד</string>
+    <string name="look_pictures_back">סגנונות סיכום</string>
+
+    <string name="look_welcome_name">השם שלך</string>
+    <string name="look_welcome_start">מתחילים</string>
+    <string name="look_welcome_import">ייבוא הנתונים שלי</string>
+
+    <string name="look_tut_skip">דילוג</string>
+    <string name="look_tut_page">%1$d מתוך %2$d</string>
+    <string name="look_tut_back">חזרה</string>
+    <string name="look_tut_start">מתחילים</string>
+    <string name="look_tut_next">הבא</string>
+    <string name="look_tut1_title">גרסה טובה יותר שלך, צעד אחר צעד</string>
+    <string name="look_tut1_body">לבנות הרגלים חדשים, לבחור בחירות טובות יותר, ולראות את כל מה שהשגת מצטבר.</string>
+    <string name="look_tut1_habits">לבנות הרגלים טובים יום אחר יום ולהיות מי שרצית להיות.</string>
+    <string name="look_tut1_swaps">להחליף מוצרים בטובים יותר, לכדור הארץ, לאנשים או לבריאות שלך.</string>
+    <string name="look_tut1_avoids">לעקוב אחרי החברות, המזון והמוצרים שמעדיפים לא לתמוך בהם.</string>
+    <string name="look_tut2_title">מסמנים וזהו</string>
+    <string name="look_tut2_body">נוגעים בריבוע כשהרגל בוצע. הרגלי הערב נפתחים בשעת הבדיקה שלך.</string>
+    <string name="look_tut3_title">%1$s, ואז כל %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d יום</item>
+        <item quantity="two">%1$d ימים</item>
+        <item quantity="other">%1$d ימים</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d חודש</item>
+        <item quantity="two">%1$d חודשים</item>
+        <item quantity="other">%1$d חודשים</item>
+    </plurals>
+    <string name="look_tut3_body">מחקרים מצאו שבניית הרגל לוקחת בין 18 ל־254 ימים. המספר המצוטט ביותר הוא 66 ימים, אז משם Alice מתחילה.</string>
+    <string name="look_tut3_days_label">ימים לבניית הרגל</string>
+    <string name="look_tut3_checkup">בדיקה כל</string>
+    <string name="look_tut3_small">אפשר לשנות את שניהם בהגדרות.</string>
+    <string name="look_tut4_title">פעם בשבוע, צעד חדש אחד</string>
+    <string name="look_tut4_body">צעד חדש אחד בכל פעם מאפשר לצמוח לאט, בלי לקחת על עצמך יותר מדי בבת אחת.</string>
+    <string name="look_tut4_day">יום הבדיקה</string>
+    <string name="look_tut4_small">גם את זה אפשר לשנות בהגדרות.</string>
+    <string name="look_tut5_title">בכל רבעון, הסיכום שלך</string>
+    <string name="look_tut5_body">אפשר לשתף את החברים והאנשים הקרובים בכמה דרך עברת. נגיעה בעיצוב שאהבת:</string>
+    <string name="look_tut_change_mind">תמיד אפשר להתחרט.</string>
+    <string name="look_tut6_title">שיהיה שלך</string>
+    <string name="look_tut6_body">בוחרים את הצבעים הכי נעימים לעין. כל האפליקציה משתנה מיד.</string>
+    <string name="look_tut7_title">לשנות הכול, בכל זמן</string>
+    <string name="look_tut7_body">שעות הבדיקה, הימים לבניית הרגל, סגנון הסיכום, הצבעים והנתונים שלך, הכול בהגדרות.</string>
+    <string name="look_tut7_gear">נוגעים בגלגל השיניים בראש מסך ההרגלים כדי לפתוח את ההגדרות.</string>
+    <string name="look_tut7_open">פתיחת ההגדרות</string>
+
+    <string name="lang_title">שפה</string>
+    <string name="pron_title">כינויי גוף</string>
+    <string name="pron_she">היא</string>
+    <string name="pron_he">הוא</string>
+    <string name="pron_they">ניטרלי</string>
+    <string name="lang_spotted">מצאת טעות בשפה שלך?</string>
+    <string name="lang_search">חיפוש השפה שלך</string>
+    <string name="lang_phone">שפת הטלפון</string>
+    <string name="lang_follow">כמו בטלפון</string>
+    <string name="lang_note_title">עזרה בתרגום</string>
+    <string name="lang_note_1">היי, אני Lucy ואני יצרתי את Alice.</string>
+    <string name="lang_note_2">אני דוברת אנגלית, סלובקית, צ׳כית ורוסית, אז את התרגומים האלה בדקתי בעצמי. את השפות האחרות עוד לא בדק דובר ילידי.</string>
+    <string name="lang_note_3">אם מצאת טעות בשפה שלך, אשמח לשמוע כדי לתקן אותה. ואם השתמשת ב־Alice בשפה שלך כבר זמן מה והכול נשמע נכון, ספרו לי גם את זה, כדי שאסמן אותה כמאושרת.</string>
+    <string name="lang_note_4">תודה!</string>
+    <string name="lang_not_approved">עוד לא אושר</string>
+    <string name="lang_report">דיווח על טעות</string>
+    <string name="lang_all_correct">השפה שלי תקינה לגמרי</string>
+    <string name="lang_mail_mistake_body">מה לא נשמע נכון, ובאיזה מסך:\n\n</string>
+    <string name="lang_mail_correct_body">השתמשתי ב־Alice בשפה שלי כבר זמן מה והכול נשמע נכון.\n\n</string>
+    <string name="lang_no_mail">לא נמצאה אפליקציית דואר</string>
+    <!-- pronoun variants for android below 14, same as values-iw-feminine and -masculine -->
+    <string name="look_you__feminine" translatable="false">את</string>
+    <string name="look_you__masculine" translatable="false">אתה</string>
+    <string name="look_report_pupil__feminine" translatable="false">%1$s · תלמידה: %2$s</string>
+    <string name="look_report_pupil__masculine" translatable="false">%1$s · תלמיד: %2$s</string>
+    <string name="look_receipt_customer__feminine" translatable="false">לקוחה: %1$s</string>
+    <string name="look_receipt_customer__masculine" translatable="false">לקוח: %1$s</string>
+    <string name="look_boarding_passenger__feminine" translatable="false">נוסעת</string>
+    <string name="look_boarding_passenger__masculine" translatable="false">נוסע</string>
+    <string name="look_boarding_flyer__feminine" translatable="false">נוסעת מתמידה, השותפים הוותיקים שלך לדרך</string>
+    <string name="look_boarding_flyer__masculine" translatable="false">נוסע מתמיד, השותפים הוותיקים שלך לדרך</string>
+    <string name="lang_mail_correct_body__feminine" translatable="false">אני משתמשת ב־Alice בשפה שלי כבר זמן מה והכול נשמע נכון.\n\n</string>
+    <string name="lang_mail_correct_body__masculine" translatable="false">אני משתמש ב־Alice בשפה שלי כבר זמן מה והכול נשמע נכון.\n\n</string>
+    <!-- end pronoun variants -->
+</resources>

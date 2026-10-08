@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Nuovargis</string>
+    <string name="core_reason_craving">Potraukis</string>
+    <string name="core_reason_no_time">Nėra laiko</string>
+    <string name="core_reason_forgot">Pamiršau</string>
+    <string name="core_reason_no_alternative">Nėra alternatyvos</string>
+    <string name="core_reason_social">Kompanija</string>
+    <string name="core_reason_impulse">Impulsas</string>
+    <string name="core_reason_too_expensive">Per brangu</string>
+    <string name="core_reason_away">Ne namuose</string>
+
+    <string name="core_nudge_channel">Kasdienis priminimas</string>
+    <string name="core_nudge_title">Šiandien dar reikia pažymėti</string>
+    <string name="core_save_failed">Nepavyko išsaugoti, bandyk dar kartą</string>
+
+    <string name="core_kind_habit">Įprotis</string>
+    <string name="core_kind_swap">Pakeitimas</string>
+    <string name="core_kind_avoid">Vengti</string>
+    <string name="core_about">Apie: %1$s</string>
+    <string name="core_ok">Gerai</string>
+    <string name="core_less">Mažiau</string>
+    <string name="core_more">Daugiau</string>
+    <string name="core_cancel">Atšaukti</string>
+    <string name="core_settings">Nustatymai</string>
+    <string name="core_span_week">Savaitė</string>
+    <string name="core_span_month">Mėnuo</string>
+    <string name="core_span_year">Metai</string>
+    <string name="core_span_all">Visas laikas</string>
+    <string name="core_tab_habits">Įpročiai</string>
+    <string name="core_tab_changes">Pokyčiai</string>
+    <string name="core_tab_avoid">Vengti</string>
+    <string name="core_tab_insights">Apžvalga</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">atlikta</string>
+    <string name="core_cell_missed">praleista</string>
+    <string name="core_cell_partial">atlikta iš dalies, kol kas %1$d</string>
+    <string name="core_cell_unfilled">dar neužpildyta</string>
+    <string name="core_cell_open">reikia atlikti</string>
+    <string name="core_cell_locked">užrakinta iki žymėjimo laiko</string>
+    <string name="core_cell_future">dar ne</string>
+    <string name="core_cell_empty">nieko nereikia</string>
+    <string name="core_cell_band">šiam laikotarpiui atlikta</string>
+    <string name="core_cell_off">ne šio žingsnio diena</string>
+    <string name="core_cell_none">prieš prasidedant šiam žingsniui</string>
+
+    <string name="core_rhythm_one_off">Vienkartinis</string>
+    <string name="core_rhythm_end_of_day">Kasdien, žymima vakare</string>
+    <string name="core_rhythm_every_day">Kasdien</string>
+    <string name="core_rhythm_every_days">Kiekvieną %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">per savaitę</string>
+    <string name="core_rhythm_a_month">per mėnesį</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, bet kurią dieną</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s ir %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d mėn.</string>
+    <string name="core_achievement_short_days">%1$d d.</string>
+    <string name="core_glance_step">%1$s, %2$d iš %3$d</string>
+
+    <string name="core_slip_never">Niekada</string>
+    <string name="core_slip_once">Kartą</string>
+    <string name="core_slip_a_few">Kelis kartus</string>
+    <string name="core_slip_half">Pusę</string>
+    <string name="core_slip_most">Dažniausiai</string>
+    <string name="core_slip_always">Visada</string>
+
+    <string name="core_ideas_habit_anytime">Įpročiai, bet kada</string>
+    <string name="core_ideas_habit_end">Įpročiai, vakare</string>
+    <string name="core_ideas_swap">Pakeitimai</string>
+    <string name="core_ideas_avoid_product">Vengti, produktai</string>
+    <string name="core_ideas_avoid_company">Vengti, įmonės</string>
+    <string name="core_ideas_avoid_food">Vengti, maistas</string>
+
+    <string name="core_tag_ethical">Etiška</string>
+    <string name="core_tag_health">Sveikata</string>
+    <string name="core_tag_clutter">Netvarka</string>
+    <string name="core_tag_ecological">Ekologiška</string>
+    <string name="core_tag_animal_welfare">Gyvūnų gerovė</string>
+    <string name="core_tag_workers_rights">Darbuotojų teisės</string>
+    <string name="core_tag_plastic">Plastikas</string>
+    <string name="core_tag_palm_oil">Palmių aliejus</string>
+    <string name="core_tag_deforestation">Miškų naikinimas</string>
+    <string name="core_category_company">Įmonė</string>
+    <string name="core_category_food">Maistas</string>
+    <string name="core_category_product">Produktas</string>
+    <string name="core_verdict_avoid">VENK</string>
+    <string name="core_verdict_edge">ANT RIBOS</string>
+    <string name="core_verdict_fine">TINKA</string>
+
+    <string name="core_theme_off_white_honey">Kreminė &amp; medus</string>
+    <string name="core_theme_vanilla_caramel">Vanilė &amp; karamelė</string>
+    <string name="core_theme_sunflower">Saulėgrąža</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakava &amp; citrina</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; sviestas</string>
+    <string name="core_theme_midnight_honey">Vidurnaktis &amp; medus</string>
+    <string name="core_theme_forest_night">Miško naktis</string>
+    <string name="core_theme_plum_dusk">Slyvų sutemos</string>
+    <string name="core_theme_charcoal_coral">Anglis &amp; koralas</string>
+
+    <string name="core_pic_sunny_meadow">Saulėta pieva</string>
+    <string name="core_pic_sunset_hills">Kalvos saulėlydyje</string>
+    <string name="core_pic_starry_night">Žvaigždėta naktis</string>
+    <string name="core_pic_beach_day">Diena paplūdimyje</string>
+    <string name="core_pic_mountain_lake">Kalnų ežeras</string>
+    <string name="core_pic_snowy_village">Snieguotas kaimas</string>
+    <string name="core_pic_rainy_garden">Lietingas sodas</string>
+    <string name="core_pic_autumn_forest">Rudens miškas</string>
+    <string name="core_pic_cherry_blossom">Vyšnių žiedai</string>
+    <string name="core_pic_desert_cactus">Dykumos kaktusas</string>
+    <string name="core_pic_lighthouse">Švyturys</string>
+    <string name="core_pic_rainbow_field">Vaivorykštės laukas</string>
+    <string name="core_pic_hot_air_balloon">Oro balionas</string>
+    <string name="core_pic_sailboat">Burlaivis</string>
+    <string name="core_pic_cabin_in_the_woods">Trobelė miške</string>
+    <string name="core_pic_tulip_field">Tulpių laukas</string>
+    <string name="core_pic_campfire_night">Vakaras prie laužo</string>
+    <string name="core_pic_misty_mountains">Rūke paskendę kalnai</string>
+    <string name="core_pic_sunrise_sea">Saulėtekis prie jūros</string>
+    <string name="core_pic_snowy_pines">Snieguotos pušys</string>
+    <string name="core_pic_lavender_field">Levandų laukas</string>
+    <string name="core_pic_waterfall">Krioklys</string>
+    <string name="core_pic_city_at_dusk">Miestas sutemose</string>
+    <string name="core_pic_picnic">Iškyla</string>
+    <string name="core_pic_moon_over_the_lake">Mėnulis virš ežero</string>
+    <string name="core_pic_palm_island">Palmių sala</string>
+    <string name="core_pic_windmill">Vėjo malūnas</string>
+    <string name="core_pic_bike_path">Dviračių takas</string>
+    <string name="core_pic_greenhouse">Šiltnamis</string>
+    <string name="core_pic_northern_lights">Šiaurės pašvaistė</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">Tavęs laukia %d žingsnis.</item>
+        <item quantity="few">Tavęs laukia %d žingsniai.</item>
+        <item quantity="many">Tavęs laukia %d žingsnio.</item>
+        <item quantity="other">Tavęs laukia %d žingsnių.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">atlikta, %d kartą</item>
+        <item quantity="few">atlikta, %d kartus</item>
+        <item quantity="many">atlikta, %d karto</item>
+        <item quantity="other">atlikta, %d kartų</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d kartą per dieną</item>
+        <item quantity="few">%d kartus per dieną</item>
+        <item quantity="many">%d karto per dieną</item>
+        <item quantity="other">%d kartų per dieną</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Kartą</item>
+        <item quantity="few">%d kartus</item>
+        <item quantity="many">%d karto</item>
+        <item quantity="other">%d kartų</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">kas %d savaitę</item>
+        <item quantity="few">kas %d savaites</item>
+        <item quantity="many">kas %d savaitės</item>
+        <item quantity="other">kas %d savaičių</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">kas %d mėnesį</item>
+        <item quantity="few">kas %d mėnesius</item>
+        <item quantity="many">kas %d mėnesio</item>
+        <item quantity="other">kas %d mėnesių</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">kas %d dieną</item>
+        <item quantity="few">kas %d dienas</item>
+        <item quantity="many">kas %d dienos</item>
+        <item quantity="other">kas %d dienų</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d mėnuo be praleidimų</item>
+        <item quantity="few">%d mėnesiai be praleidimų</item>
+        <item quantity="many">%d mėnesio be praleidimų</item>
+        <item quantity="other">%d mėnesių be praleidimų</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d mėnuo iš eilės</item>
+        <item quantity="few">%d mėnesiai iš eilės</item>
+        <item quantity="many">%d mėnesio iš eilės</item>
+        <item quantity="other">%d mėnesių iš eilės</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d diena iš eilės</item>
+        <item quantity="few">%d dienos iš eilės</item>
+        <item quantity="many">%d dienos iš eilės</item>
+        <item quantity="other">%d dienų iš eilės</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d mėnuo</item>
+        <item quantity="few">%d mėnesiai</item>
+        <item quantity="many">%d mėnesio</item>
+        <item quantity="other">%d mėnesių</item>
+    </plurals>
+
+    <string name="tabs_new_step">Naujas žingsnis</string>
+    <string name="tabs_edit">Redaguoti</string>
+    <string name="tabs_delete">Ištrinti</string>
+    <string name="tabs_done">Atlikta</string>
+    <string name="tabs_back">Atgal</string>
+    <string name="tabs_earlier">Anksčiau</string>
+    <string name="tabs_later">Vėliau</string>
+    <string name="tabs_delete_title">Ištrinti %1$s?</string>
+    <string name="tabs_eod_unlock">Vakaro įpročiai atsirakina %1$02d:00</string>
+    <string name="tabs_check_up">Apžvalga</string>
+    <string name="tabs_one_off">Vienkartinis</string>
+
+    <string name="tabs_checkin_from">Žymėjimas nuo %1$02d:00</string>
+    <string name="tabs_checkin_daily">Dienos žymėjimas</string>
+    <string name="tabs_checkin_weekly">Savaitės žymėjimas</string>
+    <string name="tabs_checkin_quarter">3 mėnesių apžvalga</string>
+    <string name="tabs_checked_in">Pažymėta</string>
+    <string name="tabs_quarter_section">3 MĖNESIŲ APŽVALGA</string>
+    <string name="tabs_previous_week">Ankstesnė savaitė</string>
+    <string name="tabs_next_week">Kita savaitė</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d diena: %2$s!</item>
+        <item quantity="few">%1$d dienos: %2$s!</item>
+        <item quantity="many">%1$d dienos: %2$s!</item>
+        <item quantity="other">%1$d dienų: %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Puikiai. Dabar jis keliasi į tavo 3 mėnesių apžvalgas, nebereikia žymėti kasdien.</string>
+    <string name="tabs_celebrate_first">Pirmoji bus %1$s.</string>
+    <string name="tabs_glance_title">Tavo savaitė</string>
+    <string name="tabs_glance_ticks_kept">Atliktos žymės</string>
+    <string name="tabs_glance_days_checked_in">Pažymėtos dienos</string>
+    <string name="tabs_glance_top_tag">Dažniausia paslydimo priežastis:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d kartą</item>
+        <item quantity="few">%1$s, %2$d kartus</item>
+        <item quantity="many">%1$s, %2$d karto</item>
+        <item quantity="other">%1$s, %2$d kartų</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Lengviausia:</string>
+    <string name="tabs_glance_hardest">Sunkiausia:</string>
+
+    <string name="tabs_changes_ongoing">Nuolatiniai pakeitimai</string>
+    <string name="tabs_changes_ongoing_tip_title">Nuolatinis pakeitimas</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Su tuo pačiu pasirinkimu susidursi vėl, pavyzdžiui, kavos puodeliu ar kietuoju šampūnu. Jis žymimas Įpročiuose %1$d dieną, o paskui tikrinamas kas 3 mėnesius.</item>
+        <item quantity="few">Su tuo pačiu pasirinkimu susidursi vėl, pavyzdžiui, kavos puodeliu ar kietuoju šampūnu. Jis žymimas Įpročiuose %1$d dienas, o paskui tikrinamas kas 3 mėnesius.</item>
+        <item quantity="many">Su tuo pačiu pasirinkimu susidursi vėl, pavyzdžiui, kavos puodeliu ar kietuoju šampūnu. Jis žymimas Įpročiuose %1$d dienos, o paskui tikrinamas kas 3 mėnesius.</item>
+        <item quantity="other">Su tuo pačiu pasirinkimu susidursi vėl, pavyzdžiui, kavos puodeliu ar kietuoju šampūnu. Jis žymimas Įpročiuose %1$d dienų, o paskui tikrinamas kas 3 mėnesius.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Pakeitimų dar nėra</string>
+    <string name="tabs_changes_day_badge">DIENA %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">PRIGYJA</string>
+    <string name="tabs_changes_one_off_todo">Vienkartiniai, reikia atlikti</string>
+    <string name="tabs_changes_one_off_tip">Padarai tai vieną kartą ir viskas, pavyzdžiui, sutvarkai stalčių, pereini prie žaliosios elektros ar susitaisai striukę. Pažymėk, ir tai persikels į Baigti.</string>
+    <string name="tabs_changes_nothing_waiting">Niekas nelaukia</string>
+    <string name="tabs_changes_finished">BAIGTI · %1$d</string>
+
+    <string name="tabs_avoid_title">Vengimų sąrašas</string>
+    <string name="tabs_avoid_search">Ieškoti…</string>
+    <string name="tabs_avoid_no_match">Nieko nerasta</string>
+    <string name="tabs_avoid_companies">Įmonės</string>
+    <string name="tabs_avoid_food">Maistas</string>
+    <string name="tabs_avoid_products">Produktai</string>
+
+    <string name="tabs_avoid_added">Pridėta</string>
+    <string name="tabs_avoid_why">Kodėl to vengi</string>
+    <string name="tabs_avoid_own_words">Savais žodžiais</string>
+    <string name="tabs_avoid_brands">Jai priklausantys prekių ženklai · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Vienas prekių ženklas eilutėje</string>
+    <string name="tabs_avoid_more_brands">dar +%1$d</string>
+    <string name="tabs_avoid_instead">Geriau rinkis tai</string>
+    <string name="tabs_avoid_instead_hint">Po vieną eilutėje</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">paslydimas</item>
+        <item quantity="few">paslydimai</item>
+        <item quantity="many">paslydimo</item>
+        <item quantity="other">paslydimų</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">išvengta</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">mėnuo sąraše</item>
+        <item quantity="few">mėnesiai sąraše</item>
+        <item quantity="many">mėnesio sąraše</item>
+        <item quantity="other">mėnesių sąraše</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Jis bus pašalintas iš tavo vengimų sąrašo kartu su istorija.</string>
+
+    <string name="tabs_habit_delete_text">Kartu dings ir visa jo istorija.</string>
+    <string name="tabs_habit_created">Sukurta</string>
+    <string name="tabs_habit_to_do">Reikia atlikti</string>
+    <string name="tabs_habit_daily_ticks">Kasdienės žymės</string>
+    <string name="tabs_habit_day_of">Diena %1$d iš %2$d</string>
+    <string name="tabs_habit_finished">Baigta</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">diena iš eilės</item>
+        <item quantity="few">dienos iš eilės</item>
+        <item quantity="many">dienos iš eilės</item>
+        <item quantity="other">dienų iš eilės</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">kartą nutrūko</item>
+        <item quantity="few">kartus nutrūko</item>
+        <item quantity="many">karto nutrūko</item>
+        <item quantity="other">kartų nutrūko</item>
+    </plurals>
+    <string name="tabs_habit_success">sėkmė</string>
+    <string name="tabs_habit_current_streak">Dabartinė serija</string>
+    <string name="tabs_habit_longest_streak">Ilgiausia serija</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d diena</item>
+        <item quantity="few">%1$d dienos</item>
+        <item quantity="many">%1$d dienos</item>
+        <item quantity="other">%1$d dienų</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Kodėl paslydo</string>
+    <string name="tabs_habit_remove_reason">Pašalinti šią priežastį</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">būdas, kuriuo pagerinai savo gyvenimą</item>
+        <item quantity="few">būdai, kuriais pagerinai savo gyvenimą</item>
+        <item quantity="many">būdo, kuriais pagerinai savo gyvenimą</item>
+        <item quantity="other">būdų, kuriais pagerinai savo gyvenimą</item>
+    </plurals>
+    <string name="tabs_insights_habits">Įpročiai</string>
+    <string name="tabs_insights_swaps">Pakeitimai</string>
+    <string name="tabs_insights_avoids">Vengimai</string>
+    <string name="tabs_insights_on_track_section">Teisingu keliu</string>
+    <string name="tabs_insights_avg_days">%1$d d.</string>
+    <string name="tabs_insights_average_kept">vidutiniškai atlikta</string>
+    <string name="tabs_insights_days_checked_in">pažymėtos dienos</string>
+    <string name="tabs_insights_on_track">teisingu keliu</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">paslydimas</item>
+        <item quantity="few">paslydimai</item>
+        <item quantity="many">paslydimo</item>
+        <item quantity="other">paslydimų</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">naujas žingsnis</item>
+        <item quantity="few">nauji žingsniai</item>
+        <item quantity="many">naujo žingsnio</item>
+        <item quantity="other">naujų žingsnių</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">vienkartinis atliktas</item>
+        <item quantity="few">vienkartiniai atlikti</item>
+        <item quantity="many">vienkartinio atlikta</item>
+        <item quantity="other">vienkartinių atlikta</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Dažniausios paslydimų priežastys</string>
+    <string name="tabs_insights_added_quarter">Pridėta šį ketvirtį</string>
+    <string name="tabs_insights_past_summaries">Ankstesnės 3 mėnesių suvestinės</string>
+    <string name="tabs_insights_first_on">Pirmoji bus %1$s</string>
+    <string name="tabs_insights_all_time">Visas laikas</string>
+    <string name="tabs_insights_period">%1$s iki %2$s %3$d</string>
+
+    <string name="forms_back">Atgal</string>
+    <string name="forms_back_habits">Įpročiai</string>
+    <string name="forms_back_settings">Nustatymai</string>
+    <string name="forms_add">Pridėti</string>
+    <string name="forms_save">Išsaugoti</string>
+    <string name="forms_finish">Baigti</string>
+    <string name="forms_delete">Ištrinti</string>
+    <string name="forms_why">Kodėl</string>
+    <string name="forms_never_show">Daugiau nerodyti</string>
+    <string name="forms_every">Kas</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">diena</item>
+        <item quantity="few">dienos</item>
+        <item quantity="many">dienos</item>
+        <item quantity="other">dienų</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Žingsnis %1$d iš %2$d</string>
+    <string name="forms_checkin_next_weekly">Toliau savaitės žymėjimas ›</string>
+    <string name="forms_checkin_next_quarter">Toliau 3 mėnesių apžvalga ›</string>
+    <string name="forms_daily_title">Dienos žymėjimas</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d ankstesnė diena neužpildyta</item>
+        <item quantity="few">%1$d ankstesnės dienos neužpildytos</item>
+        <item quantity="many">%1$d ankstesnės dienos neužpildyta</item>
+        <item quantity="other">%1$d ankstesnių dienų neužpildyta</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Praleisti visas</string>
+    <string name="forms_daily_today">Šiandien · %1$s</string>
+    <string name="forms_daily_skip">Praleisti</string>
+    <string name="forms_daily_undo_skip">Atšaukti</string>
+    <string name="forms_daily_new_tag">Nauja priežastis</string>
+    <string name="forms_daily_new_tag_hint">Šiukšliadėžė buvo pilna</string>
+    <string name="forms_weekly_title">Savaitės žymėjimas</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">Praleista %1$d savaitė, vienas naujas žingsnis apima jas visas.</item>
+        <item quantity="few">Praleistos %1$d savaitės, vienas naujas žingsnis apima jas visas.</item>
+        <item quantity="many">Praleista %1$d savaitės, vienas naujas žingsnis apima jas visas.</item>
+        <item quantity="other">Praleista %1$d savaičių, vienas naujas žingsnis apima jas visas.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Šią savaitę be naujo žingsnio</string>
+    <string name="forms_quarter_title">3 mėnesių apžvalga</string>
+    <string name="forms_quarter_nothing">Kol kas nėra ką apžvelgti. Toliau tavo suvestinė.</string>
+    <string name="forms_quarter_habits">Įpročiai</string>
+    <string name="forms_quarter_swaps">Pakeitimai</string>
+    <string name="forms_quarter_avoid">Vengti</string>
+    <string name="forms_quarter_missed">Praleista</string>
+    <string name="forms_quarter_missed_level">Praleista: %1$s</string>
+
+    <string name="forms_new_title">Naujas žingsnis</string>
+    <string name="forms_edit_title">Redaguoti: %1$s</string>
+    <string name="forms_add_kind">Pridėti: %1$s</string>
+    <string name="forms_title_habit">Įprotis</string>
+    <string name="forms_title_swap">Pakeitimas</string>
+    <string name="forms_title_avoid">Vengti</string>
+    <string name="forms_save_changes">Išsaugoti pakeitimus</string>
+    <string name="forms_what_kind">Kokia rūšis?</string>
+    <string name="forms_name">Pavadinimas</string>
+    <string name="forms_your_new_step">Tavo naujas žingsnis</string>
+    <string name="forms_hint_habit">Perskaityti 10 puslapių</string>
+    <string name="forms_hint_swap">Lufa, o ne kempinė</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Koks įprotis?</string>
+    <string name="forms_timing_tip_title">Bet kada ar vakare</string>
+    <string name="forms_timing_tip">Bet kada: tai, ką darai vieną kartą, pavyzdžiui, bėgimas. Pažymėk, kai tik padarysi.\n\nVakare: taisyklė, kurios laikaisi visą dieną, pavyzdžiui, jokių užkandžių. Ją pažymėti gali tik vakare.</string>
+    <string name="forms_anytime">Bet kada</string>
+    <string name="forms_end_of_day">Vakare</string>
+    <string name="forms_what_is_it">Kas tai?</string>
+    <string name="forms_how_often">Kaip dažnai?</string>
+    <string name="forms_often_specific">Tam tikromis dienomis</string>
+    <string name="forms_often_whenever">Bet kada</string>
+    <string name="forms_often_once">Tik kartą</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">kartą kas</item>
+        <item quantity="few">kartus kas</item>
+        <item quantity="many">karto kas</item>
+        <item quantity="other">kartų kas</item>
+    </plurals>
+    <string name="forms_unit_day">dieną</string>
+    <string name="forms_unit_week">savaitę</string>
+    <string name="forms_unit_month">mėnesį</string>
+    <string name="forms_unit_x_days">X dienų</string>
+    <string name="forms_ideas">Idėjos</string>
+    <string name="forms_ideas_others">Kitos</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Visos %1$d idėja ›</item>
+        <item quantity="few">Visos %1$d idėjos ›</item>
+        <item quantity="many">Visos %1$d idėjos ›</item>
+        <item quantity="other">Visos %1$d idėjų ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Visos žingsnių idėjos</string>
+    <string name="forms_search">Ieškoti…</string>
+    <string name="forms_all">Visi</string>
+
+    <string name="forms_settings_title">Nustatymai</string>
+    <string name="forms_set_colours">Spalvos</string>
+    <string name="forms_set_style">3 mėnesių suvestinės stilius</string>
+    <string name="forms_set_checkins">Žymėjimai</string>
+    <string name="forms_set_checkin_hour">Dienos žymėjimas atsidaro</string>
+    <string name="forms_set_checkin_hour_tip">Nuo šio laiko gali žymėti vakaro įpročius ir atlikti dienos žymėjimą.</string>
+    <string name="forms_set_week_start">Savaitė prasideda</string>
+    <string name="forms_set_week_start_tip">Kuria diena prasideda tavo Įpročių tinklelis, savaitės ir grafikai.</string>
+    <string name="forms_monday">Pirmadienį</string>
+    <string name="forms_sunday">Sekmadienį</string>
+    <string name="forms_set_new_step_every">Naujas žingsnis kas</string>
+    <string name="forms_set_new_step_every_tip">Kiek savaičių tarp savaitės žymėjimų.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">savaitę</item>
+        <item quantity="few">savaites</item>
+        <item quantity="many">savaitės</item>
+        <item quantity="other">savaičių</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Savaitės žymėjimo diena</string>
+    <string name="forms_set_weekly_day_tip">Šią dieną po dienos žymėjimo išsirenki kitos savaitės naują žingsnį.</string>
+    <string name="forms_set_checkup">3 mėnesių apžvalga</string>
+    <string name="forms_set_checkup_tip">Visi apžvalgą daro tomis pačiomis dienomis: sausio 1, balandžio 1, liepos 1 ir spalio 1, kad galėtumėte kartu pasidalyti suvestinėmis. Gali pasirinkti ir savo datą.</string>
+    <string name="forms_set_same">Kaip visiems</string>
+    <string name="forms_set_own">Mano data</string>
+    <string name="forms_set_starting">Pradedant nuo</string>
+    <string name="forms_set_starting_tip">Tavo pirmosios apžvalgos mėnuo.</string>
+    <string name="forms_earlier">Anksčiau</string>
+    <string name="forms_later">Vėliau</string>
+    <string name="forms_set_every_tip">Mėnesiai tarp apžvalgų.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">mėnesį</item>
+        <item quantity="few">mėnesius</item>
+        <item quantity="many">mėnesio</item>
+        <item quantity="other">mėnesių</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Mėnesio diena</string>
+    <string name="forms_set_day_of_month_tip">Kurią to mėnesio dieną.</string>
+    <string name="forms_set_everyone">Visiems: sausio 1 · balandžio 1 · liepos 1 · spalio 1</string>
+    <string name="forms_set_days_build">Dienos įpročiui susiformuoti</string>
+    <string name="forms_set_days_build_tip">Tyrimai rodo nuo 18 iki 254 dienų, dažniausiai minima 66 (Lally et al. 2010, Singh et al. 2024). Po tiek dienų naujas žingsnis persikelia į tavo apžvalgas.</string>
+    <string name="forms_set_nudge">Kasdienis priminimas</string>
+    <string name="forms_set_nudge_tip">Priminimas šiuo laiku, tik jei kas nors dar nepažymėta.</string>
+    <string name="forms_set_more">Daugiau</string>
+    <string name="forms_set_reasons">Paslydimų priežastys</string>
+    <string name="forms_set_tutorial">Peržiūrėti įvadą iš naujo</string>
+    <string name="forms_set_export">Eksportuoti mano duomenis</string>
+    <string name="forms_set_import">Importuoti duomenis</string>
+
+    <string name="forms_reasons_title">Paslydimų priežastys</string>
+    <string name="forms_reasons_hint">Pridėk savo priežastį</string>
+    <string name="forms_reasons_used">naudota %1$d×</string>
+    <string name="forms_reasons_delete_title">Ištrinti %1$s?</string>
+    <string name="forms_reasons_delete_text">Paslydimai lieka tavo istorijoje, tik be šios priežasties.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d įprotis</item>
+        <item quantity="few">%1$d įpročiai</item>
+        <item quantity="many">%1$d įpročio</item>
+        <item quantity="other">%1$d įpročių</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d pakeitimas</item>
+        <item quantity="few">%1$d pakeitimai</item>
+        <item quantity="many">%1$d pakeitimo</item>
+        <item quantity="other">%1$d pakeitimų</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d vengimas</item>
+        <item quantity="few">%1$d vengimai</item>
+        <item quantity="many">%1$d vengimo</item>
+        <item quantity="other">%1$d vengimų</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, žymės nuo %2$s</string>
+    <string name="forms_export_title">Eksportuoti mano duomenis</string>
+    <string name="forms_export_what">Kas bus faile</string>
+    <string name="forms_export_ticks">Visos žymės, paslydimai ir priežastys</string>
+    <string name="forms_export_ticks_since">Visos žymės, paslydimai ir priežastys nuo %1$s</string>
+    <string name="forms_export_summaries">Tavo 3 mėnesių suvestinės</string>
+    <string name="forms_export_settings">Tavo nustatymai, spalvos ir vardas</string>
+    <string name="forms_export_file">Failas</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Išsaugoti failą</string>
+    <string name="forms_export_send">Siųsti…</string>
+    <string name="forms_export_send_title">Siųsk savo Alice duomenis</string>
+    <string name="forms_export_saved">Išsaugota: %1$s</string>
+    <string name="forms_export_save_failed">Nepavyko išsaugoti failo</string>
+
+    <string name="forms_import_title">Importuoti duomenis</string>
+    <string name="forms_import_choose">Pasirink Alice atsarginę kopiją</string>
+    <string name="forms_import_choose_sub">.json, iš eksporto kitame telefone</string>
+    <string name="forms_import_cant_open">Nepavyko atidaryti failo.</string>
+    <string name="forms_import_not_backup">Šis failas nėra Alice atsarginė kopija.</string>
+    <string name="forms_import_replace_mode">Pakeisti esamus</string>
+    <string name="forms_import_add_mode">Pridėti prie esamų</string>
+    <string name="forms_import_button">Importuoti</string>
+    <string name="forms_import_replace_title">Pakeisti tavo duomenis?</string>
+    <string name="forms_import_add_title">Pridėti šiuos duomenis?</string>
+    <string name="forms_import_replace_text">Viskas šiame telefone bus pakeista failo turiniu. Pirma eksportuok, jei nori tai išsaugoti.</string>
+    <string name="forms_import_add_text">Failo įpročiai ir istorija bus pridėti prie tavųjų.</string>
+    <string name="forms_import_done">Duomenys importuoti</string>
+
+    <string name="look_share">Dalytis</string>
+    <string name="look_save_image">Išsaugoti paveikslėlį</string>
+    <string name="look_next_week">Toliau tavo savaitė ›</string>
+    <string name="look_keep_going">Tęsti</string>
+    <string name="look_storage_needed">Kad išsaugotų paveikslėlį, Alice reikia prieigos prie saugyklos</string>
+    <string name="look_share_caption">Mano ketvirtis su Alice. Pradėk savo: %1$s</string>
+    <string name="look_share_clip">Alice suvestinė</string>
+    <string name="look_share_chooser">Pasidalyk savo ketvirčiu</string>
+    <string name="look_saved">Išsaugota aplanke Pictures/Alice</string>
+    <string name="look_save_failed">Nepavyko išsaugoti paveikslėlio</string>
+
+    <string name="look_style_poster">Plakatas</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Trofėjų spinta</string>
+    <string name="look_style_receipt">Kvitas</string>
+    <string name="look_style_report">Pažymių knygelė</string>
+    <string name="look_style_boarding">Įlaipinimo kortelė</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalendorius</string>
+    <string name="look_style_trading">Kolekcinė kortelė</string>
+
+    <string name="look_quote_1">Maži žingsniai kasdien</string>
+    <string name="look_quote_2">Ačiū, kad buvai</string>
+    <string name="look_quote_3">Pažanga, ne tobulumas</string>
+    <string name="look_quote_4">Tu nesustojai. Tai svarbu</string>
+    <string name="look_quote_5">Maži pokyčiai, didelis skirtumas</string>
+    <string name="look_quote_6">Kasdien rinkaisi geriau</string>
+    <string name="look_quote_7">Lėtai irgi yra pirmyn</string>
+    <string name="look_quote_8">Kuri gyvenimą, kuris tau patinka</string>
+    <string name="look_quote_9">Žingsnis po žingsnio susidaro daug</string>
+    <string name="look_quote_10">Ir toliau būk šalia savęs</string>
+    <string name="look_quote_11">Būsimas tu sako ačiū</string>
+    <string name="look_quote_12">Po truputį, o kiek daug</string>
+    <string name="look_quote_13">Nuoseklumas yra tyli magija</string>
+    <string name="look_quote_14">Pažiūrėk, kiek daug nuėjai</string>
+    <string name="look_quote_15">Didžiuokis mažomis pergalėmis</string>
+    <string name="look_quote_16">Geros dienos kuriamos, o ne randamos</string>
+
+    <string name="look_stamp_1">PUIKU</string>
+    <string name="look_stamp_2">NEPRILYGSTAMA</string>
+    <string name="look_stamp_3">ŠAUNUOLIS</string>
+    <string name="look_stamp_4">NUOSTABU</string>
+    <string name="look_stamp_5">SUPER</string>
+    <string name="look_stamp_6">AUKŠČIAUSIAS BALAS</string>
+    <string name="look_stamp_7">AUKSO ŽVAIGŽDĖ</string>
+    <string name="look_stamp_8">GERAS DARBAS</string>
+
+    <string name="look_period">%1$s iki %2$s</string>
+    <string name="look_scan">NUSKENUOK IR\nPRADĖK SAVO\nKELIONĘ</string>
+    <string name="look_you">Tu</string>
+    <string name="look_on_track">teisingu keliu</string>
+    <string name="look_new_steps">nauji žingsniai</string>
+    <string name="look_days_in">dienos pažymėtos</string>
+    <string name="look_new">nauji</string>
+    <string name="look_week_by_week">Savaitė po savaitės</string>
+    <string name="look_coming_soon">Jau netrukus</string>
+    <string name="look_new_this_quarter">Nauja šį ketvirtį</string>
+    <string name="look_kept_up_longest">Ilgiausiai išlaikyti</string>
+    <string name="look_habits">Įpročiai</string>
+    <string name="look_swaps">Pakeitimai</string>
+    <string name="look_avoids">Vengimai</string>
+    <string name="look_ways_improved">Patobulinimai</string>
+    <string name="look_improved_in">Pagerinai savo gyvenimą %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d įprotis</item>
+        <item quantity="few">%1$d įpročiai</item>
+        <item quantity="many">%1$d įpročio</item>
+        <item quantity="other">%1$d įpročių</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d pakeitimas</item>
+        <item quantity="few">%1$d pakeitimai</item>
+        <item quantity="many">%1$d pakeitimo</item>
+        <item quantity="other">%1$d pakeitimų</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d vengimas</item>
+        <item quantity="few">%1$d vengimai</item>
+        <item quantity="many">%1$d vengimo</item>
+        <item quantity="other">%1$d vengimų</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d paslydimas</item>
+        <item quantity="few">%1$d paslydimai</item>
+        <item quantity="many">%1$d paslydimo</item>
+        <item quantity="other">%1$d paslydimų</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d būdu</item>
+        <item quantity="few">%1$d būdais</item>
+        <item quantity="many">%1$d būdo</item>
+        <item quantity="other">%1$d būdų</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">įprotis</item>
+        <item quantity="few">įpročiai</item>
+        <item quantity="many">įpročio</item>
+        <item quantity="other">įpročių</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">pakeitimas</item>
+        <item quantity="few">pakeitimai</item>
+        <item quantity="many">pakeitimo</item>
+        <item quantity="other">pakeitimų</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">vengimas</item>
+        <item quantity="few">vengimai</item>
+        <item quantity="many">vengimo</item>
+        <item quantity="other">vengimų</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">paslydimas</item>
+        <item quantity="few">paslydimai</item>
+        <item quantity="many">paslydimo</item>
+        <item quantity="other">paslydimų</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">būdas</item>
+        <item quantity="few">būdai</item>
+        <item quantity="many">būdo</item>
+        <item quantity="other">būdų</item>
+    </plurals>
+
+    <string name="look_poster_improved">Tu pagerinai savo gyvenimą %1$s</string>
+    <string name="look_poster_on_track">TEISINGU KELIU</string>
+    <string name="look_poster_days">dienos</string>
+    <string name="look_poster_achievements">Pasiekimai</string>
+    <string name="look_poster_first_ones">Pirmieji jau pakeliui</string>
+    <string name="look_poster_added">Ką pridėjai šį ketvirtį</string>
+
+    <string name="look_wrapped_stars">Tavo žvaigždės</string>
+
+    <string name="look_trophy_ways">būdai, kuriais pagerinai\nsavo gyvenimą</string>
+    <string name="look_trophy_next_quarter">Kitas ketvirtis</string>
+    <string name="look_trophy_first_medal">tavo pirmasis medalis</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Nauja lentynoje:</string>
+
+    <string name="look_receipt_title">3 mėnesių apžvalga · %1$s</string>
+    <string name="look_receipt_customer">Klientas: %1$s</string>
+    <string name="look_receipt_habits">Sukurti įpročiai</string>
+    <string name="look_receipt_swaps">Pakeisti dalykai</string>
+    <string name="look_receipt_avoids">Išvengti dalykai</string>
+    <string name="look_receipt_ways">Būdai, kuriais pagerinai savo gyvenimą</string>
+    <string name="look_receipt_on_track">Teisingu keliu šį ketvirtį</string>
+    <string name="look_receipt_slips">Paslydimai</string>
+    <string name="look_receipt_new_steps">Nauji žingsniai</string>
+    <string name="look_receipt_new">Nauja šį ketvirtį: %1$s</string>
+
+    <string name="look_report_title">Mažų žingsnių pažymių knygelė</string>
+    <string name="look_report_pupil">%1$s · Mokinys: %2$s</string>
+    <string name="look_report_subject">DALYKAS</string>
+    <string name="look_report_built">SUKURTA</string>
+    <string name="look_report_grade">PAŽYMYS</string>
+    <string name="look_report_attendance">Lankomumas %1$s</string>
+    <string name="look_report_on_track">Teisingu keliu %1$s</string>
+    <string name="look_report_slips">Paslydimai %1$s</string>
+    <string name="look_report_achievements">PASIEKIMAI</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">NAUJI DALYKAI ŠĮ TRIMESTRĄ (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Mokytojo komentaras:</string>
+    <string name="look_report_calm">Ramus, tolygus trimestras.</string>
+    <string name="look_report_ups_downs">Trimestras su pakilimais ir nuosmukiais, o tu neatsitraukei.</string>
+    <string name="look_report_star">%1$s buvo nepriekaištingas. Taip ir toliau!</string>
+    <string name="look_report_keep_up">Taip ir toliau!</string>
+    <string name="look_report_week">SAVAITĖ PO SAVAITĖS</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Skrydis Q%1$d</string>
+    <string name="look_boarding_from">IŠ</string>
+    <string name="look_boarding_old">SENI</string>
+    <string name="look_boarding_habits">įpročiai</string>
+    <string name="look_boarding_to">Į</string>
+    <string name="look_boarding_new">NAUJAS</string>
+    <string name="look_boarding_better_you">geresnė versija</string>
+    <string name="look_boarding_passenger">Keleivis</string>
+    <string name="look_boarding_dates">Datos</string>
+    <string name="look_boarding_miles">Nuskristos mylios</string>
+    <string name="look_boarding_on_time">Laiku</string>
+    <string name="look_boarding_turbulence">Turbulencija</string>
+    <string name="look_boarding_days">Dienos lėktuve</string>
+    <string name="look_boarding_flyer">DAŽNAS KELEIVIS, TAVO ILGIAUSI PALYDOVAI</string>
+    <string name="look_boarding_log">SKRYDŽIŲ ŽURNALAS, SAVAITĖ PO SAVAITĖS</string>
+    <string name="look_boarding_stops">NAUJOS STOTELĖS, +%1$d</string>
+    <string name="look_boarding_note">KAPITONO PASTABA</string>
+
+    <string name="look_polaroid_life">TAVO GYVENIMAS</string>
+    <string name="look_polaroid_quarter">ŠĮ KETVIRTĮ</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d dienos pažymėtos</string>
+    <string name="look_polaroid_longest">ILGIAUSIAI IŠLAIKYTI</string>
+    <string name="look_polaroid_new">NAUJI, +%1$d</string>
+
+    <string name="look_calendar_added">Pridėta</string>
+
+    <string name="look_trading_common">Įprasta</string>
+    <string name="look_trading_uncommon">Neįprasta</string>
+    <string name="look_trading_rare">Reta</string>
+    <string name="look_trading_legendary">Legendinė</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">BŪDAS</item>
+        <item quantity="few">BŪDAI</item>
+        <item quantity="many">BŪDO</item>
+        <item quantity="other">BŪDŲ</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d-asis</string>
+    <string name="look_ordinal_nd">%1$d-asis</string>
+    <string name="look_ordinal_rd">%1$d-asis</string>
+    <string name="look_ordinal_th">%1$d-asis</string>
+    <string name="look_trading_number">Nr. %1$03d · tavo %2$s ketvirtis</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d d.</string>
+    <string name="look_trading_power">Galia, savaitė po savaitės</string>
+    <string name="look_trading_edition">%1$s · Q%2$d leidimas</string>
+
+    <string name="look_sample_water_first">Pirmiausia vanduo</string>
+    <string name="look_sample_own_bag">Savas krepšys</string>
+    <string name="look_sample_read_pages">Perskaityti 10 puslapių</string>
+    <string name="look_sample_reading">Skaityti kasdien</string>
+    <string name="look_sample_late_snacks">Jokių vėlyvų užkandžių</string>
+    <string name="look_sample_stretching">Tempimas</string>
+    <string name="look_sample_cooler_home">Vėsesni namai</string>
+    <string name="look_sample_loofah">Lufa, o ne kempinė</string>
+    <string name="look_sample_palm_oil">Be palmių aliejaus</string>
+    <string name="look_sample_stretch">Tempimas 10 min</string>
+
+    <string name="look_colours_title">Spalvos</string>
+    <string name="look_colours_preview">Peržiūra</string>
+    <string name="look_colours_your_summary">Tavo 3 mėnesių suvestinė</string>
+    <string name="look_colours_light">Šviesi</string>
+    <string name="look_colours_dark">Tamsi</string>
+    <string name="look_styles_title">3 mėnesių suvestinės stilius</string>
+    <string name="look_styles_all_pictures">Peržiūrėti visus 30 polaroidų</string>
+    <string name="look_styles_refresh">Atnaujinti</string>
+    <string name="look_pictures_title">Polaroidų nuotraukos</string>
+    <string name="look_pictures_back">Suvestinės stiliai</string>
+
+    <string name="look_welcome_name">Tavo vardas</string>
+    <string name="look_welcome_start">Pradėti</string>
+    <string name="look_welcome_import">Importuoti mano duomenis</string>
+
+    <string name="look_tut_skip">Praleisti</string>
+    <string name="look_tut_page">%1$d IŠ %2$d</string>
+    <string name="look_tut_back">Atgal</string>
+    <string name="look_tut_start">Pradėti</string>
+    <string name="look_tut_next">Toliau</string>
+    <string name="look_tut1_title">Tapk geresne savo versija, žingsnis po žingsnio</string>
+    <string name="look_tut1_body">Kurk naujus įpročius, rinkis maloniau ir stebėk, kaip kaupiasi viskas, ką pasieki.</string>
+    <string name="look_tut1_habits">Kurk gerus įpročius diena po dienos ir tapk tuo, kuo nori būti.</string>
+    <string name="look_tut1_swaps">Keisk produktus į draugiškesnius, geresnius planetai, žmonėms ar tavo sveikatai.</string>
+    <string name="look_tut1_avoids">Sek įmones, maistą ir produktus, kurių geriau nepalaikytum.</string>
+    <string name="look_tut2_title">Pažymėk</string>
+    <string name="look_tut2_body">Bakstelėk langelį, kai atlikai įprotį. Vakaro įpročiai atsirakina tavo žymėjimo laiku.</string>
+    <string name="look_tut3_title">%1$s, vėliau kas %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d diena</item>
+        <item quantity="few">%1$d dienos</item>
+        <item quantity="many">%1$d dienos</item>
+        <item quantity="other">%1$d dienų</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d mėnesį</item>
+        <item quantity="few">%1$d mėnesius</item>
+        <item quantity="many">%1$d mėnesio</item>
+        <item quantity="other">%1$d mėnesių</item>
+    </plurals>
+    <string name="look_tut3_body">Tyrimai parodė, kad įpročiui susiformuoti reikia nuo 18 iki 254 dienų. Dažniausiai minimas skaičius yra 66 dienos, todėl nuo jo Alice ir pradeda.</string>
+    <string name="look_tut3_days_label">Dienos įpročiui susiformuoti</string>
+    <string name="look_tut3_checkup">Apžvalga kas</string>
+    <string name="look_tut3_small">Abu gali pakeisti Nustatymuose.</string>
+    <string name="look_tut4_title">Kartą per savaitę, vienas naujas žingsnis</string>
+    <string name="look_tut4_body">Pridėdamas po vieną naują žingsnį, gali augti pamažu ir neprisiimti per daug iškart.</string>
+    <string name="look_tut4_day">Žymėjimo diena</string>
+    <string name="look_tut4_small">Tai irgi gali pakeisti Nustatymuose.</string>
+    <string name="look_tut5_title">Kas ketvirtį tavo suvestinė</string>
+    <string name="look_tut5_body">Parodyk draugams ir artimiesiems, kiek daug nuėjai. Bakstelėk stilių, kuris tau patinka:</string>
+    <string name="look_tut_change_mind">Visada gali persigalvoti.</string>
+    <string name="look_tut6_title">Pritaikyk sau</string>
+    <string name="look_tut6_body">Pasirink spalvas, kurios atrodo maloniausios. Visa programėlė pasikeičia iškart.</string>
+    <string name="look_tut7_title">Keisk bet ką, bet kada</string>
+    <string name="look_tut7_body">Žymėjimo laikai, dienos įpročiui susiformuoti, suvestinės stilius, spalvos ir tavo duomenys yra Nustatymuose.</string>
+    <string name="look_tut7_gear">Bakstelėk krumpliaratį Įpročių viršuje, kad atidarytum Nustatymus.</string>
+    <string name="look_tut7_open">Atidaryti Nustatymus</string>
+
+    <string name="lang_title">Kalba</string>
+    <string name="pron_title">Kreipinys</string>
+    <string name="pron_she">moteris</string>
+    <string name="pron_he">vyras</string>
+    <string name="pron_they">neutraliai</string>
+    <string name="lang_spotted">Pastebėjai klaidą savo kalba?</string>
+    <string name="lang_search">Ieškok savo kalbos</string>
+    <string name="lang_phone">Telefono kalba</string>
+    <string name="lang_follow">Kaip telefone</string>
+    <string name="lang_note_title">Pagalba su vertimais</string>
+    <string name="lang_note_1">Labas, aš Lucy ir sukūriau Alice.</string>
+    <string name="lang_note_2">Kalbu angliškai, slovakiškai, čekiškai ir rusiškai, todėl tuos vertimus patikrinau pati. Kitų kalbų dar nepatikrino gimtakalbis.</string>
+    <string name="lang_note_3">Jei pastebėsi klaidą savo kalba, prašau, pranešk man, kad galėčiau ją pataisyti. O jei jau kurį laiką naudoji Alice savo kalba ir viskas skamba teisingai, pranešk ir tai, kad galėčiau pažymėti ją kaip patvirtintą.</string>
+    <string name="lang_note_4">Ačiū!</string>
+    <string name="lang_not_approved">DAR NEPATVIRTINTA</string>
+    <string name="lang_report">Pranešti apie klaidą</string>
+    <string name="lang_all_correct">Mano kalba visiškai teisinga</string>
+    <string name="lang_mail_mistake_body">Kas skamba neteisingai ir kuriame ekrane:\n\n</string>
+    <string name="lang_mail_correct_body">Jau kurį laiką naudoju Alice savo kalba ir viskas skamba teisingai.\n\n</string>
+    <string name="lang_no_mail">Nerasta el. pašto programėlės</string>
+
+    <!-- pronoun variants for android below 14, same as values-lt-feminine and -masculine -->
+    <string name="core_reason_too_tired__feminine" translatable="false">Per daug pavargusi</string>
+    <string name="core_reason_too_tired__masculine" translatable="false">Per daug pavargęs</string>
+    <string name="core_reason_away__feminine" translatable="false">Išvykusi</string>
+    <string name="core_reason_away__masculine" translatable="false">Išvykęs</string>
+    <string name="look_boarding_better_you__feminine" translatable="false">geresnė tu</string>
+    <string name="look_boarding_better_you__masculine" translatable="false">geresnis tu</string>
+    <!-- end pronoun variants -->
+</resources>

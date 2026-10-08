@@ -1,0 +1,772 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Juda charchadim</string>
+    <string name="core_reason_craving">Ishtiyoq</string>
+    <string name="core_reason_no_time">Vaqt yoʻq</string>
+    <string name="core_reason_forgot">Esimdan chiqdi</string>
+    <string name="core_reason_no_alternative">Muqobil yoʻq</string>
+    <string name="core_reason_social">Davrada</string>
+    <string name="core_reason_impulse">Bir lahzalik xohish</string>
+    <string name="core_reason_too_expensive">Juda qimmat</string>
+    <string name="core_reason_away">Safarda</string>
+
+    <string name="core_nudge_channel">Kunlik eslatma</string>
+    <string name="core_nudge_title">Bugun hali belgilanmaganlar bor</string>
+    <string name="core_save_failed">Saqlab boʻlmadi, qaytadan urinib koʻr</string>
+
+    <string name="core_kind_habit">Odat</string>
+    <string name="core_kind_swap">Almashtirish</string>
+    <string name="core_kind_avoid">Voz kechish</string>
+    <string name="core_about">%1$s haqida</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Kamroq</string>
+    <string name="core_more">Koʻproq</string>
+    <string name="core_cancel">Bekor qilish</string>
+    <string name="core_settings">Sozlamalar</string>
+    <string name="core_span_week">Hafta</string>
+    <string name="core_span_month">Oy</string>
+    <string name="core_span_year">Yil</string>
+    <string name="core_span_all">Butun davr</string>
+    <string name="core_tab_habits">Odatlar</string>
+    <string name="core_tab_changes">Oʻzgarishlar</string>
+    <string name="core_tab_avoid">Voz kechish</string>
+    <string name="core_tab_insights">Tahlil</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">bajarildi</string>
+    <string name="core_cell_missed">oʻtkazib yuborildi</string>
+    <string name="core_cell_partial">qisman bajarildi, hozircha %1$d</string>
+    <string name="core_cell_unfilled">hali toʻldirilmagan</string>
+    <string name="core_cell_open">bajarish kerak</string>
+    <string name="core_cell_locked">tekshiruv vaqtigacha qulflangan</string>
+    <string name="core_cell_future">hali emas</string>
+    <string name="core_cell_empty">hech narsa kerak emas</string>
+    <string name="core_cell_band">bu davr uchun bajarildi</string>
+    <string name="core_cell_off">bu qadam uchun kun emas</string>
+    <string name="core_cell_none">bu qadam boshlanishidan oldin</string>
+
+    <string name="core_rhythm_one_off">Bir martalik</string>
+    <string name="core_rhythm_end_of_day">Har kuni, kun oxirida belgilanadi</string>
+    <string name="core_rhythm_every_day">Har kuni</string>
+    <string name="core_rhythm_every_days">Har %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">haftada</string>
+    <string name="core_rhythm_a_month">oyda</string>
+    <string name="core_rhythm_times_any_day">%2$s %1$s, istalgan kuni</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s va %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d oy</string>
+    <string name="core_achievement_short_days">%1$d k</string>
+    <string name="core_glance_step">%1$s, %3$d tadan %2$d</string>
+
+    <string name="core_slip_never">Hech qachon</string>
+    <string name="core_slip_once">Bir marta</string>
+    <string name="core_slip_a_few">Bir necha</string>
+    <string name="core_slip_half">Yarmi</string>
+    <string name="core_slip_most">Koʻpi</string>
+    <string name="core_slip_always">Doim</string>
+
+    <string name="core_ideas_habit_anytime">Odatlar, istalgan vaqt</string>
+    <string name="core_ideas_habit_end">Odatlar, kun oxiri</string>
+    <string name="core_ideas_swap">Almashtirishlar</string>
+    <string name="core_ideas_avoid_product">Voz kechish, mahsulotlar</string>
+    <string name="core_ideas_avoid_company">Voz kechish, kompaniyalar</string>
+    <string name="core_ideas_avoid_food">Voz kechish, oziq-ovqat</string>
+
+    <string name="core_tag_ethical">Axloqiy</string>
+    <string name="core_tag_health">Salomatlik</string>
+    <string name="core_tag_clutter">Tartibsizlik</string>
+    <string name="core_tag_ecological">Ekologik</string>
+    <string name="core_tag_animal_welfare">Hayvonlar farovonligi</string>
+    <string name="core_tag_workers_rights">Ishchilar huquqlari</string>
+    <string name="core_tag_plastic">Plastik</string>
+    <string name="core_tag_palm_oil">Palma yogʻi</string>
+    <string name="core_tag_deforestation">Oʻrmonlarni kesish</string>
+    <string name="core_category_company">Kompaniya</string>
+    <string name="core_category_food">Oziq-ovqat</string>
+    <string name="core_category_product">Mahsulot</string>
+    <string name="core_verdict_avoid">VOZ KECH</string>
+    <string name="core_verdict_edge">CHEGARADA</string>
+    <string name="core_verdict_fine">YAXSHI</string>
+
+    <string name="core_theme_off_white_honey">Och oq &amp; asal</string>
+    <string name="core_theme_vanilla_caramel">Vanil &amp; karamel</string>
+    <string name="core_theme_sunflower">Kungaboqar</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao &amp; limon</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; sariyogʻ</string>
+    <string name="core_theme_midnight_honey">Yarim tun &amp; asal</string>
+    <string name="core_theme_forest_night">Oʻrmon kechasi</string>
+    <string name="core_theme_plum_dusk">Olxoʻri shomi</string>
+    <string name="core_theme_charcoal_coral">Koʻmir &amp; marjon</string>
+
+    <string name="core_pic_sunny_meadow">Quyoshli yaylov</string>
+    <string name="core_pic_sunset_hills">Shom chogʻidagi tepaliklar</string>
+    <string name="core_pic_starry_night">Yulduzli tun</string>
+    <string name="core_pic_beach_day">Sohilda bir kun</string>
+    <string name="core_pic_mountain_lake">Togʻ koʻli</string>
+    <string name="core_pic_snowy_village">Qorli qishloq</string>
+    <string name="core_pic_rainy_garden">Yomgʻirli bogʻ</string>
+    <string name="core_pic_autumn_forest">Kuzgi oʻrmon</string>
+    <string name="core_pic_cherry_blossom">Gilos gullari</string>
+    <string name="core_pic_desert_cactus">Choʻl kaktusi</string>
+    <string name="core_pic_lighthouse">Mayoq</string>
+    <string name="core_pic_rainbow_field">Kamalakli dala</string>
+    <string name="core_pic_hot_air_balloon">Havo shari</string>
+    <string name="core_pic_sailboat">Yelkanli qayiq</string>
+    <string name="core_pic_cabin_in_the_woods">Oʻrmondagi kulba</string>
+    <string name="core_pic_tulip_field">Lola dalasi</string>
+    <string name="core_pic_campfire_night">Gulxan kechasi</string>
+    <string name="core_pic_misty_mountains">Tumanli togʻlar</string>
+    <string name="core_pic_sunrise_sea">Tong chogʻidagi dengiz</string>
+    <string name="core_pic_snowy_pines">Qorli qaragʻaylar</string>
+    <string name="core_pic_lavender_field">Lavanda dalasi</string>
+    <string name="core_pic_waterfall">Sharshara</string>
+    <string name="core_pic_city_at_dusk">Shomdagi shahar</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Koʻl ustidagi oy</string>
+    <string name="core_pic_palm_island">Palmali orol</string>
+    <string name="core_pic_windmill">Shamol tegirmoni</string>
+    <string name="core_pic_bike_path">Velosiped yoʻlagi</string>
+    <string name="core_pic_greenhouse">Issiqxona</string>
+    <string name="core_pic_northern_lights">Qutb yogʻdusi</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d ta qadam seni kutmoqda.</item>
+        <item quantity="other">%d ta qadam seni kutmoqda.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">bajarildi, %d marta</item>
+        <item quantity="other">bajarildi, %d marta</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">kuniga %d marta</item>
+        <item quantity="other">kuniga %d marta</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Bir marta</item>
+        <item quantity="other">%d marta</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">har %d haftada</item>
+        <item quantity="other">har %d haftada</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">har %d oyda</item>
+        <item quantity="other">har %d oyda</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">har %d kunda</item>
+        <item quantity="other">har %d kunda</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d oy, bir marta ham qoldirilmadi</item>
+        <item quantity="other">%d oy, bir marta ham qoldirilmadi</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d oy mustahkam</item>
+        <item quantity="other">%d oy mustahkam</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">ketma-ket %d kun</item>
+        <item quantity="other">ketma-ket %d kun</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d oy</item>
+        <item quantity="other">%d oy</item>
+    </plurals>
+
+    <string name="tabs_new_step">Yangi qadam</string>
+    <string name="tabs_edit">Tahrirlash</string>
+    <string name="tabs_delete">Oʻchirish</string>
+    <string name="tabs_done">Tayyor</string>
+    <string name="tabs_back">Orqaga</string>
+    <string name="tabs_earlier">Oldinroq</string>
+    <string name="tabs_later">Keyinroq</string>
+    <string name="tabs_delete_title">%1$s oʻchirilsinmi?</string>
+    <string name="tabs_eod_unlock">Kun oxiri odatlari %1$02d:00 da ochiladi</string>
+    <string name="tabs_check_up">Koʻrik</string>
+    <string name="tabs_one_off">Bir martalik</string>
+
+    <string name="tabs_checkin_from">Tekshiruv %1$02d:00 dan</string>
+    <string name="tabs_checkin_daily">Kunlik tekshiruv</string>
+    <string name="tabs_checkin_weekly">Haftalik tekshiruv</string>
+    <string name="tabs_checkin_quarter">3 oylik koʻrik</string>
+    <string name="tabs_checked_in">Tekshiruv bajarildi</string>
+    <string name="tabs_quarter_section">3 OYLIK KOʻRIK</string>
+    <string name="tabs_previous_week">Oldingi hafta</string>
+    <string name="tabs_next_week">Keyingi hafta</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d kun %2$s!</item>
+        <item quantity="other">%1$d kun %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Barakalla. Endi u 3 oylik koʻriklaringga oʻtadi, har kuni belgilash shart emas.</string>
+    <string name="tabs_celebrate_first">Birinchisi %1$s.</string>
+    <string name="tabs_glance_title">Sening haftang</string>
+    <string name="tabs_glance_ticks_kept">Bajarilgan belgilar</string>
+    <string name="tabs_glance_days_checked_in">Tekshiruv qilingan kunlar</string>
+    <string name="tabs_glance_top_tag">Eng koʻp chalgʻish sababi:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d marta</item>
+        <item quantity="other">%1$s, %2$d marta</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Eng oson:</string>
+    <string name="tabs_glance_hardest">Eng qiyin:</string>
+
+    <string name="tabs_changes_ongoing">Davomiy almashtirishlar</string>
+    <string name="tabs_changes_ongoing_tip_title">Davomiy almashtirish</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Bu tanlov yana oldingga chiqadi, masalan kofe stakani yoki qattiq shampun. U Odatlarda %1$d kun belgilanadi, keyin har 3 oyda tekshiriladi.</item>
+        <item quantity="other">Bu tanlov yana oldingga chiqadi, masalan kofe stakani yoki qattiq shampun. U Odatlarda %1$d kun belgilanadi, keyin har 3 oyda tekshiriladi.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Hali almashtirish yoʻq</string>
+    <string name="tabs_changes_day_badge">KUN %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">MUSTAHKAM</string>
+    <string name="tabs_changes_one_off_todo">Bir martalik, bajarish kerak</string>
+    <string name="tabs_changes_one_off_tip">Buni bir marta qilasan va tamom, masalan tortmani tartibga solish, yashil energiya tarifiga oʻtish yoki kurtkani tuzatish. Belgila, u Tugallanganlarga oʻtadi.</string>
+    <string name="tabs_changes_nothing_waiting">Hech narsa kutmayapti</string>
+    <string name="tabs_changes_finished">TUGALLANGAN · %1$d</string>
+
+    <string name="tabs_avoid_title">Voz kechish roʻyxati</string>
+    <string name="tabs_avoid_search">Qidirish…</string>
+    <string name="tabs_avoid_no_match">Hech narsa topilmadi</string>
+    <string name="tabs_avoid_companies">Kompaniyalar</string>
+    <string name="tabs_avoid_food">Oziq-ovqat</string>
+    <string name="tabs_avoid_products">Mahsulotlar</string>
+
+    <string name="tabs_avoid_added">Qoʻshilgan</string>
+    <string name="tabs_avoid_why">Nega undan voz kechasan</string>
+    <string name="tabs_avoid_own_words">Oʻz soʻzlaring bilan</string>
+    <string name="tabs_avoid_brands">Unga tegishli brendlar · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Har qatorda bitta brend</string>
+    <string name="tabs_avoid_more_brands">yana +%1$d</string>
+    <string name="tabs_avoid_instead">Oʻrniga buni tanla</string>
+    <string name="tabs_avoid_instead_hint">Har qatorda bittadan</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">chalgʻish</item>
+        <item quantity="other">chalgʻish</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">voz kechildi</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">oy roʻyxatda</item>
+        <item quantity="other">oy roʻyxatda</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">U tarixi bilan birga Voz kechish roʻyxatingdan oʻchadi.</string>
+
+    <string name="tabs_habit_delete_text">Uning butun tarixi ham oʻchadi.</string>
+    <string name="tabs_habit_created">Yaratilgan</string>
+    <string name="tabs_habit_to_do">Bajarish kerak</string>
+    <string name="tabs_habit_daily_ticks">Kunlik belgilar</string>
+    <string name="tabs_habit_day_of">%2$d kundan %1$d-kun</string>
+    <string name="tabs_habit_finished">Tugallangan</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">kundan beri davom etmoqda</item>
+        <item quantity="other">kundan beri davom etmoqda</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">marta uzilgan</item>
+        <item quantity="other">marta uzilgan</item>
+    </plurals>
+    <string name="tabs_habit_success">muvaffaqiyat</string>
+    <string name="tabs_habit_current_streak">Joriy ketma-ketlik</string>
+    <string name="tabs_habit_longest_streak">Eng uzun ketma-ketlik</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d kun</item>
+        <item quantity="other">%1$d kun</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Nega chalgʻiding</string>
+    <string name="tabs_habit_remove_reason">Bu sababni olib tashlash</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">usulda hayotingni yaxshilading</item>
+        <item quantity="other">usulda hayotingni yaxshilading</item>
+    </plurals>
+    <string name="tabs_insights_habits">Odatlar</string>
+    <string name="tabs_insights_swaps">Almashtirishlar</string>
+    <string name="tabs_insights_avoids">Voz kechishlar</string>
+    <string name="tabs_insights_on_track_section">Yoʻlda</string>
+    <string name="tabs_insights_avg_days">%1$d k</string>
+    <string name="tabs_insights_average_kept">oʻrtacha bajarilgan</string>
+    <string name="tabs_insights_days_checked_in">tekshiruv qilingan kun</string>
+    <string name="tabs_insights_on_track">yoʻlda</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">chalgʻish</item>
+        <item quantity="other">chalgʻish</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">yangi qadam</item>
+        <item quantity="other">yangi qadam</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">bir martalik bajarildi</item>
+        <item quantity="other">bir martalik bajarildi</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Eng katta chalgʻish sabablari</string>
+    <string name="tabs_insights_added_quarter">Bu chorakda qoʻshilgan</string>
+    <string name="tabs_insights_past_summaries">Oʻtgan 3 oylik xulosalar</string>
+    <string name="tabs_insights_first_on">Birinchisi %1$s kuni keladi</string>
+    <string name="tabs_insights_all_time">Butun davr</string>
+    <string name="tabs_insights_period">%1$s dan %2$s gacha %3$d</string>
+
+    <string name="forms_back">Orqaga</string>
+    <string name="forms_back_habits">Odatlar</string>
+    <string name="forms_back_settings">Sozlamalar</string>
+    <string name="forms_add">Qoʻshish</string>
+    <string name="forms_save">Saqlash</string>
+    <string name="forms_finish">Yakunlash</string>
+    <string name="forms_delete">Oʻchirish</string>
+    <string name="forms_why">Nega</string>
+    <string name="forms_never_show">Boshqa koʻrsatilmasin</string>
+    <string name="forms_every">Har</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">kun</item>
+        <item quantity="other">kun</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">%2$d tadan %1$d-qadam</string>
+    <string name="forms_checkin_next_weekly">Keyingisi, haftalik tekshiruv ›</string>
+    <string name="forms_checkin_next_quarter">Keyingisi, 3 oylik koʻrik ›</string>
+    <string name="forms_daily_title">Kunlik tekshiruv</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d ta oldingi kun toʻldirilmagan</item>
+        <item quantity="other">%1$d ta oldingi kun toʻldirilmagan</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Hammasini oʻtkazish</string>
+    <string name="forms_daily_today">Bugun · %1$s</string>
+    <string name="forms_daily_skip">Oʻtkazish</string>
+    <string name="forms_daily_undo_skip">Oʻtkazishni bekor qilish</string>
+    <string name="forms_daily_new_tag">Yangi teg</string>
+    <string name="forms_daily_new_tag_hint">Axlat qutisi toʻla edi</string>
+    <string name="forms_weekly_title">Haftalik tekshiruv</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d hafta qolib ketgan, bitta yangi qadam hammasini qoplaydi.</item>
+        <item quantity="other">%1$d hafta qolib ketgan, bitta yangi qadam hammasini qoplaydi.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Bu hafta yangi qadam yoʻq</string>
+    <string name="forms_quarter_title">3 oylik koʻrik</string>
+    <string name="forms_quarter_nothing">Hali tekshiradigan narsa yoʻq. Keyingisi sening xulosang.</string>
+    <string name="forms_quarter_habits">Odatlar</string>
+    <string name="forms_quarter_swaps">Almashtirishlar</string>
+    <string name="forms_quarter_avoid">Voz kechish</string>
+    <string name="forms_quarter_missed">Qoldirilgan</string>
+    <string name="forms_quarter_missed_level">Qoldirilgan: %1$s</string>
+
+    <string name="forms_new_title">Yangi qadam</string>
+    <string name="forms_edit_title">Tahrirlash: %1$s</string>
+    <string name="forms_add_kind">Qoʻshish: %1$s</string>
+    <string name="forms_title_habit">Odat</string>
+    <string name="forms_title_swap">Almashtirish</string>
+    <string name="forms_title_avoid">Voz kechish</string>
+    <string name="forms_save_changes">Oʻzgarishlarni saqlash</string>
+    <string name="forms_what_kind">Qanday turdagi?</string>
+    <string name="forms_name">Nomi</string>
+    <string name="forms_your_new_step">Sening yangi qadaming</string>
+    <string name="forms_hint_habit">10 bet oʻqish</string>
+    <string name="forms_hint_swap">Lufa, gubka emas</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Qanday odat?</string>
+    <string name="forms_timing_tip_title">Istalgan vaqt yoki kun oxiri</string>
+    <string name="forms_timing_tip">Istalgan vaqt: bir marta qiladigan ishing, masalan yugurish. Bajarishing bilan belgila.\n\nKun oxiri: kun boʻyi amal qiladigan qoidang, masalan gazak yemaslik. Uni faqat kechqurun belgilay olasan.</string>
+    <string name="forms_anytime">Istalgan vaqt</string>
+    <string name="forms_end_of_day">Kun oxiri</string>
+    <string name="forms_what_is_it">Bu nima?</string>
+    <string name="forms_how_often">Qanchalik tez-tez?</string>
+    <string name="forms_often_specific">Muayyan kunlar</string>
+    <string name="forms_often_whenever">Istalgan payt</string>
+    <string name="forms_often_once">Faqat bir marta</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">marta, har</item>
+        <item quantity="other">marta, har</item>
+    </plurals>
+    <string name="forms_unit_day">kun</string>
+    <string name="forms_unit_week">hafta</string>
+    <string name="forms_unit_month">oy</string>
+    <string name="forms_unit_x_days">X kun</string>
+    <string name="forms_ideas">Gʻoyalar</string>
+    <string name="forms_ideas_others">Boshqalar</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Barcha %1$d ta gʻoyani koʻrish ›</item>
+        <item quantity="other">Barcha %1$d ta gʻoyani koʻrish ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Barcha qadam gʻoyalari</string>
+    <string name="forms_search">Qidirish…</string>
+    <string name="forms_all">Hammasi</string>
+
+    <string name="forms_settings_title">Sozlamalar</string>
+    <string name="forms_set_colours">Ranglar</string>
+    <string name="forms_set_style">3 oylik xulosa uslubi</string>
+    <string name="forms_set_checkins">Tekshiruvlar</string>
+    <string name="forms_set_checkin_hour">Kunlik tekshiruv ochiladigan vaqt</string>
+    <string name="forms_set_checkin_hour_tip">Shu vaqtdan boshlab kun oxiri odatlarini belgilashing va Kunlik tekshiruvni qilishing mumkin.</string>
+    <string name="forms_set_week_start">Hafta boshlanadigan kun</string>
+    <string name="forms_set_week_start_tip">Odatlar jadvali, haftalar va grafiklar qaysi kundan boshlanadi.</string>
+    <string name="forms_monday">Dushanba</string>
+    <string name="forms_sunday">Yakshanba</string>
+    <string name="forms_set_new_step_every">Yangi qadam har</string>
+    <string name="forms_set_new_step_every_tip">Haftalik tekshiruvlar orasida necha hafta.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">haftada</item>
+        <item quantity="other">haftada</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Haftalik tekshiruv kuni</string>
+    <string name="forms_set_weekly_day_tip">Shu kuni Kunlik tekshiruvdan keyin keyingi haftaning yangi qadamini tanlaysan.</string>
+    <string name="forms_set_checkup">3 oylik koʻrik</string>
+    <string name="forms_set_checkup_tip">Hamma bir xil kunlarda koʻrik qiladi: 1 yanvar, 1 aprel, 1 iyul va 1 oktabr, shunda xulosalaringizni birga ulashishingiz mumkin. Oʻrniga oʻz sanangni tanlashing mumkin.</string>
+    <string name="forms_set_same">Hamma bilan bir xil</string>
+    <string name="forms_set_own">Oʻz sanam</string>
+    <string name="forms_set_starting">Boshlanishi</string>
+    <string name="forms_set_starting_tip">Birinchi shaxsiy koʻrigingning oyi.</string>
+    <string name="forms_earlier">Oldinroq</string>
+    <string name="forms_later">Keyinroq</string>
+    <string name="forms_set_every_tip">Koʻriklar orasidagi oylar.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">oyda</item>
+        <item quantity="other">oyda</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Oyning kuni</string>
+    <string name="forms_set_day_of_month_tip">Shu oyning qaysi kuni.</string>
+    <string name="forms_set_everyone">Hamma: 1 yan · 1 apr · 1 iyul · 1 okt</string>
+    <string name="forms_set_days_build">Odat shakllanadigan kunlar</string>
+    <string name="forms_set_days_build_tip">Tadqiqotlar 18 dan 254 kungacha natija topgan, eng koʻp keltiriladigani 66 (Lally et al. 2010, Singh et al. 2024). Shuncha kundan keyin yangi qadam koʻriklaringga oʻtadi.</string>
+    <string name="forms_set_nudge">Kunlik eslatma</string>
+    <string name="forms_set_nudge_tip">Shu vaqtda eslatma, faqat biror narsa hali belgilanmagan boʻlsa.</string>
+    <string name="forms_set_more">Yana</string>
+    <string name="forms_set_reasons">Chalgʻish sabablari</string>
+    <string name="forms_set_tutorial">Qoʻllanmani qayta koʻrish</string>
+    <string name="forms_set_export">Maʼlumotlarimni eksport qilish</string>
+    <string name="forms_set_import">Maʼlumotlarni import qilish</string>
+
+    <string name="forms_reasons_title">Chalgʻish sabablari</string>
+    <string name="forms_reasons_hint">Oʻz sababingni qoʻsh</string>
+    <string name="forms_reasons_used">%1$d× ishlatilgan</string>
+    <string name="forms_reasons_delete_title">%1$s oʻchirilsinmi?</string>
+    <string name="forms_reasons_delete_text">Chalgʻishlar tarixingda qoladi, faqat bu tegsiz.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d ta odat</item>
+        <item quantity="other">%1$d ta odat</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d ta almashtirish</item>
+        <item quantity="other">%1$d ta almashtirish</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d ta voz kechish</item>
+        <item quantity="other">%1$d ta voz kechish</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, %2$s dan beri belgilar</string>
+    <string name="forms_export_title">Maʼlumotlarimni eksport qilish</string>
+    <string name="forms_export_what">Faylga nima kiradi</string>
+    <string name="forms_export_ticks">Har bir belgi, chalgʻish va sabab</string>
+    <string name="forms_export_ticks_since">%1$s dan beri har bir belgi, chalgʻish va sabab</string>
+    <string name="forms_export_summaries">3 oylik xulosalaring</string>
+    <string name="forms_export_settings">Sozlamalaring, ranglar va isming</string>
+    <string name="forms_export_file">Fayl</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Faylni saqlash</string>
+    <string name="forms_export_send">Yuborish…</string>
+    <string name="forms_export_send_title">Alice maʼlumotlaringni yubor</string>
+    <string name="forms_export_saved">Saqlandi: %1$s</string>
+    <string name="forms_export_save_failed">Faylni saqlab boʻlmadi</string>
+
+    <string name="forms_import_title">Maʼlumotlarni import qilish</string>
+    <string name="forms_import_choose">Alice zaxira nusxasini tanla</string>
+    <string name="forms_import_choose_sub">.json, boshqa telefondagi Eksportdan</string>
+    <string name="forms_import_cant_open">Bu faylni ochib boʻlmadi.</string>
+    <string name="forms_import_not_backup">Bu fayl Alice zaxira nusxasi emas.</string>
+    <string name="forms_import_replace_mode">Bu yerdagini almashtirish</string>
+    <string name="forms_import_add_mode">Bu yerdagiga qoʻshish</string>
+    <string name="forms_import_button">Import qilish</string>
+    <string name="forms_import_replace_title">Maʼlumotlaring almashtirilsinmi?</string>
+    <string name="forms_import_add_title">Bu maʼlumotlar qoʻshilsinmi?</string>
+    <string name="forms_import_replace_text">Bu telefondagi hamma narsa fayldagi bilan almashtiriladi. Saqlab qolmoqchi boʻlsang, avval eksport qil.</string>
+    <string name="forms_import_add_text">Fayldagi odatlar va tarix seningkiga qoʻshiladi.</string>
+    <string name="forms_import_done">Maʼlumotlar import qilindi</string>
+
+    <string name="look_share">Ulashish</string>
+    <string name="look_save_image">Rasmni saqlash</string>
+    <string name="look_next_week">Keyingisi, sening haftang ›</string>
+    <string name="look_keep_going">Davom et</string>
+    <string name="look_storage_needed">Rasmni saqlash uchun Alice xotiraga ruxsat soʻraydi</string>
+    <string name="look_share_caption">Alice bilan mening chorakim. Oʻzingnikini boshla: %1$s</string>
+    <string name="look_share_clip">Alice xulosasi</string>
+    <string name="look_share_chooser">Choragingni ulash</string>
+    <string name="look_saved">Pictures/Alice ga saqlandi</string>
+    <string name="look_save_failed">Rasmni saqlab boʻlmadi</string>
+
+    <string name="look_style_poster">Poster</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Kubok javoni</string>
+    <string name="look_style_receipt">Chek</string>
+    <string name="look_style_report">Tabel</string>
+    <string name="look_style_boarding">Bort taloni</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalendar</string>
+    <string name="look_style_trading">Kolleksiya kartasi</string>
+
+    <string name="look_quote_1">Kichik Qadamlar, Har Kuni</string>
+    <string name="look_quote_2">Kelganing Uchun Rahmat</string>
+    <string name="look_quote_3">Mukammallik Emas, Taraqqiyot</string>
+    <string name="look_quote_4">Sen Davom Etding. Bu Muhim</string>
+    <string name="look_quote_5">Kichik Oʻzgarishlar, Katta Farq</string>
+    <string name="look_quote_6">Har Kuni Yaxshirogʻini Tanlading</string>
+    <string name="look_quote_7">Sekin Boʻlsa Ham Oldinga</string>
+    <string name="look_quote_8">Sen Yoqtirgan Hayotingni Quryapsan</string>
+    <string name="look_quote_9">Qadamma-Qadam Yigʻiladi</string>
+    <string name="look_quote_10">Oʻzing Uchun Kelishda Davom Et</string>
+    <string name="look_quote_11">Kelajakdagi Sen Rahmat Aytadi</string>
+    <string name="look_quote_12">Tomchi-Tomchi Koʻl Boʻlur</string>
+    <string name="look_quote_13">Barqarorlik Jim Sehrdir</string>
+    <string name="look_quote_14">Qanchalik Uzoqqa Kelganingga Qara</string>
+    <string name="look_quote_15">Kichik Gʻalabalaring Bilan Faxrlan</string>
+    <string name="look_quote_16">Yaxshi Kunlar Quriladi, Topilmaydi</string>
+
+    <string name="look_stamp_1">AʼLO</string>
+    <string name="look_stamp_2">AJOYIB</string>
+    <string name="look_stamp_3">BARAKALLA</string>
+    <string name="look_stamp_4">ZOʻR</string>
+    <string name="look_stamp_5">QOYIL</string>
+    <string name="look_stamp_6">ENG YUQORI BAHO</string>
+    <string name="look_stamp_7">OLTIN YULDUZ</string>
+    <string name="look_stamp_8">ZOʻR ISH</string>
+
+    <string name="look_period">%1$s dan %2$s gacha</string>
+    <string name="look_scan">SKANERLA VA\nOʻZ YOʻLINGNI\nBOSHLA</string>
+    <string name="look_you">Sen</string>
+    <string name="look_on_track">yoʻlda</string>
+    <string name="look_new_steps">yangi qadam</string>
+    <string name="look_days_in">kun oʻtdi</string>
+    <string name="look_new">yangi</string>
+    <string name="look_week_by_week">Haftama-hafta</string>
+    <string name="look_coming_soon">Tez orada</string>
+    <string name="look_new_this_quarter">Bu chorakda yangi</string>
+    <string name="look_kept_up_longest">Eng uzoq davom etganlar</string>
+    <string name="look_habits">Odatlar</string>
+    <string name="look_swaps">Almashtirishlar</string>
+    <string name="look_avoids">Voz kechishlar</string>
+    <string name="look_ways_improved">Yaxshilangan jihatlar</string>
+    <string name="look_improved_in">Hayotingni %1$s yaxshilading</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d ta odat</item>
+        <item quantity="other">%1$d ta odat</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d ta almashtirish</item>
+        <item quantity="other">%1$d ta almashtirish</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d ta voz kechish</item>
+        <item quantity="other">%1$d ta voz kechish</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d ta chalgʻish</item>
+        <item quantity="other">%1$d ta chalgʻish</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d usulda</item>
+        <item quantity="other">%1$d usulda</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">odat</item>
+        <item quantity="other">odat</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">almashtirish</item>
+        <item quantity="other">almashtirish</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">voz kechish</item>
+        <item quantity="other">voz kechish</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">chalgʻish</item>
+        <item quantity="other">chalgʻish</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">usul</item>
+        <item quantity="other">usul</item>
+    </plurals>
+
+    <string name="look_poster_improved">Sen hayotingni %1$s yaxshilading</string>
+    <string name="look_poster_on_track">YOʻLDA</string>
+    <string name="look_poster_days">kun</string>
+    <string name="look_poster_achievements">Yutuqlar</string>
+    <string name="look_poster_first_ones">Birinchilaring yoʻlda</string>
+    <string name="look_poster_added">Bu chorakda nimalar qoʻshding</string>
+
+    <string name="look_wrapped_stars">Sening yulduzlaring</string>
+
+    <string name="look_trophy_ways">usulda hayotingni\nyaxshilading</string>
+    <string name="look_trophy_next_quarter">Keyingi chorak</string>
+    <string name="look_trophy_first_medal">birinchi medaling</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Javonda yangi:</string>
+
+    <string name="look_receipt_title">3 oylik koʻrik · %1$s</string>
+    <string name="look_receipt_customer">Mijoz: %1$s</string>
+    <string name="look_receipt_habits">Shakllangan odatlar</string>
+    <string name="look_receipt_swaps">Almashtirilgan narsalar</string>
+    <string name="look_receipt_avoids">Voz kechilgan narsalar</string>
+    <string name="look_receipt_ways">Hayotingni yaxshilagan usullar</string>
+    <string name="look_receipt_on_track">Bu chorak yoʻlda</string>
+    <string name="look_receipt_slips">Chalgʻishlar</string>
+    <string name="look_receipt_new_steps">Shakllangan yangi qadamlar</string>
+    <string name="look_receipt_new">Bu chorakda yangi: %1$s</string>
+
+    <string name="look_report_title">Kichik Qadamlar Tabeli</string>
+    <string name="look_report_pupil">%1$s · Oʻquvchi: %2$s</string>
+    <string name="look_report_subject">FAN</string>
+    <string name="look_report_built">SHAKLLANDI</string>
+    <string name="look_report_grade">BAHO</string>
+    <string name="look_report_attendance">Davomat %1$s</string>
+    <string name="look_report_on_track">Yoʻlda %1$s</string>
+    <string name="look_report_slips">Chalgʻishlar %1$s</string>
+    <string name="look_report_achievements">YUTUQLAR</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">BU CHORAKDAGI YANGI FANLAR (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Oʻqituvchi izohi:</string>
+    <string name="look_report_calm">Tinch va barqaror chorak.</string>
+    <string name="look_report_ups_downs">Past-balandli chorak boʻldi, lekin sen taslim boʻlmading.</string>
+    <string name="look_report_star">%1$s ajoyib natija koʻrsatdi. Shunday davom et!</string>
+    <string name="look_report_keep_up">Shunday davom et!</string>
+    <string name="look_report_week">HAFTAMA-HAFTA</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Reys Q%1$d</string>
+    <string name="look_boarding_from">QAYERDAN</string>
+    <string name="look_boarding_old">ESKI</string>
+    <string name="look_boarding_habits">odatlar</string>
+    <string name="look_boarding_to">QAYERGA</string>
+    <string name="look_boarding_new">YANGI</string>
+    <string name="look_boarding_better_you">yaxshiroq sen</string>
+    <string name="look_boarding_passenger">Yoʻlovchi</string>
+    <string name="look_boarding_dates">Sanalar</string>
+    <string name="look_boarding_miles">Uchilgan millar</string>
+    <string name="look_boarding_on_time">Oʻz vaqtida</string>
+    <string name="look_boarding_turbulence">Turbulentlik</string>
+    <string name="look_boarding_days">Bortdagi kunlar</string>
+    <string name="look_boarding_flyer">DOIMIY YOʻLOVCHI, ENG UZOQ HAMROHLARING</string>
+    <string name="look_boarding_log">PARVOZ JURNALI, HAFTAMA-HAFTA</string>
+    <string name="look_boarding_stops">YANGI BEKATLAR, +%1$d</string>
+    <string name="look_boarding_note">KAPITAN IZOHI</string>
+
+    <string name="look_polaroid_life">SENING HAYOTING</string>
+    <string name="look_polaroid_quarter">BU CHORAK</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d kun oʻtdi</string>
+    <string name="look_polaroid_longest">ENG UZOQ DAVOM ETGANLAR</string>
+    <string name="look_polaroid_new">YANGI, +%1$d</string>
+
+    <string name="look_calendar_added">Qoʻshilgan</string>
+
+    <string name="look_trading_common">Oddiy</string>
+    <string name="look_trading_uncommon">Noodatiy</string>
+    <string name="look_trading_rare">Nodir</string>
+    <string name="look_trading_legendary">Afsonaviy</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">USUL</item>
+        <item quantity="other">USUL</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d-</string>
+    <string name="look_ordinal_nd">%1$d-</string>
+    <string name="look_ordinal_rd">%1$d-</string>
+    <string name="look_ordinal_th">%1$d-</string>
+    <string name="look_trading_number">№ %1$03d · sening %2$s choraging</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d kun</string>
+    <string name="look_trading_power">Kuch, haftama-hafta</string>
+    <string name="look_trading_edition">%1$s · Q%2$d nashri</string>
+
+    <string name="look_sample_water_first">Avval suv</string>
+    <string name="look_sample_own_bag">Oʻz sumkam</string>
+    <string name="look_sample_read_pages">10 bet oʻqish</string>
+    <string name="look_sample_reading">Har kuni kitob oʻqish</string>
+    <string name="look_sample_late_snacks">Kechki gazaksiz</string>
+    <string name="look_sample_stretching">Choʻzilish mashqi</string>
+    <string name="look_sample_cooler_home">Salqinroq uy</string>
+    <string name="look_sample_loofah">Lufa, gubka emas</string>
+    <string name="look_sample_palm_oil">Palma yogʻisiz</string>
+    <string name="look_sample_stretch">10 daqiqa choʻzilish</string>
+
+    <string name="look_colours_title">Ranglar</string>
+    <string name="look_colours_preview">Oldindan koʻrish</string>
+    <string name="look_colours_your_summary">Sening 3 oylik xulosang</string>
+    <string name="look_colours_light">Yorugʻ</string>
+    <string name="look_colours_dark">Qorongʻi</string>
+    <string name="look_styles_title">3 oylik xulosa uslubi</string>
+    <string name="look_styles_all_pictures">Barcha 30 ta Polaroid rasmini koʻrish</string>
+    <string name="look_styles_refresh">Yangilash</string>
+    <string name="look_pictures_title">Polaroid rasmlari</string>
+    <string name="look_pictures_back">Xulosa uslublari</string>
+
+    <string name="look_welcome_name">Isming</string>
+    <string name="look_welcome_start">Boshlash</string>
+    <string name="look_welcome_import">Maʼlumotlarimni import qilish</string>
+
+    <string name="look_tut_skip">Oʻtkazish</string>
+    <string name="look_tut_page">%1$d / %2$d</string>
+    <string name="look_tut_back">Orqaga</string>
+    <string name="look_tut_start">Boshlash</string>
+    <string name="look_tut_next">Keyingisi</string>
+    <string name="look_tut1_title">Qadamma-qadam yaxshiroq inson boʻl</string>
+    <string name="look_tut1_body">Yangi odatlar shakllantir, mehribonroq tanlovlar qil va yutuqlaring qanday yigʻilib borishini kuzat.</string>
+    <string name="look_tut1_habits">Kundan-kunga yaxshi odatlar shakllantir va oʻzing xohlagan insonga aylan.</string>
+    <string name="look_tut1_swaps">Mahsulotlarni sayyora, odamlar yoki salomatliging uchun yaxshirogʻiga almashtir.</string>
+    <string name="look_tut1_avoids">Qoʻllab-quvvatlashni istamagan kompaniya, oziq-ovqat va mahsulotlaringni kuzatib bor.</string>
+    <string name="look_tut2_title">Belgilab qoʻy</string>
+    <string name="look_tut2_body">Odatni bajarganingda katakchaga bos. Kechki odatlar tekshiruv vaqtingda ochiladi.</string>
+    <string name="look_tut3_title">%1$s, keyin har %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d kun</item>
+        <item quantity="other">%1$d kun</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d oyda</item>
+        <item quantity="other">%1$d oyda</item>
+    </plurals>
+    <string name="look_tut3_body">Tadqiqotlarga koʻra, odat shakllanishi uchun 18 dan 254 kungacha vaqt ketadi. Eng koʻp keltiriladigan raqam 66 kun, shuning uchun Alice shundan boshlaydi.</string>
+    <string name="look_tut3_days_label">Odat shakllanadigan kunlar</string>
+    <string name="look_tut3_checkup">Koʻrik har</string>
+    <string name="look_tut3_small">Ikkalasini ham Sozlamalarda oʻzgartirishing mumkin.</string>
+    <string name="look_tut4_title">Haftada bir marta, bitta yangi qadam</string>
+    <string name="look_tut4_body">Har safar bitta yangi qadam qoʻshish senga birdaniga koʻp yuk olmasdan, sekin-asta oʻsish imkonini beradi.</string>
+    <string name="look_tut4_day">Tekshiruv kuni</string>
+    <string name="look_tut4_small">Buni ham Sozlamalarda oʻzgartirishing mumkin.</string>
+    <string name="look_tut5_title">Har chorakda, sening xulosang</string>
+    <string name="look_tut5_body">Qanchalik uzoqqa kelganingni doʻstlaring va yaqinlaring bilan ulash. Yoqqan koʻrinishga bos:</string>
+    <string name="look_tut_change_mind">Fikringni istalgan payt oʻzgartirishing mumkin.</string>
+    <string name="look_tut6_title">Oʻzingniki qil</string>
+    <string name="look_tut6_body">Senga eng qulay ranglarni tanla. Butun ilova darhol oʻzgaradi.</string>
+    <string name="look_tut7_title">Istalgan narsani, istalgan payt oʻzgartir</string>
+    <string name="look_tut7_body">Tekshiruv vaqtlari, odat shakllanadigan kunlar, xulosa uslubi, ranglar va maʼlumotlaring, hammasi Sozlamalarda.</string>
+    <string name="look_tut7_gear">Sozlamalarni ochish uchun Odatlar tepasidagi tishli gʻildirakka bos.</string>
+    <string name="look_tut7_open">Sozlamalarni ochish</string>
+
+    <string name="lang_title">Til</string>
+    <string name="pron_title">Murojaat</string>
+    <string name="pron_she">ayol</string>
+    <string name="pron_he">erkak</string>
+    <string name="pron_they">neytral</string>
+    <string name="lang_spotted">Tilingda xato topdingmi?</string>
+    <string name="lang_search">Tilingni qidir</string>
+    <string name="lang_phone">Telefon tili</string>
+    <string name="lang_follow">Telefoningga moslash</string>
+    <string name="lang_note_title">Tarjimalarga yordam</string>
+    <string name="lang_note_1">Salom, men Lucyman, Alice ni men yaratganman.</string>
+    <string name="lang_note_2">Men ingliz, slovak, chex va rus tillarida gaplashaman, shuning uchun bu tarjimalarni oʻzim tekshirdim. Boshqa tillar hali ona tili egasi tomonidan tekshirilmagan.</string>
+    <string name="lang_note_3">Tilingda xato topsang, iltimos, menga xabar ber, men uni tuzataman. Agar Alice dan oʻz tilingda bir muddat foydalangan boʻlsang va hammasi toʻgʻri oʻqilsa, buni ham ayt, shunda uni tasdiqlangan deb belgilayman.</string>
+    <string name="lang_note_4">Rahmat!</string>
+    <string name="lang_not_approved">HALI TASDIQLANMAGAN</string>
+    <string name="lang_report">Xato haqida xabar berish</string>
+    <string name="lang_all_correct">Mening tilim butunlay toʻgʻri</string>
+    <string name="lang_mail_mistake_body">Nima notoʻgʻri oʻqiladi va qaysi ekranda:\n\n</string>
+    <string name="lang_mail_correct_body">Alice dan oʻz tilimda bir muddat foydalandim va hammasi toʻgʻri oʻqiladi.\n\n</string>
+    <string name="lang_no_mail">Elektron pochta ilovasi topilmadi</string>
+</resources>

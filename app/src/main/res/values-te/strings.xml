@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">బాగా అలసిపోయా</string>
+    <string name="core_reason_craving">కోరిక</string>
+    <string name="core_reason_no_time">టైమ్ లేదు</string>
+    <string name="core_reason_forgot">మర్చిపోయా</string>
+    <string name="core_reason_no_alternative">వేరే దారి లేదు</string>
+    <string name="core_reason_social">స్నేహితులతో</string>
+    <string name="core_reason_impulse">ఒక్కసారిగా అనిపించింది</string>
+    <string name="core_reason_too_expensive">చాలా ఖరీదు</string>
+    <string name="core_reason_away">బయట ఉన్నా</string>
+
+    <string name="core_nudge_channel">రోజువారీ గుర్తుచేత</string>
+    <string name="core_nudge_title">ఈరోజు ఇంకా టిక్ చేయాల్సినవి</string>
+    <string name="core_save_failed">సేవ్ కాలేదు, మళ్ళీ ప్రయత్నించు</string>
+
+    <string name="core_kind_habit">అలవాటు</string>
+    <string name="core_kind_swap">మార్పు</string>
+    <string name="core_kind_avoid">దూరం</string>
+    <string name="core_about">%1$s గురించి</string>
+    <string name="core_ok">సరే</string>
+    <string name="core_less">తక్కువ</string>
+    <string name="core_more">ఎక్కువ</string>
+    <string name="core_cancel">రద్దు</string>
+    <string name="core_settings">సెట్టింగ్‌లు</string>
+    <string name="core_span_week">వారం</string>
+    <string name="core_span_month">నెల</string>
+    <string name="core_span_year">సంవత్సరం</string>
+    <string name="core_span_all">మొదటి నుంచి</string>
+    <string name="core_tab_habits">అలవాట్లు</string>
+    <string name="core_tab_changes">మార్పులు</string>
+    <string name="core_tab_avoid">దూరం</string>
+    <string name="core_tab_insights">విశ్లేషణ</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">పాటించావు</string>
+    <string name="core_cell_missed">తప్పిపోయింది</string>
+    <string name="core_cell_partial">కొంత అయింది, ఇప్పటికి %1$d</string>
+    <string name="core_cell_unfilled">ఇంకా నింపలేదు</string>
+    <string name="core_cell_open">చేయాలి</string>
+    <string name="core_cell_locked">చెక్-ఇన్ టైమ్ వరకు లాక్</string>
+    <string name="core_cell_future">ఇంకా కాదు</string>
+    <string name="core_cell_empty">ఏమీ అవసరం లేదు</string>
+    <string name="core_cell_band">ఈ కాలానికి అయిపోయింది</string>
+    <string name="core_cell_off">ఈ అడుగుకి ఇది రోజు కాదు</string>
+    <string name="core_cell_none">ఈ అడుగు మొదలవ్వక ముందు</string>
+
+    <string name="core_rhythm_one_off">ఒక్కసారి</string>
+    <string name="core_rhythm_end_of_day">ప్రతి రోజు, రోజు చివర టిక్</string>
+    <string name="core_rhythm_every_day">ప్రతి రోజు</string>
+    <string name="core_rhythm_every_days">ప్రతి %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">వారానికి</string>
+    <string name="core_rhythm_a_month">నెలకి</string>
+    <string name="core_rhythm_times_any_day">%2$s %1$s, ఏ రోజైనా</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s మరియు %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d నె</string>
+    <string name="core_achievement_short_days">%1$d రో</string>
+    <string name="core_glance_step">%1$s, %3$d లో %2$d</string>
+
+    <string name="core_slip_never">ఎప్పుడూ కాదు</string>
+    <string name="core_slip_once">ఒక్కసారి</string>
+    <string name="core_slip_a_few">కొన్నిసార్లు</string>
+    <string name="core_slip_half">సగం</string>
+    <string name="core_slip_most">చాలాసార్లు</string>
+    <string name="core_slip_always">ఎప్పుడూ</string>
+
+    <string name="core_ideas_habit_anytime">అలవాట్లు, ఎప్పుడైనా</string>
+    <string name="core_ideas_habit_end">అలవాట్లు, రోజు చివర</string>
+    <string name="core_ideas_swap">మార్పులు</string>
+    <string name="core_ideas_avoid_product">దూరం, ఉత్పత్తులు</string>
+    <string name="core_ideas_avoid_company">దూరం, కంపెనీలు</string>
+    <string name="core_ideas_avoid_food">దూరం, ఆహారం</string>
+
+    <string name="core_tag_ethical">నైతికం</string>
+    <string name="core_tag_health">ఆరోగ్యం</string>
+    <string name="core_tag_clutter">అనవసర సామాను</string>
+    <string name="core_tag_ecological">పర్యావరణం</string>
+    <string name="core_tag_animal_welfare">జంతు సంక్షేమం</string>
+    <string name="core_tag_workers_rights">కార్మికుల హక్కులు</string>
+    <string name="core_tag_plastic">ప్లాస్టిక్</string>
+    <string name="core_tag_palm_oil">పామ్ ఆయిల్</string>
+    <string name="core_tag_deforestation">అడవుల నరికివేత</string>
+    <string name="core_category_company">కంపెనీ</string>
+    <string name="core_category_food">ఆహారం</string>
+    <string name="core_category_product">ఉత్పత్తి</string>
+    <string name="core_verdict_avoid">దూరంగా ఉండు</string>
+    <string name="core_verdict_edge">ఆలోచించాలి</string>
+    <string name="core_verdict_fine">పర్వాలేదు</string>
+
+    <string name="core_theme_off_white_honey">ఆఫ్-వైట్ &amp; తేనె</string>
+    <string name="core_theme_vanilla_caramel">వెనీలా &amp; కారమెల్</string>
+    <string name="core_theme_sunflower">పొద్దుతిరుగుడు</string>
+    <string name="core_theme_latte">లాటే</string>
+    <string name="core_theme_cocoa_lemon">కోకో &amp; నిమ్మ</string>
+    <string name="core_theme_espresso_butter">ఎస్ప్రెస్సో &amp; వెన్న</string>
+    <string name="core_theme_midnight_honey">అర్ధరాత్రి &amp; తేనె</string>
+    <string name="core_theme_forest_night">అడవి రాత్రి</string>
+    <string name="core_theme_plum_dusk">ప్లమ్ సంధ్య</string>
+    <string name="core_theme_charcoal_coral">చార్‌కోల్ &amp; కోరల్</string>
+
+    <string name="core_pic_sunny_meadow">ఎండ పచ్చిక</string>
+    <string name="core_pic_sunset_hills">సూర్యాస్తమయ కొండలు</string>
+    <string name="core_pic_starry_night">నక్షత్రాల రాత్రి</string>
+    <string name="core_pic_beach_day">బీచ్ రోజు</string>
+    <string name="core_pic_mountain_lake">కొండ సరస్సు</string>
+    <string name="core_pic_snowy_village">మంచు గ్రామం</string>
+    <string name="core_pic_rainy_garden">వానలో తోట</string>
+    <string name="core_pic_autumn_forest">శరదృతువు అడవి</string>
+    <string name="core_pic_cherry_blossom">చెర్రీ పూలు</string>
+    <string name="core_pic_desert_cactus">ఎడారి కాక్టస్</string>
+    <string name="core_pic_lighthouse">లైట్‌హౌస్</string>
+    <string name="core_pic_rainbow_field">ఇంద్రధనుస్సు పొలం</string>
+    <string name="core_pic_hot_air_balloon">హాట్ ఎయిర్ బెలూన్</string>
+    <string name="core_pic_sailboat">తెరచాప పడవ</string>
+    <string name="core_pic_cabin_in_the_woods">అడవిలో గుడిసె</string>
+    <string name="core_pic_tulip_field">ట్యూలిప్ పొలం</string>
+    <string name="core_pic_campfire_night">చలిమంట రాత్రి</string>
+    <string name="core_pic_misty_mountains">పొగమంచు కొండలు</string>
+    <string name="core_pic_sunrise_sea">సూర్యోదయ సముద్రం</string>
+    <string name="core_pic_snowy_pines">మంచు పైన్ చెట్లు</string>
+    <string name="core_pic_lavender_field">లావెండర్ పొలం</string>
+    <string name="core_pic_waterfall">జలపాతం</string>
+    <string name="core_pic_city_at_dusk">సాయంత్రం నగరం</string>
+    <string name="core_pic_picnic">పిక్నిక్</string>
+    <string name="core_pic_moon_over_the_lake">సరస్సుపై చంద్రుడు</string>
+    <string name="core_pic_palm_island">తాటి దీవి</string>
+    <string name="core_pic_windmill">గాలిమర</string>
+    <string name="core_pic_bike_path">సైకిల్ దారి</string>
+    <string name="core_pic_greenhouse">గ్రీన్‌హౌస్</string>
+    <string name="core_pic_northern_lights">ధ్రువ కాంతులు</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d అడుగు నీ కోసం ఎదురుచూస్తోంది.</item>
+        <item quantity="other">%d అడుగులు నీ కోసం ఎదురుచూస్తున్నాయి.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">పాటించావు, %d సారి</item>
+        <item quantity="other">పాటించావు, %d సార్లు</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">రోజుకి %d సారి</item>
+        <item quantity="other">రోజుకి %d సార్లు</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d సారి</item>
+        <item quantity="other">%d సార్లు</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">ప్రతి %d వారం</item>
+        <item quantity="other">ప్రతి %d వారాలకి</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">ప్రతి %d నెల</item>
+        <item quantity="other">ప్రతి %d నెలలకి</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">ప్రతి %d రోజు</item>
+        <item quantity="other">ప్రతి %d రోజులకి</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d నెల, ఒక్కసారీ తప్పలేదు</item>
+        <item quantity="other">%d నెలలు, ఒక్కసారీ తప్పలేదు</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d నెలగా బలంగా</item>
+        <item quantity="other">%d నెలలుగా బలంగా</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">వరుసగా %d రోజు</item>
+        <item quantity="other">వరుసగా %d రోజులు</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d నెల</item>
+        <item quantity="other">%d నెలలు</item>
+    </plurals>
+
+    <string name="tabs_new_step">కొత్త అడుగు</string>
+    <string name="tabs_edit">మార్చు</string>
+    <string name="tabs_delete">తొలగించు</string>
+    <string name="tabs_done">అయింది</string>
+    <string name="tabs_back">వెనక్కి</string>
+    <string name="tabs_earlier">ముందు</string>
+    <string name="tabs_later">తర్వాత</string>
+    <string name="tabs_delete_title">%1$s తొలగించాలా?</string>
+    <string name="tabs_eod_unlock">రోజు చివరి అలవాట్లు %1$02d:00 కి తెరుచుకుంటాయి</string>
+    <string name="tabs_check_up">చెక్-అప్</string>
+    <string name="tabs_one_off">ఒక్కసారి</string>
+
+    <string name="tabs_checkin_from">చెక్-ఇన్ %1$02d:00 నుంచి</string>
+    <string name="tabs_checkin_daily">రోజువారీ చెక్-ఇన్</string>
+    <string name="tabs_checkin_weekly">వారపు చెక్-ఇన్</string>
+    <string name="tabs_checkin_quarter">3 నెలల చెక్-అప్</string>
+    <string name="tabs_checked_in">చెక్-ఇన్ అయింది</string>
+    <string name="tabs_quarter_section">3 నెలల చెక్-అప్</string>
+    <string name="tabs_previous_week">పోయిన వారం</string>
+    <string name="tabs_next_week">వచ్చే వారం</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%2$s తో %1$d రోజు!</item>
+        <item quantity="other">%2$s తో %1$d రోజులు!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">శభాష్! ఇది ఇప్పుడు నీ 3 నెలల చెక్-అప్‌లకి వెళ్తుంది, ఇక రోజూ టిక్ చేయక్కర్లేదు.</string>
+    <string name="tabs_celebrate_first">మొదటిది %1$s న.</string>
+    <string name="tabs_glance_title">నీ వారం</string>
+    <string name="tabs_glance_ticks_kept">పాటించిన టిక్‌లు</string>
+    <string name="tabs_glance_days_checked_in">చెక్-ఇన్ చేసిన రోజులు</string>
+    <string name="tabs_glance_top_tag">ఎక్కువగా వచ్చిన జారుడు కారణం:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d సారి</item>
+        <item quantity="other">%1$s, %2$d సార్లు</item>
+    </plurals>
+    <string name="tabs_glance_easiest">అన్నిటికంటే సులువు:</string>
+    <string name="tabs_glance_hardest">అన్నిటికంటే కష్టం:</string>
+
+    <string name="tabs_changes_ongoing">కొనసాగే మార్పులు</string>
+    <string name="tabs_changes_ongoing_tip_title">కొనసాగే మార్పు</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">ఇదే ఎంపిక నీకు మళ్ళీ మళ్ళీ ఎదురవుతుంది, కాఫీ కప్పు లేదా షాంపూ బార్ లాగా. ఇది %1$d రోజు అలవాట్లలో టిక్ అవుతుంది, తర్వాత ప్రతి 3 నెలలకి చెక్ అవుతుంది.</item>
+        <item quantity="other">ఇదే ఎంపిక నీకు మళ్ళీ మళ్ళీ ఎదురవుతుంది, కాఫీ కప్పు లేదా షాంపూ బార్ లాగా. ఇది %1$d రోజులు అలవాట్లలో టిక్ అవుతుంది, తర్వాత ప్రతి 3 నెలలకి చెక్ అవుతుంది.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">ఇంకా మార్పులు లేవు</string>
+    <string name="tabs_changes_day_badge">రోజు %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">నిలిచింది</string>
+    <string name="tabs_changes_one_off_todo">ఒక్కసారి, చేయాలి</string>
+    <string name="tabs_changes_one_off_tip">ఒక్కసారి చేస్తే అయిపోతుంది, డ్రాయర్ సర్దడం, గ్రీన్ కరెంట్ ప్లాన్‌కి మారడం, జాకెట్ రిపేర్ చేయడం లాగా. టిక్ చేస్తే పూర్తయినవి లోకి వెళ్తుంది.</string>
+    <string name="tabs_changes_nothing_waiting">ఏమీ మిగల్లేదు</string>
+    <string name="tabs_changes_finished">పూర్తయినవి · %1$d</string>
+
+    <string name="tabs_avoid_title">దూరం పెట్టే జాబితా</string>
+    <string name="tabs_avoid_search">వెతుకు…</string>
+    <string name="tabs_avoid_no_match">ఏమీ దొరకలేదు</string>
+    <string name="tabs_avoid_companies">కంపెనీలు</string>
+    <string name="tabs_avoid_food">ఆహారం</string>
+    <string name="tabs_avoid_products">ఉత్పత్తులు</string>
+
+    <string name="tabs_avoid_added">చేర్చింది</string>
+    <string name="tabs_avoid_why">ఎందుకు దూరం పెడుతున్నావు</string>
+    <string name="tabs_avoid_own_words">నీ మాటల్లో</string>
+    <string name="tabs_avoid_brands">దీని బ్రాండ్‌లు · %1$d</string>
+    <string name="tabs_avoid_brand_hint">ఒక్కో లైన్‌కి ఒక బ్రాండ్</string>
+    <string name="tabs_avoid_more_brands">+%1$d ఇంకా</string>
+    <string name="tabs_avoid_instead">దీనికి బదులు ఇది</string>
+    <string name="tabs_avoid_instead_hint">ఒక్కో లైన్‌కి ఒకటి</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">జారుడు</item>
+        <item quantity="other">జారుడులు</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">దూరం పెట్టావు</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">నెల జాబితాలో</item>
+        <item quantity="other">నెలలు జాబితాలో</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">ఇది దాని చరిత్రతో పాటు నీ దూరం జాబితా నుంచి పోతుంది.</string>
+
+    <string name="tabs_habit_delete_text">దీని మొత్తం చరిత్ర కూడా పోతుంది.</string>
+    <string name="tabs_habit_created">మొదలుపెట్టింది</string>
+    <string name="tabs_habit_to_do">చేయాలి</string>
+    <string name="tabs_habit_daily_ticks">రోజువారీ టిక్‌లు</string>
+    <string name="tabs_habit_day_of">%2$d లో %1$d వ రోజు</string>
+    <string name="tabs_habit_finished">పూర్తయింది</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">రోజుగా సాగుతోంది</item>
+        <item quantity="other">రోజులుగా సాగుతోంది</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">సారి తెగింది</item>
+        <item quantity="other">సార్లు తెగింది</item>
+    </plurals>
+    <string name="tabs_habit_success">విజయం</string>
+    <string name="tabs_habit_current_streak">ప్రస్తుత వరుస</string>
+    <string name="tabs_habit_longest_streak">అతి పొడవైన వరుస</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d రోజు</item>
+        <item quantity="other">%1$d రోజులు</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">ఎందుకు జారింది</string>
+    <string name="tabs_habit_remove_reason">ఈ కారణం తీసేయి</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">నీ జీవితాన్ని మెరుగుపరిచిన దారి</item>
+        <item quantity="other">నీ జీవితాన్ని మెరుగుపరిచిన దారులు</item>
+    </plurals>
+    <string name="tabs_insights_habits">అలవాట్లు</string>
+    <string name="tabs_insights_swaps">మార్పులు</string>
+    <string name="tabs_insights_avoids">దూరం</string>
+    <string name="tabs_insights_on_track_section">సరైన దారిలో</string>
+    <string name="tabs_insights_avg_days">%1$d రో</string>
+    <string name="tabs_insights_average_kept">సగటున పాటించింది</string>
+    <string name="tabs_insights_days_checked_in">చెక్-ఇన్ చేసిన రోజులు</string>
+    <string name="tabs_insights_on_track">సరైన దారిలో</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">జారుడు</item>
+        <item quantity="other">జారుడులు</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">కొత్త అడుగు</item>
+        <item quantity="other">కొత్త అడుగులు</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">ఒక్కసారి పని పూర్తి</item>
+        <item quantity="other">ఒక్కసారి పనులు పూర్తి</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">జారడానికి ముఖ్య కారణాలు</string>
+    <string name="tabs_insights_added_quarter">ఈ త్రైమాసికంలో చేర్చినవి</string>
+    <string name="tabs_insights_past_summaries">గత 3 నెలల సారాంశాలు</string>
+    <string name="tabs_insights_first_on">నీ మొదటి సారాంశం %1$s న వస్తుంది</string>
+    <string name="tabs_insights_all_time">మొదటి నుంచి</string>
+    <string name="tabs_insights_period">%1$s నుంచి %2$s %3$d</string>
+
+    <string name="forms_back">వెనక్కి</string>
+    <string name="forms_back_habits">అలవాట్లు</string>
+    <string name="forms_back_settings">సెట్టింగ్‌లు</string>
+    <string name="forms_add">చేర్చు</string>
+    <string name="forms_save">సేవ్</string>
+    <string name="forms_finish">ముగించు</string>
+    <string name="forms_delete">తొలగించు</string>
+    <string name="forms_why">ఎందుకు</string>
+    <string name="forms_never_show">మళ్ళీ చూపించకు</string>
+    <string name="forms_every">ప్రతి</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">రోజు</item>
+        <item quantity="other">రోజులు</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">%2$d లో %1$d వ అడుగు</string>
+    <string name="forms_checkin_next_weekly">తర్వాత, వారపు చెక్-ఇన్ ›</string>
+    <string name="forms_checkin_next_quarter">తర్వాత, 3 నెలల చెక్-అప్ ›</string>
+    <string name="forms_daily_title">రోజువారీ చెక్-ఇన్</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">ముందటి %1$d రోజు ఇంకా నింపలేదు</item>
+        <item quantity="other">ముందటి %1$d రోజులు ఇంకా నింపలేదు</item>
+    </plurals>
+    <string name="forms_daily_skip_all">అన్నీ వదిలేయి</string>
+    <string name="forms_daily_today">ఈరోజు · %1$s</string>
+    <string name="forms_daily_skip">వదిలేయి</string>
+    <string name="forms_daily_undo_skip">వదలడం రద్దు</string>
+    <string name="forms_daily_new_tag">కొత్త ట్యాగ్</string>
+    <string name="forms_daily_new_tag_hint">చెత్తబుట్ట నిండిపోయింది</string>
+    <string name="forms_weekly_title">వారపు చెక్-ఇన్</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d వారం బాకీ, ఒక్క కొత్త అడుగు అన్నిటికీ సరిపోతుంది.</item>
+        <item quantity="other">%1$d వారాలు బాకీ, ఒక్క కొత్త అడుగు అన్నిటికీ సరిపోతుంది.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">ఈ వారం కొత్త అడుగు లేదు</string>
+    <string name="forms_quarter_title">3 నెలల చెక్-అప్</string>
+    <string name="forms_quarter_nothing">చెక్-అప్ చేయడానికి ఇంకా ఏమీ కట్టలేదు. తర్వాత నీ సారాంశం.</string>
+    <string name="forms_quarter_habits">అలవాట్లు</string>
+    <string name="forms_quarter_swaps">మార్పులు</string>
+    <string name="forms_quarter_avoid">దూరం</string>
+    <string name="forms_quarter_missed">తప్పింది</string>
+    <string name="forms_quarter_missed_level">తప్పింది: %1$s</string>
+
+    <string name="forms_new_title">కొత్త అడుగు</string>
+    <string name="forms_edit_title">మార్చు: %1$s</string>
+    <string name="forms_add_kind">చేర్చు: %1$s</string>
+    <string name="forms_title_habit">అలవాటు</string>
+    <string name="forms_title_swap">మార్పు</string>
+    <string name="forms_title_avoid">దూరం</string>
+    <string name="forms_save_changes">మార్పులు సేవ్ చెయ్యి</string>
+    <string name="forms_what_kind">ఏ రకం?</string>
+    <string name="forms_name">పేరు</string>
+    <string name="forms_your_new_step">నీ కొత్త అడుగు</string>
+    <string name="forms_hint_habit">10 పేజీలు చదువు</string>
+    <string name="forms_hint_swap">స్పాంజ్ కాదు, లూఫా</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">ఏ రకం అలవాటు?</string>
+    <string name="forms_timing_tip_title">ఎప్పుడైనా లేదా రోజు చివర</string>
+    <string name="forms_timing_tip">ఎప్పుడైనా: ఒక్కసారి చేసేది, పరుగు లాగా. అయిపోగానే టిక్ చెయ్యి.\n\nరోజు చివర: రోజంతా పాటించే నియమం, స్నాక్స్ వద్దు లాగా. దీన్ని సాయంత్రం మాత్రమే టిక్ చేయగలవు.</string>
+    <string name="forms_anytime">ఎప్పుడైనా</string>
+    <string name="forms_end_of_day">రోజు చివర</string>
+    <string name="forms_what_is_it">ఇది ఏంటి?</string>
+    <string name="forms_how_often">ఎంత తరచుగా?</string>
+    <string name="forms_often_specific">కొన్ని రోజులు</string>
+    <string name="forms_often_whenever">ఎప్పుడైనా</string>
+    <string name="forms_often_once">ఒక్కసారే</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">సారి ప్రతి</item>
+        <item quantity="other">సార్లు ప్రతి</item>
+    </plurals>
+    <string name="forms_unit_day">రోజు</string>
+    <string name="forms_unit_week">వారం</string>
+    <string name="forms_unit_month">నెల</string>
+    <string name="forms_unit_x_days">X రోజులు</string>
+    <string name="forms_ideas">ఐడియాలు</string>
+    <string name="forms_ideas_others">ఇతరాలు</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">%1$d ఐడియా చూడు ›</item>
+        <item quantity="other">మొత్తం %1$d ఐడియాలు చూడు ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">అడుగుల ఐడియాలు అన్నీ</string>
+    <string name="forms_search">వెతుకు…</string>
+    <string name="forms_all">అన్నీ</string>
+
+    <string name="forms_settings_title">సెట్టింగ్‌లు</string>
+    <string name="forms_set_colours">రంగులు</string>
+    <string name="forms_set_style">3 నెలల సారాంశం స్టైల్</string>
+    <string name="forms_set_checkins">చెక్-ఇన్‌లు</string>
+    <string name="forms_set_checkin_hour">రోజువారీ చెక్-ఇన్ తెరిచే టైమ్</string>
+    <string name="forms_set_checkin_hour_tip">ఈ టైమ్ నుంచి రోజు చివరి అలవాట్లు టిక్ చేసి, రోజువారీ చెక్-ఇన్ చేయొచ్చు.</string>
+    <string name="forms_set_week_start">వారం మొదలయ్యే రోజు</string>
+    <string name="forms_set_week_start_tip">నీ అలవాట్ల గ్రిడ్, వారాలు, చార్ట్‌లు ఏ రోజు మొదలవ్వాలి.</string>
+    <string name="forms_monday">సోమవారం</string>
+    <string name="forms_sunday">ఆదివారం</string>
+    <string name="forms_set_new_step_every">కొత్త అడుగు ప్రతి</string>
+    <string name="forms_set_new_step_every_tip">వారపు చెక్-ఇన్‌ల మధ్య ఎన్ని వారాలు.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">వారం</item>
+        <item quantity="other">వారాలు</item>
+    </plurals>
+    <string name="forms_set_weekly_day">వారపు చెక్-ఇన్ రోజు</string>
+    <string name="forms_set_weekly_day_tip">ఈ రోజు రోజువారీ చెక్-ఇన్ తర్వాత వచ్చే వారం కొత్త అడుగు ఎంచుకుంటావు.</string>
+    <string name="forms_set_checkup">3 నెలల చెక్-అప్</string>
+    <string name="forms_set_checkup_tip">అందరూ ఒకే రోజుల్లో చెక్-అప్ చేస్తారు: జన 1, ఏప్రి 1, జులై 1, అక్టో 1, అలా మీరంతా కలిసి సారాంశం పంచుకోవచ్చు. కావాలంటే నీ సొంత తేదీ ఎంచుకో.</string>
+    <string name="forms_set_same">అందరితో పాటు</string>
+    <string name="forms_set_own">నా సొంత తేదీ</string>
+    <string name="forms_set_starting">మొదలు</string>
+    <string name="forms_set_starting_tip">నీ మొదటి సొంత చెక్-అప్ నెల.</string>
+    <string name="forms_earlier">ముందు</string>
+    <string name="forms_later">తర్వాత</string>
+    <string name="forms_set_every_tip">చెక్-అప్‌ల మధ్య ఎన్ని నెలలు.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">నెల</item>
+        <item quantity="other">నెలలు</item>
+    </plurals>
+    <string name="forms_set_day_of_month">నెలలో రోజు</string>
+    <string name="forms_set_day_of_month_tip">ఆ నెలలో ఏ రోజు.</string>
+    <string name="forms_set_everyone">అందరూ: జన 1 · ఏప్రి 1 · జులై 1 · అక్టో 1</string>
+    <string name="forms_set_days_build">అలవాటు కావడానికి రోజులు</string>
+    <string name="forms_set_days_build_tip">పరిశోధనలో 18 నుంచి 254 రోజులు తేలాయి, ఎక్కువగా చెప్పేది 66 (Lally et al. 2010, Singh et al. 2024). ఇన్ని రోజుల తర్వాత కొత్త అడుగు నీ చెక్-అప్‌లకి వెళ్తుంది.</string>
+    <string name="forms_set_nudge">రోజువారీ గుర్తుచేత</string>
+    <string name="forms_set_nudge_tip">ఈ టైమ్‌కి ఒక గుర్తుచేత, ఏదైనా ఇంకా టిక్ చేయకపోతేనే.</string>
+    <string name="forms_set_more">ఇంకా</string>
+    <string name="forms_set_reasons">జారుడు కారణాలు</string>
+    <string name="forms_set_tutorial">ట్యుటోరియల్ మళ్ళీ చూడు</string>
+    <string name="forms_set_export">నా డేటా ఎక్స్‌పోర్ట్</string>
+    <string name="forms_set_import">డేటా ఇంపోర్ట్</string>
+
+    <string name="forms_reasons_title">జారుడు కారణాలు</string>
+    <string name="forms_reasons_hint">నీ సొంత కారణం చేర్చు</string>
+    <string name="forms_reasons_used">%1$d× వాడావు</string>
+    <string name="forms_reasons_delete_title">%1$s తొలగించాలా?</string>
+    <string name="forms_reasons_delete_text">జారుడులు నీ చరిత్రలో అలాగే ఉంటాయి, ఈ ట్యాగ్ లేకుండా.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d అలవాటు</item>
+        <item quantity="other">%1$d అలవాట్లు</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d మార్పు</item>
+        <item quantity="other">%1$d మార్పులు</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d దూరం</item>
+        <item quantity="other">%1$d దూరాలు</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, %2$s నుంచి టిక్‌లు</string>
+    <string name="forms_export_title">నా డేటా ఎక్స్‌పోర్ట్</string>
+    <string name="forms_export_what">ఫైల్‌లో ఏముంటుంది</string>
+    <string name="forms_export_ticks">ప్రతి టిక్, జారుడు, కారణం</string>
+    <string name="forms_export_ticks_since">%1$s నుంచి ప్రతి టిక్, జారుడు, కారణం</string>
+    <string name="forms_export_summaries">నీ 3 నెలల సారాంశాలు</string>
+    <string name="forms_export_settings">నీ సెట్టింగ్‌లు, రంగులు, పేరు</string>
+    <string name="forms_export_file">ఫైల్</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">ఫైల్ సేవ్ చెయ్యి</string>
+    <string name="forms_export_send">పంపు…</string>
+    <string name="forms_export_send_title">నీ Alice డేటా పంపు</string>
+    <string name="forms_export_saved">సేవ్ అయింది: %1$s</string>
+    <string name="forms_export_save_failed">ఫైల్ సేవ్ కాలేదు</string>
+
+    <string name="forms_import_title">డేటా ఇంపోర్ట్</string>
+    <string name="forms_import_choose">Alice బ్యాకప్ ఎంచుకో</string>
+    <string name="forms_import_choose_sub">.json, ఇంకో ఫోన్‌లో ఎక్స్‌పోర్ట్ నుంచి</string>
+    <string name="forms_import_cant_open">ఆ ఫైల్ తెరవలేకపోయాం.</string>
+    <string name="forms_import_not_backup">ఆ ఫైల్ Alice బ్యాకప్ కాదు.</string>
+    <string name="forms_import_replace_mode">ఇక్కడ ఉన్నది మార్చు</string>
+    <string name="forms_import_add_mode">ఇక్కడ ఉన్నదానికి చేర్చు</string>
+    <string name="forms_import_button">ఇంపోర్ట్</string>
+    <string name="forms_import_replace_title">నీ డేటా మార్చాలా?</string>
+    <string name="forms_import_add_title">ఈ డేటా చేర్చాలా?</string>
+    <string name="forms_import_replace_text">ఈ ఫోన్‌లో ఉన్నదంతా ఫైల్‌తో మారిపోతుంది. ఉంచుకోవాలంటే ముందు ఎక్స్‌పోర్ట్ చెయ్యి.</string>
+    <string name="forms_import_add_text">ఫైల్‌లోని అలవాట్లు, చరిత్ర నీ వాటికి చేరతాయి.</string>
+    <string name="forms_import_done">డేటా ఇంపోర్ట్ అయింది</string>
+
+    <string name="look_share">షేర్</string>
+    <string name="look_save_image">చిత్రం సేవ్</string>
+    <string name="look_next_week">తర్వాత, నీ వారం ›</string>
+    <string name="look_keep_going">కొనసాగించు</string>
+    <string name="look_storage_needed">చిత్రం సేవ్ చేయడానికి Alice కి స్టోరేజ్ అనుమతి కావాలి</string>
+    <string name="look_share_caption">Alice తో నా త్రైమాసికం. నువ్వూ మొదలుపెట్టు: %1$s</string>
+    <string name="look_share_clip">Alice సారాంశం</string>
+    <string name="look_share_chooser">నీ త్రైమాసికం షేర్ చెయ్యి</string>
+    <string name="look_saved">Pictures/Alice లో సేవ్ అయింది</string>
+    <string name="look_save_failed">చిత్రం సేవ్ కాలేదు</string>
+
+    <string name="look_style_poster">పోస్టర్</string>
+    <string name="look_style_wrapped">ర్యాప్డ్</string>
+    <string name="look_style_trophy">ట్రోఫీ అల్మారా</string>
+    <string name="look_style_receipt">రసీదు</string>
+    <string name="look_style_report">రిపోర్ట్ కార్డ్</string>
+    <string name="look_style_boarding">బోర్డింగ్ పాస్</string>
+    <string name="look_style_polaroid">పోలరాయిడ్</string>
+    <string name="look_style_calendar">క్యాలెండర్</string>
+    <string name="look_style_trading">ట్రేడింగ్ కార్డ్</string>
+
+    <string name="look_quote_1">చిన్న అడుగులు, ప్రతి రోజు</string>
+    <string name="look_quote_2">రోజూ వచ్చినందుకు థ్యాంక్స్</string>
+    <string name="look_quote_3">ప్రగతి, పరిపూర్ణత కాదు</string>
+    <string name="look_quote_4">నువ్వు ఆగలేదు, అదే ముఖ్యం</string>
+    <string name="look_quote_5">చిన్న మార్పులు, పెద్ద తేడా</string>
+    <string name="look_quote_6">ప్రతి రోజు మంచిదే ఎంచుకున్నావు</string>
+    <string name="look_quote_7">నెమ్మదిగా అయినా ముందుకే</string>
+    <string name="look_quote_8">నీకు నచ్చే జీవితం కట్టుకుంటున్నావు</string>
+    <string name="look_quote_9">ఒక్కో అడుగు కలిసి పెద్దదవుతుంది</string>
+    <string name="look_quote_10">నీ కోసం నువ్వు నిలబడు</string>
+    <string name="look_quote_11">రేపటి నువ్వు థ్యాంక్స్ చెప్తుంది</string>
+    <string name="look_quote_12">కొంచెం కొంచెంగా, చాలా</string>
+    <string name="look_quote_13">నిలకడ ఒక నిశ్శబ్ద మాయ</string>
+    <string name="look_quote_14">ఎంత దూరం వచ్చావో చూడు</string>
+    <string name="look_quote_15">చిన్న గెలుపులకి గర్వపడు</string>
+    <string name="look_quote_16">మంచి రోజులు దొరకవు, కట్టుకోవాలి</string>
+
+    <string name="look_stamp_1">అద్భుతం</string>
+    <string name="look_stamp_2">అసాధారణం</string>
+    <string name="look_stamp_3">శభాష్</string>
+    <string name="look_stamp_4">అదరహో</string>
+    <string name="look_stamp_5">సూపర్</string>
+    <string name="look_stamp_6">పూర్తి మార్కులు</string>
+    <string name="look_stamp_7">గోల్డ్ స్టార్</string>
+    <string name="look_stamp_8">చాలా బాగుంది</string>
+
+    <string name="look_period">%1$s నుంచి %2$s</string>
+    <string name="look_scan">స్కాన్ చేసి\nనీ ప్రయాణం\nమొదలుపెట్టు</string>
+    <string name="look_you">నువ్వు</string>
+    <string name="look_on_track">సరైన దారిలో</string>
+    <string name="look_new_steps">కొత్త అడుగులు</string>
+    <string name="look_days_in">రోజులు అయ్యాయి</string>
+    <string name="look_new">కొత్త</string>
+    <string name="look_week_by_week">వారం వారం</string>
+    <string name="look_coming_soon">త్వరలో</string>
+    <string name="look_new_this_quarter">ఈ త్రైమాసికంలో కొత్తవి</string>
+    <string name="look_kept_up_longest">ఎక్కువ కాలం పాటించినవి</string>
+    <string name="look_habits">అలవాట్లు</string>
+    <string name="look_swaps">మార్పులు</string>
+    <string name="look_avoids">దూరం</string>
+    <string name="look_ways_improved">మెరుగుపడిన దారులు</string>
+    <string name="look_improved_in">నువ్వు నీ జీవితాన్ని %1$s మెరుగుపరిచావు</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d అలవాటు</item>
+        <item quantity="other">%1$d అలవాట్లు</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d మార్పు</item>
+        <item quantity="other">%1$d మార్పులు</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d దూరం</item>
+        <item quantity="other">%1$d దూరాలు</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d జారుడు</item>
+        <item quantity="other">%1$d జారుడులు</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d దారిలో</item>
+        <item quantity="other">%1$d దారుల్లో</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">అలవాటు</item>
+        <item quantity="other">అలవాట్లు</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">మార్పు</item>
+        <item quantity="other">మార్పులు</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">దూరం</item>
+        <item quantity="other">దూరాలు</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">జారుడు</item>
+        <item quantity="other">జారుడులు</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">దారి</item>
+        <item quantity="other">దారులు</item>
+    </plurals>
+
+    <string name="look_poster_improved">నువ్వు నీ జీవితాన్ని %1$s మెరుగుపరిచావు</string>
+    <string name="look_poster_on_track">సరైన దారిలో</string>
+    <string name="look_poster_days">రోజులు</string>
+    <string name="look_poster_achievements">సాధనలు</string>
+    <string name="look_poster_first_ones">నీ మొదటి సాధనలు దారిలో ఉన్నాయి</string>
+    <string name="look_poster_added">ఈ త్రైమాసికంలో నువ్వు చేర్చినవి</string>
+
+    <string name="look_wrapped_stars">నీ నక్షత్రాలు</string>
+
+    <string name="look_trophy_ways">నీ జీవితాన్ని\nమెరుగుపరిచిన దారులు</string>
+    <string name="look_trophy_next_quarter">వచ్చే త్రైమాసికం</string>
+    <string name="look_trophy_first_medal">నీ మొదటి పతకం</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">అల్మారాలో కొత్తవి:</string>
+
+    <string name="look_receipt_title">3 నెలల చెక్-అప్ · %1$s</string>
+    <string name="look_receipt_customer">కస్టమర్: %1$s</string>
+    <string name="look_receipt_habits">కట్టిన అలవాట్లు</string>
+    <string name="look_receipt_swaps">మార్చినవి</string>
+    <string name="look_receipt_avoids">దూరం పెట్టినవి</string>
+    <string name="look_receipt_ways">జీవితాన్ని మెరుగుపరిచిన దారులు</string>
+    <string name="look_receipt_on_track">ఈ త్రైమాసికం సరైన దారిలో</string>
+    <string name="look_receipt_slips">జారుడులు</string>
+    <string name="look_receipt_new_steps">కట్టిన కొత్త అడుగులు</string>
+    <string name="look_receipt_new">ఈ త్రైమాసికంలో కొత్తవి: %1$s</string>
+
+    <string name="look_report_title">చిన్న అడుగుల రిపోర్ట్</string>
+    <string name="look_report_pupil">%1$s · విద్యార్థి: %2$s</string>
+    <string name="look_report_subject">విషయం</string>
+    <string name="look_report_built">కట్టింది</string>
+    <string name="look_report_grade">గ్రేడ్</string>
+    <string name="look_report_attendance">హాజరు %1$s</string>
+    <string name="look_report_on_track">సరైన దారిలో %1$s</string>
+    <string name="look_report_slips">జారుడులు %1$s</string>
+    <string name="look_report_achievements">సాధనలు</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">ఈ టర్మ్ కొత్త విషయాలు (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">టీచర్ వ్యాఖ్య:</string>
+    <string name="look_report_calm">ప్రశాంతమైన, నిలకడైన టర్మ్.</string>
+    <string name="look_report_ups_downs">ఎత్తుపల్లాలున్న టర్మ్, అయినా నువ్వు నిలబడ్డావు.</string>
+    <string name="look_report_star">%1$s అద్భుతంగా చేశారు. ఇలాగే కొనసాగించు!</string>
+    <string name="look_report_keep_up">ఇలాగే కొనసాగించు!</string>
+    <string name="look_report_week">వారం వారం</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">ఫ్లైట్ Q%1$d</string>
+    <string name="look_boarding_from">నుంచి</string>
+    <string name="look_boarding_old">పాత</string>
+    <string name="look_boarding_habits">అలవాట్లు</string>
+    <string name="look_boarding_to">వరకు</string>
+    <string name="look_boarding_new">కొత్త</string>
+    <string name="look_boarding_better_you">మెరుగైన నువ్వు</string>
+    <string name="look_boarding_passenger">ప్రయాణికుడు</string>
+    <string name="look_boarding_dates">తేదీలు</string>
+    <string name="look_boarding_miles">ఎగిరిన మైళ్ళు</string>
+    <string name="look_boarding_on_time">సమయానికి</string>
+    <string name="look_boarding_turbulence">కుదుపులు</string>
+    <string name="look_boarding_days">ప్రయాణ రోజులు</string>
+    <string name="look_boarding_flyer">తరచు ప్రయాణికుడు, నీ పాత తోడులు</string>
+    <string name="look_boarding_log">ఫ్లైట్ లాగ్, వారం వారం</string>
+    <string name="look_boarding_stops">కొత్త మజిలీలు, +%1$d</string>
+    <string name="look_boarding_note">కెప్టెన్ సందేశం</string>
+
+    <string name="look_polaroid_life">నీ జీవితం</string>
+    <string name="look_polaroid_quarter">ఈ త్రైమాసికం</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d రోజులు అయ్యాయి</string>
+    <string name="look_polaroid_longest">ఎక్కువ కాలం పాటించినవి</string>
+    <string name="look_polaroid_new">కొత్తవి, +%1$d</string>
+
+    <string name="look_calendar_added">చేర్చినవి</string>
+
+    <string name="look_trading_common">సాధారణం</string>
+    <string name="look_trading_uncommon">అరుదైనదే</string>
+    <string name="look_trading_rare">అరుదు</string>
+    <string name="look_trading_legendary">పురాణ</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">దారి</item>
+        <item quantity="other">దారులు</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$dవ</string>
+    <string name="look_ordinal_nd">%1$dవ</string>
+    <string name="look_ordinal_rd">%1$dవ</string>
+    <string name="look_ordinal_th">%1$dవ</string>
+    <string name="look_trading_number">నం. %1$03d · నీ %2$s త్రైమాసికం</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d రోజులు</string>
+    <string name="look_trading_power">శక్తి, వారం వారం</string>
+    <string name="look_trading_edition">%1$s · Q%2$d ఎడిషన్</string>
+
+    <string name="look_sample_water_first">ముందు నీళ్ళు</string>
+    <string name="look_sample_own_bag">సొంత సంచి</string>
+    <string name="look_sample_read_pages">10 పేజీలు చదువు</string>
+    <string name="look_sample_reading">రోజూ చదవడం</string>
+    <string name="look_sample_late_snacks">రాత్రి స్నాక్స్ వద్దు</string>
+    <string name="look_sample_stretching">స్ట్రెచింగ్</string>
+    <string name="look_sample_cooler_home">చల్లని ఇల్లు</string>
+    <string name="look_sample_loofah">స్పాంజ్ కాదు, లూఫా</string>
+    <string name="look_sample_palm_oil">పామ్ ఆయిల్ లేకుండా</string>
+    <string name="look_sample_stretch">10 నిమిషాలు స్ట్రెచ్</string>
+
+    <string name="look_colours_title">రంగులు</string>
+    <string name="look_colours_preview">ప్రివ్యూ</string>
+    <string name="look_colours_your_summary">నీ 3 నెలల సారాంశం</string>
+    <string name="look_colours_light">లైట్</string>
+    <string name="look_colours_dark">డార్క్</string>
+    <string name="look_styles_title">3 నెలల సారాంశం స్టైల్</string>
+    <string name="look_styles_all_pictures">30 పోలరాయిడ్ చిత్రాలన్నీ చూడు</string>
+    <string name="look_styles_refresh">రిఫ్రెష్</string>
+    <string name="look_pictures_title">పోలరాయిడ్ చిత్రాలు</string>
+    <string name="look_pictures_back">సారాంశం స్టైల్‌లు</string>
+
+    <string name="look_welcome_name">నీ పేరు</string>
+    <string name="look_welcome_start">మొదలుపెట్టు</string>
+    <string name="look_welcome_import">నా డేటా ఇంపోర్ట్</string>
+
+    <string name="look_tut_skip">వదిలేయి</string>
+    <string name="look_tut_page">%2$d లో %1$d</string>
+    <string name="look_tut_back">వెనక్కి</string>
+    <string name="look_tut_start">మొదలుపెట్టు</string>
+    <string name="look_tut_next">తర్వాత</string>
+    <string name="look_tut1_title">ఒక్కో అడుగుతో మెరుగైన నువ్వు</string>
+    <string name="look_tut1_body">కొత్త అలవాట్లు కట్టు, మంచి ఎంపికలు చెయ్యి, నువ్వు సాధించేదంతా ఎలా పెరుగుతుందో చూడు.</string>
+    <string name="look_tut1_habits">రోజు రోజుకీ మంచి అలవాట్లు కట్టు, నువ్వు కావాలనుకున్నట్టు అవ్వు.</string>
+    <string name="look_tut1_swaps">వస్తువులను మంచివాటితో మార్చు, భూమికి, మనుషులకి లేదా నీ ఆరోగ్యానికి మంచివి.</string>
+    <string name="look_tut1_avoids">నువ్వు సపోర్ట్ చేయకూడదనుకునే కంపెనీలు, ఆహారం, ఉత్పత్తుల లెక్క ఉంచు.</string>
+    <string name="look_tut2_title">టిక్ చెయ్యి</string>
+    <string name="look_tut2_body">అలవాటు చేశాక చతురస్రం మీద ట్యాప్ చెయ్యి. సాయంత్రం అలవాట్లు నీ చెక్-ఇన్ టైమ్‌కి తెరుచుకుంటాయి.</string>
+    <string name="look_tut3_title">%1$s, తర్వాత ప్రతి %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d రోజు</item>
+        <item quantity="other">%1$d రోజులు</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d నెల</item>
+        <item quantity="other">%1$d నెలలు</item>
+    </plurals>
+    <string name="look_tut3_body">అలవాటు కావడానికి 18 నుంచి 254 రోజులు పడుతుందని అధ్యయనాలు చెప్తున్నాయి. ఎక్కువగా చెప్పే సంఖ్య 66 రోజులు, అందుకే Alice అక్కడ మొదలవుతుంది.</string>
+    <string name="look_tut3_days_label">అలవాటు కావడానికి రోజులు</string>
+    <string name="look_tut3_checkup">చెక్-అప్ ప్రతి</string>
+    <string name="look_tut3_small">రెండూ సెట్టింగ్‌లలో మార్చుకోవచ్చు.</string>
+    <string name="look_tut4_title">వారానికి ఒకసారి, ఒక కొత్త అడుగు</string>
+    <string name="look_tut4_body">ఒకసారికి ఒక కొత్త అడుగు చేర్చడం వల్ల నెమ్మదిగా ఎదుగుతావు, ఒక్కసారే ఎక్కువ భారం లేకుండా.</string>
+    <string name="look_tut4_day">చెక్-ఇన్ రోజు</string>
+    <string name="look_tut4_small">దీన్ని కూడా సెట్టింగ్‌లలో మార్చుకోవచ్చు.</string>
+    <string name="look_tut5_title">ప్రతి త్రైమాసికం, నీ సారాంశం</string>
+    <string name="look_tut5_body">నువ్వు ఎంత దూరం వచ్చావో నీ స్నేహితులతో, దగ్గరివాళ్ళతో పంచుకో. నచ్చిన లుక్ మీద ట్యాప్ చెయ్యి:</string>
+    <string name="look_tut_change_mind">ఎప్పుడైనా మనసు మార్చుకోవచ్చు.</string>
+    <string name="look_tut6_title">నీదిగా చేసుకో</string>
+    <string name="look_tut6_body">నీకు హాయిగా అనిపించే రంగులు ఎంచుకో. యాప్ మొత్తం వెంటనే మారిపోతుంది.</string>
+    <string name="look_tut7_title">ఏదైనా, ఎప్పుడైనా మార్చు</string>
+    <string name="look_tut7_body">చెక్-ఇన్ టైమ్‌లు, అలవాటు కావడానికి రోజులు, సారాంశం స్టైల్, రంగులు, నీ డేటా అన్నీ సెట్టింగ్‌లలో ఉంటాయి.</string>
+    <string name="look_tut7_gear">సెట్టింగ్‌లు తెరవడానికి అలవాట్ల పైన గేర్ మీద ట్యాప్ చెయ్యి.</string>
+    <string name="look_tut7_open">సెట్టింగ్‌లు తెరువు</string>
+
+    <string name="lang_title">భాష</string>
+    <string name="pron_title">సర్వనామాలు</string>
+    <string name="pron_she">ఆమె</string>
+    <string name="pron_he">అతను</string>
+    <string name="pron_they">తటస్థం</string>
+    <string name="lang_spotted">నీ భాషలో తప్పు కనిపించిందా?</string>
+    <string name="lang_search">నీ భాష వెతుకు</string>
+    <string name="lang_phone">ఫోన్ భాష</string>
+    <string name="lang_follow">ఫోన్ ప్రకారం</string>
+    <string name="lang_note_title">అనువాదాల్లో సాయం</string>
+    <string name="lang_note_1">హాయ్, నేను లూసీ, Alice ని నేనే తయారు చేశాను.</string>
+    <string name="lang_note_2">నేను ఇంగ్లీష్, స్లోవాక్, చెక్, రష్యన్ మాట్లాడతాను, అందుకే ఆ అనువాదాలు నేనే చెక్ చేశాను. మిగతా భాషలను ఇంకా ఆ భాష మాతృభాషగా ఉన్నవాళ్ళు చెక్ చేయలేదు.</string>
+    <string name="lang_note_3">నీ భాషలో ఏదైనా తప్పు కనిపిస్తే నాకు చెప్పు, సరిచేస్తాను. కొంతకాలంగా Alice ని నీ భాషలో వాడుతుంటే, అంతా సరిగ్గా ఉంటే, అది కూడా చెప్పు, అప్పుడు దాన్ని ఆమోదించినట్టు గుర్తు పెడతాను.</string>
+    <string name="lang_note_4">థ్యాంక్యూ!</string>
+    <string name="lang_not_approved">ఇంకా ఆమోదం లేదు</string>
+    <string name="lang_report">తప్పు చెప్పు</string>
+    <string name="lang_all_correct">నా భాషలో అంతా సరిగ్గా ఉంది</string>
+    <string name="lang_mail_mistake_body">ఏది తప్పుగా ఉంది, ఏ స్క్రీన్‌లో:\n\n</string>
+    <string name="lang_mail_correct_body">నేను కొంతకాలంగా Alice ని నా భాషలో వాడుతున్నా, అంతా సరిగ్గా ఉంది.\n\n</string>
+    <string name="lang_no_mail">ఈమెయిల్ యాప్ దొరకలేదు</string>
+</resources>

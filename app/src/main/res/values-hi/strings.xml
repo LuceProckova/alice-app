@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">बहुत थकान</string>
+    <string name="core_reason_craving">तलब</string>
+    <string name="core_reason_no_time">समय नहीं</string>
+    <string name="core_reason_forgot">याद नहीं रहा</string>
+    <string name="core_reason_no_alternative">कोई विकल्प नहीं</string>
+    <string name="core_reason_social">दोस्तों के साथ</string>
+    <string name="core_reason_impulse">अचानक मन हुआ</string>
+    <string name="core_reason_too_expensive">बहुत महँगा</string>
+    <string name="core_reason_away">घर से बाहर</string>
+
+    <string name="core_nudge_channel">रोज़ का रिमाइंडर</string>
+    <string name="core_nudge_title">आज अभी टिक करना बाकी है</string>
+    <string name="core_save_failed">सेव नहीं हो सका, फिर से कोशिश करो</string>
+
+    <string name="core_kind_habit">आदत</string>
+    <string name="core_kind_swap">बदलाव</string>
+    <string name="core_kind_avoid">परहेज़</string>
+    <string name="core_about">%1$s के बारे में</string>
+    <string name="core_ok">ठीक है</string>
+    <string name="core_less">कम</string>
+    <string name="core_more">ज़्यादा</string>
+    <string name="core_cancel">रद्द करो</string>
+    <string name="core_settings">सेटिंग्स</string>
+    <string name="core_span_week">हफ़्ता</string>
+    <string name="core_span_month">महीना</string>
+    <string name="core_span_year">साल</string>
+    <string name="core_span_all">शुरू से अब तक</string>
+    <string name="core_tab_habits">आदतें</string>
+    <string name="core_tab_changes">बदलाव</string>
+    <string name="core_tab_avoid">परहेज़</string>
+    <string name="core_tab_insights">झलक</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">निभाया</string>
+    <string name="core_cell_missed">छूट गया</string>
+    <string name="core_cell_partial">थोड़ा हुआ, अब तक %1$d</string>
+    <string name="core_cell_unfilled">अभी भरा नहीं</string>
+    <string name="core_cell_open">करना है</string>
+    <string name="core_cell_locked">चेक-इन के समय तक बंद</string>
+    <string name="core_cell_future">अभी नहीं</string>
+    <string name="core_cell_empty">कुछ ज़रूरी नहीं</string>
+    <string name="core_cell_band">इस अवधि के लिए हो गया</string>
+    <string name="core_cell_off">इस कदम का दिन नहीं</string>
+    <string name="core_cell_none">यह कदम शुरू होने से पहले</string>
+
+    <string name="core_rhythm_one_off">एक बार का</string>
+    <string name="core_rhythm_end_of_day">हर दिन, दिन के आख़िर में टिक</string>
+    <string name="core_rhythm_every_day">हर दिन</string>
+    <string name="core_rhythm_every_days">हर %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">हफ़्ते में</string>
+    <string name="core_rhythm_a_month">महीने में</string>
+    <string name="core_rhythm_times_any_day">%2$s %1$s, किसी भी दिन</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s और %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d मही.</string>
+    <string name="core_achievement_short_days">%1$d दि.</string>
+    <string name="core_glance_step">%1$s, %3$d में से %2$d</string>
+
+    <string name="core_slip_never">कभी नहीं</string>
+    <string name="core_slip_once">एक बार</string>
+    <string name="core_slip_a_few">कुछ बार</string>
+    <string name="core_slip_half">आधे</string>
+    <string name="core_slip_most">ज़्यादातर</string>
+    <string name="core_slip_always">हमेशा</string>
+
+    <string name="core_ideas_habit_anytime">आदतें, कभी भी</string>
+    <string name="core_ideas_habit_end">आदतें, दिन के आख़िर में</string>
+    <string name="core_ideas_swap">बदलाव</string>
+    <string name="core_ideas_avoid_product">परहेज़, प्रोडक्ट</string>
+    <string name="core_ideas_avoid_company">परहेज़, कंपनियाँ</string>
+    <string name="core_ideas_avoid_food">परहेज़, खाना</string>
+
+    <string name="core_tag_ethical">नैतिक</string>
+    <string name="core_tag_health">सेहत</string>
+    <string name="core_tag_clutter">फ़ालतू सामान</string>
+    <string name="core_tag_ecological">पर्यावरण</string>
+    <string name="core_tag_animal_welfare">पशु कल्याण</string>
+    <string name="core_tag_workers_rights">मज़दूरों के अधिकार</string>
+    <string name="core_tag_plastic">प्लास्टिक</string>
+    <string name="core_tag_palm_oil">पाम ऑयल</string>
+    <string name="core_tag_deforestation">जंगलों की कटाई</string>
+    <string name="core_category_company">कंपनी</string>
+    <string name="core_category_food">खाना</string>
+    <string name="core_category_product">प्रोडक्ट</string>
+    <string name="core_verdict_avoid">बचो</string>
+    <string name="core_verdict_edge">सोच-समझकर</string>
+    <string name="core_verdict_fine">ठीक है</string>
+
+    <string name="core_theme_off_white_honey">ऑफ़-व्हाइट और शहद</string>
+    <string name="core_theme_vanilla_caramel">वनीला और कैरामेल</string>
+    <string name="core_theme_sunflower">सूरजमुखी</string>
+    <string name="core_theme_latte">लाटे</string>
+    <string name="core_theme_cocoa_lemon">कोको और नींबू</string>
+    <string name="core_theme_espresso_butter">एस्प्रेसो और मक्खन</string>
+    <string name="core_theme_midnight_honey">आधी रात और शहद</string>
+    <string name="core_theme_forest_night">जंगल की रात</string>
+    <string name="core_theme_plum_dusk">आलूबुखारी शाम</string>
+    <string name="core_theme_charcoal_coral">चारकोल और कोरल</string>
+
+    <string name="core_pic_sunny_meadow">धूप भरा मैदान</string>
+    <string name="core_pic_sunset_hills">सूर्यास्त में पहाड़ियाँ</string>
+    <string name="core_pic_starry_night">तारों भरी रात</string>
+    <string name="core_pic_beach_day">समुद्र तट का दिन</string>
+    <string name="core_pic_mountain_lake">पहाड़ी झील</string>
+    <string name="core_pic_snowy_village">बर्फ़ से ढका गाँव</string>
+    <string name="core_pic_rainy_garden">बारिश में बगीचा</string>
+    <string name="core_pic_autumn_forest">पतझड़ का जंगल</string>
+    <string name="core_pic_cherry_blossom">चेरी के फूल</string>
+    <string name="core_pic_desert_cactus">रेगिस्तान का कैक्टस</string>
+    <string name="core_pic_lighthouse">लाइटहाउस</string>
+    <string name="core_pic_rainbow_field">इंद्रधनुष वाला खेत</string>
+    <string name="core_pic_hot_air_balloon">हॉट एयर बैलून</string>
+    <string name="core_pic_sailboat">पाल वाली नाव</string>
+    <string name="core_pic_cabin_in_the_woods">जंगल में झोपड़ी</string>
+    <string name="core_pic_tulip_field">ट्यूलिप का खेत</string>
+    <string name="core_pic_campfire_night">अलाव वाली रात</string>
+    <string name="core_pic_misty_mountains">धुंध भरे पहाड़</string>
+    <string name="core_pic_sunrise_sea">सूर्योदय में समुद्र</string>
+    <string name="core_pic_snowy_pines">बर्फ़ीले चीड़</string>
+    <string name="core_pic_lavender_field">लैवेंडर का खेत</string>
+    <string name="core_pic_waterfall">झरना</string>
+    <string name="core_pic_city_at_dusk">शाम का शहर</string>
+    <string name="core_pic_picnic">पिकनिक</string>
+    <string name="core_pic_moon_over_the_lake">झील पर चाँद</string>
+    <string name="core_pic_palm_island">ताड़ वाला द्वीप</string>
+    <string name="core_pic_windmill">पवनचक्की</string>
+    <string name="core_pic_bike_path">साइकिल रास्ता</string>
+    <string name="core_pic_greenhouse">ग्रीनहाउस</string>
+    <string name="core_pic_northern_lights">ध्रुवीय रोशनी</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d कदम तुम्हारा इंतज़ार कर रहा है।</item>
+        <item quantity="other">%d कदम तुम्हारा इंतज़ार कर रहे हैं।</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">निभाया, %d बार</item>
+        <item quantity="other">निभाया, %d बार</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">दिन में %d बार</item>
+        <item quantity="other">दिन में %d बार</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d बार</item>
+        <item quantity="other">%d बार</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">हर %d हफ़्ते</item>
+        <item quantity="other">हर %d हफ़्ते</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">हर %d महीने</item>
+        <item quantity="other">हर %d महीने</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">हर %d दिन</item>
+        <item quantity="other">हर %d दिन</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d महीना, एक बार भी नहीं छूटा</item>
+        <item quantity="other">%d महीने, एक बार भी नहीं छूटा</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d महीने से लगातार</item>
+        <item quantity="other">%d महीनों से लगातार</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">लगातार %d दिन</item>
+        <item quantity="other">लगातार %d दिन</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d महीना</item>
+        <item quantity="other">%d महीने</item>
+    </plurals>
+
+    <string name="tabs_new_step">नया कदम</string>
+    <string name="tabs_edit">बदलो</string>
+    <string name="tabs_delete">हटाओ</string>
+    <string name="tabs_done">हो गया</string>
+    <string name="tabs_back">पीछे</string>
+    <string name="tabs_earlier">पहले</string>
+    <string name="tabs_later">बाद में</string>
+    <string name="tabs_delete_title">%1$s हटाना है?</string>
+    <string name="tabs_eod_unlock">दिन के आख़िर वाली आदतें %1$02d:00 बजे खुलेंगी</string>
+    <string name="tabs_check_up">चेक-अप</string>
+    <string name="tabs_one_off">एक बार का</string>
+
+    <string name="tabs_checkin_from">चेक-इन %1$02d:00 बजे से</string>
+    <string name="tabs_checkin_daily">रोज़ का चेक-इन</string>
+    <string name="tabs_checkin_weekly">हफ़्ते का चेक-इन</string>
+    <string name="tabs_checkin_quarter">3 महीने का चेक-अप</string>
+    <string name="tabs_checked_in">चेक-इन हो गया</string>
+    <string name="tabs_quarter_section">3 महीने का चेक-अप</string>
+    <string name="tabs_previous_week">पिछला हफ़्ता</string>
+    <string name="tabs_next_week">अगला हफ़्ता</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%2$s का %1$d दिन!</item>
+        <item quantity="other">%2$s के %1$d दिन!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">शाबाश! अब यह तुम्हारे 3 महीने के चेक-अप में चला जाएगा, रोज़ टिक करने की ज़रूरत नहीं।</string>
+    <string name="tabs_celebrate_first">पहला %1$s को है।</string>
+    <string name="tabs_glance_title">तुम्हारा हफ़्ता</string>
+    <string name="tabs_glance_ticks_kept">निभाए गए टिक</string>
+    <string name="tabs_glance_days_checked_in">चेक-इन वाले दिन</string>
+    <string name="tabs_glance_top_tag">सबसे ज़्यादा चूक की वजह:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d बार</item>
+        <item quantity="other">%1$s, %2$d बार</item>
+    </plurals>
+    <string name="tabs_glance_easiest">सबसे आसान:</string>
+    <string name="tabs_glance_hardest">सबसे मुश्किल:</string>
+
+    <string name="tabs_changes_ongoing">चलते बदलाव</string>
+    <string name="tabs_changes_ongoing_tip_title">चलता बदलाव</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">यही चुनाव तुम्हारे सामने बार-बार आएगा, जैसे कॉफ़ी का कप या शैम्पू बार। इसे %1$d दिन आदतों में टिक किया जाता है, फिर हर 3 महीने में चेक होता है।</item>
+        <item quantity="other">यही चुनाव तुम्हारे सामने बार-बार आएगा, जैसे कॉफ़ी का कप या शैम्पू बार। इसे %1$d दिन आदतों में टिक किया जाता है, फिर हर 3 महीने में चेक होता है।</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">अभी कोई बदलाव नहीं</string>
+    <string name="tabs_changes_day_badge">दिन %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">टिका हुआ</string>
+    <string name="tabs_changes_one_off_todo">एक बार का, करना है</string>
+    <string name="tabs_changes_one_off_tip">इसे एक बार करो और काम ख़त्म, जैसे दराज़ साफ़ करना, ग्रीन बिजली प्लान पर जाना या जैकेट ठीक कराना। टिक करो और यह पूरे हुए में चला जाएगा।</string>
+    <string name="tabs_changes_nothing_waiting">कुछ बाकी नहीं</string>
+    <string name="tabs_changes_finished">पूरे हुए · %1$d</string>
+
+    <string name="tabs_avoid_title">परहेज़ की सूची</string>
+    <string name="tabs_avoid_search">खोजो…</string>
+    <string name="tabs_avoid_no_match">कुछ नहीं मिला</string>
+    <string name="tabs_avoid_companies">कंपनियाँ</string>
+    <string name="tabs_avoid_food">खाना</string>
+    <string name="tabs_avoid_products">प्रोडक्ट</string>
+
+    <string name="tabs_avoid_added">जोड़ा गया</string>
+    <string name="tabs_avoid_why">इससे बचने की वजह</string>
+    <string name="tabs_avoid_own_words">अपने शब्दों में</string>
+    <string name="tabs_avoid_brands">इसके ब्रांड · %1$d</string>
+    <string name="tabs_avoid_brand_hint">हर लाइन में एक ब्रांड</string>
+    <string name="tabs_avoid_more_brands">+%1$d और</string>
+    <string name="tabs_avoid_instead">इसकी जगह यह लो</string>
+    <string name="tabs_avoid_instead_hint">हर लाइन में एक</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">चूक</item>
+        <item quantity="other">चूकें</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">बचे</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">महीना सूची में</item>
+        <item quantity="other">महीने सूची में</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">यह अपने पूरे इतिहास के साथ परहेज़ की सूची से हट जाएगा।</string>
+
+    <string name="tabs_habit_delete_text">इसका पूरा इतिहास भी साथ में हट जाएगा।</string>
+    <string name="tabs_habit_created">बनाया गया</string>
+    <string name="tabs_habit_to_do">करना है</string>
+    <string name="tabs_habit_daily_ticks">रोज़ के टिक</string>
+    <string name="tabs_habit_day_of">%2$d में से दिन %1$d</string>
+    <string name="tabs_habit_finished">पूरा हुआ</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">दिन से जारी</item>
+        <item quantity="other">दिन से जारी</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">बार टूटा</item>
+        <item quantity="other">बार टूटा</item>
+    </plurals>
+    <string name="tabs_habit_success">सफलता</string>
+    <string name="tabs_habit_current_streak">अभी का सिलसिला</string>
+    <string name="tabs_habit_longest_streak">सबसे लंबा सिलसिला</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d दिन</item>
+        <item quantity="other">%1$d दिन</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">क्यों छूटा</string>
+    <string name="tabs_habit_remove_reason">यह वजह हटाओ</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">तरीका जिससे तुमने अपनी ज़िंदगी बेहतर बनाई</item>
+        <item quantity="other">तरीके जिनसे तुमने अपनी ज़िंदगी बेहतर बनाई</item>
+    </plurals>
+    <string name="tabs_insights_habits">आदतें</string>
+    <string name="tabs_insights_swaps">बदलाव</string>
+    <string name="tabs_insights_avoids">परहेज़</string>
+    <string name="tabs_insights_on_track_section">सही राह पर</string>
+    <string name="tabs_insights_avg_days">%1$d दि.</string>
+    <string name="tabs_insights_average_kept">औसतन निभाया</string>
+    <string name="tabs_insights_days_checked_in">चेक-इन वाले दिन</string>
+    <string name="tabs_insights_on_track">सही राह पर</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">चूक</item>
+        <item quantity="other">चूकें</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">नया कदम</item>
+        <item quantity="other">नए कदम</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">एक बार का काम पूरा</item>
+        <item quantity="other">एक बार के काम पूरे</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">चूक की सबसे बड़ी वजहें</string>
+    <string name="tabs_insights_added_quarter">इस तिमाही में जोड़े गए</string>
+    <string name="tabs_insights_past_summaries">पिछले 3 महीने के सारांश</string>
+    <string name="tabs_insights_first_on">तुम्हारा पहला सारांश %1$s को आएगा</string>
+    <string name="tabs_insights_all_time">शुरू से अब तक</string>
+    <string name="tabs_insights_period">%1$s से %2$s %3$d</string>
+
+    <string name="forms_back">पीछे</string>
+    <string name="forms_back_habits">आदतें</string>
+    <string name="forms_back_settings">सेटिंग्स</string>
+    <string name="forms_add">जोड़ो</string>
+    <string name="forms_save">सेव करो</string>
+    <string name="forms_finish">पूरा करो</string>
+    <string name="forms_delete">हटाओ</string>
+    <string name="forms_why">क्यों</string>
+    <string name="forms_never_show">फिर कभी मत दिखाओ</string>
+    <string name="forms_every">हर</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">दिन</item>
+        <item quantity="other">दिन</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">%2$d में से कदम %1$d</string>
+    <string name="forms_checkin_next_weekly">आगे, हफ़्ते का चेक-इन ›</string>
+    <string name="forms_checkin_next_quarter">आगे, 3 महीने का चेक-अप ›</string>
+    <string name="forms_daily_title">रोज़ का चेक-इन</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">पिछला %1$d दिन अभी भरा नहीं</item>
+        <item quantity="other">पिछले %1$d दिन अभी भरे नहीं</item>
+    </plurals>
+    <string name="forms_daily_skip_all">सब छोड़ो</string>
+    <string name="forms_daily_today">आज · %1$s</string>
+    <string name="forms_daily_skip">छोड़ो</string>
+    <string name="forms_daily_undo_skip">छोड़ना वापस लो</string>
+    <string name="forms_daily_new_tag">नया टैग</string>
+    <string name="forms_daily_new_tag_hint">डस्टबिन भरा था</string>
+    <string name="forms_weekly_title">हफ़्ते का चेक-इन</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d हफ़्ता बाकी है, एक नया कदम सबके लिए काफ़ी है।</item>
+        <item quantity="other">%1$d हफ़्ते बाकी हैं, एक नया कदम सबके लिए काफ़ी है।</item>
+    </plurals>
+    <string name="forms_weekly_no_step">इस हफ़्ते कोई नया कदम नहीं</string>
+    <string name="forms_quarter_title">3 महीने का चेक-अप</string>
+    <string name="forms_quarter_nothing">चेक-अप के लिए अभी कुछ बना नहीं है। आगे तुम्हारा सारांश है।</string>
+    <string name="forms_quarter_habits">आदतें</string>
+    <string name="forms_quarter_swaps">बदलाव</string>
+    <string name="forms_quarter_avoid">परहेज़</string>
+    <string name="forms_quarter_missed">छूटा</string>
+    <string name="forms_quarter_missed_level">छूटा: %1$s</string>
+
+    <string name="forms_new_title">नया कदम</string>
+    <string name="forms_edit_title">बदलो: %1$s</string>
+    <string name="forms_add_kind">जोड़ो: %1$s</string>
+    <string name="forms_title_habit">आदत</string>
+    <string name="forms_title_swap">बदलाव</string>
+    <string name="forms_title_avoid">परहेज़</string>
+    <string name="forms_save_changes">बदलाव सेव करो</string>
+    <string name="forms_what_kind">किस तरह का?</string>
+    <string name="forms_name">नाम</string>
+    <string name="forms_your_new_step">तुम्हारा नया कदम</string>
+    <string name="forms_hint_habit">10 पन्ने पढ़ो</string>
+    <string name="forms_hint_swap">स्पंज नहीं, लूफ़ा</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">किस तरह की आदत?</string>
+    <string name="forms_timing_tip_title">कभी भी या दिन के आख़िर में</string>
+    <string name="forms_timing_tip">कभी भी: कुछ ऐसा जो एक बार किया जाता है, जैसे दौड़ना। हो जाते ही टिक करो।\n\nदिन के आख़िर में: एक नियम जो पूरे दिन निभाया जाता है, जैसे कोई स्नैक नहीं। इसे सिर्फ़ शाम को टिक किया जा सकता है।</string>
+    <string name="forms_anytime">कभी भी</string>
+    <string name="forms_end_of_day">दिन के आख़िर में</string>
+    <string name="forms_what_is_it">यह क्या है?</string>
+    <string name="forms_how_often">कितनी बार?</string>
+    <string name="forms_often_specific">तय दिन</string>
+    <string name="forms_often_whenever">जब भी</string>
+    <string name="forms_often_once">बस एक बार</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">बार हर</item>
+        <item quantity="other">बार हर</item>
+    </plurals>
+    <string name="forms_unit_day">दिन</string>
+    <string name="forms_unit_week">हफ़्ता</string>
+    <string name="forms_unit_month">महीना</string>
+    <string name="forms_unit_x_days">X दिन</string>
+    <string name="forms_ideas">आइडिया</string>
+    <string name="forms_ideas_others">दूसरे</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">सारे %1$d आइडिया देखो ›</item>
+        <item quantity="other">सारे %1$d आइडिया देखो ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">कदमों के सारे आइडिया</string>
+    <string name="forms_search">खोजो…</string>
+    <string name="forms_all">सब</string>
+
+    <string name="forms_settings_title">सेटिंग्स</string>
+    <string name="forms_set_colours">रंग</string>
+    <string name="forms_set_style">3 महीने के सारांश का स्टाइल</string>
+    <string name="forms_set_checkins">चेक-इन</string>
+    <string name="forms_set_checkin_hour">रोज़ का चेक-इन कब खुले</string>
+    <string name="forms_set_checkin_hour_tip">इस समय से दिन के आख़िर वाली आदतें टिक की जा सकती हैं और रोज़ का चेक-इन किया जा सकता है।</string>
+    <string name="forms_set_week_start">हफ़्ता शुरू होता है</string>
+    <string name="forms_set_week_start_tip">तुम्हारी आदतों की ग्रिड, हफ़्ते और चार्ट किस दिन से शुरू हों।</string>
+    <string name="forms_monday">सोमवार</string>
+    <string name="forms_sunday">रविवार</string>
+    <string name="forms_set_new_step_every">नया कदम हर</string>
+    <string name="forms_set_new_step_every_tip">हफ़्ते के चेक-इन के बीच कितने हफ़्ते।</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">हफ़्ता</item>
+        <item quantity="other">हफ़्ते</item>
+    </plurals>
+    <string name="forms_set_weekly_day">हफ़्ते के चेक-इन का दिन</string>
+    <string name="forms_set_weekly_day_tip">इस दिन रोज़ के चेक-इन के बाद अगले हफ़्ते का नया कदम चुनते हो।</string>
+    <string name="forms_set_checkup">3 महीने का चेक-अप</string>
+    <string name="forms_set_checkup_tip">सब लोग एक ही दिन चेक-अप करते हैं: 1 जनवरी, 1 अप्रैल, 1 जुलाई और 1 अक्टूबर, ताकि सब साथ में अपना सारांश शेयर कर सकें। चाहो तो अपनी तारीख़ भी चुनो।</string>
+    <string name="forms_set_same">सबके साथ</string>
+    <string name="forms_set_own">मेरी अपनी तारीख़</string>
+    <string name="forms_set_starting">शुरुआत</string>
+    <string name="forms_set_starting_tip">तुम्हारे पहले अपने चेक-अप का महीना।</string>
+    <string name="forms_earlier">पहले</string>
+    <string name="forms_later">बाद में</string>
+    <string name="forms_set_every_tip">चेक-अप के बीच कितने महीने।</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">महीना</item>
+        <item quantity="other">महीने</item>
+    </plurals>
+    <string name="forms_set_day_of_month">महीने का दिन</string>
+    <string name="forms_set_day_of_month_tip">उस महीने का कौन सा दिन।</string>
+    <string name="forms_set_everyone">सब: 1 जन · 1 अप्रै · 1 जुला · 1 अक्टू</string>
+    <string name="forms_set_days_build">आदत बनने में कितने दिन</string>
+    <string name="forms_set_days_build_tip">रिसर्च में 18 से 254 दिन मिले, सबसे ज़्यादा 66 बताया जाता है (Lally et al. 2010, Singh et al. 2024)। इतने दिनों के बाद नया कदम तुम्हारे चेक-अप में चला जाता है।</string>
+    <string name="forms_set_nudge">रोज़ का रिमाइंडर</string>
+    <string name="forms_set_nudge_tip">इस समय एक रिमाइंडर, बस तब जब कुछ टिक करना बाकी हो।</string>
+    <string name="forms_set_more">और</string>
+    <string name="forms_set_reasons">चूक की वजहें</string>
+    <string name="forms_set_tutorial">ट्यूटोरियल फिर से देखो</string>
+    <string name="forms_set_export">मेरा डेटा एक्सपोर्ट करो</string>
+    <string name="forms_set_import">डेटा इंपोर्ट करो</string>
+
+    <string name="forms_reasons_title">चूक की वजहें</string>
+    <string name="forms_reasons_hint">अपनी वजह जोड़ो</string>
+    <string name="forms_reasons_used">%1$d× इस्तेमाल</string>
+    <string name="forms_reasons_delete_title">%1$s हटाना है?</string>
+    <string name="forms_reasons_delete_text">चूकें तुम्हारे इतिहास में बनी रहेंगी, बस इस टैग के बिना।</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d आदत</item>
+        <item quantity="other">%1$d आदतें</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d बदलाव</item>
+        <item quantity="other">%1$d बदलाव</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d परहेज़</item>
+        <item quantity="other">%1$d परहेज़</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, %2$s से टिक</string>
+    <string name="forms_export_title">मेरा डेटा एक्सपोर्ट करो</string>
+    <string name="forms_export_what">फ़ाइल में क्या जाएगा</string>
+    <string name="forms_export_ticks">हर टिक, चूक और वजह</string>
+    <string name="forms_export_ticks_since">%1$s से हर टिक, चूक और वजह</string>
+    <string name="forms_export_summaries">तुम्हारे 3 महीने के सारांश</string>
+    <string name="forms_export_settings">तुम्हारी सेटिंग्स, रंग और नाम</string>
+    <string name="forms_export_file">फ़ाइल</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">फ़ाइल सेव करो</string>
+    <string name="forms_export_send">भेजो…</string>
+    <string name="forms_export_send_title">अपना Alice डेटा भेजो</string>
+    <string name="forms_export_saved">सेव हो गया: %1$s</string>
+    <string name="forms_export_save_failed">फ़ाइल सेव नहीं हो सकी</string>
+
+    <string name="forms_import_title">डेटा इंपोर्ट करो</string>
+    <string name="forms_import_choose">Alice का बैकअप चुनो</string>
+    <string name="forms_import_choose_sub">.json, दूसरे फ़ोन के एक्सपोर्ट से</string>
+    <string name="forms_import_cant_open">वह फ़ाइल खुल नहीं सकी।</string>
+    <string name="forms_import_not_backup">वह फ़ाइल Alice का बैकअप नहीं है।</string>
+    <string name="forms_import_replace_mode">जो यहाँ है उसे बदलो</string>
+    <string name="forms_import_add_mode">जो यहाँ है उसमें जोड़ो</string>
+    <string name="forms_import_button">इंपोर्ट करो</string>
+    <string name="forms_import_replace_title">अपना डेटा बदलना है?</string>
+    <string name="forms_import_add_title">यह डेटा जोड़ना है?</string>
+    <string name="forms_import_replace_text">इस फ़ोन का सब कुछ फ़ाइल से बदल जाएगा। रखना चाहते हो तो पहले एक्सपोर्ट कर लो।</string>
+    <string name="forms_import_add_text">फ़ाइल की आदतें और इतिहास तुम्हारे डेटा में जुड़ जाएँगे।</string>
+    <string name="forms_import_done">डेटा इंपोर्ट हो गया</string>
+
+    <string name="look_share">शेयर करो</string>
+    <string name="look_save_image">तस्वीर सेव करो</string>
+    <string name="look_next_week">आगे, तुम्हारा हफ़्ता ›</string>
+    <string name="look_keep_going">आगे बढ़ते रहो</string>
+    <string name="look_storage_needed">तस्वीर सेव करने के लिए Alice को स्टोरेज की अनुमति चाहिए</string>
+    <string name="look_share_caption">Alice के साथ मेरी तिमाही। अपनी शुरू करो: %1$s</string>
+    <string name="look_share_clip">Alice सारांश</string>
+    <string name="look_share_chooser">अपनी तिमाही शेयर करो</string>
+    <string name="look_saved">Pictures/Alice में सेव हो गया</string>
+    <string name="look_save_failed">तस्वीर सेव नहीं हो सकी</string>
+
+    <string name="look_style_poster">पोस्टर</string>
+    <string name="look_style_wrapped">रैप्ड</string>
+    <string name="look_style_trophy">ट्रॉफ़ी अलमारी</string>
+    <string name="look_style_receipt">रसीद</string>
+    <string name="look_style_report">रिपोर्ट कार्ड</string>
+    <string name="look_style_boarding">बोर्डिंग पास</string>
+    <string name="look_style_polaroid">पोलरॉइड</string>
+    <string name="look_style_calendar">कैलेंडर</string>
+    <string name="look_style_trading">ट्रेडिंग कार्ड</string>
+
+    <string name="look_quote_1">छोटे कदम, हर दिन</string>
+    <string name="look_quote_2">हर दिन आने के लिए शुक्रिया</string>
+    <string name="look_quote_3">तरक्की, परफ़ेक्शन नहीं</string>
+    <string name="look_quote_4">तुमने हार नहीं मानी, यही मायने रखता है</string>
+    <string name="look_quote_5">छोटे बदलाव, बड़ा फ़र्क़</string>
+    <string name="look_quote_6">हर दिन तुमने बेहतर चुना</string>
+    <string name="look_quote_7">धीरे चलना भी आगे बढ़ना है</string>
+    <string name="look_quote_8">तुम्हारी पसंद की ज़िंदगी बन रही है</string>
+    <string name="look_quote_9">एक-एक कदम जुड़ता जाता है</string>
+    <string name="look_quote_10">अपने लिए डटे रहो</string>
+    <string name="look_quote_11">आने वाला तुम कहता है शुक्रिया</string>
+    <string name="look_quote_12">थोड़ा-थोड़ा करके बहुत सारा</string>
+    <string name="look_quote_13">लगन एक शांत जादू है</string>
+    <string name="look_quote_14">देखो, कितना लंबा सफ़र तय कर लिया</string>
+    <string name="look_quote_15">छोटी जीतों पर गर्व करो</string>
+    <string name="look_quote_16">अच्छे दिन बनाए जाते हैं, मिलते नहीं</string>
+
+    <string name="look_stamp_1">बेहतरीन</string>
+    <string name="look_stamp_2">शानदार</string>
+    <string name="look_stamp_3">शाबाश</string>
+    <string name="look_stamp_4">लाजवाब</string>
+    <string name="look_stamp_5">ज़बरदस्त</string>
+    <string name="look_stamp_6">पूरे नंबर</string>
+    <string name="look_stamp_7">गोल्ड स्टार</string>
+    <string name="look_stamp_8">बढ़िया काम</string>
+
+    <string name="look_period">%1$s से %2$s</string>
+    <string name="look_scan">स्कैन करो और\nअपना सफ़र\nशुरू करो</string>
+    <string name="look_you">तुम</string>
+    <string name="look_on_track">सही राह पर</string>
+    <string name="look_new_steps">नए कदम</string>
+    <string name="look_days_in">दिन हुए</string>
+    <string name="look_new">नया</string>
+    <string name="look_week_by_week">हफ़्ते दर हफ़्ते</string>
+    <string name="look_coming_soon">जल्द आ रहा है</string>
+    <string name="look_new_this_quarter">इस तिमाही में नया</string>
+    <string name="look_kept_up_longest">सबसे लंबे समय तक निभाया</string>
+    <string name="look_habits">आदतें</string>
+    <string name="look_swaps">बदलाव</string>
+    <string name="look_avoids">परहेज़</string>
+    <string name="look_ways_improved">बेहतरी के तरीके</string>
+    <string name="look_improved_in">तुमने अपनी ज़िंदगी %1$s से बेहतर बनाई</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d आदत</item>
+        <item quantity="other">%1$d आदतें</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d बदलाव</item>
+        <item quantity="other">%1$d बदलाव</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d परहेज़</item>
+        <item quantity="other">%1$d परहेज़</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d चूक</item>
+        <item quantity="other">%1$d चूकें</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d तरीके</item>
+        <item quantity="other">%1$d तरीकों</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">आदत</item>
+        <item quantity="other">आदतें</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">बदलाव</item>
+        <item quantity="other">बदलाव</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">परहेज़</item>
+        <item quantity="other">परहेज़</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">चूक</item>
+        <item quantity="other">चूकें</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">तरीका</item>
+        <item quantity="other">तरीके</item>
+    </plurals>
+
+    <string name="look_poster_improved">तुमने अपनी ज़िंदगी %1$s से बेहतर बनाई है</string>
+    <string name="look_poster_on_track">सही राह पर</string>
+    <string name="look_poster_days">दिन</string>
+    <string name="look_poster_achievements">उपलब्धियाँ</string>
+    <string name="look_poster_first_ones">तुम्हारी पहली उपलब्धियाँ रास्ते में हैं</string>
+    <string name="look_poster_added">इस तिमाही तुमने क्या जोड़ा</string>
+
+    <string name="look_wrapped_stars">तुम्हारे सितारे</string>
+
+    <string name="look_trophy_ways">तरीके जिनसे तुमने\nज़िंदगी बेहतर बनाई</string>
+    <string name="look_trophy_next_quarter">अगली तिमाही</string>
+    <string name="look_trophy_first_medal">तुम्हारा पहला मेडल</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">शेल्फ़ पर नया:</string>
+
+    <string name="look_receipt_title">3 महीने का चेक-अप · %1$s</string>
+    <string name="look_receipt_customer">ग्राहक: %1$s</string>
+    <string name="look_receipt_habits">बनी आदतें</string>
+    <string name="look_receipt_swaps">बदली चीज़ें</string>
+    <string name="look_receipt_avoids">छोड़ी चीज़ें</string>
+    <string name="look_receipt_ways">ज़िंदगी बेहतर बनाने के तरीके</string>
+    <string name="look_receipt_on_track">इस तिमाही सही राह पर</string>
+    <string name="look_receipt_slips">चूकें</string>
+    <string name="look_receipt_new_steps">बने नए कदम</string>
+    <string name="look_receipt_new">इस तिमाही में नया: %1$s</string>
+
+    <string name="look_report_title">छोटे कदमों का रिपोर्ट कार्ड</string>
+    <string name="look_report_pupil">%1$s · छात्र: %2$s</string>
+    <string name="look_report_subject">विषय</string>
+    <string name="look_report_built">बना</string>
+    <string name="look_report_grade">ग्रेड</string>
+    <string name="look_report_attendance">हाज़िरी %1$s</string>
+    <string name="look_report_on_track">सही राह पर %1$s</string>
+    <string name="look_report_slips">चूकें %1$s</string>
+    <string name="look_report_achievements">उपलब्धियाँ</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">इस सत्र के नए विषय (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">टीचर की टिप्पणी:</string>
+    <string name="look_report_calm">एक शांत, स्थिर सत्र।</string>
+    <string name="look_report_ups_downs">उतार-चढ़ाव वाला सत्र, और तुमने साथ नहीं छोड़ा।</string>
+    <string name="look_report_star">%1$s में कमाल रहा। ऐसे ही करते रहो!</string>
+    <string name="look_report_keep_up">ऐसे ही करते रहो!</string>
+    <string name="look_report_week">हफ़्ते दर हफ़्ते</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">फ़्लाइट Q%1$d</string>
+    <string name="look_boarding_from">से</string>
+    <string name="look_boarding_old">पुरानी</string>
+    <string name="look_boarding_habits">आदतें</string>
+    <string name="look_boarding_to">तक</string>
+    <string name="look_boarding_new">नया</string>
+    <string name="look_boarding_better_you">बेहतर तुम</string>
+    <string name="look_boarding_passenger">यात्री</string>
+    <string name="look_boarding_dates">तारीख़ें</string>
+    <string name="look_boarding_miles">उड़े मील</string>
+    <string name="look_boarding_on_time">समय पर</string>
+    <string name="look_boarding_turbulence">झटके</string>
+    <string name="look_boarding_days">सफ़र के दिन</string>
+    <string name="look_boarding_flyer">फ़्रीक्वेंट फ़्लायर, तुम्हारे सबसे पुराने साथी</string>
+    <string name="look_boarding_log">फ़्लाइट लॉग, हफ़्ते दर हफ़्ते</string>
+    <string name="look_boarding_stops">नए पड़ाव, +%1$d</string>
+    <string name="look_boarding_note">कैप्टन का संदेश</string>
+
+    <string name="look_polaroid_life">तुम्हारी ज़िंदगी</string>
+    <string name="look_polaroid_quarter">इस तिमाही</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d दिन हुए</string>
+    <string name="look_polaroid_longest">सबसे लंबे समय तक निभाया</string>
+    <string name="look_polaroid_new">नया, +%1$d</string>
+
+    <string name="look_calendar_added">जोड़ा गया</string>
+
+    <string name="look_trading_common">आम</string>
+    <string name="look_trading_uncommon">कम आम</string>
+    <string name="look_trading_rare">दुर्लभ</string>
+    <string name="look_trading_legendary">महान</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">तरीका</item>
+        <item quantity="other">तरीके</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$dवीं</string>
+    <string name="look_ordinal_nd">%1$dवीं</string>
+    <string name="look_ordinal_rd">%1$dवीं</string>
+    <string name="look_ordinal_th">%1$dवीं</string>
+    <string name="look_trading_number">नं. %1$03d · तुम्हारी %2$s तिमाही</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d दिन</string>
+    <string name="look_trading_power">ताक़त, हफ़्ते दर हफ़्ते</string>
+    <string name="look_trading_edition">%1$s · Q%2$d संस्करण</string>
+
+    <string name="look_sample_water_first">पहले पानी</string>
+    <string name="look_sample_own_bag">अपना थैला</string>
+    <string name="look_sample_read_pages">10 पन्ने पढ़ो</string>
+    <string name="look_sample_reading">रोज़ पढ़ना</string>
+    <string name="look_sample_late_snacks">देर रात स्नैक नहीं</string>
+    <string name="look_sample_stretching">स्ट्रेचिंग</string>
+    <string name="look_sample_cooler_home">ठंडा घर</string>
+    <string name="look_sample_loofah">स्पंज नहीं, लूफ़ा</string>
+    <string name="look_sample_palm_oil">पाम ऑयल के बिना</string>
+    <string name="look_sample_stretch">10 मिनट स्ट्रेच</string>
+
+    <string name="look_colours_title">रंग</string>
+    <string name="look_colours_preview">झलक</string>
+    <string name="look_colours_your_summary">तुम्हारा 3 महीने का सारांश</string>
+    <string name="look_colours_light">लाइट</string>
+    <string name="look_colours_dark">डार्क</string>
+    <string name="look_styles_title">3 महीने के सारांश का स्टाइल</string>
+    <string name="look_styles_all_pictures">सारी 30 पोलरॉइड तस्वीरें देखो</string>
+    <string name="look_styles_refresh">रिफ़्रेश</string>
+    <string name="look_pictures_title">पोलरॉइड तस्वीरें</string>
+    <string name="look_pictures_back">सारांश के स्टाइल</string>
+
+    <string name="look_welcome_name">तुम्हारा नाम</string>
+    <string name="look_welcome_start">शुरू करो</string>
+    <string name="look_welcome_import">मेरा डेटा इंपोर्ट करो</string>
+
+    <string name="look_tut_skip">छोड़ो</string>
+    <string name="look_tut_page">%2$d में से %1$d</string>
+    <string name="look_tut_back">पीछे</string>
+    <string name="look_tut_start">शुरू करो</string>
+    <string name="look_tut_next">आगे</string>
+    <string name="look_tut1_title">एक-एक कदम से बेहतर तुम बनो</string>
+    <string name="look_tut1_body">नई आदतें बनाओ, अच्छे चुनाव करो, और देखो तुम्हारी हर उपलब्धि कैसे जुड़ती जाती है।</string>
+    <string name="look_tut1_habits">दिन-ब-दिन अच्छी आदतें बनाओ और वैसे बनो जैसे बनना चाहते हो।</string>
+    <string name="look_tut1_swaps">चीज़ों को बेहतर विकल्पों से बदलो, धरती, लोगों या अपनी सेहत के लिए अच्छे।</string>
+    <string name="look_tut1_avoids">उन कंपनियों, खाने और प्रोडक्ट का हिसाब रखो जिन्हें तुम सपोर्ट नहीं करना चाहते।</string>
+    <string name="look_tut2_title">टिक करो</string>
+    <string name="look_tut2_body">आदत पूरी होने पर स्क्वेयर पर टैप करो। शाम वाली आदतें तुम्हारे चेक-इन के समय खुलती हैं।</string>
+    <string name="look_tut3_title">%1$s, फिर हर %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d दिन</item>
+        <item quantity="other">%1$d दिन</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d महीना</item>
+        <item quantity="other">%1$d महीने</item>
+    </plurals>
+    <string name="look_tut3_body">स्टडी के मुताबिक़ आदत बनने में 18 से 254 दिन लगते हैं। सबसे ज़्यादा बताया जाने वाला आंकड़ा 66 दिन है, इसलिए Alice वहीं से शुरू करती है।</string>
+    <string name="look_tut3_days_label">आदत बनने में कितने दिन</string>
+    <string name="look_tut3_checkup">चेक-अप हर</string>
+    <string name="look_tut3_small">दोनों सेटिंग्स में बदले जा सकते हैं।</string>
+    <string name="look_tut4_title">हफ़्ते में एक बार, एक नया कदम</string>
+    <string name="look_tut4_body">एक बार में एक नया कदम जोड़ने से तुम धीरे-धीरे आगे बढ़ते हो, एक साथ बहुत कुछ लिए बिना।</string>
+    <string name="look_tut4_day">चेक-इन का दिन</string>
+    <string name="look_tut4_small">इसे भी सेटिंग्स में बदला जा सकता है।</string>
+    <string name="look_tut5_title">हर तिमाही, तुम्हारा सारांश</string>
+    <string name="look_tut5_body">अपने दोस्तों और करीबी लोगों के साथ शेयर करो कि तुमने कितना सफ़र तय किया। जो लुक पसंद हो उस पर टैप करो:</string>
+    <string name="look_tut_change_mind">मन कभी भी बदला जा सकता है।</string>
+    <string name="look_tut6_title">इसे अपना बनाओ</string>
+    <string name="look_tut6_body">वे रंग चुनो जो सबसे आरामदायक लगें। पूरा ऐप तुरंत बदल जाएगा।</string>
+    <string name="look_tut7_title">कुछ भी, कभी भी बदलो</string>
+    <string name="look_tut7_body">चेक-इन का समय, आदत बनने के दिन, सारांश का स्टाइल, रंग और तुम्हारा डेटा, सब सेटिंग्स में है।</string>
+    <string name="look_tut7_gear">सेटिंग्स खोलने के लिए आदतों के ऊपर गियर पर टैप करो।</string>
+    <string name="look_tut7_open">सेटिंग्स खोलो</string>
+
+    <string name="lang_title">भाषा</string>
+    <string name="pron_title">सर्वनाम</string>
+    <string name="pron_she">स्त्री</string>
+    <string name="pron_he">पुरुष</string>
+    <string name="pron_they">तटस्थ</string>
+    <string name="lang_spotted">अपनी भाषा में कोई गलती दिखी?</string>
+    <string name="lang_search">अपनी भाषा खोजो</string>
+    <string name="lang_phone">फ़ोन की भाषा</string>
+    <string name="lang_follow">फ़ोन के हिसाब से</string>
+    <string name="lang_note_title">अनुवाद में मदद करो</string>
+    <string name="lang_note_1">हाय, मैं लूसी हूँ और मैंने Alice बनाया है।</string>
+    <string name="lang_note_2">मैं अंग्रेज़ी, स्लोवाक, चेक और रूसी बोलती हूँ, इसलिए उन अनुवादों को मैंने ख़ुद चेक किया। बाकी भाषाओं को अभी किसी मूल भाषी ने चेक नहीं किया है।</string>
+    <string name="lang_note_3">अगर तुम्हें अपनी भाषा में कोई गलती दिखे, तो मुझे बताओ ताकि मैं उसे ठीक कर सकूँ। और अगर तुमने कुछ समय से Alice अपनी भाषा में इस्तेमाल किया है और सब सही लगता है, तो वह भी बताओ, ताकि मैं उसे मंज़ूर कर सकूँ।</string>
+    <string name="lang_note_4">शुक्रिया!</string>
+    <string name="lang_not_approved">अभी मंज़ूर नहीं</string>
+    <string name="lang_report">गलती बताओ</string>
+    <string name="lang_all_correct">मेरी भाषा में सब सही है</string>
+    <string name="lang_mail_mistake_body">क्या गलत लगता है, और किस स्क्रीन पर:\n\n</string>
+    <string name="lang_mail_correct_body">मैंने कुछ समय से Alice अपनी भाषा में इस्तेमाल किया है और सब सही लगता है।\n\n</string>
+    <string name="lang_no_mail">कोई ईमेल ऐप नहीं मिला</string>
+
+    <!-- pronoun variants for android below 14, same as values-hi-feminine and -masculine -->
+    <string name="forms_set_checkin_hour_tip__feminine" translatable="false">इस समय से तुम दिन के आख़िर वाली आदतें टिक कर सकती हो और रोज़ का चेक-इन कर सकती हो।</string>
+    <string name="forms_set_checkin_hour_tip__masculine" translatable="false">इस समय से तुम दिन के आख़िर वाली आदतें टिक कर सकते हो और रोज़ का चेक-इन कर सकते हो।</string>
+    <string name="forms_set_checkup_tip__feminine" translatable="false">सब लोग एक ही दिन चेक-अप करते हैं: 1 जनवरी, 1 अप्रैल, 1 जुलाई और 1 अक्टूबर, ताकि तुम सब साथ में अपना सारांश शेयर कर सको। चाहो तो अपनी तारीख़ भी चुन सकती हो।</string>
+    <string name="forms_set_checkup_tip__masculine" translatable="false">सब लोग एक ही दिन चेक-अप करते हैं: 1 जनवरी, 1 अप्रैल, 1 जुलाई और 1 अक्टूबर, ताकि तुम सब साथ में अपना सारांश शेयर कर सको। चाहो तो अपनी तारीख़ भी चुन सकते हो।</string>
+    <string name="forms_timing_tip__feminine" translatable="false">कभी भी: कुछ ऐसा जो तुम एक बार करती हो, जैसे दौड़ना। हो जाते ही टिक करो।\n\nदिन के आख़िर में: एक नियम जो तुम पूरे दिन निभाती हो, जैसे कोई स्नैक नहीं। इसे सिर्फ़ शाम को टिक कर सकती हो।</string>
+    <string name="forms_timing_tip__masculine" translatable="false">कभी भी: कुछ ऐसा जो तुम एक बार करते हो, जैसे दौड़ना। हो जाते ही टिक करो।\n\nदिन के आख़िर में: एक नियम जो तुम पूरे दिन निभाते हो, जैसे कोई स्नैक नहीं। इसे सिर्फ़ शाम को टिक कर सकते हो।</string>
+    <string name="look_tut3_small__feminine" translatable="false">दोनों को तुम सेटिंग्स में बदल सकती हो।</string>
+    <string name="look_tut3_small__masculine" translatable="false">दोनों को तुम सेटिंग्स में बदल सकते हो।</string>
+    <string name="look_tut4_small__feminine" translatable="false">इसे भी तुम सेटिंग्स में बदल सकती हो।</string>
+    <string name="look_tut4_small__masculine" translatable="false">इसे भी तुम सेटिंग्स में बदल सकते हो।</string>
+    <string name="look_tut_change_mind__feminine" translatable="false">तुम कभी भी अपना मन बदल सकती हो।</string>
+    <string name="look_tut_change_mind__masculine" translatable="false">तुम कभी भी अपना मन बदल सकते हो।</string>
+    <!-- end pronoun variants -->
+</resources>

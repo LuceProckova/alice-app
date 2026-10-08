@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Sobrang pagod</string>
+    <string name="core_reason_craving">Nag-crave</string>
+    <string name="core_reason_no_time">Walang oras</string>
+    <string name="core_reason_forgot">Nakalimutan</string>
+    <string name="core_reason_no_alternative">Walang ibang pagpipilian</string>
+    <string name="core_reason_social">Kasama ang barkada</string>
+    <string name="core_reason_impulse">Biglaan</string>
+    <string name="core_reason_too_expensive">Sobrang mahal</string>
+    <string name="core_reason_away">Wala sa bahay</string>
+
+    <string name="core_nudge_channel">Paalala araw-araw</string>
+    <string name="core_nudge_title">May ita-tick ka pa ngayong araw</string>
+    <string name="core_save_failed">Hindi ma-save, subukan ulit</string>
+
+    <string name="core_kind_habit">Habit</string>
+    <string name="core_kind_swap">Palit</string>
+    <string name="core_kind_avoid">Iwas</string>
+    <string name="core_about">Tungkol sa %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Mas kaunti</string>
+    <string name="core_more">Higit pa</string>
+    <string name="core_cancel">Kanselahin</string>
+    <string name="core_settings">Settings</string>
+    <string name="core_span_week">Linggo</string>
+    <string name="core_span_month">Buwan</string>
+    <string name="core_span_year">Taon</string>
+    <string name="core_span_all">Lahat</string>
+    <string name="core_tab_habits">Habits</string>
+    <string name="core_tab_changes">Pagbabago</string>
+    <string name="core_tab_avoid">Iwas</string>
+    <string name="core_tab_insights">Insights</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">nagawa</string>
+    <string name="core_cell_missed">nalaktawan</string>
+    <string name="core_cell_partial">bahagyang tapos, %1$d sa ngayon</string>
+    <string name="core_cell_unfilled">hindi pa napupunan</string>
+    <string name="core_cell_open">gagawin</string>
+    <string name="core_cell_locked">naka-lock hanggang oras ng check-in</string>
+    <string name="core_cell_future">hindi pa</string>
+    <string name="core_cell_empty">walang kailangang gawin</string>
+    <string name="core_cell_band">tapos na para sa panahong ito</string>
+    <string name="core_cell_off">hindi araw ng hakbang na ito</string>
+    <string name="core_cell_none">bago nagsimula ang hakbang na ito</string>
+
+    <string name="core_rhythm_one_off">Isang beses lang</string>
+    <string name="core_rhythm_end_of_day">Araw-araw, tina-tick sa pagtatapos ng araw</string>
+    <string name="core_rhythm_every_day">Araw-araw</string>
+    <string name="core_rhythm_every_days">Tuwing %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">kada linggo</string>
+    <string name="core_rhythm_a_month">kada buwan</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, kahit anong araw</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s at %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d buw</string>
+    <string name="core_achievement_short_days">%1$d ar</string>
+    <string name="core_glance_step">%1$s, %2$d sa %3$d</string>
+
+    <string name="core_slip_never">Hindi kailanman</string>
+    <string name="core_slip_once">Isang beses</string>
+    <string name="core_slip_a_few">Ilang beses</string>
+    <string name="core_slip_half">Kalahati</string>
+    <string name="core_slip_most">Halos lahat</string>
+    <string name="core_slip_always">Palagi</string>
+
+    <string name="core_ideas_habit_anytime">Habits, kahit kailan</string>
+    <string name="core_ideas_habit_end">Habits, pagtatapos ng araw</string>
+    <string name="core_ideas_swap">Mga palit</string>
+    <string name="core_ideas_avoid_product">Iwas, produkto</string>
+    <string name="core_ideas_avoid_company">Iwas, kompanya</string>
+    <string name="core_ideas_avoid_food">Iwas, pagkain</string>
+
+    <string name="core_tag_ethical">Etikal</string>
+    <string name="core_tag_health">Kalusugan</string>
+    <string name="core_tag_clutter">Kalat</string>
+    <string name="core_tag_ecological">Kalikasan</string>
+    <string name="core_tag_animal_welfare">Kapakanan ng hayop</string>
+    <string name="core_tag_workers_rights">Karapatan ng manggagawa</string>
+    <string name="core_tag_plastic">Plastik</string>
+    <string name="core_tag_palm_oil">Palm oil</string>
+    <string name="core_tag_deforestation">Pagkakalbo ng gubat</string>
+    <string name="core_category_company">Kompanya</string>
+    <string name="core_category_food">Pagkain</string>
+    <string name="core_category_product">Produkto</string>
+    <string name="core_verdict_avoid">IWASAN</string>
+    <string name="core_verdict_edge">ALANGANIN</string>
+    <string name="core_verdict_fine">OKAY</string>
+
+    <string name="core_theme_off_white_honey">Off-white &amp; honey</string>
+    <string name="core_theme_vanilla_caramel">Vanilla &amp; caramel</string>
+    <string name="core_theme_sunflower">Mirasol</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Cocoa &amp; lemon</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; butter</string>
+    <string name="core_theme_midnight_honey">Hatinggabi &amp; honey</string>
+    <string name="core_theme_forest_night">Gabi sa gubat</string>
+    <string name="core_theme_plum_dusk">Plum na takipsilim</string>
+    <string name="core_theme_charcoal_coral">Uling &amp; coral</string>
+
+    <string name="core_pic_sunny_meadow">Maaraw na parang</string>
+    <string name="core_pic_sunset_hills">Mga burol sa paglubog ng araw</string>
+    <string name="core_pic_starry_night">Mabituing gabi</string>
+    <string name="core_pic_beach_day">Araw sa beach</string>
+    <string name="core_pic_mountain_lake">Lawa sa bundok</string>
+    <string name="core_pic_snowy_village">Nayong may niyebe</string>
+    <string name="core_pic_rainy_garden">Hardin sa ulan</string>
+    <string name="core_pic_autumn_forest">Gubat sa taglagas</string>
+    <string name="core_pic_cherry_blossom">Cherry blossom</string>
+    <string name="core_pic_desert_cactus">Cactus sa disyerto</string>
+    <string name="core_pic_lighthouse">Parola</string>
+    <string name="core_pic_rainbow_field">Bukid ng bahaghari</string>
+    <string name="core_pic_hot_air_balloon">Hot air balloon</string>
+    <string name="core_pic_sailboat">Bangkang may layag</string>
+    <string name="core_pic_cabin_in_the_woods">Kubo sa gubat</string>
+    <string name="core_pic_tulip_field">Bukid ng tulips</string>
+    <string name="core_pic_campfire_night">Gabi ng siga</string>
+    <string name="core_pic_misty_mountains">Mahamog na bundok</string>
+    <string name="core_pic_sunrise_sea">Dagat sa pagsikat ng araw</string>
+    <string name="core_pic_snowy_pines">Mga pino sa niyebe</string>
+    <string name="core_pic_lavender_field">Bukid ng lavender</string>
+    <string name="core_pic_waterfall">Talon</string>
+    <string name="core_pic_city_at_dusk">Lungsod sa takipsilim</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Buwan sa ibabaw ng lawa</string>
+    <string name="core_pic_palm_island">Isla ng niyog</string>
+    <string name="core_pic_windmill">Windmill</string>
+    <string name="core_pic_bike_path">Daanan ng bisikleta</string>
+    <string name="core_pic_greenhouse">Greenhouse</string>
+    <string name="core_pic_northern_lights">Northern lights</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d hakbang ang naghihintay sa iyo.</item>
+        <item quantity="other">%d hakbang ang naghihintay sa iyo.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">nagawa, %d beses</item>
+        <item quantity="other">nagawa, %d beses</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d beses sa isang araw</item>
+        <item quantity="other">%d beses sa isang araw</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Isang beses</item>
+        <item quantity="other">%d beses</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">tuwing %d linggo</item>
+        <item quantity="other">tuwing %d linggo</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">tuwing %d buwan</item>
+        <item quantity="other">tuwing %d buwan</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">tuwing %d araw</item>
+        <item quantity="other">tuwing %d araw</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d buwan, walang palya</item>
+        <item quantity="other">%d buwan, walang palya</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d buwang tuloy-tuloy</item>
+        <item quantity="other">%d buwang tuloy-tuloy</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d araw nang sunod-sunod</item>
+        <item quantity="other">%d araw nang sunod-sunod</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d buwan</item>
+        <item quantity="other">%d buwan</item>
+    </plurals>
+
+    <string name="tabs_new_step">Bagong hakbang</string>
+    <string name="tabs_edit">I-edit</string>
+    <string name="tabs_delete">Burahin</string>
+    <string name="tabs_done">Tapos</string>
+    <string name="tabs_back">Bumalik</string>
+    <string name="tabs_earlier">Mas maaga</string>
+    <string name="tabs_later">Mas huli</string>
+    <string name="tabs_delete_title">Burahin ang %1$s?</string>
+    <string name="tabs_eod_unlock">Mabubuksan ang end of day habits nang %1$02d:00</string>
+    <string name="tabs_check_up">Check-up</string>
+    <string name="tabs_one_off">Isang beses lang</string>
+
+    <string name="tabs_checkin_from">Check-in mula %1$02d:00</string>
+    <string name="tabs_checkin_daily">Daily Check-In</string>
+    <string name="tabs_checkin_weekly">Weekly Check-In</string>
+    <string name="tabs_checkin_quarter">3-Month Check-Up</string>
+    <string name="tabs_checked_in">Naka-check in na</string>
+    <string name="tabs_quarter_section">3-MONTH CHECK-UP</string>
+    <string name="tabs_previous_week">Nakaraang linggo</string>
+    <string name="tabs_next_week">Susunod na linggo</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d araw ng %2$s!</item>
+        <item quantity="other">%1$d araw ng %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Ang galing mo. Lilipat na ito sa 3-Month Check-Ups mo, wala nang pang-araw-araw na pag-tick.</string>
+    <string name="tabs_celebrate_first">Ang una ay sa %1$s.</string>
+    <string name="tabs_glance_title">Ang linggo mo</string>
+    <string name="tabs_glance_ticks_kept">Mga tick na nagawa</string>
+    <string name="tabs_glance_days_checked_in">Mga araw na nag-check in</string>
+    <string name="tabs_glance_top_tag">Pinakamadalas na dahilan ng palya:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d beses</item>
+        <item quantity="other">%1$s, %2$d beses</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Pinakamadali:</string>
+    <string name="tabs_glance_hardest">Pinakamahirap:</string>
+
+    <string name="tabs_changes_ongoing">Tuloy-tuloy na palit</string>
+    <string name="tabs_changes_ongoing_tip_title">Tuloy-tuloy na palit</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Haharapin mo ulit ang parehong pagpili, gaya ng tasa ng kape o shampoo bar. Tina-tick ito sa Habits nang %1$d araw, tapos chine-check tuwing 3 buwan.</item>
+        <item quantity="other">Haharapin mo ulit ang parehong pagpili, gaya ng tasa ng kape o shampoo bar. Tina-tick ito sa Habits nang %1$d araw, tapos chine-check tuwing 3 buwan.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Wala pang palit</string>
+    <string name="tabs_changes_day_badge">ARAW %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">NANANATILI</string>
+    <string name="tabs_changes_one_off_todo">Isang beses lang, gagawin</string>
+    <string name="tabs_changes_one_off_tip">Isang beses mo lang gagawin at tapos na, gaya ng pag-aayos ng drawer, paglipat sa green energy na plano o pagtahi ng jacket. I-tick ito at lilipat ito sa Tapos na.</string>
+    <string name="tabs_changes_nothing_waiting">Walang naghihintay</string>
+    <string name="tabs_changes_finished">TAPOS NA · %1$d</string>
+
+    <string name="tabs_avoid_title">Listahan ng iniiwasan</string>
+    <string name="tabs_avoid_search">Maghanap…</string>
+    <string name="tabs_avoid_no_match">Walang tugma</string>
+    <string name="tabs_avoid_companies">Mga kompanya</string>
+    <string name="tabs_avoid_food">Pagkain</string>
+    <string name="tabs_avoid_products">Mga produkto</string>
+
+    <string name="tabs_avoid_added">Idinagdag</string>
+    <string name="tabs_avoid_why">Bakit mo ito iniiwasan</string>
+    <string name="tabs_avoid_own_words">Sa sarili mong salita</string>
+    <string name="tabs_avoid_brands">Mga brand na pag-aari nito · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Isang brand bawat linya</string>
+    <string name="tabs_avoid_more_brands">+%1$d pa</string>
+    <string name="tabs_avoid_instead">Ito na lang</string>
+    <string name="tabs_avoid_instead_hint">Isa bawat linya</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">palya</item>
+        <item quantity="other">palya</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">naiwasan</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">buwan sa listahan</item>
+        <item quantity="other">buwan sa listahan</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Aalisin ito sa listahan ng iniiwasan kasama ang history nito.</string>
+
+    <string name="tabs_habit_delete_text">Kasama nitong mabubura ang buong history.</string>
+    <string name="tabs_habit_created">Ginawa</string>
+    <string name="tabs_habit_to_do">Gagawin</string>
+    <string name="tabs_habit_daily_ticks">Pang-araw-araw na tick</string>
+    <string name="tabs_habit_day_of">Araw %1$d sa %2$d</string>
+    <string name="tabs_habit_finished">Tapos na</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">araw na tuloy</item>
+        <item quantity="other">araw na tuloy</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">beses na naputol</item>
+        <item quantity="other">beses na naputol</item>
+    </plurals>
+    <string name="tabs_habit_success">tagumpay</string>
+    <string name="tabs_habit_current_streak">Kasalukuyang streak</string>
+    <string name="tabs_habit_longest_streak">Pinakamahabang streak</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d araw</item>
+        <item quantity="other">%1$d araw</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Bakit pumalya</string>
+    <string name="tabs_habit_remove_reason">Alisin ang dahilang ito</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">paraan na pinaganda mo ang buhay mo</item>
+        <item quantity="other">paraan na pinaganda mo ang buhay mo</item>
+    </plurals>
+    <string name="tabs_insights_habits">Habits</string>
+    <string name="tabs_insights_swaps">Mga palit</string>
+    <string name="tabs_insights_avoids">Mga iwas</string>
+    <string name="tabs_insights_on_track_section">Nasa tamang landas</string>
+    <string name="tabs_insights_avg_days">%1$d ar</string>
+    <string name="tabs_insights_average_kept">karaniwang nagawa</string>
+    <string name="tabs_insights_days_checked_in">araw na nag-check in</string>
+    <string name="tabs_insights_on_track">nasa tamang landas</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">palya</item>
+        <item quantity="other">palya</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">bagong hakbang</item>
+        <item quantity="other">bagong hakbang</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">isang beses na natapos</item>
+        <item quantity="other">isang beses na natapos</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Pinakamalaking dahilan ng palya</string>
+    <string name="tabs_insights_added_quarter">Idinagdag ngayong quarter</string>
+    <string name="tabs_insights_past_summaries">Mga nakaraang 3-Month summary</string>
+    <string name="tabs_insights_first_on">Darating ang una mo sa %1$s</string>
+    <string name="tabs_insights_all_time">Lahat</string>
+    <string name="tabs_insights_period">%1$s hanggang %2$s %3$d</string>
+
+    <string name="forms_back">Bumalik</string>
+    <string name="forms_back_habits">Habits</string>
+    <string name="forms_back_settings">Settings</string>
+    <string name="forms_add">Idagdag</string>
+    <string name="forms_save">I-save</string>
+    <string name="forms_finish">Tapusin</string>
+    <string name="forms_delete">Burahin</string>
+    <string name="forms_why">Bakit</string>
+    <string name="forms_never_show">Huwag nang ipakita ulit</string>
+    <string name="forms_every">Tuwing</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">araw</item>
+        <item quantity="other">araw</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Hakbang %1$d sa %2$d</string>
+    <string name="forms_checkin_next_weekly">Susunod, weekly Check-In ›</string>
+    <string name="forms_checkin_next_quarter">Susunod, 3-Month Check-Up ›</string>
+    <string name="forms_daily_title">Daily Check-In</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d naunang araw na hindi pa napupunan</item>
+        <item quantity="other">%1$d naunang araw na hindi pa napupunan</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Laktawan lahat</string>
+    <string name="forms_daily_today">Ngayon · %1$s</string>
+    <string name="forms_daily_skip">Laktawan</string>
+    <string name="forms_daily_undo_skip">Ibalik</string>
+    <string name="forms_daily_new_tag">Bagong tag</string>
+    <string name="forms_daily_new_tag_hint">Puno ang basurahan</string>
+    <string name="forms_weekly_title">Weekly Check-In</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d linggong utang, isang bagong hakbang ang sasakop sa lahat.</item>
+        <item quantity="other">%1$d linggong utang, isang bagong hakbang ang sasakop sa lahat.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Walang bagong hakbang ngayong linggo</string>
+    <string name="forms_quarter_title">3-Month Check-Up</string>
+    <string name="forms_quarter_nothing">Wala pang mache-check up. Susunod na ang summary mo.</string>
+    <string name="forms_quarter_habits">Habits</string>
+    <string name="forms_quarter_swaps">Mga palit</string>
+    <string name="forms_quarter_avoid">Iwas</string>
+    <string name="forms_quarter_missed">Nalaktawan</string>
+    <string name="forms_quarter_missed_level">Nalaktawan: %1$s</string>
+
+    <string name="forms_new_title">Bagong hakbang</string>
+    <string name="forms_edit_title">I-edit: %1$s</string>
+    <string name="forms_add_kind">Magdagdag: %1$s</string>
+    <string name="forms_title_habit">Habit</string>
+    <string name="forms_title_swap">Palit</string>
+    <string name="forms_title_avoid">Iwas</string>
+    <string name="forms_save_changes">I-save ang mga pagbabago</string>
+    <string name="forms_what_kind">Anong klase?</string>
+    <string name="forms_name">Pangalan</string>
+    <string name="forms_your_new_step">Ang bagong hakbang mo</string>
+    <string name="forms_hint_habit">Magbasa ng 10 pahina</string>
+    <string name="forms_hint_swap">Loofah, hindi espongha</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Anong klaseng habit?</string>
+    <string name="forms_timing_tip_title">Kahit kailan o sa pagtatapos ng araw</string>
+    <string name="forms_timing_tip">Kahit kailan: isang bagay na ginagawa mo nang isang beses, gaya ng pagtakbo. I-tick agad pagkatapos mo.\n\nPagtatapos ng araw: isang patakarang sinusunod mo buong araw, gaya ng walang meryenda. Sa gabi mo lang ito mata-tick.</string>
+    <string name="forms_anytime">Kahit kailan</string>
+    <string name="forms_end_of_day">Pagtatapos ng araw</string>
+    <string name="forms_what_is_it">Ano ito?</string>
+    <string name="forms_how_often">Gaano kadalas?</string>
+    <string name="forms_often_specific">Piling araw</string>
+    <string name="forms_often_whenever">Kahit kailan</string>
+    <string name="forms_often_once">Isang beses lang</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">beses tuwing</item>
+        <item quantity="other">beses tuwing</item>
+    </plurals>
+    <string name="forms_unit_day">araw</string>
+    <string name="forms_unit_week">linggo</string>
+    <string name="forms_unit_month">buwan</string>
+    <string name="forms_unit_x_days">X araw</string>
+    <string name="forms_ideas">Mga ideya</string>
+    <string name="forms_ideas_others">Iba pa</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Tingnan ang %1$d ideya ›</item>
+        <item quantity="other">Tingnan ang lahat ng %1$d ideya ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Lahat ng ideya ng hakbang</string>
+    <string name="forms_search">Maghanap…</string>
+    <string name="forms_all">Lahat</string>
+
+    <string name="forms_settings_title">Settings</string>
+    <string name="forms_set_colours">Mga kulay</string>
+    <string name="forms_set_style">Estilo ng 3-Month summary</string>
+    <string name="forms_set_checkins">Mga check-in</string>
+    <string name="forms_set_checkin_hour">Bubukas ang Daily Check-In nang</string>
+    <string name="forms_set_checkin_hour_tip">Mula sa oras na ito, puwede mo nang i-tick ang end of day habits at gawin ang Daily Check-In.</string>
+    <string name="forms_set_week_start">Simula ng linggo</string>
+    <string name="forms_set_week_start_tip">Kung anong araw nagsisimula ang Habits grid, mga linggo at chart mo.</string>
+    <string name="forms_monday">Lunes</string>
+    <string name="forms_sunday">Linggo</string>
+    <string name="forms_set_new_step_every">Bagong hakbang tuwing</string>
+    <string name="forms_set_new_step_every_tip">Ilang linggo sa pagitan ng mga Weekly Check-In.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">linggo</item>
+        <item quantity="other">linggo</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Araw ng Weekly Check-In</string>
+    <string name="forms_set_weekly_day_tip">Sa araw na ito, pagkatapos ng Daily Check-In ay pipili ka ng bagong hakbang para sa susunod na linggo.</string>
+    <string name="forms_set_checkup">3-Month Check-Up</string>
+    <string name="forms_set_checkup_tip">Sabay-sabay ang check-up ng lahat: 1 Ene, 1 Abr, 1 Hul at 1 Okt, para sabay-sabay ninyong maibahagi ang summary. Puwede ka ring pumili ng sarili mong petsa.</string>
+    <string name="forms_set_same">Kapareho ng lahat</string>
+    <string name="forms_set_own">Sarili kong petsa</string>
+    <string name="forms_set_starting">Simula sa</string>
+    <string name="forms_set_starting_tip">Ang buwan ng una mong sariling check-up.</string>
+    <string name="forms_earlier">Mas maaga</string>
+    <string name="forms_later">Mas huli</string>
+    <string name="forms_set_every_tip">Ilang buwan sa pagitan ng mga check-up.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">buwan</item>
+        <item quantity="other">buwan</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Araw ng buwan</string>
+    <string name="forms_set_day_of_month_tip">Anong araw ng buwang iyon.</string>
+    <string name="forms_set_everyone">Lahat: 1 Ene · 1 Abr · 1 Hul · 1 Okt</string>
+    <string name="forms_set_days_build">Mga araw para mabuo ang habit</string>
+    <string name="forms_set_days_build_tip">Ayon sa pananaliksik, 18 hanggang 254 na araw, at 66 ang pinakamadalas banggitin (Lally et al. 2010, Singh et al. 2024). Pagkalipas ng ganito karaming araw, lilipat ang bagong hakbang sa mga check-up mo.</string>
+    <string name="forms_set_nudge">Paalala araw-araw</string>
+    <string name="forms_set_nudge_tip">Isang paalala sa oras na ito, kung may hindi pa naka-tick.</string>
+    <string name="forms_set_more">Iba pa</string>
+    <string name="forms_set_reasons">Mga dahilan ng palya</string>
+    <string name="forms_set_tutorial">Ulitin ang tutorial</string>
+    <string name="forms_set_export">I-export ang data ko</string>
+    <string name="forms_set_import">Mag-import ng data</string>
+
+    <string name="forms_reasons_title">Mga dahilan ng palya</string>
+    <string name="forms_reasons_hint">Magdagdag ng sarili mong dahilan</string>
+    <string name="forms_reasons_used">nagamit nang %1$d×</string>
+    <string name="forms_reasons_delete_title">Burahin ang %1$s?</string>
+    <string name="forms_reasons_delete_text">Mananatili sa history mo ang mga palya, wala lang ang tag na ito.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d habit</item>
+        <item quantity="other">%1$d habits</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d palit</item>
+        <item quantity="other">%1$d palit</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d iwas</item>
+        <item quantity="other">%1$d iwas</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, mga tick mula %2$s</string>
+    <string name="forms_export_title">I-export ang data ko</string>
+    <string name="forms_export_what">Ano ang laman ng file</string>
+    <string name="forms_export_ticks">Bawat tick, palya at dahilan</string>
+    <string name="forms_export_ticks_since">Bawat tick, palya at dahilan mula %1$s</string>
+    <string name="forms_export_summaries">Ang mga 3-Month summary mo</string>
+    <string name="forms_export_settings">Ang settings, kulay at pangalan mo</string>
+    <string name="forms_export_file">File</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">I-save ang file</string>
+    <string name="forms_export_send">Ipadala sa…</string>
+    <string name="forms_export_send_title">Ipadala ang Alice data mo</string>
+    <string name="forms_export_saved">Na-save ang %1$s</string>
+    <string name="forms_export_save_failed">Hindi ma-save ang file</string>
+
+    <string name="forms_import_title">Mag-import ng data</string>
+    <string name="forms_import_choose">Pumili ng Alice backup</string>
+    <string name="forms_import_choose_sub">.json, mula sa Export sa ibang phone</string>
+    <string name="forms_import_cant_open">Hindi mabuksan ang file na iyon.</string>
+    <string name="forms_import_not_backup">Hindi Alice backup ang file na iyon.</string>
+    <string name="forms_import_replace_mode">Palitan ang nandito</string>
+    <string name="forms_import_add_mode">Idagdag sa nandito</string>
+    <string name="forms_import_button">I-import</string>
+    <string name="forms_import_replace_title">Palitan ang data mo?</string>
+    <string name="forms_import_add_title">Idagdag ang data na ito?</string>
+    <string name="forms_import_replace_text">Papalitan ng file ang lahat ng nasa phone na ito. Mag-export muna kung gusto mo itong itago.</string>
+    <string name="forms_import_add_text">Idadagdag sa iyo ang habits at history na nasa file.</string>
+    <string name="forms_import_done">Na-import ang data</string>
+
+    <string name="look_share">Ibahagi</string>
+    <string name="look_save_image">I-save ang larawan</string>
+    <string name="look_next_week">Susunod, ang linggo mo ›</string>
+    <string name="look_keep_going">Ituloy lang</string>
+    <string name="look_storage_needed">Kailangan ng Alice ng access sa storage para ma-save ang larawan</string>
+    <string name="look_share_caption">Ang quarter ko kasama si Alice. Simulan mo rin ang sa iyo: %1$s</string>
+    <string name="look_share_clip">Alice summary</string>
+    <string name="look_share_chooser">Ibahagi ang quarter mo</string>
+    <string name="look_saved">Na-save sa Pictures/Alice</string>
+    <string name="look_save_failed">Hindi ma-save ang larawan</string>
+
+    <string name="look_style_poster">Poster</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Tropeo cabinet</string>
+    <string name="look_style_receipt">Resibo</string>
+    <string name="look_style_report">Report card</string>
+    <string name="look_style_boarding">Boarding pass</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalendaryo</string>
+    <string name="look_style_trading">Trading card</string>
+
+    <string name="look_quote_1">Maliliit na Hakbang, Araw-araw</string>
+    <string name="look_quote_2">Salamat sa Pagdating Mo</string>
+    <string name="look_quote_3">Pag-unlad, Hindi Pagiging Perpekto</string>
+    <string name="look_quote_4">Tumuloy Ka. Mahalaga Iyon</string>
+    <string name="look_quote_5">Maliit na Pagbabago, Malaking Kaibahan</string>
+    <string name="look_quote_6">Araw-araw, Mas Mabuti ang Pinili Mo</string>
+    <string name="look_quote_7">Mabagal Pero Pasulong Pa Rin</string>
+    <string name="look_quote_8">Binubuo Mo ang Buhay na Gusto Mo</string>
+    <string name="look_quote_9">Paisa-isang Hakbang, Dumadami Rin</string>
+    <string name="look_quote_10">Patuloy na Dumating para sa Sarili Mo</string>
+    <string name="look_quote_11">Salamat Mula sa Iyong Hinaharap</string>
+    <string name="look_quote_12">Unti-unti, Dumarami</string>
+    <string name="look_quote_13">Tahimik na Mahika ang Pagtitiyaga</string>
+    <string name="look_quote_14">Tingnan Kung Gaano Ka na Kalayo</string>
+    <string name="look_quote_15">Ipagmalaki ang Maliliit na Panalo</string>
+    <string name="look_quote_16">Ang Magandang Araw ay Binubuo, Hindi Hinahanap</string>
+
+    <string name="look_stamp_1">NAPAKAHUSAY</string>
+    <string name="look_stamp_2">NAMUMUKOD</string>
+    <string name="look_stamp_3">MAGALING</string>
+    <string name="look_stamp_4">ANG GALING</string>
+    <string name="look_stamp_5">KAHANGA-HANGA</string>
+    <string name="look_stamp_6">PERFECT SCORE</string>
+    <string name="look_stamp_7">GOLD STAR</string>
+    <string name="look_stamp_8">MAHUSAY</string>
+
+    <string name="look_period">%1$s hanggang %2$s</string>
+    <string name="look_scan">I-SCAN PARA\nSIMULAN ANG SARILI\nMONG PAGLALAKBAY</string>
+    <string name="look_you">Ikaw</string>
+    <string name="look_on_track">nasa tamang landas</string>
+    <string name="look_new_steps">bagong hakbang</string>
+    <string name="look_days_in">araw na</string>
+    <string name="look_new">bago</string>
+    <string name="look_week_by_week">Bawat linggo</string>
+    <string name="look_coming_soon">Malapit na</string>
+    <string name="look_new_this_quarter">Bago ngayong quarter</string>
+    <string name="look_kept_up_longest">Pinakamatagal na napanatili</string>
+    <string name="look_habits">Habits</string>
+    <string name="look_swaps">Mga palit</string>
+    <string name="look_avoids">Mga iwas</string>
+    <string name="look_ways_improved">Mga paraang gumanda</string>
+    <string name="look_improved_in">Pinaganda mo ang buhay mo sa %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d habit</item>
+        <item quantity="other">%1$d habits</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d palit</item>
+        <item quantity="other">%1$d palit</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d iwas</item>
+        <item quantity="other">%1$d iwas</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d palya</item>
+        <item quantity="other">%1$d palya</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d paraan</item>
+        <item quantity="other">%1$d paraan</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">habit</item>
+        <item quantity="other">habits</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">palit</item>
+        <item quantity="other">palit</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">iwas</item>
+        <item quantity="other">iwas</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">palya</item>
+        <item quantity="other">palya</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">paraan</item>
+        <item quantity="other">paraan</item>
+    </plurals>
+
+    <string name="look_poster_improved">Napaganda mo ang buhay mo sa %1$s</string>
+    <string name="look_poster_on_track">NASA TAMANG LANDAS</string>
+    <string name="look_poster_days">araw</string>
+    <string name="look_poster_achievements">Mga nakamit</string>
+    <string name="look_poster_first_ones">Parating na ang mga una mo</string>
+    <string name="look_poster_added">Ang idinagdag mo ngayong quarter</string>
+
+    <string name="look_wrapped_stars">Ang mga bituin mo</string>
+
+    <string name="look_trophy_ways">paraan na pinaganda mo\nang buhay mo</string>
+    <string name="look_trophy_next_quarter">Susunod na quarter</string>
+    <string name="look_trophy_first_medal">ang una mong medalya</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Bago sa estante:</string>
+
+    <string name="look_receipt_title">3-Month Check-Up · %1$s</string>
+    <string name="look_receipt_customer">Customer: %1$s</string>
+    <string name="look_receipt_habits">Habits na nabuo</string>
+    <string name="look_receipt_swaps">Mga pinalitan</string>
+    <string name="look_receipt_avoids">Mga iniwasan</string>
+    <string name="look_receipt_ways">Mga paraan na pinaganda mo ang buhay mo</string>
+    <string name="look_receipt_on_track">Nasa tamang landas ngayong quarter</string>
+    <string name="look_receipt_slips">Mga palya</string>
+    <string name="look_receipt_new_steps">Mga bagong hakbang na nabuo</string>
+    <string name="look_receipt_new">Bago ngayong quarter: %1$s</string>
+
+    <string name="look_report_title">Report Card ng Maliliit na Hakbang</string>
+    <string name="look_report_pupil">%1$s · Mag-aaral: %2$s</string>
+    <string name="look_report_subject">ASIGNATURA</string>
+    <string name="look_report_built">NABUO</string>
+    <string name="look_report_grade">MARKA</string>
+    <string name="look_report_attendance">Pagdalo %1$s</string>
+    <string name="look_report_on_track">Nasa tamang landas %1$s</string>
+    <string name="look_report_slips">Mga palya %1$s</string>
+    <string name="look_report_achievements">MGA NAKAMIT</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">MGA BAGONG ASIGNATURA NGAYONG TERM (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Puna ng guro:</string>
+    <string name="look_report_calm">Isang kalmado at tuloy-tuloy na term.</string>
+    <string name="look_report_ups_downs">Isang term na may taas at baba, at hindi ka sumuko.</string>
+    <string name="look_report_star">Napakahusay ni %1$s. Ituloy mo lang!</string>
+    <string name="look_report_keep_up">Ituloy mo lang!</string>
+    <string name="look_report_week">BAWAT LINGGO</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Flight Q%1$d</string>
+    <string name="look_boarding_from">MULA</string>
+    <string name="look_boarding_old">LUMA</string>
+    <string name="look_boarding_habits">habits</string>
+    <string name="look_boarding_to">PATUNGO</string>
+    <string name="look_boarding_new">BAGO</string>
+    <string name="look_boarding_better_you">mas mabuting ikaw</string>
+    <string name="look_boarding_passenger">Pasahero</string>
+    <string name="look_boarding_dates">Mga petsa</string>
+    <string name="look_boarding_miles">Milyang nalipad</string>
+    <string name="look_boarding_on_time">Nasa oras</string>
+    <string name="look_boarding_turbulence">Turbulence</string>
+    <string name="look_boarding_days">Araw sa biyahe</string>
+    <string name="look_boarding_flyer">FREQUENT FLYER, ANG PINAKAMATAGAL MONG KASAMA</string>
+    <string name="look_boarding_log">FLIGHT LOG, BAWAT LINGGO</string>
+    <string name="look_boarding_stops">MGA BAGONG HINTUAN, +%1$d</string>
+    <string name="look_boarding_note">MENSAHE NG KAPITAN</string>
+
+    <string name="look_polaroid_life">ANG BUHAY MO</string>
+    <string name="look_polaroid_quarter">NGAYONG QUARTER</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d araw na</string>
+    <string name="look_polaroid_longest">PINAKAMATAGAL NA NAPANATILI</string>
+    <string name="look_polaroid_new">BAGO, +%1$d</string>
+
+    <string name="look_calendar_added">Idinagdag</string>
+
+    <string name="look_trading_common">Karaniwan</string>
+    <string name="look_trading_uncommon">Di-karaniwan</string>
+    <string name="look_trading_rare">Bihira</string>
+    <string name="look_trading_legendary">Maalamat</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">PARAAN</item>
+        <item quantity="other">PARAAN</item>
+    </plurals>
+    <string name="look_ordinal_st">ika-%1$d</string>
+    <string name="look_ordinal_nd">ika-%1$d</string>
+    <string name="look_ordinal_rd">ika-%1$d</string>
+    <string name="look_ordinal_th">ika-%1$d</string>
+    <string name="look_trading_number">Blg. %1$03d · ang %2$s mong quarter</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d araw</string>
+    <string name="look_trading_power">Lakas, bawat linggo</string>
+    <string name="look_trading_edition">%1$s · Q%2$d edition</string>
+
+    <string name="look_sample_water_first">Tubig muna</string>
+    <string name="look_sample_own_bag">Sariling bayong</string>
+    <string name="look_sample_read_pages">Magbasa ng 10 pahina</string>
+    <string name="look_sample_reading">Magbasa araw-araw</string>
+    <string name="look_sample_late_snacks">Walang midnight snack</string>
+    <string name="look_sample_stretching">Pag-stretch</string>
+    <string name="look_sample_cooler_home">Mas presko sa bahay</string>
+    <string name="look_sample_loofah">Loofah, hindi espongha</string>
+    <string name="look_sample_palm_oil">Walang palm oil</string>
+    <string name="look_sample_stretch">Mag-stretch nang 10 min</string>
+
+    <string name="look_colours_title">Mga kulay</string>
+    <string name="look_colours_preview">Preview</string>
+    <string name="look_colours_your_summary">Ang 3-Month summary mo</string>
+    <string name="look_colours_light">Maliwanag</string>
+    <string name="look_colours_dark">Madilim</string>
+    <string name="look_styles_title">Estilo ng 3-Month summary</string>
+    <string name="look_styles_all_pictures">Tingnan ang lahat ng 30 Polaroid na larawan</string>
+    <string name="look_styles_refresh">I-refresh</string>
+    <string name="look_pictures_title">Mga Polaroid na larawan</string>
+    <string name="look_pictures_back">Mga estilo ng summary</string>
+
+    <string name="look_welcome_name">Pangalan mo</string>
+    <string name="look_welcome_start">Simulan</string>
+    <string name="look_welcome_import">I-import ang data ko</string>
+
+    <string name="look_tut_skip">Laktawan</string>
+    <string name="look_tut_page">%1$d SA %2$d</string>
+    <string name="look_tut_back">Bumalik</string>
+    <string name="look_tut_start">Simulan</string>
+    <string name="look_tut_next">Susunod</string>
+    <string name="look_tut1_title">Maging mas mabuting ikaw, paisa-isang hakbang</string>
+    <string name="look_tut1_body">Bumuo ng bagong habits, pumili ng mas mabubuting bagay, at panoorin kung paano nadaragdagan ang lahat ng nakakamit mo.</string>
+    <string name="look_tut1_habits">Bumuo ng magagandang habits araw-araw at maging ang taong gusto mong maging.</string>
+    <string name="look_tut1_swaps">Palitan ang mga produkto ng mas mabubuti, para sa planeta, sa ibang tao o sa kalusugan mo.</string>
+    <string name="look_tut1_avoids">Itala ang mga kompanya, pagkain at produktong ayaw mong suportahan.</string>
+    <string name="look_tut2_title">I-tick mo</string>
+    <string name="look_tut2_body">I-tap ang kahon kapag nagawa mo na ang habit. Bubukas ang mga pang-gabi sa oras ng check-in mo.</string>
+    <string name="look_tut3_title">%1$s, tapos tuwing %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d araw</item>
+        <item quantity="other">%1$d araw</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d buwan</item>
+        <item quantity="other">%1$d buwan</item>
+    </plurals>
+    <string name="look_tut3_body">Ayon sa mga pag-aaral, 18 hanggang 254 na araw ang kailangan para mabuo ang isang habit. 66 na araw ang pinakamadalas banggitin, kaya doon nagsisimula si Alice.</string>
+    <string name="look_tut3_days_label">Mga araw para mabuo ang habit</string>
+    <string name="look_tut3_checkup">Check-up tuwing</string>
+    <string name="look_tut3_small">Puwede mong baguhin pareho sa Settings.</string>
+    <string name="look_tut4_title">Isang beses kada linggo, isang bagong hakbang</string>
+    <string name="look_tut4_body">Ang pagdagdag ng isang bagong hakbang sa bawat pagkakataon ay tumutulong sa iyong lumago nang dahan-dahan, nang hindi nabibigatan.</string>
+    <string name="look_tut4_day">Araw ng check-in</string>
+    <string name="look_tut4_small">Puwede mo rin itong baguhin sa Settings.</string>
+    <string name="look_tut5_title">Bawat quarter, ang summary mo</string>
+    <string name="look_tut5_body">Ibahagi kung gaano ka na kalayo sa mga kaibigan mo at sa mga taong malapit sa iyo. I-tap ang itsurang gusto mo:</string>
+    <string name="look_tut_change_mind">Puwede mo itong baguhin anumang oras.</string>
+    <string name="look_tut6_title">Gawin mo itong sa iyo</string>
+    <string name="look_tut6_body">Piliin ang mga kulay na pinakakomportable sa iyo. Magbabago agad ang buong app.</string>
+    <string name="look_tut7_title">Baguhin ang kahit ano, kahit kailan</string>
+    <string name="look_tut7_body">Nasa Settings ang oras ng check-in, mga araw para mabuo ang habit, estilo ng summary, mga kulay at ang data mo.</string>
+    <string name="look_tut7_gear">I-tap ang gear sa itaas ng Habits para buksan ang Settings.</string>
+    <string name="look_tut7_open">Buksan ang Settings</string>
+
+    <string name="lang_title">Wika</string>
+    <string name="pron_title">Panghalip</string>
+    <string name="pron_she">babae</string>
+    <string name="pron_he">lalaki</string>
+    <string name="pron_they">neutral</string>
+    <string name="lang_spotted">May nakita kang mali sa wika mo?</string>
+    <string name="lang_search">Hanapin ang wika mo</string>
+    <string name="lang_phone">Wika ng phone</string>
+    <string name="lang_follow">Sundan ang phone mo</string>
+    <string name="lang_note_title">Tumulong sa pagsasalin</string>
+    <string name="lang_note_1">Hi, ako si Lucy at ako ang gumawa ng Alice.</string>
+    <string name="lang_note_2">Marunong ako ng English, Slovak, Czech at Russian, kaya ako mismo ang nag-check ng mga salin na iyon. Ang ibang wika ay hindi pa nache-check ng native speaker.</string>
+    <string name="lang_note_3">Kung may makita kang mali sa wika mo, pakisabi sa akin para maayos ko. At kung matagal mo nang ginagamit ang Alice sa wika mo at tama ang lahat, sabihin mo rin sa akin, para mamarkahan ko itong aprubado.</string>
+    <string name="lang_note_4">Salamat!</string>
+    <string name="lang_not_approved">HINDI PA APRUBADO</string>
+    <string name="lang_report">I-report ang mali</string>
+    <string name="lang_all_correct">Tama lahat sa wika ko</string>
+    <string name="lang_mail_mistake_body">Ano ang mali, at saang screen:\n\n</string>
+    <string name="lang_mail_correct_body">Matagal ko nang ginagamit ang Alice sa wika ko at tama ang lahat.\n\n</string>
+    <string name="lang_no_mail">Walang nakitang email app</string>
+</resources>

@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Umor</string>
+    <string name="core_reason_craving">Želja</string>
+    <string name="core_reason_no_time">Nema vremena</string>
+    <string name="core_reason_forgot">Zaborav</string>
+    <string name="core_reason_no_alternative">Nema alternative</string>
+    <string name="core_reason_social">Društvo</string>
+    <string name="core_reason_impulse">Impuls</string>
+    <string name="core_reason_too_expensive">Preskupo</string>
+    <string name="core_reason_away">Izvan kuće</string>
+
+    <string name="core_nudge_channel">Dnevni podsjetnik</string>
+    <string name="core_nudge_title">Još ima što označiti danas</string>
+    <string name="core_save_failed">Spremanje nije uspjelo, pokušaj ponovno</string>
+
+    <string name="core_kind_habit">Navika</string>
+    <string name="core_kind_swap">Zamjena</string>
+    <string name="core_kind_avoid">Izbjegavanje</string>
+    <string name="core_about">Informacije: %1$s</string>
+    <string name="core_ok">U redu</string>
+    <string name="core_less">Manje</string>
+    <string name="core_more">Više</string>
+    <string name="core_cancel">Odustani</string>
+    <string name="core_settings">Postavke</string>
+    <string name="core_span_week">Tjedan</string>
+    <string name="core_span_month">Mjesec</string>
+    <string name="core_span_year">Godina</string>
+    <string name="core_span_all">Od početka</string>
+    <string name="core_tab_habits">Navike</string>
+    <string name="core_tab_changes">Promjene</string>
+    <string name="core_tab_avoid">Izbjegavanje</string>
+    <string name="core_tab_insights">Statistika</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">napravljeno</string>
+    <string name="core_cell_missed">propušteno</string>
+    <string name="core_cell_partial">djelomično, dosad %1$d</string>
+    <string name="core_cell_unfilled">još nije ispunjeno</string>
+    <string name="core_cell_open">treba napraviti</string>
+    <string name="core_cell_locked">zaključano do vremena provjere</string>
+    <string name="core_cell_future">još ne</string>
+    <string name="core_cell_empty">ništa nije potrebno</string>
+    <string name="core_cell_band">gotovo za ovo razdoblje</string>
+    <string name="core_cell_off">nije dan za ovaj korak</string>
+    <string name="core_cell_none">prije početka ovog koraka</string>
+
+    <string name="core_rhythm_one_off">Jednokratno</string>
+    <string name="core_rhythm_end_of_day">Svaki dan, označava se na kraju dana</string>
+    <string name="core_rhythm_every_day">Svaki dan</string>
+    <string name="core_rhythm_every_days">Svaki %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">tjedno</string>
+    <string name="core_rhythm_a_month">mjesečno</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, bilo koji dan</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s i %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d mj.</string>
+    <string name="core_achievement_short_days">%1$d d.</string>
+    <string name="core_glance_step">%1$s, %2$d od %3$d</string>
+
+    <string name="core_slip_never">Nikad</string>
+    <string name="core_slip_once">Jednom</string>
+    <string name="core_slip_a_few">Nekoliko puta</string>
+    <string name="core_slip_half">Pola</string>
+    <string name="core_slip_most">Većinu</string>
+    <string name="core_slip_always">Uvijek</string>
+
+    <string name="core_ideas_habit_anytime">Navike, bilo kada</string>
+    <string name="core_ideas_habit_end">Navike, kraj dana</string>
+    <string name="core_ideas_swap">Zamjene</string>
+    <string name="core_ideas_avoid_product">Izbjegavanje, proizvodi</string>
+    <string name="core_ideas_avoid_company">Izbjegavanje, tvrtke</string>
+    <string name="core_ideas_avoid_food">Izbjegavanje, hrana</string>
+
+    <string name="core_tag_ethical">Etika</string>
+    <string name="core_tag_health">Zdravlje</string>
+    <string name="core_tag_clutter">Nered</string>
+    <string name="core_tag_ecological">Ekologija</string>
+    <string name="core_tag_animal_welfare">Dobrobit životinja</string>
+    <string name="core_tag_workers_rights">Prava radnika</string>
+    <string name="core_tag_plastic">Plastika</string>
+    <string name="core_tag_palm_oil">Palmino ulje</string>
+    <string name="core_tag_deforestation">Krčenje šuma</string>
+    <string name="core_category_company">Tvrtka</string>
+    <string name="core_category_food">Hrana</string>
+    <string name="core_category_product">Proizvod</string>
+    <string name="core_verdict_avoid">IZBJEGAVAJ</string>
+    <string name="core_verdict_edge">NA RUBU</string>
+    <string name="core_verdict_fine">U REDU</string>
+
+    <string name="core_theme_off_white_honey">Prljavo bijela i med</string>
+    <string name="core_theme_vanilla_caramel">Vanilija i karamela</string>
+    <string name="core_theme_sunflower">Suncokret</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao i limun</string>
+    <string name="core_theme_espresso_butter">Espresso i maslac</string>
+    <string name="core_theme_midnight_honey">Ponoć i med</string>
+    <string name="core_theme_forest_night">Noć u šumi</string>
+    <string name="core_theme_plum_dusk">Sumrak boje šljive</string>
+    <string name="core_theme_charcoal_coral">Grafit i koralj</string>
+
+    <string name="core_pic_sunny_meadow">Sunčana livada</string>
+    <string name="core_pic_sunset_hills">Brda u zalazak</string>
+    <string name="core_pic_starry_night">Zvjezdana noć</string>
+    <string name="core_pic_beach_day">Dan na plaži</string>
+    <string name="core_pic_mountain_lake">Planinsko jezero</string>
+    <string name="core_pic_snowy_village">Zasniježeno selo</string>
+    <string name="core_pic_rainy_garden">Kišni vrt</string>
+    <string name="core_pic_autumn_forest">Jesenska šuma</string>
+    <string name="core_pic_cherry_blossom">Cvijet trešnje</string>
+    <string name="core_pic_desert_cactus">Kaktus u pustinji</string>
+    <string name="core_pic_lighthouse">Svjetionik</string>
+    <string name="core_pic_rainbow_field">Polje pod dugom</string>
+    <string name="core_pic_hot_air_balloon">Balon na vrući zrak</string>
+    <string name="core_pic_sailboat">Jedrilica</string>
+    <string name="core_pic_cabin_in_the_woods">Koliba u šumi</string>
+    <string name="core_pic_tulip_field">Polje tulipana</string>
+    <string name="core_pic_campfire_night">Noć uz logorsku vatru</string>
+    <string name="core_pic_misty_mountains">Maglovite planine</string>
+    <string name="core_pic_sunrise_sea">More u svitanje</string>
+    <string name="core_pic_snowy_pines">Zasniježeni borovi</string>
+    <string name="core_pic_lavender_field">Polje lavande</string>
+    <string name="core_pic_waterfall">Slap</string>
+    <string name="core_pic_city_at_dusk">Grad u sumrak</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Mjesec iznad jezera</string>
+    <string name="core_pic_palm_island">Otok s palmama</string>
+    <string name="core_pic_windmill">Vjetrenjača</string>
+    <string name="core_pic_bike_path">Biciklistička staza</string>
+    <string name="core_pic_greenhouse">Staklenik</string>
+    <string name="core_pic_northern_lights">Polarna svjetlost</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d korak te čeka.</item>
+        <item quantity="few">%d koraka te čekaju.</item>
+        <item quantity="other">%d koraka te čeka.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">napravljeno, %d put</item>
+        <item quantity="few">napravljeno, %d puta</item>
+        <item quantity="other">napravljeno, %d puta</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d put dnevno</item>
+        <item quantity="few">%d puta dnevno</item>
+        <item quantity="other">%d puta dnevno</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d put</item>
+        <item quantity="few">%d puta</item>
+        <item quantity="other">%d puta</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">svaki %d tjedan</item>
+        <item quantity="few">svaka %d tjedna</item>
+        <item quantity="other">svakih %d tjedana</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">svaki %d mjesec</item>
+        <item quantity="few">svaka %d mjeseca</item>
+        <item quantity="other">svakih %d mjeseci</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">svaki %d dan</item>
+        <item quantity="few">svaka %d dana</item>
+        <item quantity="other">svakih %d dana</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d mjesec bez propusta</item>
+        <item quantity="few">%d mjeseca bez propusta</item>
+        <item quantity="other">%d mjeseci bez propusta</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d mjesec stabilno</item>
+        <item quantity="few">%d mjeseca stabilno</item>
+        <item quantity="other">%d mjeseci stabilno</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d dan zaredom</item>
+        <item quantity="few">%d dana zaredom</item>
+        <item quantity="other">%d dana zaredom</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d mjesec</item>
+        <item quantity="few">%d mjeseca</item>
+        <item quantity="other">%d mjeseci</item>
+    </plurals>
+
+    <string name="tabs_new_step">Novi korak</string>
+    <string name="tabs_edit">Uredi</string>
+    <string name="tabs_delete">Izbriši</string>
+    <string name="tabs_done">Gotovo</string>
+    <string name="tabs_back">Natrag</string>
+    <string name="tabs_earlier">Ranije</string>
+    <string name="tabs_later">Kasnije</string>
+    <string name="tabs_delete_title">Izbrisati %1$s?</string>
+    <string name="tabs_eod_unlock">Navike za kraj dana otključavaju se u %1$02d:00</string>
+    <string name="tabs_check_up">Pregled</string>
+    <string name="tabs_one_off">Jednokratno</string>
+
+    <string name="tabs_checkin_from">Provjera od %1$02d:00</string>
+    <string name="tabs_checkin_daily">Dnevna provjera</string>
+    <string name="tabs_checkin_weekly">Tjedna provjera</string>
+    <string name="tabs_checkin_quarter">Tromjesečni pregled</string>
+    <string name="tabs_checked_in">Provjereno</string>
+    <string name="tabs_quarter_section">TROMJESEČNI PREGLED</string>
+    <string name="tabs_previous_week">Prethodni tjedan</string>
+    <string name="tabs_next_week">Sljedeći tjedan</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d dan: %2$s!</item>
+        <item quantity="few">%1$d dana: %2$s!</item>
+        <item quantity="other">%1$d dana: %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Bravo. Sada prelazi u tvoje tromjesečne preglede, nema više svakodnevnog označavanja.</string>
+    <string name="tabs_celebrate_first">Prvi je %1$s.</string>
+    <string name="tabs_glance_title">Tvoj tjedan</string>
+    <string name="tabs_glance_ticks_kept">Ispunjene oznake</string>
+    <string name="tabs_glance_days_checked_in">Dani s provjerom</string>
+    <string name="tabs_glance_top_tag">Najčešći razlog posrtaja:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d put</item>
+        <item quantity="few">%1$s, %2$d puta</item>
+        <item quantity="other">%1$s, %2$d puta</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Najlakše:</string>
+    <string name="tabs_glance_hardest">Najteže:</string>
+
+    <string name="tabs_changes_ongoing">Trajne zamjene</string>
+    <string name="tabs_changes_ongoing_tip_title">Trajna zamjena</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Isti izbor imat ćeš ponovno, kao šalicu za kavu ili čvrsti šampon. Označava se u Navikama %1$d dan, a zatim se provjerava svaka 3 mjeseca.</item>
+        <item quantity="few">Isti izbor imat ćeš ponovno, kao šalicu za kavu ili čvrsti šampon. Označava se u Navikama %1$d dana, a zatim se provjerava svaka 3 mjeseca.</item>
+        <item quantity="other">Isti izbor imat ćeš ponovno, kao šalicu za kavu ili čvrsti šampon. Označava se u Navikama %1$d dana, a zatim se provjerava svaka 3 mjeseca.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Još nema zamjena</string>
+    <string name="tabs_changes_day_badge">DAN %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">DRŽI SE</string>
+    <string name="tabs_changes_one_off_todo">Jednokratno, treba napraviti</string>
+    <string name="tabs_changes_one_off_tip">Napraviš jednom i gotovo, kao kad isprazniš ladicu, prijeđeš na zelenu tarifu za struju ili zakrpaš jaknu. Označi i prelazi u Završeno.</string>
+    <string name="tabs_changes_nothing_waiting">Ništa ne čeka</string>
+    <string name="tabs_changes_finished">ZAVRŠENO · %1$d</string>
+
+    <string name="tabs_avoid_title">Popis za izbjegavanje</string>
+    <string name="tabs_avoid_search">Pretraži…</string>
+    <string name="tabs_avoid_no_match">Nema rezultata</string>
+    <string name="tabs_avoid_companies">Tvrtke</string>
+    <string name="tabs_avoid_food">Hrana</string>
+    <string name="tabs_avoid_products">Proizvodi</string>
+
+    <string name="tabs_avoid_added">Dodano</string>
+    <string name="tabs_avoid_why">Zašto to izbjegavaš</string>
+    <string name="tabs_avoid_own_words">Tvojim riječima</string>
+    <string name="tabs_avoid_brands">Brendovi u vlasništvu · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Jedan brend po retku</string>
+    <string name="tabs_avoid_more_brands">+%1$d još</string>
+    <string name="tabs_avoid_instead">Uzmi ovo umjesto toga</string>
+    <string name="tabs_avoid_instead_hint">Jedno po retku</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">posrtaj</item>
+        <item quantity="few">posrtaja</item>
+        <item quantity="other">posrtaja</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">izbjegnuto</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">mjesec na popisu</item>
+        <item quantity="few">mjeseca na popisu</item>
+        <item quantity="other">mjeseci na popisu</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Miče se s tvog popisa za izbjegavanje zajedno s poviješću.</string>
+
+    <string name="tabs_habit_delete_text">S njom odlazi i cijela njezina povijest.</string>
+    <string name="tabs_habit_created">Stvoreno</string>
+    <string name="tabs_habit_to_do">Treba napraviti</string>
+    <string name="tabs_habit_daily_ticks">Dnevne oznake</string>
+    <string name="tabs_habit_day_of">Dan %1$d od %2$d</string>
+    <string name="tabs_habit_finished">Završeno</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">dan zaredom</item>
+        <item quantity="few">dana zaredom</item>
+        <item quantity="other">dana zaredom</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">prekid</item>
+        <item quantity="few">prekida</item>
+        <item quantity="other">prekida</item>
+    </plurals>
+    <string name="tabs_habit_success">uspjeh</string>
+    <string name="tabs_habit_current_streak">Trenutni niz</string>
+    <string name="tabs_habit_longest_streak">Najdulji niz</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d dan</item>
+        <item quantity="few">%1$d dana</item>
+        <item quantity="other">%1$d dana</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Zašto je došlo do posrtaja</string>
+    <string name="tabs_habit_remove_reason">Ukloni ovaj razlog</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">poboljšanje u tvom životu</item>
+        <item quantity="few">poboljšanja u tvom životu</item>
+        <item quantity="other">poboljšanja u tvom životu</item>
+    </plurals>
+    <string name="tabs_insights_habits">Navike</string>
+    <string name="tabs_insights_swaps">Zamjene</string>
+    <string name="tabs_insights_avoids">Izbjegavanja</string>
+    <string name="tabs_insights_on_track_section">Po planu</string>
+    <string name="tabs_insights_avg_days">%1$d d.</string>
+    <string name="tabs_insights_average_kept">prosječno ispunjeno</string>
+    <string name="tabs_insights_days_checked_in">dana s provjerom</string>
+    <string name="tabs_insights_on_track">po planu</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">posrtaj</item>
+        <item quantity="few">posrtaja</item>
+        <item quantity="other">posrtaja</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">novi korak</item>
+        <item quantity="few">nova koraka</item>
+        <item quantity="other">novih koraka</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">jednokratni napravljen</item>
+        <item quantity="few">jednokratna napravljena</item>
+        <item quantity="other">jednokratnih napravljeno</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Najčešći razlozi posrtaja</string>
+    <string name="tabs_insights_added_quarter">Dodano ovog tromjesečja</string>
+    <string name="tabs_insights_past_summaries">Prošli tromjesečni sažeci</string>
+    <string name="tabs_insights_first_on">Tvoj prvi stiže %1$s</string>
+    <string name="tabs_insights_all_time">Od početka</string>
+    <string name="tabs_insights_period">%1$s do %2$s %3$d.</string>
+
+    <string name="forms_back">Natrag</string>
+    <string name="forms_back_habits">Navike</string>
+    <string name="forms_back_settings">Postavke</string>
+    <string name="forms_add">Dodaj</string>
+    <string name="forms_save">Spremi</string>
+    <string name="forms_finish">Završi</string>
+    <string name="forms_delete">Izbriši</string>
+    <string name="forms_why">Zašto</string>
+    <string name="forms_never_show">Ne prikazuj više</string>
+    <string name="forms_every">Svakih</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">dan</item>
+        <item quantity="few">dana</item>
+        <item quantity="other">dana</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Korak %1$d od %2$d</string>
+    <string name="forms_checkin_next_weekly">Dalje, tjedna provjera ›</string>
+    <string name="forms_checkin_next_quarter">Dalje, tromjesečni pregled ›</string>
+    <string name="forms_daily_title">Dnevna provjera</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d raniji dan nije ispunjen</item>
+        <item quantity="few">%1$d ranija dana nisu ispunjena</item>
+        <item quantity="other">%1$d ranijih dana nije ispunjeno</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Preskoči sve</string>
+    <string name="forms_daily_today">Danas · %1$s</string>
+    <string name="forms_daily_skip">Preskoči</string>
+    <string name="forms_daily_undo_skip">Poništi preskakanje</string>
+    <string name="forms_daily_new_tag">Nova oznaka</string>
+    <string name="forms_daily_new_tag_hint">Kanta je bila puna</string>
+    <string name="forms_weekly_title">Tjedna provjera</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d propušteni tjedan, jedan novi korak pokriva sve.</item>
+        <item quantity="few">%1$d propuštena tjedna, jedan novi korak pokriva sve.</item>
+        <item quantity="other">%1$d propuštenih tjedana, jedan novi korak pokriva sve.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Bez novog koraka ovaj tjedan</string>
+    <string name="forms_quarter_title">Tromjesečni pregled</string>
+    <string name="forms_quarter_nothing">Još nema ničega za pregled. Slijedi tvoj sažetak.</string>
+    <string name="forms_quarter_habits">Navike</string>
+    <string name="forms_quarter_swaps">Zamjene</string>
+    <string name="forms_quarter_avoid">Izbjegavanje</string>
+    <string name="forms_quarter_missed">Propušteno</string>
+    <string name="forms_quarter_missed_level">Propušteno: %1$s</string>
+
+    <string name="forms_new_title">Novi korak</string>
+    <string name="forms_edit_title">Uredi: %1$s</string>
+    <string name="forms_add_kind">Dodaj: %1$s</string>
+    <string name="forms_title_habit">Navika</string>
+    <string name="forms_title_swap">Zamjena</string>
+    <string name="forms_title_avoid">Izbjegavanje</string>
+    <string name="forms_save_changes">Spremi promjene</string>
+    <string name="forms_what_kind">Koje vrste?</string>
+    <string name="forms_name">Naziv</string>
+    <string name="forms_your_new_step">Tvoj novi korak</string>
+    <string name="forms_hint_habit">Pročitaj 10 stranica</string>
+    <string name="forms_hint_swap">Lufa umjesto spužve</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Koja vrsta navike?</string>
+    <string name="forms_timing_tip_title">Bilo kada ili na kraju dana</string>
+    <string name="forms_timing_tip">Bilo kada: nešto što napraviš jednom, kao trčanje. Označi čim je gotovo.\n\nNa kraju dana: pravilo kojeg se držiš cijeli dan, kao bez grickalica. Možeš ga označiti tek navečer.</string>
+    <string name="forms_anytime">Bilo kada</string>
+    <string name="forms_end_of_day">Kraj dana</string>
+    <string name="forms_what_is_it">Što je to?</string>
+    <string name="forms_how_often">Koliko često?</string>
+    <string name="forms_often_specific">Određeni dani</string>
+    <string name="forms_often_whenever">Kad god</string>
+    <string name="forms_often_once">Samo jednom</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">put, svaki</item>
+        <item quantity="few">puta, svaki</item>
+        <item quantity="other">puta, svaki</item>
+    </plurals>
+    <string name="forms_unit_day">dan</string>
+    <string name="forms_unit_week">tjedan</string>
+    <string name="forms_unit_month">mjesec</string>
+    <string name="forms_unit_x_days">X dana</string>
+    <string name="forms_ideas">Ideje</string>
+    <string name="forms_ideas_others">Ostalo</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Pogledaj %1$d ideju ›</item>
+        <item quantity="few">Pogledaj sve %1$d ideje ›</item>
+        <item quantity="other">Pogledaj svih %1$d ideja ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Sve ideje za korake</string>
+    <string name="forms_search">Pretraži…</string>
+    <string name="forms_all">Sve</string>
+
+    <string name="forms_settings_title">Postavke</string>
+    <string name="forms_set_colours">Boje</string>
+    <string name="forms_set_style">Stil tromjesečnog sažetka</string>
+    <string name="forms_set_checkins">Provjere</string>
+    <string name="forms_set_checkin_hour">Dnevna provjera otvara se u</string>
+    <string name="forms_set_checkin_hour_tip">Od ovog vremena možeš označiti navike za kraj dana i napraviti dnevnu provjeru.</string>
+    <string name="forms_set_week_start">Tjedan počinje u</string>
+    <string name="forms_set_week_start_tip">Kojim danom počinju tablica navika, tjedni i grafikoni.</string>
+    <string name="forms_monday">Ponedjeljak</string>
+    <string name="forms_sunday">Nedjelja</string>
+    <string name="forms_set_new_step_every">Novi korak svakih</string>
+    <string name="forms_set_new_step_every_tip">Koliko tjedana između tjednih provjera.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">tjedan</item>
+        <item quantity="few">tjedna</item>
+        <item quantity="other">tjedana</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Dan tjedne provjere</string>
+    <string name="forms_set_weekly_day_tip">Tog dana nakon dnevne provjere biraš novi korak za sljedeći tjedan.</string>
+    <string name="forms_set_checkup">Tromjesečni pregled</string>
+    <string name="forms_set_checkup_tip">Svi rade pregled istih dana: 1. sij, 1. tra, 1. srp i 1. lis, da biste sažetke dijelili zajedno. Možeš odabrati i svoj datum.</string>
+    <string name="forms_set_same">Kao svi</string>
+    <string name="forms_set_own">Moj datum</string>
+    <string name="forms_set_starting">Početak</string>
+    <string name="forms_set_starting_tip">Mjesec tvog prvog vlastitog pregleda.</string>
+    <string name="forms_earlier">Ranije</string>
+    <string name="forms_later">Kasnije</string>
+    <string name="forms_set_every_tip">Mjeseci između pregleda.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">mjesec</item>
+        <item quantity="few">mjeseca</item>
+        <item quantity="other">mjeseci</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Dan u mjesecu</string>
+    <string name="forms_set_day_of_month_tip">Koji dan u tom mjesecu.</string>
+    <string name="forms_set_everyone">Svi: 1. sij · 1. tra · 1. srp · 1. lis</string>
+    <string name="forms_set_days_build">Dani za stvaranje navike</string>
+    <string name="forms_set_days_build_tip">Istraživanja su pokazala od 18 do 254 dana, najčešće se navodi 66 (Lally et al. 2010, Singh et al. 2024). Nakon toliko dana novi korak prelazi u tvoje preglede.</string>
+    <string name="forms_set_nudge">Dnevni podsjetnik</string>
+    <string name="forms_set_nudge_tip">Podsjetnik u ovo vrijeme, samo ako nešto još nije označeno.</string>
+    <string name="forms_set_more">Više</string>
+    <string name="forms_set_reasons">Razlozi posrtaja</string>
+    <string name="forms_set_tutorial">Ponovi upute</string>
+    <string name="forms_set_export">Izvezi moje podatke</string>
+    <string name="forms_set_import">Uvezi podatke</string>
+
+    <string name="forms_reasons_title">Razlozi posrtaja</string>
+    <string name="forms_reasons_hint">Dodaj svoj razlog</string>
+    <string name="forms_reasons_used">korišteno %1$d×</string>
+    <string name="forms_reasons_delete_title">Izbrisati %1$s?</string>
+    <string name="forms_reasons_delete_text">Posrtaji ostaju u tvojoj povijesti, samo bez ove oznake.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d navika</item>
+        <item quantity="few">%1$d navike</item>
+        <item quantity="other">%1$d navika</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d zamjena</item>
+        <item quantity="few">%1$d zamjene</item>
+        <item quantity="other">%1$d zamjena</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d izbjegavanje</item>
+        <item quantity="few">%1$d izbjegavanja</item>
+        <item quantity="other">%1$d izbjegavanja</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, oznake od %2$s</string>
+    <string name="forms_export_title">Izvezi moje podatke</string>
+    <string name="forms_export_what">Što ide u datoteku</string>
+    <string name="forms_export_ticks">Svaka oznaka, posrtaj i razlog</string>
+    <string name="forms_export_ticks_since">Svaka oznaka, posrtaj i razlog od %1$s</string>
+    <string name="forms_export_summaries">Tvoji tromjesečni sažeci</string>
+    <string name="forms_export_settings">Tvoje postavke, boje i ime</string>
+    <string name="forms_export_file">Datoteka</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Spremi datoteku</string>
+    <string name="forms_export_send">Pošalji u…</string>
+    <string name="forms_export_send_title">Pošalji svoje podatke iz Alice</string>
+    <string name="forms_export_saved">Spremljeno: %1$s</string>
+    <string name="forms_export_save_failed">Datoteka nije spremljena</string>
+
+    <string name="forms_import_title">Uvezi podatke</string>
+    <string name="forms_import_choose">Odaberi sigurnosnu kopiju Alice</string>
+    <string name="forms_import_choose_sub">.json, iz Izvoza na drugom telefonu</string>
+    <string name="forms_import_cant_open">Ta se datoteka ne može otvoriti.</string>
+    <string name="forms_import_not_backup">Ta datoteka nije sigurnosna kopija Alice.</string>
+    <string name="forms_import_replace_mode">Zamijeni ono što je ovdje</string>
+    <string name="forms_import_add_mode">Dodaj onome što je ovdje</string>
+    <string name="forms_import_button">Uvezi</string>
+    <string name="forms_import_replace_title">Zamijeniti tvoje podatke?</string>
+    <string name="forms_import_add_title">Dodati ove podatke?</string>
+    <string name="forms_import_replace_text">Sve na ovom telefonu zamjenjuje se datotekom. Prvo izvezi ako to želiš zadržati.</string>
+    <string name="forms_import_add_text">Navike i povijest iz datoteke dodaju se tvojima.</string>
+    <string name="forms_import_done">Podaci su uvezeni</string>
+
+    <string name="look_share">Podijeli</string>
+    <string name="look_save_image">Spremi sliku</string>
+    <string name="look_next_week">Dalje, tvoj tjedan ›</string>
+    <string name="look_keep_going">Samo naprijed</string>
+    <string name="look_storage_needed">Alice treba pristup pohrani da spremi sliku</string>
+    <string name="look_share_caption">Moje tromjesečje s Alice. Započni i ti: %1$s</string>
+    <string name="look_share_clip">Alice sažetak</string>
+    <string name="look_share_chooser">Podijeli svoje tromjesečje</string>
+    <string name="look_saved">Spremljeno u Pictures/Alice</string>
+    <string name="look_save_failed">Slika nije spremljena</string>
+
+    <string name="look_style_poster">Plakat</string>
+    <string name="look_style_wrapped">Rekapitulacija</string>
+    <string name="look_style_trophy">Vitrina s trofejima</string>
+    <string name="look_style_receipt">Račun</string>
+    <string name="look_style_report">Svjedodžba</string>
+    <string name="look_style_boarding">Ukrcajna karta</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalendar</string>
+    <string name="look_style_trading">Kolekcionarska kartica</string>
+
+    <string name="look_quote_1">Mali Koraci, Svaki Dan</string>
+    <string name="look_quote_2">Hvala Što Si Tu</string>
+    <string name="look_quote_3">Napredak, Ne Savršenstvo</string>
+    <string name="look_quote_4">I Dalje Ideš Naprijed. To Se Računa</string>
+    <string name="look_quote_5">Male Promjene, Velika Razlika</string>
+    <string name="look_quote_6">Svaki Dan Biraš Bolje</string>
+    <string name="look_quote_7">Polako Je I Dalje Naprijed</string>
+    <string name="look_quote_8">Gradiš Život Koji Voliš</string>
+    <string name="look_quote_9">Korak Po Korak, Sve Se Zbraja</string>
+    <string name="look_quote_10">Nastavi Biti Tu Za Sebe</string>
+    <string name="look_quote_11">Tvoje Buduće Ja Ti Zahvaljuje</string>
+    <string name="look_quote_12">Malo Po Malo, Puno</string>
+    <string name="look_quote_13">Dosljednost Je Tiha Magija</string>
+    <string name="look_quote_14">Pogledaj Koliki Je Put Iza Tebe</string>
+    <string name="look_quote_15">Raduj Se Malim Pobjedama</string>
+    <string name="look_quote_16">Dobri Dani Se Grade, Ne Nalaze</string>
+
+    <string name="look_stamp_1">ODLIČNO</string>
+    <string name="look_stamp_2">IZVANREDNO</string>
+    <string name="look_stamp_3">BRAVO</string>
+    <string name="look_stamp_4">BRILJANTNO</string>
+    <string name="look_stamp_5">SJAJNO</string>
+    <string name="look_stamp_6">PETICA</string>
+    <string name="look_stamp_7">ZLATNA ZVIJEZDA</string>
+    <string name="look_stamp_8">SUPER POSAO</string>
+
+    <string name="look_period">%1$s do %2$s</string>
+    <string name="look_scan">SKENIRAJ I\nZAPOČNI SVOJE\nPUTOVANJE</string>
+    <string name="look_you">Ti</string>
+    <string name="look_on_track">po planu</string>
+    <string name="look_new_steps">novih koraka</string>
+    <string name="look_days_in">dana dosad</string>
+    <string name="look_new">novo</string>
+    <string name="look_week_by_week">Tjedan po tjedan</string>
+    <string name="look_coming_soon">Uskoro</string>
+    <string name="look_new_this_quarter">Novo ovog tromjesečja</string>
+    <string name="look_kept_up_longest">Najdulje održano</string>
+    <string name="look_habits">Navike</string>
+    <string name="look_swaps">Zamjene</string>
+    <string name="look_avoids">Izbjegavanja</string>
+    <string name="look_ways_improved">Poboljšanja</string>
+    <string name="look_improved_in">Tvoj život je bolji na %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d navika</item>
+        <item quantity="few">%1$d navike</item>
+        <item quantity="other">%1$d navika</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d zamjena</item>
+        <item quantity="few">%1$d zamjene</item>
+        <item quantity="other">%1$d zamjena</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d izbjegavanje</item>
+        <item quantity="few">%1$d izbjegavanja</item>
+        <item quantity="other">%1$d izbjegavanja</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d posrtaj</item>
+        <item quantity="few">%1$d posrtaja</item>
+        <item quantity="other">%1$d posrtaja</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d način</item>
+        <item quantity="few">%1$d načina</item>
+        <item quantity="other">%1$d načina</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">navika</item>
+        <item quantity="few">navike</item>
+        <item quantity="other">navika</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">zamjena</item>
+        <item quantity="few">zamjene</item>
+        <item quantity="other">zamjena</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">izbjegavanje</item>
+        <item quantity="few">izbjegavanja</item>
+        <item quantity="other">izbjegavanja</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">posrtaj</item>
+        <item quantity="few">posrtaja</item>
+        <item quantity="other">posrtaja</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">način</item>
+        <item quantity="few">načina</item>
+        <item quantity="other">načina</item>
+    </plurals>
+
+    <string name="look_poster_improved">Tvoj život je bolji na %1$s</string>
+    <string name="look_poster_on_track">PO PLANU</string>
+    <string name="look_poster_days">dana</string>
+    <string name="look_poster_achievements">Postignuća</string>
+    <string name="look_poster_first_ones">Prva postignuća stižu</string>
+    <string name="look_poster_added">Što je dodano ovog tromjesečja</string>
+
+    <string name="look_wrapped_stars">Tvoje zvijezde</string>
+
+    <string name="look_trophy_ways">poboljšanja u\ntvom životu</string>
+    <string name="look_trophy_next_quarter">Sljedeće tromjesečje</string>
+    <string name="look_trophy_first_medal">tvoja prva medalja</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Novo na polici:</string>
+
+    <string name="look_receipt_title">Tromjesečni pregled · %1$s</string>
+    <string name="look_receipt_customer">Kupac: %1$s</string>
+    <string name="look_receipt_habits">Izgrađene navike</string>
+    <string name="look_receipt_swaps">Zamijenjene stvari</string>
+    <string name="look_receipt_avoids">Izbjegnute stvari</string>
+    <string name="look_receipt_ways">Poboljšanja u tvom životu</string>
+    <string name="look_receipt_on_track">Po planu ovog tromjesečja</string>
+    <string name="look_receipt_slips">Posrtaji</string>
+    <string name="look_receipt_new_steps">Izgrađeni novi koraci</string>
+    <string name="look_receipt_new">Novo ovog tromjesečja: %1$s</string>
+
+    <string name="look_report_title">Svjedodžba malih koraka</string>
+    <string name="look_report_pupil">%1$s · Učenik: %2$s</string>
+    <string name="look_report_subject">PREDMET</string>
+    <string name="look_report_built">IZGRAĐENO</string>
+    <string name="look_report_grade">OCJENA</string>
+    <string name="look_report_attendance">Prisutnost %1$s</string>
+    <string name="look_report_on_track">Po planu %1$s</string>
+    <string name="look_report_slips">Posrtaji %1$s</string>
+    <string name="look_report_achievements">POSTIGNUĆA</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">NOVI PREDMETI OVOG POLUGODIŠTA (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Komentar učitelja:</string>
+    <string name="look_report_calm">Mirno, stabilno polugodište.</string>
+    <string name="look_report_ups_downs">Polugodište puno uspona i padova, a ti i dalje nastavljaš.</string>
+    <string name="look_report_star">%1$s: izvanredan rad. Samo tako nastavi!</string>
+    <string name="look_report_keep_up">Samo tako nastavi!</string>
+    <string name="look_report_week">TJEDAN PO TJEDAN</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Let Q%1$d</string>
+    <string name="look_boarding_from">OD</string>
+    <string name="look_boarding_old">STARE</string>
+    <string name="look_boarding_habits">navike</string>
+    <string name="look_boarding_to">DO</string>
+    <string name="look_boarding_new">NOVA</string>
+    <string name="look_boarding_better_you">bolja verzija</string>
+    <string name="look_boarding_passenger">Putnik</string>
+    <string name="look_boarding_dates">Datumi</string>
+    <string name="look_boarding_miles">Preletene milje</string>
+    <string name="look_boarding_on_time">Na vrijeme</string>
+    <string name="look_boarding_turbulence">Turbulencija</string>
+    <string name="look_boarding_days">Dani u letu</string>
+    <string name="look_boarding_flyer">ČEST PUTNIK, TVOJI NAJDULJI SUPUTNICI</string>
+    <string name="look_boarding_log">DNEVNIK LETA, TJEDAN PO TJEDAN</string>
+    <string name="look_boarding_stops">NOVE POSTAJE, +%1$d</string>
+    <string name="look_boarding_note">BILJEŠKA KAPETANA</string>
+
+    <string name="look_polaroid_life">TVOJ ŽIVOT</string>
+    <string name="look_polaroid_quarter">OVO TROMJESEČJE</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d dana</string>
+    <string name="look_polaroid_longest">NAJDULJE ODRŽANO</string>
+    <string name="look_polaroid_new">NOVO, +%1$d</string>
+
+    <string name="look_calendar_added">Dodano</string>
+
+    <string name="look_trading_common">Obična</string>
+    <string name="look_trading_uncommon">Neuobičajena</string>
+    <string name="look_trading_rare">Rijetka</string>
+    <string name="look_trading_legendary">Legendarna</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">NAČIN</item>
+        <item quantity="few">NAČINA</item>
+        <item quantity="other">NAČINA</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">Br. %1$03d · tvoje %2$s tromjesečje</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d dana</string>
+    <string name="look_trading_power">Snaga, tjedan po tjedan</string>
+    <string name="look_trading_edition">%1$s · izdanje Q%2$d</string>
+
+    <string name="look_sample_water_first">Prvo voda</string>
+    <string name="look_sample_own_bag">Vlastita vrećica</string>
+    <string name="look_sample_read_pages">Pročitaj 10 stranica</string>
+    <string name="look_sample_reading">Čitanje svaki dan</string>
+    <string name="look_sample_late_snacks">Bez kasnih grickalica</string>
+    <string name="look_sample_stretching">Istezanje</string>
+    <string name="look_sample_cooler_home">Svježiji dom</string>
+    <string name="look_sample_loofah">Lufa umjesto spužve</string>
+    <string name="look_sample_palm_oil">Bez palminog ulja</string>
+    <string name="look_sample_stretch">Istezanje 10 min</string>
+
+    <string name="look_colours_title">Boje</string>
+    <string name="look_colours_preview">Pregled</string>
+    <string name="look_colours_your_summary">Tvoj tromjesečni sažetak</string>
+    <string name="look_colours_light">Svijetla</string>
+    <string name="look_colours_dark">Tamna</string>
+    <string name="look_styles_title">Stil tromjesečnog sažetka</string>
+    <string name="look_styles_all_pictures">Pogledaj svih 30 Polaroid slika</string>
+    <string name="look_styles_refresh">Osvježi</string>
+    <string name="look_pictures_title">Polaroid slike</string>
+    <string name="look_pictures_back">Stilovi sažetka</string>
+
+    <string name="look_welcome_name">Tvoje ime</string>
+    <string name="look_welcome_start">Započni</string>
+    <string name="look_welcome_import">Uvezi moje podatke</string>
+
+    <string name="look_tut_skip">Preskoči</string>
+    <string name="look_tut_page">%1$d OD %2$d</string>
+    <string name="look_tut_back">Natrag</string>
+    <string name="look_tut_start">Započni</string>
+    <string name="look_tut_next">Dalje</string>
+    <string name="look_tut1_title">Postani bolja verzija sebe, korak po korak</string>
+    <string name="look_tut1_body">Gradi nove navike, biraj bolje i gledaj kako se sve što postigneš zbraja.</string>
+    <string name="look_tut1_habits">Gradi dobre navike dan po dan i postani ono što želiš biti.</string>
+    <string name="look_tut1_swaps">Zamijeni proizvode boljima, za planet, ljude ili svoje zdravlje.</string>
+    <string name="look_tut1_avoids">Prati tvrtke, hranu i proizvode koje radije ne podržavaš.</string>
+    <string name="look_tut2_title">Označi i gotovo</string>
+    <string name="look_tut2_body">Dodirni kvadrat kad napraviš naviku. Večernje se otključavaju u vrijeme tvoje provjere.</string>
+    <string name="look_tut3_title">%1$s, zatim svaka %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d dan</item>
+        <item quantity="few">%1$d dana</item>
+        <item quantity="other">%1$d dana</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d mjesec</item>
+        <item quantity="few">%1$d mjeseca</item>
+        <item quantity="other">%1$d mjeseci</item>
+    </plurals>
+    <string name="look_tut3_body">Istraživanja kažu da je za naviku potrebno od 18 do 254 dana. Najčešće se navodi 66 dana, pa Alice kreće odatle.</string>
+    <string name="look_tut3_days_label">Dani za stvaranje navike</string>
+    <string name="look_tut3_checkup">Pregled svakih</string>
+    <string name="look_tut3_small">Oboje možeš promijeniti u Postavkama.</string>
+    <string name="look_tut4_title">Jednom tjedno, jedan novi korak</string>
+    <string name="look_tut4_body">Jedan po jedan novi korak omogućuje ti da rasteš polako, bez previše obaveza odjednom.</string>
+    <string name="look_tut4_day">Dan provjere</string>
+    <string name="look_tut4_small">I ovo možeš promijeniti u Postavkama.</string>
+    <string name="look_tut5_title">Svako tromjesečje, tvoj sažetak</string>
+    <string name="look_tut5_body">Podijeli svoj napredak s prijateljima i bliskim ljudima. Dodirni izgled koji ti se sviđa:</string>
+    <string name="look_tut_change_mind">Uvijek se možeš predomisliti.</string>
+    <string name="look_tut6_title">Neka bude tvoje</string>
+    <string name="look_tut6_body">Odaberi boje koje ti najviše odgovaraju. Cijela aplikacija odmah se mijenja.</string>
+    <string name="look_tut7_title">Mijenjaj što želiš, kad želiš</string>
+    <string name="look_tut7_body">Vrijeme provjere, dani za naviku, stil sažetka, boje i tvoji podaci, sve je u Postavkama.</string>
+    <string name="look_tut7_gear">Dodirni zupčanik na vrhu Navika da otvoriš Postavke.</string>
+    <string name="look_tut7_open">Otvori Postavke</string>
+
+    <string name="lang_title">Jezik</string>
+    <string name="pron_title">Obraćanje</string>
+    <string name="pron_she">ona</string>
+    <string name="pron_he">on</string>
+    <string name="pron_they">neutralno</string>
+    <string name="lang_spotted">Vidiš pogrešku na svom jeziku?</string>
+    <string name="lang_search">Potraži svoj jezik</string>
+    <string name="lang_phone">Jezik telefona</string>
+    <string name="lang_follow">Kao na telefonu</string>
+    <string name="lang_note_title">Pomoć s prijevodima</string>
+    <string name="lang_note_1">Bok, ja sam Lucy i napravila sam Alice.</string>
+    <string name="lang_note_2">Govorim engleski, slovački, češki i ruski, pa sam te prijevode sama provjerila. Ostale jezike još nije provjerio izvorni govornik.</string>
+    <string name="lang_note_3">Ako vidiš pogrešku na svom jeziku, javi mi da je ispravim. A ako već neko vrijeme koristiš Alice na svom jeziku i sve zvuči kako treba, javi mi i to, da ga označim kao odobren.</string>
+    <string name="lang_note_4">Hvala!</string>
+    <string name="lang_not_approved">JOŠ NIJE ODOBRENO</string>
+    <string name="lang_report">Prijavi pogrešku</string>
+    <string name="lang_all_correct">Moj jezik je potpuno točan</string>
+    <string name="lang_mail_mistake_body">Što ne zvuči dobro i na kojem zaslonu:\n\n</string>
+    <string name="lang_mail_correct_body">Već neko vrijeme koristim Alice na svom jeziku i sve zvuči kako treba.\n\n</string>
+    <string name="lang_no_mail">Nije pronađena aplikacija za e-poštu</string>
+</resources>

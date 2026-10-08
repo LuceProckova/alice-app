@@ -1,0 +1,772 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Túl fáradt</string>
+    <string name="core_reason_craving">Sóvárgás</string>
+    <string name="core_reason_no_time">Nincs idő</string>
+    <string name="core_reason_forgot">Elfelejtettem</string>
+    <string name="core_reason_no_alternative">Nincs alternatíva</string>
+    <string name="core_reason_social">Társaság</string>
+    <string name="core_reason_impulse">Hirtelen ötlet</string>
+    <string name="core_reason_too_expensive">Túl drága</string>
+    <string name="core_reason_away">Nem voltam otthon</string>
+
+    <string name="core_nudge_channel">Napi emlékeztető</string>
+    <string name="core_nudge_title">Ma még kipipálandó</string>
+    <string name="core_save_failed">Nem sikerült menteni, próbáld újra</string>
+
+    <string name="core_kind_habit">Szokás</string>
+    <string name="core_kind_swap">Csere</string>
+    <string name="core_kind_avoid">Kerülés</string>
+    <string name="core_about">Infó: %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Kevesebb</string>
+    <string name="core_more">Több</string>
+    <string name="core_cancel">Mégse</string>
+    <string name="core_settings">Beállítások</string>
+    <string name="core_span_week">Hét</string>
+    <string name="core_span_month">Hónap</string>
+    <string name="core_span_year">Év</string>
+    <string name="core_span_all">Összes</string>
+    <string name="core_tab_habits">Szokások</string>
+    <string name="core_tab_changes">Változások</string>
+    <string name="core_tab_avoid">Kerülés</string>
+    <string name="core_tab_insights">Áttekintés</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">teljesítve</string>
+    <string name="core_cell_missed">kimaradt</string>
+    <string name="core_cell_partial">részben kész, eddig %1$d</string>
+    <string name="core_cell_unfilled">még nincs kitöltve</string>
+    <string name="core_cell_open">teendő</string>
+    <string name="core_cell_locked">zárolva a check-in idejéig</string>
+    <string name="core_cell_future">még nem</string>
+    <string name="core_cell_empty">nincs teendő</string>
+    <string name="core_cell_band">erre az időszakra kész</string>
+    <string name="core_cell_off">nem ennek a lépésnek a napja</string>
+    <string name="core_cell_none">a lépés kezdete előtt</string>
+
+    <string name="core_rhythm_one_off">Egyszeri</string>
+    <string name="core_rhythm_end_of_day">Minden nap, este kipipálva</string>
+    <string name="core_rhythm_every_day">Minden nap</string>
+    <string name="core_rhythm_every_days">Napok: %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">hetente</string>
+    <string name="core_rhythm_a_month">havonta</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, bármelyik napon</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s és %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d hó</string>
+    <string name="core_achievement_short_days">%1$d n</string>
+    <string name="core_glance_step">%1$s, %2$d/%3$d</string>
+
+    <string name="core_slip_never">Soha</string>
+    <string name="core_slip_once">Egyszer</string>
+    <string name="core_slip_a_few">Párszor</string>
+    <string name="core_slip_half">Félig</string>
+    <string name="core_slip_most">Többnyire</string>
+    <string name="core_slip_always">Mindig</string>
+
+    <string name="core_ideas_habit_anytime">Szokások, bármikor</string>
+    <string name="core_ideas_habit_end">Szokások, nap végén</string>
+    <string name="core_ideas_swap">Cserék</string>
+    <string name="core_ideas_avoid_product">Kerülés, termékek</string>
+    <string name="core_ideas_avoid_company">Kerülés, cégek</string>
+    <string name="core_ideas_avoid_food">Kerülés, ételek</string>
+
+    <string name="core_tag_ethical">Etikai</string>
+    <string name="core_tag_health">Egészség</string>
+    <string name="core_tag_clutter">Kacat</string>
+    <string name="core_tag_ecological">Környezet</string>
+    <string name="core_tag_animal_welfare">Állatjólét</string>
+    <string name="core_tag_workers_rights">Munkavállalói jogok</string>
+    <string name="core_tag_plastic">Műanyag</string>
+    <string name="core_tag_palm_oil">Pálmaolaj</string>
+    <string name="core_tag_deforestation">Erdőirtás</string>
+    <string name="core_category_company">Cég</string>
+    <string name="core_category_food">Étel</string>
+    <string name="core_category_product">Termék</string>
+    <string name="core_verdict_avoid">KERÜLD</string>
+    <string name="core_verdict_edge">HATÁRESET</string>
+    <string name="core_verdict_fine">RENDBEN</string>
+
+    <string name="core_theme_off_white_honey">Törtfehér és méz</string>
+    <string name="core_theme_vanilla_caramel">Vanília és karamell</string>
+    <string name="core_theme_sunflower">Napraforgó</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakaó és citrom</string>
+    <string name="core_theme_espresso_butter">Eszpresszó és vaj</string>
+    <string name="core_theme_midnight_honey">Éjfél és méz</string>
+    <string name="core_theme_forest_night">Erdei éj</string>
+    <string name="core_theme_plum_dusk">Szilvás alkony</string>
+    <string name="core_theme_charcoal_coral">Grafit és korall</string>
+
+    <string name="core_pic_sunny_meadow">Napos rét</string>
+    <string name="core_pic_sunset_hills">Dombok naplementében</string>
+    <string name="core_pic_starry_night">Csillagos éj</string>
+    <string name="core_pic_beach_day">Strandnap</string>
+    <string name="core_pic_mountain_lake">Hegyi tó</string>
+    <string name="core_pic_snowy_village">Havas falu</string>
+    <string name="core_pic_rainy_garden">Esős kert</string>
+    <string name="core_pic_autumn_forest">Őszi erdő</string>
+    <string name="core_pic_cherry_blossom">Cseresznyevirág</string>
+    <string name="core_pic_desert_cactus">Sivatagi kaktusz</string>
+    <string name="core_pic_lighthouse">Világítótorony</string>
+    <string name="core_pic_rainbow_field">Szivárványos mező</string>
+    <string name="core_pic_hot_air_balloon">Hőlégballon</string>
+    <string name="core_pic_sailboat">Vitorlás</string>
+    <string name="core_pic_cabin_in_the_woods">Kunyhó az erdőben</string>
+    <string name="core_pic_tulip_field">Tulipánmező</string>
+    <string name="core_pic_campfire_night">Tábortűz éjjel</string>
+    <string name="core_pic_misty_mountains">Ködös hegyek</string>
+    <string name="core_pic_sunrise_sea">Napfelkelte a tengeren</string>
+    <string name="core_pic_snowy_pines">Havas fenyők</string>
+    <string name="core_pic_lavender_field">Levendulamező</string>
+    <string name="core_pic_waterfall">Vízesés</string>
+    <string name="core_pic_city_at_dusk">Város alkonyatkor</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Hold a tó felett</string>
+    <string name="core_pic_palm_island">Pálmasziget</string>
+    <string name="core_pic_windmill">Szélmalom</string>
+    <string name="core_pic_bike_path">Bicikliút</string>
+    <string name="core_pic_greenhouse">Üvegház</string>
+    <string name="core_pic_northern_lights">Sarki fény</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d lépés vár rád.</item>
+        <item quantity="other">%d lépés vár rád.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">teljesítve, %d alkalommal</item>
+        <item quantity="other">teljesítve, %d alkalommal</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">naponta %d alkalommal</item>
+        <item quantity="other">naponta %d alkalommal</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Egyszer</item>
+        <item quantity="other">%d alkalommal</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">hetente</item>
+        <item quantity="other">%d hetente</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">havonta</item>
+        <item quantity="other">%d havonta</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">naponta</item>
+        <item quantity="other">%d naponta</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d hónap kihagyás nélkül</item>
+        <item quantity="other">%d hónap kihagyás nélkül</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d hónapja erősen</item>
+        <item quantity="other">%d hónapja erősen</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d nap egymás után</item>
+        <item quantity="other">%d nap egymás után</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d hónap</item>
+        <item quantity="other">%d hónap</item>
+    </plurals>
+
+    <string name="tabs_new_step">Új lépés</string>
+    <string name="tabs_edit">Szerkesztés</string>
+    <string name="tabs_delete">Törlés</string>
+    <string name="tabs_done">Kész</string>
+    <string name="tabs_back">Vissza</string>
+    <string name="tabs_earlier">Korábban</string>
+    <string name="tabs_later">Később</string>
+    <string name="tabs_delete_title">Törlöd: %1$s?</string>
+    <string name="tabs_eod_unlock">A nap végi szokások %1$02d:00-kor nyílnak meg</string>
+    <string name="tabs_check_up">Áttekintés</string>
+    <string name="tabs_one_off">Egyszeri</string>
+
+    <string name="tabs_checkin_from">Check-in %1$02d:00-tól</string>
+    <string name="tabs_checkin_daily">Napi check-in</string>
+    <string name="tabs_checkin_weekly">Heti check-in</string>
+    <string name="tabs_checkin_quarter">3 havi áttekintés</string>
+    <string name="tabs_checked_in">Kész</string>
+    <string name="tabs_quarter_section">3 HAVI ÁTTEKINTÉS</string>
+    <string name="tabs_previous_week">Előző hét</string>
+    <string name="tabs_next_week">Következő hét</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d nap: %2$s!</item>
+        <item quantity="other">%1$d nap: %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Szép munka. Mostantól a 3 havi áttekintéseidbe kerül, nincs több napi pipálás.</string>
+    <string name="tabs_celebrate_first">Az első: %1$s.</string>
+    <string name="tabs_glance_title">A heted</string>
+    <string name="tabs_glance_ticks_kept">Pipák</string>
+    <string name="tabs_glance_days_checked_in">Napok check-innel</string>
+    <string name="tabs_glance_top_tag">Leggyakoribb botlási ok:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d alkalommal</item>
+        <item quantity="other">%1$s, %2$d alkalommal</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Legkönnyebb:</string>
+    <string name="tabs_glance_hardest">Legnehezebb:</string>
+
+    <string name="tabs_changes_ongoing">Tartós cserék</string>
+    <string name="tabs_changes_ongoing_tip_title">Tartós csere</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Újra és újra ugyanaz a választás előtt állsz, mint egy kávéspohárnál vagy szilárd samponnál. %1$d napig a Szokásoknál pipálod, utána 3 havonta nézed át.</item>
+        <item quantity="other">Újra és újra ugyanaz a választás előtt állsz, mint egy kávéspohárnál vagy szilárd samponnál. %1$d napig a Szokásoknál pipálod, utána 3 havonta nézed át.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Még nincs csere</string>
+    <string name="tabs_changes_day_badge">%1$d/%2$d. NAP</string>
+    <string name="tabs_changes_sticking">TART</string>
+    <string name="tabs_changes_one_off_todo">Egyszeri, teendő</string>
+    <string name="tabs_changes_one_off_tip">Egyszer megcsinálod, és kész, mint egy fiók kipakolása, zöld áramra váltás vagy egy kabát megjavítása. Pipáld ki, és a Befejezettekhez kerül.</string>
+    <string name="tabs_changes_nothing_waiting">Nincs teendő</string>
+    <string name="tabs_changes_finished">BEFEJEZVE · %1$d</string>
+
+    <string name="tabs_avoid_title">Kerülőlista</string>
+    <string name="tabs_avoid_search">Keresés…</string>
+    <string name="tabs_avoid_no_match">Nincs találat</string>
+    <string name="tabs_avoid_companies">Cégek</string>
+    <string name="tabs_avoid_food">Ételek</string>
+    <string name="tabs_avoid_products">Termékek</string>
+
+    <string name="tabs_avoid_added">Hozzáadva</string>
+    <string name="tabs_avoid_why">Miért kerülöd</string>
+    <string name="tabs_avoid_own_words">A saját szavaiddal</string>
+    <string name="tabs_avoid_brands">Hozzá tartozó márkák · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Soronként egy márka</string>
+    <string name="tabs_avoid_more_brands">+%1$d további</string>
+    <string name="tabs_avoid_instead">Inkább ezt</string>
+    <string name="tabs_avoid_instead_hint">Soronként egy</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">botlás</item>
+        <item quantity="other">botlás</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">elkerülve</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">hónap a listán</item>
+        <item quantity="other">hónap a listán</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Az előzményeivel együtt lekerül a kerülőlistádról.</string>
+
+    <string name="tabs_habit_delete_text">A teljes előzménye is vele megy.</string>
+    <string name="tabs_habit_created">Létrehozva</string>
+    <string name="tabs_habit_to_do">Teendő</string>
+    <string name="tabs_habit_daily_ticks">Napi pipák</string>
+    <string name="tabs_habit_day_of">%1$d/%2$d. nap</string>
+    <string name="tabs_habit_finished">Befejezve</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">napja tart</item>
+        <item quantity="other">napja tart</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">megszakítás</item>
+        <item quantity="other">megszakítás</item>
+    </plurals>
+    <string name="tabs_habit_success">siker</string>
+    <string name="tabs_habit_current_streak">Jelenlegi sorozat</string>
+    <string name="tabs_habit_longest_streak">Leghosszabb sorozat</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d nap</item>
+        <item quantity="other">%1$d nap</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Miért nem sikerült</string>
+    <string name="tabs_habit_remove_reason">Ok eltávolítása</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">módon lett jobb az életed</item>
+        <item quantity="other">módon lett jobb az életed</item>
+    </plurals>
+    <string name="tabs_insights_habits">Szokások</string>
+    <string name="tabs_insights_swaps">Cserék</string>
+    <string name="tabs_insights_avoids">Kerülések</string>
+    <string name="tabs_insights_on_track_section">Jó úton</string>
+    <string name="tabs_insights_avg_days">%1$d n</string>
+    <string name="tabs_insights_average_kept">átlagosan tartva</string>
+    <string name="tabs_insights_days_checked_in">nap check-innel</string>
+    <string name="tabs_insights_on_track">jó úton</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">botlás</item>
+        <item quantity="other">botlás</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">új lépés</item>
+        <item quantity="other">új lépés</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">egyszeri kész</item>
+        <item quantity="other">egyszeri kész</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Leggyakoribb botlási okok</string>
+    <string name="tabs_insights_added_quarter">Ebben a negyedévben hozzáadva</string>
+    <string name="tabs_insights_past_summaries">Korábbi 3 havi összefoglalók</string>
+    <string name="tabs_insights_first_on">Az első ekkor jön: %1$s</string>
+    <string name="tabs_insights_all_time">Összes</string>
+    <string name="tabs_insights_period">%3$d. %1$s-%2$s</string>
+
+    <string name="forms_back">Vissza</string>
+    <string name="forms_back_habits">Szokások</string>
+    <string name="forms_back_settings">Beállítások</string>
+    <string name="forms_add">Hozzáadás</string>
+    <string name="forms_save">Mentés</string>
+    <string name="forms_finish">Befejezés</string>
+    <string name="forms_delete">Törlés</string>
+    <string name="forms_why">Miért</string>
+    <string name="forms_never_show">Ne mutasd többet</string>
+    <string name="forms_every">Gyakoriság</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">nap</item>
+        <item quantity="other">nap</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">%1$d/%2$d. lépés</string>
+    <string name="forms_checkin_next_weekly">Tovább a heti check-inre ›</string>
+    <string name="forms_checkin_next_quarter">Tovább a 3 havi áttekintésre ›</string>
+    <string name="forms_daily_title">Napi check-in</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d korábbi nap nincs kitöltve</item>
+        <item quantity="other">%1$d korábbi nap nincs kitöltve</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Összes kihagyása</string>
+    <string name="forms_daily_today">Ma · %1$s</string>
+    <string name="forms_daily_skip">Kihagyás</string>
+    <string name="forms_daily_undo_skip">Kihagyás visszavonása</string>
+    <string name="forms_daily_new_tag">Új ok</string>
+    <string name="forms_daily_new_tag_hint">Tele volt a kuka</string>
+    <string name="forms_weekly_title">Heti check-in</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d hét maradt el, egy új lépés mindet lefedi.</item>
+        <item quantity="other">%1$d hét maradt el, egy új lépés mindet lefedi.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Ezen a héten nincs új lépés</string>
+    <string name="forms_quarter_title">3 havi áttekintés</string>
+    <string name="forms_quarter_nothing">Még nincs mit átnézni. Most jön az összefoglalód.</string>
+    <string name="forms_quarter_habits">Szokások</string>
+    <string name="forms_quarter_swaps">Cserék</string>
+    <string name="forms_quarter_avoid">Kerülés</string>
+    <string name="forms_quarter_missed">Kimaradt</string>
+    <string name="forms_quarter_missed_level">Kimaradt: %1$s</string>
+
+    <string name="forms_new_title">Új lépés</string>
+    <string name="forms_edit_title">Szerkesztés: %1$s</string>
+    <string name="forms_add_kind">Hozzáadás: %1$s</string>
+    <string name="forms_title_habit">Szokás</string>
+    <string name="forms_title_swap">Csere</string>
+    <string name="forms_title_avoid">Kerülés</string>
+    <string name="forms_save_changes">Változások mentése</string>
+    <string name="forms_what_kind">Milyen típus?</string>
+    <string name="forms_name">Név</string>
+    <string name="forms_your_new_step">Az új lépésed</string>
+    <string name="forms_hint_habit">10 oldal olvasás</string>
+    <string name="forms_hint_swap">Luffa szivacs helyett</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Milyen szokás?</string>
+    <string name="forms_timing_tip_title">Bármikor vagy nap végén</string>
+    <string name="forms_timing_tip">Bármikor: valami, amit egyszer csinálsz meg, például egy futás. Pipáld ki, amint kész.\n\nNap végén: egy szabály, amit egész nap tartasz, például nincs nassolás. Csak este tudod kipipálni.</string>
+    <string name="forms_anytime">Bármikor</string>
+    <string name="forms_end_of_day">Nap végén</string>
+    <string name="forms_what_is_it">Mi ez?</string>
+    <string name="forms_how_often">Milyen gyakran?</string>
+    <string name="forms_often_specific">Adott napokon</string>
+    <string name="forms_often_whenever">Bármikor</string>
+    <string name="forms_often_once">Csak egyszer</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">alkalom per</item>
+        <item quantity="other">alkalom per</item>
+    </plurals>
+    <string name="forms_unit_day">nap</string>
+    <string name="forms_unit_week">hét</string>
+    <string name="forms_unit_month">hónap</string>
+    <string name="forms_unit_x_days">X nap</string>
+    <string name="forms_ideas">Ötletek</string>
+    <string name="forms_ideas_others">Mások</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">%1$d ötlet megnézése ›</item>
+        <item quantity="other">Mind a(z) %1$d ötlet ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Minden lépésötlet</string>
+    <string name="forms_search">Keresés…</string>
+    <string name="forms_all">Mind</string>
+
+    <string name="forms_settings_title">Beállítások</string>
+    <string name="forms_set_colours">Színek</string>
+    <string name="forms_set_style">3 havi összefoglaló stílusa</string>
+    <string name="forms_set_checkins">Check-inek</string>
+    <string name="forms_set_checkin_hour">Napi check-in kezdete</string>
+    <string name="forms_set_checkin_hour_tip">Ettől az időponttól pipálhatod ki a nap végi szokásokat, és csinálhatod meg a napi check-int.</string>
+    <string name="forms_set_week_start">A hét első napja</string>
+    <string name="forms_set_week_start_tip">Melyik napon kezdődik a szokásrács, a hetek és a grafikonok.</string>
+    <string name="forms_monday">Hétfő</string>
+    <string name="forms_sunday">Vasárnap</string>
+    <string name="forms_set_new_step_every">Új lépés gyakorisága</string>
+    <string name="forms_set_new_step_every_tip">Hány hét teljen el két heti check-in között.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">hét</item>
+        <item quantity="other">hét</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Heti check-in napja</string>
+    <string name="forms_set_weekly_day_tip">Ezen a napon a napi check-in után kiválasztod a jövő heti új lépést.</string>
+    <string name="forms_set_checkup">3 havi áttekintés</string>
+    <string name="forms_set_checkup_tip">Mindenki ugyanazokon a napokon tart áttekintést: jan. 1., ápr. 1., júl. 1. és okt. 1., így együtt oszthatjátok meg az összefoglalóitokat. Választhatsz saját dátumot is.</string>
+    <string name="forms_set_same">Mint mindenki</string>
+    <string name="forms_set_own">Saját dátum</string>
+    <string name="forms_set_starting">Kezdés</string>
+    <string name="forms_set_starting_tip">Az első saját áttekintésed hónapja.</string>
+    <string name="forms_earlier">Korábban</string>
+    <string name="forms_later">Később</string>
+    <string name="forms_set_every_tip">Hány hónap legyen két áttekintés között.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">hónap</item>
+        <item quantity="other">hónap</item>
+    </plurals>
+    <string name="forms_set_day_of_month">A hónap napja</string>
+    <string name="forms_set_day_of_month_tip">Annak a hónapnak melyik napja.</string>
+    <string name="forms_set_everyone">Mindenki: jan. 1. · ápr. 1. · júl. 1. · okt. 1.</string>
+    <string name="forms_set_days_build">Napok egy szokás kialakításához</string>
+    <string name="forms_set_days_build_tip">A kutatások 18 és 254 nap közötti értékeket találtak, a leggyakrabban idézett a 66 (Lally et al. 2010, Singh et al. 2024). Ennyi nap után egy új lépés az áttekintéseidbe kerül.</string>
+    <string name="forms_set_nudge">Napi emlékeztető</string>
+    <string name="forms_set_nudge_tip">Emlékeztető ebben az időpontban, csak ha még van kipipálatlan.</string>
+    <string name="forms_set_more">Egyebek</string>
+    <string name="forms_set_reasons">Botlási okok</string>
+    <string name="forms_set_tutorial">Bemutató újra</string>
+    <string name="forms_set_export">Adataim exportálása</string>
+    <string name="forms_set_import">Adatok importálása</string>
+
+    <string name="forms_reasons_title">Botlási okok</string>
+    <string name="forms_reasons_hint">Saját ok hozzáadása</string>
+    <string name="forms_reasons_used">%1$d× használva</string>
+    <string name="forms_reasons_delete_title">Törlöd: %1$s?</string>
+    <string name="forms_reasons_delete_text">A botlások megmaradnak az előzményekben, csak ez a címke nélkül.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d szokás</item>
+        <item quantity="other">%1$d szokás</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d csere</item>
+        <item quantity="other">%1$d csere</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d kerülés</item>
+        <item quantity="other">%1$d kerülés</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, pipák ettől: %2$s</string>
+    <string name="forms_export_title">Adataim exportálása</string>
+    <string name="forms_export_what">Mi kerül a fájlba</string>
+    <string name="forms_export_ticks">Minden pipa, botlás és ok</string>
+    <string name="forms_export_ticks_since">Minden pipa, botlás és ok ettől: %1$s</string>
+    <string name="forms_export_summaries">A 3 havi összefoglalóid</string>
+    <string name="forms_export_settings">A beállításaid, színeid és a neved</string>
+    <string name="forms_export_file">Fájl</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Fájl mentése</string>
+    <string name="forms_export_send">Küldés…</string>
+    <string name="forms_export_send_title">Alice-adataid küldése</string>
+    <string name="forms_export_saved">Mentve: %1$s</string>
+    <string name="forms_export_save_failed">Nem sikerült menteni a fájlt</string>
+
+    <string name="forms_import_title">Adatok importálása</string>
+    <string name="forms_import_choose">Válassz egy Alice-mentést</string>
+    <string name="forms_import_choose_sub">.json, egy másik telefon exportjából</string>
+    <string name="forms_import_cant_open">Nem sikerült megnyitni a fájlt.</string>
+    <string name="forms_import_not_backup">Ez a fájl nem Alice-mentés.</string>
+    <string name="forms_import_replace_mode">A meglévők cseréje</string>
+    <string name="forms_import_add_mode">Hozzáadás a meglévőkhöz</string>
+    <string name="forms_import_button">Importálás</string>
+    <string name="forms_import_replace_title">Lecseréled az adataidat?</string>
+    <string name="forms_import_add_title">Hozzáadod ezeket az adatokat?</string>
+    <string name="forms_import_replace_text">A telefonon lévő összes adat helyére a fájl tartalma kerül. Ha meg akarod tartani, előbb exportáld.</string>
+    <string name="forms_import_add_text">A fájlban lévő szokások és előzmények hozzáadódnak a tieidhez.</string>
+    <string name="forms_import_done">Adatok importálva</string>
+
+    <string name="look_share">Megosztás</string>
+    <string name="look_save_image">Kép mentése</string>
+    <string name="look_next_week">Tovább a hetedhez ›</string>
+    <string name="look_keep_going">Csak így tovább</string>
+    <string name="look_storage_needed">Az Alice-nak tárhely-hozzáférés kell a kép mentéséhez</string>
+    <string name="look_share_caption">A negyedévem az Alice-szal. Kezdd el te is: %1$s</string>
+    <string name="look_share_clip">Alice-összefoglaló</string>
+    <string name="look_share_chooser">Oszd meg a negyedévedet</string>
+    <string name="look_saved">Mentve ide: Pictures/Alice</string>
+    <string name="look_save_failed">Nem sikerült menteni a képet</string>
+
+    <string name="look_style_poster">Plakát</string>
+    <string name="look_style_wrapped">Évértékelő</string>
+    <string name="look_style_trophy">Trófeás vitrin</string>
+    <string name="look_style_receipt">Blokk</string>
+    <string name="look_style_report">Bizonyítvány</string>
+    <string name="look_style_boarding">Beszállókártya</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Naptár</string>
+    <string name="look_style_trading">Gyűjtőkártya</string>
+
+    <string name="look_quote_1">Kis Lépések, Minden Nap</string>
+    <string name="look_quote_2">Köszönöm, Hogy Itt Vagy</string>
+    <string name="look_quote_3">Fejlődés, Nem Tökéletesség</string>
+    <string name="look_quote_4">Folytattad. Ez Számít</string>
+    <string name="look_quote_5">Apró Változások, Nagy Különbség</string>
+    <string name="look_quote_6">Minden Nap Jobbat Választottál</string>
+    <string name="look_quote_7">A Lassú Is Előre Visz</string>
+    <string name="look_quote_8">Olyan Életet Építesz, Amit Szeretsz</string>
+    <string name="look_quote_9">Lépésről Lépésre Összeadódik</string>
+    <string name="look_quote_10">Maradj Ott Önmagadért</string>
+    <string name="look_quote_11">A Jövőbeli Éned Köszöni</string>
+    <string name="look_quote_12">Apránként Sokra Mész</string>
+    <string name="look_quote_13">A Kitartás Csendes Varázslat</string>
+    <string name="look_quote_14">Nézd, Milyen Messzire Jutottál</string>
+    <string name="look_quote_15">Légy Büszke a Kis Győzelmekre</string>
+    <string name="look_quote_16">A Jó Napokat Építjük, Nem Találjuk</string>
+
+    <string name="look_stamp_1">KIVÁLÓ</string>
+    <string name="look_stamp_2">KIEMELKEDŐ</string>
+    <string name="look_stamp_3">SZÉP MUNKA</string>
+    <string name="look_stamp_4">RAGYOGÓ</string>
+    <string name="look_stamp_5">NAGYSZERŰ</string>
+    <string name="look_stamp_6">JELES</string>
+    <string name="look_stamp_7">ARANYCSILLAG</string>
+    <string name="look_stamp_8">REMEK MUNKA</string>
+
+    <string name="look_period">%1$s-%2$s</string>
+    <string name="look_scan">SZKENNELD BE,\nÉS KEZDD EL\nA SAJÁT UTAD</string>
+    <string name="look_you">Te</string>
+    <string name="look_on_track">jó úton</string>
+    <string name="look_new_steps">új lépés</string>
+    <string name="look_days_in">napja tart</string>
+    <string name="look_new">új</string>
+    <string name="look_week_by_week">Hétről hétre</string>
+    <string name="look_coming_soon">Hamarosan</string>
+    <string name="look_new_this_quarter">Új ebben a negyedévben</string>
+    <string name="look_kept_up_longest">Legtovább kitartott</string>
+    <string name="look_habits">Szokások</string>
+    <string name="look_swaps">Cserék</string>
+    <string name="look_avoids">Kerülések</string>
+    <string name="look_ways_improved">Javulások</string>
+    <string name="look_improved_in">Ennyiféleképpen lett jobb az életed: %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d szokás</item>
+        <item quantity="other">%1$d szokás</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d csere</item>
+        <item quantity="other">%1$d csere</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d kerülés</item>
+        <item quantity="other">%1$d kerülés</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d botlás</item>
+        <item quantity="other">%1$d botlás</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d mód</item>
+        <item quantity="other">%1$d mód</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">szokás</item>
+        <item quantity="other">szokás</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">csere</item>
+        <item quantity="other">csere</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">kerülés</item>
+        <item quantity="other">kerülés</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">botlás</item>
+        <item quantity="other">botlás</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">mód</item>
+        <item quantity="other">mód</item>
+    </plurals>
+
+    <string name="look_poster_improved">Ennyiféleképpen lett jobb az életed: %1$s</string>
+    <string name="look_poster_on_track">JÓ ÚTON</string>
+    <string name="look_poster_days">nap</string>
+    <string name="look_poster_achievements">Eredmények</string>
+    <string name="look_poster_first_ones">Az elsők már úton vannak</string>
+    <string name="look_poster_added">Amit ebben a negyedévben hozzáadtál</string>
+
+    <string name="look_wrapped_stars">A sztárjaid</string>
+
+    <string name="look_trophy_ways">módon lett jobb\naz életed</string>
+    <string name="look_trophy_next_quarter">Következő negyedév</string>
+    <string name="look_trophy_first_medal">az első érmed</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Új a polcon:</string>
+
+    <string name="look_receipt_title">3 havi áttekintés · %1$s</string>
+    <string name="look_receipt_customer">Vásárló: %1$s</string>
+    <string name="look_receipt_habits">Kialakított szokások</string>
+    <string name="look_receipt_swaps">Lecserélt dolgok</string>
+    <string name="look_receipt_avoids">Került dolgok</string>
+    <string name="look_receipt_ways">Ennyi módon lett jobb az életed</string>
+    <string name="look_receipt_on_track">Jó úton ebben a negyedévben</string>
+    <string name="look_receipt_slips">Botlások</string>
+    <string name="look_receipt_new_steps">Új lépések</string>
+    <string name="look_receipt_new">Új ebben a negyedévben: %1$s</string>
+
+    <string name="look_report_title">A kis lépések bizonyítványa</string>
+    <string name="look_report_pupil">%1$s · Tanuló: %2$s</string>
+    <string name="look_report_subject">TANTÁRGY</string>
+    <string name="look_report_built">KIALAKÍTVA</string>
+    <string name="look_report_grade">JEGY</string>
+    <string name="look_report_attendance">Jelenlét %1$s</string>
+    <string name="look_report_on_track">Jó úton %1$s</string>
+    <string name="look_report_slips">Botlások %1$s</string>
+    <string name="look_report_achievements">EREDMÉNYEK</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">ÚJ TANTÁRGYAK EBBEN A FÉLÉVBEN (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Tanári megjegyzés:</string>
+    <string name="look_report_calm">Nyugodt, kiegyensúlyozott félév.</string>
+    <string name="look_report_ups_downs">Hullámzó félév, de kitartottál.</string>
+    <string name="look_report_star">%1$s kiemelkedően teljesített. Csak így tovább!</string>
+    <string name="look_report_keep_up">Csak így tovább!</string>
+    <string name="look_report_week">HÉTRŐL HÉTRE</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Járat Q%1$d</string>
+    <string name="look_boarding_from">INNEN</string>
+    <string name="look_boarding_old">RÉGI</string>
+    <string name="look_boarding_habits">szokások</string>
+    <string name="look_boarding_to">IDE</string>
+    <string name="look_boarding_new">ÚJ</string>
+    <string name="look_boarding_better_you">jobb önmagad</string>
+    <string name="look_boarding_passenger">Utas</string>
+    <string name="look_boarding_dates">Dátumok</string>
+    <string name="look_boarding_miles">Megtett mérföld</string>
+    <string name="look_boarding_on_time">Időben</string>
+    <string name="look_boarding_turbulence">Turbulencia</string>
+    <string name="look_boarding_days">Napok a fedélzeten</string>
+    <string name="look_boarding_flyer">TÖRZSUTAS, A LEGRÉGEBBI ÚTITÁRSAID</string>
+    <string name="look_boarding_log">REPÜLÉSI NAPLÓ, HÉTRŐL HÉTRE</string>
+    <string name="look_boarding_stops">ÚJ MEGÁLLÓK, +%1$d</string>
+    <string name="look_boarding_note">A KAPITÁNY ÜZENETE</string>
+
+    <string name="look_polaroid_life">AZ ÉLETED</string>
+    <string name="look_polaroid_quarter">EBBEN A NEGYEDÉVBEN</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d nap</string>
+    <string name="look_polaroid_longest">LEGTOVÁBB KITARTOTT</string>
+    <string name="look_polaroid_new">ÚJ, +%1$d</string>
+
+    <string name="look_calendar_added">Hozzáadva</string>
+
+    <string name="look_trading_common">Gyakori</string>
+    <string name="look_trading_uncommon">Ritkább</string>
+    <string name="look_trading_rare">Ritka</string>
+    <string name="look_trading_legendary">Legendás</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">MÓD</item>
+        <item quantity="other">MÓD</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">%1$03d. sz. · a %2$s negyedéved</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">ÉP</string>
+    <string name="look_trading_days">%1$d/%2$d nap</string>
+    <string name="look_trading_power">Erő, hétről hétre</string>
+    <string name="look_trading_edition">%1$s · Q%2$d kiadás</string>
+
+    <string name="look_sample_water_first">Először víz</string>
+    <string name="look_sample_own_bag">Saját szatyor</string>
+    <string name="look_sample_read_pages">10 oldal olvasás</string>
+    <string name="look_sample_reading">Olvasás minden nap</string>
+    <string name="look_sample_late_snacks">Nincs késői nasi</string>
+    <string name="look_sample_stretching">Nyújtás</string>
+    <string name="look_sample_cooler_home">Hűvösebb otthon</string>
+    <string name="look_sample_loofah">Luffa szivacs helyett</string>
+    <string name="look_sample_palm_oil">Pálmaolajmentes</string>
+    <string name="look_sample_stretch">10 perc nyújtás</string>
+
+    <string name="look_colours_title">Színek</string>
+    <string name="look_colours_preview">Előnézet</string>
+    <string name="look_colours_your_summary">A 3 havi összefoglalód</string>
+    <string name="look_colours_light">Világos</string>
+    <string name="look_colours_dark">Sötét</string>
+    <string name="look_styles_title">3 havi összefoglaló stílusa</string>
+    <string name="look_styles_all_pictures">Mind a 30 Polaroid-kép</string>
+    <string name="look_styles_refresh">Frissítés</string>
+    <string name="look_pictures_title">Polaroid-képek</string>
+    <string name="look_pictures_back">Összefoglaló stílusok</string>
+
+    <string name="look_welcome_name">A neved</string>
+    <string name="look_welcome_start">Kezdés</string>
+    <string name="look_welcome_import">Adataim importálása</string>
+
+    <string name="look_tut_skip">Kihagyás</string>
+    <string name="look_tut_page">%1$d / %2$d</string>
+    <string name="look_tut_back">Vissza</string>
+    <string name="look_tut_start">Kezdés</string>
+    <string name="look_tut_next">Tovább</string>
+    <string name="look_tut1_title">Légy jobb önmagad, lépésről lépésre</string>
+    <string name="look_tut1_body">Alakíts ki új szokásokat, válassz kedvesebben, és nézd, ahogy minden eredményed összeadódik.</string>
+    <string name="look_tut1_habits">Építs jó szokásokat napról napra, és válj azzá, aki lenni szeretnél.</string>
+    <string name="look_tut1_swaps">Cserélj termékeket kedvesebbekre, jobbakra a bolygónak, az embereknek vagy az egészségednek.</string>
+    <string name="look_tut1_avoids">Tartsd számon a cégeket, ételeket és termékeket, amelyeket inkább nem támogatnál.</string>
+    <string name="look_tut2_title">Pipáld ki</string>
+    <string name="look_tut2_body">Koppints egy négyzetre, ha megcsináltad a szokást. Az estiek a check-in idődben nyílnak meg.</string>
+    <string name="look_tut3_title">%1$s, utána %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d nap</item>
+        <item quantity="other">%1$d nap</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d havonta</item>
+        <item quantity="other">%1$d havonta</item>
+    </plurals>
+    <string name="look_tut3_body">A kutatások szerint egy szokás kialakítása 18 és 254 nap között tart. A leggyakrabban idézett szám a 66 nap, ezért Alice is ezzel kezd.</string>
+    <string name="look_tut3_days_label">Napok egy szokás kialakításához</string>
+    <string name="look_tut3_checkup">Áttekintés ennyi havonta</string>
+    <string name="look_tut3_small">Mindkettőt módosíthatod a Beállításokban.</string>
+    <string name="look_tut4_title">Hetente egy új lépés</string>
+    <string name="look_tut4_body">Ha egyszerre csak egy új lépést veszel fel, lassan fejlődsz, és nem vállalsz túl sokat egyszerre.</string>
+    <string name="look_tut4_day">Check-in napja</string>
+    <string name="look_tut4_small">Ezt is módosíthatod a Beállításokban.</string>
+    <string name="look_tut5_title">Negyedévente az összefoglalód</string>
+    <string name="look_tut5_body">Oszd meg a barátaiddal és a hozzád közel állókkal, milyen messzire jutottál. Koppints a kinézetre, ami tetszik:</string>
+    <string name="look_tut_change_mind">Bármikor meggondolhatod magad.</string>
+    <string name="look_tut6_title">Legyen a tiéd</string>
+    <string name="look_tut6_body">Válaszd a számodra legkellemesebb színeket. Az egész app azonnal átváltozik.</string>
+    <string name="look_tut7_title">Bármit, bármikor módosíthatsz</string>
+    <string name="look_tut7_body">A check-in időpontok, a szokás kialakításához szükséges napok, az összefoglaló stílusa, a színek és az adataid mind a Beállításokban vannak.</string>
+    <string name="look_tut7_gear">Koppints a fogaskerékre a Szokások tetején a Beállítások megnyitásához.</string>
+    <string name="look_tut7_open">Beállítások megnyitása</string>
+
+    <string name="lang_title">Nyelv</string>
+    <string name="pron_title">Megszólítás</string>
+    <string name="pron_she">nő</string>
+    <string name="pron_he">férfi</string>
+    <string name="pron_they">semleges</string>
+    <string name="lang_spotted">Hibát találtál a nyelvedben?</string>
+    <string name="lang_search">Keresd meg a nyelved</string>
+    <string name="lang_phone">A telefon nyelve</string>
+    <string name="lang_follow">Mint a telefonon</string>
+    <string name="lang_note_title">Segíts a fordításban</string>
+    <string name="lang_note_1">Szia, Lucy vagyok, én készítettem az Alice-t.</string>
+    <string name="lang_note_2">Beszélek angolul, szlovákul, csehül és oroszul, ezeket a fordításokat magam ellenőriztem. A többi nyelvet még nem nézte át anyanyelvi beszélő.</string>
+    <string name="lang_note_3">Ha hibát találsz a nyelvedben, kérlek, szólj, hogy kijavíthassam. És ha már egy ideje a saját nyelveden használod az Alice-t, és minden rendben van, azt is írd meg, hogy jóváhagyottnak jelölhessem.</string>
+    <string name="lang_note_4">Köszönöm!</string>
+    <string name="lang_not_approved">MÉG NINCS JÓVÁHAGYVA</string>
+    <string name="lang_report">Hiba jelentése</string>
+    <string name="lang_all_correct">A nyelvemben minden helyes</string>
+    <string name="lang_mail_mistake_body">Mi hangzik rosszul, és melyik képernyőn:\n\n</string>
+    <string name="lang_mail_correct_body">Egy ideje a saját nyelvemen használom az Alice-t, és minden rendben van.\n\n</string>
+    <string name="lang_no_mail">Nem található levelezőalkalmazás</string>
+</resources>

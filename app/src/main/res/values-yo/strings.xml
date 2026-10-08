@@ -1,0 +1,726 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Ó rẹ̀ mí jù</string>
+    <string name="core_reason_craving">Ìfẹ́kúfẹ̀ẹ́</string>
+    <string name="core_reason_no_time">Kò sí àkókò</string>
+    <string name="core_reason_forgot">Mo gbàgbé</string>
+    <string name="core_reason_no_alternative">Kò sí ìyàtọ̀ mìíràn</string>
+    <string name="core_reason_social">Pẹ̀lú àwọn ènìyàn</string>
+    <string name="core_reason_impulse">Ìpinnu òjijì</string>
+    <string name="core_reason_too_expensive">Ó wọ́n jù</string>
+    <string name="core_reason_away">Mo rìnrìn àjò</string>
+
+    <string name="core_nudge_channel">Ìránnilétí ojoojúmọ́</string>
+    <string name="core_nudge_title">Ó ṣì kù láti sàmì sí lónìí</string>
+    <string name="core_save_failed">Kò ṣeé fi pamọ́, jọ̀ọ́ gbìyànjú lẹ́ẹ̀kan sí i</string>
+
+    <string name="core_kind_habit">Àṣà</string>
+    <string name="core_kind_swap">Pàṣípààrọ̀</string>
+    <string name="core_kind_avoid">Yẹra fún</string>
+    <string name="core_about">Nípa %1$s</string>
+    <string name="core_ok">Ó dáa</string>
+    <string name="core_less">Díẹ̀</string>
+    <string name="core_more">Síi</string>
+    <string name="core_cancel">Fagilé</string>
+    <string name="core_settings">Ètò</string>
+    <string name="core_span_week">Ọ̀sẹ̀</string>
+    <string name="core_span_month">Oṣù</string>
+    <string name="core_span_year">Ọdún</string>
+    <string name="core_span_all">Gbogbo ìgbà</string>
+    <string name="core_tab_habits">Àṣà</string>
+    <string name="core_tab_changes">Àyípadà</string>
+    <string name="core_tab_avoid">Yẹra fún</string>
+    <string name="core_tab_insights">Àgbéyẹ̀wò</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">ó ti ṣe</string>
+    <string name="core_cell_missed">ó fò ó</string>
+    <string name="core_cell_partial">ó ti ṣe díẹ̀, %1$d títí di ìsinsìnyí</string>
+    <string name="core_cell_unfilled">a kò tíì kọ ọ́</string>
+    <string name="core_cell_open">láti ṣe</string>
+    <string name="core_cell_locked">ó tì títí di àkókò àyẹ̀wò</string>
+    <string name="core_cell_future">kò tíì tó</string>
+    <string name="core_cell_empty">kò sí ohun tí a nílò</string>
+    <string name="core_cell_band">ó ti parí fún àsìkò yìí</string>
+    <string name="core_cell_off">kì í ṣe ọjọ́ fún ìgbésẹ̀ yìí</string>
+    <string name="core_cell_none">kí ìgbésẹ̀ yìí tó bẹ̀rẹ̀</string>
+
+    <string name="core_rhythm_one_off">Ẹ̀ẹ̀kan ṣoṣo</string>
+    <string name="core_rhythm_end_of_day">Lójoojúmọ́, a sàmì sí i ní òpin ọjọ́</string>
+    <string name="core_rhythm_every_day">Lójoojúmọ́</string>
+    <string name="core_rhythm_every_days">Ní gbogbo %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">lọ́sẹ̀</string>
+    <string name="core_rhythm_a_month">lóṣù</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, ọjọ́ èyíkéyìí</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s àti %2$s</string>
+
+    <string name="core_achievement_short_months">oṣù %1$d</string>
+    <string name="core_achievement_short_days">ọjọ́ %1$d</string>
+    <string name="core_glance_step">%1$s, %2$d nínú %3$d</string>
+
+    <string name="core_slip_never">Rárá</string>
+    <string name="core_slip_once">Ẹ̀ẹ̀kan</string>
+    <string name="core_slip_a_few">Ìgbà díẹ̀</string>
+    <string name="core_slip_half">Ìdajì</string>
+    <string name="core_slip_most">Ọ̀pọ̀ ìgbà</string>
+    <string name="core_slip_always">Nígbà gbogbo</string>
+
+    <string name="core_ideas_habit_anytime">Àṣà, ìgbàkígbà</string>
+    <string name="core_ideas_habit_end">Àṣà, òpin ọjọ́</string>
+    <string name="core_ideas_swap">Pàṣípààrọ̀</string>
+    <string name="core_ideas_avoid_product">Yẹra fún, àwọn ọjà</string>
+    <string name="core_ideas_avoid_company">Yẹra fún, àwọn ilé iṣẹ́</string>
+    <string name="core_ideas_avoid_food">Yẹra fún, oúnjẹ</string>
+
+    <string name="core_tag_ethical">Ìwà rere</string>
+    <string name="core_tag_health">Ìlera</string>
+    <string name="core_tag_clutter">Ìdàrúdàpọ̀ ẹrù</string>
+    <string name="core_tag_ecological">Àyíká</string>
+    <string name="core_tag_animal_welfare">Ìtọ́jú ẹranko</string>
+    <string name="core_tag_workers_rights">Ẹ̀tọ́ àwọn òṣìṣẹ́</string>
+    <string name="core_tag_plastic">Ike</string>
+    <string name="core_tag_palm_oil">Epo pupa</string>
+    <string name="core_tag_deforestation">Ìgé igbó</string>
+    <string name="core_category_company">Ilé iṣẹ́</string>
+    <string name="core_category_food">Oúnjẹ</string>
+    <string name="core_category_product">Ọjà</string>
+    <string name="core_verdict_avoid">YẸRA FÚN UN</string>
+    <string name="core_verdict_edge">LÓRÍ ÌLÀ</string>
+    <string name="core_verdict_fine">Ó DÁA</string>
+
+    <string name="core_theme_off_white_honey">Funfun rírọ̀ &amp; oyin</string>
+    <string name="core_theme_vanilla_caramel">Fanílà &amp; káràmẹ́lì</string>
+    <string name="core_theme_sunflower">Òdòdó òòrùn</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kòkó &amp; ọsàn wẹ́wẹ́</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; bọ́tà</string>
+    <string name="core_theme_midnight_honey">Ọ̀gànjọ́ &amp; oyin</string>
+    <string name="core_theme_forest_night">Òru inú igbó</string>
+    <string name="core_theme_plum_dusk">Àṣálẹ́ àwọ̀ elése àlùkò</string>
+    <string name="core_theme_charcoal_coral">Èédú &amp; iyùn</string>
+
+    <string name="core_pic_sunny_meadow">Pápá oníòòrùn</string>
+    <string name="core_pic_sunset_hills">Òkè ní ìwọ̀ òòrùn</string>
+    <string name="core_pic_starry_night">Òru onírìràwọ̀</string>
+    <string name="core_pic_beach_day">Ọjọ́ ní etíkun</string>
+    <string name="core_pic_mountain_lake">Adágún orí òkè</string>
+    <string name="core_pic_snowy_village">Abúlé oníyìnyín</string>
+    <string name="core_pic_rainy_garden">Ọgbà nínú òjò</string>
+    <string name="core_pic_autumn_forest">Igbó ìgbà ìwọ́wé</string>
+    <string name="core_pic_cherry_blossom">Òdòdó ṣẹ́rì</string>
+    <string name="core_pic_desert_cactus">Kákítọ̀sì aṣálẹ̀</string>
+    <string name="core_pic_lighthouse">Ilé ìmọ́lẹ̀ etíkun</string>
+    <string name="core_pic_rainbow_field">Pápá òṣùmàrè</string>
+    <string name="core_pic_hot_air_balloon">Fọ̀ndúgbẹ̀ afẹ́fẹ́ gbígbóná</string>
+    <string name="core_pic_sailboat">Ọkọ̀ ìgbòkun</string>
+    <string name="core_pic_cabin_in_the_woods">Ahéré nínú igbó</string>
+    <string name="core_pic_tulip_field">Pápá òdòdó tulip</string>
+    <string name="core_pic_campfire_night">Òru iná àgọ́</string>
+    <string name="core_pic_misty_mountains">Òkè oníkùùkù</string>
+    <string name="core_pic_sunrise_sea">Òkun ní ìlà òòrùn</string>
+    <string name="core_pic_snowy_pines">Igi páìnì oníyìnyín</string>
+    <string name="core_pic_lavender_field">Pápá lafẹ́ńdà</string>
+    <string name="core_pic_waterfall">Ìṣàn omi</string>
+    <string name="core_pic_city_at_dusk">Ìlú ní àṣálẹ́</string>
+    <string name="core_pic_picnic">Ìjẹun níta</string>
+    <string name="core_pic_moon_over_the_lake">Òṣùpá lórí adágún</string>
+    <string name="core_pic_palm_island">Erékùṣù ọ̀pẹ</string>
+    <string name="core_pic_windmill">Ẹ̀rọ afẹ́fẹ́</string>
+    <string name="core_pic_bike_path">Ọ̀nà kẹ̀kẹ́</string>
+    <string name="core_pic_greenhouse">Ilé ọ̀gbìn dígí</string>
+    <string name="core_pic_northern_lights">Ìmọ́lẹ̀ àríwá</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="other">Ìgbésẹ̀ %d ń dúró dè ọ́.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="other">ó ti ṣe, ìgbà %d</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="other">ìgbà %d lójúmọ́</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="other">Ìgbà %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="other">ní gbogbo ọ̀sẹ̀ %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="other">ní gbogbo oṣù %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="other">ní gbogbo ọjọ́ %d</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="other">oṣù %d, láìfò rárá</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="other">oṣù %d láìdáwọ́dúró</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="other">ọjọ́ %d léraléra</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="other">oṣù %d</item>
+    </plurals>
+
+    <string name="tabs_new_step">Ìgbésẹ̀ tuntun</string>
+    <string name="tabs_edit">Ṣàtúnṣe</string>
+    <string name="tabs_delete">Pa á rẹ́</string>
+    <string name="tabs_done">Ó parí</string>
+    <string name="tabs_back">Padà</string>
+    <string name="tabs_earlier">Ṣáájú</string>
+    <string name="tabs_later">Lẹ́yìn náà</string>
+    <string name="tabs_delete_title">Pa %1$s rẹ́?</string>
+    <string name="tabs_eod_unlock">Àṣà òpin ọjọ́ yóò ṣí ní %1$02d:00</string>
+    <string name="tabs_check_up">Àyẹ̀wò</string>
+    <string name="tabs_one_off">Ẹ̀ẹ̀kan ṣoṣo</string>
+
+    <string name="tabs_checkin_from">Àyẹ̀wò láti %1$02d:00</string>
+    <string name="tabs_checkin_daily">Àyẹ̀wò Ojoojúmọ́</string>
+    <string name="tabs_checkin_weekly">Àyẹ̀wò Ọ̀sẹ̀</string>
+    <string name="tabs_checkin_quarter">Àyẹ̀wò Oṣù 3</string>
+    <string name="tabs_checked_in">O ti ṣe àyẹ̀wò</string>
+    <string name="tabs_quarter_section">ÀYẸ̀WÒ OṢÙ 3</string>
+    <string name="tabs_previous_week">Ọ̀sẹ̀ tó kọjá</string>
+    <string name="tabs_next_week">Ọ̀sẹ̀ tó ń bọ̀</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="other">Ọjọ́ %1$d ti %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">O ṣeun púpọ̀. Ó ti lọ sí Àyẹ̀wò Oṣù 3 rẹ báyìí, kò sí sísàmì ojoojúmọ́ mọ́.</string>
+    <string name="tabs_celebrate_first">Àkọ́kọ́ ni %1$s.</string>
+    <string name="tabs_glance_title">Ọ̀sẹ̀ rẹ</string>
+    <string name="tabs_glance_ticks_kept">Àmì tí o ṣe</string>
+    <string name="tabs_glance_days_checked_in">Ọjọ́ tí o ṣe àyẹ̀wò</string>
+    <string name="tabs_glance_top_tag">Ìdí ìyọ̀ tí o lò jù:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="other">%1$s, ìgbà %2$d</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Èyí tó rọrùn jù:</string>
+    <string name="tabs_glance_hardest">Èyí tó le jù:</string>
+
+    <string name="tabs_changes_ongoing">Pàṣípààrọ̀ tó ń lọ lọ́wọ́</string>
+    <string name="tabs_changes_ongoing_tip_title">Pàṣípààrọ̀ tó ń lọ lọ́wọ́</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="other">Ìwọ yóò tún dojú kọ yíyàn kan náà, bíi ife kọfí tàbí ọṣẹ ìfọrun líle. A ó sàmì sí i nínú Àṣà fún ọjọ́ %1$d, lẹ́yìn náà a ó máa yẹ̀ ẹ́ wò ní gbogbo oṣù 3.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Kò sí pàṣípààrọ̀ kankan síbẹ̀</string>
+    <string name="tabs_changes_day_badge">ỌJỌ́ %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">Ó Ń TẸ̀SÍWÁJÚ</string>
+    <string name="tabs_changes_one_off_todo">Ẹ̀ẹ̀kan ṣoṣo, láti ṣe</string>
+    <string name="tabs_changes_one_off_tip">O ṣe é lẹ́ẹ̀kan, ó sì parí, bíi ṣíṣe ìmọ́tótó àpótí, yíyí padà sí iná mànàmáná aláwọ̀ ewé tàbí títún ẹ̀wù ṣe. Sàmì sí i, yóò sì lọ sí Ó Parí.</string>
+    <string name="tabs_changes_nothing_waiting">Kò sí ohun tó ń dúró</string>
+    <string name="tabs_changes_finished">Ó PARÍ · %1$d</string>
+
+    <string name="tabs_avoid_title">Àkójọ yíyẹra</string>
+    <string name="tabs_avoid_search">Wá…</string>
+    <string name="tabs_avoid_no_match">Kò sí ohun tó bá a mu</string>
+    <string name="tabs_avoid_companies">Ilé iṣẹ́</string>
+    <string name="tabs_avoid_food">Oúnjẹ</string>
+    <string name="tabs_avoid_products">Ọjà</string>
+
+    <string name="tabs_avoid_added">A ṣàfikún</string>
+    <string name="tabs_avoid_why">Ìdí tí o fi ń yẹra fún un</string>
+    <string name="tabs_avoid_own_words">Ní ọ̀rọ̀ ara rẹ</string>
+    <string name="tabs_avoid_brands">Àwọn àmì ọjà tó ní · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Àmì ọjà kan ní ìlà kọ̀ọ̀kan</string>
+    <string name="tabs_avoid_more_brands">+%1$d sí i</string>
+    <string name="tabs_avoid_instead">Lo èyí dípò rẹ̀</string>
+    <string name="tabs_avoid_instead_hint">Ọ̀kan ní ìlà kọ̀ọ̀kan</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="other">ìyọ̀</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">o yẹra fún un</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="other">oṣù lórí àkójọ</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Yóò kúrò nínú àkójọ Yẹra fún rẹ pẹ̀lú ìtàn rẹ̀.</string>
+
+    <string name="tabs_habit_delete_text">Gbogbo ìtàn rẹ̀ yóò lọ pẹ̀lú rẹ̀.</string>
+    <string name="tabs_habit_created">A ṣẹ̀dá rẹ̀</string>
+    <string name="tabs_habit_to_do">Láti ṣe</string>
+    <string name="tabs_habit_daily_ticks">Àmì ojoojúmọ́</string>
+    <string name="tabs_habit_day_of">Ọjọ́ %1$d nínú %2$d</string>
+    <string name="tabs_habit_finished">Ó parí</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="other">ọjọ́ tó ń lọ</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="other">ìgbà tó já</item>
+    </plurals>
+    <string name="tabs_habit_success">àṣeyọrí</string>
+    <string name="tabs_habit_current_streak">Ìtẹ̀léra lọ́wọ́lọ́wọ́</string>
+    <string name="tabs_habit_longest_streak">Ìtẹ̀léra tó gùn jù</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="other">ọjọ́ %1$d</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Ìdí tí ó fi yọ̀</string>
+    <string name="tabs_habit_remove_reason">Yọ ìdí yìí kúrò</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="other">ọ̀nà tí o fi mú ayé rẹ dára sí i</item>
+    </plurals>
+    <string name="tabs_insights_habits">Àṣà</string>
+    <string name="tabs_insights_swaps">Pàṣípààrọ̀</string>
+    <string name="tabs_insights_avoids">Ohun tí o yẹra fún</string>
+    <string name="tabs_insights_on_track_section">Lójú ọ̀nà</string>
+    <string name="tabs_insights_avg_days">ọjọ́ %1$d</string>
+    <string name="tabs_insights_average_kept">àròpín tí o ṣe</string>
+    <string name="tabs_insights_days_checked_in">ọjọ́ tí o ṣe àyẹ̀wò</string>
+    <string name="tabs_insights_on_track">lójú ọ̀nà</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="other">ìyọ̀</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="other">ìgbésẹ̀ tuntun</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="other">ẹ̀ẹ̀kan ṣoṣo tó parí</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Àwọn ìdí ìyọ̀ tó pọ̀ jù</string>
+    <string name="tabs_insights_added_quarter">Èyí tí a fi kún ní ìdá mẹ́rin ọdún yìí</string>
+    <string name="tabs_insights_past_summaries">Àkópọ̀ Oṣù 3 tó kọjá</string>
+    <string name="tabs_insights_first_on">Àkọ́kọ́ rẹ yóò dé ní %1$s</string>
+    <string name="tabs_insights_all_time">Gbogbo ìgbà</string>
+    <string name="tabs_insights_period">%1$s sí %2$s %3$d</string>
+
+    <string name="forms_back">Padà</string>
+    <string name="forms_back_habits">Àṣà</string>
+    <string name="forms_back_settings">Ètò</string>
+    <string name="forms_add">Fi kún un</string>
+    <string name="forms_save">Fi pamọ́</string>
+    <string name="forms_finish">Parí</string>
+    <string name="forms_delete">Pa á rẹ́</string>
+    <string name="forms_why">Kí nìdí</string>
+    <string name="forms_never_show">Má ṣe fi hàn mọ́</string>
+    <string name="forms_every">Ní gbogbo</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="other">ọjọ́</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Ìgbésẹ̀ %1$d nínú %2$d</string>
+    <string name="forms_checkin_next_weekly">Èyí tó kàn, Àyẹ̀wò Ọ̀sẹ̀ ›</string>
+    <string name="forms_checkin_next_quarter">Èyí tó kàn, Àyẹ̀wò Oṣù 3 ›</string>
+    <string name="forms_daily_title">Àyẹ̀wò Ojoojúmọ́</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="other">Ọjọ́ %1$d tó ṣáájú tí a kò kọ</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Fò gbogbo rẹ̀</string>
+    <string name="forms_daily_today">Lónìí · %1$s</string>
+    <string name="forms_daily_skip">Fò ó</string>
+    <string name="forms_daily_undo_skip">Dá fífò padà</string>
+    <string name="forms_daily_new_tag">Àmì tuntun</string>
+    <string name="forms_daily_new_tag_hint">Àpò ìdọ̀tí ti kún</string>
+    <string name="forms_weekly_title">Àyẹ̀wò Ọ̀sẹ̀</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="other">Ọ̀sẹ̀ %1$d ló kù, ìgbésẹ̀ tuntun kan bo gbogbo wọn.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Kò sí ìgbésẹ̀ tuntun lọ́sẹ̀ yìí</string>
+    <string name="forms_quarter_title">Àyẹ̀wò Oṣù 3</string>
+    <string name="forms_quarter_nothing">Kò sí ohun tí a kọ́ síbẹ̀ láti yẹ̀wò. Àkópọ̀ rẹ ló kàn.</string>
+    <string name="forms_quarter_habits">Àṣà</string>
+    <string name="forms_quarter_swaps">Pàṣípààrọ̀</string>
+    <string name="forms_quarter_avoid">Yẹra fún</string>
+    <string name="forms_quarter_missed">Ìgbà tí o fò</string>
+    <string name="forms_quarter_missed_level">Ìgbà tí o fò: %1$s</string>
+
+    <string name="forms_new_title">Ìgbésẹ̀ tuntun</string>
+    <string name="forms_edit_title">Ṣàtúnṣe: %1$s</string>
+    <string name="forms_add_kind">Fi kún: %1$s</string>
+    <string name="forms_title_habit">Àṣà</string>
+    <string name="forms_title_swap">Pàṣípààrọ̀</string>
+    <string name="forms_title_avoid">Yẹra fún</string>
+    <string name="forms_save_changes">Fi àyípadà pamọ́</string>
+    <string name="forms_what_kind">Irú wo?</string>
+    <string name="forms_name">Orúkọ</string>
+    <string name="forms_your_new_step">Ìgbésẹ̀ tuntun rẹ</string>
+    <string name="forms_hint_habit">Ka ojú ìwé 10</string>
+    <string name="forms_hint_swap">Kànìnkàn, kì í ṣe sípọ́ǹjì</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Irú àṣà wo?</string>
+    <string name="forms_timing_tip_title">Ìgbàkígbà tàbí òpin ọjọ́</string>
+    <string name="forms_timing_tip">Ìgbàkígbà: ohun tí o ṣe lẹ́ẹ̀kan, bíi sísá eré. Sàmì sí i ní kété tí o bá ṣe é tán.\n\nÒpin ọjọ́: òfin tí o pa mọ́ ní gbogbo ọjọ́, bíi kí o má jẹ ìpanu. O lè sàmì sí i ní ìrọ̀lẹ́ nìkan.</string>
+    <string name="forms_anytime">Ìgbàkígbà</string>
+    <string name="forms_end_of_day">Òpin ọjọ́</string>
+    <string name="forms_what_is_it">Kí ni?</string>
+    <string name="forms_how_often">Ìgbà mélòó?</string>
+    <string name="forms_often_specific">Ọjọ́ pàtó</string>
+    <string name="forms_often_whenever">Ìgbàkígbà</string>
+    <string name="forms_often_once">Ẹ̀ẹ̀kan ṣoṣo</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="other">ìgbà ní gbogbo</item>
+    </plurals>
+    <string name="forms_unit_day">ọjọ́</string>
+    <string name="forms_unit_week">ọ̀sẹ̀</string>
+    <string name="forms_unit_month">oṣù</string>
+    <string name="forms_unit_x_days">ọjọ́ X</string>
+    <string name="forms_ideas">Èrò</string>
+    <string name="forms_ideas_others">Àwọn mìíràn</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="other">Wo gbogbo èrò %1$d ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Gbogbo èrò ìgbésẹ̀</string>
+    <string name="forms_search">Wá…</string>
+    <string name="forms_all">Gbogbo</string>
+
+    <string name="forms_settings_title">Ètò</string>
+    <string name="forms_set_colours">Àwọ̀</string>
+    <string name="forms_set_style">Ìrísí àkópọ̀ Oṣù 3</string>
+    <string name="forms_set_checkins">Àyẹ̀wò</string>
+    <string name="forms_set_checkin_hour">Àyẹ̀wò Ojoojúmọ́ ń ṣí ní</string>
+    <string name="forms_set_checkin_hour_tip">Láti àkókò yìí, o lè sàmì sí àṣà òpin ọjọ́ kí o sì ṣe Àyẹ̀wò Ojoojúmọ́.</string>
+    <string name="forms_set_week_start">Ọ̀sẹ̀ bẹ̀rẹ̀ ní</string>
+    <string name="forms_set_week_start_tip">Ọjọ́ tí àtẹ Àṣà rẹ, ọ̀sẹ̀ àti àwòrán àtẹ bẹ̀rẹ̀.</string>
+    <string name="forms_monday">Ọjọ́ Ajé</string>
+    <string name="forms_sunday">Ọjọ́ Àìkú</string>
+    <string name="forms_set_new_step_every">Ìgbésẹ̀ tuntun ní gbogbo</string>
+    <string name="forms_set_new_step_every_tip">Ọ̀sẹ̀ mélòó láàrin Àyẹ̀wò Ọ̀sẹ̀.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="other">ọ̀sẹ̀</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Ọjọ́ Àyẹ̀wò Ọ̀sẹ̀</string>
+    <string name="forms_set_weekly_day_tip">Ní ọjọ́ yìí, lẹ́yìn Àyẹ̀wò Ojoojúmọ́ ni ìwọ yóò yan ìgbésẹ̀ tuntun ọ̀sẹ̀ tó ń bọ̀.</string>
+    <string name="forms_set_checkup">Àyẹ̀wò Oṣù 3</string>
+    <string name="forms_set_checkup_tip">Gbogbo ènìyàn ń ṣe àyẹ̀wò ní ọjọ́ kan náà: 1 Ṣẹ́rẹ́, 1 Igbe, 1 Agẹmọ àti 1 Ọwàwà, kí ẹ lè pín àkópọ̀ yín pọ̀. O lè yan ọjọ́ tìrẹ dípò bẹ́ẹ̀.</string>
+    <string name="forms_set_same">Bákan náà pẹ̀lú gbogbo ènìyàn</string>
+    <string name="forms_set_own">Ọjọ́ tèmi</string>
+    <string name="forms_set_starting">Bẹ̀rẹ̀ ní</string>
+    <string name="forms_set_starting_tip">Oṣù àyẹ̀wò àkọ́kọ́ tìrẹ.</string>
+    <string name="forms_earlier">Ṣáájú</string>
+    <string name="forms_later">Lẹ́yìn náà</string>
+    <string name="forms_set_every_tip">Oṣù láàrin àwọn àyẹ̀wò.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="other">oṣù</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Ọjọ́ inú oṣù</string>
+    <string name="forms_set_day_of_month_tip">Ọjọ́ wo nínú oṣù náà.</string>
+    <string name="forms_set_everyone">Gbogbo ènìyàn: 1 Ṣẹ́rẹ́ · 1 Igbe · 1 Agẹmọ · 1 Ọwàwà</string>
+    <string name="forms_set_days_build">Ọjọ́ láti kọ́ àṣà</string>
+    <string name="forms_set_days_build_tip">Ìwádìí rí ọjọ́ 18 sí 254, èyí tí a ń sọ jù ni 66 (Lally et al. 2010, Singh et al. 2024). Lẹ́yìn ọjọ́ wọ̀nyí, ìgbésẹ̀ tuntun yóò lọ sí àyẹ̀wò rẹ.</string>
+    <string name="forms_set_nudge">Ìránnilétí ojoojúmọ́</string>
+    <string name="forms_set_nudge_tip">Ìránnilétí ní àkókò yìí, bí ohun kan bá ṣì wà láìsàmì nìkan.</string>
+    <string name="forms_set_more">Síi</string>
+    <string name="forms_set_reasons">Àwọn ìdí ìyọ̀</string>
+    <string name="forms_set_tutorial">Tún ìtọ́sọ́nà wò</string>
+    <string name="forms_set_export">Gbé dátà mi jáde</string>
+    <string name="forms_set_import">Gbé dátà wọlé</string>
+
+    <string name="forms_reasons_title">Àwọn ìdí ìyọ̀</string>
+    <string name="forms_reasons_hint">Fi ìdí tìrẹ kún un</string>
+    <string name="forms_reasons_used">a lò ó %1$d×</string>
+    <string name="forms_reasons_delete_title">Pa %1$s rẹ́?</string>
+    <string name="forms_reasons_delete_text">Àwọn ìyọ̀ yóò dúró nínú ìtàn rẹ, ṣùgbọ́n láìsí àmì yìí.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="other">àṣà %1$d</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="other">pàṣípààrọ̀ %1$d</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="other">yíyẹra %1$d</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, àmì láti %2$s</string>
+    <string name="forms_export_title">Gbé dátà mi jáde</string>
+    <string name="forms_export_what">Ohun tó wà nínú fáìlì</string>
+    <string name="forms_export_ticks">Gbogbo àmì, ìyọ̀ àti ìdí</string>
+    <string name="forms_export_ticks_since">Gbogbo àmì, ìyọ̀ àti ìdí láti %1$s</string>
+    <string name="forms_export_summaries">Àkópọ̀ Oṣù 3 rẹ</string>
+    <string name="forms_export_settings">Ètò rẹ, àwọ̀ àti orúkọ</string>
+    <string name="forms_export_file">Fáìlì</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Fi fáìlì pamọ́</string>
+    <string name="forms_export_send">Fi ránṣẹ́ sí…</string>
+    <string name="forms_export_send_title">Fi dátà Alice rẹ ránṣẹ́</string>
+    <string name="forms_export_saved">A ti fi %1$s pamọ́</string>
+    <string name="forms_export_save_failed">Kò ṣeé fi fáìlì pamọ́</string>
+
+    <string name="forms_import_title">Gbé dátà wọlé</string>
+    <string name="forms_import_choose">Yan ẹ̀dà ìpamọ́ Alice</string>
+    <string name="forms_import_choose_sub">.json, láti Gbé jáde lórí fóònù mìíràn</string>
+    <string name="forms_import_cant_open">Kò ṣeé ṣí fáìlì yẹn.</string>
+    <string name="forms_import_not_backup">Fáìlì yẹn kì í ṣe ẹ̀dà ìpamọ́ Alice.</string>
+    <string name="forms_import_replace_mode">Rọ́pò ohun tó wà níbí</string>
+    <string name="forms_import_add_mode">Fi kún ohun tó wà níbí</string>
+    <string name="forms_import_button">Gbé wọlé</string>
+    <string name="forms_import_replace_title">Rọ́pò dátà rẹ?</string>
+    <string name="forms_import_add_title">Fi dátà yìí kún un?</string>
+    <string name="forms_import_replace_text">Gbogbo ohun tó wà lórí fóònù yìí ni fáìlì náà yóò rọ́pò. Gbé e jáde kọ́kọ́ tí o bá fẹ́ pa á mọ́.</string>
+    <string name="forms_import_add_text">Àṣà àti ìtàn inú fáìlì náà yóò wọ inú tìrẹ.</string>
+    <string name="forms_import_done">A ti gbé dátà wọlé</string>
+
+    <string name="look_share">Pín in</string>
+    <string name="look_save_image">Fi àwòrán pamọ́</string>
+    <string name="look_next_week">Èyí tó kàn, ọ̀sẹ̀ rẹ ›</string>
+    <string name="look_keep_going">Máa bá a lọ</string>
+    <string name="look_storage_needed">Alice nílò àyè ìpamọ́ láti fi àwòrán náà pamọ́</string>
+    <string name="look_share_caption">Ìdá mẹ́rin ọdún mi pẹ̀lú Alice. Bẹ̀rẹ̀ tìrẹ: %1$s</string>
+    <string name="look_share_clip">Àkópọ̀ Alice</string>
+    <string name="look_share_chooser">Pín ìdá mẹ́rin ọdún rẹ</string>
+    <string name="look_saved">A ti fi pamọ́ sí Pictures/Alice</string>
+    <string name="look_save_failed">Kò ṣeé fi àwòrán náà pamọ́</string>
+
+    <string name="look_style_poster">Pátákó ìpolówó</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Àpótí ẹ̀bùn</string>
+    <string name="look_style_receipt">Ìwé owó</string>
+    <string name="look_style_report">Káàdì ìjábọ̀</string>
+    <string name="look_style_boarding">Tíkẹ́ẹ̀tì ọkọ̀ òfurufú</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kàlẹ́ńdà</string>
+    <string name="look_style_trading">Káàdì pàṣípààrọ̀</string>
+
+    <string name="look_quote_1">Ìgbésẹ̀ Kékeré, Lójoojúmọ́</string>
+    <string name="look_quote_2">O Ṣeun Pé O Wá</string>
+    <string name="look_quote_3">Ìtẹ̀síwájú, Kì Í Ṣe Pípé</string>
+    <string name="look_quote_4">O Tẹ̀síwájú. Ìyẹn Ṣe Pàtàkì</string>
+    <string name="look_quote_5">Àyípadà Kékeré, Ìyàtọ̀ Ńlá</string>
+    <string name="look_quote_6">Lójoojúmọ́ O Yan Èyí Tó Dára Jù</string>
+    <string name="look_quote_7">Díẹ̀díẹ̀ Ṣì Jẹ́ Síwájú</string>
+    <string name="look_quote_8">O Ń Kọ́ Ayé Tí O Fẹ́ràn</string>
+    <string name="look_quote_9">Ìgbésẹ̀ Kan Lẹ́ẹ̀kan Ń Pọ̀ Sí I</string>
+    <string name="look_quote_10">Máa Wà Níbẹ̀ Fún Ara Rẹ</string>
+    <string name="look_quote_11">Ìwọ Ọ̀la Ń Dúpẹ́</string>
+    <string name="look_quote_12">Díẹ̀díẹ̀ Ní Ìmú Ẹlẹ́dẹ̀ Ń Wọgbà</string>
+    <string name="look_quote_13">Ìdúróṣinṣin Jẹ́ Idán Jẹ́jẹ́</string>
+    <string name="look_quote_14">Wo Bí O Ṣe Jìnnà Tó</string>
+    <string name="look_quote_15">Yangàn Nínú Àṣeyọrí Kékeré</string>
+    <string name="look_quote_16">A Ń Kọ́ Ọjọ́ Rere, A Kì Í Rí I Lásán</string>
+
+    <string name="look_stamp_1">ÌTAYỌ</string>
+    <string name="look_stamp_2">ÀRÀMỌ̀DÌ</string>
+    <string name="look_stamp_3">O ṢE DÁADÁA</string>
+    <string name="look_stamp_4">ÌYANU</string>
+    <string name="look_stamp_5">GBÁÀ</string>
+    <string name="look_stamp_6">MÁÀKÌ GÍGA</string>
+    <string name="look_stamp_7">ÌRÀWỌ̀ WÚRÀ</string>
+    <string name="look_stamp_8">IṢẸ́ TÓ DÁA</string>
+
+    <string name="look_period">%1$s sí %2$s</string>
+    <string name="look_scan">ṢÀYẸ̀WÒ KÓÒDÙ\nLÁTI BẸ̀RẸ̀\nÌRÌN ÀJÒ RẸ</string>
+    <string name="look_you">Ìwọ</string>
+    <string name="look_on_track">lójú ọ̀nà</string>
+    <string name="look_new_steps">ìgbésẹ̀ tuntun</string>
+    <string name="look_days_in">ọjọ́ tó ti kọjá</string>
+    <string name="look_new">tuntun</string>
+    <string name="look_week_by_week">Ọ̀sẹ̀ dé ọ̀sẹ̀</string>
+    <string name="look_coming_soon">Ó ń bọ̀ láìpẹ́</string>
+    <string name="look_new_this_quarter">Tuntun ní ìdá mẹ́rin ọdún yìí</string>
+    <string name="look_kept_up_longest">Èyí tí o pa mọ́ jù</string>
+    <string name="look_habits">Àṣà</string>
+    <string name="look_swaps">Pàṣípààrọ̀</string>
+    <string name="look_avoids">Ohun tí o yẹra fún</string>
+    <string name="look_ways_improved">Ọ̀nà tí o fi tẹ̀síwájú</string>
+    <string name="look_improved_in">O mú ayé rẹ dára sí i ní %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="other">àṣà %1$d</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="other">pàṣípààrọ̀ %1$d</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="other">yíyẹra %1$d</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="other">ìyọ̀ %1$d</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="other">ọ̀nà %1$d</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="other">àṣà</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="other">pàṣípààrọ̀</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="other">yíyẹra</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="other">ìyọ̀</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="other">ọ̀nà</item>
+    </plurals>
+
+    <string name="look_poster_improved">O ti mú ayé rẹ dára sí i ní %1$s</string>
+    <string name="look_poster_on_track">LÓJÚ Ọ̀NÀ</string>
+    <string name="look_poster_days">ọjọ́</string>
+    <string name="look_poster_achievements">Àṣeyọrí</string>
+    <string name="look_poster_first_ones">Àwọn àkọ́kọ́ rẹ ń bọ̀ lọ́nà</string>
+    <string name="look_poster_added">Ohun tí o fi kún ní ìdá mẹ́rin ọdún yìí</string>
+
+    <string name="look_wrapped_stars">Ìràwọ̀ rẹ</string>
+
+    <string name="look_trophy_ways">ọ̀nà tí o fi mú\nayé rẹ dára sí i</string>
+    <string name="look_trophy_next_quarter">Ìdá mẹ́rin ọdún tó ń bọ̀</string>
+    <string name="look_trophy_first_medal">mẹ́dàlì àkọ́kọ́ rẹ</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Tuntun lórí pẹpẹ:</string>
+
+    <string name="look_receipt_title">Àyẹ̀wò Oṣù 3 · %1$s</string>
+    <string name="look_receipt_customer">Oníbàárà: %1$s</string>
+    <string name="look_receipt_habits">Àṣà tí a kọ́</string>
+    <string name="look_receipt_swaps">Ohun tí a pààrọ̀</string>
+    <string name="look_receipt_avoids">Ohun tí a yẹra fún</string>
+    <string name="look_receipt_ways">Ọ̀nà tí o fi mú ayé rẹ dára sí i</string>
+    <string name="look_receipt_on_track">Lójú ọ̀nà ní ìdá mẹ́rin ọdún yìí</string>
+    <string name="look_receipt_slips">Ìyọ̀</string>
+    <string name="look_receipt_new_steps">Ìgbésẹ̀ tuntun tí a kọ́</string>
+    <string name="look_receipt_new">Tuntun ní ìdá mẹ́rin ọdún yìí: %1$s</string>
+
+    <string name="look_report_title">Ìjábọ̀ Ìgbésẹ̀ Kékeré</string>
+    <string name="look_report_pupil">%1$s · Akẹ́kọ̀ọ́: %2$s</string>
+    <string name="look_report_subject">ẸKỌ́</string>
+    <string name="look_report_built">A KỌ́ Ọ</string>
+    <string name="look_report_grade">MÁÀKÌ</string>
+    <string name="look_report_attendance">Wíwá %1$s</string>
+    <string name="look_report_on_track">Lójú ọ̀nà %1$s</string>
+    <string name="look_report_slips">Ìyọ̀ %1$s</string>
+    <string name="look_report_achievements">ÀṢEYỌRÍ</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">ẸKỌ́ TUNTUN NÍ SÁÀ YÌÍ (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Ọ̀rọ̀ olùkọ́:</string>
+    <string name="look_report_calm">Sáà tó dákẹ́ jẹ́ẹ́, tó dúró ṣinṣin.</string>
+    <string name="look_report_ups_downs">Sáà tó ní òkè àti ilẹ̀, o sì dúró tì í.</string>
+    <string name="look_report_star">%1$s ti ṣe dáadáa gidigidi. Máa bá a lọ!</string>
+    <string name="look_report_keep_up">Máa bá a lọ!</string>
+    <string name="look_report_week">Ọ̀SẸ̀ DÉ Ọ̀SẸ̀</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Ìrìn àjò Q%1$d</string>
+    <string name="look_boarding_from">LÁTI</string>
+    <string name="look_boarding_old">ÀTIJỌ́</string>
+    <string name="look_boarding_habits">àṣà</string>
+    <string name="look_boarding_to">SÍ</string>
+    <string name="look_boarding_new">TUNTUN</string>
+    <string name="look_boarding_better_you">ìwọ tó dára jù</string>
+    <string name="look_boarding_passenger">Èrò ọkọ̀</string>
+    <string name="look_boarding_dates">Ọjọ́</string>
+    <string name="look_boarding_miles">Máìlì tí a fò</string>
+    <string name="look_boarding_on_time">Lásìkò</string>
+    <string name="look_boarding_turbulence">Ìjìgìjìgì</string>
+    <string name="look_boarding_days">Ọjọ́ nínú ọkọ̀</string>
+    <string name="look_boarding_flyer">ARÌNRÌN ÀJÒ DÉÉDÉÉ, ALÁBÀÁRÌN RẸ TÓ PẸ́ JÙ</string>
+    <string name="look_boarding_log">ÌWÉ ÌRÌN ÀJÒ, Ọ̀SẸ̀ DÉ Ọ̀SẸ̀</string>
+    <string name="look_boarding_stops">ÌDÚRÓ TUNTUN, +%1$d</string>
+    <string name="look_boarding_note">Ọ̀RỌ̀ AWAKỌ̀</string>
+
+    <string name="look_polaroid_life">AYÉ RẸ</string>
+    <string name="look_polaroid_quarter">ÌDÁ MẸ́RIN ỌDÚN YÌÍ</string>
+    <string name="look_polaroid_days_in">ọjọ́ %1$d/%2$d</string>
+    <string name="look_polaroid_longest">ÈYÍ TÍ O PA MỌ́ JÙ</string>
+    <string name="look_polaroid_new">TUNTUN, +%1$d</string>
+
+    <string name="look_calendar_added">A ṣàfikún</string>
+
+    <string name="look_trading_common">Wọ́pọ̀</string>
+    <string name="look_trading_uncommon">Kò wọ́pọ̀</string>
+    <string name="look_trading_rare">Ṣọ̀wọ́n</string>
+    <string name="look_trading_legendary">Àròsọ</string>
+    <plurals name="look_trading_ways">
+        <item quantity="other">Ọ̀NÀ</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">No. %1$03d · ìdá mẹ́rin ọdún %2$s rẹ</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">ọjọ́ %1$d/%2$d</string>
+    <string name="look_trading_power">Agbára, ọ̀sẹ̀ dé ọ̀sẹ̀</string>
+    <string name="look_trading_edition">%1$s · ẹ̀dà Q%2$d</string>
+
+    <string name="look_sample_water_first">Omi kọ́kọ́</string>
+    <string name="look_sample_own_bag">Àpò tèmi</string>
+    <string name="look_sample_read_pages">Ka ojú ìwé 10</string>
+    <string name="look_sample_reading">Kíkà lójoojúmọ́</string>
+    <string name="look_sample_late_snacks">Kò sí ìpanu alẹ́</string>
+    <string name="look_sample_stretching">Nínà ara</string>
+    <string name="look_sample_cooler_home">Ilé tútù</string>
+    <string name="look_sample_loofah">Kànìnkàn, kì í ṣe sípọ́ǹjì</string>
+    <string name="look_sample_palm_oil">Láìsí epo pupa</string>
+    <string name="look_sample_stretch">Na ara ìṣẹ́jú 10</string>
+
+    <string name="look_colours_title">Àwọ̀</string>
+    <string name="look_colours_preview">Àwòtẹ́lẹ̀</string>
+    <string name="look_colours_your_summary">Àkópọ̀ Oṣù 3 rẹ</string>
+    <string name="look_colours_light">Ìmọ́lẹ̀</string>
+    <string name="look_colours_dark">Òkùnkùn</string>
+    <string name="look_styles_title">Ìrísí àkópọ̀ Oṣù 3</string>
+    <string name="look_styles_all_pictures">Wo gbogbo àwòrán Polaroid 30</string>
+    <string name="look_styles_refresh">Sọ di tuntun</string>
+    <string name="look_pictures_title">Àwòrán Polaroid</string>
+    <string name="look_pictures_back">Ìrísí àkópọ̀</string>
+
+    <string name="look_welcome_name">Orúkọ rẹ</string>
+    <string name="look_welcome_start">Bẹ̀rẹ̀</string>
+    <string name="look_welcome_import">Gbé dátà mi wọlé</string>
+
+    <string name="look_tut_skip">Fò ó</string>
+    <string name="look_tut_page">%1$d NÍNÚ %2$d</string>
+    <string name="look_tut_back">Padà</string>
+    <string name="look_tut_start">Bẹ̀rẹ̀</string>
+    <string name="look_tut_next">Èyí tó kàn</string>
+    <string name="look_tut1_title">Di ìwọ tó dára jù, ìgbésẹ̀ kan lẹ́ẹ̀kan</string>
+    <string name="look_tut1_body">Kọ́ àṣà tuntun, ṣe yíyàn tó ní àánú, kí o sì wo bí gbogbo àṣeyọrí rẹ ṣe ń pọ̀ sí i.</string>
+    <string name="look_tut1_habits">Kọ́ àṣà rere lójoojúmọ́ kí o sì di ẹni tí o fẹ́ jẹ́.</string>
+    <string name="look_tut1_swaps">Pààrọ̀ ọjà fún èyí tó dára jù fún ayé, fún ènìyàn tàbí fún ìlera rẹ.</string>
+    <string name="look_tut1_avoids">Tọpinpin àwọn ilé iṣẹ́, oúnjẹ àti ọjà tí o kò fẹ́ ṣe àtìlẹ́yìn fún.</string>
+    <string name="look_tut2_title">Sàmì sí i</string>
+    <string name="look_tut2_body">Tẹ àpótí kan nígbà tí o bá ti ṣe àṣà kan. Àwọn ti ìrọ̀lẹ́ yóò ṣí ní àkókò àyẹ̀wò rẹ.</string>
+    <string name="look_tut3_title">%1$s, lẹ́yìn náà ní gbogbo %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="other">ọjọ́ %1$d</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="other">oṣù %1$d</item>
+    </plurals>
+    <string name="look_tut3_body">Ìwádìí rí i pé kíkọ́ àṣà kan máa ń gba ọjọ́ 18 sí 254. Iye tí a ń sọ jù ni ọjọ́ 66, nítorí náà ibẹ̀ ni Alice ti bẹ̀rẹ̀.</string>
+    <string name="look_tut3_days_label">Ọjọ́ láti kọ́ àṣà</string>
+    <string name="look_tut3_checkup">Àyẹ̀wò ní gbogbo</string>
+    <string name="look_tut3_small">O lè yí méjèèjì padà nínú Ètò.</string>
+    <string name="look_tut4_title">Lẹ́ẹ̀kan lọ́sẹ̀, ìgbésẹ̀ tuntun kan</string>
+    <string name="look_tut4_body">Fífi ìgbésẹ̀ tuntun kan kún un lẹ́ẹ̀kan jẹ́ kí o dàgbà díẹ̀díẹ̀, láìgbé ẹrù tó pọ̀ jù lẹ́ẹ̀kan náà.</string>
+    <string name="look_tut4_day">Ọjọ́ àyẹ̀wò</string>
+    <string name="look_tut4_small">O lè yí èyí náà padà nínú Ètò.</string>
+    <string name="look_tut5_title">Ní gbogbo ìdá mẹ́rin ọdún, àkópọ̀ rẹ</string>
+    <string name="look_tut5_body">Pín bí o ṣe jìnnà tó pẹ̀lú àwọn ọ̀rẹ́ rẹ àti àwọn tó súnmọ́ ọ. Tẹ ìrísí tí o fẹ́ràn:</string>
+    <string name="look_tut_change_mind">O lè yí ọkàn rẹ padà nígbàkígbà.</string>
+    <string name="look_tut6_title">Ṣe é ní tìrẹ</string>
+    <string name="look_tut6_body">Yan àwọ̀ tó tù ọ́ lára jù. Gbogbo áàpù náà yóò yí padà lẹ́sẹ̀kẹsẹ̀.</string>
+    <string name="look_tut7_title">Yí ohunkóhun padà, nígbàkígbà</string>
+    <string name="look_tut7_body">Àkókò àyẹ̀wò, ọjọ́ láti kọ́ àṣà, ìrísí àkópọ̀ rẹ, àwọ̀ àti dátà rẹ, gbogbo wọn wà nínú Ètò.</string>
+    <string name="look_tut7_gear">Tẹ gíà lókè Àṣà láti ṣí Ètò.</string>
+    <string name="look_tut7_open">Ṣí Ètò</string>
+
+    <string name="lang_title">Èdè</string>
+    <string name="pron_title">Arọ́pò orúkọ</string>
+    <string name="pron_she">obìnrin</string>
+    <string name="pron_he">ọkùnrin</string>
+    <string name="pron_they">àìdásí</string>
+    <string name="lang_spotted">Ṣé o rí àṣìṣe kan nínú èdè rẹ?</string>
+    <string name="lang_search">Wá èdè rẹ</string>
+    <string name="lang_phone">Èdè fóònù</string>
+    <string name="lang_follow">Tẹ̀lé fóònù rẹ</string>
+    <string name="lang_note_title">Ràn wá lọ́wọ́ pẹ̀lú ìtumọ̀</string>
+    <string name="lang_note_1">Báwo, èmi ni Lucy, èmi ni mo ṣe Alice.</string>
+    <string name="lang_note_2">Mo ń sọ Gẹ̀ẹ́sì, Slovak, Czech àti Russian, nítorí náà mo yẹ àwọn ìtumọ̀ yẹn wò fúnra mi. Àwọn èdè yòókù kò tíì jẹ́ kí ẹni tí ó gbọ́ èdè náà dáadáa yẹ̀ wọ́n wò.</string>
+    <string name="lang_note_3">Tí o bá rí àṣìṣe nínú èdè rẹ, jọ̀ọ́ sọ fún mi kí n lè tún un ṣe. Tí o bá sì ti lo Alice ní èdè rẹ fún ìgbà díẹ̀ tí gbogbo rẹ̀ sì kà dáadáa, sọ fún mi náà, kí n lè fọwọ́ sí i.</string>
+    <string name="lang_note_4">O ṣeun!</string>
+    <string name="lang_not_approved">A KÒ TÍÌ FỌWỌ́ SÍ I</string>
+    <string name="lang_report">Jábọ̀ àṣìṣe</string>
+    <string name="lang_all_correct">Èdè mi tọ̀nà pátápátá</string>
+    <string name="lang_mail_mistake_body">Ohun tí kò kà dáadáa, àti lójú ìbòjú wo:\n\n</string>
+    <string name="lang_mail_correct_body">Mo ti lo Alice ní èdè mi fún ìgbà díẹ̀, gbogbo rẹ̀ sì kà dáadáa.\n\n</string>
+    <string name="lang_no_mail">A kò rí áàpù ímeèlì kankan</string>
+</resources>

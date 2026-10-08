@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose he/him pronouns -->
+<resources>
+    <string name="core_nudge_title">ما زال هناك ما تضع عليه علامة اليوم</string>
+    <string name="core_save_failed">تعذّر الحفظ، حاول مرة أخرى</string>
+    <string name="tabs_changes_one_off_tip">تفعلها مرة واحدة وتنتهي، مثل ترتيب درج أو التحول إلى تعرفة طاقة خضراء أو إصلاح سترة. ضع علامة عليها فتنتقل إلى المنجزة.</string>
+    <string name="tabs_avoid_why">لماذا تتجنّبه</string>
+    <string name="tabs_avoid_instead">خذ هذا بدلًا منه</string>
+    <string name="forms_timing_tip">في أي وقت: شيء تفعله مرة واحدة، مثل الجري. ضع العلامة فور إنجازه.\n\nنهاية اليوم: قاعدة تلتزم بها طوال اليوم، مثل عدم تناول الوجبات الخفيفة. لا يمكنك وضع العلامة إلا في المساء.</string>
+    <string name="forms_set_weekly_day_tip">في هذا اليوم تختار بعد المراجعة اليومية خطوة الأسبوع القادم.</string>
+    <string name="forms_import_replace_text">كل ما على هذا الهاتف سيُستبدل بمحتوى الملف. صدّر بياناتك أولًا إن أردت الاحتفاظ بها.</string>
+    <string name="look_quote_2">شكرًا لأنك حاضر</string>
+    <string name="look_quote_8">أنت تبني حياة تحبها</string>
+    <string name="look_quote_10">واصل الحضور من أجل نفسك</string>
+    <string name="look_quote_14">انظر كم قطعت من الطريق</string>
+    <string name="look_quote_15">افخر بانتصاراتك الصغيرة</string>
+    <string name="look_stamp_2">متفوّق</string>
+    <string name="look_report_pupil">%1$s · الطالب: %2$s</string>
+    <string name="look_receipt_customer">العميل: %1$s</string>
+    <string name="look_boarding_passenger">المسافر</string>
+    <string name="look_boarding_flyer">مسافر دائم، أطول رفاقك صحبة</string>
+    <string name="look_report_ups_downs">فصل فيه صعود وهبوط، وبقيت مستمرًا.</string>
+    <string name="look_report_star">%1$s: أداء متميّز. واصل هكذا!</string>
+    <string name="look_report_keep_up">واصل هكذا!</string>
+    <string name="look_tut1_title">كن نسخة أفضل من نفسك، خطوة بخطوة</string>
+    <string name="look_tut1_body">ابنِ عادات جديدة، واختر خيارات ألطف، وشاهد كل ما تحققه يتراكم.</string>
+    <string name="look_tut1_habits">ابنِ عادات جيدة يومًا بعد يوم وكن من تريد أن تكون.</string>
+    <string name="look_tut1_swaps">استبدل المنتجات بأخرى ألطف، أفضل للكوكب أو للناس أو لصحتك.</string>
+    <string name="look_tut1_avoids">تابع الشركات والأطعمة والمنتجات التي تفضّل ألا تدعمها.</string>
+    <string name="look_tut2_body">انقر على مربع عندما تنجز عادة. عادات المساء تُفتح في وقت مراجعتك.</string>
+    <string name="look_tut4_body">إضافة خطوة جديدة واحدة في كل مرة تتيح لك النمو بهدوء، دون أن تحمّل نفسك الكثير دفعة واحدة.</string>
+    <string name="look_tut5_body">شارك أصدقاءك والمقرّبين منك كم قطعت من الطريق. انقر على الشكل الذي يعجبك:</string>
+    <string name="look_tut6_body">اختر الألوان الأكثر راحة لك. يتغيّر التطبيق كله فورًا.</string>
+    <string name="look_tut7_title">غيّر ما تشاء، متى تشاء</string>
+    <string name="look_tut7_gear">انقر على الترس أعلى العادات لفتح الإعدادات.</string>
+    <string name="lang_note_3">إذا وجدت خطأً في لغتك، أخبرني من فضلك لأصلحه. وإذا كنت تستخدم Alice بلغتك منذ مدة وكل شيء يبدو صحيحًا، فأخبرني بذلك أيضًا لأعتمدها.</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="zero">ستواجه الخيار نفسه مرة أخرى، مثل كوب القهوة أو قالب الشامبو. تضع عليه علامة في العادات لمدة %1$d أيام، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="one">ستواجه الخيار نفسه مرة أخرى، مثل كوب القهوة أو قالب الشامبو. تضع عليه علامة في العادات لمدة %1$d يوم، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="two">ستواجه الخيار نفسه مرة أخرى، مثل كوب القهوة أو قالب الشامبو. تضع عليه علامة في العادات لمدة %1$d يومين، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="few">ستواجه الخيار نفسه مرة أخرى، مثل كوب القهوة أو قالب الشامبو. تضع عليه علامة في العادات لمدة %1$d أيام، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="many">ستواجه الخيار نفسه مرة أخرى، مثل كوب القهوة أو قالب الشامبو. تضع عليه علامة في العادات لمدة %1$d يومًا، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="other">ستواجه الخيار نفسه مرة أخرى، مثل كوب القهوة أو قالب الشامبو. تضع عليه علامة في العادات لمدة %1$d يوم، ثم يُراجَع كل 3 أشهر.</item>
+    </plurals>
+</resources>

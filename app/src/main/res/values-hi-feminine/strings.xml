@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose she/her pronouns -->
+<resources>
+    <string name="forms_set_checkin_hour_tip">इस समय से तुम दिन के आख़िर वाली आदतें टिक कर सकती हो और रोज़ का चेक-इन कर सकती हो।</string>
+    <string name="forms_set_checkup_tip">सब लोग एक ही दिन चेक-अप करते हैं: 1 जनवरी, 1 अप्रैल, 1 जुलाई और 1 अक्टूबर, ताकि तुम सब साथ में अपना सारांश शेयर कर सको। चाहो तो अपनी तारीख़ भी चुन सकती हो।</string>
+    <string name="forms_timing_tip">कभी भी: कुछ ऐसा जो तुम एक बार करती हो, जैसे दौड़ना। हो जाते ही टिक करो।\n\nदिन के आख़िर में: एक नियम जो तुम पूरे दिन निभाती हो, जैसे कोई स्नैक नहीं। इसे सिर्फ़ शाम को टिक कर सकती हो।</string>
+    <string name="look_tut3_small">दोनों को तुम सेटिंग्स में बदल सकती हो।</string>
+    <string name="look_tut4_small">इसे भी तुम सेटिंग्स में बदल सकती हो।</string>
+    <string name="look_tut_change_mind">तुम कभी भी अपना मन बदल सकती हो।</string>
+</resources>

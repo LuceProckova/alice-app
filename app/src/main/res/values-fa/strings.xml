@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">خستگی زیاد</string>
+    <string name="core_reason_craving">هوس</string>
+    <string name="core_reason_no_time">وقت نبود</string>
+    <string name="core_reason_forgot">فراموشی</string>
+    <string name="core_reason_no_alternative">جایگزینی نبود</string>
+    <string name="core_reason_social">جمع دوستانه</string>
+    <string name="core_reason_impulse">وسوسهٔ لحظه</string>
+    <string name="core_reason_too_expensive">خیلی گران</string>
+    <string name="core_reason_away">بیرون از خانه</string>
+
+    <string name="core_nudge_channel">یادآور روزانه</string>
+    <string name="core_nudge_title">هنوز چیزهایی برای تیک زدن امروز مانده</string>
+    <string name="core_save_failed">ذخیره نشد، دوباره امتحان کن</string>
+
+    <string name="core_kind_habit">عادت</string>
+    <string name="core_kind_swap">جایگزینی</string>
+    <string name="core_kind_avoid">پرهیز</string>
+    <string name="core_about">دربارهٔ %1$s</string>
+    <string name="core_ok">باشه</string>
+    <string name="core_less">کمتر</string>
+    <string name="core_more">بیشتر</string>
+    <string name="core_cancel">لغو</string>
+    <string name="core_settings">تنظیمات</string>
+    <string name="core_span_week">هفته</string>
+    <string name="core_span_month">ماه</string>
+    <string name="core_span_year">سال</string>
+    <string name="core_span_all">از ابتدا</string>
+    <string name="core_tab_habits">عادت‌ها</string>
+    <string name="core_tab_changes">تغییرها</string>
+    <string name="core_tab_avoid">پرهیز</string>
+    <string name="core_tab_insights">آمار</string>
+
+    <string name="core_cell_spoken">%1$s، %2$s</string>
+    <string name="core_cell_kept">انجام شد</string>
+    <string name="core_cell_missed">از دست رفت</string>
+    <string name="core_cell_partial">تا حدی انجام شد، تا الان %1$d</string>
+    <string name="core_cell_unfilled">هنوز پر نشده</string>
+    <string name="core_cell_open">باید انجام شود</string>
+    <string name="core_cell_locked">قفل تا وقت بررسی</string>
+    <string name="core_cell_future">هنوز نه</string>
+    <string name="core_cell_empty">کاری لازم نیست</string>
+    <string name="core_cell_band">برای این دوره انجام شد</string>
+    <string name="core_cell_off">روزِ این قدم نیست</string>
+    <string name="core_cell_none">پیش از شروع این قدم</string>
+
+    <string name="core_rhythm_one_off">یک‌باره</string>
+    <string name="core_rhythm_end_of_day">هر روز، تیک در پایان روز</string>
+    <string name="core_rhythm_every_day">هر روز</string>
+    <string name="core_rhythm_every_days">هر %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">در هفته</string>
+    <string name="core_rhythm_a_month">در ماه</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s، هر روزی</string>
+    <string name="core_list_separator">"، "</string>
+    <string name="core_list_last">%1$s و %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d ماه</string>
+    <string name="core_achievement_short_days">%1$d روز</string>
+    <string name="core_glance_step">%1$s، %2$d از %3$d</string>
+
+    <string name="core_slip_never">هرگز</string>
+    <string name="core_slip_once">یک بار</string>
+    <string name="core_slip_a_few">چند بار</string>
+    <string name="core_slip_half">نیمی</string>
+    <string name="core_slip_most">بیشتر وقت‌ها</string>
+    <string name="core_slip_always">همیشه</string>
+
+    <string name="core_ideas_habit_anytime">عادت‌ها، هر زمان</string>
+    <string name="core_ideas_habit_end">عادت‌ها، پایان روز</string>
+    <string name="core_ideas_swap">جایگزینی‌ها</string>
+    <string name="core_ideas_avoid_product">پرهیز، محصولات</string>
+    <string name="core_ideas_avoid_company">پرهیز، شرکت‌ها</string>
+    <string name="core_ideas_avoid_food">پرهیز، خوراکی‌ها</string>
+
+    <string name="core_tag_ethical">اخلاقی</string>
+    <string name="core_tag_health">سلامت</string>
+    <string name="core_tag_clutter">شلوغی</string>
+    <string name="core_tag_ecological">محیط زیست</string>
+    <string name="core_tag_animal_welfare">رفاه حیوانات</string>
+    <string name="core_tag_workers_rights">حقوق کارگران</string>
+    <string name="core_tag_plastic">پلاستیک</string>
+    <string name="core_tag_palm_oil">روغن پالم</string>
+    <string name="core_tag_deforestation">جنگل‌زدایی</string>
+    <string name="core_category_company">شرکت</string>
+    <string name="core_category_food">خوراکی</string>
+    <string name="core_category_product">محصول</string>
+    <string name="core_verdict_avoid">پرهیز کن</string>
+    <string name="core_verdict_edge">مرزی</string>
+    <string name="core_verdict_fine">مشکلی نیست</string>
+
+    <string name="core_theme_off_white_honey">شیری و عسلی</string>
+    <string name="core_theme_vanilla_caramel">وانیل و کارامل</string>
+    <string name="core_theme_sunflower">آفتابگردان</string>
+    <string name="core_theme_latte">لاته</string>
+    <string name="core_theme_cocoa_lemon">کاکائو و لیمو</string>
+    <string name="core_theme_espresso_butter">اسپرسو و کره</string>
+    <string name="core_theme_midnight_honey">نیمه‌شب و عسل</string>
+    <string name="core_theme_forest_night">شب جنگل</string>
+    <string name="core_theme_plum_dusk">غروب آلویی</string>
+    <string name="core_theme_charcoal_coral">زغالی و مرجانی</string>
+
+    <string name="core_pic_sunny_meadow">چمنزار آفتابی</string>
+    <string name="core_pic_sunset_hills">تپه‌ها در غروب</string>
+    <string name="core_pic_starry_night">شب پرستاره</string>
+    <string name="core_pic_beach_day">روزی در ساحل</string>
+    <string name="core_pic_mountain_lake">دریاچهٔ کوهستانی</string>
+    <string name="core_pic_snowy_village">روستای برفی</string>
+    <string name="core_pic_rainy_garden">باغ بارانی</string>
+    <string name="core_pic_autumn_forest">جنگل پاییزی</string>
+    <string name="core_pic_cherry_blossom">شکوفهٔ گیلاس</string>
+    <string name="core_pic_desert_cactus">کاکتوس بیابان</string>
+    <string name="core_pic_lighthouse">فانوس دریایی</string>
+    <string name="core_pic_rainbow_field">دشت و رنگین‌کمان</string>
+    <string name="core_pic_hot_air_balloon">بالن هوای گرم</string>
+    <string name="core_pic_sailboat">قایق بادبانی</string>
+    <string name="core_pic_cabin_in_the_woods">کلبه در جنگل</string>
+    <string name="core_pic_tulip_field">دشت لاله</string>
+    <string name="core_pic_campfire_night">شب کنار آتش</string>
+    <string name="core_pic_misty_mountains">کوه‌های مه‌آلود</string>
+    <string name="core_pic_sunrise_sea">دریا در طلوع</string>
+    <string name="core_pic_snowy_pines">کاج‌های برفی</string>
+    <string name="core_pic_lavender_field">دشت اسطوخودوس</string>
+    <string name="core_pic_waterfall">آبشار</string>
+    <string name="core_pic_city_at_dusk">شهر در غروب</string>
+    <string name="core_pic_picnic">پیک‌نیک</string>
+    <string name="core_pic_moon_over_the_lake">ماه بر فراز دریاچه</string>
+    <string name="core_pic_palm_island">جزیرهٔ نخل</string>
+    <string name="core_pic_windmill">آسیاب بادی</string>
+    <string name="core_pic_bike_path">مسیر دوچرخه</string>
+    <string name="core_pic_greenhouse">گلخانه</string>
+    <string name="core_pic_northern_lights">شفق قطبی</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d قدم منتظر توست.</item>
+        <item quantity="other">%d قدم منتظر توست.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">انجام شد، %d بار</item>
+        <item quantity="other">انجام شد، %d بار</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">روزی %d بار</item>
+        <item quantity="other">روزی %d بار</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d بار</item>
+        <item quantity="other">%d بار</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">هر %d هفته</item>
+        <item quantity="other">هر %d هفته</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">هر %d ماه</item>
+        <item quantity="other">هر %d ماه</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">هر %d روز</item>
+        <item quantity="other">هر %d روز</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d ماه بی‌وقفه</item>
+        <item quantity="other">%d ماه بی‌وقفه</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d ماه پابرجا</item>
+        <item quantity="other">%d ماه پابرجا</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d روز پشت سر هم</item>
+        <item quantity="other">%d روز پشت سر هم</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d ماه</item>
+        <item quantity="other">%d ماه</item>
+    </plurals>
+
+    <string name="tabs_new_step">قدم تازه</string>
+    <string name="tabs_edit">ویرایش</string>
+    <string name="tabs_delete">حذف</string>
+    <string name="tabs_done">تمام</string>
+    <string name="tabs_back">بازگشت</string>
+    <string name="tabs_earlier">قبلی</string>
+    <string name="tabs_later">بعدی</string>
+    <string name="tabs_delete_title">%1$s حذف شود؟</string>
+    <string name="tabs_eod_unlock">عادت‌های پایان روز ساعت %1$02d:00 باز می‌شوند</string>
+    <string name="tabs_check_up">بررسی سه‌ماهه</string>
+    <string name="tabs_one_off">یک‌باره</string>
+
+    <string name="tabs_checkin_from">بررسی از ساعت %1$02d:00</string>
+    <string name="tabs_checkin_daily">بررسی روزانه</string>
+    <string name="tabs_checkin_weekly">بررسی هفتگی</string>
+    <string name="tabs_checkin_quarter">بررسی سه‌ماهه</string>
+    <string name="tabs_checked_in">بررسی شد</string>
+    <string name="tabs_quarter_section">بررسی سه‌ماهه</string>
+    <string name="tabs_previous_week">هفتهٔ قبل</string>
+    <string name="tabs_next_week">هفتهٔ بعد</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d روز %2$s!</item>
+        <item quantity="other">%1$d روز %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">آفرین. از حالا به بررسی‌های سه‌ماههٔ تو می‌رود، دیگر تیک روزانه لازم نیست.</string>
+    <string name="tabs_celebrate_first">اولی %1$s است.</string>
+    <string name="tabs_glance_title">هفتهٔ تو</string>
+    <string name="tabs_glance_ticks_kept">تیک‌های انجام‌شده</string>
+    <string name="tabs_glance_days_checked_in">روزهای بررسی</string>
+    <string name="tabs_glance_top_tag">رایج‌ترین دلیل لغزش:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s، %2$d بار</item>
+        <item quantity="other">%1$s، %2$d بار</item>
+    </plurals>
+    <string name="tabs_glance_easiest">آسان‌ترین:</string>
+    <string name="tabs_glance_hardest">سخت‌ترین:</string>
+
+    <string name="tabs_changes_ongoing">جایگزینی‌های همیشگی</string>
+    <string name="tabs_changes_ongoing_tip_title">جایگزینی همیشگی</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">باز هم با همین انتخاب روبه‌رو می‌شوی، مثل لیوان قهوه یا شامپوی جامد. %1$d روز در عادت‌ها تیک می‌خورد و بعد هر ۳ ماه بررسی می‌شود.</item>
+        <item quantity="other">باز هم با همین انتخاب روبه‌رو می‌شوی، مثل لیوان قهوه یا شامپوی جامد. %1$d روز در عادت‌ها تیک می‌خورد و بعد هر ۳ ماه بررسی می‌شود.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">هنوز جایگزینی نداری</string>
+    <string name="tabs_changes_day_badge">روز %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">جا افتاده</string>
+    <string name="tabs_changes_one_off_todo">یک‌باره، باید انجام شود</string>
+    <string name="tabs_changes_one_off_tip">یک بار انجامش می‌دهی و تمام، مثل خالی کردن یک کشو، رفتن سراغ تعرفهٔ برق سبز یا تعمیر یک کاپشن. تیکش بزن تا به تمام‌شده‌ها برود.</string>
+    <string name="tabs_changes_nothing_waiting">چیزی منتظر نیست</string>
+    <string name="tabs_changes_finished">تمام‌شده · %1$d</string>
+
+    <string name="tabs_avoid_title">فهرست پرهیز</string>
+    <string name="tabs_avoid_search">جستجو…</string>
+    <string name="tabs_avoid_no_match">چیزی پیدا نشد</string>
+    <string name="tabs_avoid_companies">شرکت‌ها</string>
+    <string name="tabs_avoid_food">خوراکی‌ها</string>
+    <string name="tabs_avoid_products">محصولات</string>
+
+    <string name="tabs_avoid_added">اضافه شد</string>
+    <string name="tabs_avoid_why">چرا از آن پرهیز می‌کنی</string>
+    <string name="tabs_avoid_own_words">با کلمات خودت</string>
+    <string name="tabs_avoid_brands">برندهای متعلق به آن · %1$d</string>
+    <string name="tabs_avoid_brand_hint">هر خط یک برند</string>
+    <string name="tabs_avoid_more_brands">+%1$d مورد دیگر</string>
+    <string name="tabs_avoid_instead">به جایش این را بردار</string>
+    <string name="tabs_avoid_instead_hint">هر خط یک مورد</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">لغزش</item>
+        <item quantity="other">لغزش</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">پرهیز شد</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">ماه در فهرست</item>
+        <item quantity="other">ماه در فهرست</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">همراه با سابقه‌اش از فهرست پرهیز تو حذف می‌شود.</string>
+
+    <string name="tabs_habit_delete_text">همهٔ سابقه‌اش هم با آن می‌رود.</string>
+    <string name="tabs_habit_created">ساخته شد</string>
+    <string name="tabs_habit_to_do">باید انجام شود</string>
+    <string name="tabs_habit_daily_ticks">تیک‌های روزانه</string>
+    <string name="tabs_habit_day_of">روز %1$d از %2$d</string>
+    <string name="tabs_habit_finished">تمام شد</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">روز پیاپی</item>
+        <item quantity="other">روز پیاپی</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">بار قطع شد</item>
+        <item quantity="other">بار قطع شد</item>
+    </plurals>
+    <string name="tabs_habit_success">موفقیت</string>
+    <string name="tabs_habit_current_streak">زنجیرهٔ فعلی</string>
+    <string name="tabs_habit_longest_streak">طولانی‌ترین زنجیره</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d روز</item>
+        <item quantity="other">%1$d روز</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">چرا لغزش پیش آمد</string>
+    <string name="tabs_habit_remove_reason">حذف این دلیل</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">راه برای بهتر کردن زندگی‌ات</item>
+        <item quantity="other">راه برای بهتر کردن زندگی‌ات</item>
+    </plurals>
+    <string name="tabs_insights_habits">عادت‌ها</string>
+    <string name="tabs_insights_swaps">جایگزینی‌ها</string>
+    <string name="tabs_insights_avoids">پرهیزها</string>
+    <string name="tabs_insights_on_track_section">در مسیر</string>
+    <string name="tabs_insights_avg_days">%1$d روز</string>
+    <string name="tabs_insights_average_kept">میانگین انجام</string>
+    <string name="tabs_insights_days_checked_in">روز بررسی</string>
+    <string name="tabs_insights_on_track">در مسیر</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">لغزش</item>
+        <item quantity="other">لغزش</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">قدم تازه</item>
+        <item quantity="other">قدم تازه</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">کار یک‌باره انجام شد</item>
+        <item quantity="other">کار یک‌باره انجام شد</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">بزرگ‌ترین دلیل‌های لغزش</string>
+    <string name="tabs_insights_added_quarter">اضافه‌شده در این فصل</string>
+    <string name="tabs_insights_past_summaries">خلاصه‌های سه‌ماههٔ گذشته</string>
+    <string name="tabs_insights_first_on">اولین خلاصه‌ات %1$s می‌رسد</string>
+    <string name="tabs_insights_all_time">از ابتدا</string>
+    <string name="tabs_insights_period">%1$s تا %2$s %3$d</string>
+
+    <string name="forms_back">بازگشت</string>
+    <string name="forms_back_habits">عادت‌ها</string>
+    <string name="forms_back_settings">تنظیمات</string>
+    <string name="forms_add">افزودن</string>
+    <string name="forms_save">ذخیره</string>
+    <string name="forms_finish">پایان</string>
+    <string name="forms_delete">حذف</string>
+    <string name="forms_why">چرا</string>
+    <string name="forms_never_show">دیگر نشان نده</string>
+    <string name="forms_every">هر</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">روز</item>
+        <item quantity="other">روز</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">مرحلهٔ %1$d از %2$d</string>
+    <string name="forms_checkin_next_weekly">بعدی، بررسی هفتگی ›</string>
+    <string name="forms_checkin_next_quarter">بعدی، بررسی سه‌ماهه ›</string>
+    <string name="forms_daily_title">بررسی روزانه</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d روز قبلی پر نشده</item>
+        <item quantity="other">%1$d روز قبلی پر نشده</item>
+    </plurals>
+    <string name="forms_daily_skip_all">رد کردن همه</string>
+    <string name="forms_daily_today">امروز · %1$s</string>
+    <string name="forms_daily_skip">رد کردن</string>
+    <string name="forms_daily_undo_skip">برگرداندن</string>
+    <string name="forms_daily_new_tag">برچسب تازه</string>
+    <string name="forms_daily_new_tag_hint">سطل زباله پر بود</string>
+    <string name="forms_weekly_title">بررسی هفتگی</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d هفته عقب مانده، یک قدم تازه همه را پوشش می‌دهد.</item>
+        <item quantity="other">%1$d هفته عقب مانده، یک قدم تازه همه را پوشش می‌دهد.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">این هفته قدم تازه‌ای نه</string>
+    <string name="forms_quarter_title">بررسی سه‌ماهه</string>
+    <string name="forms_quarter_nothing">هنوز چیزی برای بررسی نساخته‌ای. بعدی خلاصهٔ توست.</string>
+    <string name="forms_quarter_habits">عادت‌ها</string>
+    <string name="forms_quarter_swaps">جایگزینی‌ها</string>
+    <string name="forms_quarter_avoid">پرهیز</string>
+    <string name="forms_quarter_missed">از دست رفته</string>
+    <string name="forms_quarter_missed_level">از دست رفته: %1$s</string>
+
+    <string name="forms_new_title">قدم تازه</string>
+    <string name="forms_edit_title">ویرایش: %1$s</string>
+    <string name="forms_add_kind">افزودن: %1$s</string>
+    <string name="forms_title_habit">عادت</string>
+    <string name="forms_title_swap">جایگزینی</string>
+    <string name="forms_title_avoid">پرهیز</string>
+    <string name="forms_save_changes">ذخیرهٔ تغییرات</string>
+    <string name="forms_what_kind">چه نوعی؟</string>
+    <string name="forms_name">نام</string>
+    <string name="forms_your_new_step">قدم تازهٔ تو</string>
+    <string name="forms_hint_habit">۱۰ صفحه بخوان</string>
+    <string name="forms_hint_swap">لیف به جای اسفنج</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">چه نوع عادتی؟</string>
+    <string name="forms_timing_tip_title">هر زمان یا پایان روز</string>
+    <string name="forms_timing_tip">هر زمان: کاری که یک بار انجامش می‌دهی، مثل دویدن. همین که انجام شد تیکش بزن.\n\nپایان روز: قانونی که تمام روز رعایتش می‌کنی، مثل تنقلات نخوردن. فقط عصر می‌توانی تیکش بزنی.</string>
+    <string name="forms_anytime">هر زمان</string>
+    <string name="forms_end_of_day">پایان روز</string>
+    <string name="forms_what_is_it">چیست؟</string>
+    <string name="forms_how_often">هر چند وقت؟</string>
+    <string name="forms_often_specific">روزهای مشخص</string>
+    <string name="forms_often_whenever">هر وقت شد</string>
+    <string name="forms_often_once">فقط یک بار</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">بار در هر</item>
+        <item quantity="other">بار در هر</item>
+    </plurals>
+    <string name="forms_unit_day">روز</string>
+    <string name="forms_unit_week">هفته</string>
+    <string name="forms_unit_month">ماه</string>
+    <string name="forms_unit_x_days">X روز</string>
+    <string name="forms_ideas">ایده‌ها</string>
+    <string name="forms_ideas_others">بقیه</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">دیدن همهٔ %1$d ایده ›</item>
+        <item quantity="other">دیدن همهٔ %1$d ایده ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">همهٔ ایده‌های قدم</string>
+    <string name="forms_search">جستجو…</string>
+    <string name="forms_all">همه</string>
+
+    <string name="forms_settings_title">تنظیمات</string>
+    <string name="forms_set_colours">رنگ‌ها</string>
+    <string name="forms_set_style">سبک خلاصهٔ سه‌ماهه</string>
+    <string name="forms_set_checkins">بررسی‌ها</string>
+    <string name="forms_set_checkin_hour">بررسی روزانه باز می‌شود ساعت</string>
+    <string name="forms_set_checkin_hour_tip">از این ساعت می‌توانی عادت‌های پایان روز را تیک بزنی و بررسی روزانه را انجام دهی.</string>
+    <string name="forms_set_week_start">شروع هفته</string>
+    <string name="forms_set_week_start_tip">جدول عادت‌ها، هفته‌ها و نمودارها از چه روزی شروع شوند.</string>
+    <string name="forms_monday">دوشنبه</string>
+    <string name="forms_sunday">یکشنبه</string>
+    <string name="forms_set_new_step_every">قدم تازه هر</string>
+    <string name="forms_set_new_step_every_tip">چند هفته بین بررسی‌های هفتگی.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">هفته</item>
+        <item quantity="other">هفته</item>
+    </plurals>
+    <string name="forms_set_weekly_day">روز بررسی هفتگی</string>
+    <string name="forms_set_weekly_day_tip">در این روز بعد از بررسی روزانه، قدم تازهٔ هفتهٔ بعد را انتخاب می‌کنی.</string>
+    <string name="forms_set_checkup">بررسی سه‌ماهه</string>
+    <string name="forms_set_checkup_tip">همه در روزهای یکسان بررسی می‌کنند: ۱ ژانویه، ۱ آوریل، ۱ ژوئیه و ۱ اکتبر، تا بتوانید خلاصه‌هایتان را با هم به اشتراک بگذارید. می‌توانی تاریخ خودت را هم انتخاب کنی.</string>
+    <string name="forms_set_same">مثل همه</string>
+    <string name="forms_set_own">تاریخ خودم</string>
+    <string name="forms_set_starting">شروع از</string>
+    <string name="forms_set_starting_tip">ماه اولین بررسی شخصی تو.</string>
+    <string name="forms_earlier">قبلی</string>
+    <string name="forms_later">بعدی</string>
+    <string name="forms_set_every_tip">ماه‌های بین بررسی‌ها.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">ماه</item>
+        <item quantity="other">ماه</item>
+    </plurals>
+    <string name="forms_set_day_of_month">روز ماه</string>
+    <string name="forms_set_day_of_month_tip">کدام روزِ آن ماه.</string>
+    <string name="forms_set_everyone">همه: ۱ ژانویه · ۱ آوریل · ۱ ژوئیه · ۱ اکتبر</string>
+    <string name="forms_set_days_build">روزهای ساختن عادت</string>
+    <string name="forms_set_days_build_tip">پژوهش‌ها ۱۸ تا ۲۵۴ روز را نشان داده‌اند و رایج‌ترین عدد ۶۶ است (Lally et al. 2010، Singh et al. 2024). بعد از این تعداد روز، قدم تازه به بررسی‌هایت می‌رود.</string>
+    <string name="forms_set_nudge">یادآور روزانه</string>
+    <string name="forms_set_nudge_tip">یک یادآوری در این ساعت، فقط اگر چیزی هنوز تیک نخورده باشد.</string>
+    <string name="forms_set_more">بیشتر</string>
+    <string name="forms_set_reasons">دلیل‌های لغزش</string>
+    <string name="forms_set_tutorial">دیدن دوبارهٔ راهنما</string>
+    <string name="forms_set_export">خروجی گرفتن از داده‌هایم</string>
+    <string name="forms_set_import">وارد کردن داده</string>
+
+    <string name="forms_reasons_title">دلیل‌های لغزش</string>
+    <string name="forms_reasons_hint">دلیل خودت را اضافه کن</string>
+    <string name="forms_reasons_used">%1$d× استفاده شده</string>
+    <string name="forms_reasons_delete_title">%1$s حذف شود؟</string>
+    <string name="forms_reasons_delete_text">لغزش‌ها در سابقه‌ات می‌مانند، فقط بدون این برچسب.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d عادت</item>
+        <item quantity="other">%1$d عادت</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d جایگزینی</item>
+        <item quantity="other">%1$d جایگزینی</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d پرهیز</item>
+        <item quantity="other">%1$d پرهیز</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s، %2$s، %3$s</string>
+    <string name="forms_backup_since">%1$s، تیک‌ها از %2$s</string>
+    <string name="forms_export_title">خروجی گرفتن از داده‌هایم</string>
+    <string name="forms_export_what">چه چیزهایی در فایل است</string>
+    <string name="forms_export_ticks">هر تیک، لغزش و دلیل</string>
+    <string name="forms_export_ticks_since">هر تیک، لغزش و دلیل از %1$s</string>
+    <string name="forms_export_summaries">خلاصه‌های سه‌ماهه‌ات</string>
+    <string name="forms_export_settings">تنظیمات، رنگ‌ها و نامت</string>
+    <string name="forms_export_file">فایل</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">ذخیرهٔ فایل</string>
+    <string name="forms_export_send">فرستادن به…</string>
+    <string name="forms_export_send_title">داده‌های Alice خودت را بفرست</string>
+    <string name="forms_export_saved">ذخیره شد: %1$s</string>
+    <string name="forms_export_save_failed">فایل ذخیره نشد</string>
+
+    <string name="forms_import_title">وارد کردن داده</string>
+    <string name="forms_import_choose">یک نسخهٔ پشتیبان Alice انتخاب کن</string>
+    <string name="forms_import_choose_sub">.json، از خروجی گوشی دیگر</string>
+    <string name="forms_import_cant_open">این فایل باز نشد.</string>
+    <string name="forms_import_not_backup">این فایل نسخهٔ پشتیبان Alice نیست.</string>
+    <string name="forms_import_replace_mode">جایگزین کردن آنچه هست</string>
+    <string name="forms_import_add_mode">افزودن به آنچه هست</string>
+    <string name="forms_import_button">وارد کردن</string>
+    <string name="forms_import_replace_title">داده‌هایت جایگزین شوند؟</string>
+    <string name="forms_import_add_title">این داده‌ها اضافه شوند؟</string>
+    <string name="forms_import_replace_text">همه چیزِ این گوشی با فایل عوض می‌شود. اگر می‌خواهی نگهش داری، اول خروجی بگیر.</string>
+    <string name="forms_import_add_text">عادت‌ها و سابقهٔ فایل به داده‌های تو اضافه می‌شوند.</string>
+    <string name="forms_import_done">داده‌ها وارد شدند</string>
+
+    <string name="look_share">اشتراک‌گذاری</string>
+    <string name="look_save_image">ذخیرهٔ تصویر</string>
+    <string name="look_next_week">بعدی، هفتهٔ تو ›</string>
+    <string name="look_keep_going">ادامه بده</string>
+    <string name="look_storage_needed">Alice برای ذخیرهٔ تصویر به دسترسی حافظه نیاز دارد</string>
+    <string name="look_share_caption">فصل من با Alice. تو هم شروع کن: %1$s</string>
+    <string name="look_share_clip">خلاصهٔ Alice</string>
+    <string name="look_share_chooser">فصلت را به اشتراک بگذار</string>
+    <string name="look_saved">در Pictures/Alice ذخیره شد</string>
+    <string name="look_save_failed">تصویر ذخیره نشد</string>
+
+    <string name="look_style_poster">پوستر</string>
+    <string name="look_style_wrapped">جمع‌بندی</string>
+    <string name="look_style_trophy">ویترین جام‌ها</string>
+    <string name="look_style_receipt">رسید</string>
+    <string name="look_style_report">کارنامه</string>
+    <string name="look_style_boarding">کارت پرواز</string>
+    <string name="look_style_polaroid">پولاروید</string>
+    <string name="look_style_calendar">تقویم</string>
+    <string name="look_style_trading">کارت کلکسیونی</string>
+
+    <string name="look_quote_1">قدم‌های کوچک، هر روز</string>
+    <string name="look_quote_2">ممنون که آمدی</string>
+    <string name="look_quote_3">پیشرفت، نه بی‌نقصی</string>
+    <string name="look_quote_4">ادامه دادی. همین مهم است</string>
+    <string name="look_quote_5">تغییرهای کوچک، تفاوت بزرگ</string>
+    <string name="look_quote_6">هر روز بهتر را انتخاب کردی</string>
+    <string name="look_quote_7">آهسته هم رو به جلوست</string>
+    <string name="look_quote_8">داری زندگی دلخواهت را می‌سازی</string>
+    <string name="look_quote_9">قدم به قدم جمع می‌شود</string>
+    <string name="look_quote_10">برای خودت حاضر بمان</string>
+    <string name="look_quote_11">خودِ آینده‌ات ممنون است</string>
+    <string name="look_quote_12">کم‌کم، خیلی زیاد</string>
+    <string name="look_quote_13">پیوستگی جادویی آرام است</string>
+    <string name="look_quote_14">ببین چقدر راه آمده‌ای</string>
+    <string name="look_quote_15">به پیروزی‌های کوچکت افتخار کن</string>
+    <string name="look_quote_16">روزهای خوب ساخته می‌شوند، نه پیدا</string>
+
+    <string name="look_stamp_1">عالی</string>
+    <string name="look_stamp_2">فوق‌العاده</string>
+    <string name="look_stamp_3">آفرین</string>
+    <string name="look_stamp_4">درخشان</string>
+    <string name="look_stamp_5">بی‌نظیر</string>
+    <string name="look_stamp_6">نمرهٔ کامل</string>
+    <string name="look_stamp_7">ستارهٔ طلایی</string>
+    <string name="look_stamp_8">کارت عالی بود</string>
+
+    <string name="look_period">%1$s تا %2$s</string>
+    <string name="look_scan">اسکن کن و\nسفر خودت را\nشروع کن</string>
+    <string name="look_you">تو</string>
+    <string name="look_on_track">در مسیر</string>
+    <string name="look_new_steps">قدم تازه</string>
+    <string name="look_days_in">روز تا الان</string>
+    <string name="look_new">تازه</string>
+    <string name="look_week_by_week">هفته به هفته</string>
+    <string name="look_coming_soon">به زودی</string>
+    <string name="look_new_this_quarter">تازه در این فصل</string>
+    <string name="look_kept_up_longest">پایدارترین‌ها</string>
+    <string name="look_habits">عادت‌ها</string>
+    <string name="look_swaps">جایگزینی‌ها</string>
+    <string name="look_avoids">پرهیزها</string>
+    <string name="look_ways_improved">راه‌های بهتر شدن</string>
+    <string name="look_improved_in">زندگی‌ات را بهتر کردی، به %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d عادت</item>
+        <item quantity="other">%1$d عادت</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d جایگزینی</item>
+        <item quantity="other">%1$d جایگزینی</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d پرهیز</item>
+        <item quantity="other">%1$d پرهیز</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d لغزش</item>
+        <item quantity="other">%1$d لغزش</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d راه</item>
+        <item quantity="other">%1$d راه</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">عادت</item>
+        <item quantity="other">عادت</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">جایگزینی</item>
+        <item quantity="other">جایگزینی</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">پرهیز</item>
+        <item quantity="other">پرهیز</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">لغزش</item>
+        <item quantity="other">لغزش</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">راه</item>
+        <item quantity="other">راه</item>
+    </plurals>
+
+    <string name="look_poster_improved">زندگی‌ات را به %1$s بهتر کردی</string>
+    <string name="look_poster_on_track">در مسیر</string>
+    <string name="look_poster_days">روز</string>
+    <string name="look_poster_achievements">دستاوردها</string>
+    <string name="look_poster_first_ones">اولین دستاوردهایت در راه‌اند</string>
+    <string name="look_poster_added">آنچه در این فصل اضافه کردی</string>
+
+    <string name="look_wrapped_stars">ستاره‌هایت</string>
+
+    <string name="look_trophy_ways">راه برای بهتر کردن\nزندگی‌ات</string>
+    <string name="look_trophy_next_quarter">فصل بعد</string>
+    <string name="look_trophy_first_medal">اولین مدالت</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">تازه روی قفسه:</string>
+
+    <string name="look_receipt_title">بررسی سه‌ماهه · %1$s</string>
+    <string name="look_receipt_customer">مشتری: %1$s</string>
+    <string name="look_receipt_habits">عادت‌های ساخته‌شده</string>
+    <string name="look_receipt_swaps">چیزهای جایگزین‌شده</string>
+    <string name="look_receipt_avoids">چیزهایی که از آن‌ها پرهیز شد</string>
+    <string name="look_receipt_ways">راه‌های بهتر کردن زندگی‌ات</string>
+    <string name="look_receipt_on_track">در مسیر در این فصل</string>
+    <string name="look_receipt_slips">لغزش‌ها</string>
+    <string name="look_receipt_new_steps">قدم‌های تازهٔ ساخته‌شده</string>
+    <string name="look_receipt_new">تازه در این فصل: %1$s</string>
+
+    <string name="look_report_title">کارنامهٔ قدم‌های کوچک</string>
+    <string name="look_report_pupil">%1$s · شاگرد: %2$s</string>
+    <string name="look_report_subject">درس</string>
+    <string name="look_report_built">ساخته شده</string>
+    <string name="look_report_grade">نمره</string>
+    <string name="look_report_attendance">حضور %1$s</string>
+    <string name="look_report_on_track">در مسیر %1$s</string>
+    <string name="look_report_slips">لغزش‌ها %1$s</string>
+    <string name="look_report_achievements">دستاوردها</string>
+    <string name="look_report_achievement">★ %1$s، %2$s</string>
+    <string name="look_report_new">درس‌های تازهٔ این ترم (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">نظر معلم:</string>
+    <string name="look_report_calm">ترمی آرام و پیوسته.</string>
+    <string name="look_report_ups_downs">ترمی پر از فراز و فرود، و تو کنار نکشیدی.</string>
+    <string name="look_report_star">%1$s فوق‌العاده بود. همین‌طور ادامه بده!</string>
+    <string name="look_report_keep_up">همین‌طور ادامه بده!</string>
+    <string name="look_report_week">هفته به هفته</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">پرواز Q%1$d</string>
+    <string name="look_boarding_from">مبدأ</string>
+    <string name="look_boarding_old">عادت‌های</string>
+    <string name="look_boarding_habits">قدیمی</string>
+    <string name="look_boarding_to">مقصد</string>
+    <string name="look_boarding_new">نسخهٔ</string>
+    <string name="look_boarding_better_you">بهتر تو</string>
+    <string name="look_boarding_passenger">مسافر</string>
+    <string name="look_boarding_dates">تاریخ‌ها</string>
+    <string name="look_boarding_miles">مایل پیموده‌شده</string>
+    <string name="look_boarding_on_time">به موقع</string>
+    <string name="look_boarding_turbulence">تلاطم</string>
+    <string name="look_boarding_days">روزهای پرواز</string>
+    <string name="look_boarding_flyer">مسافر همیشگی، قدیمی‌ترین همسفرانت</string>
+    <string name="look_boarding_log">دفترچهٔ پرواز، هفته به هفته</string>
+    <string name="look_boarding_stops">ایستگاه‌های تازه، +%1$d</string>
+    <string name="look_boarding_note">یادداشت کاپیتان</string>
+
+    <string name="look_polaroid_life">زندگی تو</string>
+    <string name="look_polaroid_quarter">این فصل</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d روز</string>
+    <string name="look_polaroid_longest">پایدارترین‌ها</string>
+    <string name="look_polaroid_new">تازه، +%1$d</string>
+
+    <string name="look_calendar_added">اضافه شد</string>
+
+    <string name="look_trading_common">معمولی</string>
+    <string name="look_trading_uncommon">کمیاب</string>
+    <string name="look_trading_rare">نادر</string>
+    <string name="look_trading_legendary">افسانه‌ای</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">راه</item>
+        <item quantity="other">راه</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$dمین</string>
+    <string name="look_ordinal_nd">%1$dمین</string>
+    <string name="look_ordinal_rd">%1$dمین</string>
+    <string name="look_ordinal_th">%1$dمین</string>
+    <string name="look_trading_number">شمارهٔ %1$03d · %2$s فصل تو</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d روز</string>
+    <string name="look_trading_power">قدرت، هفته به هفته</string>
+    <string name="look_trading_edition">%1$s · نسخهٔ Q%2$d</string>
+
+    <string name="look_sample_water_first">اول آب</string>
+    <string name="look_sample_own_bag">کیسهٔ خودم</string>
+    <string name="look_sample_read_pages">۱۰ صفحه بخوان</string>
+    <string name="look_sample_reading">هر روز کتاب خواندن</string>
+    <string name="look_sample_late_snacks">بی‌تنقلات آخر شب</string>
+    <string name="look_sample_stretching">کشش بدن</string>
+    <string name="look_sample_cooler_home">خانهٔ خنک‌تر</string>
+    <string name="look_sample_loofah">لیف به جای اسفنج</string>
+    <string name="look_sample_palm_oil">بدون روغن پالم</string>
+    <string name="look_sample_stretch">۱۰ دقیقه کشش</string>
+
+    <string name="look_colours_title">رنگ‌ها</string>
+    <string name="look_colours_preview">پیش‌نمایش</string>
+    <string name="look_colours_your_summary">خلاصهٔ سه‌ماهه‌ات</string>
+    <string name="look_colours_light">روشن</string>
+    <string name="look_colours_dark">تیره</string>
+    <string name="look_styles_title">سبک خلاصهٔ سه‌ماهه</string>
+    <string name="look_styles_all_pictures">دیدن هر ۳۰ تصویر پولاروید</string>
+    <string name="look_styles_refresh">تازه کردن</string>
+    <string name="look_pictures_title">تصویرهای پولاروید</string>
+    <string name="look_pictures_back">سبک‌های خلاصه</string>
+
+    <string name="look_welcome_name">نام تو</string>
+    <string name="look_welcome_start">شروع</string>
+    <string name="look_welcome_import">وارد کردن داده‌هایم</string>
+
+    <string name="look_tut_skip">رد شدن</string>
+    <string name="look_tut_page">%1$d از %2$d</string>
+    <string name="look_tut_back">بازگشت</string>
+    <string name="look_tut_start">شروع</string>
+    <string name="look_tut_next">بعدی</string>
+    <string name="look_tut1_title">قدم به قدم، نسخهٔ بهتری از خودت شو</string>
+    <string name="look_tut1_body">عادت‌های تازه بساز، انتخاب‌های مهربان‌تری داشته باش و ببین همهٔ دستاوردهایت چطور جمع می‌شوند.</string>
+    <string name="look_tut1_habits">روز به روز عادت‌های خوب بساز و همان کسی شو که می‌خواهی.</string>
+    <string name="look_tut1_swaps">محصولات را با گزینه‌های مهربان‌تر عوض کن، بهتر برای زمین، آدم‌ها یا سلامتت.</string>
+    <string name="look_tut1_avoids">شرکت‌ها، خوراکی‌ها و محصولاتی را که ترجیح می‌دهی حمایتشان نکنی دنبال کن.</string>
+    <string name="look_tut2_title">تیکش بزن</string>
+    <string name="look_tut2_body">وقتی عادتی را انجام دادی، روی یک مربع بزن. عادت‌های عصر در ساعت بررسی تو باز می‌شوند.</string>
+    <string name="look_tut3_title">%1$s، بعد هر %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d روز</item>
+        <item quantity="other">%1$d روز</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d ماه</item>
+        <item quantity="other">%1$d ماه</item>
+    </plurals>
+    <string name="look_tut3_body">پژوهش‌ها نشان داده‌اند که ساختن یک عادت از ۱۸ تا ۲۵۴ روز طول می‌کشد. رایج‌ترین عدد ۶۶ روز است، برای همین Alice از آنجا شروع می‌کند.</string>
+    <string name="look_tut3_days_label">روزهای ساختن عادت</string>
+    <string name="look_tut3_checkup">بررسی هر</string>
+    <string name="look_tut3_small">هر دو را می‌توانی در تنظیمات عوض کنی.</string>
+    <string name="look_tut4_title">هفته‌ای یک بار، یک قدم تازه</string>
+    <string name="look_tut4_body">هر بار فقط یک قدم تازه اضافه کردن کمک می‌کند آرام رشد کنی، بدون این‌که یک‌دفعه بار زیادی بر دوش بگیری.</string>
+    <string name="look_tut4_day">روز بررسی</string>
+    <string name="look_tut4_small">این را هم می‌توانی در تنظیمات عوض کنی.</string>
+    <string name="look_tut5_title">هر فصل، خلاصهٔ تو</string>
+    <string name="look_tut5_body">با دوستانت و آدم‌های نزدیکت به اشتراک بگذار که چقدر راه آمده‌ای. روی ظاهری که دوست داری بزن:</string>
+    <string name="look_tut_change_mind">همیشه می‌توانی نظرت را عوض کنی.</string>
+    <string name="look_tut6_title">مال خودت کن</string>
+    <string name="look_tut6_body">رنگ‌هایی را انتخاب کن که بیشتر به دلت می‌نشینند. کل برنامه فوراً عوض می‌شود.</string>
+    <string name="look_tut7_title">هر چیزی را، هر وقت، عوض کن</string>
+    <string name="look_tut7_body">ساعت‌های بررسی، روزهای ساختن عادت، سبک خلاصه، رنگ‌ها و داده‌هایت، همه در تنظیمات است.</string>
+    <string name="look_tut7_gear">برای باز کردن تنظیمات روی چرخ‌دندهٔ بالای عادت‌ها بزن.</string>
+    <string name="look_tut7_open">باز کردن تنظیمات</string>
+
+    <string name="lang_title">زبان</string>
+    <string name="pron_title">ضمیرها</string>
+    <string name="pron_she">زن</string>
+    <string name="pron_he">مرد</string>
+    <string name="pron_they">خنثی</string>
+    <string name="lang_spotted">اشتباهی در زبانت دیدی؟</string>
+    <string name="lang_search">زبانت را جستجو کن</string>
+    <string name="lang_phone">زبان گوشی</string>
+    <string name="lang_follow">مثل گوشی‌ات</string>
+    <string name="lang_note_title">کمک به ترجمه‌ها</string>
+    <string name="lang_note_1">سلام، من Lucy هستم و Alice را ساخته‌ام.</string>
+    <string name="lang_note_2">من انگلیسی، اسلواکی، چکی و روسی صحبت می‌کنم، برای همین آن ترجمه‌ها را خودم بررسی کردم. زبان‌های دیگر هنوز توسط یک گویشور بومی بررسی نشده‌اند.</string>
+    <string name="lang_note_3">اگر اشتباهی در زبانت دیدی، لطفاً به من خبر بده تا درستش کنم. و اگر مدتی است Alice را به زبان خودت استفاده می‌کنی و همه چیز درست است، این را هم بگو تا آن را تأییدشده علامت بزنم.</string>
+    <string name="lang_note_4">ممنون!</string>
+    <string name="lang_not_approved">هنوز تأیید نشده</string>
+    <string name="lang_report">گزارش اشتباه</string>
+    <string name="lang_all_correct">زبانم کاملاً درست است</string>
+    <string name="lang_mail_mistake_body">چه چیزی اشتباه است و در کدام صفحه:\n\n</string>
+    <string name="lang_mail_correct_body">مدتی است Alice را به زبان خودم استفاده می‌کنم و همه چیز درست است.\n\n</string>
+    <string name="lang_no_mail">برنامهٔ ایمیلی پیدا نشد</string>
+</resources>

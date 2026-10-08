@@ -1,0 +1,300 @@
+HABIT_ANYTIME	Juo lasi vettä ennen kahvia	Heräät hieman kuivuneena, ja vesi ensin auttaa keskittymistä ja ruoansulatusta.
+HABIT_ANYTIME	Kävele 10 minuuttia lounaan jälkeen	Lyhyt kävely ruoan jälkeen tasaa verensokeria ja piristää iltapäivän notkahdusta.
+HABIT_ANYTIME	Venyttele aamulla 5 minuuttia	Avaa unen jäykistämiä lihaksia ja pienentää selkä- ja niskakipujen riskiä.
+HABIT_ANYTIME	Syö yksi hedelmä	Kuitua, vitamiineja ja vettä yhdessä helpossa välipalassa, ja useimmat syövät niitä liian vähän.
+HABIT_ANYTIME	Syö annos kasviksia lounaalla	Kun kasvikset tulevat jo keskipäivällä, niitä ei tarvitse kirittää illallisella.
+HABIT_ANYTIME	Avaa ikkuna 10 minuutiksi	Sisäilmassa on enemmän hiilidioksidia ja epäpuhtauksia, lyhyt tuuletus vaihtaa sen nopeasti.
+HABIT_ANYTIME	Petaa sänkysi	Kahden minuutin onnistuminen, joka aloittaa päivän siististi ja rauhoittaa huonetta.
+HABIT_ANYTIME	Käy lyhyellä kävelyllä ulkona	Päivänvalo ja liike yhdessä kohentavat mielialaa ja auttavat nukahtamaan illalla.
+HABIT_ANYTIME	Tee 10 kyykkyä	Pitää jalat ja lonkat vahvoina, mikä merkitsee iän myötä yhä enemmän.
+HABIT_ANYTIME	Tee 10 punnerrusta	Vahvistaa ylävartaloa ilman välineitä ja ilman salia.
+HABIT_ANYTIME	Pidä 5 minuutin ruututauko	Silmät ja aivot saavat nollauksen, ja palaat terävämpänä.
+HABIT_ANYTIME	Syö aamiainen istualtaan	Kun syöt rauhassa ja tietoisesti, huomaat helpommin, milloin olet kylläinen.
+HABIT_ANYTIME	Ota eväät mukaan kotoa	Halvempaa, yleensä terveellisempää eikä noutoruoan pakkauksia.
+HABIT_ANYTIME	Kanna kangaskassia mukanasi	Ei uutta muovipussia kassalla, ja kassi mahtuu mihin taskuun tahansa.
+HABIT_ANYTIME	Täytä vesipullosi ostamisen sijaan	Hanavesi maksaa lähes nolla eikä tarvitse pulloa eikä rekkaa.
+HABIT_ANYTIME	Pyöräile yksi lyhyt matka	Lyhyet automatkat kuluttavat eniten polttoainetta kilometriä kohden, pyörä ei yhtään.
+HABIT_ANYTIME	Kävele yksi lyhyt matka autoilun sijaan	Alle kahden kilometrin matkalla kävely on usein lähes yhtä nopeaa ja ilmaista.
+HABIT_ANYTIME	Käytä kerran julkista liikennettä	Yksi täysi bussi korvaa kymmeniä autoja tiellä.
+HABIT_ANYTIME	Käy alle 5 minuutin suihkussa	Lämmin vesi on yksi kodin suurimmista energiasyöpöistä.
+HABIT_ANYTIME	Huuhtele ja lajittele kierrätettävät	Likainen kierrätysjäte hylätään usein ja päätyy kaatopaikalle.
+HABIT_ANYTIME	Litistä pahvit kierrätykseen	Astiaan mahtuu enemmän, ja jäteauto voi oikeasti viedä ne.
+HABIT_ANYTIME	Tarkista jääkaappi ennen kauppaan lähtöä	Et osta sitä, mitä sinulla jo on, etkä heitä sitä myöhemmin pois.
+HABIT_ANYTIME	Kirjoita ostoslista ennen lähtöä	Listan kanssa kauppaan menevät kuluttavat vähemmän ja heittävät vähemmän ruokaa pois.
+HABIT_ANYTIME	Syö tähteet ennen kuin teet uutta	Tähteet ovat ruokaa, joka heitetään useimmin pois.
+HABIT_ANYTIME	Pakasta ruoka, joka on menossa vanhaksi	Pakastaminen pysäyttää kellon, joten ruoka syödään eikä heitetä roskiin.
+HABIT_ANYTIME	Tee yksi ateria alusta asti itse	Päätät itse suolasta, sokerista ja rasvasta ja vältät pakkaukset.
+HABIT_ANYTIME	Syö lihaton lounas	Kasvisaterioiden ilmastovaikutus on yleensä vain murto-osa lihan vaikutuksesta.
+HABIT_ANYTIME	Syö kasvipohjainen aamiainen	Helppo ensimmäinen askel, useimmat aamiaiset ovat jo puolivälissä.
+HABIT_ANYTIME	Ota oma muki mukaan kahvia varten	Useimmat paperimukit on vuorattu muovilla ja niitä on vaikea kierrättää.
+HABIT_ANYTIME	Käytä kangaslautasliinaa	Pestävä, mukavampi käyttää eikä paperia roskiin.
+HABIT_ANYTIME	Kuivaa pyykit narulla kuivausrummun sijaan	Kuivausrumpu vie paljon sähköä ja kuluttaa vaatteita nopeammin.
+HABIT_ANYTIME	Käynnistä astianpesukone vain täytenä	Puolityhjä kone kuluttaa melkein yhtä paljon vettä ja energiaa.
+HABIT_ANYTIME	Pese vaatteet 30 asteessa	Suurin osa pesun energiasta menee veden lämmittämiseen, ja 30 astetta pesee hyvin.
+HABIT_ANYTIME	Keitä vedenkeittimessä vain tarvittava määrä	Ylimääräinen keitetty vesi on energiaa suoraan viemäriin.
+HABIT_ANYTIME	Pidä kansi kattilan päällä ruokaa laittaessa	Ruoka lämpenee kannen kanssa nopeammin ja vie vähemmän energiaa.
+HABIT_ANYTIME	Lämmitä pienet annokset mikrossa uunin sijaan	Pienen kulhon lämmittäminen voittaa koko uunin lämmittämisen.
+HABIT_ANYTIME	Anna astioiden kuivua itsestään	Kun jätät astianpesukoneen kuivausohjelman väliin, säästät energiaa.
+HABIT_ANYTIME	Kastele kasvit jäähtyneellä keitinvedellä	Kasvisten keitinvesi jäähtyneenä on ilmaista ravinnetta kasveille.
+HABIT_ANYTIME	Lue 10 sivua kirjaa	Vähän lukemista joka päivä tekee vuodessa monta kirjaa ja rauhoittaa mieltä.
+HABIT_ANYTIME	Opettele 5 sanaa uutta kieltä	Muistille pieni päivittäinen harjoitus on parempi kuin yksi pitkä rupeama.
+HABIT_ANYTIME	Kirjoita ylös yksi asia, josta olet kiitollinen	Hyvien asioiden säännöllinen huomaaminen liittyy parempaan mielialaan.
+HABIT_ANYTIME	Soita tai laita viesti jollekulle läheiselle	Vahvat ihmissuhteet ennustavat hyvinvointia parhaiten.
+HABIT_ANYTIME	Kiitä jotakuta	Ääneen sanottu kiitos saa teidät molemmat voimaan paremmin.
+HABIT_ANYTIME	Ole 10 minuuttia ulkona päivänvalossa	Päivänvalo tahdistaa sisäisen kellosi ja auttaa nukkumaan yöllä.
+HABIT_ANYTIME	Tee 5 minuutin hengitysharjoitus	Hidas hengitys laskee sykettä ja stressiä nopeasti.
+HABIT_ANYTIME	Meditoi 5 minuuttia	Lyhyt säännöllinen harjoitus auttaa ajan myötä keskittymistä ja stressiä.
+HABIT_ANYTIME	Siivoa yksi pieni alue	Sotkun katsominen väsyttää, pienet siistit kohdat kertyvät.
+HABIT_ANYTIME	Laita yksi tavara takaisin paikalleen	Sotku ei pääse kasautumaan, eikä isoa siivousta tarvita koskaan.
+HABIT_ANYTIME	Raivaa työpöytä työpäivän päätteeksi	Huominen alkaa rauhallisesti, ja se merkitsee työpäivän loppua.
+HABIT_ANYTIME	Poista 20 vanhaa kuvaa tai tiedostoa	Tallennettu data asuu energiaa syövissä datakeskuksissa.
+HABIT_ANYTIME	Peru yhden mainossähköpostin tilaus	Vähemmän ostokiusauksia ja rauhallisempi postilaatikko.
+HABIT_ANYTIME	Tyhjennä sähköpostisi saapuneet kerran	Tyhjä postilaatikko vähentää taustalla kalvavaa tunnetta tekemättömistä asioista.
+HABIT_ANYTIME	Pyyhi keittiön työtaso	Pitää bakteerit kurissa ja tekee ruoanlaitosta houkuttelevampaa.
+HABIT_ANYTIME	Poimi yksi roska maasta	Roskat päätyvät usein jokiin ja meriin, yksi roska on yksi vähemmän.
+HABIT_ANYTIME	Lähde kävelylle ilman puhelinta	Oikea lepo huomiokyvylle, ja huomaat enemmän ympärilläsi.
+HABIT_ANYTIME	Syö lounas muualla kuin työpöydän ääressä	Oikea tauko auttaa iltapäivän keskittymistä ja ruoansulatusta.
+HABIT_ANYTIME	Pureskele hitaasti yhdellä aterialla	Kylläisyyden tunne tulee viiveellä, hidas syöminen auttaa lopettamaan sopivasti.
+HABIT_ANYTIME	Syö kourallinen pähkinöitä välipalaksi	Hyvät rasvat ja proteiini pitävät kylläisenä pidempään kuin makeiset.
+HABIT_ANYTIME	Syö kulhollinen täysjyvää	Täysjyvä tuo kuitua, jota useimmista ruokavalioista puuttuu.
+HABIT_ANYTIME	Lisää siemeniä yhteen ateriaan	Siemenet tuovat kuitua, proteiinia ja hyviä rasvoja vaivatta.
+HABIT_ANYTIME	Juo yrttiteetä kolmannen kahvin sijaan	Vähemmän kofeiinia myöhään päivällä tarkoittaa parempaa unta.
+HABIT_ANYTIME	Ota vitamiinisi	Toimii vain säännöllisesti, ja tavan yhteyteen liittäminen auttaa.
+HABIT_ANYTIME	Käytä hammaslankaa	Pääsee väleihin, joihin harja ei yllä, ja suojaa ikeniä.
+HABIT_ANYTIME	Laita aurinkorasvaa	Päivittäinen aurinkosuoja ehkäisee ihovaurioita, pilvisinäkin päivinä.
+HABIT_ANYTIME	Tarkista ryhtisi	Lysähtämisen huomaaminen on ensimmäinen askel selkä- ja niskakipujen korjaamiseen.
+HABIT_ANYTIME	Pyörittele hartioita ja niskaa	Purkaa jännitystä, joka kertyy työpöydän ääressä.
+HABIT_ANYTIME	Kävele 7000 askelta	Tutkimukset yhdistävät noin 7000 päivittäistä askelta selviin terveyshyötyihin.
+HABIT_ANYTIME	Tee 10 minuutin joogahetki	Kasvattaa voimaa, tasapainoa ja rauhaa lyhyessä ajassa.
+HABIT_ANYTIME	Tanssi yhden kappaleen ajan	Kolme minuuttia liikettä ja heti parempi mieli.
+HABIT_ANYTIME	Käytä 15 minuuttia harrastukseen	Aika mieluisille asioille suojaa uupumukselta.
+HABIT_ANYTIME	Harjoittele soitinta 10 minuuttia	Lyhyt päivittäinen harjoitus voittaa satunnaiset pitkät rupeamat.
+HABIT_ANYTIME	Piirrä tai töhertele 5 minuuttia	Luovat tauot lepuuttavat sitä aivojen osaa, joka tekee työsi.
+HABIT_ANYTIME	Kirjoita päiväkirjaa 5 minuuttia	Ajatusten kirjoittaminen auttaa järjestämään niitä ja vähentää stressiä.
+HABIT_ANYTIME	Suunnittele huomisen kolme tärkeintä tehtävää	Kun aloitat suunnitelman kanssa, aikaa kuluu vähemmän sen miettimiseen, mitä tekisit.
+HABIT_ANYTIME	Pidä yksi oikea tauko töistä	Oikeat tauot palauttavat keskittymisen paremmin kuin sinnittely.
+HABIT_ANYTIME	Laita yhden sovelluksen ilmoitukset pois	Jokainen surahdus vie huomiota, vähemmän surinaa tarkoittaa rauhallisempia päiviä.
+HABIT_ANYTIME	Korjaa yksi pieni asia	Korjaaminen pitää tavarat käytössä ja poissa kaatopaikalta.
+HABIT_ANYTIME	Ompele nappi tai paikkaa repeämä	Viiden minuutin korjaus voi antaa vaatteelle vuosia lisää.
+HABIT_ANYTIME	Katso käytettyä ennen kuin ostat uutta	Käytetty ei vaadi uusia materiaaleja eikä tehtaan energiaa.
+HABIT_ANYTIME	Lainaa ostamisen sijaan	Moni työkalu on käytössä vain muutaman kerran, lainaaminen säästää rahaa ja tavaraa.
+HABIT_ANYTIME	Tarkista, voiko jonkin korjata ennen kuin vaihdat sen	Useimmiten hajoaa yksi pieni osa, ei koko laite.
+HABIT_ANYTIME	Lahjoita yksi tavara, jota et enää käytä	Joku muu saa siitä käyttöä, ja kotisi kevenee.
+HABIT_ANYTIME	Myy yksi tavara, jota et enää käytä	Rahaa takaisin, ja tavara saa toisen elämän.
+HABIT_ANYTIME	Käytä purkki tai rasia uudelleen	Uudelleenkäyttö voittaa kierrätyksen, se ei vie energiaa lainkaan.
+HABIT_ANYTIME	Säästä lasipurkki säilytykseen	Ilmainen, tukeva säilytysastia, joka pitää ruoan tuoreena.
+HABIT_ANYTIME	Kerää sadevettä kasveille	Kasvit pitävät siitä enemmän, ja se säästää puhdistettua hanavettä.
+HABIT_ANYTIME	Kastele kasvit aamulla	Vähemmän vettä haihtuu ennen kuin kasvi ehtii käyttää sen.
+HABIT_ANYTIME	Kasvata yksi yrtti ikkunalaudalla	Tuoreita yrttejä ilman muoviruukkua tai kuljetusta.
+HABIT_ANYTIME	Osta paikalliselta torilta	Lyhyempi toimitusketju, ja raha jää paikallisille viljelijöille.
+HABIT_ANYTIME	Osta hedelmät ja vihannekset irtona	Ei muovipakkauksia, ja ostat vain sen, mitä tarvitset.
+HABIT_ANYTIME	Valitse tuote, jossa on vähemmän pakkausta	Pakkaus on usein lyhytikäisin asia, jonka ostat.
+HABIT_ANYTIME	Valitse sesongin kasviksia	Sesonkiruoka ei tarvitse lämmitettyjä kasvihuoneita eikä lentorahtia.
+HABIT_ANYTIME	Osta paikallista leipää	Tuoreempaa, yleensä vähemmän lisäaineita, ja se tukee paikallista yritystä.
+HABIT_ANYTIME	Tarkista etiketistä palmuöljy	Palmuöljy on yksi suurimmista sademetsien häviämisen syistä.
+HABIT_ANYTIME	Valitse reilun kaupan kahvia tai suklaata	Reilu kauppa tarkoittaa, että viljelijät saavat sadostaan reilumman hinnan.
+HABIT_ANYTIME	Vie omat rasiat palvelutiskille tai leipomoon	Kertakäyttökääre jää kokonaan pois.
+HABIT_ANYTIME	Käy kaupassa vatsa täynnä	Nälkäiset ostavat enemmän, ja enemmän roskaruokaa.
+HABIT_ANYTIME	Tee tuplasti ja säästä toinen annos	Huomisen ateria on valmis, ja yksi kokkauskerta säästää energiaa.
+HABIT_ANYTIME	Suunnittele viikon ateriat	Suunnittelu on yksi tehokkaimmista tavoista vähentää ruokahävikkiä.
+HABIT_ANYTIME	Käytä jääkaapin vanhin ruoka ensin	Ensin sisään, ensin ulos, ettei ruoka vanhene jääkaapin perällä.
+HABIT_ANYTIME	Keitä keittoa ylijääneistä kasviksista	Väsähtäneistä kasviksista tulee kokonainen ateria hävikin sijaan.
+HABIT_ANYTIME	Keitä kahvi kotona	Halvempaa eikä kertakäyttömukia tai kantta.
+HABIT_ANYTIME	Ota mukaan omat aterimet	Ei muovihaarukoita lounaalle.
+HABIT_ANYTIME	Vedä verhot eteen pitämään lämpö sisällä	Verhot vähentävät lämmön karkaamista ikkunoista yöllä.
+HABIT_ANYTIME	Pue villapaita lämmityksen nostamisen sijaan	Jokainen aste vähemmän säästää huomattavan osan lämmitysenergiasta.
+HABIT_ANYTIME	Tuuleta lyhyesti raollaan olevan ikkunan sijaan	Lyhyt, tehokas tuuletus vaihtaa ilman jäähdyttämättä seiniä.
+HABIT_ANYTIME	Tarkista auton rengaspaineet	Pehmeät renkaat lisäävät polttoaineen kulutusta ja kuluvat nopeammin.
+HABIT_ANYTIME	Jaa kyyti jonkun kanssa	Kaksi ihmistä samassa autossa puolittaa matkan päästöt.
+HABIT_ANYTIME	Kävele lasten kanssa kouluun	Liikuntaa kaikille ja vähemmän autoja koulun portilla.
+HABIT_ANYTIME	Himmennä näytön kirkkautta	Säästää akkua ja on silmille ystävällisempää.
+HABIT_ANYTIME	Siivoa puhelimen tallennustila lisätilan ostamisen sijaan	Nykyinen puhelimesi pysyy käytössä pidempään.
+HABIT_ANYTIME	Opettele yksi kotikuntasi kierrätyssääntö	Säännöt vaihtelevat kunnittain, ja kun tunnet ne, lajittelu menee oikein.
+HABIT_ANYTIME	Lue yksi artikkeli ilmastosta	Kun ymmärrät ongelman, pienet teot tuntuvat vaivan arvoisilta.
+HABIT_ANYTIME	Opi yksi asia siitä, mistä ruokasi tulee	Alkuperän tunteminen auttaa valitsemaan paremmin ensi kerralla.
+HABIT_ANYTIME	Hymyile tuntemattomalle	Pienet ystävälliset hetket parantavat molempien päivää vähän.
+HABIT_ANYTIME	Pidä ovea auki jollekulle	Pieni ystävällisyys, joka ei maksa mitään.
+HABIT_ANYTIME	Kehu jotakuta vilpittömästi	Rehellinen kehu vahvistaa ihmissuhteita.
+HABIT_ANYTIME	Vietä 10 minuuttia lemmikin kanssa tai luonnossa	Aika eläinten ja vihreän parissa laskee stressiä.
+HABIT_ANYTIME	Lepää jalat ylhäällä 10 minuuttia töiden jälkeen	Selvä tauko työn ja illan välissä auttaa irrottautumaan.
+HABIT_ANYTIME	Kirjoita tehtävälista paperille	Kun tehtävät pääsevät pois päästä, huomiota vapautuu.
+HABIT_ANYTIME	Sano ei yhdelle asialle, jota sinun ei tarvitse tehdä	Suojaa aikaasi sille, mikä on tärkeää.
+HABIT_ANYTIME	Käytä aikaa yhteen ystävyyteen	Ystävyys tarvitsee säännöllistä pientä yhteydenpitoa pysyäkseen vahvana.
+HABIT_ANYTIME	Kokkaa ystävän tai perheenjäsenen kanssa	Yhdessä kokkaaminen on yhteistä aikaa ja terveellisempi ateria.
+HABIT_ANYTIME	Syö päivällinen pöydän ääressä	Syöminen ilman ruutuja auttaa huomaamaan, mitä ja kuinka paljon syöt.
+HABIT_ANYTIME	Lue ennen nukkumaanmenoa	Paperin lukeminen ruudun sijaan auttaa nukahtamaan.
+HABIT_ANYTIME	Kirjoita huomisen suunnitelma ennen nukkumaanmenoa	Kun se on paperilla, mieli ei pyöritä sitä yöllä.
+HABIT_ANYTIME	Laita huomisen vaatteet valmiiksi	Yksi päätös vähemmän aamulla.
+HABIT_ANYTIME	Valmista huomisen lounas	Tekee terveellisestä ja edullisesta valinnasta helpon.
+HABIT_ANYTIME	Tiskaa ennen nukkumaanmenoa	Puhtaaseen keittiöön herääminen keventää päivän alkua.
+HABIT_ANYTIME	Mieti päivää 2 minuuttia	Kun huomaat, mikä meni hyvin ja mikä ei, huominen sujuu paremmin.
+HABIT_ANYTIME	Venyttele ennen nukkumaanmenoa	Purkaa jännitystä, joten nukut mukavammin.
+HABIT_ANYTIME	Siisti olohuone ennen nukkumaanmenoa	Siistiin huoneeseen on rauhallisempaa herätä.
+HABIT_ANYTIME	Laske päivän pienet onnistumiset	Edistyksen huomaaminen pitää motivaation yllä.
+HABIT_ANYTIME	Laske lämmitystä yöksi	Useimmat nukkuvat paremmin viileämmässä, ja se säästää energiaa.
+HABIT_ANYTIME	Lataa puhelin makuuhuoneen ulkopuolella	Poistaa kiusauksen selata sängyssä.
+HABIT_ANYTIME	Nuku ikkuna hieman raollaan	Raikas, viileämpi ilma tarkoittaa yleensä syvempää unta.
+HABIT_ANYTIME	Lähde töistä ajallaan	Jatkuva ylityö syö lepoa ja keskittymistä.
+HABIT_END	Ei napostelua klo 21 jälkeen	Myöhäinen napostelu on yleensä tapa eikä nälkä, ja se häiritsee unta.
+HABIT_END	Puhelin pois klo 22 mennessä	Ruudut myöhään illalla siirtävät unta ja pitävät mielen kierroksilla.
+HABIT_END	Ei ruutuja viimeiseen puoleen tuntiin ennen nukkumaanmenoa	Aivot saavat aikaa rauhoittua ennen unta.
+HABIT_END	Sängyssä klo 23 mennessä	Säännöllinen nukkumaanmenoaika on yksi vahvimmista keinoista parempaan uneen.
+HABIT_END	Ei kofeiinia klo 14 jälkeen	Kofeiini viipyy elimistössä tunteja ja häiritsee unta.
+HABIT_END	Ei alkoholia arki-iltaisin	Alkoholi heikentää unen laatua, vaikka se auttaisi nukahtamaan.
+HABIT_END	Ei sokerisia juomia tänään	Sokeriset juomat ovat yksi suurimmista lisätyn sokerin lähteistä.
+HABIT_END	Ei noutoruokaa tänään	Noutoruoka tuo pakkauksia, suolaa ja kuluja.
+HABIT_END	Ei verkko-ostoksia tänään	Moni verkko-ostos on heräteostos, taukopäivä katkaisee kierteen.
+HABIT_END	Ei somea päivällisen jälkeen	Ilta palaa lepoon ja oikeille ihmisille.
+HABIT_END	Pysy tämän päivän askeltavoitteessa	Se ratkeaa vasta illalla, ja se pitää sinut liikkeessä koko päivän.
+HABIT_END	Ei ruokahävikkiä tänään	Päivän päättäminen ilman ruokaa roskiksessa on selkeä tavoite.
+HABIT_END	Ei kertakäyttömuovia tänään	Kokonainen päivä ilman näyttää, mistä sitä hiipii mukaan.
+HABIT_END	Ei automatkoja tänään	Autoton päivä näyttää, mitkä matkat oikeasti tarvitset.
+HABIT_END	Pysy yhdessä kahvikupissa tänään	Vähemmän kofeiinia, tasaisempi energia, parempi uni.
+HABIT_END	Ei doomscrollausta tänään	Loputon huonojen uutisten virta lisää ahdistusta.
+HABIT_END	Ei mitään friteerattua tänään	Friteerattu ruoka on täynnä rasvaa ja kaloreita.
+HABIT_END	Ei lihaa tänään	Yksi lihaton päivä viikossa pienentää jalanjälkeäsi oikeasti.
+HABIT_END	Ei hissiä koko päivänä	Selviää vasta päivän päätteeksi, ja tekee jaloille hyvää.
+HABIT_END	Juo yli 1,5 litraa vettä	Tasainen juominen päivän mittaan pitää energian ja keskittymisen yllä.
+HABIT_END	Valot pois tyhjistä huoneista koko päivän	Kokonainen päivä tarkkaavaisuutta tekee siitä automaattista.
+HABIT_END	Pidä lämmitys 20 asteessa	Jokainen aste yli 20:n lisää laskuun huomattavan osan.
+HABIT_END	Pidä suihku tänään alle 5 minuutin mittaisena	Lyhyet suihkut säästävät lämmintä vettä ja energiaa.
+HABIT_END	Ei heräteostoksia tänään	Kun odotat päivän ennen ostamista, useimmat heräteostokset jäävät pois.
+HABIT_END	Älä käytä rahaa turhuuksiin tänään	Ostoton päivä näyttää, mihin rahaa vuotaa.
+HABIT_END	Pidä ilta vapaana töistä	Selvä raja työn ja kodin välillä suojaa palautumista.
+HABIT_END	Ei uutisia klo 20 jälkeen	Huonot uutiset myöhään illalla vaikeuttavat irrottautumista.
+HABIT_END	Nouse ylös joka tunti	Pitkä yhtäjaksoinen istuminen liittyy huonompaan terveyteen, vaikka liikkuisit.
+HABIT_END	Sammuta valot, kun lähdet huoneesta	Tyhjään huoneeseen jätetty valo on pelkkää hukkaa laskussa.
+HABIT_END	Sulje hana hampaita pestessä	Valuva hana tuhlaa useita litroja joka pesukerralla.
+HABIT_END	Vastaa viesteihin kerralla, älä koko päivän	Jatkuva vaihtelu syö keskittymistä, niputtaminen suojaa sitä.
+HABIT_END	Pidä puhelin poissa ulottuvilta töitä tehdessä	Pöydällä lojuva puhelinkin heikentää keskittymistä.
+HABIT_END	Katso pois ruudusta 20 minuutin välein	Kaukaisuuteen katsominen rentouttaa väsyneitä silmälihaksia.
+HABIT_END	Juo lasi vettä jokaisen aterian kanssa	Helppo tapa saada päivän vedet ilman ajattelemista.
+HABIT_END	Käytä portaita hissin sijaan	Muutama kerros päivässä on oikeaa sydänliikuntaa ja säästää hissin sähköä.
+HABIT_END	Irrota laturit, kun et käytä niitä	Pistorasiassa olevat laturit vievät vähän sähköä koko päivän.
+HABIT_END	Juo hanavettä pulloveden sijaan	Suurimmassa osassa Eurooppaa hanavesi on turvallista, testattua ja paljon halvempaa.
+HABIT_END	Kanna mukana uudelleentäytettävää vesipulloa	Jokainen täyttö on muovipullo, jota ei tarvitse koskaan valmistaa.
+HABIT_END	Saa yksi tehtävä valmiiksi ennen seuraavaa	Tehtävästä toiseen hyppiminen vie enemmän aikaa kuin luulisi.
+HABIT_END	Käytä paperin molemmat puolet	Puolittaa paperinkulutuksen vaivatta.
+HABIT_END	Tulosta vain, kun oikeasti tarvitset	Sekä paperilla että musteella on todellinen jalanjälki.
+HABIT_END	Laita ruoantähteet kompostiin	Kaatopaikalla ruoka mätänee metaaniksi, komposti tekee siitä taas multaa.
+HABIT_END	Sammuta laitteet pistorasiasta	Valmiustila voi olla noin kymmenesosa kodin sähkönkulutuksesta.
+SWAP	Muovisienen tilalle luffa	Muovisienet irrottavat mikromuovia, luffa on kasvi ja kompostoituu.
+SWAP	Shampoopullon tilalle palashampoo	Yksi pala riittää suunnilleen kuin kaksi tai kolme pulloa, ilman muovia.
+SWAP	Suihkusaippuan tilalle palasaippua	Palasaippua tarvitsee paljon vähemmän pakkausta ja painaa kuljetuksessa vähemmän.
+SWAP	Muovihammasharjan tilalle bambuharja	Muoviharjat säilyvät kaatopaikalla vuosisatoja, bambuvarret eivät.
+SWAP	Tuorekelmun tilalle mehiläisvahaliinat	Liinat kestävät vuoden käytössä, kelmu käytetään kerran.
+SWAP	Talouspaperin tilalle kangaspyyhkeet	Kangasta voi pestä satoja kertoja.
+SWAP	Kertakäyttöhöylän tilalle partahöylä	Vain metalliterä vaihdetaan, ja sen voi kierrättää.
+SWAP	Teepussien tilalle irtotee	Monissa teepusseissa on muovia, irroteessä ei.
+SWAP	Kahvikapselien tilalle jauhettu kahvi	Kapseleista syntyy kupillista kohden paljon vaikeasti kierrätettävää jätettä.
+SWAP	Pulloveden tilalle suodatinkannu	Suodatinkannu antaa saman maun ilman pulloja.
+SWAP	Kertakäyttömukin tilalle oma muki	Useimmat kertakäyttömukit on vuorattu muovilla ja kierrätetään harvoin.
+SWAP	Muovipussien tilalle kangaskassit	Monta kertaa käytetty kassi voittaa satoja ohuita pusseja.
+SWAP	Hedelmäpussien tilalle verkkopussit	Pestävät verkkopussit korvaavat kasan ohutta muovia.
+SWAP	Nestemäisen pesuaineen tilalle täyttöpakkaus tai jauhe	Jauhe tulee pahvissa, ja täyttöpakkaukset vähentävät muovia.
+SWAP	Kuivausliinojen tilalle villaiset kuivauspallot	Villapallot kestävät vuosia ja lyhentävät kuivausaikaa.
+SWAP	Talouspaperin tilalle pestävät rätit	Vanhoista t-paidoista tulee hyviä rättejä ilmaiseksi.
+SWAP	Vanulappujen tilalle pestävät laput	Puuvilla vie paljon vettä, pestävät laput kestävät vuosia.
+SWAP	Paperinenäliinojen tilalle kangasnenäliinat	Pestäviä ja pehmeämpiä nenälle.
+SWAP	Muovipillien tilalle ei pilliä tai metallipilli	Useimmat juomat eivät tarvitse pilliä ollenkaan.
+SWAP	Kertakäyttöparistojen tilalle ladattavat	Yksi ladattava korvaa satoja kertakäyttöisiä.
+SWAP	Hehkulamppujen tilalle LED	LED kuluttaa murto-osan sähköstä ja kestää paljon pidempään.
+SWAP	Valmiustilan tilalle katkaisijallinen jatkojohto	Yksi katkaisin sammuttaa valmiustilan kaikesta kerralla.
+SWAP	Työmatka-autoilun tilalle pyörä	Liikuntaa osana päivää ja nolla päästöä.
+SWAP	Työmatka-autoilun tilalle julkinen liikenne	Aikaa lukea tai levätä, ja paljon pienemmät päästöt per henkilö.
+SWAP	Lyhyen lennon tilalle juna	Lyhyillä matkoilla juna päästää pienen murto-osan lennon päästöistä.
+SWAP	Uusien vaatteiden tilalle käytetyt	Muotiteollisuuden jalanjälki on suuri, käytetty ohittaa sen.
+SWAP	Pikamuodin tilalle vähemmän mutta parempia vaatteita	Kestävät vaatteet tarkoittavat harvempia ostoksia.
+SWAP	Uusien kirjojen tilalle kirjasto	Ilmaista, ja yksi kappale palvelee monta lukijaa.
+SWAP	Uusien huonekalujen tilalle käytetyt	Hyvät huonekalut kestävät vuosikymmeniä, ja jonkun toisen vanhat ovat usein täydelliset.
+SWAP	Paperilaskujen tilalle e-laskut	Vähemmän paperia, ja kaikki on yhdessä paikassa.
+SWAP	Paperivihkojen tilalle uudelleenkäytettävä vihko	Pyyhittävät tai digitaaliset muistiinpanot säästävät paperia.
+SWAP	Muovikynien tilalle täytettävä kynä	Vain täyte vaihdetaan, ei koko kynää.
+SWAP	Kertakäyttöaterimien tilalle omat aterimet	Noutoruoan aterimia käytetään minuutteja ja ne säilyvät vuosisatoja.
+SWAP	Pullotetun puhdistusaineen tilalle kotitekoinen etikkapuhdistaja	Etikka ja vesi puhdistavat useimmat pinnat edullisesti.
+SWAP	Ilmanraikastimen tilalle avoin ikkuna	Raikastimet lisäävät kemikaaleja, raitis ilma poistaa niitä.
+SWAP	Sokeristen murojen tilalle kaurahiutaleet	Kaura on täyttävää, halpaa ja vähäsokerista.
+SWAP	Limsan tilalle kivennäisvesi	Samat kuplat, ei sokeria.
+SWAP	Sipsien tilalle pähkinät	Pähkinöistä saa proteiinia ja hyviä rasvoja suolan ja öljyn sijaan.
+SWAP	Vaalean leivän tilalle täysjyväleipä	Täysjyvä säilyttää kuidun, jonka valkoinen jauho menettää.
+SWAP	Maitosuklaan tilalle tumma suklaa	Vähemmän sokeria, enemmän kaakaota, ja vähempi riittää.
+SWAP	Lehmänmaidon tilalle kauramaito	Kauramaito vie paljon vähemmän maata ja vettä.
+SWAP	Naudanlihan tilalle linssit kerran viikossa	Naudanlihan jalanjälki on yksi kaikkien ruokien suurimmista.
+SWAP	Kauppaleivän tilalle paikallinen leipomo	Tuoreempaa, vähemmän lisäaineita, vähemmän pakkauksia.
+SWAP	Tuontihedelmien tilalle sesongin hedelmät	Sesongin hedelmät matkustavat vähemmän ja maistuvat paremmilta.
+SWAP	Pullomehun tilalle kokonainen hedelmä	Kokonainen hedelmä säilyttää kuidun, mehu on enimmäkseen sokeria.
+SWAP	Valmisruokien tilalle isot satsit kerralla	Isot satsit ovat halvempia, terveellisempiä ja vähentävät pakkauksia.
+SWAP	Noutoruoan tilalle kotiruokailta	Säästää rahaa ja pakkauksia, ja tiedät mitä syöt.
+SWAP	Muovirasioiden tilalle lasirasiat	Lasi kestää, ei värjäydy ja kestää uunin.
+SWAP	Alumiinifolion tilalle uudelleenkäytettävä leivinalusta	Yksi alusta korvaa vuosien folion.
+SWAP	Tarttumattoman pannun tilalle valurautapannu	Valurauta kestää koko elämän ilman kemiallista pinnoitetta.
+SWAP	Lahjapaperin tilalle kangas tai sanomalehti	Suurinta osaa kiiltävästä lahjapaperista ei voi kierrättää.
+SWAP	Syntymäpäiväkorttien tilalle e-kortit	Ei paperia, ei kirjekuorta, ei postimaksua.
+SWAP	Verkkopalautusten tilalle ostokset kaupasta	Palautukset heitetään usein pois eikä niitä myydä uudelleen.
+SWAP	Pikatoimituksen tilalle normaali toimitus	Hitaampi toimitus antaa täyttää pakettiautot kunnolla.
+SWAP	HD-suoratoiston tilalle normaali laatu	Pienemmällä ruudulla matalampi laatu vie paljon vähemmän dataa ja energiaa.
+SWAP	Suurpankin tilalle eettinen pankki	Säästösi rahoittavat sitä, mille pankki lainaa.
+SWAP	Eläkerahaston tilalle vastuullinen rahasto	Eläke on usein suurin sijoittamasi rahasumma.
+SWAP	Sähkösopimuksen tilalle uusiutuva sähkö	Vaihtaa sähkösi lähteen kerralla.
+SWAP	Hakukoneen tilalle Ecosia	Ecosia käyttää voittonsa puiden istuttamiseen.
+SWAP	Kertakäyttömaskien tilalle pestävät maskit	Pestävät maskit vähentävät paljon kertakäyttöjätettä.
+SWAP	Synteettisten sienien tilalle luonnonsienet	Luonnonsienet hajoavat käyttöikänsä lopussa.
+SWAP	Deodoranttisuihkeen tilalle deopuikko tai -pala	Spraypurkit vievät tilaa ja ovat vaikeampia kierrättää.
+SWAP	Hammastahnatuubin tilalle hammastahnatabletit	Tabletit tulevat purkissa, tuubeja on vaikea kierrättää.
+SWAP	Muovisen hiusharjan tilalle puinen	Puu kestää eikä jätä muovia jälkeensä.
+SWAP	Kynsilakanpoistoaineen tilalle asetoniton	Hellävaraisempi kynsille ja iholle.
+SWAP	Meikinpoistoliinojen tilalle pestävä liina	Liinoissa on usein muovia ja ne tukkivat viemäreitä.
+SWAP	Tamponien tilalle kuukuppi	Yksi kuppi kestää vuosia ja korvaa tuhansia tuotteita.
+SWAP	Kertakäyttövaippojen tilalle kestovaipat	Kertakäyttövaipat ovat suuri osa kotitalouden jätteestä.
+SWAP	Muovilelujen tilalle puiset tai käytetyt	Puulelut kestävät ja kulkevat eteenpäin.
+SWAP	Nurmikon tilalle niittykukat	Niittykukat ruokkivat mehiläisiä eivätkä tarvitse leikkaamista.
+SWAP	Puutarhakemikaalien tilalle luonnollinen tuholaistorjunta	Kemikaalit vahingoittavat hyönteisiä ja maaperän eliöitä, joita puutarha tarvitsee.
+SWAP	Turvemullan tilalle turveton multa	Suot varastoivat valtavia määriä hiiltä.
+SWAP	Valuvan hanan tilalle täysi tiskiallas	Vadillinen vettä kuluttaa paljon vähemmän kuin valuva hana.
+SWAP	Kylvyn tilalle suihku	Lyhyt suihku kuluttaa paljon vähemmän lämmintä vettä kuin kylpy.
+SWAP	Kuivausrummun tilalle kuivausteline	Ilmakuivaus on ilmaista ja hellävaraisempaa vaatteille.
+SWAP	Pitkän yksinajon tilalle kimppakyyti	Kimppakyyti jakaa sekä kulut että päästöt.
+SWAP	Vuosittaisen puhelinvaihdon tilalle pidempi käyttö	Suurin osa puhelimen jalanjäljestä syntyy sen valmistuksessa.
+SWAP	Uuden puhelimen tilalle kunnostettu	Kunnostettu puhelin ohittaa jalanjäljen suurimman osan.
+SWAP	Mustepatruunoiden tilalle täytettävät	Täyttäminen säästää rahaa ja muovipatruunoita.
+SWAP	Mainospostin tilalle Ei mainoksia -tarra	Pysäyttää paperin, jota et koskaan halunnut.
+AVOID_PRODUCT	Kertakäyttöiset muovipullot	Useimpia ei kierrätetä, ja ne päätyvät kaatopaikalle tai mereen.
+AVOID_PRODUCT	Hetken mielijohteesta ostetut vempaimet	Ostettu hetken innostuksesta ja käytetty kourallinen kertoja.
+AVOID_PRODUCT	Hassut mukit ja krääsä	Sotkua, jota käytetään harvoin ja jota on vaikea antaa pois.
+AVOID_PRODUCT	Halvat muovilelut	Ne hajoavat nopeasti eikä niitä voi kierrättää.
+AVOID_PRODUCT	Kertakäyttöiset kahvimukit	Muovilla vuorattuja ja harvoin kierrätettyjä.
+AVOID_PRODUCT	Muovipillit	Käytössä minuutteja, olemassa vuosisatoja.
+AVOID_PRODUCT	Glitter ja mikromuovit	Pienet muovinpalat huuhtoutuvat suoraan jokiin ja meriin.
+AVOID_PRODUCT	Kosteuspyyhkeet	Useimmissa on muovia, ja ne tukkivat viemäreitä.
+AVOID_PRODUCT	Ilmaisnäytteet, joita et käytä	Pakkausta ja tuotetta turhaan.
+AVOID_PRODUCT	Mainoslahjat	Logolla varustettua krääsää, joka on tehty heitettäväksi pois.
+AVOID_PRODUCT	Kertakäyttöhöylät	Muovi ja metalli yhteen sulatettuna, mahdottomia kierrättää.
+AVOID_PRODUCT	Kertakäyttögrillit	Käytetään kerran, ja ne vahingoittavat usein alla olevaa maata.
+AVOID_PRODUCT	Ilmapallot juhlissa	Karanneet tai puhjenneet pallot päätyvät roskiksi ja vahingoittavat eläimiä.
+AVOID_PRODUCT	Halvat puhelintarvikkeet	Ne hajoavat nopeasti eikä niitä usein voi korjata.
+AVOID_PRODUCT	Vaatteet, joita käytät kerran	Suurin osa vaatteen vaikutuksesta syntyy sen valmistuksessa.
+AVOID_PRODUCT	Keittiövälineet, jotka sinulla jo on	Sinulla on jo yksi, toinen vain vie tilaa.
+AVOID_PRODUCT	Koristeet yhtä tilaisuutta varten	Käytössä päivän, säilössä tai roskiksessa vuosia.
+AVOID_COMPANY	Nestlé	Kansainvälisen boikotin kohteena vuodesta 1977 sen vuoksi, miten se markkinoi äidinmaidonkorvikkeita köyhemmissä maissa.
+AVOID_COMPANY	Shein	Ultrapikamuotia, ja Channel 4 sekä Public Eye raportoivat hyvin pitkistä työpäivistä sen alihankkijoiden tehtailla.
+AVOID_COMPANY	Temu	Valtavia määriä halpaa tavaraa lentorahtina, ja EU aloitti siitä virallisen tutkinnan vuonna 2024.
+AVOID_COMPANY	Coca-Cola	Nimetty suurimmaksi brändiksi Break Free From Plasticin roskakartoituksissa useana vuonna peräkkäin.
+AVOID_COMPANY	PepsiCo	Jatkuvasti lähellä kärkeä samoissa muoviroskakartoituksissa kuin Coca-Cola.
+AVOID_COMPANY	Amazon	Pitkäaikaisia kiistoja varastojen työoloista ja työntekijöiden järjestäytymisestä.
+AVOID_COMPANY	Primark	Hyvin halpoja vaatteita suurina määrinä, ja se hankki tuotteita Rana Plazan tehtaalta, joka romahti vuonna 2013.
+AVOID_COMPANY	Zara	Yksi brändeistä, jotka rakensivat pikamuodin mallin, jossa uusia mallistoja tulee muutaman viikon välein.
+AVOID_COMPANY	Ryanair	Transport & Environment on listannut sen Euroopan suurimpien hiilidioksidipäästäjien joukkoon hiilivoimaloiden rinnalle.
+AVOID_COMPANY	McDonald's	Paljon kertakäyttöpakkauksia ja naudanlihaan perustuva ruokalista.
+AVOID_COMPANY	Mondelez	Kampanjoijat ovat yhdistäneet sen kaakao- ja palmuöljyketjut metsäkatoon.
+AVOID_FOOD	Palmuöljytuotteet	Palmuöljyviljelmät ovat yksi suurimmista sademetsien häviämisen syistä.
+AVOID_FOOD	Energiajuomat	Paljon sokeria ja kofeiinia, yhdistetty huonoon uneen ja levottomuuteen.
+AVOID_FOOD	Sokeriset limsat	Yhdessä tölkissä voi olla suurin osa päivän suositellusta sokerista.
+AVOID_FOOD	Ultraprosessoidut naposteltavat	Suunniteltu syötäväksi liikaa, ja niissä on vähän oikeaa ravintoa.
+AVOID_FOOD	Sesongin ulkopuolella lentorahtina tuodut hedelmät	Lentorahdin jalanjälki on moninkertainen laivarahtiin verrattuna.
+AVOID_FOOD	Häkkikanojen munat	Häkeissä elävät kanat elävät hyvin huonoissa oloissa.
+AVOID_FOOD	Liikakalastetuista kannoista pyydetty kala	Liikakalastus tyhjentää merta nopeammin kuin kannat ehtivät elpyä.
+AVOID_FOOD	Sipsit	Paljon suolaa ja rasvaa, ja koko pussi menee helposti.
+AVOID_FOOD	Karkit kassalla	Sijoitettu sinne nappaamaan väsyneiden ja nälkäisten heräteostokset.
+AVOID_FOOD	Noutoruoka arki-iltaisin	Säännöllinen noutoruoka tuo lisää suolaa, kuluja ja pakkauksia.
+AVOID_FOOD	Alkoholi arkipäivinä	Arkijuominen kertyy ja heikentää unen laatua.
+AVOID_FOOD	Prosessoitu liha	Yhdistetty suurempiin terveysriskeihin kuin tuore liha.

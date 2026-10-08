@@ -1,0 +1,818 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Troppa stanchezza</string>
+    <string name="core_reason_craving">Voglia</string>
+    <string name="core_reason_no_time">Niente tempo</string>
+    <string name="core_reason_forgot">Dimenticato</string>
+    <string name="core_reason_no_alternative">Nessuna alternativa</string>
+    <string name="core_reason_social">Compagnia</string>
+    <string name="core_reason_impulse">Impulso</string>
+    <string name="core_reason_too_expensive">Troppo caro</string>
+    <string name="core_reason_away">Fuori casa</string>
+
+    <string name="core_nudge_channel">Promemoria giornaliero</string>
+    <string name="core_nudge_title">Ancora da spuntare oggi</string>
+    <string name="core_save_failed">Impossibile salvare, riprova</string>
+
+    <string name="core_kind_habit">Abitudine</string>
+    <string name="core_kind_swap">Scambio</string>
+    <string name="core_kind_avoid">Da evitare</string>
+    <string name="core_about">Info su %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Meno</string>
+    <string name="core_more">Di più</string>
+    <string name="core_cancel">Annulla</string>
+    <string name="core_settings">Impostazioni</string>
+    <string name="core_span_week">Settimana</string>
+    <string name="core_span_month">Mese</string>
+    <string name="core_span_year">Anno</string>
+    <string name="core_span_all">Sempre</string>
+    <string name="core_tab_habits">Abitudini</string>
+    <string name="core_tab_changes">Cambiamenti</string>
+    <string name="core_tab_avoid">Da evitare</string>
+    <string name="core_tab_insights">Statistiche</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">fatto</string>
+    <string name="core_cell_missed">saltato</string>
+    <string name="core_cell_partial">fatto in parte, %1$d finora</string>
+    <string name="core_cell_unfilled">non ancora compilato</string>
+    <string name="core_cell_open">da fare</string>
+    <string name="core_cell_locked">bloccato fino all\'ora del check-in</string>
+    <string name="core_cell_future">non ancora</string>
+    <string name="core_cell_empty">niente da fare</string>
+    <string name="core_cell_band">fatto per questo periodo</string>
+    <string name="core_cell_off">non è un giorno per questo passo</string>
+    <string name="core_cell_none">prima dell\'inizio di questo passo</string>
+
+    <string name="core_rhythm_one_off">Una tantum</string>
+    <string name="core_rhythm_end_of_day">Ogni giorno, spuntato a fine giornata</string>
+    <string name="core_rhythm_every_day">Ogni giorno</string>
+    <string name="core_rhythm_every_days">Ogni %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">a settimana</string>
+    <string name="core_rhythm_a_month">al mese</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, in un giorno qualsiasi</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s e %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d mesi</string>
+    <string name="core_achievement_short_days">%1$d g</string>
+    <string name="core_glance_step">%1$s, %2$d su %3$d</string>
+
+    <string name="core_slip_never">Mai</string>
+    <string name="core_slip_once">Una volta</string>
+    <string name="core_slip_a_few">Qualche volta</string>
+    <string name="core_slip_half">Metà</string>
+    <string name="core_slip_most">Quasi sempre</string>
+    <string name="core_slip_always">Sempre</string>
+
+    <string name="core_ideas_habit_anytime">Abitudini, quando vuoi</string>
+    <string name="core_ideas_habit_end">Abitudini, fine giornata</string>
+    <string name="core_ideas_swap">Scambi</string>
+    <string name="core_ideas_avoid_product">Da evitare, prodotti</string>
+    <string name="core_ideas_avoid_company">Da evitare, aziende</string>
+    <string name="core_ideas_avoid_food">Da evitare, cibo</string>
+
+    <string name="core_tag_ethical">Etica</string>
+    <string name="core_tag_health">Salute</string>
+    <string name="core_tag_clutter">Disordine</string>
+    <string name="core_tag_ecological">Ecologia</string>
+    <string name="core_tag_animal_welfare">Benessere animale</string>
+    <string name="core_tag_workers_rights">Diritti dei lavoratori</string>
+    <string name="core_tag_plastic">Plastica</string>
+    <string name="core_tag_palm_oil">Olio di palma</string>
+    <string name="core_tag_deforestation">Deforestazione</string>
+    <string name="core_category_company">Azienda</string>
+    <string name="core_category_food">Cibo</string>
+    <string name="core_category_product">Prodotto</string>
+    <string name="core_verdict_avoid">DA EVITARE</string>
+    <string name="core_verdict_edge">AL LIMITE</string>
+    <string name="core_verdict_fine">OK</string>
+
+    <string name="core_theme_off_white_honey">Panna &amp; miele</string>
+    <string name="core_theme_vanilla_caramel">Vaniglia &amp; caramello</string>
+    <string name="core_theme_sunflower">Girasole</string>
+    <string name="core_theme_latte">Latte macchiato</string>
+    <string name="core_theme_cocoa_lemon">Cacao &amp; limone</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; burro</string>
+    <string name="core_theme_midnight_honey">Mezzanotte &amp; miele</string>
+    <string name="core_theme_forest_night">Notte nel bosco</string>
+    <string name="core_theme_plum_dusk">Crepuscolo di prugna</string>
+    <string name="core_theme_charcoal_coral">Antracite &amp; corallo</string>
+
+    <string name="core_pic_sunny_meadow">Prato soleggiato</string>
+    <string name="core_pic_sunset_hills">Colline al tramonto</string>
+    <string name="core_pic_starry_night">Notte stellata</string>
+    <string name="core_pic_beach_day">Giornata al mare</string>
+    <string name="core_pic_mountain_lake">Lago di montagna</string>
+    <string name="core_pic_snowy_village">Villaggio innevato</string>
+    <string name="core_pic_rainy_garden">Giardino sotto la pioggia</string>
+    <string name="core_pic_autumn_forest">Bosco d\'autunno</string>
+    <string name="core_pic_cherry_blossom">Fiori di ciliegio</string>
+    <string name="core_pic_desert_cactus">Cactus nel deserto</string>
+    <string name="core_pic_lighthouse">Faro</string>
+    <string name="core_pic_rainbow_field">Campo con arcobaleno</string>
+    <string name="core_pic_hot_air_balloon">Mongolfiera</string>
+    <string name="core_pic_sailboat">Barca a vela</string>
+    <string name="core_pic_cabin_in_the_woods">Baita nel bosco</string>
+    <string name="core_pic_tulip_field">Campo di tulipani</string>
+    <string name="core_pic_campfire_night">Notte al falò</string>
+    <string name="core_pic_misty_mountains">Montagne nella nebbia</string>
+    <string name="core_pic_sunrise_sea">Alba sul mare</string>
+    <string name="core_pic_snowy_pines">Pini innevati</string>
+    <string name="core_pic_lavender_field">Campo di lavanda</string>
+    <string name="core_pic_waterfall">Cascata</string>
+    <string name="core_pic_city_at_dusk">Città al crepuscolo</string>
+    <string name="core_pic_picnic">Picnic</string>
+    <string name="core_pic_moon_over_the_lake">Luna sul lago</string>
+    <string name="core_pic_palm_island">Isola di palme</string>
+    <string name="core_pic_windmill">Mulino a vento</string>
+    <string name="core_pic_bike_path">Pista ciclabile</string>
+    <string name="core_pic_greenhouse">Serra</string>
+    <string name="core_pic_northern_lights">Aurora boreale</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d passo ti aspetta.</item>
+        <item quantity="many">%d passi ti aspettano.</item>
+        <item quantity="other">%d passi ti aspettano.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">fatto, %d volta</item>
+        <item quantity="many">fatto, %d volte</item>
+        <item quantity="other">fatto, %d volte</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d volta al giorno</item>
+        <item quantity="many">%d volte al giorno</item>
+        <item quantity="other">%d volte al giorno</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Una volta</item>
+        <item quantity="many">%d volte</item>
+        <item quantity="other">%d volte</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">ogni %d settimana</item>
+        <item quantity="many">ogni %d settimane</item>
+        <item quantity="other">ogni %d settimane</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">ogni %d mese</item>
+        <item quantity="many">ogni %d mesi</item>
+        <item quantity="other">ogni %d mesi</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">ogni %d giorno</item>
+        <item quantity="many">ogni %d giorni</item>
+        <item quantity="other">ogni %d giorni</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d mese, mai saltato</item>
+        <item quantity="many">%d mesi, mai saltato</item>
+        <item quantity="other">%d mesi, mai saltato</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d mese di fila</item>
+        <item quantity="many">%d mesi di fila</item>
+        <item quantity="other">%d mesi di fila</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d giorno di fila</item>
+        <item quantity="many">%d giorni di fila</item>
+        <item quantity="other">%d giorni di fila</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d mese</item>
+        <item quantity="many">%d mesi</item>
+        <item quantity="other">%d mesi</item>
+    </plurals>
+
+    <string name="tabs_new_step">Nuovo passo</string>
+    <string name="tabs_edit">Modifica</string>
+    <string name="tabs_delete">Elimina</string>
+    <string name="tabs_done">Fatto</string>
+    <string name="tabs_back">Indietro</string>
+    <string name="tabs_earlier">Prima</string>
+    <string name="tabs_later">Dopo</string>
+    <string name="tabs_delete_title">Eliminare %1$s?</string>
+    <string name="tabs_eod_unlock">Le abitudini di fine giornata si sbloccano alle %1$02d:00</string>
+    <string name="tabs_check_up">Check-up</string>
+    <string name="tabs_one_off">Una tantum</string>
+
+    <string name="tabs_checkin_from">Check-in dalle %1$02d:00</string>
+    <string name="tabs_checkin_daily">Check-in giornaliero</string>
+    <string name="tabs_checkin_weekly">Check-in settimanale</string>
+    <string name="tabs_checkin_quarter">Check-up trimestrale</string>
+    <string name="tabs_checked_in">Check-in fatto</string>
+    <string name="tabs_quarter_section">CHECK-UP TRIMESTRALE</string>
+    <string name="tabs_previous_week">Settimana precedente</string>
+    <string name="tabs_next_week">Settimana successiva</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d giorno di %2$s!</item>
+        <item quantity="many">%1$d giorni di %2$s!</item>
+        <item quantity="other">%1$d giorni di %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Ben fatto! Ora passa ai tuoi check-up trimestrali, niente più spunte ogni giorno.</string>
+    <string name="tabs_celebrate_first">Il primo è il %1$s.</string>
+    <string name="tabs_glance_title">La tua settimana</string>
+    <string name="tabs_glance_ticks_kept">Spunte fatte</string>
+    <string name="tabs_glance_days_checked_in">Giorni con check-in</string>
+    <string name="tabs_glance_top_tag">Motivo di sgarro più usato:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d volta</item>
+        <item quantity="many">%1$s, %2$d volte</item>
+        <item quantity="other">%1$s, %2$d volte</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Più facile:</string>
+    <string name="tabs_glance_hardest">Più difficile:</string>
+
+    <string name="tabs_changes_ongoing">Scambi in corso</string>
+    <string name="tabs_changes_ongoing_tip_title">Scambio in corso</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Ti troverai di nuovo davanti alla stessa scelta, come una tazza da caffè o uno shampoo solido. Si spunta in Abitudini per %1$d giorno, poi si controlla ogni 3 mesi.</item>
+        <item quantity="many">Ti troverai di nuovo davanti alla stessa scelta, come una tazza da caffè o uno shampoo solido. Si spunta in Abitudini per %1$d giorni, poi si controlla ogni 3 mesi.</item>
+        <item quantity="other">Ti troverai di nuovo davanti alla stessa scelta, come una tazza da caffè o uno shampoo solido. Si spunta in Abitudini per %1$d giorni, poi si controlla ogni 3 mesi.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Ancora nessuno scambio</string>
+    <string name="tabs_changes_day_badge">GIORNO %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">TIENE</string>
+    <string name="tabs_changes_one_off_todo">Una tantum, da fare</string>
+    <string name="tabs_changes_one_off_tip">Lo fai una volta ed è fatta, come svuotare un cassetto, passare a una tariffa di energia verde o riparare una giacca. Spuntalo e passa in Completati.</string>
+    <string name="tabs_changes_nothing_waiting">Niente in attesa</string>
+    <string name="tabs_changes_finished">COMPLETATI · %1$d</string>
+
+    <string name="tabs_avoid_title">Lista da evitare</string>
+    <string name="tabs_avoid_search">Cerca…</string>
+    <string name="tabs_avoid_no_match">Nessun risultato</string>
+    <string name="tabs_avoid_companies">Aziende</string>
+    <string name="tabs_avoid_food">Cibo</string>
+    <string name="tabs_avoid_products">Prodotti</string>
+
+    <string name="tabs_avoid_added">Aggiunto</string>
+    <string name="tabs_avoid_why">Perché lo eviti</string>
+    <string name="tabs_avoid_own_words">Con parole tue</string>
+    <string name="tabs_avoid_brands">Marchi che possiede · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Un marchio per riga</string>
+    <string name="tabs_avoid_more_brands">+%1$d altri</string>
+    <string name="tabs_avoid_instead">Prendi questo invece</string>
+    <string name="tabs_avoid_instead_hint">Uno per riga</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">sgarro</item>
+        <item quantity="many">sgarri</item>
+        <item quantity="other">sgarri</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">evitato</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">mese in lista</item>
+        <item quantity="many">mesi in lista</item>
+        <item quantity="other">mesi in lista</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Esce dalla tua lista da evitare insieme alla sua cronologia.</string>
+
+    <string name="tabs_habit_delete_text">Se ne va tutta la sua cronologia.</string>
+    <string name="tabs_habit_created">Creato</string>
+    <string name="tabs_habit_to_do">Da fare</string>
+    <string name="tabs_habit_daily_ticks">Spunte giornaliere</string>
+    <string name="tabs_habit_day_of">Giorno %1$d di %2$d</string>
+    <string name="tabs_habit_finished">Completato</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">giorno in corso</item>
+        <item quantity="many">giorni in corso</item>
+        <item quantity="other">giorni in corso</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">volta interrotto</item>
+        <item quantity="many">volte interrotto</item>
+        <item quantity="other">volte interrotto</item>
+    </plurals>
+    <string name="tabs_habit_success">riuscita</string>
+    <string name="tabs_habit_current_streak">Serie attuale</string>
+    <string name="tabs_habit_longest_streak">Serie più lunga</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d giorno</item>
+        <item quantity="many">%1$d giorni</item>
+        <item quantity="other">%1$d giorni</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Perché è saltato</string>
+    <string name="tabs_habit_remove_reason">Togli questo motivo</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">modo in cui hai migliorato la tua vita</item>
+        <item quantity="many">modi in cui hai migliorato la tua vita</item>
+        <item quantity="other">modi in cui hai migliorato la tua vita</item>
+    </plurals>
+    <string name="tabs_insights_habits">Abitudini</string>
+    <string name="tabs_insights_swaps">Scambi</string>
+    <string name="tabs_insights_avoids">Da evitare</string>
+    <string name="tabs_insights_on_track_section">In linea</string>
+    <string name="tabs_insights_avg_days">%1$d g</string>
+    <string name="tabs_insights_average_kept">fatti in media</string>
+    <string name="tabs_insights_days_checked_in">giorni con check-in</string>
+    <string name="tabs_insights_on_track">in linea</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">sgarro</item>
+        <item quantity="many">sgarri</item>
+        <item quantity="other">sgarri</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">nuovo passo</item>
+        <item quantity="many">nuovi passi</item>
+        <item quantity="other">nuovi passi</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">una tantum completato</item>
+        <item quantity="many">una tantum completati</item>
+        <item quantity="other">una tantum completati</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Motivi di sgarro principali</string>
+    <string name="tabs_insights_added_quarter">Aggiunti questo trimestre</string>
+    <string name="tabs_insights_past_summaries">Riepiloghi trimestrali passati</string>
+    <string name="tabs_insights_first_on">Il tuo primo arriva il %1$s</string>
+    <string name="tabs_insights_all_time">Sempre</string>
+    <string name="tabs_insights_period">Da %1$s a %2$s %3$d</string>
+
+    <string name="forms_back">Indietro</string>
+    <string name="forms_back_habits">Abitudini</string>
+    <string name="forms_back_settings">Impostazioni</string>
+    <string name="forms_add">Aggiungi</string>
+    <string name="forms_save">Salva</string>
+    <string name="forms_finish">Fine</string>
+    <string name="forms_delete">Elimina</string>
+    <string name="forms_why">Perché</string>
+    <string name="forms_never_show">Non mostrare più</string>
+    <string name="forms_every">Ogni</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">giorno</item>
+        <item quantity="many">giorni</item>
+        <item quantity="other">giorni</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Passo %1$d di %2$d</string>
+    <string name="forms_checkin_next_weekly">Ora, check-in settimanale ›</string>
+    <string name="forms_checkin_next_quarter">Ora, check-up trimestrale ›</string>
+    <string name="forms_daily_title">Check-in giornaliero</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d giorno precedente non compilato</item>
+        <item quantity="many">%1$d giorni precedenti non compilati</item>
+        <item quantity="other">%1$d giorni precedenti non compilati</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Salta tutti</string>
+    <string name="forms_daily_today">Oggi · %1$s</string>
+    <string name="forms_daily_skip">Salta</string>
+    <string name="forms_daily_undo_skip">Annulla salto</string>
+    <string name="forms_daily_new_tag">Nuovo motivo</string>
+    <string name="forms_daily_new_tag_hint">Il bidone era pieno</string>
+    <string name="forms_weekly_title">Check-in settimanale</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d settimana arretrata, un nuovo passo vale per tutte.</item>
+        <item quantity="many">%1$d settimane arretrate, un nuovo passo vale per tutte.</item>
+        <item quantity="other">%1$d settimane arretrate, un nuovo passo vale per tutte.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Nessun nuovo passo questa settimana</string>
+    <string name="forms_quarter_title">Check-up trimestrale</string>
+    <string name="forms_quarter_nothing">Non c\'è ancora niente da controllare. Ora tocca al tuo riepilogo.</string>
+    <string name="forms_quarter_habits">Abitudini</string>
+    <string name="forms_quarter_swaps">Scambi</string>
+    <string name="forms_quarter_avoid">Da evitare</string>
+    <string name="forms_quarter_missed">Saltato</string>
+    <string name="forms_quarter_missed_level">Saltato: %1$s</string>
+
+    <string name="forms_new_title">Nuovo passo</string>
+    <string name="forms_edit_title">Modifica: %1$s</string>
+    <string name="forms_add_kind">Aggiungi: %1$s</string>
+    <string name="forms_title_habit">Abitudine</string>
+    <string name="forms_title_swap">Scambio</string>
+    <string name="forms_title_avoid">Da evitare</string>
+    <string name="forms_save_changes">Salva modifiche</string>
+    <string name="forms_what_kind">Di che tipo?</string>
+    <string name="forms_name">Nome</string>
+    <string name="forms_your_new_step">Il tuo nuovo passo</string>
+    <string name="forms_hint_habit">Leggere 10 pagine</string>
+    <string name="forms_hint_swap">Luffa, non spugna</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Che tipo di abitudine?</string>
+    <string name="forms_timing_tip_title">Quando vuoi o a fine giornata</string>
+    <string name="forms_timing_tip">Quando vuoi: una cosa che fai una volta, come una corsa. Spuntala appena l\'hai fatta.\n\nA fine giornata: una regola che rispetti tutto il giorno, come niente snack. Puoi spuntarla solo la sera.</string>
+    <string name="forms_anytime">Quando vuoi</string>
+    <string name="forms_end_of_day">Fine giornata</string>
+    <string name="forms_what_is_it">Che cos\'è?</string>
+    <string name="forms_how_often">Quanto spesso?</string>
+    <string name="forms_often_specific">Giorni precisi</string>
+    <string name="forms_often_whenever">Quando capita</string>
+    <string name="forms_often_once">Una volta sola</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">volta ogni</item>
+        <item quantity="many">volte ogni</item>
+        <item quantity="other">volte ogni</item>
+    </plurals>
+    <string name="forms_unit_day">giorno</string>
+    <string name="forms_unit_week">settimana</string>
+    <string name="forms_unit_month">mese</string>
+    <string name="forms_unit_x_days">X giorni</string>
+    <string name="forms_ideas">Idee</string>
+    <string name="forms_ideas_others">Altre</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Vedi %1$d idea ›</item>
+        <item quantity="many">Vedi tutte le %1$d idee ›</item>
+        <item quantity="other">Vedi tutte le %1$d idee ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Tutte le idee</string>
+    <string name="forms_search">Cerca…</string>
+    <string name="forms_all">Tutto</string>
+
+    <string name="forms_settings_title">Impostazioni</string>
+    <string name="forms_set_colours">Colori</string>
+    <string name="forms_set_style">Stile del riepilogo trimestrale</string>
+    <string name="forms_set_checkins">Check-in</string>
+    <string name="forms_set_checkin_hour">Il check-in giornaliero apre alle</string>
+    <string name="forms_set_checkin_hour_tip">Da quest\'ora puoi spuntare le abitudini di fine giornata e fare il check-in giornaliero.</string>
+    <string name="forms_set_week_start">La settimana inizia di</string>
+    <string name="forms_set_week_start_tip">Il giorno da cui partono la griglia delle abitudini, le settimane e i grafici.</string>
+    <string name="forms_monday">Lunedì</string>
+    <string name="forms_sunday">Domenica</string>
+    <string name="forms_set_new_step_every">Nuovo passo ogni</string>
+    <string name="forms_set_new_step_every_tip">Quante settimane tra un check-in settimanale e l\'altro.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">settimana</item>
+        <item quantity="many">settimane</item>
+        <item quantity="other">settimane</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Giorno del check-in settimanale</string>
+    <string name="forms_set_weekly_day_tip">In questo giorno, dopo il check-in giornaliero, scegli il nuovo passo della settimana dopo.</string>
+    <string name="forms_set_checkup">Check-up trimestrale</string>
+    <string name="forms_set_checkup_tip">Tutti fanno il check-up negli stessi giorni: 1 gen, 1 apr, 1 lug e 1 ott, così potete condividere i riepiloghi insieme. Se preferisci, puoi scegliere una data tua.</string>
+    <string name="forms_set_same">Come tutti</string>
+    <string name="forms_set_own">Una data mia</string>
+    <string name="forms_set_starting">A partire da</string>
+    <string name="forms_set_starting_tip">Il mese del tuo primo check-up personale.</string>
+    <string name="forms_earlier">Prima</string>
+    <string name="forms_later">Dopo</string>
+    <string name="forms_set_every_tip">Mesi tra un check-up e l\'altro.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">mese</item>
+        <item quantity="many">mesi</item>
+        <item quantity="other">mesi</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Giorno del mese</string>
+    <string name="forms_set_day_of_month_tip">Quale giorno di quel mese.</string>
+    <string name="forms_set_everyone">Tutti: 1 gen · 1 apr · 1 lug · 1 ott</string>
+    <string name="forms_set_days_build">Giorni per creare un\'abitudine</string>
+    <string name="forms_set_days_build_tip">Gli studi hanno trovato da 18 a 254 giorni, il numero più citato è 66 (Lally et al. 2010, Singh et al. 2024). Dopo questi giorni un nuovo passo passa ai tuoi check-up.</string>
+    <string name="forms_set_nudge">Promemoria giornaliero</string>
+    <string name="forms_set_nudge_tip">Un promemoria a quest\'ora, solo se c\'è ancora qualcosa da spuntare.</string>
+    <string name="forms_set_more">Altro</string>
+    <string name="forms_set_reasons">Motivi di sgarro</string>
+    <string name="forms_set_tutorial">Rivedi il tutorial</string>
+    <string name="forms_set_export">Esporta i miei dati</string>
+    <string name="forms_set_import">Importa dati</string>
+
+    <string name="forms_reasons_title">Motivi di sgarro</string>
+    <string name="forms_reasons_hint">Aggiungi un motivo tuo</string>
+    <string name="forms_reasons_used">usato %1$d×</string>
+    <string name="forms_reasons_delete_title">Eliminare %1$s?</string>
+    <string name="forms_reasons_delete_text">Gli sgarri restano nella tua cronologia, solo senza questo motivo.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d abitudine</item>
+        <item quantity="many">%1$d abitudini</item>
+        <item quantity="other">%1$d abitudini</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d scambio</item>
+        <item quantity="many">%1$d scambi</item>
+        <item quantity="other">%1$d scambi</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d da evitare</item>
+        <item quantity="many">%1$d da evitare</item>
+        <item quantity="other">%1$d da evitare</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, spunte dal %2$s</string>
+    <string name="forms_export_title">Esporta i miei dati</string>
+    <string name="forms_export_what">Cosa c\'è nel file</string>
+    <string name="forms_export_ticks">Ogni spunta, sgarro e motivo</string>
+    <string name="forms_export_ticks_since">Ogni spunta, sgarro e motivo dal %1$s</string>
+    <string name="forms_export_summaries">I tuoi riepiloghi trimestrali</string>
+    <string name="forms_export_settings">Le tue impostazioni, i colori e il nome</string>
+    <string name="forms_export_file">File</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Salva file</string>
+    <string name="forms_export_send">Invia a…</string>
+    <string name="forms_export_send_title">Invia i tuoi dati di Alice</string>
+    <string name="forms_export_saved">Salvato %1$s</string>
+    <string name="forms_export_save_failed">Impossibile salvare il file</string>
+
+    <string name="forms_import_title">Importa dati</string>
+    <string name="forms_import_choose">Scegli un backup di Alice</string>
+    <string name="forms_import_choose_sub">.json, da Esporta su un altro telefono</string>
+    <string name="forms_import_cant_open">Impossibile aprire il file.</string>
+    <string name="forms_import_not_backup">Questo file non è un backup di Alice.</string>
+    <string name="forms_import_replace_mode">Sostituisci quello che c\'è</string>
+    <string name="forms_import_add_mode">Aggiungi a quello che c\'è</string>
+    <string name="forms_import_button">Importa</string>
+    <string name="forms_import_replace_title">Sostituire i tuoi dati?</string>
+    <string name="forms_import_add_title">Aggiungere questi dati?</string>
+    <string name="forms_import_replace_text">Tutto quello che c\'è su questo telefono viene sostituito dal file. Esporta prima, se vuoi tenerlo.</string>
+    <string name="forms_import_add_text">Le abitudini e la cronologia del file si aggiungono alle tue.</string>
+    <string name="forms_import_done">Dati importati</string>
+
+    <string name="look_share">Condividi</string>
+    <string name="look_save_image">Salva immagine</string>
+    <string name="look_next_week">Ora, la tua settimana ›</string>
+    <string name="look_keep_going">Continua così</string>
+    <string name="look_storage_needed">Alice ha bisogno dell\'accesso alla memoria per salvare l\'immagine</string>
+    <string name="look_share_caption">Il mio trimestre con Alice. Inizia anche tu: %1$s</string>
+    <string name="look_share_clip">Riepilogo di Alice</string>
+    <string name="look_share_chooser">Condividi il tuo trimestre</string>
+    <string name="look_saved">Salvata in Pictures/Alice</string>
+    <string name="look_save_failed">Impossibile salvare l\'immagine</string>
+
+    <string name="look_style_poster">Poster</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Bacheca dei trofei</string>
+    <string name="look_style_receipt">Scontrino</string>
+    <string name="look_style_report">Pagella</string>
+    <string name="look_style_boarding">Carta d\'imbarco</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Calendario</string>
+    <string name="look_style_trading">Carta collezionabile</string>
+
+    <string name="look_quote_1">Piccoli Passi, Ogni Giorno</string>
+    <string name="look_quote_2">Grazie di Esserci</string>
+    <string name="look_quote_3">Progresso, Non Perfezione</string>
+    <string name="look_quote_4">Hai Continuato. Questo Conta</string>
+    <string name="look_quote_5">Piccoli Cambiamenti, Grande Differenza</string>
+    <string name="look_quote_6">Ogni Giorno Hai Scelto Meglio</string>
+    <string name="look_quote_7">Piano È Sempre Avanti</string>
+    <string name="look_quote_8">Stai Costruendo una Vita che Ti Piace</string>
+    <string name="look_quote_9">Un Passo alla Volta Fa la Differenza</string>
+    <string name="look_quote_10">Continua a Esserci per Te</string>
+    <string name="look_quote_11">Il Tuo Io Futuro Ti Ringrazia</string>
+    <string name="look_quote_12">Poco a Poco, Tanto</string>
+    <string name="look_quote_13">La Costanza È una Magia Silenziosa</string>
+    <string name="look_quote_14">Guarda Quanta Strada Hai Fatto</string>
+    <string name="look_quote_15">Festeggia le Piccole Vittorie</string>
+    <string name="look_quote_16">I Giorni Belli si Costruiscono</string>
+
+    <string name="look_stamp_1">ECCELLENTE</string>
+    <string name="look_stamp_2">STRAORDINARIO</string>
+    <string name="look_stamp_3">BEN FATTO</string>
+    <string name="look_stamp_4">BRILLANTE</string>
+    <string name="look_stamp_5">SUPERBO</string>
+    <string name="look_stamp_6">DIECI E LODE</string>
+    <string name="look_stamp_7">STELLA D\'ORO</string>
+    <string name="look_stamp_8">OTTIMO LAVORO</string>
+
+    <string name="look_period">Da %1$s a %2$s</string>
+    <string name="look_scan">SCANSIONA PER\nINIZIARE IL TUO\nPERCORSO</string>
+    <string name="look_you">Tu</string>
+    <string name="look_on_track">in linea</string>
+    <string name="look_new_steps">nuovi passi</string>
+    <string name="look_days_in">giorni fatti</string>
+    <string name="look_new">nuovo</string>
+    <string name="look_week_by_week">Settimana per settimana</string>
+    <string name="look_coming_soon">In arrivo</string>
+    <string name="look_new_this_quarter">Nuovi questo trimestre</string>
+    <string name="look_kept_up_longest">Mantenuti più a lungo</string>
+    <string name="look_habits">Abitudini</string>
+    <string name="look_swaps">Scambi</string>
+    <string name="look_avoids">Da evitare</string>
+    <string name="look_ways_improved">Miglioramenti</string>
+    <string name="look_improved_in">Hai migliorato la tua vita in %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d abitudine</item>
+        <item quantity="many">%1$d abitudini</item>
+        <item quantity="other">%1$d abitudini</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d scambio</item>
+        <item quantity="many">%1$d scambi</item>
+        <item quantity="other">%1$d scambi</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d da evitare</item>
+        <item quantity="many">%1$d da evitare</item>
+        <item quantity="other">%1$d da evitare</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d sgarro</item>
+        <item quantity="many">%1$d sgarri</item>
+        <item quantity="other">%1$d sgarri</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d modo</item>
+        <item quantity="many">%1$d modi</item>
+        <item quantity="other">%1$d modi</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">abitudine</item>
+        <item quantity="many">abitudini</item>
+        <item quantity="other">abitudini</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">scambio</item>
+        <item quantity="many">scambi</item>
+        <item quantity="other">scambi</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">da evitare</item>
+        <item quantity="many">da evitare</item>
+        <item quantity="other">da evitare</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">sgarro</item>
+        <item quantity="many">sgarri</item>
+        <item quantity="other">sgarri</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">modo</item>
+        <item quantity="many">modi</item>
+        <item quantity="other">modi</item>
+    </plurals>
+
+    <string name="look_poster_improved">Hai migliorato la tua vita in %1$s</string>
+    <string name="look_poster_on_track">IN LINEA</string>
+    <string name="look_poster_days">giorni</string>
+    <string name="look_poster_achievements">Traguardi</string>
+    <string name="look_poster_first_ones">I tuoi primi traguardi stanno arrivando</string>
+    <string name="look_poster_added">Cosa hai aggiunto questo trimestre</string>
+
+    <string name="look_wrapped_stars">Le tue stelle</string>
+
+    <string name="look_trophy_ways">modi in cui hai migliorato\nla tua vita</string>
+    <string name="look_trophy_next_quarter">Il prossimo trimestre</string>
+    <string name="look_trophy_first_medal">la tua prima medaglia</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Nuovi sullo scaffale:</string>
+
+    <string name="look_receipt_title">Check-up trimestrale · %1$s</string>
+    <string name="look_receipt_customer">Cliente: %1$s</string>
+    <string name="look_receipt_habits">Abitudini create</string>
+    <string name="look_receipt_swaps">Cose scambiate</string>
+    <string name="look_receipt_avoids">Cose evitate</string>
+    <string name="look_receipt_ways">Modi in cui hai migliorato la tua vita</string>
+    <string name="look_receipt_on_track">In linea questo trimestre</string>
+    <string name="look_receipt_slips">Sgarri</string>
+    <string name="look_receipt_new_steps">Nuovi passi creati</string>
+    <string name="look_receipt_new">Nuovi questo trimestre: %1$s</string>
+
+    <string name="look_report_title">Pagella dei Piccoli Passi</string>
+    <string name="look_report_pupil">%1$s · Alunno: %2$s</string>
+    <string name="look_report_subject">MATERIA</string>
+    <string name="look_report_built">CREATO</string>
+    <string name="look_report_grade">VOTO</string>
+    <string name="look_report_attendance">Presenze %1$s</string>
+    <string name="look_report_on_track">In linea %1$s</string>
+    <string name="look_report_slips">Sgarri %1$s</string>
+    <string name="look_report_achievements">TRAGUARDI</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">NUOVE MATERIE DEL TRIMESTRE (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Giudizio dell\'insegnante:</string>
+    <string name="look_report_calm">Un trimestre calmo e costante.</string>
+    <string name="look_report_ups_downs">Un trimestre con alti e bassi, e non hai mollato.</string>
+    <string name="look_report_star">Ottimo lavoro, %1$s. Continua così!</string>
+    <string name="look_report_keep_up">Continua così!</string>
+    <string name="look_report_week">SETTIMANA PER SETTIMANA</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Volo Q%1$d</string>
+    <string name="look_boarding_from">DA</string>
+    <string name="look_boarding_old">VECCHIE</string>
+    <string name="look_boarding_habits">abitudini</string>
+    <string name="look_boarding_to">A</string>
+    <string name="look_boarding_new">UN NUOVO</string>
+    <string name="look_boarding_better_you">te migliore</string>
+    <string name="look_boarding_passenger">Passeggero</string>
+    <string name="look_boarding_dates">Date</string>
+    <string name="look_boarding_miles">Miglia volate</string>
+    <string name="look_boarding_on_time">In orario</string>
+    <string name="look_boarding_turbulence">Turbolenze</string>
+    <string name="look_boarding_days">Giorni a bordo</string>
+    <string name="look_boarding_flyer">FREQUENT FLYER, I TUOI COMPAGNI PIÙ FEDELI</string>
+    <string name="look_boarding_log">DIARIO DI BORDO, SETTIMANA PER SETTIMANA</string>
+    <string name="look_boarding_stops">NUOVE TAPPE, +%1$d</string>
+    <string name="look_boarding_note">NOTA DEL COMANDANTE</string>
+
+    <string name="look_polaroid_life">LA TUA VITA</string>
+    <string name="look_polaroid_quarter">QUESTO TRIMESTRE</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d giorni fatti</string>
+    <string name="look_polaroid_longest">MANTENUTI PIÙ A LUNGO</string>
+    <string name="look_polaroid_new">NUOVI, +%1$d</string>
+
+    <string name="look_calendar_added">Aggiunti</string>
+
+    <string name="look_trading_common">Comune</string>
+    <string name="look_trading_uncommon">Non comune</string>
+    <string name="look_trading_rare">Rara</string>
+    <string name="look_trading_legendary">Leggendaria</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">MODO</item>
+        <item quantity="many">MODI</item>
+        <item quantity="other">MODI</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$dº</string>
+    <string name="look_ordinal_nd">%1$dº</string>
+    <string name="look_ordinal_rd">%1$dº</string>
+    <string name="look_ordinal_th">%1$dº</string>
+    <string name="look_trading_number">N. %1$03d · il tuo %2$s trimestre</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">PS</string>
+    <string name="look_trading_days">%1$d/%2$d giorni</string>
+    <string name="look_trading_power">Potenza, settimana per settimana</string>
+    <string name="look_trading_edition">%1$s · edizione Q%2$d</string>
+
+    <string name="look_sample_water_first">Prima l\'acqua</string>
+    <string name="look_sample_own_bag">Borsa propria</string>
+    <string name="look_sample_read_pages">Leggere 10 pagine</string>
+    <string name="look_sample_reading">Leggere ogni giorno</string>
+    <string name="look_sample_late_snacks">Niente snack la sera</string>
+    <string name="look_sample_stretching">Stretching</string>
+    <string name="look_sample_cooler_home">Casa più fresca</string>
+    <string name="look_sample_loofah">Luffa, non spugna</string>
+    <string name="look_sample_palm_oil">Senza olio di palma</string>
+    <string name="look_sample_stretch">Stretching 10 min</string>
+
+    <string name="look_colours_title">Colori</string>
+    <string name="look_colours_preview">Anteprima</string>
+    <string name="look_colours_your_summary">Il tuo riepilogo trimestrale</string>
+    <string name="look_colours_light">Chiaro</string>
+    <string name="look_colours_dark">Scuro</string>
+    <string name="look_styles_title">Stile del riepilogo trimestrale</string>
+    <string name="look_styles_all_pictures">Vedi tutte le 30 immagini Polaroid</string>
+    <string name="look_styles_refresh">Aggiorna</string>
+    <string name="look_pictures_title">Immagini Polaroid</string>
+    <string name="look_pictures_back">Stili del riepilogo</string>
+
+    <string name="look_welcome_name">Il tuo nome</string>
+    <string name="look_welcome_start">Inizia</string>
+    <string name="look_welcome_import">Importa i miei dati</string>
+
+    <string name="look_tut_skip">Salta</string>
+    <string name="look_tut_page">%1$d DI %2$d</string>
+    <string name="look_tut_back">Indietro</string>
+    <string name="look_tut_start">Inizia</string>
+    <string name="look_tut_next">Avanti</string>
+    <string name="look_tut1_title">Diventa la versione migliore di te, un passo alla volta</string>
+    <string name="look_tut1_body">Crea nuove abitudini, fai scelte più gentili e guarda tutti i tuoi traguardi sommarsi.</string>
+    <string name="look_tut1_habits">Crea buone abitudini giorno dopo giorno e diventa chi vuoi essere.</string>
+    <string name="look_tut1_swaps">Scambia i prodotti con altri più gentili, meglio per il pianeta, le persone o la tua salute.</string>
+    <string name="look_tut1_avoids">Tieni traccia delle aziende, dei cibi e dei prodotti che preferisci non sostenere.</string>
+    <string name="look_tut2_title">Spunta e via</string>
+    <string name="look_tut2_body">Tocca un quadratino quando hai fatto un\'abitudine. Quelle della sera si sbloccano all\'ora del tuo check-in.</string>
+    <string name="look_tut3_title">%1$s, poi ogni %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d giorno</item>
+        <item quantity="many">%1$d giorni</item>
+        <item quantity="other">%1$d giorni</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d mese</item>
+        <item quantity="many">%1$d mesi</item>
+        <item quantity="other">%1$d mesi</item>
+    </plurals>
+    <string name="look_tut3_body">Gli studi dicono che per creare un\'abitudine servono da 18 a 254 giorni. Il numero più citato è 66, quindi Alice parte da lì.</string>
+    <string name="look_tut3_days_label">Giorni per creare un\'abitudine</string>
+    <string name="look_tut3_checkup">Check-up ogni</string>
+    <string name="look_tut3_small">Puoi cambiare entrambi nelle Impostazioni.</string>
+    <string name="look_tut4_title">Una volta a settimana, un nuovo passo</string>
+    <string name="look_tut4_body">Aggiungere un nuovo passo alla volta ti fa crescere piano, senza caricarti di troppe cose insieme.</string>
+    <string name="look_tut4_day">Giorno del check-in</string>
+    <string name="look_tut4_small">Anche questo si cambia nelle Impostazioni.</string>
+    <string name="look_tut5_title">Ogni trimestre, il tuo riepilogo</string>
+    <string name="look_tut5_body">Condividi quanta strada hai fatto con gli amici e le persone a cui vuoi bene. Tocca lo stile che ti piace:</string>
+    <string name="look_tut_change_mind">Puoi sempre cambiare idea.</string>
+    <string name="look_tut6_title">Rendila tua</string>
+    <string name="look_tut6_body">Scegli i colori che ti fanno sentire più a tuo agio. Tutta l\'app cambia subito.</string>
+    <string name="look_tut7_title">Cambia tutto, quando vuoi</string>
+    <string name="look_tut7_body">Orari del check-in, giorni per creare un\'abitudine, stile del riepilogo, colori e dati: è tutto nelle Impostazioni.</string>
+    <string name="look_tut7_gear">Tocca l\'ingranaggio in alto in Abitudini per aprire le Impostazioni.</string>
+    <string name="look_tut7_open">Apri Impostazioni</string>
+
+    <string name="lang_title">Lingua</string>
+    <string name="pron_title">Pronomi</string>
+    <string name="pron_she">lei</string>
+    <string name="pron_he">lui</string>
+    <string name="pron_they">neutro</string>
+    <string name="lang_spotted">Hai trovato un errore nella tua lingua?</string>
+    <string name="lang_search">Cerca la tua lingua</string>
+    <string name="lang_phone">Lingua del telefono</string>
+    <string name="lang_follow">Segui il telefono</string>
+    <string name="lang_note_title">Aiutami con le traduzioni</string>
+    <string name="lang_note_1">Ciao, sono Lucy e ho creato Alice.</string>
+    <string name="lang_note_2">Parlo inglese, slovacco, ceco e russo, quindi quelle traduzioni le ho controllate io. Le altre lingue non sono ancora state controllate da un madrelingua.</string>
+    <string name="lang_note_3">Se trovi un errore nella tua lingua, fammelo sapere così posso correggerlo. E se usi Alice nella tua lingua da un po\' e tutto suona bene, dimmelo pure, così posso segnarla come approvata.</string>
+    <string name="lang_note_4">Grazie!</string>
+    <string name="lang_not_approved">NON ANCORA APPROVATA</string>
+    <string name="lang_report">Segnala un errore</string>
+    <string name="lang_all_correct">La mia lingua è tutta corretta</string>
+    <string name="lang_mail_mistake_body">Cosa suona sbagliato, e in quale schermata:\n\n</string>
+    <string name="lang_mail_correct_body">Uso Alice nella mia lingua da un po\' e tutto suona bene.\n\n</string>
+    <string name="lang_no_mail">Nessuna app email trovata</string>
+</resources>

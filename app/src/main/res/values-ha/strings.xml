@@ -1,0 +1,918 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Na gaji sosai</string>
+    <string name="core_reason_craving">Sha\'awa</string>
+    <string name="core_reason_no_time">Babu lokaci</string>
+    <string name="core_reason_forgot">Na manta</string>
+    <string name="core_reason_no_alternative">Babu madadi</string>
+    <string name="core_reason_social">Tare da mutane</string>
+    <string name="core_reason_impulse">Kwatsam</string>
+    <string name="core_reason_too_expensive">Ya yi tsada</string>
+    <string name="core_reason_away">Ba na gida</string>
+
+    <string name="core_nudge_channel">Tunatarwar yau</string>
+    <string name="core_nudge_title">Saura abin da za a yi wa alama yau</string>
+    <string name="core_save_failed">Ba a iya ajiye wannan ba, sake gwadawa</string>
+
+    <string name="core_kind_habit">Ɗabi\'a</string>
+    <string name="core_kind_swap">Musaya</string>
+    <string name="core_kind_avoid">Kaurace</string>
+    <string name="core_about">Game da %1$s</string>
+    <string name="core_ok">To</string>
+    <string name="core_less">Ƙasa</string>
+    <string name="core_more">Ƙari</string>
+    <string name="core_cancel">Soke</string>
+    <string name="core_settings">Saituna</string>
+    <string name="core_span_week">Mako</string>
+    <string name="core_span_month">Wata</string>
+    <string name="core_span_year">Shekara</string>
+    <string name="core_span_all">Duk lokaci</string>
+    <string name="core_tab_habits">Ɗabi\'u</string>
+    <string name="core_tab_changes">Canje-canje</string>
+    <string name="core_tab_avoid">Kaurace</string>
+    <string name="core_tab_insights">Bayanai</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">an kiyaye</string>
+    <string name="core_cell_missed">an rasa</string>
+    <string name="core_cell_partial">an yi wani ɓangare, %1$d zuwa yanzu</string>
+    <string name="core_cell_unfilled">ba a cike ba tukuna</string>
+    <string name="core_cell_open">abin yi</string>
+    <string name="core_cell_locked">a kulle har lokacin dubawa</string>
+    <string name="core_cell_future">ba tukuna ba</string>
+    <string name="core_cell_empty">babu abin da ake buƙata</string>
+    <string name="core_cell_band">an gama na wannan lokaci</string>
+    <string name="core_cell_off">ba ranar wannan mataki ba ce</string>
+    <string name="core_cell_none">kafin wannan mataki ya fara</string>
+
+    <string name="core_rhythm_one_off">Sau ɗaya kawai</string>
+    <string name="core_rhythm_end_of_day">Kullum, ana yin alama a ƙarshen rana</string>
+    <string name="core_rhythm_every_day">Kullum</string>
+    <string name="core_rhythm_every_days">Kowace %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">a mako</string>
+    <string name="core_rhythm_a_month">a wata</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, kowace rana</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s da %2$s</string>
+
+    <string name="core_achievement_short_months">wata %1$d</string>
+    <string name="core_achievement_short_days">kwana %1$d</string>
+    <string name="core_glance_step">%1$s, %2$d cikin %3$d</string>
+
+    <string name="core_slip_never">Ba ko sau ɗaya</string>
+    <string name="core_slip_once">Sau ɗaya</string>
+    <string name="core_slip_a_few">Kaɗan</string>
+    <string name="core_slip_half">Rabi</string>
+    <string name="core_slip_most">Mafi yawa</string>
+    <string name="core_slip_always">Kullum</string>
+
+    <string name="core_ideas_habit_anytime">Ɗabi\'u, kowane lokaci</string>
+    <string name="core_ideas_habit_end">Ɗabi\'u, ƙarshen rana</string>
+    <string name="core_ideas_swap">Musaye</string>
+    <string name="core_ideas_avoid_product">Kaurace, kayayyaki</string>
+    <string name="core_ideas_avoid_company">Kaurace, kamfanoni</string>
+    <string name="core_ideas_avoid_food">Kaurace, abinci</string>
+
+    <string name="core_tag_ethical">Ɗa\'a</string>
+    <string name="core_tag_health">Lafiya</string>
+    <string name="core_tag_clutter">Tarkace</string>
+    <string name="core_tag_ecological">Muhalli</string>
+    <string name="core_tag_animal_welfare">Jin daɗin dabbobi</string>
+    <string name="core_tag_workers_rights">Haƙƙin ma\'aikata</string>
+    <string name="core_tag_plastic">Roba</string>
+    <string name="core_tag_palm_oil">Man ja</string>
+    <string name="core_tag_deforestation">Sare dazuzzuka</string>
+    <string name="core_category_company">Kamfani</string>
+    <string name="core_category_food">Abinci</string>
+    <string name="core_category_product">Kaya</string>
+    <string name="core_verdict_avoid">KAURACE</string>
+    <string name="core_verdict_edge">A TSAKA</string>
+    <string name="core_verdict_fine">BABU LAIFI</string>
+
+    <string name="core_theme_off_white_honey">Farin madara &amp; zuma</string>
+    <string name="core_theme_vanilla_caramel">Vanilla &amp; karamel</string>
+    <string name="core_theme_sunflower">Furen rana</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Koko &amp; lemu</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; man shanu</string>
+    <string name="core_theme_midnight_honey">Tsakar dare &amp; zuma</string>
+    <string name="core_theme_forest_night">Daren daji</string>
+    <string name="core_theme_plum_dusk">Magariba mai ruwan plum</string>
+    <string name="core_theme_charcoal_coral">Gawayi &amp; murjani</string>
+
+    <string name="core_pic_sunny_meadow">Fili mai rana</string>
+    <string name="core_pic_sunset_hills">Tuddai da faɗuwar rana</string>
+    <string name="core_pic_starry_night">Dare mai taurari</string>
+    <string name="core_pic_beach_day">Ranar bakin teku</string>
+    <string name="core_pic_mountain_lake">Tafkin tsauni</string>
+    <string name="core_pic_snowy_village">Ƙauye da dusar ƙanƙara</string>
+    <string name="core_pic_rainy_garden">Lambu da ruwan sama</string>
+    <string name="core_pic_autumn_forest">Dajin kaka</string>
+    <string name="core_pic_cherry_blossom">Furen ceri</string>
+    <string name="core_pic_desert_cactus">Kakkausa a hamada</string>
+    <string name="core_pic_lighthouse">Hasumiyar haske</string>
+    <string name="core_pic_rainbow_field">Fili da bakan gizo</string>
+    <string name="core_pic_hot_air_balloon">Balan-balan mai iska mai zafi</string>
+    <string name="core_pic_sailboat">Jirgin ruwa mai filafili</string>
+    <string name="core_pic_cabin_in_the_woods">Bukka a cikin daji</string>
+    <string name="core_pic_tulip_field">Gonar tulip</string>
+    <string name="core_pic_campfire_night">Daren wutar sansani</string>
+    <string name="core_pic_misty_mountains">Tsaunuka da hazo</string>
+    <string name="core_pic_sunrise_sea">Teku da fitowar rana</string>
+    <string name="core_pic_snowy_pines">Bishiyoyin fir da dusar ƙanƙara</string>
+    <string name="core_pic_lavender_field">Gonar lavender</string>
+    <string name="core_pic_waterfall">Magudanar ruwa</string>
+    <string name="core_pic_city_at_dusk">Birni da magariba</string>
+    <string name="core_pic_picnic">Cin abinci a waje</string>
+    <string name="core_pic_moon_over_the_lake">Wata a saman tafki</string>
+    <string name="core_pic_palm_island">Tsibirin dabino</string>
+    <string name="core_pic_windmill">Injin iska</string>
+    <string name="core_pic_bike_path">Hanyar keke</string>
+    <string name="core_pic_greenhouse">Gidan shuke-shuke</string>
+    <string name="core_pic_northern_lights">Hasken arewa</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">Mataki %d yana jira.</item>
+        <item quantity="other">Matakai %d suna jira.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">an kiyaye, sau %d</item>
+        <item quantity="other">an kiyaye, sau %d</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">sau %d a rana</item>
+        <item quantity="other">sau %d a rana</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Sau ɗaya</item>
+        <item quantity="other">Sau %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">kowane mako %d</item>
+        <item quantity="other">kowane mako %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">kowane wata %d</item>
+        <item quantity="other">kowane wata %d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">kowane kwana %d</item>
+        <item quantity="other">kowane kwana %d</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">wata %d, ba a rasa ko sau ɗaya ba</item>
+        <item quantity="other">wata %d, ba a rasa ko sau ɗaya ba</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">wata %d da ƙarfi</item>
+        <item quantity="other">wata %d da ƙarfi</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">kwana %d a jere</item>
+        <item quantity="other">kwana %d a jere</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">wata %d</item>
+        <item quantity="other">wata %d</item>
+    </plurals>
+
+    <string name="tabs_new_step">Sabon mataki</string>
+    <string name="tabs_edit">Gyara</string>
+    <string name="tabs_delete">Goge</string>
+    <string name="tabs_done">An gama</string>
+    <string name="tabs_back">Koma</string>
+    <string name="tabs_earlier">Baya</string>
+    <string name="tabs_later">Gaba</string>
+    <string name="tabs_delete_title">A goge %1$s?</string>
+    <string name="tabs_eod_unlock">Ɗabi\'un ƙarshen rana za su buɗe da %1$02d:00</string>
+    <string name="tabs_check_up">Bita</string>
+    <string name="tabs_one_off">Sau ɗaya kawai</string>
+
+    <string name="tabs_checkin_from">Dubawa daga %1$02d:00</string>
+    <string name="tabs_checkin_daily">Dubawar Yau</string>
+    <string name="tabs_checkin_weekly">Dubawar Mako</string>
+    <string name="tabs_checkin_quarter">Bitar Wata 3</string>
+    <string name="tabs_checked_in">An Duba</string>
+    <string name="tabs_quarter_section">BITAR WATA 3</string>
+    <string name="tabs_previous_week">Makon da ya wuce</string>
+    <string name="tabs_next_week">Mako mai zuwa</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">Kwana %1$d na %2$s!</item>
+        <item quantity="other">Kwana %1$d na %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Madalla. Yanzu zai koma cikin Bitar Wata 3, babu sauran alamar kullum.</string>
+    <string name="tabs_celebrate_first">Ta farko ita ce %1$s.</string>
+    <string name="tabs_glance_title">Wannan makon</string>
+    <string name="tabs_glance_ticks_kept">Alamomin da aka kiyaye</string>
+    <string name="tabs_glance_days_checked_in">Ranakun da aka duba</string>
+    <string name="tabs_glance_top_tag">Dalilin tuntuɓe mafi yawa:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, sau %2$d</item>
+        <item quantity="other">%1$s, sau %2$d</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Mafi sauƙi:</string>
+    <string name="tabs_glance_hardest">Mafi wuya:</string>
+
+    <string name="tabs_changes_ongoing">Musaye masu ci gaba</string>
+    <string name="tabs_changes_ongoing_tip_title">Musaya mai ci gaba</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Za a sake fuskantar wannan zaɓi, kamar kofin kofi ko sabulun shamfu. Ana yin alamarsa a Ɗabi\'u na kwana %1$d, sannan a duba shi kowane wata 3.</item>
+        <item quantity="other">Za a sake fuskantar wannan zaɓi, kamar kofin kofi ko sabulun shamfu. Ana yin alamarsa a Ɗabi\'u na kwana %1$d, sannan a duba shi kowane wata 3.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Babu musaya tukuna</string>
+    <string name="tabs_changes_day_badge">RANA %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">YANA DOREWA</string>
+    <string name="tabs_changes_one_off_todo">Sau ɗaya, abin yi</string>
+    <string name="tabs_changes_one_off_tip">Ana yin shi sau ɗaya kuma ya ƙare, kamar share aljihun tebur, komawa kan wutar lantarki mai tsabta ko gyaran jaket. Idan aka yi masa alama sai ya koma An Gama.</string>
+    <string name="tabs_changes_nothing_waiting">Babu abin da ke jira</string>
+    <string name="tabs_changes_finished">AN GAMA · %1$d</string>
+
+    <string name="tabs_avoid_title">Jerin kauracewa</string>
+    <string name="tabs_avoid_search">Nemo…</string>
+    <string name="tabs_avoid_no_match">Babu abin da ya dace</string>
+    <string name="tabs_avoid_companies">Kamfanoni</string>
+    <string name="tabs_avoid_food">Abinci</string>
+    <string name="tabs_avoid_products">Kayayyaki</string>
+
+    <string name="tabs_avoid_added">An ƙara</string>
+    <string name="tabs_avoid_why">Dalilin kauracewa</string>
+    <string name="tabs_avoid_own_words">A kalmominku</string>
+    <string name="tabs_avoid_brands">Alamun kasuwanci nasa · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Alama ɗaya a kowane layi</string>
+    <string name="tabs_avoid_more_brands">+%1$d ƙari</string>
+    <string name="tabs_avoid_instead">Yi amfani da wannan maimakon</string>
+    <string name="tabs_avoid_instead_hint">Ɗaya a kowane layi</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">tuntuɓe</item>
+        <item quantity="other">tuntuɓe</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">an kauce</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">wata a jeri</item>
+        <item quantity="other">watanni a jeri</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Zai fita daga jerin kauracewa tare da tarihinsa.</string>
+
+    <string name="tabs_habit_delete_text">Duk tarihinsa zai tafi tare da shi.</string>
+    <string name="tabs_habit_created">An ƙirƙira</string>
+    <string name="tabs_habit_to_do">Abin yi</string>
+    <string name="tabs_habit_daily_ticks">Alamomin kullum</string>
+    <string name="tabs_habit_day_of">Rana %1$d cikin %2$d</string>
+    <string name="tabs_habit_finished">An gama</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">rana ana ci gaba</item>
+        <item quantity="other">kwanaki ana ci gaba</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">karo da aka karya</item>
+        <item quantity="other">karo da aka karya</item>
+    </plurals>
+    <string name="tabs_habit_success">nasara</string>
+    <string name="tabs_habit_current_streak">Jerin yanzu</string>
+    <string name="tabs_habit_longest_streak">Jeri mafi tsawo</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">kwana %1$d</item>
+        <item quantity="other">kwana %1$d</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Dalilin tuntuɓe</string>
+    <string name="tabs_habit_remove_reason">Cire wannan dalili</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">hanyar da aka inganta rayuwa</item>
+        <item quantity="other">hanyoyin da aka inganta rayuwa</item>
+    </plurals>
+    <string name="tabs_insights_habits">Ɗabi\'u</string>
+    <string name="tabs_insights_swaps">Musaye</string>
+    <string name="tabs_insights_avoids">Kauracewa</string>
+    <string name="tabs_insights_on_track_section">Kan hanya</string>
+    <string name="tabs_insights_avg_days">kwana %1$d</string>
+    <string name="tabs_insights_average_kept">matsakaicin kiyayewa</string>
+    <string name="tabs_insights_days_checked_in">ranakun da aka duba</string>
+    <string name="tabs_insights_on_track">kan hanya</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">tuntuɓe</item>
+        <item quantity="other">tuntuɓe</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">sabon mataki</item>
+        <item quantity="other">sababbin matakai</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">na sau ɗaya da aka gama</item>
+        <item quantity="other">na sau ɗaya da aka gama</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Manyan dalilan tuntuɓe</string>
+    <string name="tabs_insights_added_quarter">An ƙara a wannan wata 3</string>
+    <string name="tabs_insights_past_summaries">Taƙaitawar Wata 3 da suka wuce</string>
+    <string name="tabs_insights_first_on">Ta farko za ta zo a %1$s</string>
+    <string name="tabs_insights_all_time">Duk lokaci</string>
+    <string name="tabs_insights_period">%1$s zuwa %2$s %3$d</string>
+
+    <string name="forms_back">Koma</string>
+    <string name="forms_back_habits">Ɗabi\'u</string>
+    <string name="forms_back_settings">Saituna</string>
+    <string name="forms_add">Ƙara</string>
+    <string name="forms_save">Ajiye</string>
+    <string name="forms_finish">Gama</string>
+    <string name="forms_delete">Goge</string>
+    <string name="forms_why">Me ya sa</string>
+    <string name="forms_never_show">Kar a sake nunawa</string>
+    <string name="forms_every">Kowane</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">kwana</item>
+        <item quantity="other">kwana</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Mataki %1$d cikin %2$d</string>
+    <string name="forms_checkin_next_weekly">Na gaba, Dubawar Mako ›</string>
+    <string name="forms_checkin_next_quarter">Na gaba, Bitar Wata 3 ›</string>
+    <string name="forms_daily_title">Dubawar Yau</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">Rana %1$d da ta wuce ba a cike ba</item>
+        <item quantity="other">Kwanaki %1$d da suka wuce ba a cike ba</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Tsallake duka</string>
+    <string name="forms_daily_today">Yau · %1$s</string>
+    <string name="forms_daily_skip">Tsallake</string>
+    <string name="forms_daily_undo_skip">Soke tsallakewa</string>
+    <string name="forms_daily_new_tag">Sabon dalili</string>
+    <string name="forms_daily_new_tag_hint">Kwandon shara ya cika</string>
+    <string name="forms_weekly_title">Dubawar Mako</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">Mako %1$d da ake bi, sabon mataki ɗaya ya isa duka.</item>
+        <item quantity="other">Makonni %1$d da ake bi, sabon mataki ɗaya ya isa duka.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Babu sabon mataki a wannan mako</string>
+    <string name="forms_quarter_title">Bitar Wata 3</string>
+    <string name="forms_quarter_nothing">Babu abin da aka gina tukuna da za a bita. Taƙaitawa ce ta gaba.</string>
+    <string name="forms_quarter_habits">Ɗabi\'u</string>
+    <string name="forms_quarter_swaps">Musaye</string>
+    <string name="forms_quarter_avoid">Kaurace</string>
+    <string name="forms_quarter_missed">An rasa</string>
+    <string name="forms_quarter_missed_level">An rasa: %1$s</string>
+
+    <string name="forms_new_title">Sabon mataki</string>
+    <string name="forms_edit_title">Gyara: %1$s</string>
+    <string name="forms_add_kind">Ƙara: %1$s</string>
+    <string name="forms_title_habit">Ɗabi\'a</string>
+    <string name="forms_title_swap">Musaya</string>
+    <string name="forms_title_avoid">Kaurace</string>
+    <string name="forms_save_changes">Ajiye canje-canje</string>
+    <string name="forms_what_kind">Wane iri?</string>
+    <string name="forms_name">Suna</string>
+    <string name="forms_your_new_step">Sabon mataki</string>
+    <string name="forms_hint_habit">Karanta shafuka 10</string>
+    <string name="forms_hint_swap">Soso na halitta, ba soson roba ba</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Wace irin ɗabi\'a?</string>
+    <string name="forms_timing_tip_title">Kowane lokaci ko ƙarshen rana</string>
+    <string name="forms_timing_tip">Kowane lokaci: abin da ake yi sau ɗaya, kamar gudu. Ana yi masa alama da zarar an gama.\n\nƘarshen rana: doka da ake kiyayewa duk yini, kamar babu kayan ciye-ciye. Da yamma kawai ake iya yi masa alama.</string>
+    <string name="forms_anytime">Kowane lokaci</string>
+    <string name="forms_end_of_day">Ƙarshen rana</string>
+    <string name="forms_what_is_it">Mene ne?</string>
+    <string name="forms_how_often">Sau nawa?</string>
+    <string name="forms_often_specific">Takamaiman ranaku</string>
+    <string name="forms_often_whenever">Kowane lokaci</string>
+    <string name="forms_often_once">Sau ɗaya kawai</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">sau ɗaya kowane</item>
+        <item quantity="other">sau kowane</item>
+    </plurals>
+    <string name="forms_unit_day">rana</string>
+    <string name="forms_unit_week">mako</string>
+    <string name="forms_unit_month">wata</string>
+    <string name="forms_unit_x_days">kwana X</string>
+    <string name="forms_ideas">Shawarwari</string>
+    <string name="forms_ideas_others">Wasu</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Duba shawara %1$d ›</item>
+        <item quantity="other">Duba duk shawarwari %1$d ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Duk shawarwarin matakai</string>
+    <string name="forms_search">Nemo…</string>
+    <string name="forms_all">Duka</string>
+
+    <string name="forms_settings_title">Saituna</string>
+    <string name="forms_set_colours">Launuka</string>
+    <string name="forms_set_style">Salon taƙaitawar Wata 3</string>
+    <string name="forms_set_checkins">Dubawa</string>
+    <string name="forms_set_checkin_hour">Dubawar Yau tana buɗewa da</string>
+    <string name="forms_set_checkin_hour_tip">Daga wannan lokaci ana iya yin alama ga ɗabi\'un ƙarshen rana da kuma Dubawar Yau.</string>
+    <string name="forms_set_week_start">Mako yana farawa ranar</string>
+    <string name="forms_set_week_start_tip">Ranar da teburin Ɗabi\'u, makonni da zane-zane suke farawa.</string>
+    <string name="forms_monday">Litinin</string>
+    <string name="forms_sunday">Lahadi</string>
+    <string name="forms_set_new_step_every">Sabon mataki kowane</string>
+    <string name="forms_set_new_step_every_tip">Makonni nawa tsakanin Dubawar Mako.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">mako</item>
+        <item quantity="other">makonni</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Ranar Dubawar Mako</string>
+    <string name="forms_set_weekly_day_tip">A wannan rana, bayan Dubawar Yau ana zaɓar sabon matakin mako mai zuwa.</string>
+    <string name="forms_set_checkup">Bitar Wata 3</string>
+    <string name="forms_set_checkup_tip">Kowa yana yin bita a ranaku ɗaya: 1 Jan, 1 Afr, 1 Yul da 1 Okt, don ku iya raba taƙaitawarku tare. Ana iya zaɓar wata rana maimakon haka.</string>
+    <string name="forms_set_same">Kamar kowa</string>
+    <string name="forms_set_own">Ranata</string>
+    <string name="forms_set_starting">Farawa a</string>
+    <string name="forms_set_starting_tip">Watan bita ta farko.</string>
+    <string name="forms_earlier">Baya</string>
+    <string name="forms_later">Gaba</string>
+    <string name="forms_set_every_tip">Watanni tsakanin bita.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">wata</item>
+        <item quantity="other">watanni</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Ranar wata</string>
+    <string name="forms_set_day_of_month_tip">Wace rana a wannan watan.</string>
+    <string name="forms_set_everyone">Kowa: 1 Jan · 1 Afr · 1 Yul · 1 Okt</string>
+    <string name="forms_set_days_build">Kwanakin gina ɗabi\'a</string>
+    <string name="forms_set_days_build_tip">Bincike ya gano kwana 18 zuwa 254, wanda aka fi ambata shi ne 66 (Lally et al. 2010, Singh et al. 2024). Bayan wannan adadin kwanaki sabon mataki zai koma cikin bita.</string>
+    <string name="forms_set_nudge">Tunatarwar yau</string>
+    <string name="forms_set_nudge_tip">Tunatarwa a wannan lokaci, sai idan akwai abin da ba a yi masa alama ba.</string>
+    <string name="forms_set_more">Ƙari</string>
+    <string name="forms_set_reasons">Dalilan tuntuɓe</string>
+    <string name="forms_set_tutorial">Sake kallon koyarwa</string>
+    <string name="forms_set_export">Fitar da bayanaina</string>
+    <string name="forms_set_import">Shigo da bayanai</string>
+
+    <string name="forms_reasons_title">Dalilan tuntuɓe</string>
+    <string name="forms_reasons_hint">Ƙara wani dalili</string>
+    <string name="forms_reasons_used">an yi amfani %1$d×</string>
+    <string name="forms_reasons_delete_title">A goge %1$s?</string>
+    <string name="forms_reasons_delete_text">Tuntuɓe za su ci gaba da zama a cikin tarihi, sai dai ba tare da wannan dalili ba.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">ɗabi\'a %1$d</item>
+        <item quantity="other">ɗabi\'u %1$d</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">musaya %1$d</item>
+        <item quantity="other">musaye %1$d</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">kauracewa %1$d</item>
+        <item quantity="other">kauracewa %1$d</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, alamomi tun %2$s</string>
+    <string name="forms_export_title">Fitar da bayanaina</string>
+    <string name="forms_export_what">Abin da ke shiga fayil</string>
+    <string name="forms_export_ticks">Kowace alama, tuntuɓe da dalili</string>
+    <string name="forms_export_ticks_since">Kowace alama, tuntuɓe da dalili tun %1$s</string>
+    <string name="forms_export_summaries">Taƙaitawar Wata 3</string>
+    <string name="forms_export_settings">Saituna, launuka da suna</string>
+    <string name="forms_export_file">Fayil</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Ajiye fayil</string>
+    <string name="forms_export_send">Aika zuwa…</string>
+    <string name="forms_export_send_title">Aika bayanan Alice</string>
+    <string name="forms_export_saved">An ajiye %1$s</string>
+    <string name="forms_export_save_failed">Ba a iya ajiye fayil ɗin ba</string>
+
+    <string name="forms_import_title">Shigo da bayanai</string>
+    <string name="forms_import_choose">Zaɓi ajiyar Alice</string>
+    <string name="forms_import_choose_sub">.json, daga Fitarwa a wata wayar</string>
+    <string name="forms_import_cant_open">Ba a iya buɗe wannan fayil ɗin ba.</string>
+    <string name="forms_import_not_backup">Wannan fayil ba ajiyar Alice ba ne.</string>
+    <string name="forms_import_replace_mode">Maye gurbin abin da ke nan</string>
+    <string name="forms_import_add_mode">Ƙara kan abin da ke nan</string>
+    <string name="forms_import_button">Shigo</string>
+    <string name="forms_import_replace_title">A maye gurbin bayanan?</string>
+    <string name="forms_import_add_title">A ƙara waɗannan bayanai?</string>
+    <string name="forms_import_replace_text">Duk abin da ke wannan wayar za a musanya shi da fayil ɗin. A fara fitarwa idan ana son ajiye shi.</string>
+    <string name="forms_import_add_text">Ɗabi\'u da tarihin da ke cikin fayil za a ƙara su a cikin abin da ke nan.</string>
+    <string name="forms_import_done">An shigo da bayanai</string>
+
+    <string name="look_share">Raba</string>
+    <string name="look_save_image">Ajiye hoto</string>
+    <string name="look_next_week">Na gaba, wannan makon ›</string>
+    <string name="look_keep_going">Ci gaba</string>
+    <string name="look_storage_needed">Alice tana buƙatar izinin ma\'adana don ajiye hoton</string>
+    <string name="look_share_caption">Wata ukuna tare da Alice. Fara naka: %1$s</string>
+    <string name="look_share_clip">Taƙaitawar Alice</string>
+    <string name="look_share_chooser">Raba wannan wata 3</string>
+    <string name="look_saved">An ajiye a Pictures/Alice</string>
+    <string name="look_save_failed">Ba a iya ajiye hoton ba</string>
+
+    <string name="look_style_poster">Fosta</string>
+    <string name="look_style_wrapped">Naɗaɗɗe</string>
+    <string name="look_style_trophy">Kantin kofuna</string>
+    <string name="look_style_receipt">Rasiti</string>
+    <string name="look_style_report">Katin sakamako</string>
+    <string name="look_style_boarding">Tikitin jirgi</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalanda</string>
+    <string name="look_style_trading">Katin musaya</string>
+
+    <string name="look_quote_1">Ƙananan Matakai, Kowace Rana</string>
+    <string name="look_quote_2">Na Gode da Zuwa</string>
+    <string name="look_quote_3">Ci Gaba, Ba Kamala Ba</string>
+    <string name="look_quote_4">An Ci Gaba. Wannan Yana da Muhimmanci</string>
+    <string name="look_quote_5">Ƙananan Canje-canje, Babban Bambanci</string>
+    <string name="look_quote_6">Kowace Rana an Zaɓi Mafi Kyau</string>
+    <string name="look_quote_7">Sannu a Hankali Ma Gaba Ne</string>
+    <string name="look_quote_8">Kuna Gina Rayuwar da Kuke So</string>
+    <string name="look_quote_9">Mataki Bayan Mataki Yana Taruwa</string>
+    <string name="look_quote_10">Ci Gaba da Zuwa don Kanku</string>
+    <string name="look_quote_11">Gobe Za Ta Ce Na Gode</string>
+    <string name="look_quote_12">Kaɗan Kaɗan, Sai Ya Yi Yawa</string>
+    <string name="look_quote_13">Dagewa Sihiri Ne Mai Shiru</string>
+    <string name="look_quote_14">Duba Irin Nisan da Aka Yi</string>
+    <string name="look_quote_15">Yi Alfahari da Ƙananan Nasarori</string>
+    <string name="look_quote_16">Ana Gina Kyawawan Kwanaki, Ba a Tsinta Ba</string>
+
+    <string name="look_stamp_1">MADALLA</string>
+    <string name="look_stamp_2">FICE</string>
+    <string name="look_stamp_3">AN YI KYAU</string>
+    <string name="look_stamp_4">JARUNTAKA</string>
+    <string name="look_stamp_5">GWANINTA</string>
+    <string name="look_stamp_6">MAKI MAFI GIRMA</string>
+    <string name="look_stamp_7">TAURARON ZINARE</string>
+    <string name="look_stamp_8">AIKI NAGARI</string>
+
+    <string name="look_period">%1$s zuwa %2$s</string>
+    <string name="look_scan">DUBA DON\nFARA NAKA\nTAFIYAR</string>
+    <string name="look_you">Ku</string>
+    <string name="look_on_track">kan hanya</string>
+    <string name="look_new_steps">sababbin matakai</string>
+    <string name="look_days_in">kwanakin da aka yi</string>
+    <string name="look_new">sabo</string>
+    <string name="look_week_by_week">Mako bayan mako</string>
+    <string name="look_coming_soon">Yana nan tafe</string>
+    <string name="look_new_this_quarter">Sabo a wannan wata 3</string>
+    <string name="look_kept_up_longest">Wanda aka fi kiyayewa</string>
+    <string name="look_habits">Ɗabi\'u</string>
+    <string name="look_swaps">Musaye</string>
+    <string name="look_avoids">Kauracewa</string>
+    <string name="look_ways_improved">Hanyoyin ingantawa</string>
+    <string name="look_improved_in">Kun inganta rayuwarku ta %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">ɗabi\'a %1$d</item>
+        <item quantity="other">ɗabi\'u %1$d</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">musaya %1$d</item>
+        <item quantity="other">musaye %1$d</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">kauracewa %1$d</item>
+        <item quantity="other">kauracewa %1$d</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">tuntuɓe %1$d</item>
+        <item quantity="other">tuntuɓe %1$d</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">hanya %1$d</item>
+        <item quantity="other">hanyoyi %1$d</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">ɗabi\'a</item>
+        <item quantity="other">ɗabi\'u</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">musaya</item>
+        <item quantity="other">musaye</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">kauracewa</item>
+        <item quantity="other">kauracewa</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">tuntuɓe</item>
+        <item quantity="other">tuntuɓe</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">hanya</item>
+        <item quantity="other">hanyoyi</item>
+    </plurals>
+
+    <string name="look_poster_improved">Kun inganta rayuwarku ta %1$s</string>
+    <string name="look_poster_on_track">KAN HANYA</string>
+    <string name="look_poster_days">kwanaki</string>
+    <string name="look_poster_achievements">Nasarori</string>
+    <string name="look_poster_first_ones">Nasarori na farko suna nan tafe</string>
+    <string name="look_poster_added">Abin da aka ƙara a wannan wata 3</string>
+
+    <string name="look_wrapped_stars">Taurarinku</string>
+
+    <string name="look_trophy_ways">hanyoyin da aka inganta\nrayuwa</string>
+    <string name="look_trophy_next_quarter">Wata 3 masu zuwa</string>
+    <string name="look_trophy_first_medal">lambar yabo ta farko</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Sabo a kan shiryayye:</string>
+
+    <string name="look_receipt_title">Bitar Wata 3 · %1$s</string>
+    <string name="look_receipt_customer">Suna: %1$s</string>
+    <string name="look_receipt_habits">Ɗabi\'un da aka gina</string>
+    <string name="look_receipt_swaps">Abubuwan da aka musanya</string>
+    <string name="look_receipt_avoids">Abubuwan da aka kauce wa</string>
+    <string name="look_receipt_ways">Hanyoyin da aka inganta rayuwa</string>
+    <string name="look_receipt_on_track">Kan hanya a wannan wata 3</string>
+    <string name="look_receipt_slips">Tuntuɓe</string>
+    <string name="look_receipt_new_steps">Sababbin matakan da aka gina</string>
+    <string name="look_receipt_new">Sabo a wannan wata 3: %1$s</string>
+
+    <string name="look_report_title">Rahoton Ƙananan Matakai</string>
+    <string name="look_report_pupil">%1$s · Suna: %2$s</string>
+    <string name="look_report_subject">DARASI</string>
+    <string name="look_report_built">AN GINA</string>
+    <string name="look_report_grade">MAKI</string>
+    <string name="look_report_attendance">Halarta %1$s</string>
+    <string name="look_report_on_track">Kan hanya %1$s</string>
+    <string name="look_report_slips">Tuntuɓe %1$s</string>
+    <string name="look_report_achievements">NASARORI</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">SABABBIN DARUSSA A WANNAN ZANGO (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Ra\'ayin malami:</string>
+    <string name="look_report_calm">Zango mai natsuwa da tsayuwa.</string>
+    <string name="look_report_ups_downs">Zango mai hawa da sauka, kuma an dage.</string>
+    <string name="look_report_star">%1$s: aiki na musamman. Ci gaba haka!</string>
+    <string name="look_report_keep_up">Ci gaba haka!</string>
+    <string name="look_report_week">MAKO BAYAN MAKO</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Jirgi Q%1$d</string>
+    <string name="look_boarding_from">DAGA</string>
+    <string name="look_boarding_old">TSOFAFFIN</string>
+    <string name="look_boarding_habits">ɗabi\'u</string>
+    <string name="look_boarding_to">ZUWA</string>
+    <string name="look_boarding_new">SABON</string>
+    <string name="look_boarding_better_you">rayuwa mafi kyau</string>
+    <string name="look_boarding_passenger">Fasinja</string>
+    <string name="look_boarding_dates">Kwanan wata</string>
+    <string name="look_boarding_miles">Nisan da aka tashi</string>
+    <string name="look_boarding_on_time">A kan lokaci</string>
+    <string name="look_boarding_turbulence">Girgiza</string>
+    <string name="look_boarding_days">Kwanaki a cikin jirgi</string>
+    <string name="look_boarding_flyer">ABOKAN TAFIYA MAFI DAƊEWA</string>
+    <string name="look_boarding_log">RAJISTAR TAFIYA, MAKO BAYAN MAKO</string>
+    <string name="look_boarding_stops">SABABBIN TASHOSHI, +%1$d</string>
+    <string name="look_boarding_note">SAƘON KYAFTIN</string>
+
+    <string name="look_polaroid_life">RAYUWA</string>
+    <string name="look_polaroid_quarter">WAƊANNAN WATANNI 3</string>
+    <string name="look_polaroid_days_in">Kwana %1$d/%2$d</string>
+    <string name="look_polaroid_longest">WANDA AKA FI KIYAYEWA</string>
+    <string name="look_polaroid_new">SABO, +%1$d</string>
+
+    <string name="look_calendar_added">An ƙara</string>
+
+    <string name="look_trading_common">Na kowa</string>
+    <string name="look_trading_uncommon">Ba na kowa ba</string>
+    <string name="look_trading_rare">Ba kasafai ba</string>
+    <string name="look_trading_legendary">Na tarihi</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">HANYA</item>
+        <item quantity="other">HANYOYI</item>
+    </plurals>
+    <string name="look_ordinal_st">na %1$d</string>
+    <string name="look_ordinal_nd">na %1$d</string>
+    <string name="look_ordinal_rd">na %1$d</string>
+    <string name="look_ordinal_th">na %1$d</string>
+    <string name="look_trading_number">Na %1$03d · wata 3 %2$s naka</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">Kwana %1$d/%2$d</string>
+    <string name="look_trading_power">Ƙarfi, mako bayan mako</string>
+    <string name="look_trading_edition">%1$s · bugun Q%2$d</string>
+
+    <string name="look_sample_water_first">Ruwa da farko</string>
+    <string name="look_sample_own_bag">Jakar kaina</string>
+    <string name="look_sample_read_pages">Karanta shafuka 10</string>
+    <string name="look_sample_reading">Karatu kullum</string>
+    <string name="look_sample_late_snacks">Babu ciye-ciye da dare</string>
+    <string name="look_sample_stretching">Miƙe jiki</string>
+    <string name="look_sample_cooler_home">Gida mai sanyi</string>
+    <string name="look_sample_loofah">Soso na halitta, ba soson roba ba</string>
+    <string name="look_sample_palm_oil">Babu man ja</string>
+    <string name="look_sample_stretch">Miƙe jiki minti 10</string>
+
+    <string name="look_colours_title">Launuka</string>
+    <string name="look_colours_preview">Samfoti</string>
+    <string name="look_colours_your_summary">Taƙaitawar Wata 3</string>
+    <string name="look_colours_light">Haske</string>
+    <string name="look_colours_dark">Duhu</string>
+    <string name="look_styles_title">Salon taƙaitawar Wata 3</string>
+    <string name="look_styles_all_pictures">Duba duk hotunan Polaroid 30</string>
+    <string name="look_styles_refresh">Sabunta</string>
+    <string name="look_pictures_title">Hotunan Polaroid</string>
+    <string name="look_pictures_back">Salon taƙaitawa</string>
+
+    <string name="look_welcome_name">Suna</string>
+    <string name="look_welcome_start">Fara</string>
+    <string name="look_welcome_import">Shigo da bayanaina</string>
+
+    <string name="look_tut_skip">Tsallake</string>
+    <string name="look_tut_page">%1$d CIKIN %2$d</string>
+    <string name="look_tut_back">Koma</string>
+    <string name="look_tut_start">Fara</string>
+    <string name="look_tut_next">Gaba</string>
+    <string name="look_tut1_title">Zama mafi kyau, mataki bayan mataki</string>
+    <string name="look_tut1_body">Gina sababbin ɗabi\'u, yi zaɓuka masu kyau, kuma kalli duk nasarori suna taruwa.</string>
+    <string name="look_tut1_habits">Gina kyawawan ɗabi\'u kowace rana don zama mafi kyau.</string>
+    <string name="look_tut1_swaps">Musanya kayayyaki da masu kyau, mafi alheri ga duniya, mutane ko lafiya.</string>
+    <string name="look_tut1_avoids">Bi diddigin kamfanoni, abinci da kayayyakin da ba a so a goyi baya.</string>
+    <string name="look_tut2_title">Yi masa alama</string>
+    <string name="look_tut2_body">Taɓa akwati bayan an yi ɗabi\'a. Na yamma suna buɗewa a lokacin dubawa.</string>
+    <string name="look_tut3_title">%1$s, sannan kowane %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">kwana %1$d</item>
+        <item quantity="other">kwana %1$d</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">wata %1$d</item>
+        <item quantity="other">wata %1$d</item>
+    </plurals>
+    <string name="look_tut3_body">Bincike ya gano cewa gina ɗabi\'a yana ɗaukar daga kwana 18 zuwa 254. Adadin da aka fi ambata shi ne kwana 66, don haka a nan Alice take farawa.</string>
+    <string name="look_tut3_days_label">Kwanakin gina ɗabi\'a</string>
+    <string name="look_tut3_checkup">Bita kowane</string>
+    <string name="look_tut3_small">Ana iya canza su biyun a Saituna.</string>
+    <string name="look_tut4_title">Sau ɗaya a mako, sabon mataki ɗaya</string>
+    <string name="look_tut4_body">Ƙara sabon mataki ɗaya a lokaci guda yana ba da damar girma sannu a hankali, ba tare da ɗaukar nauyi da yawa lokaci ɗaya ba.</string>
+    <string name="look_tut4_day">Ranar dubawa</string>
+    <string name="look_tut4_small">Ana iya canza wannan a Saituna ma.</string>
+    <string name="look_tut5_title">Kowane wata 3, taƙaitawa</string>
+    <string name="look_tut5_body">Raba nisan da aka yi tare da abokai da makusanta. Taɓa salon da ya fi burge:</string>
+    <string name="look_tut_change_mind">Kullum ana iya canza ra\'ayi.</string>
+    <string name="look_tut6_title">Mai da shi na musamman</string>
+    <string name="look_tut6_body">Zaɓi launukan da suka fi daɗi. Duk manhajar za ta canza nan take.</string>
+    <string name="look_tut7_title">Canza komai, kowane lokaci</string>
+    <string name="look_tut7_body">Lokutan dubawa, kwanakin gina ɗabi\'a, salon taƙaitawa, launuka da bayanai duk suna cikin Saituna.</string>
+    <string name="look_tut7_gear">Taɓa giyar da ke saman Ɗabi\'u don buɗe Saituna.</string>
+    <string name="look_tut7_open">Buɗe Saituna</string>
+
+    <string name="lang_title">Harshe</string>
+    <string name="pron_title">Karin suna</string>
+    <string name="pron_she">mace</string>
+    <string name="pron_he">namiji</string>
+    <string name="pron_they">tsaka-tsaki</string>
+    <string name="lang_spotted">Kun ga kuskure a harshenku?</string>
+    <string name="lang_search">Nemi harshe</string>
+    <string name="lang_phone">Harshen waya</string>
+    <string name="lang_follow">Bi waya</string>
+    <string name="lang_note_title">Taimaka da fassara</string>
+    <string name="lang_note_1">Sannu, ni ce Lucy kuma ni na yi Alice.</string>
+    <string name="lang_note_2">Ina jin Turanci, Slovak, Czech da Rashanci, don haka ni da kaina na duba waɗannan fassarori. Sauran harsuna ba wani mai jin harshen a matsayin harshen uwa ya duba su ba tukuna.</string>
+    <string name="lang_note_3">Idan kun ga kuskure a harshenku, don Allah ku sanar da ni don in gyara shi. Kuma idan kun daɗe kuna amfani da Alice a harshenku kuma komai ya yi daidai, ku gaya mini haka ma, don in nuna cewa an amince da shi.</string>
+    <string name="lang_note_4">Na gode!</string>
+    <string name="lang_not_approved">BA A AMINCE BA TUKUNA</string>
+    <string name="lang_report">Bayar da rahoton kuskure</string>
+    <string name="lang_all_correct">Harshena duk daidai ne</string>
+    <string name="lang_mail_mistake_body">Me ba daidai ba ne, kuma a wane shafi:\n\n</string>
+    <string name="lang_mail_correct_body">Na daɗe ina amfani da Alice a harshena kuma komai ya yi daidai.\n\n</string>
+    <string name="lang_no_mail">Ba a sami manhajar imel ba</string>
+    <!-- pronoun variants for android below 14, same as values-ha-feminine and -masculine -->
+    <string name="core_nudge_title__feminine" translatable="false">Saura abin da za ki yi alama yau</string>
+    <string name="core_nudge_title__masculine" translatable="false">Saura abin da za ka yi alama yau</string>
+    <string name="tabs_glance_title__feminine" translatable="false">Makonki</string>
+    <string name="tabs_glance_title__masculine" translatable="false">Makonka</string>
+    <string name="tabs_changes_one_off_tip__feminine" translatable="false">Za ki yi shi sau ɗaya kuma ya ƙare, kamar share aljihun tebur, komawa kan wutar lantarki mai tsabta ko gyaran jaket. Yi masa alama sai ya koma An Gama.</string>
+    <string name="tabs_changes_one_off_tip__masculine" translatable="false">Za ka yi shi sau ɗaya kuma ya ƙare, kamar share aljihun tebur, komawa kan wutar lantarki mai tsabta ko gyaran jaket. Yi masa alama sai ya koma An Gama.</string>
+    <string name="tabs_avoid_why__feminine" translatable="false">Dalilin da kike kauracewa</string>
+    <string name="tabs_avoid_why__masculine" translatable="false">Dalilin da kake kauracewa</string>
+    <string name="tabs_avoid_own_words__feminine" translatable="false">A kalmominki</string>
+    <string name="tabs_avoid_own_words__masculine" translatable="false">A kalmominka</string>
+    <string name="tabs_avoid_delete_text__feminine" translatable="false">Zai fita daga jerin kauracewarki tare da tarihinsa.</string>
+    <string name="tabs_avoid_delete_text__masculine" translatable="false">Zai fita daga jerin kauracewarka tare da tarihinsa.</string>
+    <string name="tabs_insights_first_on__feminine" translatable="false">Ta farkonki za ta zo a %1$s</string>
+    <string name="tabs_insights_first_on__masculine" translatable="false">Ta farkonka za ta zo a %1$s</string>
+    <string name="forms_quarter_nothing__feminine" translatable="false">Babu abin da aka gina tukuna da za a bita. Taƙaitawarki ce ta gaba.</string>
+    <string name="forms_quarter_nothing__masculine" translatable="false">Babu abin da aka gina tukuna da za a bita. Taƙaitawarka ce ta gaba.</string>
+    <string name="forms_your_new_step__feminine" translatable="false">Sabon matakinki</string>
+    <string name="forms_your_new_step__masculine" translatable="false">Sabon matakinka</string>
+    <string name="forms_timing_tip__feminine" translatable="false">Kowane lokaci: abin da kike yi sau ɗaya, kamar gudu. Yi masa alama da zarar kin gama.\n\nƘarshen rana: doka da kike kiyayewa duk yini, kamar babu kayan ciye-ciye. Da yamma kawai za ki iya yi masa alama.</string>
+    <string name="forms_timing_tip__masculine" translatable="false">Kowane lokaci: abin da kake yi sau ɗaya, kamar gudu. Yi masa alama da zarar ka gama.\n\nƘarshen rana: doka da kake kiyayewa duk yini, kamar babu kayan ciye-ciye. Da yamma kawai za ka iya yi masa alama.</string>
+    <string name="forms_set_checkin_hour_tip__feminine" translatable="false">Daga wannan lokaci za ki iya yin alama ga ɗabi\'un ƙarshen rana kuma ki yi Dubawar Yau.</string>
+    <string name="forms_set_checkin_hour_tip__masculine" translatable="false">Daga wannan lokaci za ka iya yin alama ga ɗabi\'un ƙarshen rana kuma ka yi Dubawar Yau.</string>
+    <string name="forms_set_week_start_tip__feminine" translatable="false">Ranar da teburin Ɗabi\'unki, makonni da zane-zane suke farawa.</string>
+    <string name="forms_set_week_start_tip__masculine" translatable="false">Ranar da teburin Ɗabi\'unka, makonni da zane-zane suke farawa.</string>
+    <string name="forms_set_weekly_day_tip__feminine" translatable="false">A wannan rana, bayan Dubawar Yau za ki zaɓi sabon matakin mako mai zuwa.</string>
+    <string name="forms_set_weekly_day_tip__masculine" translatable="false">A wannan rana, bayan Dubawar Yau za ka zaɓi sabon matakin mako mai zuwa.</string>
+    <string name="forms_set_checkup_tip__feminine" translatable="false">Kowa yana yin bita a ranaku ɗaya: 1 Jan, 1 Afr, 1 Yul da 1 Okt, don ku iya raba taƙaitawarku tare. Za ki iya zaɓar ranarki maimakon haka.</string>
+    <string name="forms_set_checkup_tip__masculine" translatable="false">Kowa yana yin bita a ranaku ɗaya: 1 Jan, 1 Afr, 1 Yul da 1 Okt, don ku iya raba taƙaitawarku tare. Za ka iya zaɓar ranarka maimakon haka.</string>
+    <string name="forms_set_starting_tip__feminine" translatable="false">Watan bitarki ta farko.</string>
+    <string name="forms_set_starting_tip__masculine" translatable="false">Watan bitarka ta farko.</string>
+    <string name="forms_set_days_build_tip__feminine" translatable="false">Bincike ya gano kwana 18 zuwa 254, wanda aka fi ambata shi ne 66 (Lally et al. 2010, Singh et al. 2024). Bayan wannan adadin kwanaki sabon mataki zai koma cikin bitarki.</string>
+    <string name="forms_set_days_build_tip__masculine" translatable="false">Bincike ya gano kwana 18 zuwa 254, wanda aka fi ambata shi ne 66 (Lally et al. 2010, Singh et al. 2024). Bayan wannan adadin kwanaki sabon mataki zai koma cikin bitarka.</string>
+    <string name="forms_reasons_hint__feminine" translatable="false">Ƙara naki dalili</string>
+    <string name="forms_reasons_hint__masculine" translatable="false">Ƙara naka dalili</string>
+    <string name="forms_reasons_delete_text__feminine" translatable="false">Tuntuɓe za su ci gaba da zama a tarihinki, sai dai ba tare da wannan dalili ba.</string>
+    <string name="forms_reasons_delete_text__masculine" translatable="false">Tuntuɓe za su ci gaba da zama a tarihinka, sai dai ba tare da wannan dalili ba.</string>
+    <string name="forms_export_summaries__feminine" translatable="false">Taƙaitawar Wata 3 naki</string>
+    <string name="forms_export_summaries__masculine" translatable="false">Taƙaitawar Wata 3 naka</string>
+    <string name="forms_export_settings__feminine" translatable="false">Saitunanki, launuka da sunanki</string>
+    <string name="forms_export_settings__masculine" translatable="false">Saitunanka, launuka da sunanka</string>
+    <string name="forms_export_send_title__feminine" translatable="false">Aika bayananki na Alice</string>
+    <string name="forms_export_send_title__masculine" translatable="false">Aika bayananka na Alice</string>
+    <string name="forms_import_replace_title__feminine" translatable="false">A maye gurbin bayananki?</string>
+    <string name="forms_import_replace_title__masculine" translatable="false">A maye gurbin bayananka?</string>
+    <string name="forms_import_replace_text__feminine" translatable="false">Duk abin da ke wannan wayar za a musanya shi da fayil ɗin. Fara fitarwa idan kina son ki ajiye shi.</string>
+    <string name="forms_import_replace_text__masculine" translatable="false">Duk abin da ke wannan wayar za a musanya shi da fayil ɗin. Fara fitarwa idan kana son ka ajiye shi.</string>
+    <string name="forms_import_add_text__feminine" translatable="false">Ɗabi\'u da tarihin da ke cikin fayil za a ƙara su a naki.</string>
+    <string name="forms_import_add_text__masculine" translatable="false">Ɗabi\'u da tarihin da ke cikin fayil za a ƙara su a naka.</string>
+    <string name="look_next_week__feminine" translatable="false">Na gaba, makonki ›</string>
+    <string name="look_next_week__masculine" translatable="false">Na gaba, makonka ›</string>
+    <string name="look_share_chooser__feminine" translatable="false">Raba watanni ukunki</string>
+    <string name="look_share_chooser__masculine" translatable="false">Raba watanni ukunka</string>
+    <string name="look_quote_2__feminine" translatable="false">Na Gode da Kika Zo</string>
+    <string name="look_quote_2__masculine" translatable="false">Na Gode da Ka Zo</string>
+    <string name="look_quote_4__feminine" translatable="false">Kin Ci Gaba. Wannan Yana da Muhimmanci</string>
+    <string name="look_quote_4__masculine" translatable="false">Ka Ci Gaba. Wannan Yana da Muhimmanci</string>
+    <string name="look_quote_6__feminine" translatable="false">Kowace Rana Kin Zaɓi Mafi Kyau</string>
+    <string name="look_quote_6__masculine" translatable="false">Kowace Rana Ka Zaɓi Mafi Kyau</string>
+    <string name="look_quote_8__feminine" translatable="false">Kina Gina Rayuwar da Kike So</string>
+    <string name="look_quote_8__masculine" translatable="false">Kana Gina Rayuwar da Kake So</string>
+    <string name="look_quote_10__feminine" translatable="false">Ci Gaba da Zuwa don Kanki</string>
+    <string name="look_quote_10__masculine" translatable="false">Ci Gaba da Zuwa don Kanka</string>
+    <string name="look_quote_11__feminine" translatable="false">Ke ta Gobe Tana Cewa Na Gode</string>
+    <string name="look_quote_11__masculine" translatable="false">Kai na Gobe Yana Cewa Na Gode</string>
+    <string name="look_quote_14__feminine" translatable="false">Duba Yadda Kika Yi Nisa</string>
+    <string name="look_quote_14__masculine" translatable="false">Duba Yadda Ka Yi Nisa</string>
+    <string name="look_quote_15__feminine" translatable="false">Ki Yi Alfahari da Ƙananan Nasarori</string>
+    <string name="look_quote_15__masculine" translatable="false">Ka Yi Alfahari da Ƙananan Nasarori</string>
+    <string name="look_stamp_4__feminine" translatable="false">KE JARUMA</string>
+    <string name="look_stamp_4__masculine" translatable="false">KAI JARUMI</string>
+    <string name="look_you__feminine" translatable="false">Ke</string>
+    <string name="look_you__masculine" translatable="false">Kai</string>
+    <string name="look_improved_in__feminine" translatable="false">Kin inganta rayuwarki ta %1$s</string>
+    <string name="look_improved_in__masculine" translatable="false">Ka inganta rayuwarka ta %1$s</string>
+    <string name="look_poster_improved__feminine" translatable="false">Kin inganta rayuwarki ta %1$s</string>
+    <string name="look_poster_improved__masculine" translatable="false">Ka inganta rayuwarka ta %1$s</string>
+    <string name="look_poster_first_ones__feminine" translatable="false">Nasarorinki na farko suna nan tafe</string>
+    <string name="look_poster_first_ones__masculine" translatable="false">Nasarorinka na farko suna nan tafe</string>
+    <string name="look_poster_added__feminine" translatable="false">Abin da kika ƙara a wannan wata 3</string>
+    <string name="look_poster_added__masculine" translatable="false">Abin da ka ƙara a wannan wata 3</string>
+    <string name="look_wrapped_stars__feminine" translatable="false">Taurarinki</string>
+    <string name="look_wrapped_stars__masculine" translatable="false">Taurarinka</string>
+    <string name="look_trophy_ways__feminine" translatable="false">hanyoyin da kika inganta\nrayuwarki</string>
+    <string name="look_trophy_ways__masculine" translatable="false">hanyoyin da ka inganta\nrayuwarka</string>
+    <string name="look_trophy_first_medal__feminine" translatable="false">lambar yabonki ta farko</string>
+    <string name="look_trophy_first_medal__masculine" translatable="false">lambar yabonka ta farko</string>
+    <string name="look_receipt_customer__feminine" translatable="false">Abokiyar ciniki: %1$s</string>
+    <string name="look_receipt_customer__masculine" translatable="false">Abokin ciniki: %1$s</string>
+    <string name="look_receipt_ways__feminine" translatable="false">Hanyoyin da kika inganta rayuwarki</string>
+    <string name="look_receipt_ways__masculine" translatable="false">Hanyoyin da ka inganta rayuwarka</string>
+    <string name="look_report_pupil__feminine" translatable="false">%1$s · Ɗaliba: %2$s</string>
+    <string name="look_report_pupil__masculine" translatable="false">%1$s · Ɗalibi: %2$s</string>
+    <string name="look_report_ups_downs__feminine" translatable="false">Zango mai hawa da sauka, kuma kin dage.</string>
+    <string name="look_report_ups_downs__masculine" translatable="false">Zango mai hawa da sauka, kuma ka dage.</string>
+    <string name="look_report_star__feminine" translatable="false">%1$s ta yi fice. Ci gaba haka!</string>
+    <string name="look_report_star__masculine" translatable="false">%1$s ya yi fice. Ci gaba haka!</string>
+    <string name="look_boarding_better_you__feminine" translatable="false">ke mafi kyau</string>
+    <string name="look_boarding_better_you__masculine" translatable="false">kai mafi kyau</string>
+    <string name="look_boarding_flyer__feminine" translatable="false">MATAFIYIYA NA KULLUM, ABOKAN TAFIYARKI MAFI DAƊEWA</string>
+    <string name="look_boarding_flyer__masculine" translatable="false">MATAFIYI NA KULLUM, ABOKAN TAFIYARKA MAFI DAƊEWA</string>
+    <string name="look_polaroid_life__feminine" translatable="false">RAYUWARKI</string>
+    <string name="look_polaroid_life__masculine" translatable="false">RAYUWARKA</string>
+    <string name="look_colours_your_summary__feminine" translatable="false">Taƙaitawar Wata 3 naki</string>
+    <string name="look_colours_your_summary__masculine" translatable="false">Taƙaitawar Wata 3 naka</string>
+    <string name="look_welcome_name__feminine" translatable="false">Sunanki</string>
+    <string name="look_welcome_name__masculine" translatable="false">Sunanka</string>
+    <string name="look_tut1_title__feminine" translatable="false">Zama mafi kyawun kanki, mataki bayan mataki</string>
+    <string name="look_tut1_title__masculine" translatable="false">Zama mafi kyawun kanka, mataki bayan mataki</string>
+    <string name="look_tut1_body__feminine" translatable="false">Gina sababbin ɗabi\'u, yi zaɓuka masu kyau, ki kalli duk abin da kika cimma yana taruwa.</string>
+    <string name="look_tut1_body__masculine" translatable="false">Gina sababbin ɗabi\'u, yi zaɓuka masu kyau, ka kalli duk abin da ka cimma yana taruwa.</string>
+    <string name="look_tut1_habits__feminine" translatable="false">Gina kyawawan ɗabi\'u kowace rana ki zama wadda kike son zama.</string>
+    <string name="look_tut1_habits__masculine" translatable="false">Gina kyawawan ɗabi\'u kowace rana ka zama wanda kake son zama.</string>
+    <string name="look_tut1_swaps__feminine" translatable="false">Musanya kayayyaki da masu kyau, mafi alheri ga duniya, mutane ko lafiyarki.</string>
+    <string name="look_tut1_swaps__masculine" translatable="false">Musanya kayayyaki da masu kyau, mafi alheri ga duniya, mutane ko lafiyarka.</string>
+    <string name="look_tut1_avoids__feminine" translatable="false">Ki bi diddigin kamfanoni, abinci da kayayyakin da ba kya so ki goyi baya.</string>
+    <string name="look_tut1_avoids__masculine" translatable="false">Ka bi diddigin kamfanoni, abinci da kayayyakin da ba ka so ka goyi baya.</string>
+    <string name="look_tut2_body__feminine" translatable="false">Taɓa akwati idan kin yi ɗabi\'a. Na yamma suna buɗewa a lokacin dubawarki.</string>
+    <string name="look_tut2_body__masculine" translatable="false">Taɓa akwati idan ka yi ɗabi\'a. Na yamma suna buɗewa a lokacin dubawarka.</string>
+    <string name="look_tut3_small__feminine" translatable="false">Za ki iya canza su biyun a Saituna.</string>
+    <string name="look_tut3_small__masculine" translatable="false">Za ka iya canza su biyun a Saituna.</string>
+    <string name="look_tut4_body__feminine" translatable="false">Ƙara sabon mataki ɗaya a lokaci guda yana sa ki girma sannu a hankali, ba tare da ɗaukar nauyi da yawa lokaci ɗaya ba.</string>
+    <string name="look_tut4_body__masculine" translatable="false">Ƙara sabon mataki ɗaya a lokaci guda yana sa ka girma sannu a hankali, ba tare da ɗaukar nauyi da yawa lokaci ɗaya ba.</string>
+    <string name="look_tut4_small__feminine" translatable="false">Za ki iya canza wannan a Saituna ma.</string>
+    <string name="look_tut4_small__masculine" translatable="false">Za ka iya canza wannan a Saituna ma.</string>
+    <string name="look_tut5_title__feminine" translatable="false">Kowane wata 3, taƙaitawarki</string>
+    <string name="look_tut5_title__masculine" translatable="false">Kowane wata 3, taƙaitawarka</string>
+    <string name="look_tut5_body__feminine" translatable="false">Raba nisan da kika yi tare da abokanki da mutanen da ke kusa da ke. Taɓa salon da kike so:</string>
+    <string name="look_tut5_body__masculine" translatable="false">Raba nisan da ka yi tare da abokanka da mutanen da ke kusa da kai. Taɓa salon da kake so:</string>
+    <string name="look_tut_change_mind__feminine" translatable="false">Kullum za ki iya canza ra\'ayinki.</string>
+    <string name="look_tut_change_mind__masculine" translatable="false">Kullum za ka iya canza ra\'ayinka.</string>
+    <string name="look_tut6_title__feminine" translatable="false">Mai da shi naki</string>
+    <string name="look_tut6_title__masculine" translatable="false">Mai da shi naka</string>
+    <string name="look_tut6_body__feminine" translatable="false">Zaɓi launukan da suka fi miki daɗi. Duk manhajar za ta canza nan take.</string>
+    <string name="look_tut6_body__masculine" translatable="false">Zaɓi launukan da suka fi maka daɗi. Duk manhajar za ta canza nan take.</string>
+    <string name="look_tut7_body__feminine" translatable="false">Lokutan dubawa, kwanakin gina ɗabi\'a, salon taƙaitawarki, launuka da bayananki duk suna cikin Saituna.</string>
+    <string name="look_tut7_body__masculine" translatable="false">Lokutan dubawa, kwanakin gina ɗabi\'a, salon taƙaitawarka, launuka da bayananka duk suna cikin Saituna.</string>
+    <string name="lang_spotted__feminine" translatable="false">Kin ga kuskure a harshenki?</string>
+    <string name="lang_spotted__masculine" translatable="false">Ka ga kuskure a harshenka?</string>
+    <string name="lang_search__feminine" translatable="false">Nemi harshenki</string>
+    <string name="lang_search__masculine" translatable="false">Nemi harshenka</string>
+    <string name="lang_follow__feminine" translatable="false">Bi wayarki</string>
+    <string name="lang_follow__masculine" translatable="false">Bi wayarka</string>
+    <string name="lang_note_3__feminine" translatable="false">Idan kin ga kuskure a harshenki, don Allah ki sanar da ni don in gyara shi. Kuma idan kin daɗe kina amfani da Alice a harshenki kuma komai ya yi daidai, ki gaya mini haka ma, don in nuna cewa an amince da shi.</string>
+    <string name="lang_note_3__masculine" translatable="false">Idan ka ga kuskure a harshenka, don Allah ka sanar da ni don in gyara shi. Kuma idan ka daɗe kana amfani da Alice a harshenka kuma komai ya yi daidai, ka gaya mini haka ma, don in nuna cewa an amince da shi.</string>
+    <!-- end pronoun variants -->
+</resources>

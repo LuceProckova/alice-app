@@ -1,0 +1,16 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+# release signing stays outside the repo, never commit keys
+*.jks
+*.keystore
+keystore.properties
+Keystore/

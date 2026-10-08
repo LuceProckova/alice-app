@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- only android 8 and 9 need this, saves summary picture to gallery -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+
+    <application
+        android:name=".AliceApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:localeConfig="@xml/locales_config"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Alice">
+
+        <!-- every screen portrait only, app built for phone held upright -->
+
+        <!-- habits, changes, avoid, insights tabs all live in here -->
+        <activity android:screenOrientation="portrait" android:name=".ui.MainActivity" android:exported="true" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:screenOrientation="portrait" android:name=".ui.HabitActivity" android:exported="false" />
+        <activity android:screenOrientation="portrait" android:name=".ui.AvoidItemActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:screenOrientation="portrait" android:name=".ui.NewStepActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:screenOrientation="portrait" android:name=".ui.IdeasActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:screenOrientation="portrait" android:name=".ui.CheckInActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:screenOrientation="portrait" android:name=".ui.SummaryActivity" android:exported="false" />
+
+        <activity android:screenOrientation="portrait" android:name=".ui.SettingsActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:screenOrientation="portrait" android:name=".ui.LanguageActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:screenOrientation="portrait" android:name=".ui.TranslationNoteActivity" android:exported="false" />
+        <activity android:screenOrientation="portrait" android:name=".ui.ColoursActivity" android:exported="false" />
+        <activity android:screenOrientation="portrait" android:name=".ui.StylesActivity" android:exported="false" />
+        <activity android:screenOrientation="portrait" android:name=".ui.PicturesActivity" android:exported="false" />
+        <activity android:screenOrientation="portrait" android:name=".ui.ReasonsActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <activity android:screenOrientation="portrait" android:name=".ui.ExportActivity" android:exported="false" />
+        <activity android:screenOrientation="portrait" android:name=".ui.ImportActivity" android:exported="false" />
+        <activity android:screenOrientation="portrait" android:name=".ui.TutorialActivity" android:exported="false" />
+        <activity android:screenOrientation="portrait" android:name=".ui.WelcomeActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+
+        <!-- nudge alarm, put back after reboot -->
+        <receiver android:name=".notify.NudgeReceiver" android:exported="false" />
+        <receiver android:name=".notify.BootReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- shares summary picture and export file with other apps -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.files"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+</manifest>

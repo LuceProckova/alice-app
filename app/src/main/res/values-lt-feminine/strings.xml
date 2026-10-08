@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose she/her pronouns -->
+<resources>
+    <string name="core_reason_too_tired">Per daug pavargusi</string>
+    <string name="core_reason_away">Išvykusi</string>
+    <string name="look_boarding_better_you">geresnė tu</string>
+</resources>

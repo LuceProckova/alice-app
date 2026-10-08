@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose she/her pronouns -->
+<resources>
+    <string name="look_quote_4">तू थांबली नाहीस, हेच महत्त्वाचं</string>
+    <string name="look_quote_14">बघ तू किती पुढे आलीस</string>
+    <string name="look_report_ups_downs">चढउतारांचं सत्र, आणि तू टिकून राहिलीस.</string>
+    <string name="look_tut5_body">तू किती पुढे आलीस ते मित्रांसोबत आणि जवळच्या लोकांसोबत शेअर कर. आवडेल त्या लुकवर टॅप कर:</string>
+    <string name="look_boarding_better_you">चांगली तू</string>
+    <string name="forms_set_checkin_hour_tip">या वेळेपासून तू दिवसाच्या शेवटच्या सवयी टिक करू शकतेस आणि रोजचं चेक-इन करू शकतेस.</string>
+    <string name="forms_set_checkup_tip">सगळे एकाच दिवशी चेक-अप करतात: 1 जानेवारी, 1 एप्रिल, 1 जुलै आणि 1 ऑक्टोबर, म्हणजे तुम्ही सगळे मिळून सारांश शेअर करू शकता. हवं तर तू तुझी स्वतःची तारीख निवडू शकतेस.</string>
+    <string name="look_tut3_small">दोन्ही तू सेटिंग्जमध्ये बदलू शकतेस.</string>
+    <string name="look_tut4_small">हेही तू सेटिंग्जमध्ये बदलू शकतेस.</string>
+    <string name="look_tut_change_mind">तू कधीही तुझा विचार बदलू शकतेस.</string>
+    <string name="core_reason_too_tired">खूप थकले</string>
+    <string name="core_reason_away">बाहेर होते</string>
+</resources>

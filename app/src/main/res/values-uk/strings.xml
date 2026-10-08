@@ -1,0 +1,877 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Втома</string>
+    <string name="core_reason_craving">Сильне бажання</string>
+    <string name="core_reason_no_time">Немає часу</string>
+    <string name="core_reason_forgot">Забулося</string>
+    <string name="core_reason_no_alternative">Немає альтернативи</string>
+    <string name="core_reason_social">Компанія</string>
+    <string name="core_reason_impulse">Імпульс</string>
+    <string name="core_reason_too_expensive">Задорого</string>
+    <string name="core_reason_away">Не вдома</string>
+
+    <string name="core_nudge_channel">Щоденне нагадування</string>
+    <string name="core_nudge_title">Ще треба відмітити сьогодні</string>
+    <string name="core_save_failed">Не вдалося зберегти, спробуй ще раз</string>
+
+    <string name="core_kind_habit">Звичка</string>
+    <string name="core_kind_swap">Заміна</string>
+    <string name="core_kind_avoid">Уникання</string>
+    <string name="core_about">Про: %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Менше</string>
+    <string name="core_more">Більше</string>
+    <string name="core_cancel">Скасувати</string>
+    <string name="core_settings">Налаштування</string>
+    <string name="core_span_week">Тиждень</string>
+    <string name="core_span_month">Місяць</string>
+    <string name="core_span_year">Рік</string>
+    <string name="core_span_all">Увесь час</string>
+    <string name="core_tab_habits">Звички</string>
+    <string name="core_tab_changes">Зміни</string>
+    <string name="core_tab_avoid">Уникати</string>
+    <string name="core_tab_insights">Підсумки</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">виконано</string>
+    <string name="core_cell_missed">пропущено</string>
+    <string name="core_cell_partial">частково, поки що %1$d</string>
+    <string name="core_cell_unfilled">ще не заповнено</string>
+    <string name="core_cell_open">треба зробити</string>
+    <string name="core_cell_locked">заблоковано до часу чек-іну</string>
+    <string name="core_cell_future">ще не час</string>
+    <string name="core_cell_empty">нічого не треба</string>
+    <string name="core_cell_band">виконано за цей період</string>
+    <string name="core_cell_off">не день для цього кроку</string>
+    <string name="core_cell_none">до початку цього кроку</string>
+
+    <string name="core_rhythm_one_off">Одноразово</string>
+    <string name="core_rhythm_end_of_day">Щодня, відмітка ввечері</string>
+    <string name="core_rhythm_every_day">Щодня</string>
+    <string name="core_rhythm_every_days">Дні: %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">на тиждень</string>
+    <string name="core_rhythm_a_month">на місяць</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, у будь-які дні</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s і %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d міс.</string>
+    <string name="core_achievement_short_days">%1$d дн.</string>
+    <string name="core_glance_step">%1$s, %2$d з %3$d</string>
+
+    <string name="core_slip_never">Ніколи</string>
+    <string name="core_slip_once">Раз</string>
+    <string name="core_slip_a_few">Кілька разів</string>
+    <string name="core_slip_half">Половину</string>
+    <string name="core_slip_most">Здебільшого</string>
+    <string name="core_slip_always">Завжди</string>
+
+    <string name="core_ideas_habit_anytime">Звички, будь-коли</string>
+    <string name="core_ideas_habit_end">Звички, наприкінці дня</string>
+    <string name="core_ideas_swap">Заміни</string>
+    <string name="core_ideas_avoid_product">Уникати, продукти</string>
+    <string name="core_ideas_avoid_company">Уникати, компанії</string>
+    <string name="core_ideas_avoid_food">Уникати, їжа</string>
+
+    <string name="core_tag_ethical">Етика</string>
+    <string name="core_tag_health">Здоров’я</string>
+    <string name="core_tag_clutter">Непотріб</string>
+    <string name="core_tag_ecological">Екологія</string>
+    <string name="core_tag_animal_welfare">Добробут тварин</string>
+    <string name="core_tag_workers_rights">Права працівників</string>
+    <string name="core_tag_plastic">Пластик</string>
+    <string name="core_tag_palm_oil">Пальмова олія</string>
+    <string name="core_tag_deforestation">Вирубка лісів</string>
+    <string name="core_category_company">Компанія</string>
+    <string name="core_category_food">Їжа</string>
+    <string name="core_category_product">Продукт</string>
+    <string name="core_verdict_avoid">УНИКАТИ</string>
+    <string name="core_verdict_edge">НА МЕЖІ</string>
+    <string name="core_verdict_fine">НОРМАЛЬНО</string>
+
+    <string name="core_theme_off_white_honey">Молочний і мед</string>
+    <string name="core_theme_vanilla_caramel">Ваніль і карамель</string>
+    <string name="core_theme_sunflower">Соняшник</string>
+    <string name="core_theme_latte">Лате</string>
+    <string name="core_theme_cocoa_lemon">Какао і лимон</string>
+    <string name="core_theme_espresso_butter">Еспресо і масло</string>
+    <string name="core_theme_midnight_honey">Північ і мед</string>
+    <string name="core_theme_forest_night">Лісова ніч</string>
+    <string name="core_theme_plum_dusk">Сливові сутінки</string>
+    <string name="core_theme_charcoal_coral">Графіт і корал</string>
+
+    <string name="core_pic_sunny_meadow">Сонячна галявина</string>
+    <string name="core_pic_sunset_hills">Пагорби на заході сонця</string>
+    <string name="core_pic_starry_night">Зоряна ніч</string>
+    <string name="core_pic_beach_day">День на пляжі</string>
+    <string name="core_pic_mountain_lake">Гірське озеро</string>
+    <string name="core_pic_snowy_village">Засніжене село</string>
+    <string name="core_pic_rainy_garden">Сад під дощем</string>
+    <string name="core_pic_autumn_forest">Осінній ліс</string>
+    <string name="core_pic_cherry_blossom">Цвіт вишні</string>
+    <string name="core_pic_desert_cactus">Кактус у пустелі</string>
+    <string name="core_pic_lighthouse">Маяк</string>
+    <string name="core_pic_rainbow_field">Райдужне поле</string>
+    <string name="core_pic_hot_air_balloon">Повітряна куля</string>
+    <string name="core_pic_sailboat">Вітрильник</string>
+    <string name="core_pic_cabin_in_the_woods">Хатинка в лісі</string>
+    <string name="core_pic_tulip_field">Поле тюльпанів</string>
+    <string name="core_pic_campfire_night">Ніч біля багаття</string>
+    <string name="core_pic_misty_mountains">Гори в тумані</string>
+    <string name="core_pic_sunrise_sea">Світанок над морем</string>
+    <string name="core_pic_snowy_pines">Засніжені сосни</string>
+    <string name="core_pic_lavender_field">Лавандове поле</string>
+    <string name="core_pic_waterfall">Водоспад</string>
+    <string name="core_pic_city_at_dusk">Місто в сутінках</string>
+    <string name="core_pic_picnic">Пікнік</string>
+    <string name="core_pic_moon_over_the_lake">Місяць над озером</string>
+    <string name="core_pic_palm_island">Острів із пальмами</string>
+    <string name="core_pic_windmill">Вітряк</string>
+    <string name="core_pic_bike_path">Велодоріжка</string>
+    <string name="core_pic_greenhouse">Теплиця</string>
+    <string name="core_pic_northern_lights">Північне сяйво</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d крок чекає на тебе.</item>
+        <item quantity="few">%d кроки чекають на тебе.</item>
+        <item quantity="many">%d кроків чекають на тебе.</item>
+        <item quantity="other">%d кроку чекає на тебе.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">виконано, %d раз</item>
+        <item quantity="few">виконано, %d рази</item>
+        <item quantity="many">виконано, %d разів</item>
+        <item quantity="other">виконано, %d разу</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d раз на день</item>
+        <item quantity="few">%d рази на день</item>
+        <item quantity="many">%d разів на день</item>
+        <item quantity="other">%d разу на день</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d рази</item>
+        <item quantity="many">%d разів</item>
+        <item quantity="other">%d разу</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">кожен %d тиждень</item>
+        <item quantity="few">кожні %d тижні</item>
+        <item quantity="many">кожні %d тижнів</item>
+        <item quantity="other">кожні %d тижня</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">кожен %d місяць</item>
+        <item quantity="few">кожні %d місяці</item>
+        <item quantity="many">кожні %d місяців</item>
+        <item quantity="other">кожні %d місяця</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">кожен %d день</item>
+        <item quantity="few">кожні %d дні</item>
+        <item quantity="many">кожні %d днів</item>
+        <item quantity="other">кожні %d дня</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d місяць без пропусків</item>
+        <item quantity="few">%d місяці без пропусків</item>
+        <item quantity="many">%d місяців без пропусків</item>
+        <item quantity="other">%d місяця без пропусків</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d місяць упевнено</item>
+        <item quantity="few">%d місяці впевнено</item>
+        <item quantity="many">%d місяців упевнено</item>
+        <item quantity="other">%d місяця впевнено</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d день поспіль</item>
+        <item quantity="few">%d дні поспіль</item>
+        <item quantity="many">%d днів поспіль</item>
+        <item quantity="other">%d дня поспіль</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d місяць</item>
+        <item quantity="few">%d місяці</item>
+        <item quantity="many">%d місяців</item>
+        <item quantity="other">%d місяця</item>
+    </plurals>
+
+    <string name="tabs_new_step">Новий крок</string>
+    <string name="tabs_edit">Змінити</string>
+    <string name="tabs_delete">Видалити</string>
+    <string name="tabs_done">Готово</string>
+    <string name="tabs_back">Назад</string>
+    <string name="tabs_earlier">Раніше</string>
+    <string name="tabs_later">Пізніше</string>
+    <string name="tabs_delete_title">Видалити: %1$s?</string>
+    <string name="tabs_eod_unlock">Вечірні звички відкриються о %1$02d:00</string>
+    <string name="tabs_check_up">Огляд</string>
+    <string name="tabs_one_off">Одноразове</string>
+
+    <string name="tabs_checkin_from">Чек-ін з %1$02d:00</string>
+    <string name="tabs_checkin_daily">Щоденний чек-ін</string>
+    <string name="tabs_checkin_weekly">Щотижневий чек-ін</string>
+    <string name="tabs_checkin_quarter">Огляд за 3 місяці</string>
+    <string name="tabs_checked_in">Готово</string>
+    <string name="tabs_quarter_section">ОГЛЯД ЗА 3 МІСЯЦІ</string>
+    <string name="tabs_previous_week">Попередній тиждень</string>
+    <string name="tabs_next_week">Наступний тиждень</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d день: %2$s!</item>
+        <item quantity="few">%1$d дні: %2$s!</item>
+        <item quantity="many">%1$d днів: %2$s!</item>
+        <item quantity="other">%1$d дня: %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Чудово. Тепер це переходить до оглядів за 3 місяці, щоденних відміток більше не треба.</string>
+    <string name="tabs_celebrate_first">Перший: %1$s.</string>
+    <string name="tabs_glance_title">Твій тиждень</string>
+    <string name="tabs_glance_ticks_kept">Відмітки</string>
+    <string name="tabs_glance_days_checked_in">Дні з чек-іном</string>
+    <string name="tabs_glance_top_tag">Найчастіша причина зривів:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d раз</item>
+        <item quantity="few">%1$s, %2$d рази</item>
+        <item quantity="many">%1$s, %2$d разів</item>
+        <item quantity="other">%1$s, %2$d разу</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Найлегше:</string>
+    <string name="tabs_glance_hardest">Найважче:</string>
+
+    <string name="tabs_changes_ongoing">Постійні заміни</string>
+    <string name="tabs_changes_ongoing_tip_title">Постійна заміна</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Цей вибір повторюватиметься, як горнятко для кави чи твердий шампунь. Його відмічають у Звичках %1$d день, а потім перевіряють кожні 3 місяці.</item>
+        <item quantity="few">Цей вибір повторюватиметься, як горнятко для кави чи твердий шампунь. Його відмічають у Звичках %1$d дні, а потім перевіряють кожні 3 місяці.</item>
+        <item quantity="many">Цей вибір повторюватиметься, як горнятко для кави чи твердий шампунь. Його відмічають у Звичках %1$d днів, а потім перевіряють кожні 3 місяці.</item>
+        <item quantity="other">Цей вибір повторюватиметься, як горнятко для кави чи твердий шампунь. Його відмічають у Звичках %1$d дня, а потім перевіряють кожні 3 місяці.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Замін поки немає</string>
+    <string name="tabs_changes_day_badge">ДЕНЬ %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">ТРИМАЄТЬСЯ</string>
+    <string name="tabs_changes_one_off_todo">Одноразові, зробити</string>
+    <string name="tabs_changes_one_off_tip">Робиш це один раз, і готово: розібрати шухляду, перейти на зелений тариф чи полагодити куртку. Відміть, і воно перейде до Завершених.</string>
+    <string name="tabs_changes_nothing_waiting">Нічого не чекає</string>
+    <string name="tabs_changes_finished">ЗАВЕРШЕНО · %1$d</string>
+
+    <string name="tabs_avoid_title">Список уникання</string>
+    <string name="tabs_avoid_search">Пошук…</string>
+    <string name="tabs_avoid_no_match">Нічого не знайдено</string>
+    <string name="tabs_avoid_companies">Компанії</string>
+    <string name="tabs_avoid_food">Їжа</string>
+    <string name="tabs_avoid_products">Продукти</string>
+
+    <string name="tabs_avoid_added">Додано</string>
+    <string name="tabs_avoid_why">Чому ти цього уникаєш</string>
+    <string name="tabs_avoid_own_words">Своїми словами</string>
+    <string name="tabs_avoid_brands">Бренди компанії · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Один бренд на рядок</string>
+    <string name="tabs_avoid_more_brands">+%1$d ще</string>
+    <string name="tabs_avoid_instead">Натомість</string>
+    <string name="tabs_avoid_instead_hint">Одне на рядок</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">зрив</item>
+        <item quantity="few">зриви</item>
+        <item quantity="many">зривів</item>
+        <item quantity="other">зриву</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">уникнуто</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">місяць у списку</item>
+        <item quantity="few">місяці у списку</item>
+        <item quantity="many">місяців у списку</item>
+        <item quantity="other">місяця у списку</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Це зникне зі списку уникання разом з історією.</string>
+
+    <string name="tabs_habit_delete_text">Уся історія зникне разом з ним.</string>
+    <string name="tabs_habit_created">Створено</string>
+    <string name="tabs_habit_to_do">Зробити</string>
+    <string name="tabs_habit_daily_ticks">Щоденні відмітки</string>
+    <string name="tabs_habit_day_of">День %1$d з %2$d</string>
+    <string name="tabs_habit_finished">Завершено</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">день із початку</item>
+        <item quantity="few">дні з початку</item>
+        <item quantity="many">днів з початку</item>
+        <item quantity="other">дня з початку</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">перерва</item>
+        <item quantity="few">перерви</item>
+        <item quantity="many">перерв</item>
+        <item quantity="other">перерви</item>
+    </plurals>
+    <string name="tabs_habit_success">успіху</string>
+    <string name="tabs_habit_current_streak">Поточна серія</string>
+    <string name="tabs_habit_longest_streak">Найдовша серія</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дні</item>
+        <item quantity="many">%1$d днів</item>
+        <item quantity="other">%1$d дня</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Чому не вийшло</string>
+    <string name="tabs_habit_remove_reason">Прибрати цю причину</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">спосіб покращити життя</item>
+        <item quantity="few">способи покращити життя</item>
+        <item quantity="many">способів покращити життя</item>
+        <item quantity="other">способу покращити життя</item>
+    </plurals>
+    <string name="tabs_insights_habits">Звички</string>
+    <string name="tabs_insights_swaps">Заміни</string>
+    <string name="tabs_insights_avoids">Уникання</string>
+    <string name="tabs_insights_on_track_section">За планом</string>
+    <string name="tabs_insights_avg_days">%1$d дн.</string>
+    <string name="tabs_insights_average_kept">у середньому протримано</string>
+    <string name="tabs_insights_days_checked_in">днів з чек-іном</string>
+    <string name="tabs_insights_on_track">за планом</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">зрив</item>
+        <item quantity="few">зриви</item>
+        <item quantity="many">зривів</item>
+        <item quantity="other">зриву</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">новий крок</item>
+        <item quantity="few">нові кроки</item>
+        <item quantity="many">нових кроків</item>
+        <item quantity="other">нового кроку</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">одноразова справа</item>
+        <item quantity="few">одноразові справи</item>
+        <item quantity="many">одноразових справ</item>
+        <item quantity="other">одноразової справи</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Головні причини зривів</string>
+    <string name="tabs_insights_added_quarter">Додано цього кварталу</string>
+    <string name="tabs_insights_past_summaries">Минулі підсумки за 3 місяці</string>
+    <string name="tabs_insights_first_on">Перший буде %1$s</string>
+    <string name="tabs_insights_all_time">Увесь час</string>
+    <string name="tabs_insights_period">%1$s до %2$s %3$d</string>
+
+    <string name="forms_back">Назад</string>
+    <string name="forms_back_habits">Звички</string>
+    <string name="forms_back_settings">Налаштування</string>
+    <string name="forms_add">Додати</string>
+    <string name="forms_save">Зберегти</string>
+    <string name="forms_finish">Завершити</string>
+    <string name="forms_delete">Видалити</string>
+    <string name="forms_why">Чому</string>
+    <string name="forms_never_show">Більше не показувати</string>
+    <string name="forms_every">Кожні</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">день</item>
+        <item quantity="few">дні</item>
+        <item quantity="many">днів</item>
+        <item quantity="other">дня</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Крок %1$d з %2$d</string>
+    <string name="forms_checkin_next_weekly">Далі, щотижневий чек-ін ›</string>
+    <string name="forms_checkin_next_quarter">Далі, огляд за 3 місяці ›</string>
+    <string name="forms_daily_title">Щоденний чек-ін</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d попередній день не заповнено</item>
+        <item quantity="few">%1$d попередні дні не заповнено</item>
+        <item quantity="many">%1$d попередніх днів не заповнено</item>
+        <item quantity="other">%1$d попереднього дня не заповнено</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Пропустити всі</string>
+    <string name="forms_daily_today">Сьогодні · %1$s</string>
+    <string name="forms_daily_skip">Пропустити</string>
+    <string name="forms_daily_undo_skip">Скасувати пропуск</string>
+    <string name="forms_daily_new_tag">Нова причина</string>
+    <string name="forms_daily_new_tag_hint">Смітник був повний</string>
+    <string name="forms_weekly_title">Щотижневий чек-ін</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d тиждень пропущено, один новий крок покриває все.</item>
+        <item quantity="few">%1$d тижні пропущено, один новий крок покриває все.</item>
+        <item quantity="many">%1$d тижнів пропущено, один новий крок покриває все.</item>
+        <item quantity="other">%1$d тижня пропущено, один новий крок покриває все.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Цього тижня без нового кроку</string>
+    <string name="forms_quarter_title">Огляд за 3 місяці</string>
+    <string name="forms_quarter_nothing">Поки нічого перевіряти. Далі твій підсумок.</string>
+    <string name="forms_quarter_habits">Звички</string>
+    <string name="forms_quarter_swaps">Заміни</string>
+    <string name="forms_quarter_avoid">Уникання</string>
+    <string name="forms_quarter_missed">Пропущено</string>
+    <string name="forms_quarter_missed_level">Пропущено: %1$s</string>
+
+    <string name="forms_new_title">Новий крок</string>
+    <string name="forms_edit_title">Змінити: %1$s</string>
+    <string name="forms_add_kind">Додати: %1$s</string>
+    <string name="forms_title_habit">Звичка</string>
+    <string name="forms_title_swap">Заміна</string>
+    <string name="forms_title_avoid">Уникання</string>
+    <string name="forms_save_changes">Зберегти зміни</string>
+    <string name="forms_what_kind">Який тип?</string>
+    <string name="forms_name">Назва</string>
+    <string name="forms_your_new_step">Твій новий крок</string>
+    <string name="forms_hint_habit">Прочитати 10 сторінок</string>
+    <string name="forms_hint_swap">Люфа замість губки</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Яка це звичка?</string>
+    <string name="forms_timing_tip_title">Будь-коли чи наприкінці дня</string>
+    <string name="forms_timing_tip">Будь-коли: те, що робиш один раз, наприклад пробіжка. Відміть, щойно зробиш.\n\nНаприкінці дня: правило на весь день, наприклад без перекусів. Відмітити можна лише ввечері.</string>
+    <string name="forms_anytime">Будь-коли</string>
+    <string name="forms_end_of_day">Наприкінці дня</string>
+    <string name="forms_what_is_it">Що це?</string>
+    <string name="forms_how_often">Як часто?</string>
+    <string name="forms_often_specific">Певні дні</string>
+    <string name="forms_often_whenever">Коли завгодно</string>
+    <string name="forms_often_once">Лише раз</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">раз на</item>
+        <item quantity="few">рази на</item>
+        <item quantity="many">разів на</item>
+        <item quantity="other">разу на</item>
+    </plurals>
+    <string name="forms_unit_day">день</string>
+    <string name="forms_unit_week">тиждень</string>
+    <string name="forms_unit_month">місяць</string>
+    <string name="forms_unit_x_days">X днів</string>
+    <string name="forms_ideas">Ідеї</string>
+    <string name="forms_ideas_others">Інші</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Переглянути %1$d ідею ›</item>
+        <item quantity="few">Переглянути всі %1$d ідеї ›</item>
+        <item quantity="many">Переглянути всі %1$d ідей ›</item>
+        <item quantity="other">Переглянути всі %1$d ідеї ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Усі ідеї кроків</string>
+    <string name="forms_search">Пошук…</string>
+    <string name="forms_all">Усі</string>
+
+    <string name="forms_settings_title">Налаштування</string>
+    <string name="forms_set_colours">Кольори</string>
+    <string name="forms_set_style">Стиль підсумку за 3 місяці</string>
+    <string name="forms_set_checkins">Чек-іни</string>
+    <string name="forms_set_checkin_hour">Щоденний чек-ін з</string>
+    <string name="forms_set_checkin_hour_tip">З цього часу можна відмічати вечірні звички й робити щоденний чек-ін.</string>
+    <string name="forms_set_week_start">Початок тижня</string>
+    <string name="forms_set_week_start_tip">З якого дня починаються сітка звичок, тижні й графіки.</string>
+    <string name="forms_monday">Понеділок</string>
+    <string name="forms_sunday">Неділя</string>
+    <string name="forms_set_new_step_every">Новий крок кожні</string>
+    <string name="forms_set_new_step_every_tip">Скільки тижнів між щотижневими чек-інами.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">тиждень</item>
+        <item quantity="few">тижні</item>
+        <item quantity="many">тижнів</item>
+        <item quantity="other">тижня</item>
+    </plurals>
+    <string name="forms_set_weekly_day">День щотижневого чек-іну</string>
+    <string name="forms_set_weekly_day_tip">Цього дня після щоденного чек-іну ти обираєш новий крок на наступний тиждень.</string>
+    <string name="forms_set_checkup">Огляд за 3 місяці</string>
+    <string name="forms_set_checkup_tip">Усі роблять огляд в однакові дні: 1 січ, 1 квіт, 1 лип і 1 жовт, щоб ділитися підсумками разом. Можна обрати й свою дату.</string>
+    <string name="forms_set_same">Як у всіх</string>
+    <string name="forms_set_own">Моя дата</string>
+    <string name="forms_set_starting">Початок</string>
+    <string name="forms_set_starting_tip">Місяць твого першого власного огляду.</string>
+    <string name="forms_earlier">Раніше</string>
+    <string name="forms_later">Пізніше</string>
+    <string name="forms_set_every_tip">Місяців між оглядами.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">місяць</item>
+        <item quantity="few">місяці</item>
+        <item quantity="many">місяців</item>
+        <item quantity="other">місяця</item>
+    </plurals>
+    <string name="forms_set_day_of_month">День місяця</string>
+    <string name="forms_set_day_of_month_tip">Який день цього місяця.</string>
+    <string name="forms_set_everyone">Усі: 1 січ · 1 квіт · 1 лип · 1 жовт</string>
+    <string name="forms_set_days_build">Днів на формування звички</string>
+    <string name="forms_set_days_build_tip">Дослідження показали від 18 до 254 днів, найчастіше згадують 66 (Lally et al. 2010, Singh et al. 2024). Після стількох днів новий крок переходить до оглядів.</string>
+    <string name="forms_set_nudge">Щоденне нагадування</string>
+    <string name="forms_set_nudge_tip">Нагадування в цей час, лише якщо щось ще не відмічено.</string>
+    <string name="forms_set_more">Більше</string>
+    <string name="forms_set_reasons">Причини зривів</string>
+    <string name="forms_set_tutorial">Переглянути навчання ще раз</string>
+    <string name="forms_set_export">Експортувати мої дані</string>
+    <string name="forms_set_import">Імпортувати дані</string>
+
+    <string name="forms_reasons_title">Причини зривів</string>
+    <string name="forms_reasons_hint">Додай свою причину</string>
+    <string name="forms_reasons_used">використано %1$d×</string>
+    <string name="forms_reasons_delete_title">Видалити: %1$s?</string>
+    <string name="forms_reasons_delete_text">Зриви залишаться в історії, просто без цієї причини.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d звичка</item>
+        <item quantity="few">%1$d звички</item>
+        <item quantity="many">%1$d звичок</item>
+        <item quantity="other">%1$d звички</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d заміна</item>
+        <item quantity="few">%1$d заміни</item>
+        <item quantity="many">%1$d замін</item>
+        <item quantity="other">%1$d заміни</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d уникання</item>
+        <item quantity="few">%1$d уникання</item>
+        <item quantity="many">%1$d уникань</item>
+        <item quantity="other">%1$d уникання</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, відмітки з %2$s</string>
+    <string name="forms_export_title">Експортувати мої дані</string>
+    <string name="forms_export_what">Що буде у файлі</string>
+    <string name="forms_export_ticks">Кожна відмітка, зрив і причина</string>
+    <string name="forms_export_ticks_since">Кожна відмітка, зрив і причина з %1$s</string>
+    <string name="forms_export_summaries">Твої підсумки за 3 місяці</string>
+    <string name="forms_export_settings">Твої налаштування, кольори та ім’я</string>
+    <string name="forms_export_file">Файл</string>
+    <string name="forms_export_kb">%1$d КБ</string>
+    <string name="forms_export_save">Зберегти файл</string>
+    <string name="forms_export_send">Надіслати…</string>
+    <string name="forms_export_send_title">Надіслати твої дані Alice</string>
+    <string name="forms_export_saved">Збережено %1$s</string>
+    <string name="forms_export_save_failed">Не вдалося зберегти файл</string>
+
+    <string name="forms_import_title">Імпортувати дані</string>
+    <string name="forms_import_choose">Обери резервну копію Alice</string>
+    <string name="forms_import_choose_sub">.json, з експорту на іншому телефоні</string>
+    <string name="forms_import_cant_open">Не вдалося відкрити цей файл.</string>
+    <string name="forms_import_not_backup">Цей файл не є резервною копією Alice.</string>
+    <string name="forms_import_replace_mode">Замінити те, що є</string>
+    <string name="forms_import_add_mode">Додати до того, що є</string>
+    <string name="forms_import_button">Імпортувати</string>
+    <string name="forms_import_replace_title">Замінити твої дані?</string>
+    <string name="forms_import_add_title">Додати ці дані?</string>
+    <string name="forms_import_replace_text">Усе на цьому телефоні буде замінено файлом. Спершу зроби експорт, якщо хочеш це зберегти.</string>
+    <string name="forms_import_add_text">Звички та історію з файлу буде додано до твоїх.</string>
+    <string name="forms_import_done">Дані імпортовано</string>
+
+    <string name="look_share">Поділитися</string>
+    <string name="look_save_image">Зберегти зображення</string>
+    <string name="look_next_week">Далі, твій тиждень ›</string>
+    <string name="look_keep_going">Так тримати</string>
+    <string name="look_storage_needed">Alice потрібен доступ до сховища, щоб зберегти зображення</string>
+    <string name="look_share_caption">Мій квартал з Alice. Почни свій: %1$s</string>
+    <string name="look_share_clip">Підсумок Alice</string>
+    <string name="look_share_chooser">Поділися своїм кварталом</string>
+    <string name="look_saved">Збережено в Pictures/Alice</string>
+    <string name="look_save_failed">Не вдалося зберегти зображення</string>
+
+    <string name="look_style_poster">Постер</string>
+    <string name="look_style_wrapped">Підсумок</string>
+    <string name="look_style_trophy">Шафа з трофеями</string>
+    <string name="look_style_receipt">Чек</string>
+    <string name="look_style_report">Табель</string>
+    <string name="look_style_boarding">Посадковий талон</string>
+    <string name="look_style_polaroid">Полароїд</string>
+    <string name="look_style_calendar">Календар</string>
+    <string name="look_style_trading">Колекційна картка</string>
+
+    <string name="look_quote_1">Маленькі Кроки, Щодня</string>
+    <string name="look_quote_2">Дякую, Що Не Здаєшся</string>
+    <string name="look_quote_3">Прогрес, А Не Ідеал</string>
+    <string name="look_quote_4">Ти Продовжуєш. Це Важливо</string>
+    <string name="look_quote_5">Дрібні Зміни, Велика Різниця</string>
+    <string name="look_quote_6">Щодня Ти Обираєш Краще</string>
+    <string name="look_quote_7">Повільно Теж Означає Вперед</string>
+    <string name="look_quote_8">Ти Будуєш Життя, Яке Тобі До Душі</string>
+    <string name="look_quote_9">Крок За Кроком Набирається Багато</string>
+    <string name="look_quote_10">Будь Поруч Із Собою</string>
+    <string name="look_quote_11">Твоє Майбутнє Каже Дякую</string>
+    <string name="look_quote_12">Потроху, А Разом Багато</string>
+    <string name="look_quote_13">Сталість Це Тиха Магія</string>
+    <string name="look_quote_14">Поглянь, Який Шлях Позаду</string>
+    <string name="look_quote_15">Пишайся Маленькими Перемогами</string>
+    <string name="look_quote_16">Добрі Дні Будують, А Не Знаходять</string>
+
+    <string name="look_stamp_1">ВІДМІННО</string>
+    <string name="look_stamp_2">ВИДАТНО</string>
+    <string name="look_stamp_3">МОЛОДЕЦЬ</string>
+    <string name="look_stamp_4">БЛИСКУЧЕ</string>
+    <string name="look_stamp_5">ЧУДОВО</string>
+    <string name="look_stamp_6">НАЙВИЩИЙ БАЛ</string>
+    <string name="look_stamp_7">ЗОЛОТА ЗІРКА</string>
+    <string name="look_stamp_8">ЧУДОВА РОБОТА</string>
+
+    <string name="look_period">%1$s до %2$s</string>
+    <string name="look_scan">СКАНУЙ І\nПОЧНИ СВІЙ\nШЛЯХ</string>
+    <string name="look_you">Ти</string>
+    <string name="look_on_track">за планом</string>
+    <string name="look_new_steps">нові кроки</string>
+    <string name="look_days_in">днів позаду</string>
+    <string name="look_new">нове</string>
+    <string name="look_week_by_week">Тиждень за тижнем</string>
+    <string name="look_coming_soon">Незабаром</string>
+    <string name="look_new_this_quarter">Нове цього кварталу</string>
+    <string name="look_kept_up_longest">Найдовше протримано</string>
+    <string name="look_habits">Звички</string>
+    <string name="look_swaps">Заміни</string>
+    <string name="look_avoids">Уникання</string>
+    <string name="look_ways_improved">Способи покращити життя</string>
+    <string name="look_improved_in">Ти покращуєш своє життя: %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d звичка</item>
+        <item quantity="few">%1$d звички</item>
+        <item quantity="many">%1$d звичок</item>
+        <item quantity="other">%1$d звички</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d заміна</item>
+        <item quantity="few">%1$d заміни</item>
+        <item quantity="many">%1$d замін</item>
+        <item quantity="other">%1$d заміни</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d уникання</item>
+        <item quantity="few">%1$d уникання</item>
+        <item quantity="many">%1$d уникань</item>
+        <item quantity="other">%1$d уникання</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d зрив</item>
+        <item quantity="few">%1$d зриви</item>
+        <item quantity="many">%1$d зривів</item>
+        <item quantity="other">%1$d зриву</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d спосіб</item>
+        <item quantity="few">%1$d способи</item>
+        <item quantity="many">%1$d способів</item>
+        <item quantity="other">%1$d способу</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">звичка</item>
+        <item quantity="few">звички</item>
+        <item quantity="many">звичок</item>
+        <item quantity="other">звички</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">заміна</item>
+        <item quantity="few">заміни</item>
+        <item quantity="many">замін</item>
+        <item quantity="other">заміни</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">уникання</item>
+        <item quantity="few">уникання</item>
+        <item quantity="many">уникань</item>
+        <item quantity="other">уникання</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">зрив</item>
+        <item quantity="few">зриви</item>
+        <item quantity="many">зривів</item>
+        <item quantity="other">зриву</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">спосіб</item>
+        <item quantity="few">способи</item>
+        <item quantity="many">способів</item>
+        <item quantity="other">способу</item>
+    </plurals>
+
+    <string name="look_poster_improved">Ти покращуєш своє життя: %1$s</string>
+    <string name="look_poster_on_track">ЗА ПЛАНОМ</string>
+    <string name="look_poster_days">днів</string>
+    <string name="look_poster_achievements">Досягнення</string>
+    <string name="look_poster_first_ones">Перші вже на підході</string>
+    <string name="look_poster_added">Що додано цього кварталу</string>
+
+    <string name="look_wrapped_stars">Твої зірки</string>
+
+    <string name="look_trophy_ways">способів покращити\nжиття</string>
+    <string name="look_trophy_next_quarter">Наступний квартал</string>
+    <string name="look_trophy_first_medal">твоя перша медаль</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Нове на полиці:</string>
+
+    <string name="look_receipt_title">Огляд за 3 місяці · %1$s</string>
+    <string name="look_receipt_customer">Покупець: %1$s</string>
+    <string name="look_receipt_habits">Сформовані звички</string>
+    <string name="look_receipt_swaps">Замінені речі</string>
+    <string name="look_receipt_avoids">Речі, яких уникаєш</string>
+    <string name="look_receipt_ways">Способи покращити життя</string>
+    <string name="look_receipt_on_track">За планом цього кварталу</string>
+    <string name="look_receipt_slips">Зриви</string>
+    <string name="look_receipt_new_steps">Нові кроки зроблено</string>
+    <string name="look_receipt_new">Нове цього кварталу: %1$s</string>
+
+    <string name="look_report_title">Табель маленьких кроків</string>
+    <string name="look_report_pupil">%1$s · Учень: %2$s</string>
+    <string name="look_report_subject">ПРЕДМЕТ</string>
+    <string name="look_report_built">СФОРМОВАНО</string>
+    <string name="look_report_grade">ОЦІНКА</string>
+    <string name="look_report_attendance">Відвідуваність %1$s</string>
+    <string name="look_report_on_track">За планом %1$s</string>
+    <string name="look_report_slips">Зриви %1$s</string>
+    <string name="look_report_achievements">ДОСЯГНЕННЯ</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">НОВІ ПРЕДМЕТИ ЦЬОГО СЕМЕСТРУ (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Коментар учителя:</string>
+    <string name="look_report_calm">Спокійний, рівний семестр.</string>
+    <string name="look_report_ups_downs">Семестр зі злетами й падіннями, але ти не здаєшся.</string>
+    <string name="look_report_star">%1$s: видатний результат. Так тримати!</string>
+    <string name="look_report_keep_up">Так тримати!</string>
+    <string name="look_report_week">ТИЖДЕНЬ ЗА ТИЖНЕМ</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Рейс Q%1$d</string>
+    <string name="look_boarding_from">ЗВІДКИ</string>
+    <string name="look_boarding_old">СТАРІ</string>
+    <string name="look_boarding_habits">звички</string>
+    <string name="look_boarding_to">КУДИ</string>
+    <string name="look_boarding_new">НОВА</string>
+    <string name="look_boarding_better_you">краща версія тебе</string>
+    <string name="look_boarding_passenger">Пасажир</string>
+    <string name="look_boarding_dates">Дати</string>
+    <string name="look_boarding_miles">Налітано миль</string>
+    <string name="look_boarding_on_time">Вчасно</string>
+    <string name="look_boarding_turbulence">Турбулентність</string>
+    <string name="look_boarding_days">Днів на борту</string>
+    <string name="look_boarding_flyer">ПОСТІЙНИЙ ПАСАЖИР, ТВОЇ НАЙДОВШІ СУПУТНИКИ</string>
+    <string name="look_boarding_log">БОРТОВИЙ ЖУРНАЛ, ТИЖДЕНЬ ЗА ТИЖНЕМ</string>
+    <string name="look_boarding_stops">НОВІ ЗУПИНКИ, +%1$d</string>
+    <string name="look_boarding_note">НОТАТКА КАПІТАНА</string>
+
+    <string name="look_polaroid_life">ТВОЄ ЖИТТЯ</string>
+    <string name="look_polaroid_quarter">ЦЬОГО КВАРТАЛУ</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d днів позаду</string>
+    <string name="look_polaroid_longest">НАЙДОВШЕ ПРОТРИМАНО</string>
+    <string name="look_polaroid_new">НОВЕ, +%1$d</string>
+
+    <string name="look_calendar_added">Додано</string>
+
+    <string name="look_trading_common">Звичайна</string>
+    <string name="look_trading_uncommon">Незвичайна</string>
+    <string name="look_trading_rare">Рідкісна</string>
+    <string name="look_trading_legendary">Легендарна</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">СПОСІБ</item>
+        <item quantity="few">СПОСОБИ</item>
+        <item quantity="many">СПОСОБІВ</item>
+        <item quantity="other">СПОСОБУ</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d-й</string>
+    <string name="look_ordinal_nd">%1$d-й</string>
+    <string name="look_ordinal_rd">%1$d-й</string>
+    <string name="look_ordinal_th">%1$d-й</string>
+    <string name="look_trading_number">№ %1$03d · твій %2$s квартал</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d днів</string>
+    <string name="look_trading_power">Сила, тиждень за тижнем</string>
+    <string name="look_trading_edition">%1$s · випуск Q%2$d</string>
+
+    <string name="look_sample_water_first">Спершу вода</string>
+    <string name="look_sample_own_bag">Своя торба</string>
+    <string name="look_sample_read_pages">Прочитати 10 сторінок</string>
+    <string name="look_sample_reading">Читання щодня</string>
+    <string name="look_sample_late_snacks">Без пізніх перекусів</string>
+    <string name="look_sample_stretching">Розтяжка</string>
+    <string name="look_sample_cooler_home">Прохолодніше вдома</string>
+    <string name="look_sample_loofah">Люфа замість губки</string>
+    <string name="look_sample_palm_oil">Без пальмової олії</string>
+    <string name="look_sample_stretch">Розтяжка 10 хв</string>
+
+    <string name="look_colours_title">Кольори</string>
+    <string name="look_colours_preview">Перегляд</string>
+    <string name="look_colours_your_summary">Твій підсумок за 3 місяці</string>
+    <string name="look_colours_light">Світла</string>
+    <string name="look_colours_dark">Темна</string>
+    <string name="look_styles_title">Стиль підсумку за 3 місяці</string>
+    <string name="look_styles_all_pictures">Усі 30 картинок для полароїда</string>
+    <string name="look_styles_refresh">Оновити</string>
+    <string name="look_pictures_title">Картинки для полароїда</string>
+    <string name="look_pictures_back">Стилі підсумку</string>
+
+    <string name="look_welcome_name">Твоє ім’я</string>
+    <string name="look_welcome_start">Почати</string>
+    <string name="look_welcome_import">Імпортувати мої дані</string>
+
+    <string name="look_tut_skip">Пропустити</string>
+    <string name="look_tut_page">%1$d З %2$d</string>
+    <string name="look_tut_back">Назад</string>
+    <string name="look_tut_start">Почати</string>
+    <string name="look_tut_next">Далі</string>
+    <string name="look_tut1_title">Стань кращою версією себе, крок за кроком</string>
+    <string name="look_tut1_body">Формуй нові звички, роби добріші вибори й дивись, як усі твої досягнення складаються разом.</string>
+    <string name="look_tut1_habits">Формуй добрі звички день за днем і ставай тим, ким хочеш бути.</string>
+    <string name="look_tut1_swaps">Заміни продукти на добріші, кращі для планети, людей чи твого здоров’я.</string>
+    <string name="look_tut1_avoids">Стеж за компаніями, їжею та продуктами, які ти не хочеш підтримувати.</string>
+    <string name="look_tut2_title">Відміть</string>
+    <string name="look_tut2_body">Торкнися квадратика, коли звичку виконано. Вечірні відкриваються в час твого чек-іну.</string>
+    <string name="look_tut3_title">%1$s, потім кожні %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дні</item>
+        <item quantity="many">%1$d днів</item>
+        <item quantity="other">%1$d дня</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d місяць</item>
+        <item quantity="few">%1$d місяці</item>
+        <item quantity="many">%1$d місяців</item>
+        <item quantity="other">%1$d місяця</item>
+    </plurals>
+    <string name="look_tut3_body">Дослідження показали, що на формування звички йде від 18 до 254 днів. Найчастіше згадують 66 днів, тож Alice починає саме з цього.</string>
+    <string name="look_tut3_days_label">Днів на формування звички</string>
+    <string name="look_tut3_checkup">Огляд кожні</string>
+    <string name="look_tut3_small">Обидва можна змінити в Налаштуваннях.</string>
+    <string name="look_tut4_title">Раз на тиждень, один новий крок</string>
+    <string name="look_tut4_body">Додаючи по одному кроку, ти ростеш повільно й не береш на себе забагато одразу.</string>
+    <string name="look_tut4_day">День чек-іну</string>
+    <string name="look_tut4_small">Це теж можна змінити в Налаштуваннях.</string>
+    <string name="look_tut5_title">Щокварталу твій підсумок</string>
+    <string name="look_tut5_body">Покажи друзям і близьким, як багато вже позаду. Торкнися вигляду, який подобається:</string>
+    <string name="look_tut_change_mind">Ти завжди можеш передумати.</string>
+    <string name="look_tut6_title">Зроби по-своєму</string>
+    <string name="look_tut6_body">Обери кольори, які найприємніші для тебе. Увесь застосунок зміниться одразу.</string>
+    <string name="look_tut7_title">Змінюй що завгодно, будь-коли</string>
+    <string name="look_tut7_body">Час чек-інів, дні на формування звички, стиль підсумку, кольори й твої дані, усе це в Налаштуваннях.</string>
+    <string name="look_tut7_gear">Торкнися шестерні вгорі Звичок, щоб відкрити Налаштування.</string>
+    <string name="look_tut7_open">Відкрити Налаштування</string>
+
+    <string name="lang_title">Мова</string>
+    <string name="pron_title">Звертання</string>
+    <string name="pron_she">вона</string>
+    <string name="pron_he">він</string>
+    <string name="pron_they">без роду</string>
+    <string name="lang_spotted">Бачиш помилку у своїй мові?</string>
+    <string name="lang_search">Знайди свою мову</string>
+    <string name="lang_phone">Мова телефону</string>
+    <string name="lang_follow">Як у телефоні</string>
+    <string name="lang_note_title">Допоможи з перекладом</string>
+    <string name="lang_note_1">Привіт, я Lucy, і це я створила Alice.</string>
+    <string name="lang_note_2">Я розмовляю англійською, словацькою, чеською та російською, тому ці переклади перевірила сама. Інші мови ще не перевіряв носій мови.</string>
+    <string name="lang_note_3">Якщо помітиш помилку у своїй мові, напиши мені, щоб я могла її виправити. А якщо ти вже якийсь час користуєшся Alice своєю мовою і все читається правильно, теж скажи, щоб я позначила її як схвалену.</string>
+    <string name="lang_note_4">Дякую!</string>
+    <string name="lang_not_approved">ЩЕ НЕ СХВАЛЕНО</string>
+    <string name="lang_report">Повідомити про помилку</string>
+    <string name="lang_all_correct">У моїй мові все правильно</string>
+    <string name="lang_mail_mistake_body">Що звучить неправильно і на якому екрані:\n\n</string>
+    <string name="lang_mail_correct_body">Я вже якийсь час користуюся Alice своєю мовою, і все читається правильно.\n\n</string>
+    <string name="lang_no_mail">Не знайдено поштового застосунку</string>
+
+    <!-- pronoun variants for android below 14, same as values-uk-feminine and -masculine -->
+    <string name="look_improved_in__feminine" translatable="false">Ти покращила своє життя: %1$s</string>
+    <string name="look_improved_in__masculine" translatable="false">Ти покращив своє життя: %1$s</string>
+    <string name="look_poster_improved__feminine" translatable="false">Ти покращила своє життя: %1$s</string>
+    <string name="look_poster_improved__masculine" translatable="false">Ти покращив своє життя: %1$s</string>
+    <string name="look_quote_4__feminine" translatable="false">Ти Не Здалася. Це Важливо</string>
+    <string name="look_quote_4__masculine" translatable="false">Ти Не Здався. Це Важливо</string>
+    <string name="look_quote_6__feminine" translatable="false">Щодня Ти Обирала Краще</string>
+    <string name="look_quote_6__masculine" translatable="false">Щодня Ти Обирав Краще</string>
+    <string name="look_report_ups_downs__feminine" translatable="false">Семестр зі злетами й падіннями, а ти витримала.</string>
+    <string name="look_report_ups_downs__masculine" translatable="false">Семестр зі злетами й падіннями, а ти витримав.</string>
+    <!-- end pronoun variants -->
+</resources>

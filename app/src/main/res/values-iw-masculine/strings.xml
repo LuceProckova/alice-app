@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose he/him pronouns -->
+<resources>
+    <string name="look_you">אתה</string>
+    <string name="look_report_pupil">%1$s · תלמיד: %2$s</string>
+    <string name="look_receipt_customer">לקוח: %1$s</string>
+    <string name="look_boarding_passenger">נוסע</string>
+    <string name="look_boarding_flyer">נוסע מתמיד, השותפים הוותיקים שלך לדרך</string>
+    <string name="lang_mail_correct_body">אני משתמש ב־Alice בשפה שלי כבר זמן מה והכול נשמע נכון.\n\n</string>
+</resources>

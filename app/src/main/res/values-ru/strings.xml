@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Усталость</string>
+    <string name="core_reason_craving">Сильно хотелось</string>
+    <string name="core_reason_no_time">Нет времени</string>
+    <string name="core_reason_forgot">Вылетело из головы</string>
+    <string name="core_reason_no_alternative">Нет альтернативы</string>
+    <string name="core_reason_social">Компания</string>
+    <string name="core_reason_impulse">Импульс</string>
+    <string name="core_reason_too_expensive">Слишком дорого</string>
+    <string name="core_reason_away">Не дома</string>
+
+    <string name="core_nudge_channel">Ежедневное напоминание</string>
+    <string name="core_nudge_title">Сегодня ещё есть что отметить</string>
+    <string name="core_save_failed">Не получилось сохранить, попробуй ещё раз</string>
+
+    <string name="core_kind_habit">Привычка</string>
+    <string name="core_kind_swap">Замена</string>
+    <string name="core_kind_avoid">Отказ</string>
+    <string name="core_about">Подробнее: %1$s</string>
+    <string name="core_ok">ОК</string>
+    <string name="core_less">Меньше</string>
+    <string name="core_more">Больше</string>
+    <string name="core_cancel">Отмена</string>
+    <string name="core_settings">Настройки</string>
+    <string name="core_span_week">Неделя</string>
+    <string name="core_span_month">Месяц</string>
+    <string name="core_span_year">Год</string>
+    <string name="core_span_all">Всё время</string>
+    <string name="core_tab_habits">Привычки</string>
+    <string name="core_tab_changes">Изменения</string>
+    <string name="core_tab_avoid">Отказы</string>
+    <string name="core_tab_insights">Статистика</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">выполнено</string>
+    <string name="core_cell_missed">пропущено</string>
+    <string name="core_cell_partial">частично, пока %1$d</string>
+    <string name="core_cell_unfilled">ещё не заполнено</string>
+    <string name="core_cell_open">нужно сделать</string>
+    <string name="core_cell_locked">закрыто до времени итогов</string>
+    <string name="core_cell_future">ещё рано</string>
+    <string name="core_cell_empty">ничего не нужно</string>
+    <string name="core_cell_band">за этот период готово</string>
+    <string name="core_cell_off">в этот день шаг не нужен</string>
+    <string name="core_cell_none">до начала этого шага</string>
+
+    <string name="core_rhythm_one_off">Один раз</string>
+    <string name="core_rhythm_end_of_day">Каждый день, отмечается вечером</string>
+    <string name="core_rhythm_every_day">Каждый день</string>
+    <string name="core_rhythm_every_days">По %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">в неделю</string>
+    <string name="core_rhythm_a_month">в месяц</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, в любой день</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s и %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d мес.</string>
+    <string name="core_achievement_short_days">%1$d дн.</string>
+    <string name="core_glance_step">%1$s, %2$d из %3$d</string>
+
+    <string name="core_slip_never">Ни разу</string>
+    <string name="core_slip_once">Один раз</string>
+    <string name="core_slip_a_few">Пару раз</string>
+    <string name="core_slip_half">Половину</string>
+    <string name="core_slip_most">Почти всегда</string>
+    <string name="core_slip_always">Всегда</string>
+
+    <string name="core_ideas_habit_anytime">Привычки, в любое время</string>
+    <string name="core_ideas_habit_end">Привычки, в конце дня</string>
+    <string name="core_ideas_swap">Замены</string>
+    <string name="core_ideas_avoid_product">Отказ, товары</string>
+    <string name="core_ideas_avoid_company">Отказ, компании</string>
+    <string name="core_ideas_avoid_food">Отказ, еда</string>
+
+    <string name="core_tag_ethical">Этика</string>
+    <string name="core_tag_health">Здоровье</string>
+    <string name="core_tag_clutter">Хлам</string>
+    <string name="core_tag_ecological">Экология</string>
+    <string name="core_tag_animal_welfare">Защита животных</string>
+    <string name="core_tag_workers_rights">Права работников</string>
+    <string name="core_tag_plastic">Пластик</string>
+    <string name="core_tag_palm_oil">Пальмовое масло</string>
+    <string name="core_tag_deforestation">Вырубка лесов</string>
+    <string name="core_category_company">Компания</string>
+    <string name="core_category_food">Еда</string>
+    <string name="core_category_product">Товар</string>
+    <string name="core_verdict_avoid">ОТКАЗАТЬСЯ</string>
+    <string name="core_verdict_edge">НА ГРАНИ</string>
+    <string name="core_verdict_fine">НОРМАЛЬНО</string>
+
+    <string name="core_theme_off_white_honey">Сливки и мёд</string>
+    <string name="core_theme_vanilla_caramel">Ваниль и карамель</string>
+    <string name="core_theme_sunflower">Подсолнух</string>
+    <string name="core_theme_latte">Латте</string>
+    <string name="core_theme_cocoa_lemon">Какао и лимон</string>
+    <string name="core_theme_espresso_butter">Эспрессо и масло</string>
+    <string name="core_theme_midnight_honey">Полночь и мёд</string>
+    <string name="core_theme_forest_night">Лесная ночь</string>
+    <string name="core_theme_plum_dusk">Сливовые сумерки</string>
+    <string name="core_theme_charcoal_coral">Графит и коралл</string>
+
+    <string name="core_pic_sunny_meadow">Солнечный луг</string>
+    <string name="core_pic_sunset_hills">Холмы на закате</string>
+    <string name="core_pic_starry_night">Звёздная ночь</string>
+    <string name="core_pic_beach_day">День на пляже</string>
+    <string name="core_pic_mountain_lake">Горное озеро</string>
+    <string name="core_pic_snowy_village">Заснеженная деревня</string>
+    <string name="core_pic_rainy_garden">Сад под дождём</string>
+    <string name="core_pic_autumn_forest">Осенний лес</string>
+    <string name="core_pic_cherry_blossom">Цветущая вишня</string>
+    <string name="core_pic_desert_cactus">Кактус в пустыне</string>
+    <string name="core_pic_lighthouse">Маяк</string>
+    <string name="core_pic_rainbow_field">Радуга над полем</string>
+    <string name="core_pic_hot_air_balloon">Воздушный шар</string>
+    <string name="core_pic_sailboat">Парусник</string>
+    <string name="core_pic_cabin_in_the_woods">Домик в лесу</string>
+    <string name="core_pic_tulip_field">Тюльпановое поле</string>
+    <string name="core_pic_campfire_night">Вечер у костра</string>
+    <string name="core_pic_misty_mountains">Горы в тумане</string>
+    <string name="core_pic_sunrise_sea">Рассвет над морем</string>
+    <string name="core_pic_snowy_pines">Сосны в снегу</string>
+    <string name="core_pic_lavender_field">Лавандовое поле</string>
+    <string name="core_pic_waterfall">Водопад</string>
+    <string name="core_pic_city_at_dusk">Город в сумерках</string>
+    <string name="core_pic_picnic">Пикник</string>
+    <string name="core_pic_moon_over_the_lake">Луна над озером</string>
+    <string name="core_pic_palm_island">Остров с пальмами</string>
+    <string name="core_pic_windmill">Ветряная мельница</string>
+    <string name="core_pic_bike_path">Велодорожка</string>
+    <string name="core_pic_greenhouse">Теплица</string>
+    <string name="core_pic_northern_lights">Северное сияние</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">Тебя ждёт %d шаг.</item>
+        <item quantity="few">Тебя ждут %d шага.</item>
+        <item quantity="many">Тебя ждут %d шагов.</item>
+        <item quantity="other">Тебя ждут %d шага.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">выполнено, %d раз</item>
+        <item quantity="few">выполнено, %d раза</item>
+        <item quantity="many">выполнено, %d раз</item>
+        <item quantity="other">выполнено, %d раза</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d раз в день</item>
+        <item quantity="few">%d раза в день</item>
+        <item quantity="many">%d раз в день</item>
+        <item quantity="other">%d раза в день</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d раза</item>
+        <item quantity="many">%d раз</item>
+        <item quantity="other">%d раза</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">за %d неделю</item>
+        <item quantity="few">за %d недели</item>
+        <item quantity="many">за %d недель</item>
+        <item quantity="other">за %d недели</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">за %d месяц</item>
+        <item quantity="few">за %d месяца</item>
+        <item quantity="many">за %d месяцев</item>
+        <item quantity="other">за %d месяца</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">за %d день</item>
+        <item quantity="few">за %d дня</item>
+        <item quantity="many">за %d дней</item>
+        <item quantity="other">за %d дня</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d месяц без пропусков</item>
+        <item quantity="few">%d месяца без пропусков</item>
+        <item quantity="many">%d месяцев без пропусков</item>
+        <item quantity="other">%d месяца без пропусков</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">держится %d месяц</item>
+        <item quantity="few">держится %d месяца</item>
+        <item quantity="many">держится %d месяцев</item>
+        <item quantity="other">держится %d месяца</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d день подряд</item>
+        <item quantity="few">%d дня подряд</item>
+        <item quantity="many">%d дней подряд</item>
+        <item quantity="other">%d дня подряд</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d месяц</item>
+        <item quantity="few">%d месяца</item>
+        <item quantity="many">%d месяцев</item>
+        <item quantity="other">%d месяца</item>
+    </plurals>
+
+    <string name="tabs_new_step">Новый шаг</string>
+    <string name="tabs_edit">Изменить</string>
+    <string name="tabs_delete">Удалить</string>
+    <string name="tabs_done">Готово</string>
+    <string name="tabs_back">Назад</string>
+    <string name="tabs_earlier">Раньше</string>
+    <string name="tabs_later">Позже</string>
+    <string name="tabs_delete_title">Удалить %1$s?</string>
+    <string name="tabs_eod_unlock">Привычки на конец дня откроются в %1$02d:00</string>
+    <string name="tabs_check_up">Проверка</string>
+    <string name="tabs_one_off">Разовое</string>
+
+    <string name="tabs_checkin_from">Итоги дня с %1$02d:00</string>
+    <string name="tabs_checkin_daily">Итоги дня</string>
+    <string name="tabs_checkin_weekly">Итоги недели</string>
+    <string name="tabs_checkin_quarter">Проверка раз в 3 месяца</string>
+    <string name="tabs_checked_in">Итоги подведены</string>
+    <string name="tabs_quarter_section">ПРОВЕРКА РАЗ В 3 МЕСЯЦА</string>
+    <string name="tabs_previous_week">Прошлая неделя</string>
+    <string name="tabs_next_week">Следующая неделя</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%2$s: %1$d день!</item>
+        <item quantity="few">%2$s: %1$d дня!</item>
+        <item quantity="many">%2$s: %1$d дней!</item>
+        <item quantity="other">%2$s: %1$d дня!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Отличная работа. Теперь этот шаг переходит в проверки раз в 3 месяца, отмечать каждый день больше не нужно.</string>
+    <string name="tabs_celebrate_first">Первая будет %1$s.</string>
+    <string name="tabs_glance_title">Твоя неделя</string>
+    <string name="tabs_glance_ticks_kept">Выполненные отметки</string>
+    <string name="tabs_glance_days_checked_in">Дни с итогами</string>
+    <string name="tabs_glance_top_tag">Самая частая причина срыва:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d раз</item>
+        <item quantity="few">%1$s, %2$d раза</item>
+        <item quantity="many">%1$s, %2$d раз</item>
+        <item quantity="other">%1$s, %2$d раза</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Легче всего:</string>
+    <string name="tabs_glance_hardest">Труднее всего:</string>
+
+    <string name="tabs_changes_ongoing">Постоянные замены</string>
+    <string name="tabs_changes_ongoing_tip_title">Постоянная замена</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Ты снова и снова встаёшь перед тем же выбором, например кофейный стаканчик или твёрдый шампунь. %1$d день она отмечается в Привычках, потом проверяется раз в 3 месяца.</item>
+        <item quantity="few">Ты снова и снова встаёшь перед тем же выбором, например кофейный стаканчик или твёрдый шампунь. %1$d дня она отмечается в Привычках, потом проверяется раз в 3 месяца.</item>
+        <item quantity="many">Ты снова и снова встаёшь перед тем же выбором, например кофейный стаканчик или твёрдый шампунь. %1$d дней она отмечается в Привычках, потом проверяется раз в 3 месяца.</item>
+        <item quantity="other">Ты снова и снова встаёшь перед тем же выбором, например кофейный стаканчик или твёрдый шампунь. %1$d дня она отмечается в Привычках, потом проверяется раз в 3 месяца.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Замен пока нет</string>
+    <string name="tabs_changes_day_badge">ДЕНЬ %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">ДЕРЖИТСЯ</string>
+    <string name="tabs_changes_one_off_todo">Разовое, нужно сделать</string>
+    <string name="tabs_changes_one_off_tip">Делаешь один раз, и готово: например, разобрать ящик, перейти на зелёный тариф или зашить куртку. Отметь, и оно переместится в Завершённое.</string>
+    <string name="tabs_changes_nothing_waiting">Ничего не ждёт</string>
+    <string name="tabs_changes_finished">ЗАВЕРШЕНО · %1$d</string>
+
+    <string name="tabs_avoid_title">Список отказов</string>
+    <string name="tabs_avoid_search">Поиск…</string>
+    <string name="tabs_avoid_no_match">Ничего не найдено</string>
+    <string name="tabs_avoid_companies">Компании</string>
+    <string name="tabs_avoid_food">Еда</string>
+    <string name="tabs_avoid_products">Товары</string>
+
+    <string name="tabs_avoid_added">Добавлено</string>
+    <string name="tabs_avoid_why">Почему ты от этого отказываешься</string>
+    <string name="tabs_avoid_own_words">Своими словами</string>
+    <string name="tabs_avoid_brands">Бренды компании · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Один бренд на строку</string>
+    <string name="tabs_avoid_more_brands">+%1$d ещё</string>
+    <string name="tabs_avoid_instead">Что взять вместо</string>
+    <string name="tabs_avoid_instead_hint">Одно на строку</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">срыв</item>
+        <item quantity="few">срыва</item>
+        <item quantity="many">срывов</item>
+        <item quantity="other">срыва</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">без срывов</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">месяц в списке</item>
+        <item quantity="few">месяца в списке</item>
+        <item quantity="many">месяцев в списке</item>
+        <item quantity="other">месяца в списке</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Пропадёт из списка отказов вместе со всей историей.</string>
+
+    <string name="tabs_habit_delete_text">Вся его история удалится вместе с ним.</string>
+    <string name="tabs_habit_created">Создано</string>
+    <string name="tabs_habit_to_do">Нужно сделать</string>
+    <string name="tabs_habit_daily_ticks">Ежедневные отметки</string>
+    <string name="tabs_habit_day_of">День %1$d из %2$d</string>
+    <string name="tabs_habit_finished">Завершено</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">день с начала</item>
+        <item quantity="few">дня с начала</item>
+        <item quantity="many">дней с начала</item>
+        <item quantity="other">дня с начала</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">прерывание</item>
+        <item quantity="few">прерывания</item>
+        <item quantity="many">прерываний</item>
+        <item quantity="other">прерывания</item>
+    </plurals>
+    <string name="tabs_habit_success">успех</string>
+    <string name="tabs_habit_current_streak">Текущая серия</string>
+    <string name="tabs_habit_longest_streak">Самая длинная серия</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дня</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Почему не получилось</string>
+    <string name="tabs_habit_remove_reason">Убрать эту причину</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">способ, которым ты улучшаешь жизнь</item>
+        <item quantity="few">способа, которыми ты улучшаешь жизнь</item>
+        <item quantity="many">способов, которыми ты улучшаешь жизнь</item>
+        <item quantity="other">способа, которыми ты улучшаешь жизнь</item>
+    </plurals>
+    <string name="tabs_insights_habits">Привычки</string>
+    <string name="tabs_insights_swaps">Замены</string>
+    <string name="tabs_insights_avoids">Отказы</string>
+    <string name="tabs_insights_on_track_section">По плану</string>
+    <string name="tabs_insights_avg_days">%1$d дн.</string>
+    <string name="tabs_insights_average_kept">держится в среднем</string>
+    <string name="tabs_insights_days_checked_in">дней с итогами</string>
+    <string name="tabs_insights_on_track">по плану</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">срыв</item>
+        <item quantity="few">срыва</item>
+        <item quantity="many">срывов</item>
+        <item quantity="other">срыва</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">новый шаг</item>
+        <item quantity="few">новых шага</item>
+        <item quantity="many">новых шагов</item>
+        <item quantity="other">нового шага</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">разовое дело сделано</item>
+        <item quantity="few">разовых дела сделано</item>
+        <item quantity="many">разовых дел сделано</item>
+        <item quantity="other">разового дела сделано</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Главные причины срывов</string>
+    <string name="tabs_insights_added_quarter">Добавлено в этом квартале</string>
+    <string name="tabs_insights_past_summaries">Прошлые сводки за 3 месяца</string>
+    <string name="tabs_insights_first_on">Первая будет %1$s</string>
+    <string name="tabs_insights_all_time">Всё время</string>
+    <string name="tabs_insights_period">с %1$s по %2$s %3$d</string>
+
+    <string name="forms_back">Назад</string>
+    <string name="forms_back_habits">Привычки</string>
+    <string name="forms_back_settings">Настройки</string>
+    <string name="forms_add">Добавить</string>
+    <string name="forms_save">Сохранить</string>
+    <string name="forms_finish">Завершить</string>
+    <string name="forms_delete">Удалить</string>
+    <string name="forms_why">Почему</string>
+    <string name="forms_never_show">Больше не показывать</string>
+    <string name="forms_every">Каждые</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">день</item>
+        <item quantity="few">дня</item>
+        <item quantity="many">дней</item>
+        <item quantity="other">дня</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Часть %1$d из %2$d</string>
+    <string name="forms_checkin_next_weekly">Дальше итоги недели ›</string>
+    <string name="forms_checkin_next_quarter">Дальше проверка раз в 3 месяца ›</string>
+    <string name="forms_daily_title">Итоги дня</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d прошлый день не заполнен</item>
+        <item quantity="few">%1$d прошлых дня не заполнены</item>
+        <item quantity="many">%1$d прошлых дней не заполнены</item>
+        <item quantity="other">%1$d прошлого дня не заполнены</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Пропустить все</string>
+    <string name="forms_daily_today">Сегодня · %1$s</string>
+    <string name="forms_daily_skip">Пропустить</string>
+    <string name="forms_daily_undo_skip">Не пропускать</string>
+    <string name="forms_daily_new_tag">Новая причина</string>
+    <string name="forms_daily_new_tag_hint">Мусорка была полная</string>
+    <string name="forms_weekly_title">Итоги недели</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">Пропущена %1$d неделя, один новый шаг закроет её.</item>
+        <item quantity="few">Пропущено %1$d недели, один новый шаг закроет их все.</item>
+        <item quantity="many">Пропущено %1$d недель, один новый шаг закроет их все.</item>
+        <item quantity="other">Пропущено %1$d недели, один новый шаг закроет их все.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">На этой неделе без нового шага</string>
+    <string name="forms_quarter_title">Проверка раз в 3 месяца</string>
+    <string name="forms_quarter_nothing">Проверять пока нечего. Дальше твоя сводка.</string>
+    <string name="forms_quarter_habits">Привычки</string>
+    <string name="forms_quarter_swaps">Замены</string>
+    <string name="forms_quarter_avoid">Отказы</string>
+    <string name="forms_quarter_missed">Пропуски</string>
+    <string name="forms_quarter_missed_level">Пропуски: %1$s</string>
+
+    <string name="forms_new_title">Новый шаг</string>
+    <string name="forms_edit_title">Изменить: %1$s</string>
+    <string name="forms_add_kind">Добавить: %1$s</string>
+    <string name="forms_title_habit">Привычка</string>
+    <string name="forms_title_swap">Замена</string>
+    <string name="forms_title_avoid">Отказ</string>
+    <string name="forms_save_changes">Сохранить изменения</string>
+    <string name="forms_what_kind">Что это?</string>
+    <string name="forms_name">Название</string>
+    <string name="forms_your_new_step">Твой новый шаг</string>
+    <string name="forms_hint_habit">Прочитать 10 страниц</string>
+    <string name="forms_hint_swap">Люфа вместо губки</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Какая привычка?</string>
+    <string name="forms_timing_tip_title">В любое время или в конце дня</string>
+    <string name="forms_timing_tip">В любое время: то, что делаешь один раз, например пробежка. Отмечай сразу, как сделаешь.\n\nВ конце дня: правило, которого держишься весь день, например без перекусов. Отметить можно только вечером.</string>
+    <string name="forms_anytime">В любое время</string>
+    <string name="forms_end_of_day">В конце дня</string>
+    <string name="forms_what_is_it">Что это?</string>
+    <string name="forms_how_often">Как часто?</string>
+    <string name="forms_often_specific">По дням</string>
+    <string name="forms_often_whenever">Когда угодно</string>
+    <string name="forms_often_once">Один раз</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">раз в</item>
+        <item quantity="few">раза в</item>
+        <item quantity="many">раз в</item>
+        <item quantity="other">раза в</item>
+    </plurals>
+    <string name="forms_unit_day">день</string>
+    <string name="forms_unit_week">неделю</string>
+    <string name="forms_unit_month">месяц</string>
+    <string name="forms_unit_x_days">X дней</string>
+    <string name="forms_ideas">Идеи</string>
+    <string name="forms_ideas_others">Другие</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Все идеи (%1$d) ›</item>
+        <item quantity="few">Все идеи (%1$d) ›</item>
+        <item quantity="many">Все идеи (%1$d) ›</item>
+        <item quantity="other">Все идеи (%1$d) ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Все идеи для шагов</string>
+    <string name="forms_search">Поиск…</string>
+    <string name="forms_all">Все</string>
+
+    <string name="forms_settings_title">Настройки</string>
+    <string name="forms_set_colours">Цвета</string>
+    <string name="forms_set_style">Стиль сводки за 3 месяца</string>
+    <string name="forms_set_checkins">Итоги</string>
+    <string name="forms_set_checkin_hour">Итоги дня открываются в</string>
+    <string name="forms_set_checkin_hour_tip">С этого времени можно отмечать привычки на конец дня и подводить итоги дня.</string>
+    <string name="forms_set_week_start">Первый день недели</string>
+    <string name="forms_set_week_start_tip">С какого дня начинаются сетка привычек, недели и графики.</string>
+    <string name="forms_monday">Понедельник</string>
+    <string name="forms_sunday">Воскресенье</string>
+    <string name="forms_set_new_step_every">Новый шаг раз в</string>
+    <string name="forms_set_new_step_every_tip">Сколько недель проходит между итогами недели.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">неделю</item>
+        <item quantity="few">недели</item>
+        <item quantity="many">недель</item>
+        <item quantity="other">недели</item>
+    </plurals>
+    <string name="forms_set_weekly_day">День итогов недели</string>
+    <string name="forms_set_weekly_day_tip">В этот день после итогов дня ты выбираешь новый шаг на следующую неделю.</string>
+    <string name="forms_set_checkup">Проверка раз в 3 месяца</string>
+    <string name="forms_set_checkup_tip">Все проходят проверку в одни и те же дни, 1 января, 1 апреля, 1 июля и 1 октября, чтобы делиться сводками вместе. Но можно выбрать и свою дату.</string>
+    <string name="forms_set_same">Как у всех</string>
+    <string name="forms_set_own">Своя дата</string>
+    <string name="forms_set_starting">Начало</string>
+    <string name="forms_set_starting_tip">Месяц твоей первой собственной проверки.</string>
+    <string name="forms_earlier">Раньше</string>
+    <string name="forms_later">Позже</string>
+    <string name="forms_set_every_tip">Сколько месяцев между проверками.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">месяц</item>
+        <item quantity="few">месяца</item>
+        <item quantity="many">месяцев</item>
+        <item quantity="other">месяца</item>
+    </plurals>
+    <string name="forms_set_day_of_month">День месяца</string>
+    <string name="forms_set_day_of_month_tip">Какой день этого месяца.</string>
+    <string name="forms_set_everyone">Все: 1.01 · 1.04 · 1.07 · 1.10</string>
+    <string name="forms_set_days_build">Дней на формирование привычки</string>
+    <string name="forms_set_days_build_tip">Исследования называют от 18 до 254 дней, чаще всего цитируют 66 (Lally et al. 2010, Singh et al. 2024). Через столько дней новый шаг переходит в твои проверки.</string>
+    <string name="forms_set_nudge">Ежедневное напоминание</string>
+    <string name="forms_set_nudge_tip">Напоминание в это время, только если что-то ещё не отмечено.</string>
+    <string name="forms_set_more">Ещё</string>
+    <string name="forms_set_reasons">Причины срывов</string>
+    <string name="forms_set_tutorial">Пройти обучение заново</string>
+    <string name="forms_set_export">Экспортировать мои данные</string>
+    <string name="forms_set_import">Импортировать данные</string>
+
+    <string name="forms_reasons_title">Причины срывов</string>
+    <string name="forms_reasons_hint">Добавь свою причину</string>
+    <string name="forms_reasons_used">использовано %1$d×</string>
+    <string name="forms_reasons_delete_title">Удалить %1$s?</string>
+    <string name="forms_reasons_delete_text">Срывы останутся в твоей истории, просто без этой причины.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d привычка</item>
+        <item quantity="few">%1$d привычки</item>
+        <item quantity="many">%1$d привычек</item>
+        <item quantity="other">%1$d привычки</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d замена</item>
+        <item quantity="few">%1$d замены</item>
+        <item quantity="many">%1$d замен</item>
+        <item quantity="other">%1$d замены</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d отказ</item>
+        <item quantity="few">%1$d отказа</item>
+        <item quantity="many">%1$d отказов</item>
+        <item quantity="other">%1$d отказа</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, отметки с %2$s</string>
+    <string name="forms_export_title">Экспорт моих данных</string>
+    <string name="forms_export_what">Что попадёт в файл</string>
+    <string name="forms_export_ticks">Все отметки, срывы и причины</string>
+    <string name="forms_export_ticks_since">Все отметки, срывы и причины с %1$s</string>
+    <string name="forms_export_summaries">Твои сводки за 3 месяца</string>
+    <string name="forms_export_settings">Твои настройки, цвета и имя</string>
+    <string name="forms_export_file">Файл</string>
+    <string name="forms_export_kb">%1$d КБ</string>
+    <string name="forms_export_save">Сохранить файл</string>
+    <string name="forms_export_send">Отправить…</string>
+    <string name="forms_export_send_title">Отправить данные Alice</string>
+    <string name="forms_export_saved">Сохранено: %1$s</string>
+    <string name="forms_export_save_failed">Не получилось сохранить файл</string>
+
+    <string name="forms_import_title">Импорт данных</string>
+    <string name="forms_import_choose">Выбери резервную копию Alice</string>
+    <string name="forms_import_choose_sub">.json из экспорта на другом телефоне</string>
+    <string name="forms_import_cant_open">Не получилось открыть этот файл.</string>
+    <string name="forms_import_not_backup">Этот файл не резервная копия Alice.</string>
+    <string name="forms_import_replace_mode">Заменить то, что здесь</string>
+    <string name="forms_import_add_mode">Добавить к тому, что здесь</string>
+    <string name="forms_import_button">Импортировать</string>
+    <string name="forms_import_replace_title">Заменить твои данные?</string>
+    <string name="forms_import_add_title">Добавить эти данные?</string>
+    <string name="forms_import_replace_text">Всё на этом телефоне заменится содержимым файла. Если хочешь это сохранить, сначала сделай экспорт.</string>
+    <string name="forms_import_add_text">Привычки и история из файла добавятся к твоим.</string>
+    <string name="forms_import_done">Данные импортированы</string>
+
+    <string name="look_share">Поделиться</string>
+    <string name="look_save_image">Сохранить картинку</string>
+    <string name="look_next_week">Дальше твоя неделя ›</string>
+    <string name="look_keep_going">Продолжить</string>
+    <string name="look_storage_needed">Alice нужен доступ к памяти, чтобы сохранить картинку</string>
+    <string name="look_share_caption">Мой квартал с Alice. Начни и ты: %1$s</string>
+    <string name="look_share_clip">Сводка Alice</string>
+    <string name="look_share_chooser">Поделись своим кварталом</string>
+    <string name="look_saved">Сохранено в Pictures/Alice</string>
+    <string name="look_save_failed">Не получилось сохранить картинку</string>
+
+    <string name="look_style_poster">Постер</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Витрина с кубками</string>
+    <string name="look_style_receipt">Чек</string>
+    <string name="look_style_report">Табель</string>
+    <string name="look_style_boarding">Посадочный талон</string>
+    <string name="look_style_polaroid">Полароид</string>
+    <string name="look_style_calendar">Календарь</string>
+    <string name="look_style_trading">Коллекционная карточка</string>
+
+    <string name="look_quote_1">Маленькие шаги каждый день</string>
+    <string name="look_quote_2">Спасибо, что не сдаёшься</string>
+    <string name="look_quote_3">Прогресс, а не идеал</string>
+    <string name="look_quote_4">Ты продолжаешь. И это важно</string>
+    <string name="look_quote_5">Маленькие перемены, большая разница</string>
+    <string name="look_quote_6">Каждый день ты выбираешь лучшее</string>
+    <string name="look_quote_7">Медленно, но вперёд</string>
+    <string name="look_quote_8">Ты строишь жизнь, которая тебе нравится</string>
+    <string name="look_quote_9">Шаг за шагом набирается много</string>
+    <string name="look_quote_10">Продолжай ради себя</string>
+    <string name="look_quote_11">Твоё будущее «я» говорит спасибо</string>
+    <string name="look_quote_12">Понемногу, а в итоге много</string>
+    <string name="look_quote_13">В постоянстве тихая магия</string>
+    <string name="look_quote_14">Посмотри, какой путь уже позади</string>
+    <string name="look_quote_15">Радуйся маленьким победам</string>
+    <string name="look_quote_16">Хорошие дни строят, а не находят</string>
+
+    <string name="look_stamp_1">ОТЛИЧНО</string>
+    <string name="look_stamp_2">ПРЕВОСХОДНО</string>
+    <string name="look_stamp_3">МОЛОДЕЦ</string>
+    <string name="look_stamp_4">БЛЕСТЯЩЕ</string>
+    <string name="look_stamp_5">СУПЕР</string>
+    <string name="look_stamp_6">ПЯТЁРКА</string>
+    <string name="look_stamp_7">ЗОЛОТАЯ ЗВЕЗДА</string>
+    <string name="look_stamp_8">ОТЛИЧНАЯ РАБОТА</string>
+
+    <string name="look_period">с %1$s по %2$s</string>
+    <string name="look_scan">СКАНИРУЙ\nИ НАЧНИ\nСВОЙ ПУТЬ</string>
+    <string name="look_you">Ты</string>
+    <string name="look_on_track">по плану</string>
+    <string name="look_new_steps">новые шаги</string>
+    <string name="look_days_in">дней с итогами</string>
+    <string name="look_new">новые</string>
+    <string name="look_week_by_week">Неделя за неделей</string>
+    <string name="look_coming_soon">Скоро будут</string>
+    <string name="look_new_this_quarter">Новое в этом квартале</string>
+    <string name="look_kept_up_longest">Держится дольше всего</string>
+    <string name="look_habits">Привычки</string>
+    <string name="look_swaps">Замены</string>
+    <string name="look_avoids">Отказы</string>
+    <string name="look_ways_improved">Улучшения</string>
+    <string name="look_improved_in">Ты улучшаешь свою жизнь %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d привычка</item>
+        <item quantity="few">%1$d привычки</item>
+        <item quantity="many">%1$d привычек</item>
+        <item quantity="other">%1$d привычки</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d замена</item>
+        <item quantity="few">%1$d замены</item>
+        <item quantity="many">%1$d замен</item>
+        <item quantity="other">%1$d замены</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d отказ</item>
+        <item quantity="few">%1$d отказа</item>
+        <item quantity="many">%1$d отказов</item>
+        <item quantity="other">%1$d отказа</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d срыв</item>
+        <item quantity="few">%1$d срыва</item>
+        <item quantity="many">%1$d срывов</item>
+        <item quantity="other">%1$d срыва</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d способом</item>
+        <item quantity="few">%1$d способами</item>
+        <item quantity="many">%1$d способами</item>
+        <item quantity="other">%1$d способами</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">привычка</item>
+        <item quantity="few">привычки</item>
+        <item quantity="many">привычек</item>
+        <item quantity="other">привычки</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">замена</item>
+        <item quantity="few">замены</item>
+        <item quantity="many">замен</item>
+        <item quantity="other">замены</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">отказ</item>
+        <item quantity="few">отказа</item>
+        <item quantity="many">отказов</item>
+        <item quantity="other">отказа</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">срыв</item>
+        <item quantity="few">срыва</item>
+        <item quantity="many">срывов</item>
+        <item quantity="other">срыва</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">способ</item>
+        <item quantity="few">способа</item>
+        <item quantity="many">способов</item>
+        <item quantity="other">способа</item>
+    </plurals>
+
+    <string name="look_poster_improved">Ты улучшаешь свою жизнь %1$s</string>
+    <string name="look_poster_on_track">ПО ПЛАНУ</string>
+    <string name="look_poster_days">дней</string>
+    <string name="look_poster_achievements">Достижения</string>
+    <string name="look_poster_first_ones">Первые уже на подходе</string>
+    <string name="look_poster_added">Новое в этом квартале</string>
+
+    <string name="look_wrapped_stars">Твои звёзды</string>
+
+    <string name="look_trophy_ways">способами ты\nулучшаешь жизнь</string>
+    <string name="look_trophy_next_quarter">Следующий квартал</string>
+    <string name="look_trophy_first_medal">твоя первая медаль</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Новое на полке:</string>
+
+    <string name="look_receipt_title">Проверка раз в 3 месяца · %1$s</string>
+    <string name="look_receipt_customer">Покупатель: %1$s</string>
+    <string name="look_receipt_habits">Привычки</string>
+    <string name="look_receipt_swaps">Замены</string>
+    <string name="look_receipt_avoids">Отказы</string>
+    <string name="look_receipt_ways">Улучшения в жизни</string>
+    <string name="look_receipt_on_track">По плану в этом квартале</string>
+    <string name="look_receipt_slips">Срывы</string>
+    <string name="look_receipt_new_steps">Новые шаги</string>
+    <string name="look_receipt_new">Новое в этом квартале: %1$s</string>
+
+    <string name="look_report_title">Табель маленьких шагов</string>
+    <string name="look_report_pupil">%1$s · Имя: %2$s</string>
+    <string name="look_report_subject">ПРЕДМЕТ</string>
+    <string name="look_report_built">ОСВОЕНО</string>
+    <string name="look_report_grade">ОЦЕНКА</string>
+    <string name="look_report_attendance">Посещаемость %1$s</string>
+    <string name="look_report_on_track">По плану %1$s</string>
+    <string name="look_report_slips">Срывы %1$s</string>
+    <string name="look_report_achievements">ДОСТИЖЕНИЯ</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">НОВЫЕ ПРЕДМЕТЫ В ЭТОМ КВАРТАЛЕ (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Отзыв учителя:</string>
+    <string name="look_report_calm">Спокойный, ровный квартал.</string>
+    <string name="look_report_ups_downs">Квартал со взлётами и падениями, а ты всё равно продолжаешь.</string>
+    <string name="look_report_star">%1$s: превосходно! Так держать!</string>
+    <string name="look_report_keep_up">Так держать!</string>
+    <string name="look_report_week">НЕДЕЛЯ ЗА НЕДЕЛЕЙ</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Рейс Q%1$d</string>
+    <string name="look_boarding_from">ОТКУДА</string>
+    <string name="look_boarding_old">СТАРЫЕ</string>
+    <string name="look_boarding_habits">привычки</string>
+    <string name="look_boarding_to">КУДА</string>
+    <string name="look_boarding_new">НОВАЯ</string>
+    <string name="look_boarding_better_you">лучшая версия себя</string>
+    <string name="look_boarding_passenger">Пассажир</string>
+    <string name="look_boarding_dates">Даты</string>
+    <string name="look_boarding_miles">Налёт в милях</string>
+    <string name="look_boarding_on_time">Вовремя</string>
+    <string name="look_boarding_turbulence">Турбулентность</string>
+    <string name="look_boarding_days">Дней на борту</string>
+    <string name="look_boarding_flyer">ПОСТОЯННЫЕ ПАССАЖИРЫ, ТВОИ САМЫЕ ДАВНИЕ СПУТНИКИ</string>
+    <string name="look_boarding_log">БОРТОВОЙ ЖУРНАЛ, НЕДЕЛЯ ЗА НЕДЕЛЕЙ</string>
+    <string name="look_boarding_stops">НОВЫЕ ОСТАНОВКИ, +%1$d</string>
+    <string name="look_boarding_note">СЛОВО КАПИТАНА</string>
+
+    <string name="look_polaroid_life">ТВОЯ ЖИЗНЬ</string>
+    <string name="look_polaroid_quarter">В ЭТОМ КВАРТАЛЕ</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d дней с итогами</string>
+    <string name="look_polaroid_longest">ДЕРЖИТСЯ ДОЛЬШЕ ВСЕГО</string>
+    <string name="look_polaroid_new">НОВОЕ, +%1$d</string>
+
+    <string name="look_calendar_added">Добавлено</string>
+
+    <string name="look_trading_common">Обычная</string>
+    <string name="look_trading_uncommon">Необычная</string>
+    <string name="look_trading_rare">Редкая</string>
+    <string name="look_trading_legendary">Легендарная</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">СПОСОБ</item>
+        <item quantity="few">СПОСОБА</item>
+        <item quantity="many">СПОСОБОВ</item>
+        <item quantity="other">СПОСОБА</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d-й</string>
+    <string name="look_ordinal_nd">%1$d-й</string>
+    <string name="look_ordinal_rd">%1$d-й</string>
+    <string name="look_ordinal_th">%1$d-й</string>
+    <string name="look_trading_number">№ %1$03d · твой %2$s квартал</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d дней</string>
+    <string name="look_trading_power">Сила, неделя за неделей</string>
+    <string name="look_trading_edition">%1$s · выпуск Q%2$d</string>
+
+    <string name="look_sample_water_first">Сначала вода</string>
+    <string name="look_sample_own_bag">Своя сумка</string>
+    <string name="look_sample_read_pages">Прочитать 10 страниц</string>
+    <string name="look_sample_reading">Чтение каждый день</string>
+    <string name="look_sample_late_snacks">Без поздних перекусов</string>
+    <string name="look_sample_stretching">Растяжка</string>
+    <string name="look_sample_cooler_home">Дома прохладнее</string>
+    <string name="look_sample_loofah">Люфа вместо губки</string>
+    <string name="look_sample_palm_oil">Без пальмового масла</string>
+    <string name="look_sample_stretch">Растяжка 10 мин</string>
+
+    <string name="look_colours_title">Цвета</string>
+    <string name="look_colours_preview">Предпросмотр</string>
+    <string name="look_colours_your_summary">Твоя сводка за 3 месяца</string>
+    <string name="look_colours_light">Светлая</string>
+    <string name="look_colours_dark">Тёмная</string>
+    <string name="look_styles_title">Стиль сводки за 3 месяца</string>
+    <string name="look_styles_all_pictures">Все 30 картинок для полароида</string>
+    <string name="look_styles_refresh">Обновить</string>
+    <string name="look_pictures_title">Картинки для полароида</string>
+    <string name="look_pictures_back">Стили сводки</string>
+
+    <string name="look_welcome_name">Твоё имя</string>
+    <string name="look_welcome_start">Начать</string>
+    <string name="look_welcome_import">Импортировать мои данные</string>
+
+    <string name="look_tut_skip">Пропустить</string>
+    <string name="look_tut_page">%1$d ИЗ %2$d</string>
+    <string name="look_tut_back">Назад</string>
+    <string name="look_tut_start">Начать</string>
+    <string name="look_tut_next">Дальше</string>
+    <string name="look_tut1_title">Стань лучшей версией себя, шаг за шагом</string>
+    <string name="look_tut1_body">Заводи новые привычки, выбирай бережнее и смотри, как складывается всё, чего ты добиваешься.</string>
+    <string name="look_tut1_habits">Строй хорошие привычки день за днём и становись тем человеком, которым хочешь быть.</string>
+    <string name="look_tut1_swaps">Меняй товары на более бережные, лучшие для планеты, людей или твоего здоровья.</string>
+    <string name="look_tut1_avoids">Следи за компаниями, едой и товарами, которые ты не хочешь поддерживать.</string>
+    <string name="look_tut2_title">Отмечай</string>
+    <string name="look_tut2_body">Нажми на квадратик, когда привычка выполнена. Вечерние открываются во время итогов дня.</string>
+    <string name="look_tut3_title">%1$s, потом раз в %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дня</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d месяц</item>
+        <item quantity="few">%1$d месяца</item>
+        <item quantity="many">%1$d месяцев</item>
+        <item quantity="other">%1$d месяца</item>
+    </plurals>
+    <string name="look_tut3_body">Исследования показали, что на привычку уходит от 18 до 254 дней. Чаще всего называют 66 дней, с них Alice и начинает.</string>
+    <string name="look_tut3_days_label">Дней на формирование привычки</string>
+    <string name="look_tut3_checkup">Проверка раз в</string>
+    <string name="look_tut3_small">И то и другое можно поменять в Настройках.</string>
+    <string name="look_tut4_title">Раз в неделю один новый шаг</string>
+    <string name="look_tut4_body">Если добавлять по одному шагу, ты растёшь постепенно и не берёшь на себя слишком много сразу.</string>
+    <string name="look_tut4_day">День итогов недели</string>
+    <string name="look_tut4_small">Это тоже можно поменять в Настройках.</string>
+    <string name="look_tut5_title">Каждый квартал твоя сводка</string>
+    <string name="look_tut5_body">Покажи друзьям и близким, какой путь уже позади. Нажми на вид, который тебе нравится:</string>
+    <string name="look_tut_change_mind">Передумать можно в любой момент.</string>
+    <string name="look_tut6_title">Сделай её своей</string>
+    <string name="look_tut6_body">Выбери цвета, которые тебе приятнее всего. Всё приложение сразу поменяется.</string>
+    <string name="look_tut7_title">Меняй что угодно и когда угодно</string>
+    <string name="look_tut7_body">Время итогов, дни на формирование привычки, стиль сводки, цвета и твои данные находятся в Настройках.</string>
+    <string name="look_tut7_gear">Нажми на шестерёнку вверху в Привычках, чтобы открыть Настройки.</string>
+    <string name="look_tut7_open">Открыть Настройки</string>
+
+    <string name="lang_title">Язык</string>
+    <string name="pron_title">Обращение</string>
+    <string name="pron_she">она</string>
+    <string name="pron_he">он</string>
+    <string name="pron_they">без рода</string>
+    <string name="lang_spotted">Видишь ошибку в своём языке?</string>
+    <string name="lang_search">Найди свой язык</string>
+    <string name="lang_phone">Язык телефона</string>
+    <string name="lang_follow">Как в телефоне</string>
+    <string name="lang_note_title">Помощь с переводами</string>
+    <string name="lang_note_1">Привет, я Люси, и это я сделала Alice.</string>
+    <string name="lang_note_2">Я говорю по-английски, по-словацки, по-чешски и по-русски, поэтому эти переводы проверила сама. Остальные языки носители языка ещё не проверяли.</string>
+    <string name="lang_note_3">Если найдёшь ошибку в своём языке, пожалуйста, напиши мне, чтобы я могла её исправить. А если ты уже какое-то время пользуешься Alice на своём языке и всё читается правильно, тоже скажи мне, чтобы я отметила его как одобренный.</string>
+    <string name="lang_note_4">Спасибо!</string>
+    <string name="lang_not_approved">ЕЩЁ НЕ ОДОБРЕН</string>
+    <string name="lang_report">Сообщить об ошибке</string>
+    <string name="lang_all_correct">В моём языке всё правильно</string>
+    <string name="lang_mail_mistake_body">Что звучит неправильно и на каком экране:\n\n</string>
+    <string name="lang_mail_correct_body">Я уже какое-то время пользуюсь Alice на своём языке, и всё читается правильно.\n\n</string>
+    <string name="lang_no_mail">Не найдено почтовое приложение</string>
+
+    <!-- pronoun variants for android below 14, same as values-ru-feminine and -masculine -->
+    <string name="look_improved_in__feminine" translatable="false">Ты улучшила свою жизнь %1$s</string>
+    <string name="look_improved_in__masculine" translatable="false">Ты улучшил свою жизнь %1$s</string>
+    <string name="look_poster_improved__feminine" translatable="false">Ты улучшила свою жизнь %1$s</string>
+    <string name="look_poster_improved__masculine" translatable="false">Ты улучшил свою жизнь %1$s</string>
+    <string name="look_quote_4__feminine" translatable="false">Ты не сдалась. И это важно</string>
+    <string name="look_quote_4__masculine" translatable="false">Ты не сдался. И это важно</string>
+    <string name="look_quote_6__feminine" translatable="false">Каждый день ты выбирала лучшее</string>
+    <string name="look_quote_6__masculine" translatable="false">Каждый день ты выбирал лучшее</string>
+    <string name="look_report_ups_downs__feminine" translatable="false">Квартал со взлётами и падениями, а ты выдержала.</string>
+    <string name="look_report_ups_downs__masculine" translatable="false">Квартал со взлётами и падениями, а ты выдержал.</string>
+    <!-- end pronoun variants -->
+</resources>

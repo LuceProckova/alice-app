@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <!-- debug only, fills app with sample steps for testing and screenshots -->
+        <activity android:screenOrientation="portrait" android:name=".DemoDataActivity" android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- debug only, every screen opens straight from adb for testing -->
+        <activity android:name="com.lucyprockova.alice.ui.HabitActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.AvoidItemActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.NewStepActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.IdeasActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.CheckInActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.SummaryActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.SettingsActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.LanguageActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.TranslationNoteActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.ColoursActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.StylesActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.PicturesActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.ReasonsActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.ExportActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.ImportActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.TutorialActivity" android:exported="true" tools:replace="android:exported" />
+        <activity android:name="com.lucyprockova.alice.ui.WelcomeActivity" android:exported="true" tools:replace="android:exported" />
+    </application>
+</manifest>

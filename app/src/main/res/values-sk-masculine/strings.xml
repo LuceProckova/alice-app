@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose he/him pronouns -->
+<resources>
+    <string name="look_improved_in">Zlepšil si si život %1$s</string>
+    <string name="look_poster_improved">Zlepšil si si život %1$s</string>
+    <string name="look_quote_4">Vydržal si. A to sa počíta</string>
+    <string name="look_quote_6">Každý deň si si vybral lepšie</string>
+    <string name="look_report_ups_downs">Štvrťrok plný vzostupov aj pádov, a predsa si vydržal.</string>
+</resources>

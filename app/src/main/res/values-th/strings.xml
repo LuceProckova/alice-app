@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">เหนื่อยเกินไป</string>
+    <string name="core_reason_craving">อยากมาก</string>
+    <string name="core_reason_no_time">ไม่มีเวลา</string>
+    <string name="core_reason_forgot">ลืม</string>
+    <string name="core_reason_no_alternative">ไม่มีตัวเลือกอื่น</string>
+    <string name="core_reason_social">เจอเพื่อน</string>
+    <string name="core_reason_impulse">ทำไปตามอารมณ์</string>
+    <string name="core_reason_too_expensive">แพงเกินไป</string>
+    <string name="core_reason_away">ไม่อยู่บ้าน</string>
+
+    <string name="core_nudge_channel">การเตือนรายวัน</string>
+    <string name="core_nudge_title">วันนี้ยังมีที่ต้องติ๊ก</string>
+    <string name="core_save_failed">บันทึกไม่ได้ ลองอีกครั้งนะ</string>
+
+    <string name="core_kind_habit">นิสัย</string>
+    <string name="core_kind_swap">เปลี่ยน</string>
+    <string name="core_kind_avoid">เลี่ยง</string>
+    <string name="core_about">เกี่ยวกับ %1$s</string>
+    <string name="core_ok">ตกลง</string>
+    <string name="core_less">น้อยลง</string>
+    <string name="core_more">เพิ่มเติม</string>
+    <string name="core_cancel">ยกเลิก</string>
+    <string name="core_settings">การตั้งค่า</string>
+    <string name="core_span_week">สัปดาห์</string>
+    <string name="core_span_month">เดือน</string>
+    <string name="core_span_year">ปี</string>
+    <string name="core_span_all">ทั้งหมด</string>
+    <string name="core_tab_habits">นิสัย</string>
+    <string name="core_tab_changes">การเปลี่ยน</string>
+    <string name="core_tab_avoid">เลี่ยง</string>
+    <string name="core_tab_insights">สรุปผล</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">ทำแล้ว</string>
+    <string name="core_cell_missed">พลาด</string>
+    <string name="core_cell_partial">ทำไปบางส่วน ตอนนี้ %1$d</string>
+    <string name="core_cell_unfilled">ยังไม่ได้กรอก</string>
+    <string name="core_cell_open">ต้องทำ</string>
+    <string name="core_cell_locked">ล็อกไว้จนถึงเวลาเช็กอิน</string>
+    <string name="core_cell_future">ยังไม่ถึง</string>
+    <string name="core_cell_empty">ไม่ต้องทำอะไร</string>
+    <string name="core_cell_band">ทำครบสำหรับช่วงนี้แล้ว</string>
+    <string name="core_cell_off">ไม่ใช่วันของขั้นตอนนี้</string>
+    <string name="core_cell_none">ก่อนเริ่มขั้นตอนนี้</string>
+
+    <string name="core_rhythm_one_off">ครั้งเดียว</string>
+    <string name="core_rhythm_end_of_day">ทุกวัน ติ๊กตอนสิ้นวัน</string>
+    <string name="core_rhythm_every_day">ทุกวัน</string>
+    <string name="core_rhythm_every_days">ทุก%1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">ต่อสัปดาห์</string>
+    <string name="core_rhythm_a_month">ต่อเดือน</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s วันไหนก็ได้</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s และ %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d ด.</string>
+    <string name="core_achievement_short_days">%1$d ว.</string>
+    <string name="core_glance_step">%1$s, %2$d จาก %3$d</string>
+
+    <string name="core_slip_never">ไม่เคย</string>
+    <string name="core_slip_once">ครั้งเดียว</string>
+    <string name="core_slip_a_few">2-3 ครั้ง</string>
+    <string name="core_slip_half">ครึ่งหนึ่ง</string>
+    <string name="core_slip_most">ส่วนใหญ่</string>
+    <string name="core_slip_always">ตลอด</string>
+
+    <string name="core_ideas_habit_anytime">นิสัย เวลาไหนก็ได้</string>
+    <string name="core_ideas_habit_end">นิสัย ตอนสิ้นวัน</string>
+    <string name="core_ideas_swap">การเปลี่ยน</string>
+    <string name="core_ideas_avoid_product">เลี่ยง ผลิตภัณฑ์</string>
+    <string name="core_ideas_avoid_company">เลี่ยง บริษัท</string>
+    <string name="core_ideas_avoid_food">เลี่ยง อาหาร</string>
+
+    <string name="core_tag_ethical">จริยธรรม</string>
+    <string name="core_tag_health">สุขภาพ</string>
+    <string name="core_tag_clutter">ของรก</string>
+    <string name="core_tag_ecological">สิ่งแวดล้อม</string>
+    <string name="core_tag_animal_welfare">สวัสดิภาพสัตว์</string>
+    <string name="core_tag_workers_rights">สิทธิแรงงาน</string>
+    <string name="core_tag_plastic">พลาสติก</string>
+    <string name="core_tag_palm_oil">น้ำมันปาล์ม</string>
+    <string name="core_tag_deforestation">การทำลายป่า</string>
+    <string name="core_category_company">บริษัท</string>
+    <string name="core_category_food">อาหาร</string>
+    <string name="core_category_product">ผลิตภัณฑ์</string>
+    <string name="core_verdict_avoid">เลี่ยง</string>
+    <string name="core_verdict_edge">ก้ำกึ่ง</string>
+    <string name="core_verdict_fine">โอเค</string>
+
+    <string name="core_theme_off_white_honey">ขาวนวล &amp; น้ำผึ้ง</string>
+    <string name="core_theme_vanilla_caramel">วานิลลา &amp; คาราเมล</string>
+    <string name="core_theme_sunflower">ดอกทานตะวัน</string>
+    <string name="core_theme_latte">ลาเต้</string>
+    <string name="core_theme_cocoa_lemon">โกโก้ &amp; เลมอน</string>
+    <string name="core_theme_espresso_butter">เอสเปรสโซ &amp; เนย</string>
+    <string name="core_theme_midnight_honey">เที่ยงคืน &amp; น้ำผึ้ง</string>
+    <string name="core_theme_forest_night">ป่ายามค่ำ</string>
+    <string name="core_theme_plum_dusk">พลัมยามเย็น</string>
+    <string name="core_theme_charcoal_coral">ถ่าน &amp; ปะการัง</string>
+
+    <string name="core_pic_sunny_meadow">ทุ่งหญ้าแดดจ้า</string>
+    <string name="core_pic_sunset_hills">เนินเขายามพระอาทิตย์ตก</string>
+    <string name="core_pic_starry_night">คืนพระจันทร์เต็มดาว</string>
+    <string name="core_pic_beach_day">วันที่ชายหาด</string>
+    <string name="core_pic_mountain_lake">ทะเลสาบบนภูเขา</string>
+    <string name="core_pic_snowy_village">หมู่บ้านหิมะ</string>
+    <string name="core_pic_rainy_garden">สวนยามฝนตก</string>
+    <string name="core_pic_autumn_forest">ป่าฤดูใบไม้ร่วง</string>
+    <string name="core_pic_cherry_blossom">ซากุระ</string>
+    <string name="core_pic_desert_cactus">กระบองเพชรกลางทะเลทราย</string>
+    <string name="core_pic_lighthouse">ประภาคาร</string>
+    <string name="core_pic_rainbow_field">ทุ่งสายรุ้ง</string>
+    <string name="core_pic_hot_air_balloon">บอลลูน</string>
+    <string name="core_pic_sailboat">เรือใบ</string>
+    <string name="core_pic_cabin_in_the_woods">กระท่อมในป่า</string>
+    <string name="core_pic_tulip_field">ทุ่งทิวลิป</string>
+    <string name="core_pic_campfire_night">คืนรอบกองไฟ</string>
+    <string name="core_pic_misty_mountains">ภูเขาในหมอก</string>
+    <string name="core_pic_sunrise_sea">ทะเลยามเช้า</string>
+    <string name="core_pic_snowy_pines">ต้นสนในหิมะ</string>
+    <string name="core_pic_lavender_field">ทุ่งลาเวนเดอร์</string>
+    <string name="core_pic_waterfall">น้ำตก</string>
+    <string name="core_pic_city_at_dusk">เมืองยามโพล้เพล้</string>
+    <string name="core_pic_picnic">ปิกนิก</string>
+    <string name="core_pic_moon_over_the_lake">พระจันทร์เหนือทะเลสาบ</string>
+    <string name="core_pic_palm_island">เกาะต้นปาล์ม</string>
+    <string name="core_pic_windmill">กังหันลม</string>
+    <string name="core_pic_bike_path">ทางจักรยาน</string>
+    <string name="core_pic_greenhouse">เรือนกระจก</string>
+    <string name="core_pic_northern_lights">แสงเหนือ</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="other">มี %d ขั้นตอนรอคุณอยู่</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="other">ทำแล้ว %d ครั้ง</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="other">วันละ %d ครั้ง</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="other">%d ครั้ง</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="other">ทุก %d สัปดาห์</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="other">ทุก %d เดือน</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="other">ทุก %d วัน</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="other">%d เดือน ไม่เคยพลาด</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="other">ทำต่อเนื่อง %d เดือน</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="other">%d วันติด</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="other">%d เดือน</item>
+    </plurals>
+
+    <string name="tabs_new_step">ขั้นตอนใหม่</string>
+    <string name="tabs_edit">แก้ไข</string>
+    <string name="tabs_delete">ลบ</string>
+    <string name="tabs_done">เสร็จ</string>
+    <string name="tabs_back">กลับ</string>
+    <string name="tabs_earlier">ก่อนหน้า</string>
+    <string name="tabs_later">ถัดไป</string>
+    <string name="tabs_delete_title">ลบ %1$s ไหม</string>
+    <string name="tabs_eod_unlock">นิสัยตอนสิ้นวันจะปลดล็อกตอน %1$02d:00</string>
+    <string name="tabs_check_up">เช็กอัป</string>
+    <string name="tabs_one_off">ครั้งเดียว</string>
+
+    <string name="tabs_checkin_from">เช็กอินได้ตั้งแต่ %1$02d:00</string>
+    <string name="tabs_checkin_daily">เช็กอินรายวัน</string>
+    <string name="tabs_checkin_weekly">เช็กอินรายสัปดาห์</string>
+    <string name="tabs_checkin_quarter">เช็กอัป 3 เดือน</string>
+    <string name="tabs_checked_in">เช็กอินแล้ว</string>
+    <string name="tabs_quarter_section">เช็กอัป 3 เดือน</string>
+    <string name="tabs_previous_week">สัปดาห์ก่อน</string>
+    <string name="tabs_next_week">สัปดาห์หน้า</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="other">%2$s ครบ %1$d วัน!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">เก่งมาก ต่อจากนี้ย้ายไปอยู่ในเช็กอัป 3 เดือนแล้ว ไม่ต้องติ๊กทุกวันอีก</string>
+    <string name="tabs_celebrate_first">ครั้งแรกคือ %1$s</string>
+    <string name="tabs_glance_title">สัปดาห์ของคุณ</string>
+    <string name="tabs_glance_ticks_kept">ติ๊กที่ทำได้</string>
+    <string name="tabs_glance_days_checked_in">วันที่เช็กอิน</string>
+    <string name="tabs_glance_top_tag">เหตุผลที่พลาดบ่อยสุด:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="other">%1$s, %2$d ครั้ง</item>
+    </plurals>
+    <string name="tabs_glance_easiest">ง่ายสุด:</string>
+    <string name="tabs_glance_hardest">ยากสุด:</string>
+
+    <string name="tabs_changes_ongoing">การเปลี่ยนที่ทำต่อเนื่อง</string>
+    <string name="tabs_changes_ongoing_tip_title">การเปลี่ยนต่อเนื่อง</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="other">คุณจะเจอตัวเลือกเดิมอีก เช่น แก้วกาแฟหรือแชมพูแบบก้อน จะติ๊กในหน้านิสัย %1$d วัน แล้วเช็กทุก 3 เดือน</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">ยังไม่มีการเปลี่ยน</string>
+    <string name="tabs_changes_day_badge">วันที่ %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">ติดแล้ว</string>
+    <string name="tabs_changes_one_off_todo">ครั้งเดียว ต้องทำ</string>
+    <string name="tabs_changes_one_off_tip">ทำครั้งเดียวก็จบ เช่น เคลียร์ลิ้นชัก เปลี่ยนไปใช้ไฟฟ้าพลังงานสะอาด หรือซ่อมแจ็กเก็ต ติ๊กแล้วจะย้ายไปที่เสร็จแล้ว</string>
+    <string name="tabs_changes_nothing_waiting">ไม่มีอะไรรออยู่</string>
+    <string name="tabs_changes_finished">เสร็จแล้ว · %1$d</string>
+
+    <string name="tabs_avoid_title">รายการที่เลี่ยง</string>
+    <string name="tabs_avoid_search">ค้นหา…</string>
+    <string name="tabs_avoid_no_match">ไม่พบรายการที่ตรงกัน</string>
+    <string name="tabs_avoid_companies">บริษัท</string>
+    <string name="tabs_avoid_food">อาหาร</string>
+    <string name="tabs_avoid_products">ผลิตภัณฑ์</string>
+
+    <string name="tabs_avoid_added">เพิ่มเมื่อ</string>
+    <string name="tabs_avoid_why">ทำไมคุณถึงเลี่ยง</string>
+    <string name="tabs_avoid_own_words">ในแบบของคุณเอง</string>
+    <string name="tabs_avoid_brands">แบรนด์ในเครือ · %1$d</string>
+    <string name="tabs_avoid_brand_hint">บรรทัดละหนึ่งแบรนด์</string>
+    <string name="tabs_avoid_more_brands">+อีก %1$d</string>
+    <string name="tabs_avoid_instead">ใช้อันนี้แทน</string>
+    <string name="tabs_avoid_instead_hint">บรรทัดละหนึ่งอย่าง</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="other">ครั้งที่พลาด</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">เลี่ยงได้</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="other">เดือนในรายการ</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">จะถูกลบออกจากรายการที่เลี่ยงพร้อมประวัติทั้งหมด</string>
+
+    <string name="tabs_habit_delete_text">ประวัติทั้งหมดจะหายไปด้วย</string>
+    <string name="tabs_habit_created">สร้างเมื่อ</string>
+    <string name="tabs_habit_to_do">ต้องทำ</string>
+    <string name="tabs_habit_daily_ticks">ติ๊กรายวัน</string>
+    <string name="tabs_habit_day_of">วันที่ %1$d จาก %2$d</string>
+    <string name="tabs_habit_finished">เสร็จแล้ว</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="other">วันที่ทำต่อเนื่อง</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="other">ครั้งที่พลาด</item>
+    </plurals>
+    <string name="tabs_habit_success">สำเร็จ</string>
+    <string name="tabs_habit_current_streak">ทำติดกันตอนนี้</string>
+    <string name="tabs_habit_longest_streak">ทำติดกันนานสุด</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="other">%1$d วัน</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">ทำไมถึงพลาด</string>
+    <string name="tabs_habit_remove_reason">ลบเหตุผลนี้</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="other">วิธีที่คุณทำให้ชีวิตดีขึ้น</item>
+    </plurals>
+    <string name="tabs_insights_habits">นิสัย</string>
+    <string name="tabs_insights_swaps">การเปลี่ยน</string>
+    <string name="tabs_insights_avoids">การเลี่ยง</string>
+    <string name="tabs_insights_on_track_section">ไปได้ดี</string>
+    <string name="tabs_insights_avg_days">%1$d ว.</string>
+    <string name="tabs_insights_average_kept">ทำได้เฉลี่ย</string>
+    <string name="tabs_insights_days_checked_in">วันที่เช็กอิน</string>
+    <string name="tabs_insights_on_track">ไปได้ดี</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="other">ครั้งที่พลาด</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="other">ขั้นตอนใหม่</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="other">งานครั้งเดียวที่เสร็จ</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">เหตุผลที่พลาดบ่อยสุด</string>
+    <string name="tabs_insights_added_quarter">เพิ่มในไตรมาสนี้</string>
+    <string name="tabs_insights_past_summaries">สรุป 3 เดือนที่ผ่านมา</string>
+    <string name="tabs_insights_first_on">สรุปแรกของคุณจะมาวันที่ %1$s</string>
+    <string name="tabs_insights_all_time">ทั้งหมด</string>
+    <string name="tabs_insights_period">%1$s ถึง %2$s %3$d</string>
+
+    <string name="forms_back">กลับ</string>
+    <string name="forms_back_habits">นิสัย</string>
+    <string name="forms_back_settings">การตั้งค่า</string>
+    <string name="forms_add">เพิ่ม</string>
+    <string name="forms_save">บันทึก</string>
+    <string name="forms_finish">เสร็จสิ้น</string>
+    <string name="forms_delete">ลบ</string>
+    <string name="forms_why">ทำไม</string>
+    <string name="forms_never_show">ไม่ต้องแสดงอีก</string>
+    <string name="forms_every">ทุก</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="other">วัน</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">ขั้นที่ %1$d จาก %2$d</string>
+    <string name="forms_checkin_next_weekly">ต่อไป เช็กอินรายสัปดาห์ ›</string>
+    <string name="forms_checkin_next_quarter">ต่อไป เช็กอัป 3 เดือน ›</string>
+    <string name="forms_daily_title">เช็กอินรายวัน</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="other">มี %1$d วันก่อนหน้าที่ยังไม่ได้กรอก</item>
+    </plurals>
+    <string name="forms_daily_skip_all">ข้ามทั้งหมด</string>
+    <string name="forms_daily_today">วันนี้ · %1$s</string>
+    <string name="forms_daily_skip">ข้าม</string>
+    <string name="forms_daily_undo_skip">เลิกข้าม</string>
+    <string name="forms_daily_new_tag">แท็กใหม่</string>
+    <string name="forms_daily_new_tag_hint">ถังขยะเต็ม</string>
+    <string name="forms_weekly_title">เช็กอินรายสัปดาห์</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="other">ค้างอยู่ %1$d สัปดาห์ ขั้นตอนใหม่เดียวใช้ได้กับทั้งหมด</item>
+    </plurals>
+    <string name="forms_weekly_no_step">สัปดาห์นี้ไม่มีขั้นตอนใหม่</string>
+    <string name="forms_quarter_title">เช็กอัป 3 เดือน</string>
+    <string name="forms_quarter_nothing">ยังไม่มีอะไรให้เช็กอัป ต่อไปคือสรุปของคุณ</string>
+    <string name="forms_quarter_habits">นิสัย</string>
+    <string name="forms_quarter_swaps">การเปลี่ยน</string>
+    <string name="forms_quarter_avoid">เลี่ยง</string>
+    <string name="forms_quarter_missed">พลาด</string>
+    <string name="forms_quarter_missed_level">พลาด: %1$s</string>
+
+    <string name="forms_new_title">ขั้นตอนใหม่</string>
+    <string name="forms_edit_title">แก้ไข: %1$s</string>
+    <string name="forms_add_kind">เพิ่ม: %1$s</string>
+    <string name="forms_title_habit">นิสัย</string>
+    <string name="forms_title_swap">เปลี่ยน</string>
+    <string name="forms_title_avoid">เลี่ยง</string>
+    <string name="forms_save_changes">บันทึกการแก้ไข</string>
+    <string name="forms_what_kind">แบบไหน</string>
+    <string name="forms_name">ชื่อ</string>
+    <string name="forms_your_new_step">ขั้นตอนใหม่ของคุณ</string>
+    <string name="forms_hint_habit">อ่านหนังสือ 10 หน้า</string>
+    <string name="forms_hint_swap">ใยบวบแทนฟองน้ำ</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">นิสัยแบบไหน</string>
+    <string name="forms_timing_tip_title">เวลาไหนก็ได้ หรือ ตอนสิ้นวัน</string>
+    <string name="forms_timing_tip">เวลาไหนก็ได้: สิ่งที่ทำครั้งเดียว เช่น ไปวิ่ง ทำเสร็จก็ติ๊กได้เลย\n\nตอนสิ้นวัน: กฎที่ต้องรักษาทั้งวัน เช่น ไม่กินขนม ติ๊กได้เฉพาะตอนเย็น</string>
+    <string name="forms_anytime">เวลาไหนก็ได้</string>
+    <string name="forms_end_of_day">ตอนสิ้นวัน</string>
+    <string name="forms_what_is_it">คืออะไร</string>
+    <string name="forms_how_often">บ่อยแค่ไหน</string>
+    <string name="forms_often_specific">บางวัน</string>
+    <string name="forms_often_whenever">เมื่อไหร่ก็ได้</string>
+    <string name="forms_often_once">ครั้งเดียว</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="other">ครั้ง ทุก</item>
+    </plurals>
+    <string name="forms_unit_day">วัน</string>
+    <string name="forms_unit_week">สัปดาห์</string>
+    <string name="forms_unit_month">เดือน</string>
+    <string name="forms_unit_x_days">X วัน</string>
+    <string name="forms_ideas">ไอเดีย</string>
+    <string name="forms_ideas_others">อื่นๆ</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="other">ดูไอเดียทั้งหมด %1$d ข้อ ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">ไอเดียขั้นตอนทั้งหมด</string>
+    <string name="forms_search">ค้นหา…</string>
+    <string name="forms_all">ทั้งหมด</string>
+
+    <string name="forms_settings_title">การตั้งค่า</string>
+    <string name="forms_set_colours">สี</string>
+    <string name="forms_set_style">สไตล์สรุป 3 เดือน</string>
+    <string name="forms_set_checkins">เช็กอิน</string>
+    <string name="forms_set_checkin_hour">เช็กอินรายวันเปิดตอน</string>
+    <string name="forms_set_checkin_hour_tip">ตั้งแต่เวลานี้คุณติ๊กนิสัยตอนสิ้นวันและทำเช็กอินรายวันได้</string>
+    <string name="forms_set_week_start">สัปดาห์เริ่มวัน</string>
+    <string name="forms_set_week_start_tip">วันที่ตารางนิสัย สัปดาห์ และกราฟเริ่มต้น</string>
+    <string name="forms_monday">วันจันทร์</string>
+    <string name="forms_sunday">วันอาทิตย์</string>
+    <string name="forms_set_new_step_every">ขั้นตอนใหม่ทุก</string>
+    <string name="forms_set_new_step_every_tip">ระยะห่างระหว่างเช็กอินรายสัปดาห์ เป็นสัปดาห์</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="other">สัปดาห์</item>
+    </plurals>
+    <string name="forms_set_weekly_day">วันเช็กอินรายสัปดาห์</string>
+    <string name="forms_set_weekly_day_tip">วันนี้หลังเช็กอินรายวัน คุณจะได้เลือกขั้นตอนใหม่ของสัปดาห์หน้า</string>
+    <string name="forms_set_checkup">เช็กอัป 3 เดือน</string>
+    <string name="forms_set_checkup_tip">ทุกคนเช็กอัปวันเดียวกัน: 1 ม.ค., 1 เม.ย., 1 ก.ค. และ 1 ต.ค. จะได้แชร์สรุปพร้อมกัน หรือจะเลือกวันของคุณเองก็ได้</string>
+    <string name="forms_set_same">เหมือนทุกคน</string>
+    <string name="forms_set_own">วันของฉันเอง</string>
+    <string name="forms_set_starting">เริ่มตั้งแต่</string>
+    <string name="forms_set_starting_tip">เดือนของเช็กอัปแรกของคุณเอง</string>
+    <string name="forms_earlier">ก่อนหน้า</string>
+    <string name="forms_later">ถัดไป</string>
+    <string name="forms_set_every_tip">จำนวนเดือนระหว่างเช็กอัป</string>
+    <plurals name="forms_unit_months">
+        <item quantity="other">เดือน</item>
+    </plurals>
+    <string name="forms_set_day_of_month">วันที่ของเดือน</string>
+    <string name="forms_set_day_of_month_tip">วันไหนของเดือนนั้น</string>
+    <string name="forms_set_everyone">ทุกคน: 1 ม.ค. · 1 เม.ย. · 1 ก.ค. · 1 ต.ค.</string>
+    <string name="forms_set_days_build">จำนวนวันที่ใช้สร้างนิสัย</string>
+    <string name="forms_set_days_build_tip">งานวิจัยพบว่าใช้ 18 ถึง 254 วัน ตัวเลขที่ถูกอ้างถึงบ่อยสุดคือ 66 (Lally et al. 2010, Singh et al. 2024) เมื่อครบจำนวนวันนี้ ขั้นตอนใหม่จะย้ายไปอยู่ในเช็กอัป</string>
+    <string name="forms_set_nudge">การเตือนรายวัน</string>
+    <string name="forms_set_nudge_tip">เตือนตอนเวลานี้ เฉพาะเมื่อยังมีอะไรที่ไม่ได้ติ๊ก</string>
+    <string name="forms_set_more">เพิ่มเติม</string>
+    <string name="forms_set_reasons">เหตุผลที่พลาด</string>
+    <string name="forms_set_tutorial">ดูคำแนะนำอีกครั้ง</string>
+    <string name="forms_set_export">ส่งออกข้อมูลของฉัน</string>
+    <string name="forms_set_import">นำเข้าข้อมูล</string>
+
+    <string name="forms_reasons_title">เหตุผลที่พลาด</string>
+    <string name="forms_reasons_hint">เพิ่มเหตุผลของคุณเอง</string>
+    <string name="forms_reasons_used">ใช้ %1$d×</string>
+    <string name="forms_reasons_delete_title">ลบ %1$s ไหม</string>
+    <string name="forms_reasons_delete_text">ครั้งที่พลาดยังอยู่ในประวัติ แค่ไม่มีแท็กนี้</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="other">นิสัย %1$d อย่าง</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="other">การเปลี่ยน %1$d อย่าง</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="other">การเลี่ยง %1$d อย่าง</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, ติ๊กตั้งแต่ %2$s</string>
+    <string name="forms_export_title">ส่งออกข้อมูลของฉัน</string>
+    <string name="forms_export_what">สิ่งที่อยู่ในไฟล์</string>
+    <string name="forms_export_ticks">ทุกติ๊ก ทุกครั้งที่พลาด และเหตุผล</string>
+    <string name="forms_export_ticks_since">ทุกติ๊ก ทุกครั้งที่พลาด และเหตุผล ตั้งแต่ %1$s</string>
+    <string name="forms_export_summaries">สรุป 3 เดือนของคุณ</string>
+    <string name="forms_export_settings">การตั้งค่า สี และชื่อของคุณ</string>
+    <string name="forms_export_file">ไฟล์</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">บันทึกไฟล์</string>
+    <string name="forms_export_send">ส่งไปที่…</string>
+    <string name="forms_export_send_title">ส่งข้อมูล Alice ของคุณ</string>
+    <string name="forms_export_saved">บันทึก %1$s แล้ว</string>
+    <string name="forms_export_save_failed">บันทึกไฟล์ไม่ได้</string>
+
+    <string name="forms_import_title">นำเข้าข้อมูล</string>
+    <string name="forms_import_choose">เลือกไฟล์สำรอง Alice</string>
+    <string name="forms_import_choose_sub">.json จากการส่งออกในมือถือเครื่องอื่น</string>
+    <string name="forms_import_cant_open">เปิดไฟล์นั้นไม่ได้</string>
+    <string name="forms_import_not_backup">ไฟล์นั้นไม่ใช่ไฟล์สำรอง Alice</string>
+    <string name="forms_import_replace_mode">แทนที่ข้อมูลที่มีอยู่</string>
+    <string name="forms_import_add_mode">เพิ่มเข้ากับข้อมูลที่มีอยู่</string>
+    <string name="forms_import_button">นำเข้า</string>
+    <string name="forms_import_replace_title">แทนที่ข้อมูลของคุณไหม</string>
+    <string name="forms_import_add_title">เพิ่มข้อมูลนี้ไหม</string>
+    <string name="forms_import_replace_text">ทุกอย่างในมือถือเครื่องนี้จะถูกแทนที่ด้วยไฟล์ ถ้าอยากเก็บไว้ ส่งออกก่อนนะ</string>
+    <string name="forms_import_add_text">นิสัยและประวัติในไฟล์จะถูกเพิ่มเข้ากับของคุณ</string>
+    <string name="forms_import_done">นำเข้าข้อมูลแล้ว</string>
+
+    <string name="look_share">แชร์</string>
+    <string name="look_save_image">บันทึกรูป</string>
+    <string name="look_next_week">ต่อไป สัปดาห์ของคุณ ›</string>
+    <string name="look_keep_going">ไปต่อ</string>
+    <string name="look_storage_needed">Alice ต้องได้รับสิทธิ์เข้าถึงพื้นที่จัดเก็บเพื่อบันทึกรูป</string>
+    <string name="look_share_caption">ไตรมาสของฉันกับ Alice มาเริ่มของคุณเองกัน: %1$s</string>
+    <string name="look_share_clip">สรุปจาก Alice</string>
+    <string name="look_share_chooser">แชร์ไตรมาสของคุณ</string>
+    <string name="look_saved">บันทึกไว้ที่ Pictures/Alice</string>
+    <string name="look_save_failed">บันทึกรูปไม่ได้</string>
+
+    <string name="look_style_poster">โปสเตอร์</string>
+    <string name="look_style_wrapped">สรุปปี</string>
+    <string name="look_style_trophy">ตู้ถ้วยรางวัล</string>
+    <string name="look_style_receipt">ใบเสร็จ</string>
+    <string name="look_style_report">สมุดพก</string>
+    <string name="look_style_boarding">บอร์ดดิ้งพาส</string>
+    <string name="look_style_polaroid">โพลารอยด์</string>
+    <string name="look_style_calendar">ปฏิทิน</string>
+    <string name="look_style_trading">การ์ดสะสม</string>
+
+    <string name="look_quote_1">ก้าวเล็กๆ ทุกวัน</string>
+    <string name="look_quote_2">ขอบคุณที่มาเสมอ</string>
+    <string name="look_quote_3">ก้าวหน้า ไม่ต้องสมบูรณ์แบบ</string>
+    <string name="look_quote_4">คุณยังไปต่อ นั่นมีค่าแล้ว</string>
+    <string name="look_quote_5">เปลี่ยนนิดเดียว ต่างกันเยอะ</string>
+    <string name="look_quote_6">ทุกวันคุณเลือกสิ่งที่ดีกว่า</string>
+    <string name="look_quote_7">ช้าก็ยังเดินหน้า</string>
+    <string name="look_quote_8">คุณกำลังสร้างชีวิตที่คุณชอบ</string>
+    <string name="look_quote_9">ทีละก้าว รวมกันก็ไกล</string>
+    <string name="look_quote_10">อยู่เคียงข้างตัวเองต่อไป</string>
+    <string name="look_quote_11">ตัวคุณในอนาคตขอบคุณนะ</string>
+    <string name="look_quote_12">ทีละนิด รวมเป็นเยอะ</string>
+    <string name="look_quote_13">ความสม่ำเสมอคือเวทมนตร์เงียบๆ</string>
+    <string name="look_quote_14">ดูสิว่าคุณมาไกลแค่ไหน</string>
+    <string name="look_quote_15">ภูมิใจกับชัยชนะเล็กๆ</string>
+    <string name="look_quote_16">วันดีๆ ต้องสร้าง ไม่ใช่รอเจอ</string>
+
+    <string name="look_stamp_1">ดีเยี่ยม</string>
+    <string name="look_stamp_2">โดดเด่น</string>
+    <string name="look_stamp_3">ทำได้ดี</string>
+    <string name="look_stamp_4">ยอดเยี่ยม</string>
+    <string name="look_stamp_5">สุดยอด</string>
+    <string name="look_stamp_6">คะแนนเต็ม</string>
+    <string name="look_stamp_7">ดาวทอง</string>
+    <string name="look_stamp_8">เก่งมาก</string>
+
+    <string name="look_period">%1$s ถึง %2$s</string>
+    <string name="look_scan">สแกนเพื่อ\nเริ่มการเดินทาง\nของคุณเอง</string>
+    <string name="look_you">คุณ</string>
+    <string name="look_on_track">ไปได้ดี</string>
+    <string name="look_new_steps">ขั้นตอนใหม่</string>
+    <string name="look_days_in">วันที่ผ่านมา</string>
+    <string name="look_new">ใหม่</string>
+    <string name="look_week_by_week">รายสัปดาห์</string>
+    <string name="look_coming_soon">เร็วๆ นี้</string>
+    <string name="look_new_this_quarter">ใหม่ในไตรมาสนี้</string>
+    <string name="look_kept_up_longest">ทำต่อเนื่องนานสุด</string>
+    <string name="look_habits">นิสัย</string>
+    <string name="look_swaps">การเปลี่ยน</string>
+    <string name="look_avoids">การเลี่ยง</string>
+    <string name="look_ways_improved">วิธีที่ดีขึ้น</string>
+    <string name="look_improved_in">คุณทำให้ชีวิตดีขึ้นใน %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="other">นิสัย %1$d อย่าง</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="other">การเปลี่ยน %1$d อย่าง</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="other">การเลี่ยง %1$d อย่าง</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="other">พลาด %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="other">%1$d วิธี</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="other">นิสัย</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="other">การเปลี่ยน</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="other">การเลี่ยง</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="other">ครั้งที่พลาด</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="other">วิธี</item>
+    </plurals>
+
+    <string name="look_poster_improved">คุณทำให้ชีวิตดีขึ้นแล้วใน %1$s</string>
+    <string name="look_poster_on_track">ไปได้ดี</string>
+    <string name="look_poster_days">วัน</string>
+    <string name="look_poster_achievements">ความสำเร็จ</string>
+    <string name="look_poster_first_ones">ความสำเร็จแรกกำลังมา</string>
+    <string name="look_poster_added">สิ่งที่คุณเพิ่มในไตรมาสนี้</string>
+
+    <string name="look_wrapped_stars">ดาวของคุณ</string>
+
+    <string name="look_trophy_ways">วิธีที่คุณทำให้\nชีวิตดีขึ้น</string>
+    <string name="look_trophy_next_quarter">ไตรมาสหน้า</string>
+    <string name="look_trophy_first_medal">เหรียญแรกของคุณ</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">ใหม่บนชั้น:</string>
+
+    <string name="look_receipt_title">เช็กอัป 3 เดือน · %1$s</string>
+    <string name="look_receipt_customer">ลูกค้า: %1$s</string>
+    <string name="look_receipt_habits">นิสัยที่สร้าง</string>
+    <string name="look_receipt_swaps">สิ่งที่เปลี่ยน</string>
+    <string name="look_receipt_avoids">สิ่งที่เลี่ยง</string>
+    <string name="look_receipt_ways">วิธีที่คุณทำให้ชีวิตดีขึ้น</string>
+    <string name="look_receipt_on_track">ไปได้ดีในไตรมาสนี้</string>
+    <string name="look_receipt_slips">ครั้งที่พลาด</string>
+    <string name="look_receipt_new_steps">ขั้นตอนใหม่ที่สร้าง</string>
+    <string name="look_receipt_new">ใหม่ในไตรมาสนี้: %1$s</string>
+
+    <string name="look_report_title">สมุดพกก้าวเล็กๆ</string>
+    <string name="look_report_pupil">%1$s · นักเรียน: %2$s</string>
+    <string name="look_report_subject">วิชา</string>
+    <string name="look_report_built">สร้างแล้ว</string>
+    <string name="look_report_grade">เกรด</string>
+    <string name="look_report_attendance">การเข้าเรียน %1$s</string>
+    <string name="look_report_on_track">ไปได้ดี %1$s</string>
+    <string name="look_report_slips">พลาด %1$s</string>
+    <string name="look_report_achievements">ความสำเร็จ</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">วิชาใหม่เทอมนี้ (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">ความเห็นครู:</string>
+    <string name="look_report_calm">เทอมที่สงบและสม่ำเสมอ</string>
+    <string name="look_report_ups_downs">เทอมนี้มีขึ้นมีลง แต่คุณก็ไม่ถอดใจ</string>
+    <string name="look_report_star">%1$s ทำได้โดดเด่นมาก ทำต่อไปนะ!</string>
+    <string name="look_report_keep_up">ทำต่อไปนะ!</string>
+    <string name="look_report_week">รายสัปดาห์</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">เที่ยวบิน Q%1$d</string>
+    <string name="look_boarding_from">จาก</string>
+    <string name="look_boarding_old">นิสัยเก่า</string>
+    <string name="look_boarding_habits">นิสัย</string>
+    <string name="look_boarding_to">ถึง</string>
+    <string name="look_boarding_new">ใหม่</string>
+    <string name="look_boarding_better_you">ตัวคุณที่ดีขึ้น</string>
+    <string name="look_boarding_passenger">ผู้โดยสาร</string>
+    <string name="look_boarding_dates">วันที่</string>
+    <string name="look_boarding_miles">ระยะทางที่บิน</string>
+    <string name="look_boarding_on_time">ตรงเวลา</string>
+    <string name="look_boarding_turbulence">หลุมอากาศ</string>
+    <string name="look_boarding_days">วันบนเครื่อง</string>
+    <string name="look_boarding_flyer">ผู้โดยสารประจำ เพื่อนร่วมทางที่นานที่สุด</string>
+    <string name="look_boarding_log">บันทึกการบิน รายสัปดาห์</string>
+    <string name="look_boarding_stops">จุดแวะใหม่ +%1$d</string>
+    <string name="look_boarding_note">บันทึกจากกัปตัน</string>
+
+    <string name="look_polaroid_life">ชีวิตของคุณ</string>
+    <string name="look_polaroid_quarter">ไตรมาสนี้</string>
+    <string name="look_polaroid_days_in">ผ่านไป %1$d/%2$d วัน</string>
+    <string name="look_polaroid_longest">ทำต่อเนื่องนานสุด</string>
+    <string name="look_polaroid_new">ใหม่ +%1$d</string>
+
+    <string name="look_calendar_added">เพิ่มแล้ว</string>
+
+    <string name="look_trading_common">ธรรมดา</string>
+    <string name="look_trading_uncommon">ไม่ธรรมดา</string>
+    <string name="look_trading_rare">หายาก</string>
+    <string name="look_trading_legendary">ตำนาน</string>
+    <plurals name="look_trading_ways">
+        <item quantity="other">วิธี</item>
+    </plurals>
+    <string name="look_ordinal_st">ที่ %1$d</string>
+    <string name="look_ordinal_nd">ที่ %1$d</string>
+    <string name="look_ordinal_rd">ที่ %1$d</string>
+    <string name="look_ordinal_th">ที่ %1$d</string>
+    <string name="look_trading_number">No. %1$03d · ไตรมาส%2$s ของคุณ</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d วัน</string>
+    <string name="look_trading_power">พลัง รายสัปดาห์</string>
+    <string name="look_trading_edition">%1$s · รุ่น Q%2$d</string>
+
+    <string name="look_sample_water_first">ดื่มน้ำก่อน</string>
+    <string name="look_sample_own_bag">พกถุงเอง</string>
+    <string name="look_sample_read_pages">อ่านหนังสือ 10 หน้า</string>
+    <string name="look_sample_reading">อ่านหนังสือทุกวัน</string>
+    <string name="look_sample_late_snacks">ไม่กินมื้อดึก</string>
+    <string name="look_sample_stretching">ยืดเส้น</string>
+    <string name="look_sample_cooler_home">บ้านเย็นลงนิด</string>
+    <string name="look_sample_loofah">ใยบวบแทนฟองน้ำ</string>
+    <string name="look_sample_palm_oil">ไม่มีน้ำมันปาล์ม</string>
+    <string name="look_sample_stretch">ยืดเส้น 10 นาที</string>
+
+    <string name="look_colours_title">สี</string>
+    <string name="look_colours_preview">ตัวอย่าง</string>
+    <string name="look_colours_your_summary">สรุป 3 เดือนของคุณ</string>
+    <string name="look_colours_light">สว่าง</string>
+    <string name="look_colours_dark">มืด</string>
+    <string name="look_styles_title">สไตล์สรุป 3 เดือน</string>
+    <string name="look_styles_all_pictures">ดูรูปโพลารอยด์ทั้ง 30 รูป</string>
+    <string name="look_styles_refresh">รีเฟรช</string>
+    <string name="look_pictures_title">รูปโพลารอยด์</string>
+    <string name="look_pictures_back">สไตล์สรุป</string>
+
+    <string name="look_welcome_name">ชื่อของคุณ</string>
+    <string name="look_welcome_start">เริ่ม</string>
+    <string name="look_welcome_import">นำเข้าข้อมูลของฉัน</string>
+
+    <string name="look_tut_skip">ข้าม</string>
+    <string name="look_tut_page">%1$d จาก %2$d</string>
+    <string name="look_tut_back">กลับ</string>
+    <string name="look_tut_start">เริ่ม</string>
+    <string name="look_tut_next">ถัดไป</string>
+    <string name="look_tut1_title">เป็นตัวคุณที่ดีขึ้น ทีละก้าว</string>
+    <string name="look_tut1_body">สร้างนิสัยใหม่ เลือกสิ่งที่ใจดีกว่า แล้วดูทุกอย่างที่คุณทำได้ค่อยๆ เพิ่มขึ้น</string>
+    <string name="look_tut1_habits">สร้างนิสัยดีทีละวัน แล้วเป็นคนที่คุณอยากเป็น</string>
+    <string name="look_tut1_swaps">เปลี่ยนไปใช้ของที่ดีกว่า ทั้งต่อโลก ต่อผู้คน หรือต่อสุขภาพของคุณ</string>
+    <string name="look_tut1_avoids">จดบริษัท อาหาร และผลิตภัณฑ์ที่คุณไม่อยากสนับสนุน</string>
+    <string name="look_tut2_title">ติ๊กเลย</string>
+    <string name="look_tut2_body">แตะช่องเมื่อทำนิสัยแล้ว นิสัยตอนเย็นจะปลดล็อกตอนเวลาเช็กอิน</string>
+    <string name="look_tut3_title">%1$s แล้วทุก %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="other">%1$d วัน</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="other">%1$d เดือน</item>
+    </plurals>
+    <string name="look_tut3_body">งานวิจัยพบว่าการสร้างนิสัยใช้เวลาตั้งแต่ 18 ถึง 254 วัน ตัวเลขที่ถูกอ้างถึงบ่อยสุดคือ 66 วัน Alice เลยเริ่มที่ตรงนั้น</string>
+    <string name="look_tut3_days_label">จำนวนวันที่ใช้สร้างนิสัย</string>
+    <string name="look_tut3_checkup">เช็กอัปทุก</string>
+    <string name="look_tut3_small">เปลี่ยนได้ทั้งสองอย่างในการตั้งค่า</string>
+    <string name="look_tut4_title">สัปดาห์ละครั้ง ขั้นตอนใหม่หนึ่งอย่าง</string>
+    <string name="look_tut4_body">เพิ่มขั้นตอนใหม่ทีละอย่าง ช่วยให้คุณค่อยๆ เติบโต โดยไม่ต้องแบกรับมากเกินไปในครั้งเดียว</string>
+    <string name="look_tut4_day">วันเช็กอิน</string>
+    <string name="look_tut4_small">อันนี้ก็เปลี่ยนได้ในการตั้งค่าเหมือนกัน</string>
+    <string name="look_tut5_title">ทุกไตรมาส สรุปของคุณ</string>
+    <string name="look_tut5_body">แชร์ว่าคุณมาไกลแค่ไหนกับเพื่อนๆ และคนใกล้ตัว แตะแบบที่คุณชอบ:</string>
+    <string name="look_tut_change_mind">เปลี่ยนใจได้ตลอดนะ</string>
+    <string name="look_tut6_title">ทำให้เป็นแบบของคุณ</string>
+    <string name="look_tut6_body">เลือกสีที่สบายตาที่สุด ทั้งแอปจะเปลี่ยนทันที</string>
+    <string name="look_tut7_title">เปลี่ยนอะไรก็ได้ เมื่อไหร่ก็ได้</string>
+    <string name="look_tut7_body">เวลาเช็กอิน จำนวนวันที่ใช้สร้างนิสัย สไตล์สรุป สี และข้อมูลของคุณ อยู่ในการตั้งค่าทั้งหมด</string>
+    <string name="look_tut7_gear">แตะรูปเฟืองด้านบนของหน้านิสัยเพื่อเปิดการตั้งค่า</string>
+    <string name="look_tut7_open">เปิดการตั้งค่า</string>
+
+    <string name="lang_title">ภาษา</string>
+    <string name="pron_title">สรรพนาม</string>
+    <string name="pron_she">ผู้หญิง</string>
+    <string name="pron_he">ผู้ชาย</string>
+    <string name="pron_they">เป็นกลาง</string>
+    <string name="lang_spotted">เจอที่ผิดในภาษาของคุณไหม</string>
+    <string name="lang_search">ค้นหาภาษาของคุณ</string>
+    <string name="lang_phone">ภาษาของมือถือ</string>
+    <string name="lang_follow">ตามมือถือ</string>
+    <string name="lang_note_title">ช่วยเรื่องคำแปล</string>
+    <string name="lang_note_1">สวัสดี เราชื่อ Lucy เป็นคนทำ Alice</string>
+    <string name="lang_note_2">เราพูดภาษาอังกฤษ สโลวัก เช็ก และรัสเซียได้ เลยตรวจคำแปลภาษาพวกนั้นเอง ส่วนภาษาอื่นยังไม่มีเจ้าของภาษามาตรวจ</string>
+    <string name="lang_note_3">ถ้าเจอที่ผิดในภาษาของคุณ บอกเราหน่อยนะ จะได้แก้ และถ้าคุณใช้ Alice เป็นภาษาของคุณมาสักพักแล้วทุกอย่างอ่านได้ถูกต้อง ก็บอกเราด้วย เราจะได้ทำเครื่องหมายว่าอนุมัติแล้ว</string>
+    <string name="lang_note_4">ขอบคุณนะ!</string>
+    <string name="lang_not_approved">ยังไม่ได้อนุมัติ</string>
+    <string name="lang_report">แจ้งจุดที่ผิด</string>
+    <string name="lang_all_correct">ภาษาของฉันถูกต้องหมดแล้ว</string>
+    <string name="lang_mail_mistake_body">อะไรที่อ่านแล้วผิด และอยู่หน้าไหน:\n\n</string>
+    <string name="lang_mail_correct_body">ฉันใช้ Alice เป็นภาษาของฉันมาสักพักแล้ว ทุกอย่างอ่านได้ถูกต้อง\n\n</string>
+    <string name="lang_no_mail">ไม่พบแอปอีเมล</string>
+</resources>

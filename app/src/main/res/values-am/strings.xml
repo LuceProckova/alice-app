@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">በጣም ደክሞኝ</string>
+    <string name="core_reason_craving">ከፍተኛ ፍላጎት</string>
+    <string name="core_reason_no_time">ጊዜ አጣሁ</string>
+    <string name="core_reason_forgot">ረሳሁ</string>
+    <string name="core_reason_no_alternative">አማራጭ አልነበረም</string>
+    <string name="core_reason_social">ማህበራዊ ሁኔታ</string>
+    <string name="core_reason_impulse">ድንገተኛ ስሜት</string>
+    <string name="core_reason_too_expensive">በጣም ውድ</string>
+    <string name="core_reason_away">ከቤት ውጭ</string>
+
+    <string name="core_nudge_channel">ዕለታዊ ማስታወሻ</string>
+    <string name="core_nudge_title">ዛሬ ገና ምልክት የሚጠብቁ</string>
+    <string name="core_save_failed">ማስቀመጥ አልተቻለም፣ እባክዎ እንደገና ይሞክሩ</string>
+
+    <string name="core_kind_habit">ልማድ</string>
+    <string name="core_kind_swap">ቅያሪ</string>
+    <string name="core_kind_avoid">መራቅ</string>
+    <string name="core_about">ስለ %1$s</string>
+    <string name="core_ok">እሺ</string>
+    <string name="core_less">ያነሰ</string>
+    <string name="core_more">ተጨማሪ</string>
+    <string name="core_cancel">ይቅር</string>
+    <string name="core_settings">ቅንብሮች</string>
+    <string name="core_span_week">ሳምንት</string>
+    <string name="core_span_month">ወር</string>
+    <string name="core_span_year">ዓመት</string>
+    <string name="core_span_all">ሁሉም ጊዜ</string>
+    <string name="core_tab_habits">ልማዶች</string>
+    <string name="core_tab_changes">ለውጦች</string>
+    <string name="core_tab_avoid">መራቅ</string>
+    <string name="core_tab_insights">ግንዛቤዎች</string>
+
+    <string name="core_cell_spoken">%1$s፣ %2$s</string>
+    <string name="core_cell_kept">ተጠብቋል</string>
+    <string name="core_cell_missed">ቀርቷል</string>
+    <string name="core_cell_partial">በከፊል ተሰርቷል፣ እስካሁን %1$d</string>
+    <string name="core_cell_unfilled">ገና አልተሞላም</string>
+    <string name="core_cell_open">የሚሰራ</string>
+    <string name="core_cell_locked">እስከ ግምገማ ሰዓት ተቆልፏል</string>
+    <string name="core_cell_future">ገና ነው</string>
+    <string name="core_cell_empty">ምንም አያስፈልግም</string>
+    <string name="core_cell_band">ለዚህ ጊዜ ተጠናቋል</string>
+    <string name="core_cell_off">ለዚህ እርምጃ ቀኑ አይደለም</string>
+    <string name="core_cell_none">ይህ እርምጃ ከመጀመሩ በፊት</string>
+
+    <string name="core_rhythm_one_off">አንድ ጊዜ ብቻ</string>
+    <string name="core_rhythm_end_of_day">በየቀኑ፣ በቀኑ መጨረሻ ምልክት ይደረግበታል</string>
+    <string name="core_rhythm_every_day">በየቀኑ</string>
+    <string name="core_rhythm_every_days">በየ%1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">በሳምንት</string>
+    <string name="core_rhythm_a_month">በወር</string>
+    <string name="core_rhythm_times_any_day">%2$s %1$s፣ በማንኛውም ቀን</string>
+    <string name="core_list_separator">"፣ "</string>
+    <string name="core_list_last">%1$s እና %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d ወር</string>
+    <string name="core_achievement_short_days">%1$d ቀን</string>
+    <string name="core_glance_step">%1$s፣ %2$d/%3$d</string>
+
+    <string name="core_slip_never">በፍጹም</string>
+    <string name="core_slip_once">አንድ ጊዜ</string>
+    <string name="core_slip_a_few">ጥቂት ጊዜ</string>
+    <string name="core_slip_half">ግማሽ</string>
+    <string name="core_slip_most">አብዛኛው</string>
+    <string name="core_slip_always">ሁልጊዜ</string>
+
+    <string name="core_ideas_habit_anytime">ልማዶች፣ በማንኛውም ጊዜ</string>
+    <string name="core_ideas_habit_end">ልማዶች፣ በቀኑ መጨረሻ</string>
+    <string name="core_ideas_swap">ቅያሪዎች</string>
+    <string name="core_ideas_avoid_product">መራቅ፣ ምርቶች</string>
+    <string name="core_ideas_avoid_company">መራቅ፣ ኩባንያዎች</string>
+    <string name="core_ideas_avoid_food">መራቅ፣ ምግብ</string>
+
+    <string name="core_tag_ethical">ሥነ ምግባራዊ</string>
+    <string name="core_tag_health">ጤና</string>
+    <string name="core_tag_clutter">ዝርክርክነት</string>
+    <string name="core_tag_ecological">ሥነ ምህዳራዊ</string>
+    <string name="core_tag_animal_welfare">የእንስሳት ደህንነት</string>
+    <string name="core_tag_workers_rights">የሠራተኞች መብት</string>
+    <string name="core_tag_plastic">ፕላስቲክ</string>
+    <string name="core_tag_palm_oil">የፓልም ዘይት</string>
+    <string name="core_tag_deforestation">የደን ጭፍጨፋ</string>
+    <string name="core_category_company">ኩባንያ</string>
+    <string name="core_category_food">ምግብ</string>
+    <string name="core_category_product">ምርት</string>
+    <string name="core_verdict_avoid">መራቅ</string>
+    <string name="core_verdict_edge">አጠራጣሪ</string>
+    <string name="core_verdict_fine">ችግር የለውም</string>
+
+    <string name="core_theme_off_white_honey">ወተታማ ነጭ እና ማር</string>
+    <string name="core_theme_vanilla_caramel">ቫኒላ እና ካራሜል</string>
+    <string name="core_theme_sunflower">የሱፍ አበባ</string>
+    <string name="core_theme_latte">ላቴ</string>
+    <string name="core_theme_cocoa_lemon">ኮኮዋ እና ሎሚ</string>
+    <string name="core_theme_espresso_butter">ኤስፕሬሶ እና ቅቤ</string>
+    <string name="core_theme_midnight_honey">እኩለ ሌሊት እና ማር</string>
+    <string name="core_theme_forest_night">የጫካ ምሽት</string>
+    <string name="core_theme_plum_dusk">የፕለም ምሽት</string>
+    <string name="core_theme_charcoal_coral">ከሰል እና ኮራል</string>
+
+    <string name="core_pic_sunny_meadow">ፀሐያማ ሜዳ</string>
+    <string name="core_pic_sunset_hills">ኮረብቶች በፀሐይ መጥለቂያ</string>
+    <string name="core_pic_starry_night">ኮከባማ ምሽት</string>
+    <string name="core_pic_beach_day">የባህር ዳርቻ ቀን</string>
+    <string name="core_pic_mountain_lake">የተራራ ሐይቅ</string>
+    <string name="core_pic_snowy_village">በረዷማ መንደር</string>
+    <string name="core_pic_rainy_garden">ዝናባማ የአትክልት ስፍራ</string>
+    <string name="core_pic_autumn_forest">የበልግ ጫካ</string>
+    <string name="core_pic_cherry_blossom">የቼሪ አበባ</string>
+    <string name="core_pic_desert_cactus">የበረሃ ቁልቋል</string>
+    <string name="core_pic_lighthouse">የብርሃን ማማ</string>
+    <string name="core_pic_rainbow_field">የቀስተ ደመና ሜዳ</string>
+    <string name="core_pic_hot_air_balloon">የሙቅ አየር ፊኛ</string>
+    <string name="core_pic_sailboat">የሸራ ጀልባ</string>
+    <string name="core_pic_cabin_in_the_woods">በጫካ ውስጥ ያለ ጎጆ</string>
+    <string name="core_pic_tulip_field">የቱሊፕ ሜዳ</string>
+    <string name="core_pic_campfire_night">የካምፕ እሳት ምሽት</string>
+    <string name="core_pic_misty_mountains">ጭጋጋማ ተራሮች</string>
+    <string name="core_pic_sunrise_sea">ባህር በፀሐይ መውጫ</string>
+    <string name="core_pic_snowy_pines">በረዷማ ጥዶች</string>
+    <string name="core_pic_lavender_field">የላቬንደር ሜዳ</string>
+    <string name="core_pic_waterfall">ፏፏቴ</string>
+    <string name="core_pic_city_at_dusk">ከተማ ሲመሽ</string>
+    <string name="core_pic_picnic">ሽርሽር</string>
+    <string name="core_pic_moon_over_the_lake">ጨረቃ በሐይቁ ላይ</string>
+    <string name="core_pic_palm_island">የዘንባባ ደሴት</string>
+    <string name="core_pic_windmill">የንፋስ ወፍጮ</string>
+    <string name="core_pic_bike_path">የብስክሌት መንገድ</string>
+    <string name="core_pic_greenhouse">የመስታወት የአትክልት ቤት</string>
+    <string name="core_pic_northern_lights">የሰሜን ብርሃናት</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d እርምጃ እየጠበቀዎት ነው።</item>
+        <item quantity="other">%d እርምጃዎች እየጠበቁዎት ነው።</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">ተጠብቋል፣ %d ጊዜ</item>
+        <item quantity="other">ተጠብቋል፣ %d ጊዜ</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">በቀን %d ጊዜ</item>
+        <item quantity="other">በቀን %d ጊዜ</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">አንድ ጊዜ</item>
+        <item quantity="other">%d ጊዜ</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">በየ%d ሳምንቱ</item>
+        <item quantity="other">በየ%d ሳምንቱ</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">በየ%d ወሩ</item>
+        <item quantity="other">በየ%d ወሩ</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">በየ%d ቀኑ</item>
+        <item quantity="other">በየ%d ቀኑ</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d ወር፣ አንድም ቀን ሳይቀር</item>
+        <item quantity="other">%d ወራት፣ አንድም ቀን ሳይቀር</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d ወር በጽናት</item>
+        <item quantity="other">%d ወራት በጽናት</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d ቀን በተከታታይ</item>
+        <item quantity="other">%d ቀናት በተከታታይ</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d ወር</item>
+        <item quantity="other">%d ወራት</item>
+    </plurals>
+
+    <string name="tabs_new_step">አዲስ እርምጃ</string>
+    <string name="tabs_edit">ያርትዑ</string>
+    <string name="tabs_delete">ይሰርዙ</string>
+    <string name="tabs_done">ተከናውኗል</string>
+    <string name="tabs_back">ይመለሱ</string>
+    <string name="tabs_earlier">ቀደም ብሎ</string>
+    <string name="tabs_later">በኋላ</string>
+    <string name="tabs_delete_title">%1$s ይጥፋ?</string>
+    <string name="tabs_eod_unlock">የቀኑ መጨረሻ ልማዶች በ%1$02d:00 ይከፈታሉ</string>
+    <string name="tabs_check_up">ግምገማ</string>
+    <string name="tabs_one_off">አንድ ጊዜ ብቻ</string>
+
+    <string name="tabs_checkin_from">ግምገማ ከ%1$02d:00 ጀምሮ</string>
+    <string name="tabs_checkin_daily">ዕለታዊ ግምገማ</string>
+    <string name="tabs_checkin_weekly">ሳምንታዊ ግምገማ</string>
+    <string name="tabs_checkin_quarter">የ3 ወር ግምገማ</string>
+    <string name="tabs_checked_in">ተገምግሟል</string>
+    <string name="tabs_quarter_section">የ3 ወር ግምገማ</string>
+    <string name="tabs_previous_week">ያለፈው ሳምንት</string>
+    <string name="tabs_next_week">የሚቀጥለው ሳምንት</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%2$s ለ%1$d ቀን!</item>
+        <item quantity="other">%2$s ለ%1$d ቀናት!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">ጎበዝ! አሁን ወደ የ3 ወር ግምገማዎችዎ ይሄዳል፣ ከእንግዲህ ዕለታዊ ምልክት የለም።</string>
+    <string name="tabs_celebrate_first">የመጀመሪያው %1$s ነው።</string>
+    <string name="tabs_glance_title">ሳምንትዎ</string>
+    <string name="tabs_glance_ticks_kept">የተጠበቁ ምልክቶች</string>
+    <string name="tabs_glance_days_checked_in">የተገመገሙ ቀናት</string>
+    <string name="tabs_glance_top_tag">በብዛት የተጠቀሙበት የመንሸራተት መለያ:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s፣ %2$d ጊዜ</item>
+        <item quantity="other">%1$s፣ %2$d ጊዜ</item>
+    </plurals>
+    <string name="tabs_glance_easiest">በጣም ቀላሉ:</string>
+    <string name="tabs_glance_hardest">በጣም ከባዱ:</string>
+
+    <string name="tabs_changes_ongoing">ቀጣይ ቅያሪዎች</string>
+    <string name="tabs_changes_ongoing_tip_title">ቀጣይ ቅያሪ</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">ይህን ምርጫ እንደገና ያገኙታል፣ ልክ እንደ ቡና ስኒ ወይም የሻምፑ ሳሙና። በልማዶች ውስጥ ለ%1$d ቀን ምልክት ይደረግበታል፣ ከዚያ በየ3 ወሩ ይገመገማል።</item>
+        <item quantity="other">ይህን ምርጫ እንደገና ያገኙታል፣ ልክ እንደ ቡና ስኒ ወይም የሻምፑ ሳሙና። በልማዶች ውስጥ ለ%1$d ቀናት ምልክት ይደረግበታል፣ ከዚያ በየ3 ወሩ ይገመገማል።</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">ገና ቅያሪ የለም</string>
+    <string name="tabs_changes_day_badge">ቀን %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">እየጸና ነው</string>
+    <string name="tabs_changes_one_off_todo">አንድ ጊዜ ብቻ፣ የሚሰራ</string>
+    <string name="tabs_changes_one_off_tip">አንድ ጊዜ ያደርጉታል እና ያልቃል፣ ልክ መሳቢያ እንደማጽዳት፣ ወደ አረንጓዴ የኃይል ታሪፍ እንደመቀየር ወይም ጃኬት እንደመጠገን። ምልክት ያድርጉበት እና ወደ ተጠናቀቁ ይሄዳል።</string>
+    <string name="tabs_changes_nothing_waiting">የሚጠብቅ ነገር የለም</string>
+    <string name="tabs_changes_finished">ተጠናቀቁ · %1$d</string>
+
+    <string name="tabs_avoid_title">የመራቅ ዝርዝር</string>
+    <string name="tabs_avoid_search">ይፈልጉ…</string>
+    <string name="tabs_avoid_no_match">ምንም አልተገኘም</string>
+    <string name="tabs_avoid_companies">ኩባንያዎች</string>
+    <string name="tabs_avoid_food">ምግብ</string>
+    <string name="tabs_avoid_products">ምርቶች</string>
+
+    <string name="tabs_avoid_added">ተጨምሯል</string>
+    <string name="tabs_avoid_why">ለምን ይርቁታል</string>
+    <string name="tabs_avoid_own_words">በራስዎ ቃላት</string>
+    <string name="tabs_avoid_brands">የራሱ ብራንዶች · %1$d</string>
+    <string name="tabs_avoid_brand_hint">በአንድ መስመር አንድ ብራንድ</string>
+    <string name="tabs_avoid_more_brands">+%1$d ተጨማሪ</string>
+    <string name="tabs_avoid_instead">በምትኩ ይህን ይውሰዱ</string>
+    <string name="tabs_avoid_instead_hint">በአንድ መስመር አንድ</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">መንሸራተት</item>
+        <item quantity="other">መንሸራተቶች</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">ተርቀዋል</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">ወር በዝርዝሩ ላይ</item>
+        <item quantity="other">ወራት በዝርዝሩ ላይ</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">ከመራቅ ዝርዝርዎ ከታሪኩ ጋር ይወገዳል።</string>
+
+    <string name="tabs_habit_delete_text">ሙሉ ታሪኩም አብሮ ይጠፋል።</string>
+    <string name="tabs_habit_created">ተፈጥሯል</string>
+    <string name="tabs_habit_to_do">የሚሰራ</string>
+    <string name="tabs_habit_daily_ticks">ዕለታዊ ምልክቶች</string>
+    <string name="tabs_habit_day_of">ቀን %1$d ከ%2$d</string>
+    <string name="tabs_habit_finished">ተጠናቋል</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">ቀን ቀጥሏል</item>
+        <item quantity="other">ቀናት ቀጥሏል</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">ጊዜ ተቋርጧል</item>
+        <item quantity="other">ጊዜ ተቋርጧል</item>
+    </plurals>
+    <string name="tabs_habit_success">ስኬት</string>
+    <string name="tabs_habit_current_streak">የአሁኑ ተከታታይነት</string>
+    <string name="tabs_habit_longest_streak">ረጅሙ ተከታታይነት</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d ቀን</item>
+        <item quantity="other">%1$d ቀናት</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">ለምን ተንሸራተተ</string>
+    <string name="tabs_habit_remove_reason">ይህን ምክንያት ያስወግዱ</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">ሕይወትዎን ያሻሻሉበት መንገድ</item>
+        <item quantity="other">ሕይወትዎን ያሻሻሉባቸው መንገዶች</item>
+    </plurals>
+    <string name="tabs_insights_habits">ልማዶች</string>
+    <string name="tabs_insights_swaps">ቅያሪዎች</string>
+    <string name="tabs_insights_avoids">መራቅ</string>
+    <string name="tabs_insights_on_track_section">በትክክለኛ መንገድ</string>
+    <string name="tabs_insights_avg_days">%1$d ቀን</string>
+    <string name="tabs_insights_average_kept">በአማካይ የተጠበቀ</string>
+    <string name="tabs_insights_days_checked_in">የተገመገሙ ቀናት</string>
+    <string name="tabs_insights_on_track">በትክክለኛ መንገድ</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">መንሸራተት</item>
+        <item quantity="other">መንሸራተቶች</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">አዲስ እርምጃ</item>
+        <item quantity="other">አዲስ እርምጃዎች</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">የተጠናቀቀ የአንድ ጊዜ እርምጃ</item>
+        <item quantity="other">የተጠናቀቁ የአንድ ጊዜ እርምጃዎች</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">ዋና የመንሸራተት ምክንያቶች</string>
+    <string name="tabs_insights_added_quarter">በዚህ ሩብ ዓመት የተጨመሩ</string>
+    <string name="tabs_insights_past_summaries">ያለፉ የ3 ወር ማጠቃለያዎች</string>
+    <string name="tabs_insights_first_on">የመጀመሪያዎ በ%1$s ይመጣል</string>
+    <string name="tabs_insights_all_time">ሁሉም ጊዜ</string>
+    <string name="tabs_insights_period">%1$s እስከ %2$s %3$d</string>
+
+    <string name="forms_back">ተመለስ</string>
+    <string name="forms_back_habits">ልማዶች</string>
+    <string name="forms_back_settings">ቅንብሮች</string>
+    <string name="forms_add">ጨምር</string>
+    <string name="forms_save">አስቀምጥ</string>
+    <string name="forms_finish">ጨርስ</string>
+    <string name="forms_delete">አጥፋ</string>
+    <string name="forms_why">ለምን</string>
+    <string name="forms_never_show">ዳግም አይታይ</string>
+    <string name="forms_every">በየ</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">ቀን</item>
+        <item quantity="other">ቀናት</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">ደረጃ %1$d ከ%2$d</string>
+    <string name="forms_checkin_next_weekly">ቀጥሎ፣ ሳምንታዊ ግምገማ ›</string>
+    <string name="forms_checkin_next_quarter">ቀጥሎ፣ የ3 ወር ግምገማ ›</string>
+    <string name="forms_daily_title">ዕለታዊ ግምገማ</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d ቀደም ያለ ቀን አልተሞላም</item>
+        <item quantity="other">%1$d ቀደም ያሉ ቀናት አልተሞሉም</item>
+    </plurals>
+    <string name="forms_daily_skip_all">ሁሉንም ይዝለሉ</string>
+    <string name="forms_daily_today">ዛሬ · %1$s</string>
+    <string name="forms_daily_skip">ይዝለሉ</string>
+    <string name="forms_daily_undo_skip">መዝለሉን ይቀልብሱ</string>
+    <string name="forms_daily_new_tag">አዲስ መለያ</string>
+    <string name="forms_daily_new_tag_hint">ቆሻሻ መጣያው ሞልቶ ነበር</string>
+    <string name="forms_weekly_title">ሳምንታዊ ግምገማ</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d ሳምንት ቀርቷል፣ አንድ አዲስ እርምጃ ሁሉንም ይሸፍናል።</item>
+        <item quantity="other">%1$d ሳምንታት ቀርተዋል፣ አንድ አዲስ እርምጃ ሁሉንም ይሸፍናል።</item>
+    </plurals>
+    <string name="forms_weekly_no_step">በዚህ ሳምንት አዲስ እርምጃ የለም</string>
+    <string name="forms_quarter_title">የ3 ወር ግምገማ</string>
+    <string name="forms_quarter_nothing">ለመገምገም ገና የተገነባ ነገር የለም። ቀጥሎ ማጠቃለያዎ ነው።</string>
+    <string name="forms_quarter_habits">ልማዶች</string>
+    <string name="forms_quarter_swaps">ቅያሪዎች</string>
+    <string name="forms_quarter_avoid">መራቅ</string>
+    <string name="forms_quarter_missed">ያመለጠ</string>
+    <string name="forms_quarter_missed_level">ያመለጠ: %1$s</string>
+
+    <string name="forms_new_title">አዲስ እርምጃ</string>
+    <string name="forms_edit_title">ያርትዑ: %1$s</string>
+    <string name="forms_add_kind">ይጨምሩ: %1$s</string>
+    <string name="forms_title_habit">ልማድ</string>
+    <string name="forms_title_swap">ቅያሪ</string>
+    <string name="forms_title_avoid">መራቅ</string>
+    <string name="forms_save_changes">ለውጦችን ያስቀምጡ</string>
+    <string name="forms_what_kind">ምን ዓይነት?</string>
+    <string name="forms_name">ስም</string>
+    <string name="forms_your_new_step">አዲሱ እርምጃዎ</string>
+    <string name="forms_hint_habit">10 ገጽ ማንበብ</string>
+    <string name="forms_hint_swap">ከስፖንጅ ይልቅ ሉፋ</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">ምን ዓይነት ልማድ?</string>
+    <string name="forms_timing_tip_title">በማንኛውም ጊዜ ወይስ በቀኑ መጨረሻ</string>
+    <string name="forms_timing_tip">በማንኛውም ጊዜ: አንድ ጊዜ የሚያደርጉት ነገር፣ ልክ እንደ ሩጫ። እንደጨረሱ ወዲያው ምልክት ያድርጉበት።\n\nበቀኑ መጨረሻ: ቀኑን ሙሉ የሚጠብቁት ሕግ፣ ልክ እንደ መክሰስ አለመብላት። ምልክት ማድረግ የሚችሉት ምሽት ላይ ብቻ ነው።</string>
+    <string name="forms_anytime">በማንኛውም ጊዜ</string>
+    <string name="forms_end_of_day">በቀኑ መጨረሻ</string>
+    <string name="forms_what_is_it">ምንድነው?</string>
+    <string name="forms_how_often">ምን ያህል ጊዜ?</string>
+    <string name="forms_often_specific">የተወሰኑ ቀናት</string>
+    <string name="forms_often_whenever">በፈለጉ ጊዜ</string>
+    <string name="forms_often_once">አንድ ጊዜ ብቻ</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">ጊዜ በየ</item>
+        <item quantity="other">ጊዜ በየ</item>
+    </plurals>
+    <string name="forms_unit_day">ቀን</string>
+    <string name="forms_unit_week">ሳምንት</string>
+    <string name="forms_unit_month">ወር</string>
+    <string name="forms_unit_x_days">X ቀናት</string>
+    <string name="forms_ideas">ሐሳቦች</string>
+    <string name="forms_ideas_others">ሌሎች</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">ሁሉንም %1$d ሐሳብ ይመልከቱ ›</item>
+        <item quantity="other">ሁሉንም %1$d ሐሳቦች ይመልከቱ ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">ሁሉም የእርምጃ ሐሳቦች</string>
+    <string name="forms_search">ፈልግ…</string>
+    <string name="forms_all">ሁሉም</string>
+
+    <string name="forms_settings_title">ቅንብሮች</string>
+    <string name="forms_set_colours">ቀለሞች</string>
+    <string name="forms_set_style">የ3 ወር ማጠቃለያ ቅጥ</string>
+    <string name="forms_set_checkins">ግምገማዎች</string>
+    <string name="forms_set_checkin_hour">ዕለታዊ ግምገማ የሚከፈተው በ</string>
+    <string name="forms_set_checkin_hour_tip">ከዚህ ሰዓት ጀምሮ የቀኑ መጨረሻ ልማዶችን ምልክት ማድረግ እና ዕለታዊ ግምገማውን ማድረግ ይችላሉ።</string>
+    <string name="forms_set_week_start">ሳምንቱ የሚጀምረው በ</string>
+    <string name="forms_set_week_start_tip">የልማዶች ሰንጠረዥዎ፣ ሳምንታትዎ እና ገበታዎችዎ በየትኛው ቀን እንደሚጀምሩ።</string>
+    <string name="forms_monday">ሰኞ</string>
+    <string name="forms_sunday">እሁድ</string>
+    <string name="forms_set_new_step_every">አዲስ እርምጃ በየ</string>
+    <string name="forms_set_new_step_every_tip">በሳምንታዊ ግምገማዎች መካከል ስንት ሳምንት።</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">ሳምንት</item>
+        <item quantity="other">ሳምንት</item>
+    </plurals>
+    <string name="forms_set_weekly_day">የሳምንታዊ ግምገማ ቀን</string>
+    <string name="forms_set_weekly_day_tip">በዚህ ቀን ከዕለታዊ ግምገማው በኋላ ለሚቀጥለው ሳምንት አዲስ እርምጃ ይመርጣሉ።</string>
+    <string name="forms_set_checkup">የ3 ወር ግምገማ</string>
+    <string name="forms_set_checkup_tip">ሁሉም ሰው በተመሳሳይ ቀናት ይገመግማል: 1 ጃንዋሪ፣ 1 ኤፕሪል፣ 1 ጁላይ እና 1 ኦክቶበር፣ ስለዚህ ማጠቃለያችሁን አብራችሁ ማጋራት ትችላላችሁ። በምትኩ የራስዎን ቀን መምረጥም ይችላሉ።</string>
+    <string name="forms_set_same">እንደ ሁሉም ሰው</string>
+    <string name="forms_set_own">የራሴ ቀን</string>
+    <string name="forms_set_starting">የሚጀምረው በ</string>
+    <string name="forms_set_starting_tip">የመጀመሪያው የራስዎ ግምገማ ወር።</string>
+    <string name="forms_earlier">ቀደም ብሎ</string>
+    <string name="forms_later">በኋላ</string>
+    <string name="forms_set_every_tip">በግምገማዎች መካከል ያሉ ወራት።</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">ወር</item>
+        <item quantity="other">ወር</item>
+    </plurals>
+    <string name="forms_set_day_of_month">የወሩ ቀን</string>
+    <string name="forms_set_day_of_month_tip">የዚያ ወር የትኛው ቀን።</string>
+    <string name="forms_set_everyone">ሁሉም ሰው: 1 ጃን · 1 ኤፕ · 1 ጁላ · 1 ኦክ</string>
+    <string name="forms_set_days_build">ልማድ ለመገንባት የሚያስፈልጉ ቀናት</string>
+    <string name="forms_set_days_build_tip">ጥናቶች ከ18 እስከ 254 ቀናት አግኝተዋል፣ በብዛት የሚጠቀሰው 66 ነው (Lally et al. 2010, Singh et al. 2024)። ከዚህ ያህል ቀናት በኋላ አዲስ እርምጃ ወደ ግምገማዎችዎ ይሄዳል።</string>
+    <string name="forms_set_nudge">ዕለታዊ ማስታወሻ</string>
+    <string name="forms_set_nudge_tip">በዚህ ሰዓት ማስታወሻ፣ ገና ምልክት ያልተደረገበት ነገር ካለ ብቻ።</string>
+    <string name="forms_set_more">ተጨማሪ</string>
+    <string name="forms_set_reasons">የመንሸራተት ምክንያቶች</string>
+    <string name="forms_set_tutorial">መማሪያውን እንደገና ያጫውቱ</string>
+    <string name="forms_set_export">ውሂቤን ማውጣት</string>
+    <string name="forms_set_import">ውሂብ ማስገባት</string>
+
+    <string name="forms_reasons_title">የመንሸራተት ምክንያቶች</string>
+    <string name="forms_reasons_hint">የራስዎን ምክንያት ይጨምሩ</string>
+    <string name="forms_reasons_used">%1$d× ጥቅም ላይ ውሏል</string>
+    <string name="forms_reasons_delete_title">%1$s ይጥፋ?</string>
+    <string name="forms_reasons_delete_text">መንሸራተቶች በታሪክዎ ውስጥ ቦታቸውን ይይዛሉ፣ ያለዚህ መለያ ብቻ።</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d ልማድ</item>
+        <item quantity="other">%1$d ልማዶች</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d ቅያሪ</item>
+        <item quantity="other">%1$d ቅያሪዎች</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d የሚራቅ ነገር</item>
+        <item quantity="other">%1$d የሚራቁ ነገሮች</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s፣ %2$s፣ %3$s</string>
+    <string name="forms_backup_since">%1$s፣ ምልክቶች ከ%2$s ጀምሮ</string>
+    <string name="forms_export_title">ውሂቤን ማውጣት</string>
+    <string name="forms_export_what">በፋይሉ ውስጥ የሚገባው</string>
+    <string name="forms_export_ticks">እያንዳንዱ ምልክት፣ መንሸራተት እና ምክንያት</string>
+    <string name="forms_export_ticks_since">ከ%1$s ጀምሮ እያንዳንዱ ምልክት፣ መንሸራተት እና ምክንያት</string>
+    <string name="forms_export_summaries">የ3 ወር ማጠቃለያዎችዎ</string>
+    <string name="forms_export_settings">ቅንብሮችዎ፣ ቀለሞችዎ እና ስምዎ</string>
+    <string name="forms_export_file">ፋይል</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">ፋይል ያስቀምጡ</string>
+    <string name="forms_export_send">ይላኩ ወደ…</string>
+    <string name="forms_export_send_title">የAlice ውሂብዎን ይላኩ</string>
+    <string name="forms_export_saved">%1$s ተቀምጧል</string>
+    <string name="forms_export_save_failed">ፋይሉን ማስቀመጥ አልተቻለም</string>
+
+    <string name="forms_import_title">ውሂብ ማስገባት</string>
+    <string name="forms_import_choose">የAlice ምትኬ ይምረጡ</string>
+    <string name="forms_import_choose_sub">.json፣ በሌላ ስልክ ላይ ከወጣ ውሂብ</string>
+    <string name="forms_import_cant_open">ያንን ፋይል መክፈት አልተቻለም።</string>
+    <string name="forms_import_not_backup">ያ ፋይል የAlice ምትኬ አይደለም።</string>
+    <string name="forms_import_replace_mode">እዚህ ያለውን ይተኩ</string>
+    <string name="forms_import_add_mode">እዚህ ባለው ላይ ይጨምሩ</string>
+    <string name="forms_import_button">ያስገቡ</string>
+    <string name="forms_import_replace_title">ውሂብዎ ይተካ?</string>
+    <string name="forms_import_add_title">ይህ ውሂብ ይጨመር?</string>
+    <string name="forms_import_replace_text">በዚህ ስልክ ላይ ያለው ሁሉ በፋይሉ ይተካል። ማቆየት ከፈለጉ መጀመሪያ ያውጡት።</string>
+    <string name="forms_import_add_text">በፋይሉ ውስጥ ያሉት ልማዶች እና ታሪክ ወደ የእርስዎ ይጨመራሉ።</string>
+    <string name="forms_import_done">ውሂቡ ገብቷል</string>
+
+    <string name="look_share">ያጋሩ</string>
+    <string name="look_save_image">ምስል ያስቀምጡ</string>
+    <string name="look_next_week">ቀጥሎ፣ ሳምንትዎ ›</string>
+    <string name="look_keep_going">ይቀጥሉ</string>
+    <string name="look_storage_needed">Alice ምስሉን ለማስቀመጥ የማከማቻ ፈቃድ ያስፈልገዋል</string>
+    <string name="look_share_caption">ከAlice ጋር ያሳለፍኩት ሩብ ዓመት። ያንተን ጀምር: %1$s</string>
+    <string name="look_share_clip">የAlice ማጠቃለያ</string>
+    <string name="look_share_chooser">ሩብ ዓመትዎን ያጋሩ</string>
+    <string name="look_saved">በPictures/Alice ተቀምጧል</string>
+    <string name="look_save_failed">ምስሉን ማስቀመጥ አልተቻለም</string>
+
+    <string name="look_style_poster">ፖስተር</string>
+    <string name="look_style_wrapped">ጥቅል</string>
+    <string name="look_style_trophy">የዋንጫ መደርደሪያ</string>
+    <string name="look_style_receipt">ደረሰኝ</string>
+    <string name="look_style_report">የውጤት ካርድ</string>
+    <string name="look_style_boarding">የመሳፈሪያ ትኬት</string>
+    <string name="look_style_polaroid">ፖላሮይድ</string>
+    <string name="look_style_calendar">ቀን መቁጠሪያ</string>
+    <string name="look_style_trading">የስብስብ ካርድ</string>
+
+    <string name="look_quote_1">ትናንሽ እርምጃዎች፣ በየቀኑ</string>
+    <string name="look_quote_2">ስለመጡ አመሰግናለሁ</string>
+    <string name="look_quote_3">እድገት እንጂ ፍጹምነት አይደለም</string>
+    <string name="look_quote_4">ቀጥለዋል። ያ ይቆጠራል</string>
+    <string name="look_quote_5">ትናንሽ ለውጦች፣ ትልቅ ልዩነት</string>
+    <string name="look_quote_6">በየቀኑ የተሻለውን መርጠዋል</string>
+    <string name="look_quote_7">ቀስ ብሎም ቢሆን ወደፊት ነው</string>
+    <string name="look_quote_8">የሚወዱትን ሕይወት እየገነቡ ነው</string>
+    <string name="look_quote_9">አንድ በአንድ ሲሄዱ ይደመራል</string>
+    <string name="look_quote_10">ለራስዎ መገኘትዎን ይቀጥሉ</string>
+    <string name="look_quote_11">የወደፊቱ እርስዎ ያመሰግንዎታል</string>
+    <string name="look_quote_12">ቀስ በቀስ፣ ብዙ ይሆናል</string>
+    <string name="look_quote_13">ጽናት ጸጥ ያለ አስማት ነው</string>
+    <string name="look_quote_14">ምን ያህል ርቀት እንደመጡ ይመልከቱ</string>
+    <string name="look_quote_15">በትናንሽ ድሎችዎ ይኩሩ</string>
+    <string name="look_quote_16">ጥሩ ቀናት ይገነባሉ እንጂ አይገኙም</string>
+
+    <string name="look_stamp_1">እጅግ በጣም ጥሩ</string>
+    <string name="look_stamp_2">ድንቅ</string>
+    <string name="look_stamp_3">ጎበዝ</string>
+    <string name="look_stamp_4">አስደናቂ</string>
+    <string name="look_stamp_5">ግሩም</string>
+    <string name="look_stamp_6">ከፍተኛ ውጤት</string>
+    <string name="look_stamp_7">የወርቅ ኮከብ</string>
+    <string name="look_stamp_8">ታላቅ ሥራ</string>
+
+    <string name="look_period">%1$s እስከ %2$s</string>
+    <string name="look_scan">ስካን አድርግ\nየራስህን ጉዞ\nለመጀመር</string>
+    <string name="look_you">እርስዎ</string>
+    <string name="look_on_track">በትክክለኛ መንገድ</string>
+    <string name="look_new_steps">አዲስ እርምጃዎች</string>
+    <string name="look_days_in">ቀናት አልፈዋል</string>
+    <string name="look_new">አዲስ</string>
+    <string name="look_week_by_week">ሳምንት በሳምንት</string>
+    <string name="look_coming_soon">በቅርቡ ይመጣል</string>
+    <string name="look_new_this_quarter">በዚህ ሩብ ዓመት አዲስ</string>
+    <string name="look_kept_up_longest">ረጅም ጊዜ የተጠበቀ</string>
+    <string name="look_habits">ልማዶች</string>
+    <string name="look_swaps">ቅያሪዎች</string>
+    <string name="look_avoids">መራቅ</string>
+    <string name="look_ways_improved">የተሻሻሉ መንገዶች</string>
+    <string name="look_improved_in">ሕይወትዎን በ%1$s አሻሽለዋል</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d ልማድ</item>
+        <item quantity="other">%1$d ልማዶች</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d ቅያሪ</item>
+        <item quantity="other">%1$d ቅያሪዎች</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d የሚራቅ ነገር</item>
+        <item quantity="other">%1$d የሚራቁ ነገሮች</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d መንሸራተት</item>
+        <item quantity="other">%1$d መንሸራተቶች</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d መንገድ</item>
+        <item quantity="other">%1$d መንገዶች</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">ልማድ</item>
+        <item quantity="other">ልማዶች</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">ቅያሪ</item>
+        <item quantity="other">ቅያሪዎች</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">የሚራቅ ነገር</item>
+        <item quantity="other">የሚራቁ ነገሮች</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">መንሸራተት</item>
+        <item quantity="other">መንሸራተቶች</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">መንገድ</item>
+        <item quantity="other">መንገዶች</item>
+    </plurals>
+
+    <string name="look_poster_improved">ሕይወትዎን በ%1$s አሻሽለዋል</string>
+    <string name="look_poster_on_track">በትክክለኛ መንገድ</string>
+    <string name="look_poster_days">ቀናት</string>
+    <string name="look_poster_achievements">ስኬቶች</string>
+    <string name="look_poster_first_ones">የመጀመሪያዎቹ በመንገድ ላይ ናቸው</string>
+    <string name="look_poster_added">በዚህ ሩብ ዓመት የጨመሩት</string>
+
+    <string name="look_wrapped_stars">ኮከቦችዎ</string>
+
+    <string name="look_trophy_ways">ሕይወትዎን ያሻሻሉባቸው\nመንገዶች</string>
+    <string name="look_trophy_next_quarter">ቀጣዩ ሩብ ዓመት</string>
+    <string name="look_trophy_first_medal">የመጀመሪያ ሜዳሊያዎ</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">በመደርደሪያው ላይ አዲስ:</string>
+
+    <string name="look_receipt_title">የ3 ወር ግምገማ · %1$s</string>
+    <string name="look_receipt_customer">ደንበኛ: %1$s</string>
+    <string name="look_receipt_habits">የተገነቡ ልማዶች</string>
+    <string name="look_receipt_swaps">የተቀየሩ ነገሮች</string>
+    <string name="look_receipt_avoids">የተራቁ ነገሮች</string>
+    <string name="look_receipt_ways">ሕይወትዎን ያሻሻሉባቸው መንገዶች</string>
+    <string name="look_receipt_on_track">በዚህ ሩብ ዓመት በትክክለኛ መንገድ</string>
+    <string name="look_receipt_slips">መንሸራተቶች</string>
+    <string name="look_receipt_new_steps">የተገነቡ አዲስ እርምጃዎች</string>
+    <string name="look_receipt_new">በዚህ ሩብ ዓመት አዲስ: %1$s</string>
+
+    <string name="look_report_title">የትናንሽ እርምጃዎች ሪፖርት</string>
+    <string name="look_report_pupil">%1$s · ተማሪ: %2$s</string>
+    <string name="look_report_subject">ትምህርት</string>
+    <string name="look_report_built">የተገነባ</string>
+    <string name="look_report_grade">ውጤት</string>
+    <string name="look_report_attendance">ተገኝነት %1$s</string>
+    <string name="look_report_on_track">በትክክለኛ መንገድ %1$s</string>
+    <string name="look_report_slips">መንሸራተቶች %1$s</string>
+    <string name="look_report_achievements">ስኬቶች</string>
+    <string name="look_report_achievement">★ %1$s፣ %2$s</string>
+    <string name="look_report_new">በዚህ ወሰነ ትምህርት አዲስ ትምህርቶች (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">የመምህሩ አስተያየት:</string>
+    <string name="look_report_calm">የተረጋጋ፣ ቋሚ ወሰነ ትምህርት።</string>
+    <string name="look_report_ups_downs">ውጣ ውረድ የነበረበት ወሰነ ትምህርት፣ እርስዎም ጸንተዋል።</string>
+    <string name="look_report_star">%1$s: ድንቅ ሥራ። እንዲሁ ይቀጥሉ!</string>
+    <string name="look_report_keep_up">እንዲሁ ይቀጥሉ!</string>
+    <string name="look_report_week">ሳምንት በሳምንት</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">በረራ Q%1$d</string>
+    <string name="look_boarding_from">ከ</string>
+    <string name="look_boarding_old">አሮጌ</string>
+    <string name="look_boarding_habits">ልማዶች</string>
+    <string name="look_boarding_to">ወደ</string>
+    <string name="look_boarding_new">አዲስ</string>
+    <string name="look_boarding_better_you">የተሻሉት እርስዎ</string>
+    <string name="look_boarding_passenger">ተሳፋሪ</string>
+    <string name="look_boarding_dates">ቀኖች</string>
+    <string name="look_boarding_miles">የተበረረ ማይል</string>
+    <string name="look_boarding_on_time">በሰዓቱ</string>
+    <string name="look_boarding_turbulence">የአየር መናወጥ</string>
+    <string name="look_boarding_days">በበረራ ላይ ያሉ ቀናት</string>
+    <string name="look_boarding_flyer">ተደጋጋሚ በራሪ፣ ረጅሙ አጋሮችዎ</string>
+    <string name="look_boarding_log">የበረራ ማስታወሻ፣ ሳምንት በሳምንት</string>
+    <string name="look_boarding_stops">አዲስ ማረፊያዎች፣ +%1$d</string>
+    <string name="look_boarding_note">የካፒቴኑ ማስታወሻ</string>
+
+    <string name="look_polaroid_life">ሕይወትዎ</string>
+    <string name="look_polaroid_quarter">በዚህ ሩብ ዓመት</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d ቀናት</string>
+    <string name="look_polaroid_longest">ረጅም ጊዜ የተጠበቀ</string>
+    <string name="look_polaroid_new">አዲስ፣ +%1$d</string>
+
+    <string name="look_calendar_added">ተጨምሯል</string>
+
+    <string name="look_trading_common">የተለመደ</string>
+    <string name="look_trading_uncommon">ያልተለመደ</string>
+    <string name="look_trading_rare">ብርቅ</string>
+    <string name="look_trading_legendary">አፈ ታሪካዊ</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">መንገድ</item>
+        <item quantity="other">መንገዶች</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$dኛ</string>
+    <string name="look_ordinal_nd">%1$dኛ</string>
+    <string name="look_ordinal_rd">%1$dኛ</string>
+    <string name="look_ordinal_th">%1$dኛ</string>
+    <string name="look_trading_number">ቁ. %1$03d · %2$s ሩብ ዓመትህ</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d ቀናት</string>
+    <string name="look_trading_power">ኃይል፣ ሳምንት በሳምንት</string>
+    <string name="look_trading_edition">%1$s · የQ%2$d እትም</string>
+
+    <string name="look_sample_water_first">መጀመሪያ ውሃ</string>
+    <string name="look_sample_own_bag">የራስ ቦርሳ</string>
+    <string name="look_sample_read_pages">10 ገጽ አንብብ</string>
+    <string name="look_sample_reading">በየቀኑ ማንበብ</string>
+    <string name="look_sample_late_snacks">ማታ መክሰስ የለም</string>
+    <string name="look_sample_stretching">መለጠጥ</string>
+    <string name="look_sample_cooler_home">ቀዝቀዝ ያለ ቤት</string>
+    <string name="look_sample_loofah">ከስፖንጅ ይልቅ ሉፋ</string>
+    <string name="look_sample_palm_oil">ከፓልም ዘይት ነፃ</string>
+    <string name="look_sample_stretch">10 ደቂቃ መለጠጥ</string>
+
+    <string name="look_colours_title">ቀለሞች</string>
+    <string name="look_colours_preview">ቅድመ እይታ</string>
+    <string name="look_colours_your_summary">የ3 ወር ማጠቃለያዎ</string>
+    <string name="look_colours_light">ብሩህ</string>
+    <string name="look_colours_dark">ጨለማ</string>
+    <string name="look_styles_title">የ3 ወር ማጠቃለያ ቅጥ</string>
+    <string name="look_styles_all_pictures">ሁሉንም 30 የፖላሮይድ ምስሎች ይመልከቱ</string>
+    <string name="look_styles_refresh">ያድሱ</string>
+    <string name="look_pictures_title">የፖላሮይድ ምስሎች</string>
+    <string name="look_pictures_back">የማጠቃለያ ቅጦች</string>
+
+    <string name="look_welcome_name">ስምዎ</string>
+    <string name="look_welcome_start">ይጀምሩ</string>
+    <string name="look_welcome_import">ውሂቤን ማስገባት</string>
+
+    <string name="look_tut_skip">ይዝለሉ</string>
+    <string name="look_tut_page">%1$d ከ%2$d</string>
+    <string name="look_tut_back">ይመለሱ</string>
+    <string name="look_tut_start">ይጀምሩ</string>
+    <string name="look_tut_next">ቀጣይ</string>
+    <string name="look_tut1_title">የተሻሉት እርስዎ ይሁኑ፣ አንድ እርምጃ በአንድ ጊዜ</string>
+    <string name="look_tut1_body">አዲስ ልማዶችን ይገንቡ፣ ደግ ምርጫዎችን ያድርጉ፣ እና ያሳኩት ሁሉ ሲደመር ይመልከቱ።</string>
+    <string name="look_tut1_habits">ጥሩ ልማዶችን ቀን በቀን ይገንቡ እና መሆን የሚፈልጉትን ሰው ይሁኑ።</string>
+    <string name="look_tut1_swaps">ምርቶችን ለፕላኔቷ፣ ለሰዎች ወይም ለጤናዎ በተሻሉ ደግ ምርቶች ይቀይሩ።</string>
+    <string name="look_tut1_avoids">መደገፍ የማይፈልጓቸውን ኩባንያዎች፣ ምግቦች እና ምርቶች ይከታተሉ።</string>
+    <string name="look_tut2_title">ምልክት ያድርጉበት</string>
+    <string name="look_tut2_body">ልማድ ሲጨርሱ ካሬውን ይንኩ። የምሽት ልማዶች በግምገማ ሰዓትዎ ይከፈታሉ።</string>
+    <string name="look_tut3_title">%1$s፣ ከዚያ በየ%2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d ቀን</item>
+        <item quantity="other">%1$d ቀናት</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d ወር</item>
+        <item quantity="other">%1$d ወሩ</item>
+    </plurals>
+    <string name="look_tut3_body">ጥናቶች ልማድ ለመገንባት ከ18 እስከ 254 ቀናት እንደሚወስድ አግኝተዋል። በብዛት የሚጠቀሰው 66 ቀናት ነው፣ ስለዚህ Alice ከዚያ ይጀምራል።</string>
+    <string name="look_tut3_days_label">ልማድ ለመገንባት የሚያስፈልጉ ቀናት</string>
+    <string name="look_tut3_checkup">ግምገማ በየ</string>
+    <string name="look_tut3_small">ሁለቱንም በቅንብሮች ውስጥ መቀየር ይችላሉ።</string>
+    <string name="look_tut4_title">በሳምንት አንድ ጊዜ፣ አንድ አዲስ እርምጃ</string>
+    <string name="look_tut4_body">በአንድ ጊዜ አንድ አዲስ እርምጃ መጨመር ብዙ ነገር በአንድ ጊዜ ሳይሸከሙ ቀስ ብለው እንዲያድጉ ያደርግዎታል።</string>
+    <string name="look_tut4_day">የግምገማ ቀን</string>
+    <string name="look_tut4_small">ይህንንም በቅንብሮች ውስጥ መቀየር ይችላሉ።</string>
+    <string name="look_tut5_title">በየሩብ ዓመቱ፣ ማጠቃለያዎ</string>
+    <string name="look_tut5_body">ምን ያህል ርቀት እንደመጡ ከጓደኞችዎ እና ከቅርብ ሰዎችዎ ጋር ያጋሩ። የወደዱትን መልክ ይንኩ:</string>
+    <string name="look_tut_change_mind">ሐሳብዎን ሁልጊዜ መቀየር ይችላሉ።</string>
+    <string name="look_tut6_title">የራስዎ ያድርጉት</string>
+    <string name="look_tut6_body">በጣም የሚመችዎትን ቀለሞች ይምረጡ። መተግበሪያው በሙሉ ወዲያውኑ ይቀየራል።</string>
+    <string name="look_tut7_title">ማንኛውንም ነገር፣ በማንኛውም ጊዜ ይቀይሩ</string>
+    <string name="look_tut7_body">የግምገማ ሰዓቶች፣ ልማድ ለመገንባት የሚያስፈልጉ ቀናት፣ የማጠቃለያ ቅጥዎ፣ ቀለሞች እና ውሂብዎ ሁሉም በቅንብሮች ውስጥ ናቸው።</string>
+    <string name="look_tut7_gear">ቅንብሮችን ለመክፈት በልማዶች አናት ላይ ያለውን ማርሽ ይንኩ።</string>
+    <string name="look_tut7_open">ቅንብሮችን ይክፈቱ</string>
+
+    <string name="lang_title">ቋንቋ</string>
+    <string name="pron_title">ተውላጠ ስም</string>
+    <string name="pron_she">ሴት</string>
+    <string name="pron_he">ወንድ</string>
+    <string name="pron_they">ገለልተኛ</string>
+    <string name="lang_spotted">በቋንቋዎ ስህተት አገኙ?</string>
+    <string name="lang_search">ቋንቋዎን ይፈልጉ</string>
+    <string name="lang_phone">የስልኩ ቋንቋ</string>
+    <string name="lang_follow">ስልክዎን ይከተሉ</string>
+    <string name="lang_note_title">በትርጉሞች ይርዱ</string>
+    <string name="lang_note_1">ሰላም፣ እኔ ሉሲ ነኝ፣ Aliceን የሠራሁት እኔ ነኝ።</string>
+    <string name="lang_note_2">እንግሊዝኛ፣ ስሎቫክኛ፣ ቼክኛ እና ሩሲያኛ እናገራለሁ፣ ስለዚህ እነዚያን ትርጉሞች ራሴ ፈትሻቸዋለሁ። ሌሎቹ ቋንቋዎች ገና በአፍ መፍቻ ተናጋሪ አልተፈተሹም።</string>
+    <string name="lang_note_3">በቋንቋዎ ስህተት ካገኙ፣ እንዳስተካክለው እባክዎ ያሳውቁኝ። Aliceን በቋንቋዎ ለተወሰነ ጊዜ ተጠቅመው ሁሉም ነገር ትክክል ከሆነ፣ እንደጸደቀ ምልክት እንዳደርግበት ያንንም ይንገሩኝ።</string>
+    <string name="lang_note_4">አመሰግናለሁ!</string>
+    <string name="lang_not_approved">ገና አልጸደቀም</string>
+    <string name="lang_report">ስህተት ያሳውቁ</string>
+    <string name="lang_all_correct">ቋንቋዬ ሙሉ በሙሉ ትክክል ነው</string>
+    <string name="lang_mail_mistake_body">ምን የተሳሳተ ይመስላል፣ እና በየትኛው ገጽ ላይ:\n\n</string>
+    <string name="lang_mail_correct_body">Aliceን በቋንቋዬ ለተወሰነ ጊዜ ተጠቅሜያለሁ እና ሁሉም ነገር ትክክል ነው።\n\n</string>
+    <string name="lang_no_mail">የኢሜይል መተግበሪያ አልተገኘም</string>
+    <!-- pronoun variants for android below 14, same as values-am-feminine and -masculine -->
+    <string name="core_save_failed__feminine" translatable="false">ማስቀመጥ አልተቻለም፣ እባክሽ እንደገና ሞክሪ</string>
+    <string name="core_save_failed__masculine" translatable="false">ማስቀመጥ አልተቻለም፣ እባክህ እንደገና ሞክር</string>
+    <string name="tabs_celebrate_text__feminine" translatable="false">ጎበዝ! አሁን ወደ የ3 ወር ግምገማዎችሽ ይሄዳል፣ ከእንግዲህ ዕለታዊ ምልክት የለም።</string>
+    <string name="tabs_celebrate_text__masculine" translatable="false">ጎበዝ! አሁን ወደ የ3 ወር ግምገማዎችህ ይሄዳል፣ ከእንግዲህ ዕለታዊ ምልክት የለም።</string>
+    <string name="tabs_glance_title__feminine" translatable="false">ሳምንትሽ</string>
+    <string name="tabs_glance_title__masculine" translatable="false">ሳምንትህ</string>
+    <string name="tabs_glance_top_tag__feminine" translatable="false">በብዛት የተጠቀምሽው የመንሸራተት መለያ:</string>
+    <string name="tabs_glance_top_tag__masculine" translatable="false">በብዛት የተጠቀምከው የመንሸራተት መለያ:</string>
+    <string name="tabs_changes_one_off_tip__feminine" translatable="false">አንድ ጊዜ ታደርጊዋለሽ እና ያልቃል፣ ልክ መሳቢያ እንደማጽዳት፣ ወደ አረንጓዴ የኃይል ታሪፍ እንደመቀየር ወይም ጃኬት እንደመጠገን። ምልክት አድርጊበት እና ወደ ተጠናቀቁ ይሄዳል።</string>
+    <string name="tabs_changes_one_off_tip__masculine" translatable="false">አንድ ጊዜ ታደርገዋለህ እና ያልቃል፣ ልክ መሳቢያ እንደማጽዳት፣ ወደ አረንጓዴ የኃይል ታሪፍ እንደመቀየር ወይም ጃኬት እንደመጠገን። ምልክት አድርግበት እና ወደ ተጠናቀቁ ይሄዳል።</string>
+    <string name="tabs_avoid_why__feminine" translatable="false">ለምን ትርቂዋለሽ</string>
+    <string name="tabs_avoid_why__masculine" translatable="false">ለምን ትርቀዋለህ</string>
+    <string name="tabs_avoid_own_words__feminine" translatable="false">በራስሽ ቃላት</string>
+    <string name="tabs_avoid_own_words__masculine" translatable="false">በራስህ ቃላት</string>
+    <string name="tabs_avoid_instead__feminine" translatable="false">በምትኩ ይህን ውሰጂ</string>
+    <string name="tabs_avoid_instead__masculine" translatable="false">በምትኩ ይህን ውሰድ</string>
+    <string name="tabs_avoid_avoided__feminine" translatable="false">ተርቀሻል</string>
+    <string name="tabs_avoid_avoided__masculine" translatable="false">ተርቀሃል</string>
+    <string name="tabs_avoid_delete_text__feminine" translatable="false">ከመራቅ ዝርዝርሽ ከታሪኩ ጋር ይወገዳል።</string>
+    <string name="tabs_avoid_delete_text__masculine" translatable="false">ከመራቅ ዝርዝርህ ከታሪኩ ጋር ይወገዳል።</string>
+    <string name="tabs_insights_first_on__feminine" translatable="false">የመጀመሪያሽ በ%1$s ይመጣል</string>
+    <string name="tabs_insights_first_on__masculine" translatable="false">የመጀመሪያህ በ%1$s ይመጣል</string>
+    <string name="forms_quarter_nothing__feminine" translatable="false">ለመገምገም ገና የተገነባ ነገር የለም። ቀጥሎ ማጠቃለያሽ ነው።</string>
+    <string name="forms_quarter_nothing__masculine" translatable="false">ለመገምገም ገና የተገነባ ነገር የለም። ቀጥሎ ማጠቃለያህ ነው።</string>
+    <string name="forms_your_new_step__feminine" translatable="false">አዲሱ እርምጃሽ</string>
+    <string name="forms_your_new_step__masculine" translatable="false">አዲሱ እርምጃህ</string>
+    <string name="forms_timing_tip__feminine" translatable="false">በማንኛውም ጊዜ: አንድ ጊዜ የምታደርጊው ነገር፣ ልክ እንደ ሩጫ። እንደጨረስሽ ወዲያው ምልክት አድርጊበት።\n\nበቀኑ መጨረሻ: ቀኑን ሙሉ የምትጠብቂው ሕግ፣ ልክ እንደ መክሰስ አለመብላት። ምልክት ማድረግ የምትችዪው ምሽት ላይ ብቻ ነው።</string>
+    <string name="forms_timing_tip__masculine" translatable="false">በማንኛውም ጊዜ: አንድ ጊዜ የምታደርገው ነገር፣ ልክ እንደ ሩጫ። እንደጨረስክ ወዲያው ምልክት አድርግበት።\n\nበቀኑ መጨረሻ: ቀኑን ሙሉ የምትጠብቀው ሕግ፣ ልክ እንደ መክሰስ አለመብላት። ምልክት ማድረግ የምትችለው ምሽት ላይ ብቻ ነው።</string>
+    <string name="forms_often_whenever__feminine" translatable="false">በፈለግሽ ጊዜ</string>
+    <string name="forms_often_whenever__masculine" translatable="false">በፈለግክ ጊዜ</string>
+    <string name="forms_set_checkin_hour_tip__feminine" translatable="false">ከዚህ ሰዓት ጀምሮ የቀኑ መጨረሻ ልማዶችን ምልክት ማድረግ እና ዕለታዊ ግምገማውን ማድረግ ትችያለሽ።</string>
+    <string name="forms_set_checkin_hour_tip__masculine" translatable="false">ከዚህ ሰዓት ጀምሮ የቀኑ መጨረሻ ልማዶችን ምልክት ማድረግ እና ዕለታዊ ግምገማውን ማድረግ ትችላለህ።</string>
+    <string name="forms_set_week_start_tip__feminine" translatable="false">የልማዶች ሰንጠረዥሽ፣ ሳምንታትሽ እና ገበታዎችሽ በየትኛው ቀን እንደሚጀምሩ።</string>
+    <string name="forms_set_week_start_tip__masculine" translatable="false">የልማዶች ሰንጠረዥህ፣ ሳምንታትህ እና ገበታዎችህ በየትኛው ቀን እንደሚጀምሩ።</string>
+    <string name="forms_set_weekly_day_tip__feminine" translatable="false">በዚህ ቀን ከዕለታዊ ግምገማው በኋላ ለሚቀጥለው ሳምንት አዲስ እርምጃ ትመርጫለሽ።</string>
+    <string name="forms_set_weekly_day_tip__masculine" translatable="false">በዚህ ቀን ከዕለታዊ ግምገማው በኋላ ለሚቀጥለው ሳምንት አዲስ እርምጃ ትመርጣለህ።</string>
+    <string name="forms_set_checkup_tip__feminine" translatable="false">ሁሉም ሰው በተመሳሳይ ቀናት ይገመግማል: 1 ጃንዋሪ፣ 1 ኤፕሪል፣ 1 ጁላይ እና 1 ኦክቶበር፣ ስለዚህ ማጠቃለያችሁን አብራችሁ ማጋራት ትችላላችሁ። በምትኩ የራስሽን ቀን መምረጥም ትችያለሽ።</string>
+    <string name="forms_set_checkup_tip__masculine" translatable="false">ሁሉም ሰው በተመሳሳይ ቀናት ይገመግማል: 1 ጃንዋሪ፣ 1 ኤፕሪል፣ 1 ጁላይ እና 1 ኦክቶበር፣ ስለዚህ ማጠቃለያችሁን አብራችሁ ማጋራት ትችላላችሁ። በምትኩ የራስህን ቀን መምረጥም ትችላለህ።</string>
+    <string name="forms_set_starting_tip__feminine" translatable="false">የመጀመሪያው የራስሽ ግምገማ ወር።</string>
+    <string name="forms_set_starting_tip__masculine" translatable="false">የመጀመሪያው የራስህ ግምገማ ወር።</string>
+    <string name="forms_set_days_build_tip__feminine" translatable="false">ጥናቶች ከ18 እስከ 254 ቀናት አግኝተዋል፣ በብዛት የሚጠቀሰው 66 ነው (Lally et al. 2010, Singh et al. 2024)። ከዚህ ያህል ቀናት በኋላ አዲስ እርምጃ ወደ ግምገማዎችሽ ይሄዳል።</string>
+    <string name="forms_set_days_build_tip__masculine" translatable="false">ጥናቶች ከ18 እስከ 254 ቀናት አግኝተዋል፣ በብዛት የሚጠቀሰው 66 ነው (Lally et al. 2010, Singh et al. 2024)። ከዚህ ያህል ቀናት በኋላ አዲስ እርምጃ ወደ ግምገማዎችህ ይሄዳል።</string>
+    <string name="forms_reasons_hint__feminine" translatable="false">የራስሽን ምክንያት ጨምሪ</string>
+    <string name="forms_reasons_hint__masculine" translatable="false">የራስህን ምክንያት ጨምር</string>
+    <string name="forms_reasons_delete_text__feminine" translatable="false">መንሸራተቶች በታሪክሽ ውስጥ ቦታቸውን ይይዛሉ፣ ያለዚህ መለያ ብቻ።</string>
+    <string name="forms_reasons_delete_text__masculine" translatable="false">መንሸራተቶች በታሪክህ ውስጥ ቦታቸውን ይይዛሉ፣ ያለዚህ መለያ ብቻ።</string>
+    <string name="forms_export_summaries__feminine" translatable="false">የ3 ወር ማጠቃለያዎችሽ</string>
+    <string name="forms_export_summaries__masculine" translatable="false">የ3 ወር ማጠቃለያዎችህ</string>
+    <string name="forms_export_settings__feminine" translatable="false">ቅንብሮችሽ፣ ቀለሞችሽ እና ስምሽ</string>
+    <string name="forms_export_settings__masculine" translatable="false">ቅንብሮችህ፣ ቀለሞችህ እና ስምህ</string>
+    <string name="forms_export_send_title__feminine" translatable="false">የAlice ውሂብሽን ላኪ</string>
+    <string name="forms_export_send_title__masculine" translatable="false">የAlice ውሂብህን ላክ</string>
+    <string name="forms_import_replace_title__feminine" translatable="false">ውሂብሽ ይተካ?</string>
+    <string name="forms_import_replace_title__masculine" translatable="false">ውሂብህ ይተካ?</string>
+    <string name="forms_import_replace_text__feminine" translatable="false">በዚህ ስልክ ላይ ያለው ሁሉ በፋይሉ ይተካል። ማቆየት ከፈለግሽ መጀመሪያ አውጪው።</string>
+    <string name="forms_import_replace_text__masculine" translatable="false">በዚህ ስልክ ላይ ያለው ሁሉ በፋይሉ ይተካል። ማቆየት ከፈለግክ መጀመሪያ አውጣው።</string>
+    <string name="forms_import_add_text__feminine" translatable="false">በፋይሉ ውስጥ ያሉት ልማዶች እና ታሪክ ወደ ያንቺ ይጨመራሉ።</string>
+    <string name="forms_import_add_text__masculine" translatable="false">በፋይሉ ውስጥ ያሉት ልማዶች እና ታሪክ ወደ ያንተ ይጨመራሉ።</string>
+    <string name="look_next_week__feminine" translatable="false">ቀጥሎ፣ ሳምንትሽ ›</string>
+    <string name="look_next_week__masculine" translatable="false">ቀጥሎ፣ ሳምንትህ ›</string>
+    <string name="look_share_chooser__feminine" translatable="false">ሩብ ዓመትሽን አጋሪ</string>
+    <string name="look_share_chooser__masculine" translatable="false">ሩብ ዓመትህን አጋራ</string>
+    <string name="look_quote_2__feminine" translatable="false">ስለመጣሽ አመሰግናለሁ</string>
+    <string name="look_quote_2__masculine" translatable="false">ስለመጣህ አመሰግናለሁ</string>
+    <string name="look_quote_4__feminine" translatable="false">ቀጠልሽ። ያ ይቆጠራል</string>
+    <string name="look_quote_4__masculine" translatable="false">ቀጠልክ። ያ ይቆጠራል</string>
+    <string name="look_quote_6__feminine" translatable="false">በየቀኑ የተሻለውን መረጥሽ</string>
+    <string name="look_quote_6__masculine" translatable="false">በየቀኑ የተሻለውን መረጥክ</string>
+    <string name="look_quote_8__feminine" translatable="false">የምትወጂውን ሕይወት እየገነባሽ ነው</string>
+    <string name="look_quote_8__masculine" translatable="false">የምትወደውን ሕይወት እየገነባህ ነው</string>
+    <string name="look_quote_10__feminine" translatable="false">ለራስሽ መገኘትሽን ቀጥዪ</string>
+    <string name="look_quote_10__masculine" translatable="false">ለራስህ መገኘትህን ቀጥል</string>
+    <string name="look_quote_11__feminine" translatable="false">የወደፊቷ አንቺ ታመሰግንሻለች</string>
+    <string name="look_quote_11__masculine" translatable="false">የወደፊቱ አንተ ያመሰግንሃል</string>
+    <string name="look_quote_14__feminine" translatable="false">ምን ያህል ርቀት እንደመጣሽ ተመልከቺ</string>
+    <string name="look_quote_14__masculine" translatable="false">ምን ያህል ርቀት እንደመጣህ ተመልከት</string>
+    <string name="look_quote_15__feminine" translatable="false">በትናንሽ ድሎችሽ ኩሪ</string>
+    <string name="look_quote_15__masculine" translatable="false">በትናንሽ ድሎችህ ኩራ</string>
+    <string name="look_you__feminine" translatable="false">አንቺ</string>
+    <string name="look_you__masculine" translatable="false">አንተ</string>
+    <string name="look_improved_in__feminine" translatable="false">ሕይወትሽን በ%1$s አሻሽለሻል</string>
+    <string name="look_improved_in__masculine" translatable="false">ሕይወትህን በ%1$s አሻሽለሃል</string>
+    <string name="look_poster_improved__feminine" translatable="false">ሕይወትሽን በ%1$s አሻሽለሻል</string>
+    <string name="look_poster_improved__masculine" translatable="false">ሕይወትህን በ%1$s አሻሽለሃል</string>
+    <string name="look_poster_added__feminine" translatable="false">በዚህ ሩብ ዓመት የጨመርሽው</string>
+    <string name="look_poster_added__masculine" translatable="false">በዚህ ሩብ ዓመት የጨመርከው</string>
+    <string name="look_wrapped_stars__feminine" translatable="false">ኮከቦችሽ</string>
+    <string name="look_wrapped_stars__masculine" translatable="false">ኮከቦችህ</string>
+    <string name="look_trophy_ways__feminine" translatable="false">ሕይወትሽን ያሻሻልሽባቸው\nመንገዶች</string>
+    <string name="look_trophy_ways__masculine" translatable="false">ሕይወትህን ያሻሻልክባቸው\nመንገዶች</string>
+    <string name="look_trophy_first_medal__feminine" translatable="false">የመጀመሪያ ሜዳሊያሽ</string>
+    <string name="look_trophy_first_medal__masculine" translatable="false">የመጀመሪያ ሜዳሊያህ</string>
+    <string name="look_receipt_ways__feminine" translatable="false">ሕይወትሽን ያሻሻልሽባቸው መንገዶች</string>
+    <string name="look_receipt_ways__masculine" translatable="false">ሕይወትህን ያሻሻልክባቸው መንገዶች</string>
+    <string name="look_report_ups_downs__feminine" translatable="false">ውጣ ውረድ የነበረበት ወሰነ ትምህርት፣ አንቺም ጸናሽ።</string>
+    <string name="look_report_ups_downs__masculine" translatable="false">ውጣ ውረድ የነበረበት ወሰነ ትምህርት፣ አንተም ጸናህ።</string>
+    <string name="look_report_star__feminine" translatable="false">%1$s ድንቅ ነበረች። እንዲሁ ቀጥዪ!</string>
+    <string name="look_report_star__masculine" translatable="false">%1$s ድንቅ ነበር። እንዲሁ ቀጥል!</string>
+    <string name="look_report_keep_up__feminine" translatable="false">እንዲሁ ቀጥዪ!</string>
+    <string name="look_report_keep_up__masculine" translatable="false">እንዲሁ ቀጥል!</string>
+    <string name="look_boarding_better_you__feminine" translatable="false">የተሻለችው አንቺ</string>
+    <string name="look_boarding_better_you__masculine" translatable="false">የተሻለው አንተ</string>
+    <string name="look_boarding_flyer__feminine" translatable="false">ተደጋጋሚ በራሪ፣ ረጅሙ አጋሮችሽ</string>
+    <string name="look_boarding_flyer__masculine" translatable="false">ተደጋጋሚ በራሪ፣ ረጅሙ አጋሮችህ</string>
+    <string name="look_polaroid_life__feminine" translatable="false">ሕይወትሽ</string>
+    <string name="look_polaroid_life__masculine" translatable="false">ሕይወትህ</string>
+    <string name="look_colours_your_summary__feminine" translatable="false">የ3 ወር ማጠቃለያሽ</string>
+    <string name="look_colours_your_summary__masculine" translatable="false">የ3 ወር ማጠቃለያህ</string>
+    <string name="look_welcome_name__feminine" translatable="false">ስምሽ</string>
+    <string name="look_welcome_name__masculine" translatable="false">ስምህ</string>
+    <string name="look_tut1_title__feminine" translatable="false">የተሻለችው አንቺ ሁኚ፣ አንድ እርምጃ በአንድ ጊዜ</string>
+    <string name="look_tut1_title__masculine" translatable="false">የተሻለው አንተ ሁን፣ አንድ እርምጃ በአንድ ጊዜ</string>
+    <string name="look_tut1_body__feminine" translatable="false">አዲስ ልማዶችን ገንቢ፣ ደግ ምርጫዎችን አድርጊ፣ እና ያሳካሽው ሁሉ ሲደመር ተመልከቺ።</string>
+    <string name="look_tut1_body__masculine" translatable="false">አዲስ ልማዶችን ገንባ፣ ደግ ምርጫዎችን አድርግ፣ እና ያሳካኸው ሁሉ ሲደመር ተመልከት።</string>
+    <string name="look_tut1_habits__feminine" translatable="false">ጥሩ ልማዶችን ቀን በቀን ገንቢ እና መሆን የምትፈልጊውን ሰው ሁኚ።</string>
+    <string name="look_tut1_habits__masculine" translatable="false">ጥሩ ልማዶችን ቀን በቀን ገንባ እና መሆን የምትፈልገውን ሰው ሁን።</string>
+    <string name="look_tut1_swaps__feminine" translatable="false">ምርቶችን ለፕላኔቷ፣ ለሰዎች ወይም ለጤናሽ በተሻሉ ደግ ምርቶች ቀይሪ።</string>
+    <string name="look_tut1_swaps__masculine" translatable="false">ምርቶችን ለፕላኔቷ፣ ለሰዎች ወይም ለጤናህ በተሻሉ ደግ ምርቶች ቀይር።</string>
+    <string name="look_tut1_avoids__feminine" translatable="false">መደገፍ የማትፈልጊያቸውን ኩባንያዎች፣ ምግቦች እና ምርቶች ተከታተዪ።</string>
+    <string name="look_tut1_avoids__masculine" translatable="false">መደገፍ የማትፈልጋቸውን ኩባንያዎች፣ ምግቦች እና ምርቶች ተከታተል።</string>
+    <string name="look_tut2_title__feminine" translatable="false">ምልክት አድርጊበት</string>
+    <string name="look_tut2_title__masculine" translatable="false">ምልክት አድርግበት</string>
+    <string name="look_tut2_body__feminine" translatable="false">ልማድ ስትጨርሺ ካሬውን ንኪ። የምሽት ልማዶች በግምገማ ሰዓትሽ ይከፈታሉ።</string>
+    <string name="look_tut2_body__masculine" translatable="false">ልማድ ስትጨርስ ካሬውን ንካ። የምሽት ልማዶች በግምገማ ሰዓትህ ይከፈታሉ።</string>
+    <string name="look_tut3_small__feminine" translatable="false">ሁለቱንም በቅንብሮች ውስጥ መቀየር ትችያለሽ።</string>
+    <string name="look_tut3_small__masculine" translatable="false">ሁለቱንም በቅንብሮች ውስጥ መቀየር ትችላለህ።</string>
+    <string name="look_tut4_body__feminine" translatable="false">በአንድ ጊዜ አንድ አዲስ እርምጃ መጨመር ብዙ ነገር በአንድ ጊዜ ሳትሸከሚ ቀስ ብለሽ እንድታድጊ ያደርግሻል።</string>
+    <string name="look_tut4_body__masculine" translatable="false">በአንድ ጊዜ አንድ አዲስ እርምጃ መጨመር ብዙ ነገር በአንድ ጊዜ ሳትሸከም ቀስ ብለህ እንድታድግ ያደርግሃል።</string>
+    <string name="look_tut4_small__feminine" translatable="false">ይህንንም በቅንብሮች ውስጥ መቀየር ትችያለሽ።</string>
+    <string name="look_tut4_small__masculine" translatable="false">ይህንንም በቅንብሮች ውስጥ መቀየር ትችላለህ።</string>
+    <string name="look_tut5_title__feminine" translatable="false">በየሩብ ዓመቱ፣ ማጠቃለያሽ</string>
+    <string name="look_tut5_title__masculine" translatable="false">በየሩብ ዓመቱ፣ ማጠቃለያህ</string>
+    <string name="look_tut5_body__feminine" translatable="false">ምን ያህል ርቀት እንደመጣሽ ከጓደኞችሽ እና ከቅርብ ሰዎችሽ ጋር አጋሪ። የወደድሽውን መልክ ንኪ:</string>
+    <string name="look_tut5_body__masculine" translatable="false">ምን ያህል ርቀት እንደመጣህ ከጓደኞችህ እና ከቅርብ ሰዎችህ ጋር አጋራ። የወደድከውን መልክ ንካ:</string>
+    <string name="look_tut_change_mind__feminine" translatable="false">ሐሳብሽን ሁልጊዜ መቀየር ትችያለሽ።</string>
+    <string name="look_tut_change_mind__masculine" translatable="false">ሐሳብህን ሁልጊዜ መቀየር ትችላለህ።</string>
+    <string name="look_tut6_title__feminine" translatable="false">የራስሽ አድርጊው</string>
+    <string name="look_tut6_title__masculine" translatable="false">የራስህ አድርገው</string>
+    <string name="look_tut6_body__feminine" translatable="false">በጣም የሚመችሽን ቀለሞች ምረጪ። መተግበሪያው በሙሉ ወዲያውኑ ይቀየራል።</string>
+    <string name="look_tut6_body__masculine" translatable="false">በጣም የሚመችህን ቀለሞች ምረጥ። መተግበሪያው በሙሉ ወዲያውኑ ይቀየራል።</string>
+    <string name="look_tut7_title__feminine" translatable="false">ማንኛውንም ነገር፣ በማንኛውም ጊዜ ቀይሪ</string>
+    <string name="look_tut7_title__masculine" translatable="false">ማንኛውንም ነገር፣ በማንኛውም ጊዜ ቀይር</string>
+    <string name="look_tut7_body__feminine" translatable="false">የግምገማ ሰዓቶች፣ ልማድ ለመገንባት የሚያስፈልጉ ቀናት፣ የማጠቃለያ ቅጥሽ፣ ቀለሞች እና ውሂብሽ ሁሉም በቅንብሮች ውስጥ ናቸው።</string>
+    <string name="look_tut7_body__masculine" translatable="false">የግምገማ ሰዓቶች፣ ልማድ ለመገንባት የሚያስፈልጉ ቀናት፣ የማጠቃለያ ቅጥህ፣ ቀለሞች እና ውሂብህ ሁሉም በቅንብሮች ውስጥ ናቸው።</string>
+    <string name="look_tut7_gear__feminine" translatable="false">ቅንብሮችን ለመክፈት በልማዶች አናት ላይ ያለውን ማርሽ ንኪ።</string>
+    <string name="look_tut7_gear__masculine" translatable="false">ቅንብሮችን ለመክፈት በልማዶች አናት ላይ ያለውን ማርሽ ንካ።</string>
+    <string name="lang_spotted__feminine" translatable="false">በቋንቋሽ ስህተት አገኘሽ?</string>
+    <string name="lang_spotted__masculine" translatable="false">በቋንቋህ ስህተት አገኘህ?</string>
+    <string name="lang_search__feminine" translatable="false">ቋንቋሽን ፈልጊ</string>
+    <string name="lang_search__masculine" translatable="false">ቋንቋህን ፈልግ</string>
+    <string name="lang_follow__feminine" translatable="false">ስልክሽን ተከተዪ</string>
+    <string name="lang_follow__masculine" translatable="false">ስልክህን ተከተል</string>
+    <string name="lang_note_3__feminine" translatable="false">በቋንቋሽ ስህተት ካገኘሽ፣ እንዳስተካክለው እባክሽ አሳውቂኝ። Aliceን በቋንቋሽ ለተወሰነ ጊዜ ተጠቅመሽ ሁሉም ነገር ትክክል ከሆነ፣ እንደጸደቀ ምልክት እንዳደርግበት ያንንም ንገሪኝ።</string>
+    <string name="lang_note_3__masculine" translatable="false">በቋንቋህ ስህተት ካገኘህ፣ እንዳስተካክለው እባክህ አሳውቀኝ። Aliceን በቋንቋህ ለተወሰነ ጊዜ ተጠቅመህ ሁሉም ነገር ትክክል ከሆነ፣ እንደጸደቀ ምልክት እንዳደርግበት ያንንም ንገረኝ።</string>
+    <!-- end pronoun variants -->
+</resources>

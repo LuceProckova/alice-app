@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose he/him pronouns -->
+<resources>
+    <string name="look_poster_improved">Tu esi uzlabojis savu dzīvi %1$s</string>
+    <string name="look_quote_14">Paskaties, cik tālu esi ticis</string>
+    <string name="look_tut5_body">Parādi draugiem un tuvajiem, cik tālu esi ticis. Pieskaries stilam, kas tev patīk:</string>
+    <string name="look_tut2_body">Pieskaries rūtiņai, kad esi izdarījis ieradumu. Vakara ieradumi atbloķējas tavā atzīmēšanas laikā.</string>
+    <string name="look_boarding_better_you">labākais tu</string>
+    <string name="core_reason_too_tired">Pārāk noguris</string>
+</resources>

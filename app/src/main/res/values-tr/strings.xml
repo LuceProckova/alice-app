@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Çok yorgundum</string>
+    <string name="core_reason_craving">Canım çekti</string>
+    <string name="core_reason_no_time">Vakit yoktu</string>
+    <string name="core_reason_forgot">Unuttum</string>
+    <string name="core_reason_no_alternative">Alternatif yoktu</string>
+    <string name="core_reason_social">Sosyal ortam</string>
+    <string name="core_reason_impulse">Ani istek</string>
+    <string name="core_reason_too_expensive">Çok pahalı</string>
+    <string name="core_reason_away">Dışarıdaydım</string>
+
+    <string name="core_nudge_channel">Günlük hatırlatma</string>
+    <string name="core_nudge_title">Bugün işaretlenecekler var</string>
+    <string name="core_save_failed">Kaydedilemedi, lütfen tekrar dene</string>
+
+    <string name="core_kind_habit">Alışkanlık</string>
+    <string name="core_kind_swap">Takas</string>
+    <string name="core_kind_avoid">Uzak dur</string>
+    <string name="core_about">%1$s hakkında</string>
+    <string name="core_ok">Tamam</string>
+    <string name="core_less">Az</string>
+    <string name="core_more">Çok</string>
+    <string name="core_cancel">İptal</string>
+    <string name="core_settings">Ayarlar</string>
+    <string name="core_span_week">Hafta</string>
+    <string name="core_span_month">Ay</string>
+    <string name="core_span_year">Yıl</string>
+    <string name="core_span_all">Tüm zamanlar</string>
+    <string name="core_tab_habits">Alışkanlıklar</string>
+    <string name="core_tab_changes">Değişimler</string>
+    <string name="core_tab_avoid">Uzak dur</string>
+    <string name="core_tab_insights">Analiz</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">yapıldı</string>
+    <string name="core_cell_missed">kaçırıldı</string>
+    <string name="core_cell_partial">kısmen yapıldı, şimdiye kadar %1$d</string>
+    <string name="core_cell_unfilled">henüz doldurulmadı</string>
+    <string name="core_cell_open">yapılacak</string>
+    <string name="core_cell_locked">kontrol saatine kadar kilitli</string>
+    <string name="core_cell_future">henüz değil</string>
+    <string name="core_cell_empty">gerek yok</string>
+    <string name="core_cell_band">bu dönem için tamam</string>
+    <string name="core_cell_off">bu adımın günü değil</string>
+    <string name="core_cell_none">bu adım başlamadan önce</string>
+
+    <string name="core_rhythm_one_off">Tek seferlik</string>
+    <string name="core_rhythm_end_of_day">Her gün, gün sonunda işaretlenir</string>
+    <string name="core_rhythm_every_day">Her gün</string>
+    <string name="core_rhythm_every_days">Her %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">haftada</string>
+    <string name="core_rhythm_a_month">ayda</string>
+    <string name="core_rhythm_times_any_day">%2$s %1$s, herhangi bir gün</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s ve %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d ay</string>
+    <string name="core_achievement_short_days">%1$d g</string>
+    <string name="core_glance_step">%1$s, %3$d üzerinden %2$d</string>
+
+    <string name="core_slip_never">Hiç</string>
+    <string name="core_slip_once">Bir kez</string>
+    <string name="core_slip_a_few">Birkaç kez</string>
+    <string name="core_slip_half">Yarısı</string>
+    <string name="core_slip_most">Çoğu</string>
+    <string name="core_slip_always">Hep</string>
+
+    <string name="core_ideas_habit_anytime">Alışkanlıklar, her an</string>
+    <string name="core_ideas_habit_end">Alışkanlıklar, gün sonu</string>
+    <string name="core_ideas_swap">Takaslar</string>
+    <string name="core_ideas_avoid_product">Uzak dur, ürünler</string>
+    <string name="core_ideas_avoid_company">Uzak dur, şirketler</string>
+    <string name="core_ideas_avoid_food">Uzak dur, yiyecekler</string>
+
+    <string name="core_tag_ethical">Etik</string>
+    <string name="core_tag_health">Sağlık</string>
+    <string name="core_tag_clutter">Dağınıklık</string>
+    <string name="core_tag_ecological">Ekolojik</string>
+    <string name="core_tag_animal_welfare">Hayvan refahı</string>
+    <string name="core_tag_workers_rights">İşçi hakları</string>
+    <string name="core_tag_plastic">Plastik</string>
+    <string name="core_tag_palm_oil">Palm yağı</string>
+    <string name="core_tag_deforestation">Ormansızlaşma</string>
+    <string name="core_category_company">Şirket</string>
+    <string name="core_category_food">Yiyecek</string>
+    <string name="core_category_product">Ürün</string>
+    <string name="core_verdict_avoid">UZAK DUR</string>
+    <string name="core_verdict_edge">SINIRDA</string>
+    <string name="core_verdict_fine">SORUN YOK</string>
+
+    <string name="core_theme_off_white_honey">Kırık beyaz ve bal</string>
+    <string name="core_theme_vanilla_caramel">Vanilya ve karamel</string>
+    <string name="core_theme_sunflower">Ayçiçeği</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao ve limon</string>
+    <string name="core_theme_espresso_butter">Espresso ve tereyağı</string>
+    <string name="core_theme_midnight_honey">Gece yarısı ve bal</string>
+    <string name="core_theme_forest_night">Orman gecesi</string>
+    <string name="core_theme_plum_dusk">Erik alacakaranlığı</string>
+    <string name="core_theme_charcoal_coral">Antrasit ve mercan</string>
+
+    <string name="core_pic_sunny_meadow">Güneşli çayır</string>
+    <string name="core_pic_sunset_hills">Gün batımında tepeler</string>
+    <string name="core_pic_starry_night">Yıldızlı gece</string>
+    <string name="core_pic_beach_day">Plaj günü</string>
+    <string name="core_pic_mountain_lake">Dağ gölü</string>
+    <string name="core_pic_snowy_village">Karlı köy</string>
+    <string name="core_pic_rainy_garden">Yağmurlu bahçe</string>
+    <string name="core_pic_autumn_forest">Sonbahar ormanı</string>
+    <string name="core_pic_cherry_blossom">Kiraz çiçeği</string>
+    <string name="core_pic_desert_cactus">Çöl kaktüsü</string>
+    <string name="core_pic_lighthouse">Deniz feneri</string>
+    <string name="core_pic_rainbow_field">Gökkuşağı tarlası</string>
+    <string name="core_pic_hot_air_balloon">Sıcak hava balonu</string>
+    <string name="core_pic_sailboat">Yelkenli</string>
+    <string name="core_pic_cabin_in_the_woods">Ormanda kulübe</string>
+    <string name="core_pic_tulip_field">Lale tarlası</string>
+    <string name="core_pic_campfire_night">Kamp ateşi gecesi</string>
+    <string name="core_pic_misty_mountains">Sisli dağlar</string>
+    <string name="core_pic_sunrise_sea">Gün doğumunda deniz</string>
+    <string name="core_pic_snowy_pines">Karlı çamlar</string>
+    <string name="core_pic_lavender_field">Lavanta tarlası</string>
+    <string name="core_pic_waterfall">Şelale</string>
+    <string name="core_pic_city_at_dusk">Akşam şehir</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Göl üstünde ay</string>
+    <string name="core_pic_palm_island">Palmiye adası</string>
+    <string name="core_pic_windmill">Yel değirmeni</string>
+    <string name="core_pic_bike_path">Bisiklet yolu</string>
+    <string name="core_pic_greenhouse">Sera</string>
+    <string name="core_pic_northern_lights">Kuzey ışıkları</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d adım seni bekliyor.</item>
+        <item quantity="other">%d adım seni bekliyor.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">yapıldı, %d kez</item>
+        <item quantity="other">yapıldı, %d kez</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">günde %d kez</item>
+        <item quantity="other">günde %d kez</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d kez</item>
+        <item quantity="other">%d kez</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">%d haftada bir</item>
+        <item quantity="other">%d haftada bir</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">%d ayda bir</item>
+        <item quantity="other">%d ayda bir</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">%d günde bir</item>
+        <item quantity="other">%d günde bir</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d ay, hiç kaçırmadan</item>
+        <item quantity="other">%d ay, hiç kaçırmadan</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d aydır güçlü</item>
+        <item quantity="other">%d aydır güçlü</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">art arda %d gün</item>
+        <item quantity="other">art arda %d gün</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d ay</item>
+        <item quantity="other">%d ay</item>
+    </plurals>
+
+    <string name="tabs_new_step">Yeni adım</string>
+    <string name="tabs_edit">Düzenle</string>
+    <string name="tabs_delete">Sil</string>
+    <string name="tabs_done">Bitti</string>
+    <string name="tabs_back">Geri</string>
+    <string name="tabs_earlier">Önceki</string>
+    <string name="tabs_later">Sonraki</string>
+    <string name="tabs_delete_title">%1$s silinsin mi?</string>
+    <string name="tabs_eod_unlock">Gün sonu alışkanlıkları %1$02d:00\'da açılır</string>
+    <string name="tabs_check_up">Değerlendirme</string>
+    <string name="tabs_one_off">Tek seferlik</string>
+
+    <string name="tabs_checkin_from">Kontrol %1$02d:00\'dan itibaren</string>
+    <string name="tabs_checkin_daily">Günlük Kontrol</string>
+    <string name="tabs_checkin_weekly">Haftalık Kontrol</string>
+    <string name="tabs_checkin_quarter">3 Aylık Değerlendirme</string>
+    <string name="tabs_checked_in">Kontrol Edildi</string>
+    <string name="tabs_quarter_section">3 AYLIK DEĞERLENDİRME</string>
+    <string name="tabs_previous_week">Önceki hafta</string>
+    <string name="tabs_next_week">Sonraki hafta</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%2$s ile %1$d gün!</item>
+        <item quantity="other">%2$s ile %1$d gün!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Harika iş. Artık 3 Aylık Değerlendirmelerine geçiyor, günlük işaretleme yok.</string>
+    <string name="tabs_celebrate_first">İlki %1$s.</string>
+    <string name="tabs_glance_title">Haftan</string>
+    <string name="tabs_glance_ticks_kept">Tutulan işaretler</string>
+    <string name="tabs_glance_days_checked_in">Kontrol yapılan günler</string>
+    <string name="tabs_glance_top_tag">En sık aksama etiketi:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d kez</item>
+        <item quantity="other">%1$s, %2$d kez</item>
+    </plurals>
+    <string name="tabs_glance_easiest">En kolay:</string>
+    <string name="tabs_glance_hardest">En zor:</string>
+
+    <string name="tabs_changes_ongoing">Süren takaslar</string>
+    <string name="tabs_changes_ongoing_tip_title">Süren takas</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Aynı seçimle yine karşılaşacaksın, bir kahve bardağı ya da katı şampuan gibi. %1$d gün boyunca Alışkanlıklar\'da işaretlenir, sonra 3 ayda bir kontrol edilir.</item>
+        <item quantity="other">Aynı seçimle yine karşılaşacaksın, bir kahve bardağı ya da katı şampuan gibi. %1$d gün boyunca Alışkanlıklar\'da işaretlenir, sonra 3 ayda bir kontrol edilir.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Henüz takas yok</string>
+    <string name="tabs_changes_day_badge">GÜN %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">OTURDU</string>
+    <string name="tabs_changes_one_off_todo">Tek seferlik, yapılacak</string>
+    <string name="tabs_changes_one_off_tip">Bir kez yaparsın ve biter, bir çekmeceyi boşaltmak, yeşil enerji tarifesine geçmek ya da bir ceketi tamir etmek gibi. İşaretle, Bitenler\'e geçsin.</string>
+    <string name="tabs_changes_nothing_waiting">Bekleyen bir şey yok</string>
+    <string name="tabs_changes_finished">BİTENLER · %1$d</string>
+
+    <string name="tabs_avoid_title">Uzak durma listesi</string>
+    <string name="tabs_avoid_search">Ara…</string>
+    <string name="tabs_avoid_no_match">Eşleşen yok</string>
+    <string name="tabs_avoid_companies">Şirketler</string>
+    <string name="tabs_avoid_food">Yiyecekler</string>
+    <string name="tabs_avoid_products">Ürünler</string>
+
+    <string name="tabs_avoid_added">Eklendi</string>
+    <string name="tabs_avoid_why">Neden uzak duruyorsun</string>
+    <string name="tabs_avoid_own_words">Kendi sözlerinle</string>
+    <string name="tabs_avoid_brands">Sahip olduğu markalar · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Her satıra bir marka</string>
+    <string name="tabs_avoid_more_brands">+%1$d daha</string>
+    <string name="tabs_avoid_instead">Bunun yerine bunu al</string>
+    <string name="tabs_avoid_instead_hint">Her satıra bir tane</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">aksama</item>
+        <item quantity="other">aksama</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">uzak durulan</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">ay listede</item>
+        <item quantity="other">ay listede</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Geçmişiyle birlikte Uzak durma listenden çıkar.</string>
+
+    <string name="tabs_habit_delete_text">Tüm geçmişi de onunla gider.</string>
+    <string name="tabs_habit_created">Oluşturuldu</string>
+    <string name="tabs_habit_to_do">Yapılacak</string>
+    <string name="tabs_habit_daily_ticks">Günlük işaretler</string>
+    <string name="tabs_habit_day_of">Gün %1$d / %2$d</string>
+    <string name="tabs_habit_finished">Bitti</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">gündür sürüyor</item>
+        <item quantity="other">gündür sürüyor</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">kez bozuldu</item>
+        <item quantity="other">kez bozuldu</item>
+    </plurals>
+    <string name="tabs_habit_success">başarı</string>
+    <string name="tabs_habit_current_streak">Şu anki seri</string>
+    <string name="tabs_habit_longest_streak">En uzun seri</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Neden aksadı</string>
+    <string name="tabs_habit_remove_reason">Bu nedeni kaldır</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">şekilde hayatını iyileştirdin</item>
+        <item quantity="other">şekilde hayatını iyileştirdin</item>
+    </plurals>
+    <string name="tabs_insights_habits">Alışkanlıklar</string>
+    <string name="tabs_insights_swaps">Takaslar</string>
+    <string name="tabs_insights_avoids">Uzak durulanlar</string>
+    <string name="tabs_insights_on_track_section">Yolunda</string>
+    <string name="tabs_insights_avg_days">%1$d g</string>
+    <string name="tabs_insights_average_kept">ortalama tutulan</string>
+    <string name="tabs_insights_days_checked_in">kontrol yapılan gün</string>
+    <string name="tabs_insights_on_track">yolunda</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">aksama</item>
+        <item quantity="other">aksama</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">yeni adım</item>
+        <item quantity="other">yeni adım</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">tek seferlik bitti</item>
+        <item quantity="other">tek seferlik bitti</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">En büyük aksama nedenleri</string>
+    <string name="tabs_insights_added_quarter">Bu çeyrekte eklenenler</string>
+    <string name="tabs_insights_past_summaries">Geçmiş 3 aylık özetler</string>
+    <string name="tabs_insights_first_on">İlki %1$s tarihinde geliyor</string>
+    <string name="tabs_insights_all_time">Tüm zamanlar</string>
+    <string name="tabs_insights_period">%1$s - %2$s %3$d</string>
+
+    <string name="forms_back">Geri</string>
+    <string name="forms_back_habits">Alışkanlıklar</string>
+    <string name="forms_back_settings">Ayarlar</string>
+    <string name="forms_add">Ekle</string>
+    <string name="forms_save">Kaydet</string>
+    <string name="forms_finish">Bitir</string>
+    <string name="forms_delete">Sil</string>
+    <string name="forms_why">Neden</string>
+    <string name="forms_never_show">Bir daha gösterme</string>
+    <string name="forms_every">Her</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">gün</item>
+        <item quantity="other">gün</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Adım %1$d / %2$d</string>
+    <string name="forms_checkin_next_weekly">Sıradaki, Haftalık Kontrol ›</string>
+    <string name="forms_checkin_next_quarter">Sıradaki, 3 Aylık Değerlendirme ›</string>
+    <string name="forms_daily_title">Günlük Kontrol</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d önceki gün doldurulmadı</item>
+        <item quantity="other">%1$d önceki gün doldurulmadı</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Hepsini atla</string>
+    <string name="forms_daily_today">Bugün · %1$s</string>
+    <string name="forms_daily_skip">Atla</string>
+    <string name="forms_daily_undo_skip">Atlamayı geri al</string>
+    <string name="forms_daily_new_tag">Yeni etiket</string>
+    <string name="forms_daily_new_tag_hint">Çöp kutusu doluydu</string>
+    <string name="forms_weekly_title">Haftalık Kontrol</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d hafta birikti, tek yeni adım hepsini karşılar.</item>
+        <item quantity="other">%1$d hafta birikti, tek yeni adım hepsini karşılar.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Bu hafta yeni adım yok</string>
+    <string name="forms_quarter_title">3 Aylık Değerlendirme</string>
+    <string name="forms_quarter_nothing">Henüz değerlendirilecek bir şey yok. Sırada özetin var.</string>
+    <string name="forms_quarter_habits">Alışkanlıklar</string>
+    <string name="forms_quarter_swaps">Takaslar</string>
+    <string name="forms_quarter_avoid">Uzak dur</string>
+    <string name="forms_quarter_missed">Kaçırılan</string>
+    <string name="forms_quarter_missed_level">Kaçırılan: %1$s</string>
+
+    <string name="forms_new_title">Yeni adım</string>
+    <string name="forms_edit_title">Düzenle: %1$s</string>
+    <string name="forms_add_kind">Ekle: %1$s</string>
+    <string name="forms_title_habit">Alışkanlık</string>
+    <string name="forms_title_swap">Takas</string>
+    <string name="forms_title_avoid">Uzak dur</string>
+    <string name="forms_save_changes">Değişiklikleri kaydet</string>
+    <string name="forms_what_kind">Ne tür?</string>
+    <string name="forms_name">Ad</string>
+    <string name="forms_your_new_step">Yeni adımın</string>
+    <string name="forms_hint_habit">10 sayfa oku</string>
+    <string name="forms_hint_swap">Sünger yerine lif</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Ne tür bir alışkanlık?</string>
+    <string name="forms_timing_tip_title">Her an ya da gün sonu</string>
+    <string name="forms_timing_tip">Her an: bir kez yaptığın bir şey, koşu gibi. Biter bitmez işaretle.\n\nGün sonu: bütün gün uyduğun bir kural, atıştırmamak gibi. Sadece akşam işaretleyebilirsin.</string>
+    <string name="forms_anytime">Her an</string>
+    <string name="forms_end_of_day">Gün sonu</string>
+    <string name="forms_what_is_it">Bu ne?</string>
+    <string name="forms_how_often">Ne sıklıkla?</string>
+    <string name="forms_often_specific">Belirli günler</string>
+    <string name="forms_often_whenever">Ne zaman olursa</string>
+    <string name="forms_often_once">Sadece bir kez</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">kez, her</item>
+        <item quantity="other">kez, her</item>
+    </plurals>
+    <string name="forms_unit_day">gün</string>
+    <string name="forms_unit_week">hafta</string>
+    <string name="forms_unit_month">ay</string>
+    <string name="forms_unit_x_days">X gün</string>
+    <string name="forms_ideas">Fikirler</string>
+    <string name="forms_ideas_others">Diğerleri</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">%1$d fikrin tümünü gör ›</item>
+        <item quantity="other">%1$d fikrin tümünü gör ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Tüm adım fikirleri</string>
+    <string name="forms_search">Ara…</string>
+    <string name="forms_all">Tümü</string>
+
+    <string name="forms_settings_title">Ayarlar</string>
+    <string name="forms_set_colours">Renkler</string>
+    <string name="forms_set_style">3 aylık özet stili</string>
+    <string name="forms_set_checkins">Kontroller</string>
+    <string name="forms_set_checkin_hour">Günlük Kontrol açılış saati</string>
+    <string name="forms_set_checkin_hour_tip">Bu saatten itibaren gün sonu alışkanlıklarını işaretleyebilir ve Günlük Kontrolü yapabilirsin.</string>
+    <string name="forms_set_week_start">Hafta şu gün başlar</string>
+    <string name="forms_set_week_start_tip">Alışkanlık tablonun, haftaların ve grafiklerin hangi gün başladığı.</string>
+    <string name="forms_monday">Pazartesi</string>
+    <string name="forms_sunday">Pazar</string>
+    <string name="forms_set_new_step_every">Yeni adım sıklığı</string>
+    <string name="forms_set_new_step_every_tip">Haftalık Kontroller arasında kaç hafta olacağı.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">hafta</item>
+        <item quantity="other">hafta</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Haftalık Kontrol günü</string>
+    <string name="forms_set_weekly_day_tip">Bu gün Günlük Kontrolün ardından gelecek haftanın yeni adımını seçersin.</string>
+    <string name="forms_set_checkup">3 Aylık Değerlendirme</string>
+    <string name="forms_set_checkup_tip">Herkes aynı günlerde değerlendirme yapar: 1 Ocak, 1 Nisan, 1 Temmuz ve 1 Ekim, böylece özetlerinizi birlikte paylaşabilirsiniz. İstersen kendi tarihini seçebilirsin.</string>
+    <string name="forms_set_same">Herkesle aynı</string>
+    <string name="forms_set_own">Kendi tarihim</string>
+    <string name="forms_set_starting">Başlangıç</string>
+    <string name="forms_set_starting_tip">İlk kendi değerlendirmenin ayı.</string>
+    <string name="forms_earlier">Önceki</string>
+    <string name="forms_later">Sonraki</string>
+    <string name="forms_set_every_tip">Değerlendirmeler arasındaki ay sayısı.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">ay</item>
+        <item quantity="other">ay</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Ayın günü</string>
+    <string name="forms_set_day_of_month_tip">O ayın hangi günü.</string>
+    <string name="forms_set_everyone">Herkes: 1 Oca · 1 Nis · 1 Tem · 1 Eki</string>
+    <string name="forms_set_days_build">Alışkanlık oluşturma süresi</string>
+    <string name="forms_set_days_build_tip">Araştırmalar 18 ile 254 gün arası buldu, en sık anılan 66 (Lally ve ark. 2010, Singh ve ark. 2024). Bu kadar günden sonra yeni bir adım değerlendirmelerine geçer.</string>
+    <string name="forms_set_nudge">Günlük hatırlatma</string>
+    <string name="forms_set_nudge_tip">Bu saatte bir hatırlatma, sadece işaretlenmemiş bir şey kaldıysa.</string>
+    <string name="forms_set_more">Diğer</string>
+    <string name="forms_set_reasons">Aksama nedenleri</string>
+    <string name="forms_set_tutorial">Rehberi tekrar oynat</string>
+    <string name="forms_set_export">Verilerimi dışa aktar</string>
+    <string name="forms_set_import">Veri içe aktar</string>
+
+    <string name="forms_reasons_title">Aksama nedenleri</string>
+    <string name="forms_reasons_hint">Kendi nedenini ekle</string>
+    <string name="forms_reasons_used">%1$d× kullanıldı</string>
+    <string name="forms_reasons_delete_title">%1$s silinsin mi?</string>
+    <string name="forms_reasons_delete_text">Aksamalar geçmişinde yerini korur, sadece bu etiket olmadan.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d alışkanlık</item>
+        <item quantity="other">%1$d alışkanlık</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d takas</item>
+        <item quantity="other">%1$d takas</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d uzak durulan</item>
+        <item quantity="other">%1$d uzak durulan</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, %2$s tarihinden beri işaretler</string>
+    <string name="forms_export_title">Verilerimi dışa aktar</string>
+    <string name="forms_export_what">Dosyada neler var</string>
+    <string name="forms_export_ticks">Her işaret, aksama ve neden</string>
+    <string name="forms_export_ticks_since">%1$s tarihinden beri her işaret, aksama ve neden</string>
+    <string name="forms_export_summaries">3 aylık özetlerin</string>
+    <string name="forms_export_settings">Ayarların, renklerin ve adın</string>
+    <string name="forms_export_file">Dosya</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Dosyayı kaydet</string>
+    <string name="forms_export_send">Gönder…</string>
+    <string name="forms_export_send_title">Alice verilerini gönder</string>
+    <string name="forms_export_saved">Kaydedildi: %1$s</string>
+    <string name="forms_export_save_failed">Dosya kaydedilemedi</string>
+
+    <string name="forms_import_title">Veri içe aktar</string>
+    <string name="forms_import_choose">Bir Alice yedeği seç</string>
+    <string name="forms_import_choose_sub">.json, başka bir telefondaki Dışa aktar\'dan</string>
+    <string name="forms_import_cant_open">Bu dosya açılamadı.</string>
+    <string name="forms_import_not_backup">Bu dosya bir Alice yedeği değil.</string>
+    <string name="forms_import_replace_mode">Buradakinin yerine koy</string>
+    <string name="forms_import_add_mode">Buradakine ekle</string>
+    <string name="forms_import_button">İçe aktar</string>
+    <string name="forms_import_replace_title">Verilerin değiştirilsin mi?</string>
+    <string name="forms_import_add_title">Bu veriler eklensin mi?</string>
+    <string name="forms_import_replace_text">Bu telefondaki her şey dosyadakiyle değiştirilir. Saklamak istiyorsan önce dışa aktar.</string>
+    <string name="forms_import_add_text">Dosyadaki alışkanlıklar ve geçmiş seninkilere eklenir.</string>
+    <string name="forms_import_done">Veriler içe aktarıldı</string>
+
+    <string name="look_share">Paylaş</string>
+    <string name="look_save_image">Resmi kaydet</string>
+    <string name="look_next_week">Sıradaki, haftan ›</string>
+    <string name="look_keep_going">Devam et</string>
+    <string name="look_storage_needed">Alice\'in resmi kaydetmek için depolama iznine ihtiyacı var</string>
+    <string name="look_share_caption">Alice ile geçen çeyreğim. Sen de başla: %1$s</string>
+    <string name="look_share_clip">Alice özeti</string>
+    <string name="look_share_chooser">Çeyreğini paylaş</string>
+    <string name="look_saved">Resimler/Alice klasörüne kaydedildi</string>
+    <string name="look_save_failed">Resim kaydedilemedi</string>
+
+    <string name="look_style_poster">Poster</string>
+    <string name="look_style_wrapped">Özet Paket</string>
+    <string name="look_style_trophy">Kupa dolabı</string>
+    <string name="look_style_receipt">Fiş</string>
+    <string name="look_style_report">Karne</string>
+    <string name="look_style_boarding">Biniş kartı</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Takvim</string>
+    <string name="look_style_trading">Koleksiyon kartı</string>
+
+    <string name="look_quote_1">Her Gün Küçük Adımlar</string>
+    <string name="look_quote_2">Burada Olduğun İçin Teşekkürler</string>
+    <string name="look_quote_3">Mükemmellik Değil, İlerleme</string>
+    <string name="look_quote_4">Devam Ettin. Bu Önemli</string>
+    <string name="look_quote_5">Küçük Değişimler, Büyük Fark</string>
+    <string name="look_quote_6">Her Gün Daha İyisini Seçtin</string>
+    <string name="look_quote_7">Yavaş da Olsa İleri</string>
+    <string name="look_quote_8">Sevdiğin Bir Hayat Kuruyorsun</string>
+    <string name="look_quote_9">Adım Adım Birikiyor</string>
+    <string name="look_quote_10">Kendin İçin Orada Olmaya Devam Et</string>
+    <string name="look_quote_11">Gelecekteki Sen Teşekkür Ediyor</string>
+    <string name="look_quote_12">Azar Azar, Çok Şey</string>
+    <string name="look_quote_13">İstikrar Sessiz Bir Sihirdir</string>
+    <string name="look_quote_14">Ne Kadar Yol Aldığına Bak</string>
+    <string name="look_quote_15">Küçük Zaferlerinle Gurur Duy</string>
+    <string name="look_quote_16">İyi Günler Bulunmaz, Kurulur</string>
+
+    <string name="look_stamp_1">MÜKEMMEL</string>
+    <string name="look_stamp_2">OLAĞANÜSTÜ</string>
+    <string name="look_stamp_3">AFERİN</string>
+    <string name="look_stamp_4">HARİKA</string>
+    <string name="look_stamp_5">MUHTEŞEM</string>
+    <string name="look_stamp_6">TAM NOT</string>
+    <string name="look_stamp_7">ALTIN YILDIZ</string>
+    <string name="look_stamp_8">SÜPER İŞ</string>
+
+    <string name="look_period">%1$s - %2$s</string>
+    <string name="look_scan">KENDİ YOLCULUĞUNA\nBAŞLAMAK İÇİN\nTARA</string>
+    <string name="look_you">Sen</string>
+    <string name="look_on_track">yolunda</string>
+    <string name="look_new_steps">yeni adım</string>
+    <string name="look_days_in">gün oldu</string>
+    <string name="look_new">yeni</string>
+    <string name="look_week_by_week">Hafta hafta</string>
+    <string name="look_coming_soon">Yakında</string>
+    <string name="look_new_this_quarter">Bu çeyrekte yeni</string>
+    <string name="look_kept_up_longest">En uzun süren</string>
+    <string name="look_habits">Alışkanlıklar</string>
+    <string name="look_swaps">Takaslar</string>
+    <string name="look_avoids">Uzak durulanlar</string>
+    <string name="look_ways_improved">İyileşme yolları</string>
+    <string name="look_improved_in">Hayatını iyileştirdin, tam %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d alışkanlık</item>
+        <item quantity="other">%1$d alışkanlık</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d takas</item>
+        <item quantity="other">%1$d takas</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d uzak durulan</item>
+        <item quantity="other">%1$d uzak durulan</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d aksama</item>
+        <item quantity="other">%1$d aksama</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d şekilde</item>
+        <item quantity="other">%1$d şekilde</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">alışkanlık</item>
+        <item quantity="other">alışkanlık</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">takas</item>
+        <item quantity="other">takas</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">uzak durulan</item>
+        <item quantity="other">uzak durulan</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">aksama</item>
+        <item quantity="other">aksama</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">yol</item>
+        <item quantity="other">yol</item>
+    </plurals>
+
+    <string name="look_poster_improved">Hayatını %1$s iyileştirdin</string>
+    <string name="look_poster_on_track">YOLUNDA</string>
+    <string name="look_poster_days">gün</string>
+    <string name="look_poster_achievements">Başarılar</string>
+    <string name="look_poster_first_ones">İlk başarıların yolda</string>
+    <string name="look_poster_added">Bu çeyrekte eklediklerin</string>
+
+    <string name="look_wrapped_stars">Yıldızların</string>
+
+    <string name="look_trophy_ways">şekilde hayatını\niyileştirdin</string>
+    <string name="look_trophy_next_quarter">Gelecek çeyrek</string>
+    <string name="look_trophy_first_medal">ilk madalyan</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Raftaki yeniler:</string>
+
+    <string name="look_receipt_title">3 Aylık Değerlendirme · %1$s</string>
+    <string name="look_receipt_customer">Müşteri: %1$s</string>
+    <string name="look_receipt_habits">Kazanılan alışkanlıklar</string>
+    <string name="look_receipt_swaps">Takas edilenler</string>
+    <string name="look_receipt_avoids">Uzak durulanlar</string>
+    <string name="look_receipt_ways">Hayatını iyileştirme yolları</string>
+    <string name="look_receipt_on_track">Bu çeyrek yolunda</string>
+    <string name="look_receipt_slips">Aksamalar</string>
+    <string name="look_receipt_new_steps">Kazanılan yeni adımlar</string>
+    <string name="look_receipt_new">Bu çeyrekte yeni: %1$s</string>
+
+    <string name="look_report_title">Küçük Adımlar Karnesi</string>
+    <string name="look_report_pupil">%1$s · Öğrenci: %2$s</string>
+    <string name="look_report_subject">DERS</string>
+    <string name="look_report_built">KAZANILDI</string>
+    <string name="look_report_grade">NOT</string>
+    <string name="look_report_attendance">Devam %1$s</string>
+    <string name="look_report_on_track">Yolunda %1$s</string>
+    <string name="look_report_slips">Aksamalar %1$s</string>
+    <string name="look_report_achievements">BAŞARILAR</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">BU DÖNEM YENİ DERSLER (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Öğretmen görüşü:</string>
+    <string name="look_report_calm">Sakin, istikrarlı bir dönem.</string>
+    <string name="look_report_ups_downs">İnişli çıkışlı bir dönem, ama bırakmadın.</string>
+    <string name="look_report_star">%1$s olağanüstüydü. Böyle devam!</string>
+    <string name="look_report_keep_up">Böyle devam!</string>
+    <string name="look_report_week">HAFTA HAFTA</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Uçuş Q%1$d</string>
+    <string name="look_boarding_from">NEREDEN</string>
+    <string name="look_boarding_old">ESKİ</string>
+    <string name="look_boarding_habits">alışkanlıklar</string>
+    <string name="look_boarding_to">NEREYE</string>
+    <string name="look_boarding_new">YENİ</string>
+    <string name="look_boarding_better_you">daha iyi sen</string>
+    <string name="look_boarding_passenger">Yolcu</string>
+    <string name="look_boarding_dates">Tarihler</string>
+    <string name="look_boarding_miles">Uçulan mil</string>
+    <string name="look_boarding_on_time">Zamanında</string>
+    <string name="look_boarding_turbulence">Türbülans</string>
+    <string name="look_boarding_days">Uçaktaki günler</string>
+    <string name="look_boarding_flyer">SIK UÇAN YOLCU, EN UZUN YOL ARKADAŞLARIN</string>
+    <string name="look_boarding_log">UÇUŞ KAYDI, HAFTA HAFTA</string>
+    <string name="look_boarding_stops">YENİ DURAKLAR, +%1$d</string>
+    <string name="look_boarding_note">KAPTANIN NOTU</string>
+
+    <string name="look_polaroid_life">HAYATIN</string>
+    <string name="look_polaroid_quarter">BU ÇEYREK</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d gün</string>
+    <string name="look_polaroid_longest">EN UZUN SÜREN</string>
+    <string name="look_polaroid_new">YENİ, +%1$d</string>
+
+    <string name="look_calendar_added">Eklendi</string>
+
+    <string name="look_trading_common">Yaygın</string>
+    <string name="look_trading_uncommon">Az bulunur</string>
+    <string name="look_trading_rare">Nadir</string>
+    <string name="look_trading_legendary">Efsanevi</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">YOL</item>
+        <item quantity="other">YOL</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">No. %1$03d · %2$s çeyreğin</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d gün</string>
+    <string name="look_trading_power">Güç, hafta hafta</string>
+    <string name="look_trading_edition">%1$s · Q%2$d baskısı</string>
+
+    <string name="look_sample_water_first">Önce su</string>
+    <string name="look_sample_own_bag">Kendi çantam</string>
+    <string name="look_sample_read_pages">10 sayfa oku</string>
+    <string name="look_sample_reading">Her gün okuma</string>
+    <string name="look_sample_late_snacks">Gece atıştırması yok</string>
+    <string name="look_sample_stretching">Esneme</string>
+    <string name="look_sample_cooler_home">Daha serin ev</string>
+    <string name="look_sample_loofah">Sünger yerine lif</string>
+    <string name="look_sample_palm_oil">Palm yağsız</string>
+    <string name="look_sample_stretch">10 dk esne</string>
+
+    <string name="look_colours_title">Renkler</string>
+    <string name="look_colours_preview">Önizleme</string>
+    <string name="look_colours_your_summary">3 aylık özetin</string>
+    <string name="look_colours_light">Açık</string>
+    <string name="look_colours_dark">Koyu</string>
+    <string name="look_styles_title">3 aylık özet stili</string>
+    <string name="look_styles_all_pictures">30 Polaroid resminin tümünü gör</string>
+    <string name="look_styles_refresh">Yenile</string>
+    <string name="look_pictures_title">Polaroid resimleri</string>
+    <string name="look_pictures_back">Özet stilleri</string>
+
+    <string name="look_welcome_name">Adın</string>
+    <string name="look_welcome_start">Başla</string>
+    <string name="look_welcome_import">Verilerimi içe aktar</string>
+
+    <string name="look_tut_skip">Atla</string>
+    <string name="look_tut_page">%1$d / %2$d</string>
+    <string name="look_tut_back">Geri</string>
+    <string name="look_tut_start">Başla</string>
+    <string name="look_tut_next">İleri</string>
+    <string name="look_tut1_title">Adım adım daha iyi bir sen ol</string>
+    <string name="look_tut1_body">Yeni alışkanlıklar edin, daha iyi seçimler yap ve başardığın her şeyin birikmesini izle.</string>
+    <string name="look_tut1_habits">Gün gün iyi alışkanlıklar edin ve olmak istediğin kişi ol.</string>
+    <string name="look_tut1_swaps">Ürünleri gezegen, insanlar ya da sağlığın için daha iyi olanlarla takas et.</string>
+    <string name="look_tut1_avoids">Desteklemek istemediğin şirketleri, yiyecekleri ve ürünleri takip et.</string>
+    <string name="look_tut2_title">İşaretle gitsin</string>
+    <string name="look_tut2_body">Bir alışkanlığı yaptığında kareye dokun. Akşam olanlar kontrol saatinde açılır.</string>
+    <string name="look_tut3_title">%1$s, sonra her %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d ay</item>
+        <item quantity="other">%1$d ay</item>
+    </plurals>
+    <string name="look_tut3_body">Araştırmalara göre bir alışkanlık edinmek 18 ile 254 gün arası sürüyor. En çok anılan rakam 66 gün, Alice de oradan başlıyor.</string>
+    <string name="look_tut3_days_label">Alışkanlık oluşturma süresi</string>
+    <string name="look_tut3_checkup">Değerlendirme sıklığı</string>
+    <string name="look_tut3_small">İkisini de Ayarlar\'dan değiştirebilirsin.</string>
+    <string name="look_tut4_title">Haftada bir, tek yeni adım</string>
+    <string name="look_tut4_body">Her seferinde tek bir yeni adım eklemek, kendine fazla yüklenmeden yavaş yavaş büyümeni sağlar.</string>
+    <string name="look_tut4_day">Kontrol günü</string>
+    <string name="look_tut4_small">Bunu da Ayarlar\'dan değiştirebilirsin.</string>
+    <string name="look_tut5_title">Her çeyrek, özetin</string>
+    <string name="look_tut5_body">Ne kadar yol aldığını arkadaşlarınla ve yakınlarınla paylaş. Beğendiğin görünüme dokun:</string>
+    <string name="look_tut_change_mind">Fikrini her zaman değiştirebilirsin.</string>
+    <string name="look_tut6_title">Kendine göre yap</string>
+    <string name="look_tut6_body">Sana en rahat gelen renkleri seç. Bütün uygulama hemen değişir.</string>
+    <string name="look_tut7_title">İstediğini, istediğin zaman değiştir</string>
+    <string name="look_tut7_body">Kontrol saatleri, alışkanlık oluşturma süresi, özet stilin, renkler ve verilerin hepsi Ayarlar\'da.</string>
+    <string name="look_tut7_gear">Ayarlar\'ı açmak için Alışkanlıklar\'ın üstündeki dişliye dokun.</string>
+    <string name="look_tut7_open">Ayarlar\'ı aç</string>
+
+    <string name="lang_title">Dil</string>
+    <string name="pron_title">Hitap</string>
+    <string name="pron_she">kadın</string>
+    <string name="pron_he">erkek</string>
+    <string name="pron_they">nötr</string>
+    <string name="lang_spotted">Dilinde bir hata mı gördün?</string>
+    <string name="lang_search">Dilini ara</string>
+    <string name="lang_phone">Telefonun dili</string>
+    <string name="lang_follow">Telefonuna uy</string>
+    <string name="lang_note_title">Çevirilere yardım et</string>
+    <string name="lang_note_1">Merhaba, ben Lucy, Alice\'i ben yaptım.</string>
+    <string name="lang_note_2">İngilizce, Slovakça, Çekçe ve Rusça konuşuyorum, o yüzden bu çevirileri kendim kontrol ettim. Diğer diller henüz anadili olan biri tarafından kontrol edilmedi.</string>
+    <string name="lang_note_3">Dilinde bir hata görürsen lütfen bana haber ver ki düzelteyim. Alice\'i bir süredir kendi dilinde kullanıyorsan ve her şey doğru okunuyorsa bunu da söyle, onaylandı olarak işaretleyeyim.</string>
+    <string name="lang_note_4">Teşekkürler!</string>
+    <string name="lang_not_approved">HENÜZ ONAYLANMADI</string>
+    <string name="lang_report">Hata bildir</string>
+    <string name="lang_all_correct">Dilimde her şey doğru</string>
+    <string name="lang_mail_mistake_body">Ne yanlış okunuyor ve hangi ekranda:\n\n</string>
+    <string name="lang_mail_correct_body">Alice\'i bir süredir kendi dilimde kullanıyorum ve her şey doğru okunuyor.\n\n</string>
+    <string name="lang_no_mail">E-posta uygulaması bulunamadı</string>
+</resources>

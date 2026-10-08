@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose she/her pronouns -->
+<resources>
+    <string name="core_nudge_title">Saura abin da za ki yi alama yau</string>
+    <string name="tabs_glance_title">Makonki</string>
+    <string name="tabs_changes_one_off_tip">Za ki yi shi sau ɗaya kuma ya ƙare, kamar share aljihun tebur, komawa kan wutar lantarki mai tsabta ko gyaran jaket. Yi masa alama sai ya koma An Gama.</string>
+    <string name="tabs_avoid_why">Dalilin da kike kauracewa</string>
+    <string name="tabs_avoid_own_words">A kalmominki</string>
+    <string name="tabs_avoid_delete_text">Zai fita daga jerin kauracewarki tare da tarihinsa.</string>
+    <string name="tabs_insights_first_on">Ta farkonki za ta zo a %1$s</string>
+    <string name="forms_quarter_nothing">Babu abin da aka gina tukuna da za a bita. Taƙaitawarki ce ta gaba.</string>
+    <string name="forms_your_new_step">Sabon matakinki</string>
+    <string name="forms_timing_tip">Kowane lokaci: abin da kike yi sau ɗaya, kamar gudu. Yi masa alama da zarar kin gama.\n\nƘarshen rana: doka da kike kiyayewa duk yini, kamar babu kayan ciye-ciye. Da yamma kawai za ki iya yi masa alama.</string>
+    <string name="forms_set_checkin_hour_tip">Daga wannan lokaci za ki iya yin alama ga ɗabi\'un ƙarshen rana kuma ki yi Dubawar Yau.</string>
+    <string name="forms_set_week_start_tip">Ranar da teburin Ɗabi\'unki, makonni da zane-zane suke farawa.</string>
+    <string name="forms_set_weekly_day_tip">A wannan rana, bayan Dubawar Yau za ki zaɓi sabon matakin mako mai zuwa.</string>
+    <string name="forms_set_checkup_tip">Kowa yana yin bita a ranaku ɗaya: 1 Jan, 1 Afr, 1 Yul da 1 Okt, don ku iya raba taƙaitawarku tare. Za ki iya zaɓar ranarki maimakon haka.</string>
+    <string name="forms_set_starting_tip">Watan bitarki ta farko.</string>
+    <string name="forms_set_days_build_tip">Bincike ya gano kwana 18 zuwa 254, wanda aka fi ambata shi ne 66 (Lally et al. 2010, Singh et al. 2024). Bayan wannan adadin kwanaki sabon mataki zai koma cikin bitarki.</string>
+    <string name="forms_reasons_hint">Ƙara naki dalili</string>
+    <string name="forms_reasons_delete_text">Tuntuɓe za su ci gaba da zama a tarihinki, sai dai ba tare da wannan dalili ba.</string>
+    <string name="forms_export_summaries">Taƙaitawar Wata 3 naki</string>
+    <string name="forms_export_settings">Saitunanki, launuka da sunanki</string>
+    <string name="forms_export_send_title">Aika bayananki na Alice</string>
+    <string name="forms_import_replace_title">A maye gurbin bayananki?</string>
+    <string name="forms_import_replace_text">Duk abin da ke wannan wayar za a musanya shi da fayil ɗin. Fara fitarwa idan kina son ki ajiye shi.</string>
+    <string name="forms_import_add_text">Ɗabi\'u da tarihin da ke cikin fayil za a ƙara su a naki.</string>
+    <string name="look_next_week">Na gaba, makonki ›</string>
+    <string name="look_share_chooser">Raba watanni ukunki</string>
+    <string name="look_quote_2">Na Gode da Kika Zo</string>
+    <string name="look_quote_4">Kin Ci Gaba. Wannan Yana da Muhimmanci</string>
+    <string name="look_quote_6">Kowace Rana Kin Zaɓi Mafi Kyau</string>
+    <string name="look_quote_8">Kina Gina Rayuwar da Kike So</string>
+    <string name="look_quote_10">Ci Gaba da Zuwa don Kanki</string>
+    <string name="look_quote_11">Ke ta Gobe Tana Cewa Na Gode</string>
+    <string name="look_quote_14">Duba Yadda Kika Yi Nisa</string>
+    <string name="look_quote_15">Ki Yi Alfahari da Ƙananan Nasarori</string>
+    <string name="look_stamp_4">KE JARUMA</string>
+    <string name="look_you">Ke</string>
+    <string name="look_improved_in">Kin inganta rayuwarki ta %1$s</string>
+    <string name="look_poster_improved">Kin inganta rayuwarki ta %1$s</string>
+    <string name="look_poster_first_ones">Nasarorinki na farko suna nan tafe</string>
+    <string name="look_poster_added">Abin da kika ƙara a wannan wata 3</string>
+    <string name="look_wrapped_stars">Taurarinki</string>
+    <string name="look_trophy_ways">hanyoyin da kika inganta\nrayuwarki</string>
+    <string name="look_trophy_first_medal">lambar yabonki ta farko</string>
+    <string name="look_receipt_customer">Abokiyar ciniki: %1$s</string>
+    <string name="look_receipt_ways">Hanyoyin da kika inganta rayuwarki</string>
+    <string name="look_report_pupil">%1$s · Ɗaliba: %2$s</string>
+    <string name="look_report_ups_downs">Zango mai hawa da sauka, kuma kin dage.</string>
+    <string name="look_report_star">%1$s ta yi fice. Ci gaba haka!</string>
+    <string name="look_boarding_better_you">ke mafi kyau</string>
+    <string name="look_boarding_flyer">MATAFIYIYA NA KULLUM, ABOKAN TAFIYARKI MAFI DAƊEWA</string>
+    <string name="look_polaroid_life">RAYUWARKI</string>
+    <string name="look_colours_your_summary">Taƙaitawar Wata 3 naki</string>
+    <string name="look_welcome_name">Sunanki</string>
+    <string name="look_tut1_title">Zama mafi kyawun kanki, mataki bayan mataki</string>
+    <string name="look_tut1_body">Gina sababbin ɗabi\'u, yi zaɓuka masu kyau, ki kalli duk abin da kika cimma yana taruwa.</string>
+    <string name="look_tut1_habits">Gina kyawawan ɗabi\'u kowace rana ki zama wadda kike son zama.</string>
+    <string name="look_tut1_swaps">Musanya kayayyaki da masu kyau, mafi alheri ga duniya, mutane ko lafiyarki.</string>
+    <string name="look_tut1_avoids">Ki bi diddigin kamfanoni, abinci da kayayyakin da ba kya so ki goyi baya.</string>
+    <string name="look_tut2_body">Taɓa akwati idan kin yi ɗabi\'a. Na yamma suna buɗewa a lokacin dubawarki.</string>
+    <string name="look_tut3_small">Za ki iya canza su biyun a Saituna.</string>
+    <string name="look_tut4_body">Ƙara sabon mataki ɗaya a lokaci guda yana sa ki girma sannu a hankali, ba tare da ɗaukar nauyi da yawa lokaci ɗaya ba.</string>
+    <string name="look_tut4_small">Za ki iya canza wannan a Saituna ma.</string>
+    <string name="look_tut5_title">Kowane wata 3, taƙaitawarki</string>
+    <string name="look_tut5_body">Raba nisan da kika yi tare da abokanki da mutanen da ke kusa da ke. Taɓa salon da kike so:</string>
+    <string name="look_tut_change_mind">Kullum za ki iya canza ra\'ayinki.</string>
+    <string name="look_tut6_title">Mai da shi naki</string>
+    <string name="look_tut6_body">Zaɓi launukan da suka fi miki daɗi. Duk manhajar za ta canza nan take.</string>
+    <string name="look_tut7_body">Lokutan dubawa, kwanakin gina ɗabi\'a, salon taƙaitawarki, launuka da bayananki duk suna cikin Saituna.</string>
+    <string name="lang_spotted">Kin ga kuskure a harshenki?</string>
+    <string name="lang_search">Nemi harshenki</string>
+    <string name="lang_follow">Bi wayarki</string>
+    <string name="lang_note_3">Idan kin ga kuskure a harshenki, don Allah ki sanar da ni don in gyara shi. Kuma idan kin daɗe kina amfani da Alice a harshenki kuma komai ya yi daidai, ki gaya mini haka ma, don in nuna cewa an amince da shi.</string>
+    <plurals name="core_nudge_text">
+        <item quantity="one">Mataki %d yana jiran ki.</item>
+        <item quantity="other">Matakai %d suna jiran ki.</item>
+    </plurals>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Za ki sake fuskantar wannan zaɓi, kamar kofin kofi ko sabulun shamfu. Ana yin alamarsa a Ɗabi\'u na kwana %1$d, sannan a duba shi kowane wata 3.</item>
+        <item quantity="other">Za ki sake fuskantar wannan zaɓi, kamar kofin kofi ko sabulun shamfu. Ana yin alamarsa a Ɗabi\'u na kwana %1$d, sannan a duba shi kowane wata 3.</item>
+    </plurals>
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">hanyar da kika inganta rayuwarki</item>
+        <item quantity="other">hanyoyin da kika inganta rayuwarki</item>
+    </plurals>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">Mako %1$d da ake bin ki, sabon mataki ɗaya ya isa duka.</item>
+        <item quantity="other">Makonni %1$d da ake bin ki, sabon mataki ɗaya ya isa duka.</item>
+    </plurals>
+</resources>

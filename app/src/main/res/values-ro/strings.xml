@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Prea obosit</string>
+    <string name="core_reason_craving">Poftă</string>
+    <string name="core_reason_no_time">Fără timp</string>
+    <string name="core_reason_forgot">Am uitat</string>
+    <string name="core_reason_no_alternative">Fără alternativă</string>
+    <string name="core_reason_social">Anturaj</string>
+    <string name="core_reason_impulse">Impuls</string>
+    <string name="core_reason_too_expensive">Prea scump</string>
+    <string name="core_reason_away">Plecat</string>
+
+    <string name="core_nudge_channel">Memento zilnic</string>
+    <string name="core_nudge_title">Mai ai de bifat azi</string>
+    <string name="core_save_failed">Nu s-a putut salva, încearcă din nou</string>
+
+    <string name="core_kind_habit">Obicei</string>
+    <string name="core_kind_swap">Înlocuire</string>
+    <string name="core_kind_avoid">Evită</string>
+    <string name="core_about">Despre %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Mai puțin</string>
+    <string name="core_more">Mai mult</string>
+    <string name="core_cancel">Anulează</string>
+    <string name="core_settings">Setări</string>
+    <string name="core_span_week">Săptămână</string>
+    <string name="core_span_month">Lună</string>
+    <string name="core_span_year">An</string>
+    <string name="core_span_all">Tot timpul</string>
+    <string name="core_tab_habits">Obiceiuri</string>
+    <string name="core_tab_changes">Schimbări</string>
+    <string name="core_tab_avoid">Evită</string>
+    <string name="core_tab_insights">Statistici</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">respectat</string>
+    <string name="core_cell_missed">ratat</string>
+    <string name="core_cell_partial">făcut parțial, %1$d până acum</string>
+    <string name="core_cell_unfilled">necompletat încă</string>
+    <string name="core_cell_open">de făcut</string>
+    <string name="core_cell_locked">blocat până la ora de check-in</string>
+    <string name="core_cell_future">încă nu</string>
+    <string name="core_cell_empty">nu e nevoie de nimic</string>
+    <string name="core_cell_band">gata pentru această perioadă</string>
+    <string name="core_cell_off">nu e zi pentru acest pas</string>
+    <string name="core_cell_none">înainte să înceapă acest pas</string>
+
+    <string name="core_rhythm_one_off">O singură dată</string>
+    <string name="core_rhythm_end_of_day">Zilnic, bifat seara</string>
+    <string name="core_rhythm_every_day">Zilnic</string>
+    <string name="core_rhythm_every_days">În fiecare %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">pe săptămână</string>
+    <string name="core_rhythm_a_month">pe lună</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, în orice zi</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s și %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d l.</string>
+    <string name="core_achievement_short_days">%1$d z</string>
+    <string name="core_glance_step">%1$s, %2$d din %3$d</string>
+
+    <string name="core_slip_never">Niciodată</string>
+    <string name="core_slip_once">O dată</string>
+    <string name="core_slip_a_few">De câteva ori</string>
+    <string name="core_slip_half">Jumătate</string>
+    <string name="core_slip_most">De cele mai multe ori</string>
+    <string name="core_slip_always">Mereu</string>
+
+    <string name="core_ideas_habit_anytime">Obiceiuri, oricând</string>
+    <string name="core_ideas_habit_end">Obiceiuri, seara</string>
+    <string name="core_ideas_swap">Înlocuiri</string>
+    <string name="core_ideas_avoid_product">Evită, produse</string>
+    <string name="core_ideas_avoid_company">Evită, companii</string>
+    <string name="core_ideas_avoid_food">Evită, mâncare</string>
+
+    <string name="core_tag_ethical">Etic</string>
+    <string name="core_tag_health">Sănătate</string>
+    <string name="core_tag_clutter">Dezordine</string>
+    <string name="core_tag_ecological">Ecologic</string>
+    <string name="core_tag_animal_welfare">Bunăstarea animalelor</string>
+    <string name="core_tag_workers_rights">Drepturile muncitorilor</string>
+    <string name="core_tag_plastic">Plastic</string>
+    <string name="core_tag_palm_oil">Ulei de palmier</string>
+    <string name="core_tag_deforestation">Defrișări</string>
+    <string name="core_category_company">Companie</string>
+    <string name="core_category_food">Mâncare</string>
+    <string name="core_category_product">Produs</string>
+    <string name="core_verdict_avoid">EVITĂ</string>
+    <string name="core_verdict_edge">LA LIMITĂ</string>
+    <string name="core_verdict_fine">E OK</string>
+
+    <string name="core_theme_off_white_honey">Alb-crem &amp; miere</string>
+    <string name="core_theme_vanilla_caramel">Vanilie &amp; caramel</string>
+    <string name="core_theme_sunflower">Floarea-soarelui</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Cacao &amp; lămâie</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; unt</string>
+    <string name="core_theme_midnight_honey">Miez de noapte &amp; miere</string>
+    <string name="core_theme_forest_night">Noapte în pădure</string>
+    <string name="core_theme_plum_dusk">Amurg de prune</string>
+    <string name="core_theme_charcoal_coral">Cărbune &amp; coral</string>
+
+    <string name="core_pic_sunny_meadow">Pajiște însorită</string>
+    <string name="core_pic_sunset_hills">Dealuri la apus</string>
+    <string name="core_pic_starry_night">Noapte înstelată</string>
+    <string name="core_pic_beach_day">Zi la plajă</string>
+    <string name="core_pic_mountain_lake">Lac de munte</string>
+    <string name="core_pic_snowy_village">Sat înzăpezit</string>
+    <string name="core_pic_rainy_garden">Grădină în ploaie</string>
+    <string name="core_pic_autumn_forest">Pădure de toamnă</string>
+    <string name="core_pic_cherry_blossom">Flori de cireș</string>
+    <string name="core_pic_desert_cactus">Cactus în deșert</string>
+    <string name="core_pic_lighthouse">Far</string>
+    <string name="core_pic_rainbow_field">Câmp cu curcubeu</string>
+    <string name="core_pic_hot_air_balloon">Balon cu aer cald</string>
+    <string name="core_pic_sailboat">Barcă cu pânze</string>
+    <string name="core_pic_cabin_in_the_woods">Cabană în pădure</string>
+    <string name="core_pic_tulip_field">Câmp de lalele</string>
+    <string name="core_pic_campfire_night">Seară la foc de tabără</string>
+    <string name="core_pic_misty_mountains">Munți în ceață</string>
+    <string name="core_pic_sunrise_sea">Răsărit pe mare</string>
+    <string name="core_pic_snowy_pines">Pini înzăpeziți</string>
+    <string name="core_pic_lavender_field">Câmp de lavandă</string>
+    <string name="core_pic_waterfall">Cascadă</string>
+    <string name="core_pic_city_at_dusk">Oraș la amurg</string>
+    <string name="core_pic_picnic">Picnic</string>
+    <string name="core_pic_moon_over_the_lake">Lună deasupra lacului</string>
+    <string name="core_pic_palm_island">Insulă cu palmieri</string>
+    <string name="core_pic_windmill">Moară de vânt</string>
+    <string name="core_pic_bike_path">Pistă de biciclete</string>
+    <string name="core_pic_greenhouse">Seră</string>
+    <string name="core_pic_northern_lights">Aurora boreală</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d pas te așteaptă.</item>
+        <item quantity="few">%d pași te așteaptă.</item>
+        <item quantity="other">%d de pași te așteaptă.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">respectat, %d dată</item>
+        <item quantity="few">respectat, de %d ori</item>
+        <item quantity="other">respectat, de %d de ori</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d dată pe zi</item>
+        <item quantity="few">De %d ori pe zi</item>
+        <item quantity="other">De %d de ori pe zi</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">O dată</item>
+        <item quantity="few">De %d ori</item>
+        <item quantity="other">De %d de ori</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">la fiecare %d săptămână</item>
+        <item quantity="few">la fiecare %d săptămâni</item>
+        <item quantity="other">la fiecare %d de săptămâni</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">la fiecare %d lună</item>
+        <item quantity="few">la fiecare %d luni</item>
+        <item quantity="other">la fiecare %d de luni</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">la fiecare %d zi</item>
+        <item quantity="few">la fiecare %d zile</item>
+        <item quantity="other">la fiecare %d de zile</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d lună fără nicio ratare</item>
+        <item quantity="few">%d luni fără nicio ratare</item>
+        <item quantity="other">%d de luni fără nicio ratare</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d lună la rând</item>
+        <item quantity="few">%d luni la rând</item>
+        <item quantity="other">%d de luni la rând</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d zi la rând</item>
+        <item quantity="few">%d zile la rând</item>
+        <item quantity="other">%d de zile la rând</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d lună</item>
+        <item quantity="few">%d luni</item>
+        <item quantity="other">%d de luni</item>
+    </plurals>
+
+    <string name="tabs_new_step">Pas nou</string>
+    <string name="tabs_edit">Editează</string>
+    <string name="tabs_delete">Șterge</string>
+    <string name="tabs_done">Gata</string>
+    <string name="tabs_back">Înapoi</string>
+    <string name="tabs_earlier">Mai devreme</string>
+    <string name="tabs_later">Mai târziu</string>
+    <string name="tabs_delete_title">Ștergi %1$s?</string>
+    <string name="tabs_eod_unlock">Obiceiurile de seară se deblochează la %1$02d:00</string>
+    <string name="tabs_check_up">Bilanț</string>
+    <string name="tabs_one_off">O singură dată</string>
+
+    <string name="tabs_checkin_from">Check-in de la %1$02d:00</string>
+    <string name="tabs_checkin_daily">Check-in zilnic</string>
+    <string name="tabs_checkin_weekly">Check-in săptămânal</string>
+    <string name="tabs_checkin_quarter">Bilanțul de 3 luni</string>
+    <string name="tabs_checked_in">Check-in făcut</string>
+    <string name="tabs_quarter_section">BILANȚUL DE 3 LUNI</string>
+    <string name="tabs_previous_week">Săptămâna trecută</string>
+    <string name="tabs_next_week">Săptămâna viitoare</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d zi de %2$s!</item>
+        <item quantity="few">%1$d zile de %2$s!</item>
+        <item quantity="other">%1$d de zile de %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Bravo. De acum trece la bilanțurile tale de 3 luni, fără să mai bifezi zilnic.</string>
+    <string name="tabs_celebrate_first">Primul e pe %1$s.</string>
+    <string name="tabs_glance_title">Săptămâna ta</string>
+    <string name="tabs_glance_ticks_kept">Bife respectate</string>
+    <string name="tabs_glance_days_checked_in">Zile cu check-in</string>
+    <string name="tabs_glance_top_tag">Motivul de abatere cel mai des:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d dată</item>
+        <item quantity="few">%1$s, de %2$d ori</item>
+        <item quantity="other">%1$s, de %2$d de ori</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Cel mai ușor:</string>
+    <string name="tabs_glance_hardest">Cel mai greu:</string>
+
+    <string name="tabs_changes_ongoing">Înlocuiri continue</string>
+    <string name="tabs_changes_ongoing_tip_title">Înlocuire continuă</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Vei da iar de aceeași alegere, ca o cană de cafea sau un șampon solid. Se bifează la Obiceiuri timp de %1$d zi, apoi se verifică la fiecare 3 luni.</item>
+        <item quantity="few">Vei da iar de aceeași alegere, ca o cană de cafea sau un șampon solid. Se bifează la Obiceiuri timp de %1$d zile, apoi se verifică la fiecare 3 luni.</item>
+        <item quantity="other">Vei da iar de aceeași alegere, ca o cană de cafea sau un șampon solid. Se bifează la Obiceiuri timp de %1$d de zile, apoi se verifică la fiecare 3 luni.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Încă nicio înlocuire</string>
+    <string name="tabs_changes_day_badge">ZIUA %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">SE PRINDE</string>
+    <string name="tabs_changes_one_off_todo">O singură dată, de făcut</string>
+    <string name="tabs_changes_one_off_tip">O faci o dată și gata, cum ar fi să faci ordine într-un sertar, să treci la energie verde sau să repari o geacă. Bifează și trece la Terminate.</string>
+    <string name="tabs_changes_nothing_waiting">Nimic în așteptare</string>
+    <string name="tabs_changes_finished">TERMINATE · %1$d</string>
+
+    <string name="tabs_avoid_title">Lista de evitat</string>
+    <string name="tabs_avoid_search">Caută…</string>
+    <string name="tabs_avoid_no_match">Nimic găsit</string>
+    <string name="tabs_avoid_companies">Companii</string>
+    <string name="tabs_avoid_food">Mâncare</string>
+    <string name="tabs_avoid_products">Produse</string>
+
+    <string name="tabs_avoid_added">Adăugat</string>
+    <string name="tabs_avoid_why">De ce eviți asta</string>
+    <string name="tabs_avoid_own_words">Cu cuvintele tale</string>
+    <string name="tabs_avoid_brands">Mărci deținute · %1$d</string>
+    <string name="tabs_avoid_brand_hint">O marcă pe rând</string>
+    <string name="tabs_avoid_more_brands">încă +%1$d</string>
+    <string name="tabs_avoid_instead">Alege mai bine asta</string>
+    <string name="tabs_avoid_instead_hint">Una pe rând</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">abatere</item>
+        <item quantity="few">abateri</item>
+        <item quantity="other">de abateri</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">evitat</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">lună pe listă</item>
+        <item quantity="few">luni pe listă</item>
+        <item quantity="other">de luni pe listă</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Dispare din Lista de evitat, împreună cu istoricul.</string>
+
+    <string name="tabs_habit_delete_text">Tot istoricul dispare odată cu el.</string>
+    <string name="tabs_habit_created">Creat</string>
+    <string name="tabs_habit_to_do">De făcut</string>
+    <string name="tabs_habit_daily_ticks">Bife zilnice</string>
+    <string name="tabs_habit_day_of">Ziua %1$d din %2$d</string>
+    <string name="tabs_habit_finished">Terminat</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">zi în desfășurare</item>
+        <item quantity="few">zile în desfășurare</item>
+        <item quantity="other">de zile în desfășurare</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">dată întrerupt</item>
+        <item quantity="few">ori întrerupt</item>
+        <item quantity="other">de ori întrerupt</item>
+    </plurals>
+    <string name="tabs_habit_success">reușită</string>
+    <string name="tabs_habit_current_streak">Serie curentă</string>
+    <string name="tabs_habit_longest_streak">Cea mai lungă serie</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d zi</item>
+        <item quantity="few">%1$d zile</item>
+        <item quantity="other">%1$d de zile</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">De ce a scăpat</string>
+    <string name="tabs_habit_remove_reason">Elimină acest motiv</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">fel în care ți-ai îmbunătățit viața</item>
+        <item quantity="few">feluri în care ți-ai îmbunătățit viața</item>
+        <item quantity="other">de feluri în care ți-ai îmbunătățit viața</item>
+    </plurals>
+    <string name="tabs_insights_habits">Obiceiuri</string>
+    <string name="tabs_insights_swaps">Înlocuiri</string>
+    <string name="tabs_insights_avoids">Evitări</string>
+    <string name="tabs_insights_on_track_section">Pe drumul cel bun</string>
+    <string name="tabs_insights_avg_days">%1$d z</string>
+    <string name="tabs_insights_average_kept">respectat în medie</string>
+    <string name="tabs_insights_days_checked_in">zile cu check-in</string>
+    <string name="tabs_insights_on_track">pe drumul cel bun</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">abatere</item>
+        <item quantity="few">abateri</item>
+        <item quantity="other">de abateri</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">pas nou</item>
+        <item quantity="few">pași noi</item>
+        <item quantity="other">de pași noi</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">pas unic făcut</item>
+        <item quantity="few">pași unici făcuți</item>
+        <item quantity="other">de pași unici făcuți</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Principalele motive de abatere</string>
+    <string name="tabs_insights_added_quarter">Adăugate în acest trimestru</string>
+    <string name="tabs_insights_past_summaries">Rezumate de 3 luni anterioare</string>
+    <string name="tabs_insights_first_on">Primul vine pe %1$s</string>
+    <string name="tabs_insights_all_time">Tot timpul</string>
+    <string name="tabs_insights_period">%1$s până în %2$s %3$d</string>
+
+    <string name="forms_back">Înapoi</string>
+    <string name="forms_back_habits">Obiceiuri</string>
+    <string name="forms_back_settings">Setări</string>
+    <string name="forms_add">Adaugă</string>
+    <string name="forms_save">Salvează</string>
+    <string name="forms_finish">Termină</string>
+    <string name="forms_delete">Șterge</string>
+    <string name="forms_why">De ce</string>
+    <string name="forms_never_show">Nu mai arăta</string>
+    <string name="forms_every">La fiecare</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">zi</item>
+        <item quantity="few">zile</item>
+        <item quantity="other">de zile</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Pasul %1$d din %2$d</string>
+    <string name="forms_checkin_next_weekly">Urmează check-in-ul săptămânal ›</string>
+    <string name="forms_checkin_next_quarter">Urmează bilanțul de 3 luni ›</string>
+    <string name="forms_daily_title">Check-in zilnic</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d zi anterioară necompletată</item>
+        <item quantity="few">%1$d zile anterioare necompletate</item>
+        <item quantity="other">%1$d de zile anterioare necompletate</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Sari peste toate</string>
+    <string name="forms_daily_today">Azi · %1$s</string>
+    <string name="forms_daily_skip">Sari peste</string>
+    <string name="forms_daily_undo_skip">Anulează</string>
+    <string name="forms_daily_new_tag">Motiv nou</string>
+    <string name="forms_daily_new_tag_hint">Coșul era plin</string>
+    <string name="forms_weekly_title">Check-in săptămânal</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d săptămână restantă, un singur pas nou le acoperă pe toate.</item>
+        <item quantity="few">%1$d săptămâni restante, un singur pas nou le acoperă pe toate.</item>
+        <item quantity="other">%1$d de săptămâni restante, un singur pas nou le acoperă pe toate.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Niciun pas nou săptămâna asta</string>
+    <string name="forms_quarter_title">Bilanțul de 3 luni</string>
+    <string name="forms_quarter_nothing">Încă nu ai nimic de verificat. Urmează rezumatul tău.</string>
+    <string name="forms_quarter_habits">Obiceiuri</string>
+    <string name="forms_quarter_swaps">Înlocuiri</string>
+    <string name="forms_quarter_avoid">Evită</string>
+    <string name="forms_quarter_missed">Ratat</string>
+    <string name="forms_quarter_missed_level">Ratat: %1$s</string>
+
+    <string name="forms_new_title">Pas nou</string>
+    <string name="forms_edit_title">Editează: %1$s</string>
+    <string name="forms_add_kind">Adaugă: %1$s</string>
+    <string name="forms_title_habit">Obicei</string>
+    <string name="forms_title_swap">Înlocuire</string>
+    <string name="forms_title_avoid">Evită</string>
+    <string name="forms_save_changes">Salvează modificările</string>
+    <string name="forms_what_kind">Ce fel?</string>
+    <string name="forms_name">Nume</string>
+    <string name="forms_your_new_step">Noul tău pas</string>
+    <string name="forms_hint_habit">Citește 10 pagini</string>
+    <string name="forms_hint_swap">Lufa în loc de burete</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Ce fel de obicei?</string>
+    <string name="forms_timing_tip_title">Oricând sau seara</string>
+    <string name="forms_timing_tip">Oricând: ceva ce faci o dată, cum ar fi o alergare. Bifează imediat ce e gata.\n\nSeara: o regulă pe care o respecți toată ziua, cum ar fi fără gustări. O poți bifa doar seara.</string>
+    <string name="forms_anytime">Oricând</string>
+    <string name="forms_end_of_day">Seara</string>
+    <string name="forms_what_is_it">Ce este?</string>
+    <string name="forms_how_often">Cât de des?</string>
+    <string name="forms_often_specific">Anumite zile</string>
+    <string name="forms_often_whenever">Când vrei</string>
+    <string name="forms_often_once">O singură dată</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">dată pe</item>
+        <item quantity="few">ori pe</item>
+        <item quantity="other">de ori pe</item>
+    </plurals>
+    <string name="forms_unit_day">zi</string>
+    <string name="forms_unit_week">săptămână</string>
+    <string name="forms_unit_month">lună</string>
+    <string name="forms_unit_x_days">X zile</string>
+    <string name="forms_ideas">Idei</string>
+    <string name="forms_ideas_others">Altele</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Vezi %1$d idee ›</item>
+        <item quantity="few">Vezi toate cele %1$d idei ›</item>
+        <item quantity="other">Vezi toate cele %1$d de idei ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Toate ideile de pași</string>
+    <string name="forms_search">Caută…</string>
+    <string name="forms_all">Toate</string>
+
+    <string name="forms_settings_title">Setări</string>
+    <string name="forms_set_colours">Culori</string>
+    <string name="forms_set_style">Stilul rezumatului de 3 luni</string>
+    <string name="forms_set_checkins">Check-in-uri</string>
+    <string name="forms_set_checkin_hour">Check-in-ul zilnic începe la</string>
+    <string name="forms_set_checkin_hour_tip">De la ora asta poți bifa obiceiurile de seară și poți face check-in-ul zilnic.</string>
+    <string name="forms_set_week_start">Săptămâna începe</string>
+    <string name="forms_set_week_start_tip">Ziua cu care încep grila de Obiceiuri, săptămânile și graficele.</string>
+    <string name="forms_monday">Luni</string>
+    <string name="forms_sunday">Duminică</string>
+    <string name="forms_set_new_step_every">Pas nou la fiecare</string>
+    <string name="forms_set_new_step_every_tip">Câte săptămâni sunt între check-in-urile săptămânale.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">săptămână</item>
+        <item quantity="few">săptămâni</item>
+        <item quantity="other">de săptămâni</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Ziua check-in-ului săptămânal</string>
+    <string name="forms_set_weekly_day_tip">În ziua asta, după check-in-ul zilnic, alegi pasul nou pentru săptămâna viitoare.</string>
+    <string name="forms_set_checkup">Bilanțul de 3 luni</string>
+    <string name="forms_set_checkup_tip">Toată lumea face bilanțul în aceleași zile: 1 ian., 1 apr., 1 iul. și 1 oct., ca să vă puteți împărtăși rezumatele împreună. Poți alege și o dată proprie.</string>
+    <string name="forms_set_same">La fel ca toți</string>
+    <string name="forms_set_own">Data mea</string>
+    <string name="forms_set_starting">Începând din</string>
+    <string name="forms_set_starting_tip">Luna primului tău bilanț propriu.</string>
+    <string name="forms_earlier">Mai devreme</string>
+    <string name="forms_later">Mai târziu</string>
+    <string name="forms_set_every_tip">Luni între bilanțuri.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">lună</item>
+        <item quantity="few">luni</item>
+        <item quantity="other">de luni</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Ziua din lună</string>
+    <string name="forms_set_day_of_month_tip">În ce zi a lunii respective.</string>
+    <string name="forms_set_everyone">Toți: 1 ian. · 1 apr. · 1 iul. · 1 oct.</string>
+    <string name="forms_set_days_build">Zile pentru formarea unui obicei</string>
+    <string name="forms_set_days_build_tip">Cercetările au găsit între 18 și 254 de zile, cel mai des citat fiind 66 (Lally et al. 2010, Singh et al. 2024). După atâtea zile, un pas nou trece la bilanțurile tale.</string>
+    <string name="forms_set_nudge">Memento zilnic</string>
+    <string name="forms_set_nudge_tip">Un memento la ora asta, doar dacă mai e ceva nebifat.</string>
+    <string name="forms_set_more">Mai multe</string>
+    <string name="forms_set_reasons">Motive de abatere</string>
+    <string name="forms_set_tutorial">Revezi tutorialul</string>
+    <string name="forms_set_export">Exportă datele mele</string>
+    <string name="forms_set_import">Importă date</string>
+
+    <string name="forms_reasons_title">Motive de abatere</string>
+    <string name="forms_reasons_hint">Adaugă un motiv propriu</string>
+    <string name="forms_reasons_used">folosit %1$d×</string>
+    <string name="forms_reasons_delete_title">Ștergi %1$s?</string>
+    <string name="forms_reasons_delete_text">Abaterile rămân în istoricul tău, doar fără acest motiv.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d obicei</item>
+        <item quantity="few">%1$d obiceiuri</item>
+        <item quantity="other">%1$d de obiceiuri</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d înlocuire</item>
+        <item quantity="few">%1$d înlocuiri</item>
+        <item quantity="other">%1$d de înlocuiri</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d evitare</item>
+        <item quantity="few">%1$d evitări</item>
+        <item quantity="other">%1$d de evitări</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, bife din %2$s</string>
+    <string name="forms_export_title">Exportă datele mele</string>
+    <string name="forms_export_what">Ce intră în fișier</string>
+    <string name="forms_export_ticks">Fiecare bifă, abatere și motiv</string>
+    <string name="forms_export_ticks_since">Fiecare bifă, abatere și motiv din %1$s</string>
+    <string name="forms_export_summaries">Rezumatele tale de 3 luni</string>
+    <string name="forms_export_settings">Setările, culorile și numele tău</string>
+    <string name="forms_export_file">Fișier</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Salvează fișierul</string>
+    <string name="forms_export_send">Trimite la…</string>
+    <string name="forms_export_send_title">Trimite datele tale Alice</string>
+    <string name="forms_export_saved">Salvat %1$s</string>
+    <string name="forms_export_save_failed">Fișierul nu a putut fi salvat</string>
+
+    <string name="forms_import_title">Importă date</string>
+    <string name="forms_import_choose">Alege o copie de rezervă Alice</string>
+    <string name="forms_import_choose_sub">.json, din Export pe alt telefon</string>
+    <string name="forms_import_cant_open">Fișierul nu a putut fi deschis.</string>
+    <string name="forms_import_not_backup">Fișierul nu e o copie de rezervă Alice.</string>
+    <string name="forms_import_replace_mode">Înlocuiește ce e aici</string>
+    <string name="forms_import_add_mode">Adaugă la ce e aici</string>
+    <string name="forms_import_button">Importă</string>
+    <string name="forms_import_replace_title">Îți înlocuiești datele?</string>
+    <string name="forms_import_add_title">Adaugi aceste date?</string>
+    <string name="forms_import_replace_text">Tot ce e pe acest telefon va fi înlocuit cu fișierul. Exportă mai întâi dacă vrei să păstrezi.</string>
+    <string name="forms_import_add_text">Obiceiurile și istoricul din fișier se adaugă la ale tale.</string>
+    <string name="forms_import_done">Date importate</string>
+
+    <string name="look_share">Distribuie</string>
+    <string name="look_save_image">Salvează imaginea</string>
+    <string name="look_next_week">Urmează săptămâna ta ›</string>
+    <string name="look_keep_going">Continuă</string>
+    <string name="look_storage_needed">Alice are nevoie de acces la stocare ca să salveze imaginea</string>
+    <string name="look_share_caption">Trimestrul meu cu Alice. Începe-l pe al tău: %1$s</string>
+    <string name="look_share_clip">Rezumat Alice</string>
+    <string name="look_share_chooser">Distribuie trimestrul tău</string>
+    <string name="look_saved">Salvat în Pictures/Alice</string>
+    <string name="look_save_failed">Imaginea nu a putut fi salvată</string>
+
+    <string name="look_style_poster">Afiș</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Vitrina cu trofee</string>
+    <string name="look_style_receipt">Bon</string>
+    <string name="look_style_report">Carnet de note</string>
+    <string name="look_style_boarding">Card de îmbarcare</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Calendar</string>
+    <string name="look_style_trading">Carte de colecție</string>
+
+    <string name="look_quote_1">Pași mici, în fiecare zi</string>
+    <string name="look_quote_2">Mulțumesc că ai fost aici</string>
+    <string name="look_quote_3">Progres, nu perfecțiune</string>
+    <string name="look_quote_4">Ai mers mai departe. Asta contează</string>
+    <string name="look_quote_5">Schimbări mici, diferență mare</string>
+    <string name="look_quote_6">În fiecare zi ai ales mai bine</string>
+    <string name="look_quote_7">Și încet tot înainte e</string>
+    <string name="look_quote_8">Îți construiești o viață care îți place</string>
+    <string name="look_quote_9">Pas cu pas se adună mult</string>
+    <string name="look_quote_10">Continuă să fii acolo pentru tine</string>
+    <string name="look_quote_11">Eul tău din viitor îți mulțumește</string>
+    <string name="look_quote_12">Puțin câte puțin, mult</string>
+    <string name="look_quote_13">Constanța e o magie tăcută</string>
+    <string name="look_quote_14">Uite cât de departe ai ajuns</string>
+    <string name="look_quote_15">Fii mândru de micile victorii</string>
+    <string name="look_quote_16">Zilele bune se construiesc, nu se găsesc</string>
+
+    <string name="look_stamp_1">EXCELENT</string>
+    <string name="look_stamp_2">REMARCABIL</string>
+    <string name="look_stamp_3">BRAVO</string>
+    <string name="look_stamp_4">STRĂLUCIT</string>
+    <string name="look_stamp_5">SUPERB</string>
+    <string name="look_stamp_6">NOTA MAXIMĂ</string>
+    <string name="look_stamp_7">STEA DE AUR</string>
+    <string name="look_stamp_8">TREABĂ BUNĂ</string>
+
+    <string name="look_period">%1$s până în %2$s</string>
+    <string name="look_scan">SCANEAZĂ CA SĂ\nÎNCEPI PROPRIA\nCĂLĂTORIE</string>
+    <string name="look_you">Tu</string>
+    <string name="look_on_track">pe drumul cel bun</string>
+    <string name="look_new_steps">pași noi</string>
+    <string name="look_days_in">zile bifate</string>
+    <string name="look_new">noi</string>
+    <string name="look_week_by_week">Săptămână cu săptămână</string>
+    <string name="look_coming_soon">În curând</string>
+    <string name="look_new_this_quarter">Nou în acest trimestru</string>
+    <string name="look_kept_up_longest">Ținute cel mai mult</string>
+    <string name="look_habits">Obiceiuri</string>
+    <string name="look_swaps">Înlocuiri</string>
+    <string name="look_avoids">Evitări</string>
+    <string name="look_ways_improved">Îmbunătățiri</string>
+    <string name="look_improved_in">Ți-ai îmbunătățit viața în %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d obicei</item>
+        <item quantity="few">%1$d obiceiuri</item>
+        <item quantity="other">%1$d de obiceiuri</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d înlocuire</item>
+        <item quantity="few">%1$d înlocuiri</item>
+        <item quantity="other">%1$d de înlocuiri</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d evitare</item>
+        <item quantity="few">%1$d evitări</item>
+        <item quantity="other">%1$d de evitări</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d abatere</item>
+        <item quantity="few">%1$d abateri</item>
+        <item quantity="other">%1$d de abateri</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d fel</item>
+        <item quantity="few">%1$d feluri</item>
+        <item quantity="other">%1$d de feluri</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">obicei</item>
+        <item quantity="few">obiceiuri</item>
+        <item quantity="other">de obiceiuri</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">înlocuire</item>
+        <item quantity="few">înlocuiri</item>
+        <item quantity="other">de înlocuiri</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">evitare</item>
+        <item quantity="few">evitări</item>
+        <item quantity="other">de evitări</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">abatere</item>
+        <item quantity="few">abateri</item>
+        <item quantity="other">de abateri</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">fel</item>
+        <item quantity="few">feluri</item>
+        <item quantity="other">de feluri</item>
+    </plurals>
+
+    <string name="look_poster_improved">Ți-ai îmbunătățit viața în %1$s</string>
+    <string name="look_poster_on_track">PE DRUMUL CEL BUN</string>
+    <string name="look_poster_days">zile</string>
+    <string name="look_poster_achievements">Realizări</string>
+    <string name="look_poster_first_ones">Primele sunt pe drum</string>
+    <string name="look_poster_added">Ce ai adăugat în acest trimestru</string>
+
+    <string name="look_wrapped_stars">Stelele tale</string>
+
+    <string name="look_trophy_ways">feluri în care ți-ai\nîmbunătățit viața</string>
+    <string name="look_trophy_next_quarter">Trimestrul viitor</string>
+    <string name="look_trophy_first_medal">prima ta medalie</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Nou pe raft:</string>
+
+    <string name="look_receipt_title">Bilanțul de 3 luni · %1$s</string>
+    <string name="look_receipt_customer">Client: %1$s</string>
+    <string name="look_receipt_habits">Obiceiuri formate</string>
+    <string name="look_receipt_swaps">Lucruri înlocuite</string>
+    <string name="look_receipt_avoids">Lucruri evitate</string>
+    <string name="look_receipt_ways">Feluri în care ți-ai îmbunătățit viața</string>
+    <string name="look_receipt_on_track">Pe drumul cel bun în acest trimestru</string>
+    <string name="look_receipt_slips">Abateri</string>
+    <string name="look_receipt_new_steps">Pași noi formați</string>
+    <string name="look_receipt_new">Nou în acest trimestru: %1$s</string>
+
+    <string name="look_report_title">Carnetul pașilor mici</string>
+    <string name="look_report_pupil">%1$s · Elev: %2$s</string>
+    <string name="look_report_subject">MATERIE</string>
+    <string name="look_report_built">FORMAT</string>
+    <string name="look_report_grade">NOTĂ</string>
+    <string name="look_report_attendance">Prezență %1$s</string>
+    <string name="look_report_on_track">Pe drumul cel bun %1$s</string>
+    <string name="look_report_slips">Abateri %1$s</string>
+    <string name="look_report_achievements">REALIZĂRI</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">MATERII NOI ÎN ACEST SEMESTRU (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Comentariul profesorului:</string>
+    <string name="look_report_calm">Un semestru calm și constant.</string>
+    <string name="look_report_ups_downs">Un semestru cu suișuri și coborâșuri, iar tu ai rămas pe drum.</string>
+    <string name="look_report_star">%1$s a fost remarcabil. Ține-o tot așa!</string>
+    <string name="look_report_keep_up">Ține-o tot așa!</string>
+    <string name="look_report_week">SĂPTĂMÂNĂ CU SĂPTĂMÂNĂ</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Zborul Q%1$d</string>
+    <string name="look_boarding_from">DE LA</string>
+    <string name="look_boarding_old">VECHI</string>
+    <string name="look_boarding_habits">obiceiuri</string>
+    <string name="look_boarding_to">LA</string>
+    <string name="look_boarding_new">NOU</string>
+    <string name="look_boarding_better_you">tu, mai bun</string>
+    <string name="look_boarding_passenger">Pasager</string>
+    <string name="look_boarding_dates">Date</string>
+    <string name="look_boarding_miles">Mile zburate</string>
+    <string name="look_boarding_on_time">La timp</string>
+    <string name="look_boarding_turbulence">Turbulențe</string>
+    <string name="look_boarding_days">Zile la bord</string>
+    <string name="look_boarding_flyer">CĂLĂTOR FRECVENT, CEI MAI VECHI TOVARĂȘI DE DRUM</string>
+    <string name="look_boarding_log">JURNAL DE ZBOR, SĂPTĂMÂNĂ CU SĂPTĂMÂNĂ</string>
+    <string name="look_boarding_stops">ESCALE NOI, +%1$d</string>
+    <string name="look_boarding_note">NOTA CĂPITANULUI</string>
+
+    <string name="look_polaroid_life">VIAȚA TA</string>
+    <string name="look_polaroid_quarter">ÎN ACEST TRIMESTRU</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d zile bifate</string>
+    <string name="look_polaroid_longest">ȚINUTE CEL MAI MULT</string>
+    <string name="look_polaroid_new">NOI, +%1$d</string>
+
+    <string name="look_calendar_added">Adăugat</string>
+
+    <string name="look_trading_common">Comună</string>
+    <string name="look_trading_uncommon">Neobișnuită</string>
+    <string name="look_trading_rare">Rară</string>
+    <string name="look_trading_legendary">Legendară</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">FEL</item>
+        <item quantity="few">FELURI</item>
+        <item quantity="other">DE FELURI</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d</string>
+    <string name="look_ordinal_nd">%1$d</string>
+    <string name="look_ordinal_rd">%1$d</string>
+    <string name="look_ordinal_th">%1$d</string>
+    <string name="look_trading_number">Nr. %1$03d · trimestrul tău nr. %2$s</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d zile</string>
+    <string name="look_trading_power">Putere, săptămână cu săptămână</string>
+    <string name="look_trading_edition">%1$s · ediția Q%2$d</string>
+
+    <string name="look_sample_water_first">Întâi apă</string>
+    <string name="look_sample_own_bag">Sacoșa proprie</string>
+    <string name="look_sample_read_pages">Citește 10 pagini</string>
+    <string name="look_sample_reading">Citit zilnic</string>
+    <string name="look_sample_late_snacks">Fără gustări târzii</string>
+    <string name="look_sample_stretching">Stretching</string>
+    <string name="look_sample_cooler_home">Casă mai răcoroasă</string>
+    <string name="look_sample_loofah">Lufa în loc de burete</string>
+    <string name="look_sample_palm_oil">Fără ulei de palmier</string>
+    <string name="look_sample_stretch">Stretching 10 min</string>
+
+    <string name="look_colours_title">Culori</string>
+    <string name="look_colours_preview">Previzualizare</string>
+    <string name="look_colours_your_summary">Rezumatul tău de 3 luni</string>
+    <string name="look_colours_light">Luminos</string>
+    <string name="look_colours_dark">Întunecat</string>
+    <string name="look_styles_title">Stilul rezumatului de 3 luni</string>
+    <string name="look_styles_all_pictures">Vezi toate cele 30 de poze Polaroid</string>
+    <string name="look_styles_refresh">Reîmprospătează</string>
+    <string name="look_pictures_title">Poze Polaroid</string>
+    <string name="look_pictures_back">Stiluri de rezumat</string>
+
+    <string name="look_welcome_name">Numele tău</string>
+    <string name="look_welcome_start">Începe</string>
+    <string name="look_welcome_import">Importă datele mele</string>
+
+    <string name="look_tut_skip">Sari peste</string>
+    <string name="look_tut_page">%1$d DIN %2$d</string>
+    <string name="look_tut_back">Înapoi</string>
+    <string name="look_tut_start">Începe</string>
+    <string name="look_tut_next">Înainte</string>
+    <string name="look_tut1_title">Devino o versiune mai bună a ta, pas cu pas</string>
+    <string name="look_tut1_body">Formează obiceiuri noi, fă alegeri mai blânde și privește cum tot ce reușești se adună.</string>
+    <string name="look_tut1_habits">Formează obiceiuri bune zi de zi și devino cine vrei să fii.</string>
+    <string name="look_tut1_swaps">Înlocuiește produse cu altele mai blânde, mai bune pentru planetă, pentru oameni sau pentru sănătatea ta.</string>
+    <string name="look_tut1_avoids">Ține evidența companiilor, mâncărurilor și produselor pe care ai prefera să nu le susții.</string>
+    <string name="look_tut2_title">Bifează</string>
+    <string name="look_tut2_body">Atinge un pătrat când ai făcut un obicei. Cele de seară se deblochează la ora ta de check-in.</string>
+    <string name="look_tut3_title">%1$s, apoi la fiecare %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d zi</item>
+        <item quantity="few">%1$d zile</item>
+        <item quantity="other">%1$d de zile</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d lună</item>
+        <item quantity="few">%1$d l.</item>
+        <item quantity="other">%1$d de luni</item>
+    </plurals>
+    <string name="look_tut3_body">Studiile au arătat că formarea unui obicei durează între 18 și 254 de zile. Cifra cea mai des citată e 66 de zile, așa că de acolo pornește Alice.</string>
+    <string name="look_tut3_days_label">Zile pentru formarea unui obicei</string>
+    <string name="look_tut3_checkup">Bilanț la fiecare</string>
+    <string name="look_tut3_small">Le poți schimba pe amândouă în Setări.</string>
+    <string name="look_tut4_title">O dată pe săptămână, un pas nou</string>
+    <string name="look_tut4_body">Adăugând câte un pas nou pe rând, crești încet, fără să-ți iei prea multe deodată.</string>
+    <string name="look_tut4_day">Ziua de check-in</string>
+    <string name="look_tut4_small">Și asta o poți schimba în Setări.</string>
+    <string name="look_tut5_title">În fiecare trimestru, rezumatul tău</string>
+    <string name="look_tut5_body">Arată-le prietenilor și celor apropiați cât de departe ai ajuns. Atinge stilul care îți place:</string>
+    <string name="look_tut_change_mind">Te poți răzgândi oricând.</string>
+    <string name="look_tut6_title">Fă-o a ta</string>
+    <string name="look_tut6_body">Alege culorile în care te simți cel mai bine. Toată aplicația se schimbă pe loc.</string>
+    <string name="look_tut7_title">Schimbă orice, oricând</string>
+    <string name="look_tut7_body">Orele de check-in, zilele pentru formarea unui obicei, stilul rezumatului, culorile și datele tale sunt toate în Setări.</string>
+    <string name="look_tut7_gear">Atinge rotița din partea de sus a ecranului Obiceiuri ca să deschizi Setările.</string>
+    <string name="look_tut7_open">Deschide Setările</string>
+
+    <string name="lang_title">Limbă</string>
+    <string name="pron_title">Pronume</string>
+    <string name="pron_she">ea</string>
+    <string name="pron_he">el</string>
+    <string name="pron_they">neutru</string>
+    <string name="lang_spotted">Ai găsit o greșeală în limba ta?</string>
+    <string name="lang_search">Caută limba ta</string>
+    <string name="lang_phone">Limba telefonului</string>
+    <string name="lang_follow">Ca pe telefon</string>
+    <string name="lang_note_title">Ajutor cu traducerile</string>
+    <string name="lang_note_1">Bună, sunt Lucy și am creat Alice.</string>
+    <string name="lang_note_2">Vorbesc engleză, slovacă, cehă și rusă, așa că am verificat singură acele traduceri. Celelalte limbi nu au fost încă verificate de un vorbitor nativ.</string>
+    <string name="lang_note_3">Dacă găsești o greșeală în limba ta, te rog să-mi spui, ca s-o pot corecta. Și dacă folosești Alice în limba ta de ceva vreme și totul sună bine, spune-mi și asta, ca s-o pot marca drept aprobată.</string>
+    <string name="lang_note_4">Mulțumesc!</string>
+    <string name="lang_not_approved">ÎNCĂ NEAPROBATĂ</string>
+    <string name="lang_report">Raportează o greșeală</string>
+    <string name="lang_all_correct">Limba mea e corectă</string>
+    <string name="lang_mail_mistake_body">Ce sună greșit și pe ce ecran:\n\n</string>
+    <string name="lang_mail_correct_body">Folosesc Alice în limba mea de ceva vreme și totul sună bine.\n\n</string>
+    <string name="lang_no_mail">Nu s-a găsit nicio aplicație de e-mail</string>
+</resources>

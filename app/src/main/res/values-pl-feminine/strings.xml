@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android 14+ picks these when the user chose she/her pronouns -->
+<resources>
+    <string name="look_improved_in">Poprawiłaś swoje życie na %1$s</string>
+    <string name="look_poster_improved">Poprawiłaś swoje życie na %1$s</string>
+    <string name="look_quote_4">Nie Poddałaś Się. To Się Liczy</string>
+    <string name="look_quote_6">Każdego Dnia Wybierałaś Lepiej</string>
+    <string name="look_report_ups_downs">Semestr ze wzlotami i upadkami, a ty wytrwałaś.</string>
+</resources>

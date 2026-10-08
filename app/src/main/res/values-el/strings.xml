@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Κούραση</string>
+    <string name="core_reason_craving">Λιγούρα</string>
+    <string name="core_reason_no_time">Δεν είχα χρόνο</string>
+    <string name="core_reason_forgot">Το ξέχασα</string>
+    <string name="core_reason_no_alternative">Καμία εναλλακτική</string>
+    <string name="core_reason_social">Παρέα</string>
+    <string name="core_reason_impulse">Παρόρμηση</string>
+    <string name="core_reason_too_expensive">Πολύ ακριβό</string>
+    <string name="core_reason_away">Εκτός σπιτιού</string>
+
+    <string name="core_nudge_channel">Καθημερινή υπενθύμιση</string>
+    <string name="core_nudge_title">Έχεις ακόμα να τσεκάρεις σήμερα</string>
+    <string name="core_save_failed">Δεν αποθηκεύτηκε, δοκίμασε ξανά</string>
+
+    <string name="core_kind_habit">Συνήθεια</string>
+    <string name="core_kind_swap">Αντικατάσταση</string>
+    <string name="core_kind_avoid">Αποφυγή</string>
+    <string name="core_about">Σχετικά με %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Λιγότερα</string>
+    <string name="core_more">Περισσότερα</string>
+    <string name="core_cancel">Ακύρωση</string>
+    <string name="core_settings">Ρυθμίσεις</string>
+    <string name="core_span_week">Εβδομάδα</string>
+    <string name="core_span_month">Μήνας</string>
+    <string name="core_span_year">Έτος</string>
+    <string name="core_span_all">Από την αρχή</string>
+    <string name="core_tab_habits">Συνήθειες</string>
+    <string name="core_tab_changes">Αλλαγές</string>
+    <string name="core_tab_avoid">Αποφυγή</string>
+    <string name="core_tab_insights">Στατιστικά</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">έγινε</string>
+    <string name="core_cell_missed">χάθηκε</string>
+    <string name="core_cell_partial">έγινε εν μέρει, %1$d μέχρι τώρα</string>
+    <string name="core_cell_unfilled">δεν έχει συμπληρωθεί ακόμα</string>
+    <string name="core_cell_open">για να γίνει</string>
+    <string name="core_cell_locked">κλειδωμένο μέχρι την ώρα του ελέγχου</string>
+    <string name="core_cell_future">όχι ακόμα</string>
+    <string name="core_cell_empty">δεν χρειάζεται τίποτα</string>
+    <string name="core_cell_band">έγινε για αυτή την περίοδο</string>
+    <string name="core_cell_off">δεν είναι μέρα για αυτό το βήμα</string>
+    <string name="core_cell_none">πριν ξεκινήσει αυτό το βήμα</string>
+
+    <string name="core_rhythm_one_off">Μία φορά</string>
+    <string name="core_rhythm_end_of_day">Κάθε μέρα, τσεκάρεται στο τέλος της μέρας</string>
+    <string name="core_rhythm_every_day">Κάθε μέρα</string>
+    <string name="core_rhythm_every_days">Κάθε %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">την εβδομάδα</string>
+    <string name="core_rhythm_a_month">τον μήνα</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, οποιαδήποτε μέρα</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s και %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d μήν.</string>
+    <string name="core_achievement_short_days">%1$d ημ.</string>
+    <string name="core_glance_step">%1$s, %2$d από %3$d</string>
+
+    <string name="core_slip_never">Ποτέ</string>
+    <string name="core_slip_once">Μία φορά</string>
+    <string name="core_slip_a_few">Λίγες</string>
+    <string name="core_slip_half">Τις μισές</string>
+    <string name="core_slip_most">Τις περισσότερες</string>
+    <string name="core_slip_always">Πάντα</string>
+
+    <string name="core_ideas_habit_anytime">Συνήθειες, οποτεδήποτε</string>
+    <string name="core_ideas_habit_end">Συνήθειες, τέλος της μέρας</string>
+    <string name="core_ideas_swap">Αντικαταστάσεις</string>
+    <string name="core_ideas_avoid_product">Αποφυγή, προϊόντα</string>
+    <string name="core_ideas_avoid_company">Αποφυγή, εταιρείες</string>
+    <string name="core_ideas_avoid_food">Αποφυγή, τρόφιμα</string>
+
+    <string name="core_tag_ethical">Ηθική</string>
+    <string name="core_tag_health">Υγεία</string>
+    <string name="core_tag_clutter">Ακαταστασία</string>
+    <string name="core_tag_ecological">Οικολογία</string>
+    <string name="core_tag_animal_welfare">Ευζωία ζώων</string>
+    <string name="core_tag_workers_rights">Δικαιώματα εργαζομένων</string>
+    <string name="core_tag_plastic">Πλαστικό</string>
+    <string name="core_tag_palm_oil">Φοινικέλαιο</string>
+    <string name="core_tag_deforestation">Αποψίλωση δασών</string>
+    <string name="core_category_company">Εταιρεία</string>
+    <string name="core_category_food">Τρόφιμο</string>
+    <string name="core_category_product">Προϊόν</string>
+    <string name="core_verdict_avoid">ΑΠΟΦΥΓΗ</string>
+    <string name="core_verdict_edge">ΣΤΟ ΟΡΙΟ</string>
+    <string name="core_verdict_fine">ΕΝΤΑΞΕΙ</string>
+
+    <string name="core_theme_off_white_honey">Υπόλευκο &amp; μέλι</string>
+    <string name="core_theme_vanilla_caramel">Βανίλια &amp; καραμέλα</string>
+    <string name="core_theme_sunflower">Ηλιοτρόπιο</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Κακάο &amp; λεμόνι</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; βούτυρο</string>
+    <string name="core_theme_midnight_honey">Μεσάνυχτα &amp; μέλι</string>
+    <string name="core_theme_forest_night">Νύχτα στο δάσος</string>
+    <string name="core_theme_plum_dusk">Δαμασκηνί σούρουπο</string>
+    <string name="core_theme_charcoal_coral">Ανθρακί &amp; κοραλλί</string>
+
+    <string name="core_pic_sunny_meadow">Ηλιόλουστο λιβάδι</string>
+    <string name="core_pic_sunset_hills">Λόφοι στο ηλιοβασίλεμα</string>
+    <string name="core_pic_starry_night">Έναστρη νύχτα</string>
+    <string name="core_pic_beach_day">Μέρα στην παραλία</string>
+    <string name="core_pic_mountain_lake">Ορεινή λίμνη</string>
+    <string name="core_pic_snowy_village">Χιονισμένο χωριό</string>
+    <string name="core_pic_rainy_garden">Βροχερός κήπος</string>
+    <string name="core_pic_autumn_forest">Φθινοπωρινό δάσος</string>
+    <string name="core_pic_cherry_blossom">Ανθισμένη κερασιά</string>
+    <string name="core_pic_desert_cactus">Κάκτος στην έρημο</string>
+    <string name="core_pic_lighthouse">Φάρος</string>
+    <string name="core_pic_rainbow_field">Χωράφι με ουράνιο τόξο</string>
+    <string name="core_pic_hot_air_balloon">Αερόστατο</string>
+    <string name="core_pic_sailboat">Ιστιοφόρο</string>
+    <string name="core_pic_cabin_in_the_woods">Καλύβα στο δάσος</string>
+    <string name="core_pic_tulip_field">Χωράφι με τουλίπες</string>
+    <string name="core_pic_campfire_night">Νύχτα με φωτιά</string>
+    <string name="core_pic_misty_mountains">Ομιχλώδη βουνά</string>
+    <string name="core_pic_sunrise_sea">Θάλασσα στην ανατολή</string>
+    <string name="core_pic_snowy_pines">Χιονισμένα πεύκα</string>
+    <string name="core_pic_lavender_field">Χωράφι με λεβάντα</string>
+    <string name="core_pic_waterfall">Καταρράκτης</string>
+    <string name="core_pic_city_at_dusk">Πόλη το σούρουπο</string>
+    <string name="core_pic_picnic">Πικνίκ</string>
+    <string name="core_pic_moon_over_the_lake">Φεγγάρι πάνω από τη λίμνη</string>
+    <string name="core_pic_palm_island">Νησί με φοίνικες</string>
+    <string name="core_pic_windmill">Ανεμόμυλος</string>
+    <string name="core_pic_bike_path">Ποδηλατόδρομος</string>
+    <string name="core_pic_greenhouse">Θερμοκήπιο</string>
+    <string name="core_pic_northern_lights">Βόρειο σέλας</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d βήμα σε περιμένει.</item>
+        <item quantity="other">%d βήματα σε περιμένουν.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">έγινε, %d φορά</item>
+        <item quantity="other">έγινε, %d φορές</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d φορά τη μέρα</item>
+        <item quantity="other">%d φορές τη μέρα</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">%d φορά</item>
+        <item quantity="other">%d φορές</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">κάθε %d εβδομάδα</item>
+        <item quantity="other">κάθε %d εβδομάδες</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">κάθε %d μήνα</item>
+        <item quantity="other">κάθε %d μήνες</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">κάθε %d μέρα</item>
+        <item quantity="other">κάθε %d μέρες</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d μήνας, χωρίς καμία παράλειψη</item>
+        <item quantity="other">%d μήνες, χωρίς καμία παράλειψη</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d μήνας σταθερά</item>
+        <item quantity="other">%d μήνες σταθερά</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d μέρα στη σειρά</item>
+        <item quantity="other">%d μέρες στη σειρά</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d μήνας</item>
+        <item quantity="other">%d μήνες</item>
+    </plurals>
+
+    <string name="tabs_new_step">Νέο βήμα</string>
+    <string name="tabs_edit">Επεξεργασία</string>
+    <string name="tabs_delete">Διαγραφή</string>
+    <string name="tabs_done">Έτοιμο</string>
+    <string name="tabs_back">Πίσω</string>
+    <string name="tabs_earlier">Νωρίτερα</string>
+    <string name="tabs_later">Αργότερα</string>
+    <string name="tabs_delete_title">Διαγραφή: %1$s;</string>
+    <string name="tabs_eod_unlock">Οι συνήθειες τέλους της μέρας ξεκλειδώνουν στις %1$02d:00</string>
+    <string name="tabs_check_up">Απολογισμός</string>
+    <string name="tabs_one_off">Μία φορά</string>
+
+    <string name="tabs_checkin_from">Έλεγχος από τις %1$02d:00</string>
+    <string name="tabs_checkin_daily">Ημερήσιος έλεγχος</string>
+    <string name="tabs_checkin_weekly">Εβδομαδιαίος έλεγχος</string>
+    <string name="tabs_checkin_quarter">Τριμηνιαίος απολογισμός</string>
+    <string name="tabs_checked_in">Ολοκληρώθηκε</string>
+    <string name="tabs_quarter_section">ΤΡΙΜΗΝΙΑΙΟΣ ΑΠΟΛΟΓΙΣΜΟΣ</string>
+    <string name="tabs_previous_week">Προηγούμενη εβδομάδα</string>
+    <string name="tabs_next_week">Επόμενη εβδομάδα</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d μέρα: %2$s!</item>
+        <item quantity="other">%1$d μέρες: %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Μπράβο. Περνάει τώρα στους τριμηνιαίους απολογισμούς σου, τέλος το καθημερινό τσεκάρισμα.</string>
+    <string name="tabs_celebrate_first">Ο πρώτος είναι στις %1$s.</string>
+    <string name="tabs_glance_title">Η εβδομάδα σου</string>
+    <string name="tabs_glance_ticks_kept">Τσεκ που κράτησες</string>
+    <string name="tabs_glance_days_checked_in">Μέρες με έλεγχο</string>
+    <string name="tabs_glance_top_tag">Συχνότερη αιτία στραβοπατήματος:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d φορά</item>
+        <item quantity="other">%1$s, %2$d φορές</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Πιο εύκολο:</string>
+    <string name="tabs_glance_hardest">Πιο δύσκολο:</string>
+
+    <string name="tabs_changes_ongoing">Συνεχείς αντικαταστάσεις</string>
+    <string name="tabs_changes_ongoing_tip_title">Συνεχής αντικατάσταση</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Θα βρεθείς ξανά μπροστά στην ίδια επιλογή, όπως ένα κύπελλο καφέ ή ένα στερεό σαμπουάν. Τσεκάρεται στις Συνήθειες για %1$d μέρα και μετά ελέγχεται κάθε 3 μήνες.</item>
+        <item quantity="other">Θα βρεθείς ξανά μπροστά στην ίδια επιλογή, όπως ένα κύπελλο καφέ ή ένα στερεό σαμπουάν. Τσεκάρεται στις Συνήθειες για %1$d μέρες και μετά ελέγχεται κάθε 3 μήνες.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Καμία αντικατάσταση ακόμα</string>
+    <string name="tabs_changes_day_badge">ΜΕΡΑ %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">ΚΡΑΤΑΕΙ</string>
+    <string name="tabs_changes_one_off_todo">Μία φορά, για να γίνει</string>
+    <string name="tabs_changes_one_off_tip">Το κάνεις μία φορά και τελείωσε, όπως να αδειάσεις ένα συρτάρι, να περάσεις σε πράσινο τιμολόγιο ρεύματος ή να επιδιορθώσεις ένα μπουφάν. Τσέκαρέ το και πάει στα Ολοκληρωμένα.</string>
+    <string name="tabs_changes_nothing_waiting">Τίποτα σε αναμονή</string>
+    <string name="tabs_changes_finished">ΟΛΟΚΛΗΡΩΜΕΝΑ · %1$d</string>
+
+    <string name="tabs_avoid_title">Λίστα αποφυγής</string>
+    <string name="tabs_avoid_search">Αναζήτηση…</string>
+    <string name="tabs_avoid_no_match">Δεν βρέθηκε τίποτα</string>
+    <string name="tabs_avoid_companies">Εταιρείες</string>
+    <string name="tabs_avoid_food">Τρόφιμα</string>
+    <string name="tabs_avoid_products">Προϊόντα</string>
+
+    <string name="tabs_avoid_added">Προστέθηκε</string>
+    <string name="tabs_avoid_why">Γιατί το αποφεύγεις</string>
+    <string name="tabs_avoid_own_words">Με δικά σου λόγια</string>
+    <string name="tabs_avoid_brands">Μάρκες που κατέχει · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Μία μάρκα ανά γραμμή</string>
+    <string name="tabs_avoid_more_brands">+%1$d ακόμα</string>
+    <string name="tabs_avoid_instead">Πάρε αυτό στη θέση του</string>
+    <string name="tabs_avoid_instead_hint">Ένα ανά γραμμή</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">στραβοπάτημα</item>
+        <item quantity="other">στραβοπατήματα</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">αποφεύχθηκε</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">μήνας στη λίστα</item>
+        <item quantity="other">μήνες στη λίστα</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Φεύγει από τη λίστα αποφυγής μαζί με το ιστορικό του.</string>
+
+    <string name="tabs_habit_delete_text">Φεύγει μαζί και όλο το ιστορικό της.</string>
+    <string name="tabs_habit_created">Δημιουργήθηκε</string>
+    <string name="tabs_habit_to_do">Για να γίνει</string>
+    <string name="tabs_habit_daily_ticks">Καθημερινά τσεκ</string>
+    <string name="tabs_habit_day_of">Μέρα %1$d από %2$d</string>
+    <string name="tabs_habit_finished">Ολοκληρώθηκε</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">μέρα συνεχόμενα</item>
+        <item quantity="other">μέρες συνεχόμενα</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">φορά διακοπή</item>
+        <item quantity="other">φορές διακοπή</item>
+    </plurals>
+    <string name="tabs_habit_success">επιτυχία</string>
+    <string name="tabs_habit_current_streak">Τρέχον σερί</string>
+    <string name="tabs_habit_longest_streak">Μεγαλύτερο σερί</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d μέρα</item>
+        <item quantity="other">%1$d μέρες</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Γιατί στραβοπάτησες</string>
+    <string name="tabs_habit_remove_reason">Αφαίρεση αυτής της αιτίας</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">τρόπος που βελτίωσες τη ζωή σου</item>
+        <item quantity="other">τρόποι που βελτίωσες τη ζωή σου</item>
+    </plurals>
+    <string name="tabs_insights_habits">Συνήθειες</string>
+    <string name="tabs_insights_swaps">Αντικαταστάσεις</string>
+    <string name="tabs_insights_avoids">Αποφυγές</string>
+    <string name="tabs_insights_on_track_section">Σε καλό δρόμο</string>
+    <string name="tabs_insights_avg_days">%1$d ημ.</string>
+    <string name="tabs_insights_average_kept">κατά μέσο όρο</string>
+    <string name="tabs_insights_days_checked_in">μέρες με έλεγχο</string>
+    <string name="tabs_insights_on_track">σε καλό δρόμο</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">στραβοπάτημα</item>
+        <item quantity="other">στραβοπατήματα</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">νέο βήμα</item>
+        <item quantity="other">νέα βήματα</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">εφάπαξ ολοκληρώθηκε</item>
+        <item quantity="other">εφάπαξ ολοκληρώθηκαν</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Οι συχνότερες αιτίες</string>
+    <string name="tabs_insights_added_quarter">Προστέθηκαν αυτό το τρίμηνο</string>
+    <string name="tabs_insights_past_summaries">Παλιές τριμηνιαίες συνόψεις</string>
+    <string name="tabs_insights_first_on">Η πρώτη σου έρχεται στις %1$s</string>
+    <string name="tabs_insights_all_time">Από την αρχή</string>
+    <string name="tabs_insights_period">%1$s έως %2$s %3$d</string>
+
+    <string name="forms_back">Πίσω</string>
+    <string name="forms_back_habits">Συνήθειες</string>
+    <string name="forms_back_settings">Ρυθμίσεις</string>
+    <string name="forms_add">Προσθήκη</string>
+    <string name="forms_save">Αποθήκευση</string>
+    <string name="forms_finish">Τέλος</string>
+    <string name="forms_delete">Διαγραφή</string>
+    <string name="forms_why">Γιατί</string>
+    <string name="forms_never_show">Να μην ξαναεμφανιστεί</string>
+    <string name="forms_every">Κάθε</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">μέρα</item>
+        <item quantity="other">μέρες</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Βήμα %1$d από %2$d</string>
+    <string name="forms_checkin_next_weekly">Επόμενο, εβδομαδιαίος έλεγχος ›</string>
+    <string name="forms_checkin_next_quarter">Επόμενο, τριμηνιαίος απολογισμός ›</string>
+    <string name="forms_daily_title">Ημερήσιος έλεγχος</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d προηγούμενη μέρα δεν έχει συμπληρωθεί</item>
+        <item quantity="other">%1$d προηγούμενες μέρες δεν έχουν συμπληρωθεί</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Παράλειψη όλων</string>
+    <string name="forms_daily_today">Σήμερα · %1$s</string>
+    <string name="forms_daily_skip">Παράλειψη</string>
+    <string name="forms_daily_undo_skip">Αναίρεση παράλειψης</string>
+    <string name="forms_daily_new_tag">Νέα ετικέτα</string>
+    <string name="forms_daily_new_tag_hint">Ο κάδος ήταν γεμάτος</string>
+    <string name="forms_weekly_title">Εβδομαδιαίος έλεγχος</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d εβδομάδα σε εκκρεμότητα, ένα νέο βήμα τις καλύπτει όλες.</item>
+        <item quantity="other">%1$d εβδομάδες σε εκκρεμότητα, ένα νέο βήμα τις καλύπτει όλες.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Κανένα νέο βήμα αυτή την εβδομάδα</string>
+    <string name="forms_quarter_title">Τριμηνιαίος απολογισμός</string>
+    <string name="forms_quarter_nothing">Δεν έχεις χτίσει ακόμα κάτι για απολογισμό. Ακολουθεί η σύνοψή σου.</string>
+    <string name="forms_quarter_habits">Συνήθειες</string>
+    <string name="forms_quarter_swaps">Αντικαταστάσεις</string>
+    <string name="forms_quarter_avoid">Αποφυγή</string>
+    <string name="forms_quarter_missed">Χάθηκαν</string>
+    <string name="forms_quarter_missed_level">Χάθηκαν: %1$s</string>
+
+    <string name="forms_new_title">Νέο βήμα</string>
+    <string name="forms_edit_title">Επεξεργασία: %1$s</string>
+    <string name="forms_add_kind">Προσθήκη: %1$s</string>
+    <string name="forms_title_habit">Συνήθεια</string>
+    <string name="forms_title_swap">Αντικατάσταση</string>
+    <string name="forms_title_avoid">Αποφυγή</string>
+    <string name="forms_save_changes">Αποθήκευση αλλαγών</string>
+    <string name="forms_what_kind">Τι είδους;</string>
+    <string name="forms_name">Όνομα</string>
+    <string name="forms_your_new_step">Το νέο σου βήμα</string>
+    <string name="forms_hint_habit">Διάβασε 10 σελίδες</string>
+    <string name="forms_hint_swap">Λούφα αντί για σφουγγάρι</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Τι είδους συνήθεια;</string>
+    <string name="forms_timing_tip_title">Οποτεδήποτε ή στο τέλος της μέρας</string>
+    <string name="forms_timing_tip">Οποτεδήποτε: κάτι που κάνεις μία φορά, όπως ένα τρέξιμο. Τσέκαρέ το μόλις γίνει.\n\nΤέλος της μέρας: ένας κανόνας που τηρείς όλη μέρα, όπως όχι σνακ. Μπορείς να το τσεκάρεις μόνο το βράδυ.</string>
+    <string name="forms_anytime">Οποτεδήποτε</string>
+    <string name="forms_end_of_day">Τέλος της μέρας</string>
+    <string name="forms_what_is_it">Τι είναι;</string>
+    <string name="forms_how_often">Πόσο συχνά;</string>
+    <string name="forms_often_specific">Συγκεκριμένες μέρες</string>
+    <string name="forms_often_whenever">Οποτεδήποτε</string>
+    <string name="forms_often_once">Μόνο μία φορά</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">φορά κάθε</item>
+        <item quantity="other">φορές κάθε</item>
+    </plurals>
+    <string name="forms_unit_day">μέρα</string>
+    <string name="forms_unit_week">εβδομάδα</string>
+    <string name="forms_unit_month">μήνα</string>
+    <string name="forms_unit_x_days">Χ μέρες</string>
+    <string name="forms_ideas">Ιδέες</string>
+    <string name="forms_ideas_others">Άλλες</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Δες την %1$d ιδέα ›</item>
+        <item quantity="other">Δες όλες τις %1$d ιδέες ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Όλες οι ιδέες για βήματα</string>
+    <string name="forms_search">Αναζήτηση…</string>
+    <string name="forms_all">Όλα</string>
+
+    <string name="forms_settings_title">Ρυθμίσεις</string>
+    <string name="forms_set_colours">Χρώματα</string>
+    <string name="forms_set_style">Στυλ τριμηνιαίας σύνοψης</string>
+    <string name="forms_set_checkins">Έλεγχοι</string>
+    <string name="forms_set_checkin_hour">Ο ημερήσιος έλεγχος ανοίγει στις</string>
+    <string name="forms_set_checkin_hour_tip">Από αυτή την ώρα μπορείς να τσεκάρεις τις συνήθειες τέλους της μέρας και να κάνεις τον ημερήσιο έλεγχο.</string>
+    <string name="forms_set_week_start">Η εβδομάδα ξεκινά</string>
+    <string name="forms_set_week_start_tip">Από ποια μέρα ξεκινούν ο πίνακας συνηθειών, οι εβδομάδες και τα γραφήματα.</string>
+    <string name="forms_monday">Δευτέρα</string>
+    <string name="forms_sunday">Κυριακή</string>
+    <string name="forms_set_new_step_every">Νέο βήμα κάθε</string>
+    <string name="forms_set_new_step_every_tip">Πόσες εβδομάδες ανάμεσα στους εβδομαδιαίους ελέγχους.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">εβδομάδα</item>
+        <item quantity="other">εβδομάδες</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Μέρα εβδομαδιαίου ελέγχου</string>
+    <string name="forms_set_weekly_day_tip">Αυτή τη μέρα, μετά τον ημερήσιο έλεγχο, διαλέγεις το νέο βήμα της επόμενης εβδομάδας.</string>
+    <string name="forms_set_checkup">Τριμηνιαίος απολογισμός</string>
+    <string name="forms_set_checkup_tip">Όλοι κάνουν απολογισμό τις ίδιες μέρες: 1 Ιαν, 1 Απρ, 1 Ιουλ και 1 Οκτ, ώστε να μοιράζεστε τις συνόψεις σας μαζί. Μπορείς όμως να διαλέξεις δική σου ημερομηνία.</string>
+    <string name="forms_set_same">Όπως όλοι</string>
+    <string name="forms_set_own">Δική μου ημερομηνία</string>
+    <string name="forms_set_starting">Ξεκινά</string>
+    <string name="forms_set_starting_tip">Ο μήνας του πρώτου δικού σου απολογισμού.</string>
+    <string name="forms_earlier">Νωρίτερα</string>
+    <string name="forms_later">Αργότερα</string>
+    <string name="forms_set_every_tip">Μήνες ανάμεσα στους απολογισμούς.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">μήνα</item>
+        <item quantity="other">μήνες</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Μέρα του μήνα</string>
+    <string name="forms_set_day_of_month_tip">Ποια μέρα εκείνου του μήνα.</string>
+    <string name="forms_set_everyone">Όλοι: 1 Ιαν · 1 Απρ · 1 Ιουλ · 1 Οκτ</string>
+    <string name="forms_set_days_build">Μέρες για να χτιστεί μια συνήθεια</string>
+    <string name="forms_set_days_build_tip">Οι έρευνες βρήκαν από 18 έως 254 μέρες, με πιο συχνά αναφερόμενο το 66 (Lally et al. 2010, Singh et al. 2024). Μετά από τόσες μέρες ένα νέο βήμα περνά στους απολογισμούς σου.</string>
+    <string name="forms_set_nudge">Καθημερινή υπενθύμιση</string>
+    <string name="forms_set_nudge_tip">Μια υπενθύμιση αυτή την ώρα, μόνο αν κάτι δεν έχει τσεκαριστεί.</string>
+    <string name="forms_set_more">Περισσότερα</string>
+    <string name="forms_set_reasons">Αιτίες στραβοπατήματος</string>
+    <string name="forms_set_tutorial">Ξανά ο οδηγός</string>
+    <string name="forms_set_export">Εξαγωγή των δεδομένων μου</string>
+    <string name="forms_set_import">Εισαγωγή δεδομένων</string>
+
+    <string name="forms_reasons_title">Αιτίες στραβοπατήματος</string>
+    <string name="forms_reasons_hint">Πρόσθεσε δική σου αιτία</string>
+    <string name="forms_reasons_used">χρησιμοποιήθηκε %1$d×</string>
+    <string name="forms_reasons_delete_title">Διαγραφή: %1$s;</string>
+    <string name="forms_reasons_delete_text">Τα στραβοπατήματα μένουν στο ιστορικό σου, απλώς χωρίς αυτή την ετικέτα.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d συνήθεια</item>
+        <item quantity="other">%1$d συνήθειες</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d αντικατάσταση</item>
+        <item quantity="other">%1$d αντικαταστάσεις</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d αποφυγή</item>
+        <item quantity="other">%1$d αποφυγές</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, τσεκ από %2$s</string>
+    <string name="forms_export_title">Εξαγωγή των δεδομένων μου</string>
+    <string name="forms_export_what">Τι μπαίνει στο αρχείο</string>
+    <string name="forms_export_ticks">Κάθε τσεκ, στραβοπάτημα και αιτία</string>
+    <string name="forms_export_ticks_since">Κάθε τσεκ, στραβοπάτημα και αιτία από %1$s</string>
+    <string name="forms_export_summaries">Οι τριμηνιαίες συνόψεις σου</string>
+    <string name="forms_export_settings">Οι ρυθμίσεις, τα χρώματα και το όνομά σου</string>
+    <string name="forms_export_file">Αρχείο</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Αποθήκευση αρχείου</string>
+    <string name="forms_export_send">Αποστολή σε…</string>
+    <string name="forms_export_send_title">Στείλε τα δεδομένα σου από την Alice</string>
+    <string name="forms_export_saved">Αποθηκεύτηκε: %1$s</string>
+    <string name="forms_export_save_failed">Το αρχείο δεν αποθηκεύτηκε</string>
+
+    <string name="forms_import_title">Εισαγωγή δεδομένων</string>
+    <string name="forms_import_choose">Διάλεξε ένα αντίγραφο ασφαλείας της Alice</string>
+    <string name="forms_import_choose_sub">.json, από Εξαγωγή σε άλλο τηλέφωνο</string>
+    <string name="forms_import_cant_open">Δεν ήταν δυνατό να ανοίξει αυτό το αρχείο.</string>
+    <string name="forms_import_not_backup">Αυτό το αρχείο δεν είναι αντίγραφο ασφαλείας της Alice.</string>
+    <string name="forms_import_replace_mode">Αντικατάσταση όσων υπάρχουν</string>
+    <string name="forms_import_add_mode">Προσθήκη σε όσα υπάρχουν</string>
+    <string name="forms_import_button">Εισαγωγή</string>
+    <string name="forms_import_replace_title">Αντικατάσταση των δεδομένων σου;</string>
+    <string name="forms_import_add_title">Προσθήκη αυτών των δεδομένων;</string>
+    <string name="forms_import_replace_text">Όλα σε αυτό το τηλέφωνο αντικαθίστανται με το αρχείο. Κάνε πρώτα εξαγωγή αν θέλεις να τα κρατήσεις.</string>
+    <string name="forms_import_add_text">Οι συνήθειες και το ιστορικό του αρχείου προστίθενται στα δικά σου.</string>
+    <string name="forms_import_done">Τα δεδομένα εισήχθησαν</string>
+
+    <string name="look_share">Κοινοποίηση</string>
+    <string name="look_save_image">Αποθήκευση εικόνας</string>
+    <string name="look_next_week">Επόμενο, η εβδομάδα σου ›</string>
+    <string name="look_keep_going">Συνέχισε</string>
+    <string name="look_storage_needed">Η Alice χρειάζεται πρόσβαση στον χώρο αποθήκευσης για να αποθηκεύσει την εικόνα</string>
+    <string name="look_share_caption">Το τρίμηνό μου με την Alice. Ξεκίνα κι εσύ: %1$s</string>
+    <string name="look_share_clip">Σύνοψη Alice</string>
+    <string name="look_share_chooser">Μοιράσου το τρίμηνό σου</string>
+    <string name="look_saved">Αποθηκεύτηκε στο Pictures/Alice</string>
+    <string name="look_save_failed">Η εικόνα δεν αποθηκεύτηκε</string>
+
+    <string name="look_style_poster">Αφίσα</string>
+    <string name="look_style_wrapped">Ανασκόπηση</string>
+    <string name="look_style_trophy">Βιτρίνα τροπαίων</string>
+    <string name="look_style_receipt">Απόδειξη</string>
+    <string name="look_style_report">Έλεγχος προόδου</string>
+    <string name="look_style_boarding">Κάρτα επιβίβασης</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Ημερολόγιο</string>
+    <string name="look_style_trading">Συλλεκτική κάρτα</string>
+
+    <string name="look_quote_1">Μικρά Βήματα, Κάθε Μέρα</string>
+    <string name="look_quote_2">Ευχαριστώ Που Ήσουν Εδώ</string>
+    <string name="look_quote_3">Πρόοδος, Όχι Τελειότητα</string>
+    <string name="look_quote_4">Συνέχισες. Αυτό Μετράει</string>
+    <string name="look_quote_5">Μικρές Αλλαγές, Μεγάλη Διαφορά</string>
+    <string name="look_quote_6">Κάθε Μέρα Διάλεγες Το Καλύτερο</string>
+    <string name="look_quote_7">Αργά, Αλλά Μπροστά</string>
+    <string name="look_quote_8">Χτίζεις Μια Ζωή Που Σου Αρέσει</string>
+    <string name="look_quote_9">Βήμα Βήμα, Όλα Μετράνε</string>
+    <string name="look_quote_10">Συνέχισε Να Είσαι Εκεί Για Σένα</string>
+    <string name="look_quote_11">Ο Μελλοντικός Σου Εαυτός Σε Ευχαριστεί</string>
+    <string name="look_quote_12">Λίγο Λίγο, Πολλά</string>
+    <string name="look_quote_13">Η Συνέπεια Είναι Ήσυχη Μαγεία</string>
+    <string name="look_quote_14">Δες Πόσο Μακριά Έφτασες</string>
+    <string name="look_quote_15">Γιόρτασε Τις Μικρές Νίκες</string>
+    <string name="look_quote_16">Οι Καλές Μέρες Χτίζονται, Δεν Βρίσκονται</string>
+
+    <string name="look_stamp_1">ΑΡΙΣΤΑ</string>
+    <string name="look_stamp_2">ΕΞΑΙΡΕΤΙΚΑ</string>
+    <string name="look_stamp_3">ΜΠΡΑΒΟ</string>
+    <string name="look_stamp_4">ΕΚΠΛΗΚΤΙΚΑ</string>
+    <string name="look_stamp_5">ΥΠΕΡΟΧΑ</string>
+    <string name="look_stamp_6">ΔΕΚΑ ΜΕ ΤΟΝΟ</string>
+    <string name="look_stamp_7">ΧΡΥΣΟ ΑΣΤΕΡΙ</string>
+    <string name="look_stamp_8">ΤΕΛΕΙΑ ΔΟΥΛΕΙΑ</string>
+
+    <string name="look_period">%1$s έως %2$s</string>
+    <string name="look_scan">ΣΚΑΝΑΡΕ ΓΙΑ ΝΑ\nΞΕΚΙΝΗΣΕΙΣ ΤΟ\nΔΙΚΟ ΣΟΥ ΤΑΞΙΔΙ</string>
+    <string name="look_you">Εσύ</string>
+    <string name="look_on_track">σε καλό δρόμο</string>
+    <string name="look_new_steps">νέα βήματα</string>
+    <string name="look_days_in">μέρες</string>
+    <string name="look_new">νέα</string>
+    <string name="look_week_by_week">Εβδομάδα με εβδομάδα</string>
+    <string name="look_coming_soon">Έρχεται σύντομα</string>
+    <string name="look_new_this_quarter">Νέα αυτό το τρίμηνο</string>
+    <string name="look_kept_up_longest">Κράτησαν περισσότερο</string>
+    <string name="look_habits">Συνήθειες</string>
+    <string name="look_swaps">Αντικαταστάσεις</string>
+    <string name="look_avoids">Αποφυγές</string>
+    <string name="look_ways_improved">Τρόποι βελτίωσης</string>
+    <string name="look_improved_in">Βελτίωσες τη ζωή σου με %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d συνήθεια</item>
+        <item quantity="other">%1$d συνήθειες</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d αντικατάσταση</item>
+        <item quantity="other">%1$d αντικαταστάσεις</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d αποφυγή</item>
+        <item quantity="other">%1$d αποφυγές</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d στραβοπάτημα</item>
+        <item quantity="other">%1$d στραβοπατήματα</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d τρόπο</item>
+        <item quantity="other">%1$d τρόπους</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">συνήθεια</item>
+        <item quantity="other">συνήθειες</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">αντικατάσταση</item>
+        <item quantity="other">αντικαταστάσεις</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">αποφυγή</item>
+        <item quantity="other">αποφυγές</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">στραβοπάτημα</item>
+        <item quantity="other">στραβοπατήματα</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">τρόπος</item>
+        <item quantity="other">τρόποι</item>
+    </plurals>
+
+    <string name="look_poster_improved">Βελτίωσες τη ζωή σου με %1$s</string>
+    <string name="look_poster_on_track">ΣΕ ΚΑΛΟ ΔΡΟΜΟ</string>
+    <string name="look_poster_days">μέρες</string>
+    <string name="look_poster_achievements">Επιτεύγματα</string>
+    <string name="look_poster_first_ones">Τα πρώτα σου έρχονται</string>
+    <string name="look_poster_added">Τι πρόσθεσες αυτό το τρίμηνο</string>
+
+    <string name="look_wrapped_stars">Τα αστέρια σου</string>
+
+    <string name="look_trophy_ways">τρόποι που βελτίωσες\nτη ζωή σου</string>
+    <string name="look_trophy_next_quarter">Επόμενο τρίμηνο</string>
+    <string name="look_trophy_first_medal">το πρώτο σου μετάλλιο</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Νέα στο ράφι:</string>
+
+    <string name="look_receipt_title">Τριμηνιαίος απολογισμός · %1$s</string>
+    <string name="look_receipt_customer">Πελάτης: %1$s</string>
+    <string name="look_receipt_habits">Συνήθειες που χτίστηκαν</string>
+    <string name="look_receipt_swaps">Πράγματα που άλλαξαν</string>
+    <string name="look_receipt_avoids">Πράγματα που αποφεύχθηκαν</string>
+    <string name="look_receipt_ways">Τρόποι που βελτίωσες τη ζωή σου</string>
+    <string name="look_receipt_on_track">Σε καλό δρόμο αυτό το τρίμηνο</string>
+    <string name="look_receipt_slips">Στραβοπατήματα</string>
+    <string name="look_receipt_new_steps">Νέα βήματα που χτίστηκαν</string>
+    <string name="look_receipt_new">Νέα αυτό το τρίμηνο: %1$s</string>
+
+    <string name="look_report_title">Έλεγχος Μικρών Βημάτων</string>
+    <string name="look_report_pupil">%1$s · Μαθητής: %2$s</string>
+    <string name="look_report_subject">ΜΑΘΗΜΑ</string>
+    <string name="look_report_built">ΧΤΙΣΤΗΚΕ</string>
+    <string name="look_report_grade">ΒΑΘΜΟΣ</string>
+    <string name="look_report_attendance">Παρουσίες %1$s</string>
+    <string name="look_report_on_track">Σε καλό δρόμο %1$s</string>
+    <string name="look_report_slips">Στραβοπατήματα %1$s</string>
+    <string name="look_report_achievements">ΕΠΙΤΕΥΓΜΑΤΑ</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">ΝΕΑ ΜΑΘΗΜΑΤΑ ΑΥΤΟ ΤΟ ΤΡΙΜΗΝΟ (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Σχόλιο δασκάλου:</string>
+    <string name="look_report_calm">Ένα ήρεμο, σταθερό τρίμηνο.</string>
+    <string name="look_report_ups_downs">Ένα τρίμηνο με σκαμπανεβάσματα, κι εσύ δεν τα παράτησες.</string>
+    <string name="look_report_star">%1$s: εξαιρετική δουλειά. Συνέχισε έτσι!</string>
+    <string name="look_report_keep_up">Συνέχισε έτσι!</string>
+    <string name="look_report_week">ΕΒΔΟΜΑΔΑ ΜΕ ΕΒΔΟΜΑΔΑ</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Πτήση Q%1$d</string>
+    <string name="look_boarding_from">ΑΠΟ</string>
+    <string name="look_boarding_old">ΠΑΛΙΕΣ</string>
+    <string name="look_boarding_habits">συνήθειες</string>
+    <string name="look_boarding_to">ΠΡΟΣ</string>
+    <string name="look_boarding_new">ΝΕΟΣ</string>
+    <string name="look_boarding_better_you">καλύτερος εαυτός</string>
+    <string name="look_boarding_passenger">Επιβάτης</string>
+    <string name="look_boarding_dates">Ημερομηνίες</string>
+    <string name="look_boarding_miles">Μίλια πτήσης</string>
+    <string name="look_boarding_on_time">Στην ώρα</string>
+    <string name="look_boarding_turbulence">Αναταράξεις</string>
+    <string name="look_boarding_days">Μέρες στο αεροπλάνο</string>
+    <string name="look_boarding_flyer">ΣΥΧΝΟΣ ΤΑΞΙΔΙΩΤΗΣ, ΟΙ ΠΙΟ ΜΑΚΡΟΧΡΟΝΙΟΙ ΣΥΝΤΑΞΙΔΙΩΤΕΣ ΣΟΥ</string>
+    <string name="look_boarding_log">ΗΜΕΡΟΛΟΓΙΟ ΠΤΗΣΗΣ, ΕΒΔΟΜΑΔΑ ΜΕ ΕΒΔΟΜΑΔΑ</string>
+    <string name="look_boarding_stops">ΝΕΟΙ ΣΤΑΘΜΟΙ, +%1$d</string>
+    <string name="look_boarding_note">ΣΗΜΕΙΩΜΑ ΚΥΒΕΡΝΗΤΗ</string>
+
+    <string name="look_polaroid_life">Η ΖΩΗ ΣΟΥ</string>
+    <string name="look_polaroid_quarter">ΑΥΤΟ ΤΟ ΤΡΙΜΗΝΟ</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d μέρες</string>
+    <string name="look_polaroid_longest">ΚΡΑΤΗΣΑΝ ΠΕΡΙΣΣΟΤΕΡΟ</string>
+    <string name="look_polaroid_new">ΝΕΑ, +%1$d</string>
+
+    <string name="look_calendar_added">Προστέθηκαν</string>
+
+    <string name="look_trading_common">Κοινή</string>
+    <string name="look_trading_uncommon">Ασυνήθιστη</string>
+    <string name="look_trading_rare">Σπάνια</string>
+    <string name="look_trading_legendary">Θρυλική</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">ΤΡΟΠΟΣ</item>
+        <item quantity="other">ΤΡΟΠΟΙ</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$dο</string>
+    <string name="look_ordinal_nd">%1$dο</string>
+    <string name="look_ordinal_rd">%1$dο</string>
+    <string name="look_ordinal_th">%1$dο</string>
+    <string name="look_trading_number">Αρ. %1$03d · το %2$s τρίμηνό σου</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d μέρες</string>
+    <string name="look_trading_power">Δύναμη, εβδομάδα με εβδομάδα</string>
+    <string name="look_trading_edition">%1$s · έκδοση Q%2$d</string>
+
+    <string name="look_sample_water_first">Πρώτα νερό</string>
+    <string name="look_sample_own_bag">Δική μου τσάντα</string>
+    <string name="look_sample_read_pages">Διάβασε 10 σελίδες</string>
+    <string name="look_sample_reading">Διάβασμα κάθε μέρα</string>
+    <string name="look_sample_late_snacks">Όχι βραδινά σνακ</string>
+    <string name="look_sample_stretching">Διατάσεις</string>
+    <string name="look_sample_cooler_home">Πιο δροσερό σπίτι</string>
+    <string name="look_sample_loofah">Λούφα αντί για σφουγγάρι</string>
+    <string name="look_sample_palm_oil">Χωρίς φοινικέλαιο</string>
+    <string name="look_sample_stretch">Διατάσεις 10 λεπτά</string>
+
+    <string name="look_colours_title">Χρώματα</string>
+    <string name="look_colours_preview">Προεπισκόπηση</string>
+    <string name="look_colours_your_summary">Η τριμηνιαία σύνοψή σου</string>
+    <string name="look_colours_light">Ανοιχτό</string>
+    <string name="look_colours_dark">Σκούρο</string>
+    <string name="look_styles_title">Στυλ τριμηνιαίας σύνοψης</string>
+    <string name="look_styles_all_pictures">Δες και τις 30 εικόνες Polaroid</string>
+    <string name="look_styles_refresh">Ανανέωση</string>
+    <string name="look_pictures_title">Εικόνες Polaroid</string>
+    <string name="look_pictures_back">Στυλ σύνοψης</string>
+
+    <string name="look_welcome_name">Το όνομά σου</string>
+    <string name="look_welcome_start">Ξεκίνα</string>
+    <string name="look_welcome_import">Εισαγωγή των δεδομένων μου</string>
+
+    <string name="look_tut_skip">Παράλειψη</string>
+    <string name="look_tut_page">%1$d ΑΠΟ %2$d</string>
+    <string name="look_tut_back">Πίσω</string>
+    <string name="look_tut_start">Ξεκίνα</string>
+    <string name="look_tut_next">Επόμενο</string>
+    <string name="look_tut1_title">Γίνε καλύτερη εκδοχή του εαυτού σου, βήμα βήμα</string>
+    <string name="look_tut1_body">Χτίσε νέες συνήθειες, κάνε πιο καλές επιλογές και δες όσα πετυχαίνεις να μαζεύονται.</string>
+    <string name="look_tut1_habits">Χτίσε καλές συνήθειες μέρα με τη μέρα και γίνε αυτό που θέλεις.</string>
+    <string name="look_tut1_swaps">Άλλαξε προϊόντα με πιο καλά, για τον πλανήτη, τους ανθρώπους ή την υγεία σου.</string>
+    <string name="look_tut1_avoids">Κράτα λίστα με τις εταιρείες, τα τρόφιμα και τα προϊόντα που δεν θέλεις να στηρίζεις.</string>
+    <string name="look_tut2_title">Τσέκαρέ το</string>
+    <string name="look_tut2_body">Πάτα ένα τετράγωνο όταν κάνεις μια συνήθεια. Οι βραδινές ξεκλειδώνουν την ώρα του ελέγχου σου.</string>
+    <string name="look_tut3_title">%1$s, μετά κάθε %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d μέρα</item>
+        <item quantity="other">%1$d μέρες</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d μήνα</item>
+        <item quantity="other">%1$d μήνες</item>
+    </plurals>
+    <string name="look_tut3_body">Έρευνες βρήκαν ότι μια συνήθεια θέλει από 18 έως 254 μέρες για να χτιστεί. Ο πιο γνωστός αριθμός είναι οι 66 μέρες, γι\' αυτό η Alice ξεκινά από εκεί.</string>
+    <string name="look_tut3_days_label">Μέρες για να χτιστεί μια συνήθεια</string>
+    <string name="look_tut3_checkup">Απολογισμός κάθε</string>
+    <string name="look_tut3_small">Μπορείς να αλλάξεις και τα δύο στις Ρυθμίσεις.</string>
+    <string name="look_tut4_title">Μία φορά την εβδομάδα, ένα νέο βήμα</string>
+    <string name="look_tut4_body">Ένα νέο βήμα τη φορά σε βοηθά να μεγαλώνεις σιγά σιγά, χωρίς να φορτώνεσαι πολλά μαζί.</string>
+    <string name="look_tut4_day">Μέρα ελέγχου</string>
+    <string name="look_tut4_small">Κι αυτό αλλάζει στις Ρυθμίσεις.</string>
+    <string name="look_tut5_title">Κάθε τρίμηνο, η σύνοψή σου</string>
+    <string name="look_tut5_body">Μοιράσου πόσο μακριά έφτασες με φίλους και αγαπημένους. Πάτα την εμφάνιση που σου αρέσει:</string>
+    <string name="look_tut_change_mind">Μπορείς πάντα να αλλάξεις γνώμη.</string>
+    <string name="look_tut6_title">Κάν\' το δικό σου</string>
+    <string name="look_tut6_body">Διάλεξε τα χρώματα που σε βολεύουν περισσότερο. Όλη η εφαρμογή αλλάζει αμέσως.</string>
+    <string name="look_tut7_title">Άλλαξε ό,τι θες, όποτε θες</string>
+    <string name="look_tut7_body">Ώρες ελέγχου, μέρες για μια συνήθεια, στυλ σύνοψης, χρώματα και τα δεδομένα σου, όλα βρίσκονται στις Ρυθμίσεις.</string>
+    <string name="look_tut7_gear">Πάτα το γρανάζι πάνω στις Συνήθειες για να ανοίξεις τις Ρυθμίσεις.</string>
+    <string name="look_tut7_open">Άνοιγμα ρυθμίσεων</string>
+
+    <string name="lang_title">Γλώσσα</string>
+    <string name="pron_title">Αντωνυμίες</string>
+    <string name="pron_she">αυτή</string>
+    <string name="pron_he">αυτός</string>
+    <string name="pron_they">ουδέτερο</string>
+    <string name="lang_spotted">Βρήκες λάθος στη γλώσσα σου;</string>
+    <string name="lang_search">Αναζήτησε τη γλώσσα σου</string>
+    <string name="lang_phone">Γλώσσα τηλεφώνου</string>
+    <string name="lang_follow">Όπως το τηλέφωνό σου</string>
+    <string name="lang_note_title">Βοήθεια με τις μεταφράσεις</string>
+    <string name="lang_note_1">Γεια, είμαι η Lucy και έφτιαξα την Alice.</string>
+    <string name="lang_note_2">Μιλάω αγγλικά, σλοβακικά, τσεχικά και ρωσικά, οπότε αυτές τις μεταφράσεις τις έλεγξα μόνη μου. Οι άλλες γλώσσες δεν έχουν ελεγχθεί ακόμα από φυσικό ομιλητή.</string>
+    <string name="lang_note_3">Αν βρεις λάθος στη γλώσσα σου, πες μου για να το διορθώσω. Κι αν χρησιμοποιείς την Alice στη γλώσσα σου εδώ και καιρό και όλα διαβάζονται σωστά, πες μου κι αυτό, για να τη σημειώσω ως εγκεκριμένη.</string>
+    <string name="lang_note_4">Ευχαριστώ!</string>
+    <string name="lang_not_approved">ΔΕΝ ΕΧΕΙ ΕΓΚΡΙΘΕΙ ΑΚΟΜΑ</string>
+    <string name="lang_report">Αναφορά λάθους</string>
+    <string name="lang_all_correct">Η γλώσσα μου είναι σωστή</string>
+    <string name="lang_mail_mistake_body">Τι δεν διαβάζεται σωστά και σε ποια οθόνη:\n\n</string>
+    <string name="lang_mail_correct_body">Χρησιμοποιώ την Alice στη γλώσσα μου εδώ και καιρό και όλα διαβάζονται σωστά.\n\n</string>
+    <string name="lang_no_mail">Δεν βρέθηκε εφαρμογή email</string>
+</resources>

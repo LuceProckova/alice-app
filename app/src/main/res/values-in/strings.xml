@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Terlalu capek</string>
+    <string name="core_reason_craving">Lagi pengin</string>
+    <string name="core_reason_no_time">Nggak ada waktu</string>
+    <string name="core_reason_forgot">Lupa</string>
+    <string name="core_reason_no_alternative">Nggak ada pilihan lain</string>
+    <string name="core_reason_social">Acara sosial</string>
+    <string name="core_reason_impulse">Impulsif</string>
+    <string name="core_reason_too_expensive">Terlalu mahal</string>
+    <string name="core_reason_away">Lagi pergi</string>
+
+    <string name="core_nudge_channel">Pengingat harian</string>
+    <string name="core_nudge_title">Masih ada yang belum dicentang hari ini</string>
+    <string name="core_save_failed">Gagal menyimpan, coba lagi ya</string>
+
+    <string name="core_kind_habit">Kebiasaan</string>
+    <string name="core_kind_swap">Ganti</string>
+    <string name="core_kind_avoid">Hindari</string>
+    <string name="core_about">Tentang %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Ringkas</string>
+    <string name="core_more">Lainnya</string>
+    <string name="core_cancel">Batal</string>
+    <string name="core_settings">Setelan</string>
+    <string name="core_span_week">Minggu</string>
+    <string name="core_span_month">Bulan</string>
+    <string name="core_span_year">Tahun</string>
+    <string name="core_span_all">Semua</string>
+    <string name="core_tab_habits">Kebiasaan</string>
+    <string name="core_tab_changes">Perubahan</string>
+    <string name="core_tab_avoid">Hindari</string>
+    <string name="core_tab_insights">Wawasan</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">dijalani</string>
+    <string name="core_cell_missed">terlewat</string>
+    <string name="core_cell_partial">sebagian, sejauh ini %1$d</string>
+    <string name="core_cell_unfilled">belum diisi</string>
+    <string name="core_cell_open">belum dikerjakan</string>
+    <string name="core_cell_locked">terkunci sampai jam check-in</string>
+    <string name="core_cell_future">belum waktunya</string>
+    <string name="core_cell_empty">tidak perlu apa-apa</string>
+    <string name="core_cell_band">selesai untuk periode ini</string>
+    <string name="core_cell_off">bukan hari untuk langkah ini</string>
+    <string name="core_cell_none">sebelum langkah ini dimulai</string>
+
+    <string name="core_rhythm_one_off">Sekali saja</string>
+    <string name="core_rhythm_end_of_day">Setiap hari, dicentang di akhir hari</string>
+    <string name="core_rhythm_every_day">Setiap hari</string>
+    <string name="core_rhythm_every_days">Setiap %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">seminggu</string>
+    <string name="core_rhythm_a_month">sebulan</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, hari apa saja</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s dan %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d bln</string>
+    <string name="core_achievement_short_days">%1$d hr</string>
+    <string name="core_glance_step">%1$s, %2$d dari %3$d</string>
+
+    <string name="core_slip_never">Tidak pernah</string>
+    <string name="core_slip_once">Sekali</string>
+    <string name="core_slip_a_few">Beberapa</string>
+    <string name="core_slip_half">Separuh</string>
+    <string name="core_slip_most">Sebagian besar</string>
+    <string name="core_slip_always">Selalu</string>
+
+    <string name="core_ideas_habit_anytime">Kebiasaan, kapan saja</string>
+    <string name="core_ideas_habit_end">Kebiasaan, akhir hari</string>
+    <string name="core_ideas_swap">Ganti</string>
+    <string name="core_ideas_avoid_product">Hindari, produk</string>
+    <string name="core_ideas_avoid_company">Hindari, perusahaan</string>
+    <string name="core_ideas_avoid_food">Hindari, makanan</string>
+
+    <string name="core_tag_ethical">Etika</string>
+    <string name="core_tag_health">Kesehatan</string>
+    <string name="core_tag_clutter">Barang numpuk</string>
+    <string name="core_tag_ecological">Lingkungan</string>
+    <string name="core_tag_animal_welfare">Kesejahteraan hewan</string>
+    <string name="core_tag_workers_rights">Hak pekerja</string>
+    <string name="core_tag_plastic">Plastik</string>
+    <string name="core_tag_palm_oil">Minyak sawit</string>
+    <string name="core_tag_deforestation">Deforestasi</string>
+    <string name="core_category_company">Perusahaan</string>
+    <string name="core_category_food">Makanan</string>
+    <string name="core_category_product">Produk</string>
+    <string name="core_verdict_avoid">HINDARI</string>
+    <string name="core_verdict_edge">ABU-ABU</string>
+    <string name="core_verdict_fine">AMAN</string>
+
+    <string name="core_theme_off_white_honey">Putih gading &amp; madu</string>
+    <string name="core_theme_vanilla_caramel">Vanila &amp; karamel</string>
+    <string name="core_theme_sunflower">Bunga matahari</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao &amp; lemon</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; mentega</string>
+    <string name="core_theme_midnight_honey">Tengah malam &amp; madu</string>
+    <string name="core_theme_forest_night">Hutan malam</string>
+    <string name="core_theme_plum_dusk">Senja plum</string>
+    <string name="core_theme_charcoal_coral">Arang &amp; koral</string>
+
+    <string name="core_pic_sunny_meadow">Padang rumput cerah</string>
+    <string name="core_pic_sunset_hills">Bukit saat senja</string>
+    <string name="core_pic_starry_night">Malam berbintang</string>
+    <string name="core_pic_beach_day">Hari di pantai</string>
+    <string name="core_pic_mountain_lake">Danau gunung</string>
+    <string name="core_pic_snowy_village">Desa bersalju</string>
+    <string name="core_pic_rainy_garden">Taman berhujan</string>
+    <string name="core_pic_autumn_forest">Hutan musim gugur</string>
+    <string name="core_pic_cherry_blossom">Bunga sakura</string>
+    <string name="core_pic_desert_cactus">Kaktus gurun</string>
+    <string name="core_pic_lighthouse">Mercusuar</string>
+    <string name="core_pic_rainbow_field">Padang pelangi</string>
+    <string name="core_pic_hot_air_balloon">Balon udara</string>
+    <string name="core_pic_sailboat">Perahu layar</string>
+    <string name="core_pic_cabin_in_the_woods">Pondok di hutan</string>
+    <string name="core_pic_tulip_field">Ladang tulip</string>
+    <string name="core_pic_campfire_night">Malam api unggun</string>
+    <string name="core_pic_misty_mountains">Gunung berkabut</string>
+    <string name="core_pic_sunrise_sea">Laut saat fajar</string>
+    <string name="core_pic_snowy_pines">Pinus bersalju</string>
+    <string name="core_pic_lavender_field">Ladang lavender</string>
+    <string name="core_pic_waterfall">Air terjun</string>
+    <string name="core_pic_city_at_dusk">Kota saat senja</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Bulan di atas danau</string>
+    <string name="core_pic_palm_island">Pulau kelapa</string>
+    <string name="core_pic_windmill">Kincir angin</string>
+    <string name="core_pic_bike_path">Jalur sepeda</string>
+    <string name="core_pic_greenhouse">Rumah kaca</string>
+    <string name="core_pic_northern_lights">Aurora</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="other">%d langkah menunggumu.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="other">dijalani, %d kali</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="other">%d kali sehari</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="other">%d kali</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="other">setiap %d minggu</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="other">setiap %d bulan</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="other">setiap %d hari</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="other">%d bulan, tak pernah terlewat</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="other">%d bulan konsisten</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="other">%d hari berturut-turut</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="other">%d bulan</item>
+    </plurals>
+
+    <string name="tabs_new_step">Langkah baru</string>
+    <string name="tabs_edit">Edit</string>
+    <string name="tabs_delete">Hapus</string>
+    <string name="tabs_done">Selesai</string>
+    <string name="tabs_back">Kembali</string>
+    <string name="tabs_earlier">Sebelumnya</string>
+    <string name="tabs_later">Berikutnya</string>
+    <string name="tabs_delete_title">Hapus %1$s?</string>
+    <string name="tabs_eod_unlock">Kebiasaan akhir hari terbuka jam %1$02d:00</string>
+    <string name="tabs_check_up">Tinjauan</string>
+    <string name="tabs_one_off">Sekali saja</string>
+
+    <string name="tabs_checkin_from">Check-In mulai %1$02d:00</string>
+    <string name="tabs_checkin_daily">Check-In Harian</string>
+    <string name="tabs_checkin_weekly">Check-In Mingguan</string>
+    <string name="tabs_checkin_quarter">Tinjauan 3 Bulan</string>
+    <string name="tabs_checked_in">Sudah Check-In</string>
+    <string name="tabs_quarter_section">TINJAUAN 3 BULAN</string>
+    <string name="tabs_previous_week">Minggu lalu</string>
+    <string name="tabs_next_week">Minggu depan</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="other">%1$d hari %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Hebat. Sekarang ini pindah ke Tinjauan 3 Bulan, nggak perlu dicentang tiap hari lagi.</string>
+    <string name="tabs_celebrate_first">Yang pertama tanggal %1$s.</string>
+    <string name="tabs_glance_title">Minggumu</string>
+    <string name="tabs_glance_ticks_kept">Centang terpenuhi</string>
+    <string name="tabs_glance_days_checked_in">Hari check-in</string>
+    <string name="tabs_glance_top_tag">Alasan gagal paling sering:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="other">%1$s, %2$d kali</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Paling mudah:</string>
+    <string name="tabs_glance_hardest">Paling sulit:</string>
+
+    <string name="tabs_changes_ongoing">Penggantian berjalan</string>
+    <string name="tabs_changes_ongoing_tip_title">Penggantian berjalan</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="other">Kamu akan ketemu pilihan yang sama lagi, misalnya gelas kopi atau sampo batang. Dicentang di Kebiasaan selama %1$d hari, lalu ditinjau tiap 3 bulan.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Belum ada penggantian</string>
+    <string name="tabs_changes_day_badge">HARI %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">MULAI MELEKAT</string>
+    <string name="tabs_changes_one_off_todo">Sekali saja, belum dikerjakan</string>
+    <string name="tabs_changes_one_off_tip">Cukup dilakukan sekali lalu beres, misalnya merapikan laci, beralih ke tarif listrik hijau, atau memperbaiki jaket. Centang dan ini pindah ke Selesai.</string>
+    <string name="tabs_changes_nothing_waiting">Nggak ada yang menunggu</string>
+    <string name="tabs_changes_finished">SELESAI · %1$d</string>
+
+    <string name="tabs_avoid_title">Daftar hindari</string>
+    <string name="tabs_avoid_search">Cari…</string>
+    <string name="tabs_avoid_no_match">Nggak ada yang cocok</string>
+    <string name="tabs_avoid_companies">Perusahaan</string>
+    <string name="tabs_avoid_food">Makanan</string>
+    <string name="tabs_avoid_products">Produk</string>
+
+    <string name="tabs_avoid_added">Ditambahkan</string>
+    <string name="tabs_avoid_why">Kenapa kamu menghindarinya</string>
+    <string name="tabs_avoid_own_words">Pakai kata-katamu sendiri</string>
+    <string name="tabs_avoid_brands">Merek miliknya · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Satu merek per baris</string>
+    <string name="tabs_avoid_more_brands">+%1$d lagi</string>
+    <string name="tabs_avoid_instead">Pakai ini sebagai gantinya</string>
+    <string name="tabs_avoid_instead_hint">Satu per baris</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="other">kali gagal</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">dihindari</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="other">bulan di daftar</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Ini akan keluar dari daftar hindari beserta riwayatnya.</string>
+
+    <string name="tabs_habit_delete_text">Seluruh riwayatnya ikut terhapus.</string>
+    <string name="tabs_habit_created">Dibuat</string>
+    <string name="tabs_habit_to_do">Belum dikerjakan</string>
+    <string name="tabs_habit_daily_ticks">Centang harian</string>
+    <string name="tabs_habit_day_of">Hari %1$d dari %2$d</string>
+    <string name="tabs_habit_finished">Selesai</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="other">hari berjalan</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="other">kali terputus</item>
+    </plurals>
+    <string name="tabs_habit_success">berhasil</string>
+    <string name="tabs_habit_current_streak">Rentetan saat ini</string>
+    <string name="tabs_habit_longest_streak">Rentetan terpanjang</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Kenapa gagal</string>
+    <string name="tabs_habit_remove_reason">Hapus alasan ini</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="other">cara kamu memperbaiki hidupmu</item>
+    </plurals>
+    <string name="tabs_insights_habits">Kebiasaan</string>
+    <string name="tabs_insights_swaps">Penggantian</string>
+    <string name="tabs_insights_avoids">Hindari</string>
+    <string name="tabs_insights_on_track_section">Sesuai jalur</string>
+    <string name="tabs_insights_avg_days">%1$d hr</string>
+    <string name="tabs_insights_average_kept">rata-rata dijalani</string>
+    <string name="tabs_insights_days_checked_in">hari check-in</string>
+    <string name="tabs_insights_on_track">sesuai jalur</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="other">kali gagal</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="other">langkah baru</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="other">tugas sekali selesai</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Alasan gagal terbesar</string>
+    <string name="tabs_insights_added_quarter">Ditambahkan kuartal ini</string>
+    <string name="tabs_insights_past_summaries">Ringkasan 3 bulan sebelumnya</string>
+    <string name="tabs_insights_first_on">Ringkasan pertamamu muncul tanggal %1$s</string>
+    <string name="tabs_insights_all_time">Semua</string>
+    <string name="tabs_insights_period">%1$s sampai %2$s %3$d</string>
+
+    <string name="forms_back">Kembali</string>
+    <string name="forms_back_habits">Kebiasaan</string>
+    <string name="forms_back_settings">Setelan</string>
+    <string name="forms_add">Tambah</string>
+    <string name="forms_save">Simpan</string>
+    <string name="forms_finish">Selesai</string>
+    <string name="forms_delete">Hapus</string>
+    <string name="forms_why">Kenapa</string>
+    <string name="forms_never_show">Jangan tampilkan lagi</string>
+    <string name="forms_every">Setiap</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="other">hari</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Langkah %1$d dari %2$d</string>
+    <string name="forms_checkin_next_weekly">Berikutnya, Check-In mingguan ›</string>
+    <string name="forms_checkin_next_quarter">Berikutnya, Tinjauan 3 Bulan ›</string>
+    <string name="forms_daily_title">Check-In Harian</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="other">%1$d hari sebelumnya belum diisi</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Lewati semua</string>
+    <string name="forms_daily_today">Hari ini · %1$s</string>
+    <string name="forms_daily_skip">Lewati</string>
+    <string name="forms_daily_undo_skip">Batal lewati</string>
+    <string name="forms_daily_new_tag">Tag baru</string>
+    <string name="forms_daily_new_tag_hint">Tempat sampah penuh</string>
+    <string name="forms_weekly_title">Check-In Mingguan</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="other">%1$d minggu tertunda, satu langkah baru sudah cukup untuk semuanya.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Nggak ada langkah baru minggu ini</string>
+    <string name="forms_quarter_title">Tinjauan 3 Bulan</string>
+    <string name="forms_quarter_nothing">Belum ada yang bisa ditinjau. Berikutnya ringkasanmu.</string>
+    <string name="forms_quarter_habits">Kebiasaan</string>
+    <string name="forms_quarter_swaps">Penggantian</string>
+    <string name="forms_quarter_avoid">Hindari</string>
+    <string name="forms_quarter_missed">Terlewat</string>
+    <string name="forms_quarter_missed_level">Terlewat: %1$s</string>
+
+    <string name="forms_new_title">Langkah baru</string>
+    <string name="forms_edit_title">Edit: %1$s</string>
+    <string name="forms_add_kind">Tambah: %1$s</string>
+    <string name="forms_title_habit">Kebiasaan</string>
+    <string name="forms_title_swap">Ganti</string>
+    <string name="forms_title_avoid">Hindari</string>
+    <string name="forms_save_changes">Simpan perubahan</string>
+    <string name="forms_what_kind">Jenis apa?</string>
+    <string name="forms_name">Nama</string>
+    <string name="forms_your_new_step">Langkah barumu</string>
+    <string name="forms_hint_habit">Baca 10 halaman</string>
+    <string name="forms_hint_swap">Gambas kering, bukan spons</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Kebiasaan jenis apa?</string>
+    <string name="forms_timing_tip_title">Kapan saja atau akhir hari</string>
+    <string name="forms_timing_tip">Kapan saja: sesuatu yang kamu lakukan sekali, misalnya lari. Centang begitu selesai.\n\nAkhir hari: aturan yang kamu jaga seharian, misalnya nggak ngemil. Cuma bisa dicentang di malam hari.</string>
+    <string name="forms_anytime">Kapan saja</string>
+    <string name="forms_end_of_day">Akhir hari</string>
+    <string name="forms_what_is_it">Apa itu?</string>
+    <string name="forms_how_often">Seberapa sering?</string>
+    <string name="forms_often_specific">Hari tertentu</string>
+    <string name="forms_often_whenever">Kapan pun</string>
+    <string name="forms_often_once">Sekali saja</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="other">kali setiap</item>
+    </plurals>
+    <string name="forms_unit_day">hari</string>
+    <string name="forms_unit_week">minggu</string>
+    <string name="forms_unit_month">bulan</string>
+    <string name="forms_unit_x_days">X hari</string>
+    <string name="forms_ideas">Ide</string>
+    <string name="forms_ideas_others">Lainnya</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="other">Lihat semua %1$d ide ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Semua ide langkah</string>
+    <string name="forms_search">Cari…</string>
+    <string name="forms_all">Semua</string>
+
+    <string name="forms_settings_title">Setelan</string>
+    <string name="forms_set_colours">Warna</string>
+    <string name="forms_set_style">Gaya ringkasan 3 bulan</string>
+    <string name="forms_set_checkins">Check-in</string>
+    <string name="forms_set_checkin_hour">Check-In Harian dibuka jam</string>
+    <string name="forms_set_checkin_hour_tip">Mulai jam ini kamu bisa mencentang kebiasaan akhir hari dan melakukan Check-In Harian.</string>
+    <string name="forms_set_week_start">Minggu dimulai hari</string>
+    <string name="forms_set_week_start_tip">Hari awal untuk tabel Kebiasaan, minggu, dan grafikmu.</string>
+    <string name="forms_monday">Senin</string>
+    <string name="forms_sunday">Minggu</string>
+    <string name="forms_set_new_step_every">Langkah baru setiap</string>
+    <string name="forms_set_new_step_every_tip">Berapa minggu jarak antar Check-In Mingguan.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="other">minggu</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Hari Check-In Mingguan</string>
+    <string name="forms_set_weekly_day_tip">Di hari ini, setelah Check-In Harian kamu memilih langkah baru untuk minggu depan.</string>
+    <string name="forms_set_checkup">Tinjauan 3 Bulan</string>
+    <string name="forms_set_checkup_tip">Semua orang meninjau di hari yang sama: 1 Jan, 1 Apr, 1 Jul, dan 1 Okt, jadi kalian bisa berbagi ringkasan bareng. Kamu juga bisa pilih tanggal sendiri.</string>
+    <string name="forms_set_same">Sama seperti semua orang</string>
+    <string name="forms_set_own">Tanggalku sendiri</string>
+    <string name="forms_set_starting">Mulai</string>
+    <string name="forms_set_starting_tip">Bulan tinjauan pertamamu sendiri.</string>
+    <string name="forms_earlier">Sebelumnya</string>
+    <string name="forms_later">Berikutnya</string>
+    <string name="forms_set_every_tip">Jumlah bulan antar tinjauan.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="other">bulan</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Tanggal</string>
+    <string name="forms_set_day_of_month_tip">Tanggal berapa di bulan itu.</string>
+    <string name="forms_set_everyone">Semua orang: 1 Jan · 1 Apr · 1 Jul · 1 Okt</string>
+    <string name="forms_set_days_build">Hari untuk membangun kebiasaan</string>
+    <string name="forms_set_days_build_tip">Penelitian menemukan 18 sampai 254 hari, yang paling sering dikutip 66 (Lally et al. 2010, Singh et al. 2024). Setelah sebanyak ini hari, langkah baru pindah ke tinjauanmu.</string>
+    <string name="forms_set_nudge">Pengingat harian</string>
+    <string name="forms_set_nudge_tip">Pengingat di jam ini, hanya kalau masih ada yang belum dicentang.</string>
+    <string name="forms_set_more">Lainnya</string>
+    <string name="forms_set_reasons">Alasan gagal</string>
+    <string name="forms_set_tutorial">Putar ulang tutorial</string>
+    <string name="forms_set_export">Ekspor dataku</string>
+    <string name="forms_set_import">Impor data</string>
+
+    <string name="forms_reasons_title">Alasan gagal</string>
+    <string name="forms_reasons_hint">Tambah alasanmu sendiri</string>
+    <string name="forms_reasons_used">dipakai %1$d×</string>
+    <string name="forms_reasons_delete_title">Hapus %1$s?</string>
+    <string name="forms_reasons_delete_text">Catatan gagal tetap ada di riwayatmu, cuma tanpa tag ini.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="other">%1$d kebiasaan</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="other">%1$d penggantian</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="other">%1$d hal dihindari</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, centang sejak %2$s</string>
+    <string name="forms_export_title">Ekspor dataku</string>
+    <string name="forms_export_what">Isi file-nya</string>
+    <string name="forms_export_ticks">Setiap centang, kegagalan, dan alasan</string>
+    <string name="forms_export_ticks_since">Setiap centang, kegagalan, dan alasan sejak %1$s</string>
+    <string name="forms_export_summaries">Ringkasan 3 bulanmu</string>
+    <string name="forms_export_settings">Setelan, warna, dan namamu</string>
+    <string name="forms_export_file">File</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Simpan file</string>
+    <string name="forms_export_send">Kirim ke…</string>
+    <string name="forms_export_send_title">Kirim data Alice-mu</string>
+    <string name="forms_export_saved">%1$s tersimpan</string>
+    <string name="forms_export_save_failed">Gagal menyimpan file</string>
+
+    <string name="forms_import_title">Impor data</string>
+    <string name="forms_import_choose">Pilih cadangan Alice</string>
+    <string name="forms_import_choose_sub">.json, dari Ekspor di HP lain</string>
+    <string name="forms_import_cant_open">File itu nggak bisa dibuka.</string>
+    <string name="forms_import_not_backup">File itu bukan cadangan Alice.</string>
+    <string name="forms_import_replace_mode">Ganti yang ada di sini</string>
+    <string name="forms_import_add_mode">Tambahkan ke yang ada</string>
+    <string name="forms_import_button">Impor</string>
+    <string name="forms_import_replace_title">Ganti datamu?</string>
+    <string name="forms_import_add_title">Tambahkan data ini?</string>
+    <string name="forms_import_replace_text">Semua yang ada di HP ini akan diganti dengan isi file. Ekspor dulu kalau mau menyimpannya.</string>
+    <string name="forms_import_add_text">Kebiasaan dan riwayat di file akan ditambahkan ke milikmu.</string>
+    <string name="forms_import_done">Data berhasil diimpor</string>
+
+    <string name="look_share">Bagikan</string>
+    <string name="look_save_image">Simpan gambar</string>
+    <string name="look_next_week">Berikutnya, minggumu ›</string>
+    <string name="look_keep_going">Lanjut terus</string>
+    <string name="look_storage_needed">Alice butuh akses penyimpanan untuk menyimpan gambar</string>
+    <string name="look_share_caption">Kuartalku bersama Alice. Mulai punyamu sendiri: %1$s</string>
+    <string name="look_share_clip">Ringkasan Alice</string>
+    <string name="look_share_chooser">Bagikan kuartalmu</string>
+    <string name="look_saved">Disimpan ke Pictures/Alice</string>
+    <string name="look_save_failed">Gagal menyimpan gambar</string>
+
+    <string name="look_style_poster">Poster</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Lemari piala</string>
+    <string name="look_style_receipt">Struk</string>
+    <string name="look_style_report">Rapor</string>
+    <string name="look_style_boarding">Boarding pass</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalender</string>
+    <string name="look_style_trading">Kartu koleksi</string>
+
+    <string name="look_quote_1">Langkah Kecil, Setiap Hari</string>
+    <string name="look_quote_2">Terima Kasih Sudah Hadir</string>
+    <string name="look_quote_3">Kemajuan, Bukan Kesempurnaan</string>
+    <string name="look_quote_4">Kamu Terus Melangkah. Itu Berarti</string>
+    <string name="look_quote_5">Perubahan Kecil, Dampak Besar</string>
+    <string name="look_quote_6">Tiap Hari Kamu Memilih Lebih Baik</string>
+    <string name="look_quote_7">Pelan Tetap Maju</string>
+    <string name="look_quote_8">Kamu Sedang Membangun Hidup yang Kamu Suka</string>
+    <string name="look_quote_9">Selangkah Demi Selangkah Jadi Banyak</string>
+    <string name="look_quote_10">Terus Hadir untuk Dirimu Sendiri</string>
+    <string name="look_quote_11">Dirimu di Masa Depan Berterima Kasih</string>
+    <string name="look_quote_12">Sedikit demi Sedikit, Lama-lama Jadi Bukit</string>
+    <string name="look_quote_13">Konsistensi Adalah Sihir yang Tenang</string>
+    <string name="look_quote_14">Lihat Sudah Sejauh Apa Kamu Melangkah</string>
+    <string name="look_quote_15">Banggalah dengan Kemenangan Kecil</string>
+    <string name="look_quote_16">Hari Baik Itu Dibangun, Bukan Ditemukan</string>
+
+    <string name="look_stamp_1">LUAR BIASA</string>
+    <string name="look_stamp_2">ISTIMEWA</string>
+    <string name="look_stamp_3">BAGUS SEKALI</string>
+    <string name="look_stamp_4">CEMERLANG</string>
+    <string name="look_stamp_5">HEBAT</string>
+    <string name="look_stamp_6">NILAI SEMPURNA</string>
+    <string name="look_stamp_7">BINTANG EMAS</string>
+    <string name="look_stamp_8">KERJA BAGUS</string>
+
+    <string name="look_period">%1$s sampai %2$s</string>
+    <string name="look_scan">PINDAI UNTUK\nMEMULAI PERJALANAN\nKAMU SENDIRI</string>
+    <string name="look_you">Kamu</string>
+    <string name="look_on_track">sesuai jalur</string>
+    <string name="look_new_steps">langkah baru</string>
+    <string name="look_days_in">hari berjalan</string>
+    <string name="look_new">baru</string>
+    <string name="look_week_by_week">Minggu demi minggu</string>
+    <string name="look_coming_soon">Segera hadir</string>
+    <string name="look_new_this_quarter">Baru kuartal ini</string>
+    <string name="look_kept_up_longest">Paling lama dijalani</string>
+    <string name="look_habits">Kebiasaan</string>
+    <string name="look_swaps">Penggantian</string>
+    <string name="look_avoids">Hindari</string>
+    <string name="look_ways_improved">Cara yang membaik</string>
+    <string name="look_improved_in">Kamu memperbaiki hidupmu dengan %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="other">%1$d kebiasaan</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="other">%1$d penggantian</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="other">%1$d hal dihindari</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="other">%1$d kali gagal</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="other">%1$d cara</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="other">kebiasaan</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="other">penggantian</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="other">dihindari</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="other">kali gagal</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="other">cara</item>
+    </plurals>
+
+    <string name="look_poster_improved">Kamu sudah memperbaiki hidupmu dengan %1$s</string>
+    <string name="look_poster_on_track">SESUAI JALUR</string>
+    <string name="look_poster_days">hari</string>
+    <string name="look_poster_achievements">Pencapaian</string>
+    <string name="look_poster_first_ones">Pencapaian pertamamu sedang menuju</string>
+    <string name="look_poster_added">Yang kamu tambahkan kuartal ini</string>
+
+    <string name="look_wrapped_stars">Bintang-bintangmu</string>
+
+    <string name="look_trophy_ways">cara kamu\nmemperbaiki hidupmu</string>
+    <string name="look_trophy_next_quarter">Kuartal depan</string>
+    <string name="look_trophy_first_medal">medali pertamamu</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Baru di rak:</string>
+
+    <string name="look_receipt_title">Tinjauan 3 Bulan · %1$s</string>
+    <string name="look_receipt_customer">Pelanggan: %1$s</string>
+    <string name="look_receipt_habits">Kebiasaan dibangun</string>
+    <string name="look_receipt_swaps">Barang diganti</string>
+    <string name="look_receipt_avoids">Hal dihindari</string>
+    <string name="look_receipt_ways">Cara kamu memperbaiki hidupmu</string>
+    <string name="look_receipt_on_track">Sesuai jalur kuartal ini</string>
+    <string name="look_receipt_slips">Gagal</string>
+    <string name="look_receipt_new_steps">Langkah baru dibangun</string>
+    <string name="look_receipt_new">Baru kuartal ini: %1$s</string>
+
+    <string name="look_report_title">Rapor Langkah Kecil</string>
+    <string name="look_report_pupil">%1$s · Murid: %2$s</string>
+    <string name="look_report_subject">MATA PELAJARAN</string>
+    <string name="look_report_built">DIBANGUN</string>
+    <string name="look_report_grade">NILAI</string>
+    <string name="look_report_attendance">Kehadiran %1$s</string>
+    <string name="look_report_on_track">Sesuai jalur %1$s</string>
+    <string name="look_report_slips">Gagal %1$s</string>
+    <string name="look_report_achievements">PENCAPAIAN</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">PELAJARAN BARU SEMESTER INI (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Catatan guru:</string>
+    <string name="look_report_calm">Semester yang tenang dan stabil.</string>
+    <string name="look_report_ups_downs">Semester dengan naik turun, dan kamu tetap bertahan.</string>
+    <string name="look_report_star">%1$s tampil luar biasa. Pertahankan!</string>
+    <string name="look_report_keep_up">Pertahankan!</string>
+    <string name="look_report_week">MINGGU DEMI MINGGU</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Penerbangan Q%1$d</string>
+    <string name="look_boarding_from">DARI</string>
+    <string name="look_boarding_old">LAMA</string>
+    <string name="look_boarding_habits">kebiasaan</string>
+    <string name="look_boarding_to">KE</string>
+    <string name="look_boarding_new">BARU</string>
+    <string name="look_boarding_better_you">dirimu yang lebih baik</string>
+    <string name="look_boarding_passenger">Penumpang</string>
+    <string name="look_boarding_dates">Tanggal</string>
+    <string name="look_boarding_miles">Jarak terbang</string>
+    <string name="look_boarding_on_time">Tepat waktu</string>
+    <string name="look_boarding_turbulence">Turbulensi</string>
+    <string name="look_boarding_days">Hari di pesawat</string>
+    <string name="look_boarding_flyer">PENUMPANG SETIA, TEMAN PERJALANAN TERLAMA</string>
+    <string name="look_boarding_log">LOG PENERBANGAN, MINGGU DEMI MINGGU</string>
+    <string name="look_boarding_stops">PERSINGGAHAN BARU, +%1$d</string>
+    <string name="look_boarding_note">CATATAN KAPTEN</string>
+
+    <string name="look_polaroid_life">HIDUPMU</string>
+    <string name="look_polaroid_quarter">KUARTAL INI</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d hari berjalan</string>
+    <string name="look_polaroid_longest">PALING LAMA DIJALANI</string>
+    <string name="look_polaroid_new">BARU, +%1$d</string>
+
+    <string name="look_calendar_added">Ditambahkan</string>
+
+    <string name="look_trading_common">Biasa</string>
+    <string name="look_trading_uncommon">Tak biasa</string>
+    <string name="look_trading_rare">Langka</string>
+    <string name="look_trading_legendary">Legendaris</string>
+    <plurals name="look_trading_ways">
+        <item quantity="other">CARA</item>
+    </plurals>
+    <string name="look_ordinal_st">ke-%1$d</string>
+    <string name="look_ordinal_nd">ke-%1$d</string>
+    <string name="look_ordinal_rd">ke-%1$d</string>
+    <string name="look_ordinal_th">ke-%1$d</string>
+    <string name="look_trading_number">No. %1$03d · kuartal %2$s-mu</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d hari</string>
+    <string name="look_trading_power">Kekuatan, minggu demi minggu</string>
+    <string name="look_trading_edition">%1$s · edisi Q%2$d</string>
+
+    <string name="look_sample_water_first">Minum air dulu</string>
+    <string name="look_sample_own_bag">Bawa tas sendiri</string>
+    <string name="look_sample_read_pages">Baca 10 halaman</string>
+    <string name="look_sample_reading">Membaca tiap hari</string>
+    <string name="look_sample_late_snacks">Tanpa camilan malam</string>
+    <string name="look_sample_stretching">Peregangan</string>
+    <string name="look_sample_cooler_home">Rumah lebih sejuk</string>
+    <string name="look_sample_loofah">Gambas kering, bukan spons</string>
+    <string name="look_sample_palm_oil">Bebas minyak sawit</string>
+    <string name="look_sample_stretch">Peregangan 10 menit</string>
+
+    <string name="look_colours_title">Warna</string>
+    <string name="look_colours_preview">Pratinjau</string>
+    <string name="look_colours_your_summary">Ringkasan 3 bulanmu</string>
+    <string name="look_colours_light">Terang</string>
+    <string name="look_colours_dark">Gelap</string>
+    <string name="look_styles_title">Gaya ringkasan 3 bulan</string>
+    <string name="look_styles_all_pictures">Lihat semua 30 gambar Polaroid</string>
+    <string name="look_styles_refresh">Muat ulang</string>
+    <string name="look_pictures_title">Gambar Polaroid</string>
+    <string name="look_pictures_back">Gaya ringkasan</string>
+
+    <string name="look_welcome_name">Namamu</string>
+    <string name="look_welcome_start">Mulai</string>
+    <string name="look_welcome_import">Impor dataku</string>
+
+    <string name="look_tut_skip">Lewati</string>
+    <string name="look_tut_page">%1$d DARI %2$d</string>
+    <string name="look_tut_back">Kembali</string>
+    <string name="look_tut_start">Mulai</string>
+    <string name="look_tut_next">Lanjut</string>
+    <string name="look_tut1_title">Jadi versi dirimu yang lebih baik, selangkah demi selangkah</string>
+    <string name="look_tut1_body">Bangun kebiasaan baru, ambil pilihan yang lebih baik, dan lihat semua pencapaianmu terus bertambah.</string>
+    <string name="look_tut1_habits">Bangun kebiasaan baik hari demi hari dan jadilah orang yang kamu inginkan.</string>
+    <string name="look_tut1_swaps">Ganti produk dengan yang lebih baik, untuk bumi, sesama, atau kesehatanmu.</string>
+    <string name="look_tut1_avoids">Catat perusahaan, makanan, dan produk yang nggak ingin kamu dukung.</string>
+    <string name="look_tut2_title">Centang</string>
+    <string name="look_tut2_body">Ketuk kotak saat kamu sudah menjalankan kebiasaan. Kebiasaan malam terbuka di jam check-in-mu.</string>
+    <string name="look_tut3_title">%1$s, lalu setiap %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="other">%1$d bulan</item>
+    </plurals>
+    <string name="look_tut3_body">Penelitian menemukan butuh 18 sampai 254 hari untuk membangun kebiasaan. Angka yang paling sering dikutip adalah 66 hari, jadi Alice mulai dari situ.</string>
+    <string name="look_tut3_days_label">Hari untuk membangun kebiasaan</string>
+    <string name="look_tut3_checkup">Tinjauan setiap</string>
+    <string name="look_tut3_small">Keduanya bisa kamu ubah di Setelan.</string>
+    <string name="look_tut4_title">Seminggu sekali, satu langkah baru</string>
+    <string name="look_tut4_body">Menambah satu langkah baru tiap kali bikin kamu tumbuh pelan-pelan, tanpa memikul terlalu banyak sekaligus.</string>
+    <string name="look_tut4_day">Hari check-in</string>
+    <string name="look_tut4_small">Ini juga bisa kamu ubah di Setelan.</string>
+    <string name="look_tut5_title">Tiap kuartal, ringkasanmu</string>
+    <string name="look_tut5_body">Bagikan sejauh apa kamu melangkah ke teman dan orang-orang terdekatmu. Ketuk tampilan yang kamu suka:</string>
+    <string name="look_tut_change_mind">Kamu selalu bisa berubah pikiran.</string>
+    <string name="look_tut6_title">Jadikan milikmu</string>
+    <string name="look_tut6_body">Pilih warna yang paling nyaman. Seluruh aplikasi langsung berubah.</string>
+    <string name="look_tut7_title">Ubah apa saja, kapan saja</string>
+    <string name="look_tut7_body">Jam check-in, hari untuk membangun kebiasaan, gaya ringkasan, warna, dan datamu semuanya ada di Setelan.</string>
+    <string name="look_tut7_gear">Ketuk ikon roda gigi di atas Kebiasaan untuk membuka Setelan.</string>
+    <string name="look_tut7_open">Buka Setelan</string>
+
+    <string name="lang_title">Bahasa</string>
+    <string name="pron_title">Kata ganti</string>
+    <string name="pron_she">perempuan</string>
+    <string name="pron_he">laki-laki</string>
+    <string name="pron_they">netral</string>
+    <string name="lang_spotted">Nemu kesalahan di bahasamu?</string>
+    <string name="lang_search">Cari bahasamu</string>
+    <string name="lang_phone">Bahasa HP</string>
+    <string name="lang_follow">Ikuti HP</string>
+    <string name="lang_note_title">Bantu terjemahan</string>
+    <string name="lang_note_1">Hai, aku Lucy, aku yang membuat Alice.</string>
+    <string name="lang_note_2">Aku bisa bahasa Inggris, Slowakia, Ceko, dan Rusia, jadi terjemahan itu sudah aku periksa sendiri. Bahasa lainnya belum diperiksa penutur asli.</string>
+    <string name="lang_note_3">Kalau kamu menemukan kesalahan di bahasamu, kabari aku ya supaya bisa kuperbaiki. Dan kalau kamu sudah lama pakai Alice dalam bahasamu dan semuanya terbaca benar, kasih tahu juga, supaya bisa kutandai sebagai disetujui.</string>
+    <string name="lang_note_4">Terima kasih!</string>
+    <string name="lang_not_approved">BELUM DISETUJUI</string>
+    <string name="lang_report">Laporkan kesalahan</string>
+    <string name="lang_all_correct">Bahasaku sudah benar semua</string>
+    <string name="lang_mail_mistake_body">Apa yang terbaca salah, dan di layar mana:\n\n</string>
+    <string name="lang_mail_correct_body">Aku sudah cukup lama pakai Alice dalam bahasaku dan semuanya terbaca benar.\n\n</string>
+    <string name="lang_no_mail">Aplikasi email tidak ditemukan</string>
+</resources>

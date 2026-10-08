@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">تعب شديد</string>
+    <string name="core_reason_craving">اشتهاء</string>
+    <string name="core_reason_no_time">لا وقت</string>
+    <string name="core_reason_forgot">نسيان</string>
+    <string name="core_reason_no_alternative">لا بديل</string>
+    <string name="core_reason_social">مناسبة اجتماعية</string>
+    <string name="core_reason_impulse">اندفاع</string>
+    <string name="core_reason_too_expensive">غالٍ جدًا</string>
+    <string name="core_reason_away">خارج البيت</string>
+
+    <string name="core_nudge_channel">تذكير يومي</string>
+    <string name="core_nudge_title">ما زال هناك ما يحتاج إلى علامة اليوم</string>
+    <string name="core_save_failed">تعذّر الحفظ، يُرجى المحاولة مرة أخرى</string>
+
+    <string name="core_kind_habit">عادة</string>
+    <string name="core_kind_swap">استبدال</string>
+    <string name="core_kind_avoid">تجنُّب</string>
+    <string name="core_about">حول %1$s</string>
+    <string name="core_ok">حسنًا</string>
+    <string name="core_less">أقل</string>
+    <string name="core_more">أكثر</string>
+    <string name="core_cancel">إلغاء</string>
+    <string name="core_settings">الإعدادات</string>
+    <string name="core_span_week">أسبوع</string>
+    <string name="core_span_month">شهر</string>
+    <string name="core_span_year">سنة</string>
+    <string name="core_span_all">منذ البداية</string>
+    <string name="core_tab_habits">العادات</string>
+    <string name="core_tab_changes">التغييرات</string>
+    <string name="core_tab_avoid">التجنُّب</string>
+    <string name="core_tab_insights">الإحصاءات</string>
+
+    <string name="core_cell_spoken">%1$s، %2$s</string>
+    <string name="core_cell_kept">تم</string>
+    <string name="core_cell_missed">فاتك</string>
+    <string name="core_cell_partial">تم جزئيًا، %1$d حتى الآن</string>
+    <string name="core_cell_unfilled">لم يُملأ بعد</string>
+    <string name="core_cell_open">لم يُنجز بعد</string>
+    <string name="core_cell_locked">مقفل حتى وقت المراجعة</string>
+    <string name="core_cell_future">ليس بعد</string>
+    <string name="core_cell_empty">لا شيء مطلوب</string>
+    <string name="core_cell_band">تم لهذه الفترة</string>
+    <string name="core_cell_off">ليس يومًا لهذه الخطوة</string>
+    <string name="core_cell_none">قبل بدء هذه الخطوة</string>
+
+    <string name="core_rhythm_one_off">مرة واحدة</string>
+    <string name="core_rhythm_end_of_day">كل يوم، تُوضع العلامة في نهاية اليوم</string>
+    <string name="core_rhythm_every_day">كل يوم</string>
+    <string name="core_rhythm_every_days">كل %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">في الأسبوع</string>
+    <string name="core_rhythm_a_month">في الشهر</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s، في أي يوم</string>
+    <string name="core_list_separator">"، "</string>
+    <string name="core_list_last">%1$s و%2$s</string>
+
+    <string name="core_achievement_short_months">%1$d ش</string>
+    <string name="core_achievement_short_days">%1$d ي</string>
+    <string name="core_glance_step">%1$s، %2$d من %3$d</string>
+
+    <string name="core_slip_never">أبدًا</string>
+    <string name="core_slip_once">مرة</string>
+    <string name="core_slip_a_few">بضع مرات</string>
+    <string name="core_slip_half">النصف</string>
+    <string name="core_slip_most">معظمها</string>
+    <string name="core_slip_always">دائمًا</string>
+
+    <string name="core_ideas_habit_anytime">عادات، في أي وقت</string>
+    <string name="core_ideas_habit_end">عادات، نهاية اليوم</string>
+    <string name="core_ideas_swap">استبدالات</string>
+    <string name="core_ideas_avoid_product">تجنُّب، منتجات</string>
+    <string name="core_ideas_avoid_company">تجنُّب، شركات</string>
+    <string name="core_ideas_avoid_food">تجنُّب، أطعمة</string>
+
+    <string name="core_tag_ethical">أخلاقي</string>
+    <string name="core_tag_health">الصحة</string>
+    <string name="core_tag_clutter">الفوضى</string>
+    <string name="core_tag_ecological">بيئي</string>
+    <string name="core_tag_animal_welfare">رفق بالحيوان</string>
+    <string name="core_tag_workers_rights">حقوق العمال</string>
+    <string name="core_tag_plastic">البلاستيك</string>
+    <string name="core_tag_palm_oil">زيت النخيل</string>
+    <string name="core_tag_deforestation">إزالة الغابات</string>
+    <string name="core_category_company">شركة</string>
+    <string name="core_category_food">طعام</string>
+    <string name="core_category_product">منتج</string>
+    <string name="core_verdict_avoid">تجنُّب</string>
+    <string name="core_verdict_edge">على الحافة</string>
+    <string name="core_verdict_fine">لا بأس</string>
+
+    <string name="core_theme_off_white_honey">أبيض مطفأ وعسل</string>
+    <string name="core_theme_vanilla_caramel">فانيليا وكراميل</string>
+    <string name="core_theme_sunflower">دوّار الشمس</string>
+    <string name="core_theme_latte">لاتيه</string>
+    <string name="core_theme_cocoa_lemon">كاكاو وليمون</string>
+    <string name="core_theme_espresso_butter">إسبريسو وزبدة</string>
+    <string name="core_theme_midnight_honey">منتصف الليل وعسل</string>
+    <string name="core_theme_forest_night">ليل الغابة</string>
+    <string name="core_theme_plum_dusk">غسق البرقوق</string>
+    <string name="core_theme_charcoal_coral">فحمي ومرجاني</string>
+
+    <string name="core_pic_sunny_meadow">مرج مشمس</string>
+    <string name="core_pic_sunset_hills">تلال عند الغروب</string>
+    <string name="core_pic_starry_night">ليلة مرصّعة بالنجوم</string>
+    <string name="core_pic_beach_day">يوم على الشاطئ</string>
+    <string name="core_pic_mountain_lake">بحيرة جبلية</string>
+    <string name="core_pic_snowy_village">قرية مثلجة</string>
+    <string name="core_pic_rainy_garden">حديقة ممطرة</string>
+    <string name="core_pic_autumn_forest">غابة خريفية</string>
+    <string name="core_pic_cherry_blossom">أزهار الكرز</string>
+    <string name="core_pic_desert_cactus">صبّار الصحراء</string>
+    <string name="core_pic_lighthouse">منارة</string>
+    <string name="core_pic_rainbow_field">حقل وقوس قزح</string>
+    <string name="core_pic_hot_air_balloon">منطاد هواء ساخن</string>
+    <string name="core_pic_sailboat">قارب شراعي</string>
+    <string name="core_pic_cabin_in_the_woods">كوخ في الغابة</string>
+    <string name="core_pic_tulip_field">حقل توليب</string>
+    <string name="core_pic_campfire_night">ليلة حول النار</string>
+    <string name="core_pic_misty_mountains">جبال ضبابية</string>
+    <string name="core_pic_sunrise_sea">بحر عند الشروق</string>
+    <string name="core_pic_snowy_pines">صنوبر مثلج</string>
+    <string name="core_pic_lavender_field">حقل خزامى</string>
+    <string name="core_pic_waterfall">شلال</string>
+    <string name="core_pic_city_at_dusk">مدينة عند الغسق</string>
+    <string name="core_pic_picnic">نزهة</string>
+    <string name="core_pic_moon_over_the_lake">قمر فوق البحيرة</string>
+    <string name="core_pic_palm_island">جزيرة النخيل</string>
+    <string name="core_pic_windmill">طاحونة هواء</string>
+    <string name="core_pic_bike_path">مسار دراجات</string>
+    <string name="core_pic_greenhouse">دفيئة</string>
+    <string name="core_pic_northern_lights">الشفق القطبي</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="zero">%d خطوات بانتظارك.</item>
+        <item quantity="one">%d خطوة بانتظارك.</item>
+        <item quantity="two">%d خطوتان بانتظارك.</item>
+        <item quantity="few">%d خطوات بانتظارك.</item>
+        <item quantity="many">%d خطوة بانتظارك.</item>
+        <item quantity="other">%d خطوة بانتظارك.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="zero">تم، %d مرات</item>
+        <item quantity="one">تم، %d مرة</item>
+        <item quantity="two">تم، %d مرتان</item>
+        <item quantity="few">تم، %d مرات</item>
+        <item quantity="many">تم، %d مرة</item>
+        <item quantity="other">تم، %d مرة</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="zero">%d مرات في اليوم</item>
+        <item quantity="one">%d مرة في اليوم</item>
+        <item quantity="two">%d مرتان في اليوم</item>
+        <item quantity="few">%d مرات في اليوم</item>
+        <item quantity="many">%d مرة في اليوم</item>
+        <item quantity="other">%d مرة في اليوم</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="zero">%d مرات</item>
+        <item quantity="one">%d مرة</item>
+        <item quantity="two">%d مرتان</item>
+        <item quantity="few">%d مرات</item>
+        <item quantity="many">%d مرة</item>
+        <item quantity="other">%d مرة</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="zero">كل %d أسابيع</item>
+        <item quantity="one">كل %d أسبوع</item>
+        <item quantity="two">كل %d أسبوعين</item>
+        <item quantity="few">كل %d أسابيع</item>
+        <item quantity="many">كل %d أسبوعًا</item>
+        <item quantity="other">كل %d أسبوع</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="zero">كل %d أشهر</item>
+        <item quantity="one">كل %d شهر</item>
+        <item quantity="two">كل %d شهرين</item>
+        <item quantity="few">كل %d أشهر</item>
+        <item quantity="many">كل %d شهرًا</item>
+        <item quantity="other">كل %d شهر</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="zero">كل %d أيام</item>
+        <item quantity="one">كل %d يوم</item>
+        <item quantity="two">كل %d يومين</item>
+        <item quantity="few">كل %d أيام</item>
+        <item quantity="many">كل %d يومًا</item>
+        <item quantity="other">كل %d يوم</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="zero">%d أشهر بلا انقطاع</item>
+        <item quantity="one">%d شهر بلا انقطاع</item>
+        <item quantity="two">%d شهران بلا انقطاع</item>
+        <item quantity="few">%d أشهر بلا انقطاع</item>
+        <item quantity="many">%d شهرًا بلا انقطاع</item>
+        <item quantity="other">%d شهر بلا انقطاع</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="zero">%d أشهر من الثبات</item>
+        <item quantity="one">%d شهر من الثبات</item>
+        <item quantity="two">%d شهران من الثبات</item>
+        <item quantity="few">%d أشهر من الثبات</item>
+        <item quantity="many">%d شهرًا من الثبات</item>
+        <item quantity="other">%d شهر من الثبات</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="zero">%d أيام متتالية</item>
+        <item quantity="one">%d يوم متتالٍ</item>
+        <item quantity="two">%d يومان متتاليان</item>
+        <item quantity="few">%d أيام متتالية</item>
+        <item quantity="many">%d يومًا متتاليًا</item>
+        <item quantity="other">%d يوم متتالٍ</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="zero">%d أشهر</item>
+        <item quantity="one">%d شهر</item>
+        <item quantity="two">%d شهران</item>
+        <item quantity="few">%d أشهر</item>
+        <item quantity="many">%d شهرًا</item>
+        <item quantity="other">%d شهر</item>
+    </plurals>
+
+    <string name="tabs_new_step">خطوة جديدة</string>
+    <string name="tabs_edit">تعديل</string>
+    <string name="tabs_delete">حذف</string>
+    <string name="tabs_done">تم</string>
+    <string name="tabs_back">رجوع</string>
+    <string name="tabs_earlier">السابق</string>
+    <string name="tabs_later">التالي</string>
+    <string name="tabs_delete_title">حذف %1$s؟</string>
+    <string name="tabs_eod_unlock">تُفتح عادات نهاية اليوم الساعة %1$02d:00</string>
+    <string name="tabs_check_up">المراجعة</string>
+    <string name="tabs_one_off">مرة واحدة</string>
+
+    <string name="tabs_checkin_from">المراجعة من الساعة %1$02d:00</string>
+    <string name="tabs_checkin_daily">المراجعة اليومية</string>
+    <string name="tabs_checkin_weekly">المراجعة الأسبوعية</string>
+    <string name="tabs_checkin_quarter">مراجعة الأشهر الثلاثة</string>
+    <string name="tabs_checked_in">تمت المراجعة</string>
+    <string name="tabs_quarter_section">مراجعة الأشهر الثلاثة</string>
+    <string name="tabs_previous_week">الأسبوع السابق</string>
+    <string name="tabs_next_week">الأسبوع التالي</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="zero">%1$d أيام من %2$s!</item>
+        <item quantity="one">%1$d يوم من %2$s!</item>
+        <item quantity="two">%1$d يومان من %2$s!</item>
+        <item quantity="few">%1$d أيام من %2$s!</item>
+        <item quantity="many">%1$d يومًا من %2$s!</item>
+        <item quantity="other">%1$d يوم من %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">أحسنت. تنتقل الآن إلى مراجعات الأشهر الثلاثة، ولا داعي للعلامات اليومية بعد الآن.</string>
+    <string name="tabs_celebrate_first">الأولى في %1$s.</string>
+    <string name="tabs_glance_title">أسبوعك</string>
+    <string name="tabs_glance_ticks_kept">العلامات المنجزة</string>
+    <string name="tabs_glance_days_checked_in">أيام المراجعة</string>
+    <string name="tabs_glance_top_tag">أكثر سبب للزلّات:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="zero">%1$s، %2$d مرات</item>
+        <item quantity="one">%1$s، %2$d مرة</item>
+        <item quantity="two">%1$s، %2$d مرتان</item>
+        <item quantity="few">%1$s، %2$d مرات</item>
+        <item quantity="many">%1$s، %2$d مرة</item>
+        <item quantity="other">%1$s، %2$d مرة</item>
+    </plurals>
+    <string name="tabs_glance_easiest">الأسهل:</string>
+    <string name="tabs_glance_hardest">الأصعب:</string>
+
+    <string name="tabs_changes_ongoing">استبدالات مستمرة</string>
+    <string name="tabs_changes_ongoing_tip_title">استبدال مستمر</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="zero">سيتكرر الخيار نفسه، مثل كوب القهوة أو قالب الشامبو. توضع عليه علامة في العادات لمدة %1$d أيام، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="one">سيتكرر الخيار نفسه، مثل كوب القهوة أو قالب الشامبو. توضع عليه علامة في العادات لمدة %1$d يوم، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="two">سيتكرر الخيار نفسه، مثل كوب القهوة أو قالب الشامبو. توضع عليه علامة في العادات لمدة %1$d يومين، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="few">سيتكرر الخيار نفسه، مثل كوب القهوة أو قالب الشامبو. توضع عليه علامة في العادات لمدة %1$d أيام، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="many">سيتكرر الخيار نفسه، مثل كوب القهوة أو قالب الشامبو. توضع عليه علامة في العادات لمدة %1$d يومًا، ثم يُراجَع كل 3 أشهر.</item>
+        <item quantity="other">سيتكرر الخيار نفسه، مثل كوب القهوة أو قالب الشامبو. توضع عليه علامة في العادات لمدة %1$d يوم، ثم يُراجَع كل 3 أشهر.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">لا استبدالات بعد</string>
+    <string name="tabs_changes_day_badge">اليوم %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">ثابت</string>
+    <string name="tabs_changes_one_off_todo">مرة واحدة، للإنجاز</string>
+    <string name="tabs_changes_one_off_tip">تُنجَز مرة واحدة وتنتهي، مثل ترتيب درج أو التحول إلى تعرفة طاقة خضراء أو إصلاح سترة. بعد وضع العلامة تنتقل إلى المنجزة.</string>
+    <string name="tabs_changes_nothing_waiting">لا شيء بالانتظار</string>
+    <string name="tabs_changes_finished">المنجزة · %1$d</string>
+
+    <string name="tabs_avoid_title">قائمة التجنُّب</string>
+    <string name="tabs_avoid_search">بحث…</string>
+    <string name="tabs_avoid_no_match">لا نتائج</string>
+    <string name="tabs_avoid_companies">شركات</string>
+    <string name="tabs_avoid_food">أطعمة</string>
+    <string name="tabs_avoid_products">منتجات</string>
+
+    <string name="tabs_avoid_added">أُضيف</string>
+    <string name="tabs_avoid_why">سبب التجنُّب</string>
+    <string name="tabs_avoid_own_words">بكلماتك</string>
+    <string name="tabs_avoid_brands">العلامات التجارية التي يملكها · %1$d</string>
+    <string name="tabs_avoid_brand_hint">علامة تجارية في كل سطر</string>
+    <string name="tabs_avoid_more_brands">+%1$d أخرى</string>
+    <string name="tabs_avoid_instead">البديل المقترح</string>
+    <string name="tabs_avoid_instead_hint">واحد في كل سطر</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="zero">زلّات</item>
+        <item quantity="one">زلّة</item>
+        <item quantity="two">زلّتان</item>
+        <item quantity="few">زلّات</item>
+        <item quantity="many">زلّة</item>
+        <item quantity="other">زلّة</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">تم تجنّبه</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="zero">أشهر في القائمة</item>
+        <item quantity="one">شهر في القائمة</item>
+        <item quantity="two">شهران في القائمة</item>
+        <item quantity="few">أشهر في القائمة</item>
+        <item quantity="many">شهرًا في القائمة</item>
+        <item quantity="other">شهر في القائمة</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">يُزال من قائمة التجنُّب مع سجلّه.</string>
+
+    <string name="tabs_habit_delete_text">يُحذف معها سجلّها كاملًا.</string>
+    <string name="tabs_habit_created">أُنشئت</string>
+    <string name="tabs_habit_to_do">للإنجاز</string>
+    <string name="tabs_habit_daily_ticks">العلامات اليومية</string>
+    <string name="tabs_habit_day_of">اليوم %1$d من %2$d</string>
+    <string name="tabs_habit_finished">اكتملت</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="zero">أيام متواصلة</item>
+        <item quantity="one">يوم متواصل</item>
+        <item quantity="two">يومان متواصلان</item>
+        <item quantity="few">أيام متواصلة</item>
+        <item quantity="many">يومًا متواصلًا</item>
+        <item quantity="other">يوم متواصل</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="zero">مرات انقطاع</item>
+        <item quantity="one">مرة انقطاع</item>
+        <item quantity="two">مرتا انقطاع</item>
+        <item quantity="few">مرات انقطاع</item>
+        <item quantity="many">مرة انقطاع</item>
+        <item quantity="other">مرة انقطاع</item>
+    </plurals>
+    <string name="tabs_habit_success">نجاح</string>
+    <string name="tabs_habit_current_streak">السلسلة الحالية</string>
+    <string name="tabs_habit_longest_streak">أطول سلسلة</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="zero">%1$d أيام</item>
+        <item quantity="one">%1$d يوم</item>
+        <item quantity="two">%1$d يومان</item>
+        <item quantity="few">%1$d أيام</item>
+        <item quantity="many">%1$d يومًا</item>
+        <item quantity="other">%1$d يوم</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">سبب الزلّة</string>
+    <string name="tabs_habit_remove_reason">إزالة هذا السبب</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="zero">طرق حسّنت بها حياتك</item>
+        <item quantity="one">طريقة حسّنت بها حياتك</item>
+        <item quantity="two">طريقتان حسّنت بهما حياتك</item>
+        <item quantity="few">طرق حسّنت بها حياتك</item>
+        <item quantity="many">طريقة حسّنت بها حياتك</item>
+        <item quantity="other">طريقة حسّنت بها حياتك</item>
+    </plurals>
+    <string name="tabs_insights_habits">العادات</string>
+    <string name="tabs_insights_swaps">الاستبدالات</string>
+    <string name="tabs_insights_avoids">التجنُّبات</string>
+    <string name="tabs_insights_on_track_section">على المسار</string>
+    <string name="tabs_insights_avg_days">%1$d ي</string>
+    <string name="tabs_insights_average_kept">متوسط الالتزام</string>
+    <string name="tabs_insights_days_checked_in">أيام المراجعة</string>
+    <string name="tabs_insights_on_track">على المسار</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="zero">زلّات</item>
+        <item quantity="one">زلّة</item>
+        <item quantity="two">زلّتان</item>
+        <item quantity="few">زلّات</item>
+        <item quantity="many">زلّة</item>
+        <item quantity="other">زلّة</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="zero">خطوات جديدة</item>
+        <item quantity="one">خطوة جديدة</item>
+        <item quantity="two">خطوتان جديدتان</item>
+        <item quantity="few">خطوات جديدة</item>
+        <item quantity="many">خطوة جديدة</item>
+        <item quantity="other">خطوة جديدة</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="zero">مهام لمرة واحدة أُنجزت</item>
+        <item quantity="one">مهمة لمرة واحدة أُنجزت</item>
+        <item quantity="two">مهمتان لمرة واحدة أُنجزتا</item>
+        <item quantity="few">مهام لمرة واحدة أُنجزت</item>
+        <item quantity="many">مهمة لمرة واحدة أُنجزت</item>
+        <item quantity="other">مهمة لمرة واحدة أُنجزت</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">أكبر أسباب الزلّات</string>
+    <string name="tabs_insights_added_quarter">ما أُضيف هذا الربع</string>
+    <string name="tabs_insights_past_summaries">ملخصات الأشهر الثلاثة السابقة</string>
+    <string name="tabs_insights_first_on">أول ملخص لك يصل في %1$s</string>
+    <string name="tabs_insights_all_time">منذ البداية</string>
+    <string name="tabs_insights_period">%1$s إلى %2$s %3$d</string>
+
+    <string name="forms_back">رجوع</string>
+    <string name="forms_back_habits">العادات</string>
+    <string name="forms_back_settings">الإعدادات</string>
+    <string name="forms_add">إضافة</string>
+    <string name="forms_save">حفظ</string>
+    <string name="forms_finish">إنهاء</string>
+    <string name="forms_delete">حذف</string>
+    <string name="forms_why">لماذا</string>
+    <string name="forms_never_show">عدم العرض مجددًا</string>
+    <string name="forms_every">كل</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="zero">أيام</item>
+        <item quantity="one">يوم</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">أيام</item>
+        <item quantity="many">يومًا</item>
+        <item quantity="other">يوم</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">الخطوة %1$d من %2$d</string>
+    <string name="forms_checkin_next_weekly">التالي، المراجعة الأسبوعية ›</string>
+    <string name="forms_checkin_next_quarter">التالي، مراجعة الأشهر الثلاثة ›</string>
+    <string name="forms_daily_title">المراجعة اليومية</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="zero">%1$d أيام سابقة لم تُملأ</item>
+        <item quantity="one">%1$d يوم سابق لم يُملأ</item>
+        <item quantity="two">%1$d يومان سابقان لم يُملآ</item>
+        <item quantity="few">%1$d أيام سابقة لم تُملأ</item>
+        <item quantity="many">%1$d يومًا سابقًا لم يُملأ</item>
+        <item quantity="other">%1$d يوم سابق لم يُملأ</item>
+    </plurals>
+    <string name="forms_daily_skip_all">تخطّي الكل</string>
+    <string name="forms_daily_today">اليوم · %1$s</string>
+    <string name="forms_daily_skip">تخطٍّ</string>
+    <string name="forms_daily_undo_skip">التراجع عن التخطي</string>
+    <string name="forms_daily_new_tag">وسم جديد</string>
+    <string name="forms_daily_new_tag_hint">كانت سلة المهملات ممتلئة</string>
+    <string name="forms_weekly_title">المراجعة الأسبوعية</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="zero">%1$d أسابيع متأخرة، وخطوة جديدة واحدة تكفيها كلها.</item>
+        <item quantity="one">%1$d أسبوع متأخر، وخطوة جديدة واحدة تكفيه.</item>
+        <item quantity="two">%1$d أسبوعان متأخران، وخطوة جديدة واحدة تكفيهما.</item>
+        <item quantity="few">%1$d أسابيع متأخرة، وخطوة جديدة واحدة تكفيها كلها.</item>
+        <item quantity="many">%1$d أسبوعًا متأخرًا، وخطوة جديدة واحدة تكفيها كلها.</item>
+        <item quantity="other">%1$d أسبوع متأخر، وخطوة جديدة واحدة تكفيها كلها.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">لا خطوة جديدة هذا الأسبوع</string>
+    <string name="forms_quarter_title">مراجعة الأشهر الثلاثة</string>
+    <string name="forms_quarter_nothing">لا شيء بعد لمراجعته. ملخصك هو التالي.</string>
+    <string name="forms_quarter_habits">العادات</string>
+    <string name="forms_quarter_swaps">الاستبدالات</string>
+    <string name="forms_quarter_avoid">التجنُّب</string>
+    <string name="forms_quarter_missed">ما فاتك</string>
+    <string name="forms_quarter_missed_level">ما فاتك: %1$s</string>
+
+    <string name="forms_new_title">خطوة جديدة</string>
+    <string name="forms_edit_title">تعديل: %1$s</string>
+    <string name="forms_add_kind">إضافة: %1$s</string>
+    <string name="forms_title_habit">عادة</string>
+    <string name="forms_title_swap">استبدال</string>
+    <string name="forms_title_avoid">تجنُّب</string>
+    <string name="forms_save_changes">حفظ التغييرات</string>
+    <string name="forms_what_kind">ما النوع؟</string>
+    <string name="forms_name">الاسم</string>
+    <string name="forms_your_new_step">خطوتك الجديدة</string>
+    <string name="forms_hint_habit">قراءة 10 صفحات</string>
+    <string name="forms_hint_swap">ليفة بدل الإسفنجة</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">ما نوع العادة؟</string>
+    <string name="forms_timing_tip_title">في أي وقت أو نهاية اليوم</string>
+    <string name="forms_timing_tip">في أي وقت: شيء يُفعل مرة واحدة، مثل الجري. توضع العلامة فور إنجازه.\n\nنهاية اليوم: قاعدة يُلتزم بها طوال اليوم، مثل عدم تناول الوجبات الخفيفة. لا توضع العلامة إلا في المساء.</string>
+    <string name="forms_anytime">في أي وقت</string>
+    <string name="forms_end_of_day">نهاية اليوم</string>
+    <string name="forms_what_is_it">ما هو؟</string>
+    <string name="forms_how_often">كم مرة؟</string>
+    <string name="forms_often_specific">أيام محددة</string>
+    <string name="forms_often_whenever">متى شئت</string>
+    <string name="forms_often_once">مرة واحدة فقط</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="zero">مرات كل</item>
+        <item quantity="one">مرة كل</item>
+        <item quantity="two">مرتان كل</item>
+        <item quantity="few">مرات كل</item>
+        <item quantity="many">مرة كل</item>
+        <item quantity="other">مرة كل</item>
+    </plurals>
+    <string name="forms_unit_day">يوم</string>
+    <string name="forms_unit_week">أسبوع</string>
+    <string name="forms_unit_month">شهر</string>
+    <string name="forms_unit_x_days">X أيام</string>
+    <string name="forms_ideas">أفكار</string>
+    <string name="forms_ideas_others">أخرى</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="zero">عرض كل الأفكار (%1$d) ›</item>
+        <item quantity="one">عرض الفكرة (%1$d) ›</item>
+        <item quantity="two">عرض الفكرتين (%1$d) ›</item>
+        <item quantity="few">عرض كل الأفكار (%1$d) ›</item>
+        <item quantity="many">عرض كل الأفكار (%1$d) ›</item>
+        <item quantity="other">عرض كل الأفكار (%1$d) ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">كل أفكار الخطوات</string>
+    <string name="forms_search">بحث…</string>
+    <string name="forms_all">الكل</string>
+
+    <string name="forms_settings_title">الإعدادات</string>
+    <string name="forms_set_colours">الألوان</string>
+    <string name="forms_set_style">نمط ملخص الأشهر الثلاثة</string>
+    <string name="forms_set_checkins">المراجعات</string>
+    <string name="forms_set_checkin_hour">تبدأ المراجعة اليومية الساعة</string>
+    <string name="forms_set_checkin_hour_tip">من هذا الوقت يمكنك وضع علامة على عادات نهاية اليوم وإجراء المراجعة اليومية.</string>
+    <string name="forms_set_week_start">يبدأ الأسبوع يوم</string>
+    <string name="forms_set_week_start_tip">اليوم الذي تبدأ به شبكة العادات والأسابيع والرسوم البيانية.</string>
+    <string name="forms_monday">الاثنين</string>
+    <string name="forms_sunday">الأحد</string>
+    <string name="forms_set_new_step_every">خطوة جديدة كل</string>
+    <string name="forms_set_new_step_every_tip">عدد الأسابيع بين المراجعات الأسبوعية.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="zero">أسابيع</item>
+        <item quantity="one">أسبوع</item>
+        <item quantity="two">أسبوعين</item>
+        <item quantity="few">أسابيع</item>
+        <item quantity="many">أسبوعًا</item>
+        <item quantity="other">أسبوع</item>
+    </plurals>
+    <string name="forms_set_weekly_day">يوم المراجعة الأسبوعية</string>
+    <string name="forms_set_weekly_day_tip">في هذا اليوم يأتي بعد المراجعة اليومية اختيار خطوة الأسبوع القادم.</string>
+    <string name="forms_set_checkup">مراجعة الأشهر الثلاثة</string>
+    <string name="forms_set_checkup_tip">الجميع يراجعون في الأيام نفسها: 1 يناير و1 أبريل و1 يوليو و1 أكتوبر، لتتشاركوا ملخصاتكم معًا. ويمكنك اختيار تاريخك الخاص بدلًا من ذلك.</string>
+    <string name="forms_set_same">مثل الجميع</string>
+    <string name="forms_set_own">تاريخي الخاص</string>
+    <string name="forms_set_starting">البداية في</string>
+    <string name="forms_set_starting_tip">شهر أول مراجعة خاصة بك.</string>
+    <string name="forms_earlier">السابق</string>
+    <string name="forms_later">التالي</string>
+    <string name="forms_set_every_tip">عدد الأشهر بين المراجعات.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="zero">أشهر</item>
+        <item quantity="one">شهر</item>
+        <item quantity="two">شهرين</item>
+        <item quantity="few">أشهر</item>
+        <item quantity="many">شهرًا</item>
+        <item quantity="other">شهر</item>
+    </plurals>
+    <string name="forms_set_day_of_month">يوم الشهر</string>
+    <string name="forms_set_day_of_month_tip">أي يوم من ذلك الشهر.</string>
+    <string name="forms_set_everyone">الجميع: 1 يناير · 1 أبريل · 1 يوليو · 1 أكتوبر</string>
+    <string name="forms_set_days_build">أيام بناء العادة</string>
+    <string name="forms_set_days_build_tip">وجدت الأبحاث من 18 إلى 254 يومًا، والرقم الأكثر تداولًا 66 (Lally et al. 2010، Singh et al. 2024). بعد هذا العدد من الأيام تنتقل الخطوة الجديدة إلى مراجعاتك.</string>
+    <string name="forms_set_nudge">تذكير يومي</string>
+    <string name="forms_set_nudge_tip">تذكير في هذا الوقت، فقط إذا بقي شيء بلا علامة.</string>
+    <string name="forms_set_more">المزيد</string>
+    <string name="forms_set_reasons">أسباب الزلّات</string>
+    <string name="forms_set_tutorial">إعادة الجولة التعريفية</string>
+    <string name="forms_set_export">تصدير بياناتي</string>
+    <string name="forms_set_import">استيراد البيانات</string>
+
+    <string name="forms_reasons_title">أسباب الزلّات</string>
+    <string name="forms_reasons_hint">إضافة سبب خاص</string>
+    <string name="forms_reasons_used">استُخدم %1$d×</string>
+    <string name="forms_reasons_delete_title">حذف %1$s؟</string>
+    <string name="forms_reasons_delete_text">تبقى الزلّات في سجلّك، لكن بدون هذا الوسم.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="zero">%1$d عادات</item>
+        <item quantity="one">%1$d عادة</item>
+        <item quantity="two">%1$d عادتان</item>
+        <item quantity="few">%1$d عادات</item>
+        <item quantity="many">%1$d عادة</item>
+        <item quantity="other">%1$d عادة</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="zero">%1$d استبدالات</item>
+        <item quantity="one">%1$d استبدال</item>
+        <item quantity="two">%1$d استبدالان</item>
+        <item quantity="few">%1$d استبدالات</item>
+        <item quantity="many">%1$d استبدالًا</item>
+        <item quantity="other">%1$d استبدال</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="zero">%1$d تجنُّبات</item>
+        <item quantity="one">%1$d تجنُّب</item>
+        <item quantity="two">%1$d تجنُّبان</item>
+        <item quantity="few">%1$d تجنُّبات</item>
+        <item quantity="many">%1$d تجنُّبًا</item>
+        <item quantity="other">%1$d تجنُّب</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s، %2$s، %3$s</string>
+    <string name="forms_backup_since">%1$s، علامات منذ %2$s</string>
+    <string name="forms_export_title">تصدير بياناتي</string>
+    <string name="forms_export_what">ما يحتويه الملف</string>
+    <string name="forms_export_ticks">كل علامة وزلّة وسبب</string>
+    <string name="forms_export_ticks_since">كل علامة وزلّة وسبب منذ %1$s</string>
+    <string name="forms_export_summaries">ملخصات الأشهر الثلاثة</string>
+    <string name="forms_export_settings">إعداداتك وألوانك واسمك</string>
+    <string name="forms_export_file">الملف</string>
+    <string name="forms_export_kb">%1$d ك.ب</string>
+    <string name="forms_export_save">حفظ الملف</string>
+    <string name="forms_export_send">إرسال إلى…</string>
+    <string name="forms_export_send_title">إرسال بياناتك من Alice</string>
+    <string name="forms_export_saved">تم الحفظ: %1$s</string>
+    <string name="forms_export_save_failed">تعذّر حفظ الملف</string>
+
+    <string name="forms_import_title">استيراد البيانات</string>
+    <string name="forms_import_choose">اختيار نسخة احتياطية من Alice</string>
+    <string name="forms_import_choose_sub">‎.json، من التصدير على هاتف آخر</string>
+    <string name="forms_import_cant_open">تعذّر فتح هذا الملف.</string>
+    <string name="forms_import_not_backup">هذا الملف ليس نسخة احتياطية من Alice.</string>
+    <string name="forms_import_replace_mode">استبدال ما هنا</string>
+    <string name="forms_import_add_mode">الإضافة إلى ما هنا</string>
+    <string name="forms_import_button">استيراد</string>
+    <string name="forms_import_replace_title">استبدال بياناتك؟</string>
+    <string name="forms_import_add_title">إضافة هذه البيانات؟</string>
+    <string name="forms_import_replace_text">كل ما على هذا الهاتف سيُستبدل بمحتوى الملف. للاحتفاظ به، يجب التصدير أولًا.</string>
+    <string name="forms_import_add_text">تُضاف العادات والسجلّ من الملف إلى ما لديك.</string>
+    <string name="forms_import_done">تم استيراد البيانات</string>
+
+    <string name="look_share">مشاركة</string>
+    <string name="look_save_image">حفظ الصورة</string>
+    <string name="look_next_week">التالي، أسبوعك ›</string>
+    <string name="look_keep_going">لنواصل</string>
+    <string name="look_storage_needed">تحتاج Alice إلى إذن التخزين لحفظ الصورة</string>
+    <string name="look_share_caption">ربعي مع Alice. ابدأ رحلتك: %1$s</string>
+    <string name="look_share_clip">ملخص Alice</string>
+    <string name="look_share_chooser">مشاركة ربعك</string>
+    <string name="look_saved">حُفظت في Pictures/Alice</string>
+    <string name="look_save_failed">تعذّر حفظ الصورة</string>
+
+    <string name="look_style_poster">ملصق</string>
+    <string name="look_style_wrapped">الحصاد</string>
+    <string name="look_style_trophy">خزانة الكؤوس</string>
+    <string name="look_style_receipt">إيصال</string>
+    <string name="look_style_report">بطاقة النتائج</string>
+    <string name="look_style_boarding">بطاقة صعود</string>
+    <string name="look_style_polaroid">بولارويد</string>
+    <string name="look_style_calendar">تقويم</string>
+    <string name="look_style_trading">بطاقة جمع</string>
+
+    <string name="look_quote_1">خطوات صغيرة، كل يوم</string>
+    <string name="look_quote_2">شكرًا على حضورك</string>
+    <string name="look_quote_3">التقدّم لا الكمال</string>
+    <string name="look_quote_4">واصلت. وهذا ما يهم</string>
+    <string name="look_quote_5">تغييرات صغيرة، فرق كبير</string>
+    <string name="look_quote_6">كل يوم اخترت الأفضل</string>
+    <string name="look_quote_7">البطء ما زال تقدّمًا</string>
+    <string name="look_quote_8">حياة على ذوقك تُبنى الآن</string>
+    <string name="look_quote_9">خطوة بخطوة تتراكم</string>
+    <string name="look_quote_10">الحضور من أجل نفسك يستحق الاستمرار</string>
+    <string name="look_quote_11">نفسك المستقبلية تشكرك</string>
+    <string name="look_quote_12">شيئًا فشيئًا، الكثير</string>
+    <string name="look_quote_13">الاستمرار سحر هادئ</string>
+    <string name="look_quote_14">كم قطعت من الطريق!</string>
+    <string name="look_quote_15">انتصاراتك الصغيرة تستحق الفخر</string>
+    <string name="look_quote_16">الأيام الجيدة تُبنى ولا تُوجد</string>
+
+    <string name="look_stamp_1">ممتاز</string>
+    <string name="look_stamp_2">تفوّق</string>
+    <string name="look_stamp_3">أحسنت</string>
+    <string name="look_stamp_4">رائع</string>
+    <string name="look_stamp_5">مذهل</string>
+    <string name="look_stamp_6">علامة كاملة</string>
+    <string name="look_stamp_7">نجمة ذهبية</string>
+    <string name="look_stamp_8">عمل عظيم</string>
+
+    <string name="look_period">%1$s إلى %2$s</string>
+    <string name="look_scan">امسح الرمز\nلتبدأ\nرحلتك</string>
+    <string name="look_you">أنت</string>
+    <string name="look_on_track">على المسار</string>
+    <string name="look_new_steps">خطوات جديدة</string>
+    <string name="look_days_in">يومًا حتى الآن</string>
+    <string name="look_new">جديد</string>
+    <string name="look_week_by_week">أسبوعًا بأسبوع</string>
+    <string name="look_coming_soon">قريبًا</string>
+    <string name="look_new_this_quarter">جديد هذا الربع</string>
+    <string name="look_kept_up_longest">الأطول استمرارًا</string>
+    <string name="look_habits">العادات</string>
+    <string name="look_swaps">الاستبدالات</string>
+    <string name="look_avoids">التجنُّبات</string>
+    <string name="look_ways_improved">طرق التحسّن</string>
+    <string name="look_improved_in">حسّنت حياتك بـ %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="zero">%1$d عادات</item>
+        <item quantity="one">%1$d عادة</item>
+        <item quantity="two">%1$d عادتان</item>
+        <item quantity="few">%1$d عادات</item>
+        <item quantity="many">%1$d عادة</item>
+        <item quantity="other">%1$d عادة</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="zero">%1$d استبدالات</item>
+        <item quantity="one">%1$d استبدال</item>
+        <item quantity="two">%1$d استبدالان</item>
+        <item quantity="few">%1$d استبدالات</item>
+        <item quantity="many">%1$d استبدالًا</item>
+        <item quantity="other">%1$d استبدال</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="zero">%1$d تجنُّبات</item>
+        <item quantity="one">%1$d تجنُّب</item>
+        <item quantity="two">%1$d تجنُّبان</item>
+        <item quantity="few">%1$d تجنُّبات</item>
+        <item quantity="many">%1$d تجنُّبًا</item>
+        <item quantity="other">%1$d تجنُّب</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="zero">%1$d زلّات</item>
+        <item quantity="one">%1$d زلّة</item>
+        <item quantity="two">%1$d زلّتان</item>
+        <item quantity="few">%1$d زلّات</item>
+        <item quantity="many">%1$d زلّة</item>
+        <item quantity="other">%1$d زلّة</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="zero">%1$d طرق</item>
+        <item quantity="one">%1$d طريقة</item>
+        <item quantity="two">%1$d طريقتين</item>
+        <item quantity="few">%1$d طرق</item>
+        <item quantity="many">%1$d طريقة</item>
+        <item quantity="other">%1$d طريقة</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="zero">عادات</item>
+        <item quantity="one">عادة</item>
+        <item quantity="two">عادتان</item>
+        <item quantity="few">عادات</item>
+        <item quantity="many">عادة</item>
+        <item quantity="other">عادة</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="zero">استبدالات</item>
+        <item quantity="one">استبدال</item>
+        <item quantity="two">استبدالان</item>
+        <item quantity="few">استبدالات</item>
+        <item quantity="many">استبدالًا</item>
+        <item quantity="other">استبدال</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="zero">تجنُّبات</item>
+        <item quantity="one">تجنُّب</item>
+        <item quantity="two">تجنُّبان</item>
+        <item quantity="few">تجنُّبات</item>
+        <item quantity="many">تجنُّبًا</item>
+        <item quantity="other">تجنُّب</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="zero">زلّات</item>
+        <item quantity="one">زلّة</item>
+        <item quantity="two">زلّتان</item>
+        <item quantity="few">زلّات</item>
+        <item quantity="many">زلّة</item>
+        <item quantity="other">زلّة</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="zero">طرق</item>
+        <item quantity="one">طريقة</item>
+        <item quantity="two">طريقتان</item>
+        <item quantity="few">طرق</item>
+        <item quantity="many">طريقة</item>
+        <item quantity="other">طريقة</item>
+    </plurals>
+
+    <string name="look_poster_improved">حسّنت حياتك بـ %1$s</string>
+    <string name="look_poster_on_track">على المسار</string>
+    <string name="look_poster_days">أيام</string>
+    <string name="look_poster_achievements">الإنجازات</string>
+    <string name="look_poster_first_ones">إنجازاتك الأولى في الطريق</string>
+    <string name="look_poster_added">ما أضفته هذا الربع</string>
+
+    <string name="look_wrapped_stars">نجومك</string>
+
+    <string name="look_trophy_ways">طرق حسّنت بها\nحياتك</string>
+    <string name="look_trophy_next_quarter">الربع القادم</string>
+    <string name="look_trophy_first_medal">ميداليتك الأولى</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">جديد على الرف:</string>
+
+    <string name="look_receipt_title">مراجعة الأشهر الثلاثة · %1$s</string>
+    <string name="look_receipt_customer">الاسم: %1$s</string>
+    <string name="look_receipt_habits">عادات مبنية</string>
+    <string name="look_receipt_swaps">أشياء استُبدلت</string>
+    <string name="look_receipt_avoids">أشياء تُجنّبت</string>
+    <string name="look_receipt_ways">طرق حسّنت بها حياتك</string>
+    <string name="look_receipt_on_track">على المسار هذا الربع</string>
+    <string name="look_receipt_slips">الزلّات</string>
+    <string name="look_receipt_new_steps">خطوات جديدة مبنية</string>
+    <string name="look_receipt_new">جديد هذا الربع: %1$s</string>
+
+    <string name="look_report_title">شهادة الخطوات الصغيرة</string>
+    <string name="look_report_pupil">%1$s · الاسم: %2$s</string>
+    <string name="look_report_subject">المادة</string>
+    <string name="look_report_built">مبنية</string>
+    <string name="look_report_grade">الدرجة</string>
+    <string name="look_report_attendance">الحضور %1$s</string>
+    <string name="look_report_on_track">على المسار %1$s</string>
+    <string name="look_report_slips">الزلّات %1$s</string>
+    <string name="look_report_achievements">الإنجازات</string>
+    <string name="look_report_achievement">★ %1$s، %2$s</string>
+    <string name="look_report_new">مواد جديدة هذا الفصل (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">ملاحظة المعلّم:</string>
+    <string name="look_report_calm">فصل هادئ ومستقر.</string>
+    <string name="look_report_ups_downs">فصل فيه صعود وهبوط، ومع ذلك استمرّ الالتزام.</string>
+    <string name="look_report_star">%1$s: أداء متميّز. إلى الأمام!</string>
+    <string name="look_report_keep_up">إلى الأمام!</string>
+    <string name="look_report_week">أسبوعًا بأسبوع</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">الرحلة Q%1$d</string>
+    <string name="look_boarding_from">من</string>
+    <string name="look_boarding_old">القديمة</string>
+    <string name="look_boarding_habits">العادات</string>
+    <string name="look_boarding_to">إلى</string>
+    <string name="look_boarding_new">الجديدة</string>
+    <string name="look_boarding_better_you">نسختك الأفضل</string>
+    <string name="look_boarding_passenger">الاسم</string>
+    <string name="look_boarding_dates">التواريخ</string>
+    <string name="look_boarding_miles">الأميال المقطوعة</string>
+    <string name="look_boarding_on_time">في الموعد</string>
+    <string name="look_boarding_turbulence">مطبّات</string>
+    <string name="look_boarding_days">أيام على متن الطائرة</string>
+    <string name="look_boarding_flyer">رفاق السفر، الأطول صحبة لك</string>
+    <string name="look_boarding_log">سجل الرحلة، أسبوعًا بأسبوع</string>
+    <string name="look_boarding_stops">محطات جديدة، +%1$d</string>
+    <string name="look_boarding_note">ملاحظة القبطان</string>
+
+    <string name="look_polaroid_life">حياتك</string>
+    <string name="look_polaroid_quarter">هذا الربع</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d يوم</string>
+    <string name="look_polaroid_longest">الأطول استمرارًا</string>
+    <string name="look_polaroid_new">جديد، +%1$d</string>
+
+    <string name="look_calendar_added">أُضيف</string>
+
+    <string name="look_trading_common">عادية</string>
+    <string name="look_trading_uncommon">غير شائعة</string>
+    <string name="look_trading_rare">نادرة</string>
+    <string name="look_trading_legendary">أسطورية</string>
+    <plurals name="look_trading_ways">
+        <item quantity="zero">طرق</item>
+        <item quantity="one">طريقة</item>
+        <item quantity="two">طريقتان</item>
+        <item quantity="few">طرق</item>
+        <item quantity="many">طريقة</item>
+        <item quantity="other">طريقة</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d</string>
+    <string name="look_ordinal_nd">%1$d</string>
+    <string name="look_ordinal_rd">%1$d</string>
+    <string name="look_ordinal_th">%1$d</string>
+    <string name="look_trading_number">رقم %1$03d · ربعك رقم %2$s</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d يوم</string>
+    <string name="look_trading_power">القوة، أسبوعًا بأسبوع</string>
+    <string name="look_trading_edition">%1$s · إصدار Q%2$d</string>
+
+    <string name="look_sample_water_first">الماء أولًا</string>
+    <string name="look_sample_own_bag">حقيبتي الخاصة</string>
+    <string name="look_sample_read_pages">قراءة 10 صفحات</string>
+    <string name="look_sample_reading">القراءة كل يوم</string>
+    <string name="look_sample_late_snacks">لا وجبات متأخرة</string>
+    <string name="look_sample_stretching">تمارين الإطالة</string>
+    <string name="look_sample_cooler_home">بيت أبرد</string>
+    <string name="look_sample_loofah">ليفة بدل الإسفنجة</string>
+    <string name="look_sample_palm_oil">بلا زيت نخيل</string>
+    <string name="look_sample_stretch">إطالة 10 دقائق</string>
+
+    <string name="look_colours_title">الألوان</string>
+    <string name="look_colours_preview">معاينة</string>
+    <string name="look_colours_your_summary">ملخص أشهرك الثلاثة</string>
+    <string name="look_colours_light">فاتح</string>
+    <string name="look_colours_dark">داكن</string>
+    <string name="look_styles_title">نمط ملخص الأشهر الثلاثة</string>
+    <string name="look_styles_all_pictures">عرض صور بولارويد الثلاثين كلها</string>
+    <string name="look_styles_refresh">تحديث</string>
+    <string name="look_pictures_title">صور بولارويد</string>
+    <string name="look_pictures_back">أنماط الملخص</string>
+
+    <string name="look_welcome_name">اسمك</string>
+    <string name="look_welcome_start">لنبدأ</string>
+    <string name="look_welcome_import">استيراد بياناتي</string>
+
+    <string name="look_tut_skip">تخطٍّ</string>
+    <string name="look_tut_page">%1$d من %2$d</string>
+    <string name="look_tut_back">رجوع</string>
+    <string name="look_tut_start">لنبدأ</string>
+    <string name="look_tut_next">التالي</string>
+    <string name="look_tut1_title">نحو نسخة أفضل منك، خطوة بخطوة</string>
+    <string name="look_tut1_body">عادات جديدة تُبنى، وخيارات ألطف تُتّخذ، وكل الإنجازات تتراكم أمامك.</string>
+    <string name="look_tut1_habits">عادات جيدة تُبنى يومًا بعد يوم، نحو أفضل نسخة منك.</string>
+    <string name="look_tut1_swaps">استبدال المنتجات بأخرى ألطف، أفضل للكوكب أو للناس أو لصحتك.</string>
+    <string name="look_tut1_avoids">متابعة الشركات والأطعمة والمنتجات التي يُفضَّل عدم دعمها.</string>
+    <string name="look_tut2_title">وضع العلامة</string>
+    <string name="look_tut2_body">النقر على المربع يضع العلامة بعد إنجاز العادة. عادات المساء تُفتح في وقت مراجعتك.</string>
+    <string name="look_tut3_title">%1$s، ثم كل %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="zero">%1$d أيام</item>
+        <item quantity="one">%1$d يوم</item>
+        <item quantity="two">%1$d يومان</item>
+        <item quantity="few">%1$d أيام</item>
+        <item quantity="many">%1$d يومًا</item>
+        <item quantity="other">%1$d يوم</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="zero">%1$d أشهر</item>
+        <item quantity="one">%1$d شهر</item>
+        <item quantity="two">%1$d شهرين</item>
+        <item quantity="few">%1$d أشهر</item>
+        <item quantity="many">%1$d شهرًا</item>
+        <item quantity="other">%1$d شهر</item>
+    </plurals>
+    <string name="look_tut3_body">وجدت الدراسات أن بناء العادة يستغرق من 18 إلى 254 يومًا. والرقم الأكثر تداولًا هو 66 يومًا، ولذلك تبدأ Alice منه.</string>
+    <string name="look_tut3_days_label">أيام بناء العادة</string>
+    <string name="look_tut3_checkup">مراجعة كل</string>
+    <string name="look_tut3_small">يمكنك تغيير الاثنين من الإعدادات.</string>
+    <string name="look_tut4_title">مرة في الأسبوع، خطوة جديدة</string>
+    <string name="look_tut4_body">إضافة خطوة جديدة واحدة في كل مرة تتيح لك النمو بهدوء، دون عبء كبير دفعة واحدة.</string>
+    <string name="look_tut4_day">يوم المراجعة</string>
+    <string name="look_tut4_small">يمكنك تغيير هذا أيضًا من الإعدادات.</string>
+    <string name="look_tut5_title">كل ربع، ملخصك</string>
+    <string name="look_tut5_body">مشاركة المسافة التي قطعتها مع الأصدقاء والمقرّبين. النقر على الشكل المفضّل يختاره:</string>
+    <string name="look_tut_change_mind">يمكنك دائمًا تغيير رأيك.</string>
+    <string name="look_tut6_title">اجعله لك</string>
+    <string name="look_tut6_body">اختيار الألوان الأكثر راحة لك. يتغيّر التطبيق كله فورًا.</string>
+    <string name="look_tut7_title">كل شيء قابل للتغيير، في أي وقت</string>
+    <string name="look_tut7_body">أوقات المراجعة، وأيام بناء العادة، ونمط الملخص، والألوان وبياناتك، كلها في الإعدادات.</string>
+    <string name="look_tut7_gear">النقر على الترس أعلى العادات يفتح الإعدادات.</string>
+    <string name="look_tut7_open">فتح الإعدادات</string>
+
+    <string name="lang_title">اللغة</string>
+    <string name="pron_title">الضمائر</string>
+    <string name="pron_she">هي</string>
+    <string name="pron_he">هو</string>
+    <string name="pron_they">محايد</string>
+    <string name="lang_spotted">وجدت خطأً في لغتك؟</string>
+    <string name="lang_search">البحث عن لغتك</string>
+    <string name="lang_phone">لغة الهاتف</string>
+    <string name="lang_follow">مثل هاتفك</string>
+    <string name="lang_note_title">المساعدة في الترجمة</string>
+    <string name="lang_note_1">مرحبًا، أنا Lucy وأنا من صنعت Alice.</string>
+    <string name="lang_note_2">أتحدث الإنجليزية والسلوفاكية والتشيكية والروسية، لذا راجعت تلك الترجمات بنفسي. أما اللغات الأخرى فلم يراجعها متحدث أصلي بعد.</string>
+    <string name="lang_note_3">عند ملاحظة خطأ في لغتك، يسعدني أن أعرف لأصلحه. وإذا كان استخدام Alice بلغتك مستمرًا منذ مدة وكل شيء يبدو صحيحًا، فيسعدني أن أعرف ذلك أيضًا لأعتمدها.</string>
+    <string name="lang_note_4">شكرًا لك!</string>
+    <string name="lang_not_approved">لم تُعتمد بعد</string>
+    <string name="lang_report">الإبلاغ عن خطأ</string>
+    <string name="lang_all_correct">لغتي صحيحة تمامًا</string>
+    <string name="lang_mail_mistake_body">ما الذي يبدو خطأً، وفي أي شاشة:\n\n</string>
+    <string name="lang_mail_correct_body">أستخدم Alice بلغتي منذ مدة وكل شيء يبدو صحيحًا.\n\n</string>
+    <string name="lang_no_mail">لم يُعثر على تطبيق بريد</string>
+    <!-- pronoun variants for android below 14, same as values-ar-feminine and -masculine -->
+    <string name="core_nudge_title__feminine" translatable="false">ما زال هناك ما تضعين عليه علامة اليوم</string>
+    <string name="core_nudge_title__masculine" translatable="false">ما زال هناك ما تضع عليه علامة اليوم</string>
+    <string name="core_save_failed__feminine" translatable="false">تعذّر الحفظ، حاولي مرة أخرى</string>
+    <string name="core_save_failed__masculine" translatable="false">تعذّر الحفظ، حاول مرة أخرى</string>
+    <string name="tabs_changes_one_off_tip__feminine" translatable="false">تفعلينها مرة واحدة وتنتهي، مثل ترتيب درج أو التحول إلى تعرفة طاقة خضراء أو إصلاح سترة. ضعي علامة عليها فتنتقل إلى المنجزة.</string>
+    <string name="tabs_changes_one_off_tip__masculine" translatable="false">تفعلها مرة واحدة وتنتهي، مثل ترتيب درج أو التحول إلى تعرفة طاقة خضراء أو إصلاح سترة. ضع علامة عليها فتنتقل إلى المنجزة.</string>
+    <string name="tabs_avoid_why__feminine" translatable="false">لماذا تتجنّبينه</string>
+    <string name="tabs_avoid_why__masculine" translatable="false">لماذا تتجنّبه</string>
+    <string name="tabs_avoid_instead__feminine" translatable="false">خذي هذا بدلًا منه</string>
+    <string name="tabs_avoid_instead__masculine" translatable="false">خذ هذا بدلًا منه</string>
+    <string name="forms_timing_tip__feminine" translatable="false">في أي وقت: شيء تفعلينه مرة واحدة، مثل الجري. ضعي العلامة فور إنجازه.\n\nنهاية اليوم: قاعدة تلتزمين بها طوال اليوم، مثل عدم تناول الوجبات الخفيفة. لا يمكنك وضع العلامة إلا في المساء.</string>
+    <string name="forms_timing_tip__masculine" translatable="false">في أي وقت: شيء تفعله مرة واحدة، مثل الجري. ضع العلامة فور إنجازه.\n\nنهاية اليوم: قاعدة تلتزم بها طوال اليوم، مثل عدم تناول الوجبات الخفيفة. لا يمكنك وضع العلامة إلا في المساء.</string>
+    <string name="forms_set_weekly_day_tip__feminine" translatable="false">في هذا اليوم تختارين بعد المراجعة اليومية خطوة الأسبوع القادم.</string>
+    <string name="forms_set_weekly_day_tip__masculine" translatable="false">في هذا اليوم تختار بعد المراجعة اليومية خطوة الأسبوع القادم.</string>
+    <string name="forms_import_replace_text__feminine" translatable="false">كل ما على هذا الهاتف سيُستبدل بمحتوى الملف. صدّري بياناتك أولًا إن أردتِ الاحتفاظ بها.</string>
+    <string name="forms_import_replace_text__masculine" translatable="false">كل ما على هذا الهاتف سيُستبدل بمحتوى الملف. صدّر بياناتك أولًا إن أردت الاحتفاظ بها.</string>
+    <string name="look_quote_2__feminine" translatable="false">شكرًا لأنك حاضرة</string>
+    <string name="look_quote_2__masculine" translatable="false">شكرًا لأنك حاضر</string>
+    <string name="look_quote_8__feminine" translatable="false">أنتِ تبنين حياة تحبينها</string>
+    <string name="look_quote_8__masculine" translatable="false">أنت تبني حياة تحبها</string>
+    <string name="look_quote_10__feminine" translatable="false">واصلي الحضور من أجل نفسك</string>
+    <string name="look_quote_10__masculine" translatable="false">واصل الحضور من أجل نفسك</string>
+    <string name="look_quote_14__feminine" translatable="false">انظري كم قطعتِ من الطريق</string>
+    <string name="look_quote_14__masculine" translatable="false">انظر كم قطعت من الطريق</string>
+    <string name="look_quote_15__feminine" translatable="false">افخري بانتصاراتك الصغيرة</string>
+    <string name="look_quote_15__masculine" translatable="false">افخر بانتصاراتك الصغيرة</string>
+    <string name="look_stamp_2__feminine" translatable="false">متفوّقة</string>
+    <string name="look_stamp_2__masculine" translatable="false">متفوّق</string>
+    <string name="look_report_pupil__feminine" translatable="false">%1$s · الطالبة: %2$s</string>
+    <string name="look_report_pupil__masculine" translatable="false">%1$s · الطالب: %2$s</string>
+    <string name="look_receipt_customer__feminine" translatable="false">العميلة: %1$s</string>
+    <string name="look_receipt_customer__masculine" translatable="false">العميل: %1$s</string>
+    <string name="look_boarding_passenger__feminine" translatable="false">المسافرة</string>
+    <string name="look_boarding_passenger__masculine" translatable="false">المسافر</string>
+    <string name="look_boarding_flyer__feminine" translatable="false">مسافرة دائمة، أطول رفاقك صحبة</string>
+    <string name="look_boarding_flyer__masculine" translatable="false">مسافر دائم، أطول رفاقك صحبة</string>
+    <string name="look_report_ups_downs__feminine" translatable="false">فصل فيه صعود وهبوط، وبقيتِ مستمرة.</string>
+    <string name="look_report_ups_downs__masculine" translatable="false">فصل فيه صعود وهبوط، وبقيت مستمرًا.</string>
+    <string name="look_report_star__feminine" translatable="false">%1$s: أداء متميّز. واصلي هكذا!</string>
+    <string name="look_report_star__masculine" translatable="false">%1$s: أداء متميّز. واصل هكذا!</string>
+    <string name="look_report_keep_up__feminine" translatable="false">واصلي هكذا!</string>
+    <string name="look_report_keep_up__masculine" translatable="false">واصل هكذا!</string>
+    <string name="look_tut1_title__feminine" translatable="false">كوني نسخة أفضل من نفسك، خطوة بخطوة</string>
+    <string name="look_tut1_title__masculine" translatable="false">كن نسخة أفضل من نفسك، خطوة بخطوة</string>
+    <string name="look_tut1_body__feminine" translatable="false">ابني عادات جديدة، واختاري خيارات ألطف، وشاهدي كل ما تحققينه يتراكم.</string>
+    <string name="look_tut1_body__masculine" translatable="false">ابنِ عادات جديدة، واختر خيارات ألطف، وشاهد كل ما تحققه يتراكم.</string>
+    <string name="look_tut1_habits__feminine" translatable="false">ابني عادات جيدة يومًا بعد يوم وكوني من تريدين أن تكوني.</string>
+    <string name="look_tut1_habits__masculine" translatable="false">ابنِ عادات جيدة يومًا بعد يوم وكن من تريد أن تكون.</string>
+    <string name="look_tut1_swaps__feminine" translatable="false">استبدلي المنتجات بأخرى ألطف، أفضل للكوكب أو للناس أو لصحتك.</string>
+    <string name="look_tut1_swaps__masculine" translatable="false">استبدل المنتجات بأخرى ألطف، أفضل للكوكب أو للناس أو لصحتك.</string>
+    <string name="look_tut1_avoids__feminine" translatable="false">تابعي الشركات والأطعمة والمنتجات التي تفضّلين ألا تدعميها.</string>
+    <string name="look_tut1_avoids__masculine" translatable="false">تابع الشركات والأطعمة والمنتجات التي تفضّل ألا تدعمها.</string>
+    <string name="look_tut2_body__feminine" translatable="false">انقري على مربع عندما تنجزين عادة. عادات المساء تُفتح في وقت مراجعتك.</string>
+    <string name="look_tut2_body__masculine" translatable="false">انقر على مربع عندما تنجز عادة. عادات المساء تُفتح في وقت مراجعتك.</string>
+    <string name="look_tut4_body__feminine" translatable="false">إضافة خطوة جديدة واحدة في كل مرة تتيح لك النمو بهدوء، دون أن تحمّلي نفسك الكثير دفعة واحدة.</string>
+    <string name="look_tut4_body__masculine" translatable="false">إضافة خطوة جديدة واحدة في كل مرة تتيح لك النمو بهدوء، دون أن تحمّل نفسك الكثير دفعة واحدة.</string>
+    <string name="look_tut5_body__feminine" translatable="false">شاركي أصدقاءك والمقرّبين منك كم قطعتِ من الطريق. انقري على الشكل الذي يعجبك:</string>
+    <string name="look_tut5_body__masculine" translatable="false">شارك أصدقاءك والمقرّبين منك كم قطعت من الطريق. انقر على الشكل الذي يعجبك:</string>
+    <string name="look_tut6_body__feminine" translatable="false">اختاري الألوان الأكثر راحة لك. يتغيّر التطبيق كله فورًا.</string>
+    <string name="look_tut6_body__masculine" translatable="false">اختر الألوان الأكثر راحة لك. يتغيّر التطبيق كله فورًا.</string>
+    <string name="look_tut7_title__feminine" translatable="false">غيّري ما تشائين، متى تشائين</string>
+    <string name="look_tut7_title__masculine" translatable="false">غيّر ما تشاء، متى تشاء</string>
+    <string name="look_tut7_gear__feminine" translatable="false">انقري على الترس أعلى العادات لفتح الإعدادات.</string>
+    <string name="look_tut7_gear__masculine" translatable="false">انقر على الترس أعلى العادات لفتح الإعدادات.</string>
+    <string name="lang_note_3__feminine" translatable="false">إذا وجدتِ خطأً في لغتك، أخبريني من فضلك لأصلحه. وإذا كنتِ تستخدمين Alice بلغتك منذ مدة وكل شيء يبدو صحيحًا، فأخبريني بذلك أيضًا لأعتمدها.</string>
+    <string name="lang_note_3__masculine" translatable="false">إذا وجدت خطأً في لغتك، أخبرني من فضلك لأصلحه. وإذا كنت تستخدم Alice بلغتك منذ مدة وكل شيء يبدو صحيحًا، فأخبرني بذلك أيضًا لأعتمدها.</string>
+    <!-- end pronoun variants -->
+</resources>

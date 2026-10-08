@@ -1,0 +1,772 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Қатты шаршадым</string>
+    <string name="core_reason_craving">Қатты қаладым</string>
+    <string name="core_reason_no_time">Уақыт жоқ</string>
+    <string name="core_reason_forgot">Ұмытып кеттім</string>
+    <string name="core_reason_no_alternative">Балама жоқ</string>
+    <string name="core_reason_social">Ортаның әсері</string>
+    <string name="core_reason_impulse">Кенеттен</string>
+    <string name="core_reason_too_expensive">Тым қымбат</string>
+    <string name="core_reason_away">Үйде емеспін</string>
+
+    <string name="core_nudge_channel">Күнделікті еске салу</string>
+    <string name="core_nudge_title">Бүгін әлі белгілейтін нәрсе бар</string>
+    <string name="core_save_failed">Сақтау мүмкін болмады, қайта көріп көрші</string>
+
+    <string name="core_kind_habit">Әдет</string>
+    <string name="core_kind_swap">Алмастыру</string>
+    <string name="core_kind_avoid">Аулақ болу</string>
+    <string name="core_about">%1$s туралы</string>
+    <string name="core_ok">Жарайды</string>
+    <string name="core_less">Азырақ</string>
+    <string name="core_more">Көбірек</string>
+    <string name="core_cancel">Бас тарту</string>
+    <string name="core_settings">Баптаулар</string>
+    <string name="core_span_week">Апта</string>
+    <string name="core_span_month">Ай</string>
+    <string name="core_span_year">Жыл</string>
+    <string name="core_span_all">Барлық уақыт</string>
+    <string name="core_tab_habits">Әдеттер</string>
+    <string name="core_tab_changes">Өзгерістер</string>
+    <string name="core_tab_avoid">Аулақ болу</string>
+    <string name="core_tab_insights">Қорытынды</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">орындалды</string>
+    <string name="core_cell_missed">өткізіп алдың</string>
+    <string name="core_cell_partial">ішінара орындалды, әзірге %1$d</string>
+    <string name="core_cell_unfilled">әлі толтырылмаған</string>
+    <string name="core_cell_open">орындау керек</string>
+    <string name="core_cell_locked">тексеру уақытына дейін жабық</string>
+    <string name="core_cell_future">әлі ерте</string>
+    <string name="core_cell_empty">ештеңе керек емес</string>
+    <string name="core_cell_band">осы кезеңге орындалды</string>
+    <string name="core_cell_off">бұл қадамның күні емес</string>
+    <string name="core_cell_none">бұл қадам басталмай тұрып</string>
+
+    <string name="core_rhythm_one_off">Бір реттік</string>
+    <string name="core_rhythm_end_of_day">Күн сайын, күннің соңында белгіленеді</string>
+    <string name="core_rhythm_every_day">Күн сайын</string>
+    <string name="core_rhythm_every_days">Әр %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">аптасына</string>
+    <string name="core_rhythm_a_month">айына</string>
+    <string name="core_rhythm_times_any_day">%2$s %1$s, кез келген күні</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s және %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d ай</string>
+    <string name="core_achievement_short_days">%1$d к.</string>
+    <string name="core_glance_step">%1$s, %3$d ішінен %2$d</string>
+
+    <string name="core_slip_never">Ешқашан</string>
+    <string name="core_slip_once">Бір рет</string>
+    <string name="core_slip_a_few">Бірнеше рет</string>
+    <string name="core_slip_half">Жартысы</string>
+    <string name="core_slip_most">Көбінесе</string>
+    <string name="core_slip_always">Әрқашан</string>
+
+    <string name="core_ideas_habit_anytime">Әдеттер, кез келген уақытта</string>
+    <string name="core_ideas_habit_end">Әдеттер, күннің соңында</string>
+    <string name="core_ideas_swap">Алмастырулар</string>
+    <string name="core_ideas_avoid_product">Аулақ болу, өнімдер</string>
+    <string name="core_ideas_avoid_company">Аулақ болу, компаниялар</string>
+    <string name="core_ideas_avoid_food">Аулақ болу, тамақ</string>
+
+    <string name="core_tag_ethical">Этика</string>
+    <string name="core_tag_health">Денсаулық</string>
+    <string name="core_tag_clutter">Артық заттар</string>
+    <string name="core_tag_ecological">Экология</string>
+    <string name="core_tag_animal_welfare">Жануарлардың әл-ауқаты</string>
+    <string name="core_tag_workers_rights">Жұмысшылар құқығы</string>
+    <string name="core_tag_plastic">Пластик</string>
+    <string name="core_tag_palm_oil">Пальма майы</string>
+    <string name="core_tag_deforestation">Орман кесу</string>
+    <string name="core_category_company">Компания</string>
+    <string name="core_category_food">Тамақ</string>
+    <string name="core_category_product">Өнім</string>
+    <string name="core_verdict_avoid">АУЛАҚ БОЛ</string>
+    <string name="core_verdict_edge">ШЕКАРАДА</string>
+    <string name="core_verdict_fine">ЖАРАЙДЫ</string>
+
+    <string name="core_theme_off_white_honey">Сүтті ақ &amp; бал</string>
+    <string name="core_theme_vanilla_caramel">Ваниль &amp; карамель</string>
+    <string name="core_theme_sunflower">Күнбағыс</string>
+    <string name="core_theme_latte">Латте</string>
+    <string name="core_theme_cocoa_lemon">Какао &amp; лимон</string>
+    <string name="core_theme_espresso_butter">Эспрессо &amp; май</string>
+    <string name="core_theme_midnight_honey">Түн ортасы &amp; бал</string>
+    <string name="core_theme_forest_night">Ормандағы түн</string>
+    <string name="core_theme_plum_dusk">Алхоры іңірі</string>
+    <string name="core_theme_charcoal_coral">Көмір &amp; маржан</string>
+
+    <string name="core_pic_sunny_meadow">Шуақты шалғын</string>
+    <string name="core_pic_sunset_hills">Күн батқандағы төбелер</string>
+    <string name="core_pic_starry_night">Жұлдызды түн</string>
+    <string name="core_pic_beach_day">Жағажай күні</string>
+    <string name="core_pic_mountain_lake">Тау көлі</string>
+    <string name="core_pic_snowy_village">Қарлы ауыл</string>
+    <string name="core_pic_rainy_garden">Жаңбырлы бақ</string>
+    <string name="core_pic_autumn_forest">Күзгі орман</string>
+    <string name="core_pic_cherry_blossom">Гүлдеген шие</string>
+    <string name="core_pic_desert_cactus">Шөлдегі кактус</string>
+    <string name="core_pic_lighthouse">Маяк</string>
+    <string name="core_pic_rainbow_field">Кемпірқосақты дала</string>
+    <string name="core_pic_hot_air_balloon">Әуе шары</string>
+    <string name="core_pic_sailboat">Желкенді қайық</string>
+    <string name="core_pic_cabin_in_the_woods">Ормандағы саятшы</string>
+    <string name="core_pic_tulip_field">Қызғалдақ даласы</string>
+    <string name="core_pic_campfire_night">Алау жанындағы түн</string>
+    <string name="core_pic_misty_mountains">Тұманды таулар</string>
+    <string name="core_pic_sunrise_sea">Таң шапағындағы теңіз</string>
+    <string name="core_pic_snowy_pines">Қарлы қарағайлар</string>
+    <string name="core_pic_lavender_field">Лаванда даласы</string>
+    <string name="core_pic_waterfall">Сарқырама</string>
+    <string name="core_pic_city_at_dusk">Іңірдегі қала</string>
+    <string name="core_pic_picnic">Пикник</string>
+    <string name="core_pic_moon_over_the_lake">Көл үстіндегі ай</string>
+    <string name="core_pic_palm_island">Пальмалы арал</string>
+    <string name="core_pic_windmill">Жел диірмені</string>
+    <string name="core_pic_bike_path">Велосипед жолы</string>
+    <string name="core_pic_greenhouse">Жылыжай</string>
+    <string name="core_pic_northern_lights">Солтүстік шұғыласы</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d қадам сені күтіп тұр.</item>
+        <item quantity="other">%d қадам сені күтіп тұр.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">орындалды, %d рет</item>
+        <item quantity="other">орындалды, %d рет</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">күніне %d рет</item>
+        <item quantity="other">күніне %d рет</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Бір рет</item>
+        <item quantity="other">%d рет</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">әр %d апта сайын</item>
+        <item quantity="other">әр %d апта сайын</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">әр %d ай сайын</item>
+        <item quantity="other">әр %d ай сайын</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">әр %d күн сайын</item>
+        <item quantity="other">әр %d күн сайын</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d ай, бір рет те өткізбей</item>
+        <item quantity="other">%d ай, бір рет те өткізбей</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d ай тұрақты</item>
+        <item quantity="other">%d ай тұрақты</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d күн қатарынан</item>
+        <item quantity="other">%d күн қатарынан</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d ай</item>
+        <item quantity="other">%d ай</item>
+    </plurals>
+
+    <string name="tabs_new_step">Жаңа қадам</string>
+    <string name="tabs_edit">Өңдеу</string>
+    <string name="tabs_delete">Жою</string>
+    <string name="tabs_done">Дайын</string>
+    <string name="tabs_back">Артқа</string>
+    <string name="tabs_earlier">Ертерек</string>
+    <string name="tabs_later">Кейінірек</string>
+    <string name="tabs_delete_title">%1$s жойылсын ба?</string>
+    <string name="tabs_eod_unlock">Кешкі әдеттер %1$02d:00-де ашылады</string>
+    <string name="tabs_check_up">Шолу</string>
+    <string name="tabs_one_off">Бір реттік</string>
+
+    <string name="tabs_checkin_from">Тексеру %1$02d:00-ден бастап</string>
+    <string name="tabs_checkin_daily">Күнделікті тексеру</string>
+    <string name="tabs_checkin_weekly">Апталық тексеру</string>
+    <string name="tabs_checkin_quarter">3 айлық шолу</string>
+    <string name="tabs_checked_in">Тексерілді</string>
+    <string name="tabs_quarter_section">3 АЙЛЫҚ ШОЛУ</string>
+    <string name="tabs_previous_week">Өткен апта</string>
+    <string name="tabs_next_week">Келесі апта</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%2$s, %1$d күн!</item>
+        <item quantity="other">%2$s, %1$d күн!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Жарайсың. Енді ол 3 айлық шолуларыңа ауысады, күнде белгілеудің қажеті жоқ.</string>
+    <string name="tabs_celebrate_first">Біріншісі: %1$s.</string>
+    <string name="tabs_glance_title">Сенің аптаң</string>
+    <string name="tabs_glance_ticks_kept">Орындалған белгілер</string>
+    <string name="tabs_glance_days_checked_in">Тексерілген күндер</string>
+    <string name="tabs_glance_top_tag">Жиі қолданылған себеп:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d рет</item>
+        <item quantity="other">%1$s, %2$d рет</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Ең оңайы:</string>
+    <string name="tabs_glance_hardest">Ең қиыны:</string>
+
+    <string name="tabs_changes_ongoing">Жалғасып жатқан алмастырулар</string>
+    <string name="tabs_changes_ongoing_tip_title">Жалғасып жатқан алмастыру</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Сен бұл таңдаумен қайта кездесесің, мысалы кофе стақаны не қатты сусабын. Ол %1$d күн бойы Әдеттерде белгіленеді, кейін әр 3 ай сайын тексеріледі.</item>
+        <item quantity="other">Сен бұл таңдаумен қайта кездесесің, мысалы кофе стақаны не қатты сусабын. Ол %1$d күн бойы Әдеттерде белгіленеді, кейін әр 3 ай сайын тексеріледі.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Әзірге алмастыру жоқ</string>
+    <string name="tabs_changes_day_badge">КҮН %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">БЕКІП ЖАТЫР</string>
+    <string name="tabs_changes_one_off_todo">Бір реттік, орындау керек</string>
+    <string name="tabs_changes_one_off_tip">Бір рет жасайсың, сонымен бітті, мысалы тартпаны ретке келтіру, жасыл энергия тарифіне көшу не күртеңді жөндеу. Белгіле, сонда ол Аяқталғандарға ауысады.</string>
+    <string name="tabs_changes_nothing_waiting">Күтіп тұрған ештеңе жоқ</string>
+    <string name="tabs_changes_finished">АЯҚТАЛДЫ · %1$d</string>
+
+    <string name="tabs_avoid_title">Аулақ болу тізімі</string>
+    <string name="tabs_avoid_search">Іздеу…</string>
+    <string name="tabs_avoid_no_match">Ештеңе табылмады</string>
+    <string name="tabs_avoid_companies">Компаниялар</string>
+    <string name="tabs_avoid_food">Тамақ</string>
+    <string name="tabs_avoid_products">Өнімдер</string>
+
+    <string name="tabs_avoid_added">Қосылды</string>
+    <string name="tabs_avoid_why">Неге одан аулақсың</string>
+    <string name="tabs_avoid_own_words">Өз сөзіңмен</string>
+    <string name="tabs_avoid_brands">Оған тиесілі брендтер · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Әр жолға бір бренд</string>
+    <string name="tabs_avoid_more_brands">тағы +%1$d</string>
+    <string name="tabs_avoid_instead">Оның орнына мынаны ал</string>
+    <string name="tabs_avoid_instead_hint">Әр жолға біреу</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">тайғанау</item>
+        <item quantity="other">тайғанау</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">аулақ болдың</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">ай тізімде</item>
+        <item quantity="other">ай тізімде</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Ол тарихымен бірге Аулақ болу тізіміңнен өшіріледі.</string>
+
+    <string name="tabs_habit_delete_text">Оның бүкіл тарихы да бірге өшеді.</string>
+    <string name="tabs_habit_created">Құрылды</string>
+    <string name="tabs_habit_to_do">Орындау керек</string>
+    <string name="tabs_habit_daily_ticks">Күнделікті белгілер</string>
+    <string name="tabs_habit_day_of">%2$d күннің %1$d-сі</string>
+    <string name="tabs_habit_finished">Аяқталды</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">күн жалғасуда</item>
+        <item quantity="other">күн жалғасуда</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">рет үзілді</item>
+        <item quantity="other">рет үзілді</item>
+    </plurals>
+    <string name="tabs_habit_success">табыс</string>
+    <string name="tabs_habit_current_streak">Қазіргі тізбек</string>
+    <string name="tabs_habit_longest_streak">Ең ұзақ тізбек</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d күн</item>
+        <item quantity="other">%1$d күн</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Неге тайғандың</string>
+    <string name="tabs_habit_remove_reason">Бұл себепті алып тастау</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">өміріңді жақсартқан тәсіл</item>
+        <item quantity="other">өміріңді жақсартқан тәсіл</item>
+    </plurals>
+    <string name="tabs_insights_habits">Әдеттер</string>
+    <string name="tabs_insights_swaps">Алмастырулар</string>
+    <string name="tabs_insights_avoids">Аулақ болулар</string>
+    <string name="tabs_insights_on_track_section">Жолында</string>
+    <string name="tabs_insights_avg_days">%1$d к.</string>
+    <string name="tabs_insights_average_kept">орташа орындалуы</string>
+    <string name="tabs_insights_days_checked_in">тексерілген күн</string>
+    <string name="tabs_insights_on_track">жолында</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">тайғанау</item>
+        <item quantity="other">тайғанау</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">жаңа қадам</item>
+        <item quantity="other">жаңа қадам</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">бір реттік орындалды</item>
+        <item quantity="other">бір реттік орындалды</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Тайғанаудың басты себептері</string>
+    <string name="tabs_insights_added_quarter">Осы тоқсанда қосылғандар</string>
+    <string name="tabs_insights_past_summaries">Өткен 3 айлық қорытындылар</string>
+    <string name="tabs_insights_first_on">Біріншісі %1$s келеді</string>
+    <string name="tabs_insights_all_time">Барлық уақыт</string>
+    <string name="tabs_insights_period">%1$s - %2$s %3$d</string>
+
+    <string name="forms_back">Артқа</string>
+    <string name="forms_back_habits">Әдеттер</string>
+    <string name="forms_back_settings">Баптаулар</string>
+    <string name="forms_add">Қосу</string>
+    <string name="forms_save">Сақтау</string>
+    <string name="forms_finish">Аяқтау</string>
+    <string name="forms_delete">Жою</string>
+    <string name="forms_why">Неге</string>
+    <string name="forms_never_show">Енді көрсетпеу</string>
+    <string name="forms_every">Әр</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">күн</item>
+        <item quantity="other">күн</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">%2$d қадамның %1$d-сі</string>
+    <string name="forms_checkin_next_weekly">Келесі, апталық тексеру ›</string>
+    <string name="forms_checkin_next_quarter">Келесі, 3 айлық шолу ›</string>
+    <string name="forms_daily_title">Күнделікті тексеру</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">Бұрынғы %1$d күн толтырылмаған</item>
+        <item quantity="other">Бұрынғы %1$d күн толтырылмаған</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Барлығын өткізу</string>
+    <string name="forms_daily_today">Бүгін · %1$s</string>
+    <string name="forms_daily_skip">Өткізу</string>
+    <string name="forms_daily_undo_skip">Өткізуді болдырмау</string>
+    <string name="forms_daily_new_tag">Жаңа тег</string>
+    <string name="forms_daily_new_tag_hint">Қоқыс жәшігі толы еді</string>
+    <string name="forms_weekly_title">Апталық тексеру</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d апта қалып қойды, бір жаңа қадам бәрін жабады.</item>
+        <item quantity="other">%1$d апта қалып қойды, бір жаңа қадам бәрін жабады.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Бұл аптада жаңа қадам жоқ</string>
+    <string name="forms_quarter_title">3 айлық шолу</string>
+    <string name="forms_quarter_nothing">Шолатын ештеңе әлі жоқ. Келесі сенің қорытындың.</string>
+    <string name="forms_quarter_habits">Әдеттер</string>
+    <string name="forms_quarter_swaps">Алмастырулар</string>
+    <string name="forms_quarter_avoid">Аулақ болу</string>
+    <string name="forms_quarter_missed">Өткізілді</string>
+    <string name="forms_quarter_missed_level">Өткізілді: %1$s</string>
+
+    <string name="forms_new_title">Жаңа қадам</string>
+    <string name="forms_edit_title">Өңдеу: %1$s</string>
+    <string name="forms_add_kind">Қосу: %1$s</string>
+    <string name="forms_title_habit">Әдет</string>
+    <string name="forms_title_swap">Алмастыру</string>
+    <string name="forms_title_avoid">Аулақ болу</string>
+    <string name="forms_save_changes">Өзгерістерді сақтау</string>
+    <string name="forms_what_kind">Қандай түрі?</string>
+    <string name="forms_name">Атауы</string>
+    <string name="forms_your_new_step">Сенің жаңа қадамың</string>
+    <string name="forms_hint_habit">10 бет оқу</string>
+    <string name="forms_hint_swap">Губка емес, люфа</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Қандай әдет?</string>
+    <string name="forms_timing_tip_title">Кез келген уақытта не күннің соңында</string>
+    <string name="forms_timing_tip">Кез келген уақытта: бір рет жасайтын нәрсе, мысалы жүгіру. Орындаған бойда белгіле.\n\nКүннің соңында: күні бойы ұстанатын ереже, мысалы тәттілер жемеу. Оны тек кешке белгілей аласың.</string>
+    <string name="forms_anytime">Кез келген уақытта</string>
+    <string name="forms_end_of_day">Күннің соңында</string>
+    <string name="forms_what_is_it">Бұл не?</string>
+    <string name="forms_how_often">Қаншалықты жиі?</string>
+    <string name="forms_often_specific">Белгілі күндері</string>
+    <string name="forms_often_whenever">Кез келген уақытта</string>
+    <string name="forms_often_once">Бір рет қана</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">рет, әр</item>
+        <item quantity="other">рет, әр</item>
+    </plurals>
+    <string name="forms_unit_day">күн</string>
+    <string name="forms_unit_week">апта</string>
+    <string name="forms_unit_month">ай</string>
+    <string name="forms_unit_x_days">X күн</string>
+    <string name="forms_ideas">Идеялар</string>
+    <string name="forms_ideas_others">Басқалар</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Барлық %1$d идеяны көру ›</item>
+        <item quantity="other">Барлық %1$d идеяны көру ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Барлық қадам идеялары</string>
+    <string name="forms_search">Іздеу…</string>
+    <string name="forms_all">Барлығы</string>
+
+    <string name="forms_settings_title">Баптаулар</string>
+    <string name="forms_set_colours">Түстер</string>
+    <string name="forms_set_style">3 айлық қорытынды стилі</string>
+    <string name="forms_set_checkins">Тексерулер</string>
+    <string name="forms_set_checkin_hour">Күнделікті тексеру ашылатын уақыт</string>
+    <string name="forms_set_checkin_hour_tip">Осы уақыттан бастап кешкі әдеттерді белгілеп, күнделікті тексеруді өткізе аласың.</string>
+    <string name="forms_set_week_start">Апта басталатын күн</string>
+    <string name="forms_set_week_start_tip">Әдеттер кестесі, апталар мен графиктер қай күннен басталады.</string>
+    <string name="forms_monday">Дүйсенбі</string>
+    <string name="forms_sunday">Жексенбі</string>
+    <string name="forms_set_new_step_every">Жаңа қадам әр</string>
+    <string name="forms_set_new_step_every_tip">Апталық тексерулердің арасы қанша апта.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">апта</item>
+        <item quantity="other">апта</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Апталық тексеру күні</string>
+    <string name="forms_set_weekly_day_tip">Бұл күні күнделікті тексеруден кейін келесі аптаның жаңа қадамын таңдайсың.</string>
+    <string name="forms_set_checkup">3 айлық шолу</string>
+    <string name="forms_set_checkup_tip">Барлығы шолуды бір күндері жасайды: 1 қаңтар, 1 сәуір, 1 шілде және 1 қазан, сонда қорытындыларыңмен бірге бөлісе аласыңдар. Оның орнына өз күніңді таңдай аласың.</string>
+    <string name="forms_set_same">Барлығымен бірдей</string>
+    <string name="forms_set_own">Өз күнім</string>
+    <string name="forms_set_starting">Басталуы</string>
+    <string name="forms_set_starting_tip">Өзіңнің алғашқы шолуыңның айы.</string>
+    <string name="forms_earlier">Ертерек</string>
+    <string name="forms_later">Кейінірек</string>
+    <string name="forms_set_every_tip">Шолулардың арасы қанша ай.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">ай</item>
+        <item quantity="other">ай</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Айдың күні</string>
+    <string name="forms_set_day_of_month_tip">Сол айдың қай күні.</string>
+    <string name="forms_set_everyone">Барлығы: 1 қаң · 1 сәу · 1 шіл · 1 қаз</string>
+    <string name="forms_set_days_build">Әдет қалыптастыру күндері</string>
+    <string name="forms_set_days_build_tip">Зерттеулер 18 бен 254 күн аралығын тапты, ең жиі айтылатыны 66 (Lally et al. 2010, Singh et al. 2024). Осыншама күннен кейін жаңа қадам шолуларыңа ауысады.</string>
+    <string name="forms_set_nudge">Күнделікті еске салу</string>
+    <string name="forms_set_nudge_tip">Осы уақытта еске салу, тек бірдеңе әлі белгіленбеген болса.</string>
+    <string name="forms_set_more">Тағы</string>
+    <string name="forms_set_reasons">Тайғанау себептері</string>
+    <string name="forms_set_tutorial">Нұсқаулықты қайта көру</string>
+    <string name="forms_set_export">Деректерімді экспорттау</string>
+    <string name="forms_set_import">Деректерді импорттау</string>
+
+    <string name="forms_reasons_title">Тайғанау себептері</string>
+    <string name="forms_reasons_hint">Өз себебіңді қос</string>
+    <string name="forms_reasons_used">%1$d× қолданылды</string>
+    <string name="forms_reasons_delete_title">%1$s жойылсын ба?</string>
+    <string name="forms_reasons_delete_text">Тайғанаулар тарихыңда қалады, тек бұл тегсіз.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d әдет</item>
+        <item quantity="other">%1$d әдет</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d алмастыру</item>
+        <item quantity="other">%1$d алмастыру</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d аулақ болу</item>
+        <item quantity="other">%1$d аулақ болу</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, %2$s бастап белгілер</string>
+    <string name="forms_export_title">Деректерімді экспорттау</string>
+    <string name="forms_export_what">Файлға не кіреді</string>
+    <string name="forms_export_ticks">Әр белгі, тайғанау және себеп</string>
+    <string name="forms_export_ticks_since">%1$s бастап әр белгі, тайғанау және себеп</string>
+    <string name="forms_export_summaries">Сенің 3 айлық қорытындыларың</string>
+    <string name="forms_export_settings">Баптауларың, түстерің және атың</string>
+    <string name="forms_export_file">Файл</string>
+    <string name="forms_export_kb">%1$d КБ</string>
+    <string name="forms_export_save">Файлды сақтау</string>
+    <string name="forms_export_send">Жіберу…</string>
+    <string name="forms_export_send_title">Alice деректеріңді жіберу</string>
+    <string name="forms_export_saved">Сақталды: %1$s</string>
+    <string name="forms_export_save_failed">Файлды сақтау мүмкін болмады</string>
+
+    <string name="forms_import_title">Деректерді импорттау</string>
+    <string name="forms_import_choose">Alice сақтық көшірмесін таңда</string>
+    <string name="forms_import_choose_sub">.json, басқа телефондағы Экспорттан</string>
+    <string name="forms_import_cant_open">Бұл файлды ашу мүмкін болмады.</string>
+    <string name="forms_import_not_backup">Бұл файл Alice сақтық көшірмесі емес.</string>
+    <string name="forms_import_replace_mode">Бардың орнына қою</string>
+    <string name="forms_import_add_mode">Барға қосу</string>
+    <string name="forms_import_button">Импорттау</string>
+    <string name="forms_import_replace_title">Деректеріңді ауыстырасың ба?</string>
+    <string name="forms_import_add_title">Бұл деректерді қосасың ба?</string>
+    <string name="forms_import_replace_text">Бұл телефондағының бәрі файлмен ауыстырылады. Сақтап қалғың келсе, алдымен экспортта.</string>
+    <string name="forms_import_add_text">Файлдағы әдеттер мен тарих сенікіне қосылады.</string>
+    <string name="forms_import_done">Деректер импортталды</string>
+
+    <string name="look_share">Бөлісу</string>
+    <string name="look_save_image">Суретті сақтау</string>
+    <string name="look_next_week">Келесі, сенің аптаң ›</string>
+    <string name="look_keep_going">Жалғастыра бер</string>
+    <string name="look_storage_needed">Суретті сақтау үшін Alice-ке жадқа рұқсат керек</string>
+    <string name="look_share_caption">Менің Alice-пен өткен тоқсаным. Сен де баста: %1$s</string>
+    <string name="look_share_clip">Alice қорытындысы</string>
+    <string name="look_share_chooser">Тоқсаныңмен бөліс</string>
+    <string name="look_saved">Pictures/Alice ішіне сақталды</string>
+    <string name="look_save_failed">Суретті сақтау мүмкін болмады</string>
+
+    <string name="look_style_poster">Постер</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Марапаттар сөресі</string>
+    <string name="look_style_receipt">Чек</string>
+    <string name="look_style_report">Табель</string>
+    <string name="look_style_boarding">Отырғызу талоны</string>
+    <string name="look_style_polaroid">Полароид</string>
+    <string name="look_style_calendar">Күнтізбе</string>
+    <string name="look_style_trading">Коллекциялық карта</string>
+
+    <string name="look_quote_1">Кішкентай Қадамдар, Күн Сайын</string>
+    <string name="look_quote_2">Келгеніңе Рақмет</string>
+    <string name="look_quote_3">Мінсіздік Емес, Алға Жылжу</string>
+    <string name="look_quote_4">Сен Тоқтамадың. Бұл Маңызды</string>
+    <string name="look_quote_5">Кішкентай Өзгерістер, Үлкен Айырмашылық</string>
+    <string name="look_quote_6">Күн Сайын Жақсысын Таңдадың</string>
+    <string name="look_quote_7">Баяу Болса Да Алға</string>
+    <string name="look_quote_8">Сен Ұнайтын Өмір Құрып Жатырсың</string>
+    <string name="look_quote_9">Қадам Артынан Қадам Жиналады</string>
+    <string name="look_quote_10">Өзің Үшін Келе Бер</string>
+    <string name="look_quote_11">Болашақ Өзің Рақмет Айтады</string>
+    <string name="look_quote_12">Тамшыдан Көл Жиналады</string>
+    <string name="look_quote_13">Тұрақтылық Үнсіз Сиқыр</string>
+    <string name="look_quote_14">Қаншалықты Алға Жеткеніңе Қара</string>
+    <string name="look_quote_15">Кішкентай Жеңістеріңді Мақтан Ет</string>
+    <string name="look_quote_16">Жақсы Күндер Табылмайды, Жасалады</string>
+
+    <string name="look_stamp_1">ӨТЕ ЖАҚСЫ</string>
+    <string name="look_stamp_2">ТАМАША</string>
+    <string name="look_stamp_3">ЖАРАЙСЫҢ</string>
+    <string name="look_stamp_4">КЕРЕМЕТ</string>
+    <string name="look_stamp_5">ҒАЖАП</string>
+    <string name="look_stamp_6">ЕҢ ЖОҒАРЫ БАҒА</string>
+    <string name="look_stamp_7">АЛТЫН ЖҰЛДЫЗ</string>
+    <string name="look_stamp_8">ЖАҚСЫ ЖҰМЫС</string>
+
+    <string name="look_period">%1$s - %2$s</string>
+    <string name="look_scan">ӨЗ ЖОЛЫҢДЫ\nБАСТАУ ҮШІН\nСКАНЕРЛЕ</string>
+    <string name="look_you">Сен</string>
+    <string name="look_on_track">жолында</string>
+    <string name="look_new_steps">жаңа қадам</string>
+    <string name="look_days_in">күн өтті</string>
+    <string name="look_new">жаңа</string>
+    <string name="look_week_by_week">Апта сайын</string>
+    <string name="look_coming_soon">Жақында</string>
+    <string name="look_new_this_quarter">Осы тоқсанда жаңа</string>
+    <string name="look_kept_up_longest">Ең ұзақ ұстанғандар</string>
+    <string name="look_habits">Әдеттер</string>
+    <string name="look_swaps">Алмастырулар</string>
+    <string name="look_avoids">Аулақ болулар</string>
+    <string name="look_ways_improved">Жақсарту тәсілдері</string>
+    <string name="look_improved_in">Сен өміріңді жақсарттың: %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d әдет</item>
+        <item quantity="other">%1$d әдет</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d алмастыру</item>
+        <item quantity="other">%1$d алмастыру</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d аулақ болу</item>
+        <item quantity="other">%1$d аулақ болу</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d тайғанау</item>
+        <item quantity="other">%1$d тайғанау</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d тәсіл</item>
+        <item quantity="other">%1$d тәсіл</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">әдет</item>
+        <item quantity="other">әдет</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">алмастыру</item>
+        <item quantity="other">алмастыру</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">аулақ болу</item>
+        <item quantity="other">аулақ болу</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">тайғанау</item>
+        <item quantity="other">тайғанау</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">тәсіл</item>
+        <item quantity="other">тәсіл</item>
+    </plurals>
+
+    <string name="look_poster_improved">Сен өміріңді жақсарттың: %1$s</string>
+    <string name="look_poster_on_track">ЖОЛЫНДА</string>
+    <string name="look_poster_days">күн</string>
+    <string name="look_poster_achievements">Жетістіктер</string>
+    <string name="look_poster_first_ones">Алғашқылары жолда</string>
+    <string name="look_poster_added">Осы тоқсанда не қостың</string>
+
+    <string name="look_wrapped_stars">Сенің жұлдыздарың</string>
+
+    <string name="look_trophy_ways">өміріңді жақсартқан\nтәсілдер</string>
+    <string name="look_trophy_next_quarter">Келесі тоқсан</string>
+    <string name="look_trophy_first_medal">алғашқы медалің</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Сөреде жаңа:</string>
+
+    <string name="look_receipt_title">3 айлық шолу · %1$s</string>
+    <string name="look_receipt_customer">Клиент: %1$s</string>
+    <string name="look_receipt_habits">Қалыптасқан әдеттер</string>
+    <string name="look_receipt_swaps">Алмастырылған заттар</string>
+    <string name="look_receipt_avoids">Аулақ болған заттар</string>
+    <string name="look_receipt_ways">Өміріңді жақсартқан тәсілдер</string>
+    <string name="look_receipt_on_track">Осы тоқсанда жолында</string>
+    <string name="look_receipt_slips">Тайғанаулар</string>
+    <string name="look_receipt_new_steps">Қалыптасқан жаңа қадамдар</string>
+    <string name="look_receipt_new">Осы тоқсанда жаңа: %1$s</string>
+
+    <string name="look_report_title">Кішкентай Қадамдар Табелі</string>
+    <string name="look_report_pupil">%1$s · Оқушы: %2$s</string>
+    <string name="look_report_subject">ПӘН</string>
+    <string name="look_report_built">ҚАЛЫПТАСТЫ</string>
+    <string name="look_report_grade">БАҒА</string>
+    <string name="look_report_attendance">Қатысу %1$s</string>
+    <string name="look_report_on_track">Жолында %1$s</string>
+    <string name="look_report_slips">Тайғанаулар %1$s</string>
+    <string name="look_report_achievements">ЖЕТІСТІКТЕР</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">БҰЛ ТОҚСАНДАҒЫ ЖАҢА ПӘНДЕР (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Мұғалімнің пікірі:</string>
+    <string name="look_report_calm">Тыныш, бірқалыпты тоқсан.</string>
+    <string name="look_report_ups_downs">Өрлеуі мен құлдырауы бар тоқсан, бірақ сен берік болдың.</string>
+    <string name="look_report_star">%1$s тамаша нәтиже көрсетті. Осылай жалғастыр!</string>
+    <string name="look_report_keep_up">Осылай жалғастыр!</string>
+    <string name="look_report_week">АПТА САЙЫН</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Рейс Q%1$d</string>
+    <string name="look_boarding_from">ҚАЙДАН</string>
+    <string name="look_boarding_old">ЕСКІ</string>
+    <string name="look_boarding_habits">әдеттер</string>
+    <string name="look_boarding_to">ҚАЙДА</string>
+    <string name="look_boarding_new">ЖАҢА</string>
+    <string name="look_boarding_better_you">жақсырақ сен</string>
+    <string name="look_boarding_passenger">Жолаушы</string>
+    <string name="look_boarding_dates">Күндер</string>
+    <string name="look_boarding_miles">Ұшқан миль</string>
+    <string name="look_boarding_on_time">Уақытында</string>
+    <string name="look_boarding_turbulence">Турбуленттік</string>
+    <string name="look_boarding_days">Бортта өткен күн</string>
+    <string name="look_boarding_flyer">ТҰРАҚТЫ ЖОЛАУШЫ, ЕҢ ҰЗАҚ СЕРІКТЕРІҢ</string>
+    <string name="look_boarding_log">ҰШУ ЖУРНАЛЫ, АПТА САЙЫН</string>
+    <string name="look_boarding_stops">ЖАҢА АЯЛДАМАЛАР, +%1$d</string>
+    <string name="look_boarding_note">КАПИТАННЫҢ ЖАЗБАСЫ</string>
+
+    <string name="look_polaroid_life">СЕНІҢ ӨМІРІҢ</string>
+    <string name="look_polaroid_quarter">ОСЫ ТОҚСАН</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d күн өтті</string>
+    <string name="look_polaroid_longest">ЕҢ ҰЗАҚ ҰСТАНҒАНДАР</string>
+    <string name="look_polaroid_new">ЖАҢА, +%1$d</string>
+
+    <string name="look_calendar_added">Қосылды</string>
+
+    <string name="look_trading_common">Қарапайым</string>
+    <string name="look_trading_uncommon">Сирек емес</string>
+    <string name="look_trading_rare">Сирек</string>
+    <string name="look_trading_legendary">Аңыздық</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">ТӘСІЛ</item>
+        <item quantity="other">ТӘСІЛ</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d-ші</string>
+    <string name="look_ordinal_nd">%1$d-ші</string>
+    <string name="look_ordinal_rd">%1$d-ші</string>
+    <string name="look_ordinal_th">%1$d-ші</string>
+    <string name="look_trading_number">№ %1$03d · сенің %2$s тоқсаның</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d күн</string>
+    <string name="look_trading_power">Күш, апта сайын</string>
+    <string name="look_trading_edition">%1$s · Q%2$d шығарылымы</string>
+
+    <string name="look_sample_water_first">Алдымен су</string>
+    <string name="look_sample_own_bag">Өз сөмкем</string>
+    <string name="look_sample_read_pages">10 бет оқу</string>
+    <string name="look_sample_reading">Күн сайын кітап оқу</string>
+    <string name="look_sample_late_snacks">Кешкі тамақтанусыз</string>
+    <string name="look_sample_stretching">Созылу жаттығуы</string>
+    <string name="look_sample_cooler_home">Салқынырақ үй</string>
+    <string name="look_sample_loofah">Губка емес, люфа</string>
+    <string name="look_sample_palm_oil">Пальма майынсыз</string>
+    <string name="look_sample_stretch">10 мин созылу</string>
+
+    <string name="look_colours_title">Түстер</string>
+    <string name="look_colours_preview">Алдын ала қарау</string>
+    <string name="look_colours_your_summary">Сенің 3 айлық қорытындың</string>
+    <string name="look_colours_light">Ашық</string>
+    <string name="look_colours_dark">Күңгірт</string>
+    <string name="look_styles_title">3 айлық қорытынды стилі</string>
+    <string name="look_styles_all_pictures">Барлық 30 Полароид суретін көру</string>
+    <string name="look_styles_refresh">Жаңарту</string>
+    <string name="look_pictures_title">Полароид суреттері</string>
+    <string name="look_pictures_back">Қорытынды стильдері</string>
+
+    <string name="look_welcome_name">Атың</string>
+    <string name="look_welcome_start">Бастау</string>
+    <string name="look_welcome_import">Деректерімді импорттау</string>
+
+    <string name="look_tut_skip">Өткізу</string>
+    <string name="look_tut_page">%1$d / %2$d</string>
+    <string name="look_tut_back">Артқа</string>
+    <string name="look_tut_start">Бастау</string>
+    <string name="look_tut_next">Келесі</string>
+    <string name="look_tut1_title">Қадам сайын жақсырақ бол</string>
+    <string name="look_tut1_body">Жаңа әдеттер қалыптастыр, мейірімді таңдаулар жаса және жеткен жетістіктерің қалай жиналатынын көр.</string>
+    <string name="look_tut1_habits">Күн сайын жақсы әдеттер қалыптастырып, болғың келетін адамға айнал.</string>
+    <string name="look_tut1_swaps">Өнімдерді планетаға, адамдарға не денсаулығыңа жақсырақ нұсқаларға ауыстыр.</string>
+    <string name="look_tut1_avoids">Қолдағың келмейтін компанияларды, тамақты және өнімдерді бақылап отыр.</string>
+    <string name="look_tut2_title">Белгіле</string>
+    <string name="look_tut2_body">Әдетті орындаған соң шаршыны түрт. Кешкілері тексеру уақытыңда ашылады.</string>
+    <string name="look_tut3_title">%1$s, кейін әр %2$s сайын</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d күн</item>
+        <item quantity="other">%1$d күн</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d ай</item>
+        <item quantity="other">%1$d ай</item>
+    </plurals>
+    <string name="look_tut3_body">Зерттеулер әдет қалыптастыруға 18-ден 254 күнге дейін кететінін көрсетті. Ең жиі айтылатын сан 66 күн, сондықтан Alice содан бастайды.</string>
+    <string name="look_tut3_days_label">Әдет қалыптастыру күндері</string>
+    <string name="look_tut3_checkup">Шолу әр</string>
+    <string name="look_tut3_small">Екеуін де Баптауларда өзгерте аласың.</string>
+    <string name="look_tut4_title">Аптасына бір рет, бір жаңа қадам</string>
+    <string name="look_tut4_body">Бір уақытта бір жаңа қадам қосу бәрін бірден арқаламай, баяу өсуге мүмкіндік береді.</string>
+    <string name="look_tut4_day">Тексеру күні</string>
+    <string name="look_tut4_small">Мұны да Баптауларда өзгерте аласың.</string>
+    <string name="look_tut5_title">Әр тоқсан сайын, сенің қорытындың</string>
+    <string name="look_tut5_body">Қаншалықты алға жылжығаныңмен достарыңмен және жақындарыңмен бөліс. Ұнаған түрін түрт:</string>
+    <string name="look_tut_change_mind">Шешіміңді кез келген уақытта өзгерте аласың.</string>
+    <string name="look_tut6_title">Өзіңе ыңғайла</string>
+    <string name="look_tut6_body">Өзіңе ең жайлы түстерді таңда. Бүкіл қолданба бірден өзгереді.</string>
+    <string name="look_tut7_title">Кез келгенін, кез келген уақытта өзгерт</string>
+    <string name="look_tut7_body">Тексеру уақыттары, әдет қалыптастыру күндері, қорытынды стилі, түстер және деректерің, бәрі Баптауларда.</string>
+    <string name="look_tut7_gear">Баптауларды ашу үшін Әдеттердің жоғарғы жағындағы тісті дөңгелекті түрт.</string>
+    <string name="look_tut7_open">Баптауларды ашу</string>
+
+    <string name="lang_title">Тіл</string>
+    <string name="pron_title">Есімдіктер</string>
+    <string name="pron_she">әйел</string>
+    <string name="pron_he">ер</string>
+    <string name="pron_they">бейтарап</string>
+    <string name="lang_spotted">Өз тіліңде қате байқадың ба?</string>
+    <string name="lang_search">Тіліңді ізде</string>
+    <string name="lang_phone">Телефон тілі</string>
+    <string name="lang_follow">Телефонға сәйкес</string>
+    <string name="lang_note_title">Аудармаға көмектес</string>
+    <string name="lang_note_1">Сәлем, мен Люсимін, Alice-ті мен жасадым.</string>
+    <string name="lang_note_2">Мен ағылшын, словак, чех және орыс тілдерінде сөйлеймін, сондықтан ол аудармаларды өзім тексердім. Басқа тілдерді әлі ана тілінде сөйлейтін адам тексерген жоқ.</string>
+    <string name="lang_note_3">Өз тіліңде қате байқасаң, түзете алуым үшін маған хабарла. Ал Alice-ті өз тіліңде біраз уақыт қолданып, бәрі дұрыс оқылса, оны да айт, сонда оны мақұлданған деп белгілеймін.</string>
+    <string name="lang_note_4">Рақмет!</string>
+    <string name="lang_not_approved">ӘЛІ МАҚҰЛДАНБАҒАН</string>
+    <string name="lang_report">Қате туралы хабарлау</string>
+    <string name="lang_all_correct">Менің тілім толық дұрыс</string>
+    <string name="lang_mail_mistake_body">Не дұрыс оқылмайды және қай экранда:\n\n</string>
+    <string name="lang_mail_correct_body">Alice-ті өз тілімде біраз уақыт қолдандым, бәрі дұрыс оқылады.\n\n</string>
+    <string name="lang_no_mail">Пошта қолданбасы табылмады</string>
+</resources>

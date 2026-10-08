@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Liiga väsinud</string>
+    <string name="core_reason_craving">Isu</string>
+    <string name="core_reason_no_time">Pole aega</string>
+    <string name="core_reason_forgot">Unustasin</string>
+    <string name="core_reason_no_alternative">Polnud alternatiivi</string>
+    <string name="core_reason_social">Seltskond</string>
+    <string name="core_reason_impulse">Impulss</string>
+    <string name="core_reason_too_expensive">Liiga kallis</string>
+    <string name="core_reason_away">Eemal</string>
+
+    <string name="core_nudge_channel">Igapäevane meeldetuletus</string>
+    <string name="core_nudge_title">Täna veel märkimata</string>
+    <string name="core_save_failed">Salvestamine ei õnnestunud, proovi uuesti</string>
+
+    <string name="core_kind_habit">Harjumus</string>
+    <string name="core_kind_swap">Vahetus</string>
+    <string name="core_kind_avoid">Väldi</string>
+    <string name="core_about">Teave: %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Vähem</string>
+    <string name="core_more">Rohkem</string>
+    <string name="core_cancel">Tühista</string>
+    <string name="core_settings">Seaded</string>
+    <string name="core_span_week">Nädal</string>
+    <string name="core_span_month">Kuu</string>
+    <string name="core_span_year">Aasta</string>
+    <string name="core_span_all">Kogu aeg</string>
+    <string name="core_tab_habits">Harjumused</string>
+    <string name="core_tab_changes">Muutused</string>
+    <string name="core_tab_avoid">Väldi</string>
+    <string name="core_tab_insights">Ülevaade</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">tehtud</string>
+    <string name="core_cell_missed">vahele jäänud</string>
+    <string name="core_cell_partial">osaliselt tehtud, seni %1$d</string>
+    <string name="core_cell_unfilled">veel täitmata</string>
+    <string name="core_cell_open">teha</string>
+    <string name="core_cell_locked">lukus kuni märkimise ajani</string>
+    <string name="core_cell_future">veel mitte</string>
+    <string name="core_cell_empty">midagi pole vaja</string>
+    <string name="core_cell_band">selleks perioodiks tehtud</string>
+    <string name="core_cell_off">pole selle sammu päev</string>
+    <string name="core_cell_none">enne selle sammu algust</string>
+
+    <string name="core_rhythm_one_off">Ühekordne</string>
+    <string name="core_rhythm_end_of_day">Iga päev, märgitakse õhtul</string>
+    <string name="core_rhythm_every_day">Iga päev</string>
+    <string name="core_rhythm_every_days">Iga %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">nädalas</string>
+    <string name="core_rhythm_a_month">kuus</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, ükskõik mis päeval</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s ja %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d k</string>
+    <string name="core_achievement_short_days">%1$d p</string>
+    <string name="core_glance_step">%1$s, %2$d/%3$d</string>
+
+    <string name="core_slip_never">Mitte kunagi</string>
+    <string name="core_slip_once">Korra</string>
+    <string name="core_slip_a_few">Paar korda</string>
+    <string name="core_slip_half">Pooled</string>
+    <string name="core_slip_most">Enamasti</string>
+    <string name="core_slip_always">Alati</string>
+
+    <string name="core_ideas_habit_anytime">Harjumused, millal tahes</string>
+    <string name="core_ideas_habit_end">Harjumused, õhtul</string>
+    <string name="core_ideas_swap">Vahetused</string>
+    <string name="core_ideas_avoid_product">Väldi, tooted</string>
+    <string name="core_ideas_avoid_company">Väldi, ettevõtted</string>
+    <string name="core_ideas_avoid_food">Väldi, toit</string>
+
+    <string name="core_tag_ethical">Eetiline</string>
+    <string name="core_tag_health">Tervis</string>
+    <string name="core_tag_clutter">Kola</string>
+    <string name="core_tag_ecological">Ökoloogiline</string>
+    <string name="core_tag_animal_welfare">Loomade heaolu</string>
+    <string name="core_tag_workers_rights">Töötajate õigused</string>
+    <string name="core_tag_plastic">Plast</string>
+    <string name="core_tag_palm_oil">Palmiõli</string>
+    <string name="core_tag_deforestation">Metsade hävitamine</string>
+    <string name="core_category_company">Ettevõte</string>
+    <string name="core_category_food">Toit</string>
+    <string name="core_category_product">Toode</string>
+    <string name="core_verdict_avoid">VÄLDI</string>
+    <string name="core_verdict_edge">PIIRI PEAL</string>
+    <string name="core_verdict_fine">SOBIB</string>
+
+    <string name="core_theme_off_white_honey">Kreemvalge &amp; mesi</string>
+    <string name="core_theme_vanilla_caramel">Vanill &amp; karamell</string>
+    <string name="core_theme_sunflower">Päevalill</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kakao &amp; sidrun</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; või</string>
+    <string name="core_theme_midnight_honey">Kesköö &amp; mesi</string>
+    <string name="core_theme_forest_night">Metsaöö</string>
+    <string name="core_theme_plum_dusk">Ploomihämarus</string>
+    <string name="core_theme_charcoal_coral">Süsi &amp; korall</string>
+
+    <string name="core_pic_sunny_meadow">Päikeseline aas</string>
+    <string name="core_pic_sunset_hills">Künkad päikeseloojangul</string>
+    <string name="core_pic_starry_night">Tähistaevas</string>
+    <string name="core_pic_beach_day">Rannapäev</string>
+    <string name="core_pic_mountain_lake">Mägijärv</string>
+    <string name="core_pic_snowy_village">Lumine küla</string>
+    <string name="core_pic_rainy_garden">Vihmane aed</string>
+    <string name="core_pic_autumn_forest">Sügismets</string>
+    <string name="core_pic_cherry_blossom">Kirsiõied</string>
+    <string name="core_pic_desert_cactus">Kõrbekaktus</string>
+    <string name="core_pic_lighthouse">Tuletorn</string>
+    <string name="core_pic_rainbow_field">Vikerkaarepõld</string>
+    <string name="core_pic_hot_air_balloon">Kuumaõhupall</string>
+    <string name="core_pic_sailboat">Purjekas</string>
+    <string name="core_pic_cabin_in_the_woods">Onn metsas</string>
+    <string name="core_pic_tulip_field">Tulbipõld</string>
+    <string name="core_pic_campfire_night">Lõkkeõhtu</string>
+    <string name="core_pic_misty_mountains">Udused mäed</string>
+    <string name="core_pic_sunrise_sea">Päikesetõus merel</string>
+    <string name="core_pic_snowy_pines">Lumised männid</string>
+    <string name="core_pic_lavender_field">Lavendlipõld</string>
+    <string name="core_pic_waterfall">Juga</string>
+    <string name="core_pic_city_at_dusk">Linn videvikus</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Kuu järve kohal</string>
+    <string name="core_pic_palm_island">Palmisaar</string>
+    <string name="core_pic_windmill">Tuuleveski</string>
+    <string name="core_pic_bike_path">Rattatee</string>
+    <string name="core_pic_greenhouse">Kasvuhoone</string>
+    <string name="core_pic_northern_lights">Virmalised</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d samm ootab sind.</item>
+        <item quantity="other">%d sammu ootab sind.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">tehtud, %d kord</item>
+        <item quantity="other">tehtud, %d korda</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d kord päevas</item>
+        <item quantity="other">%d korda päevas</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Üks kord</item>
+        <item quantity="other">%d korda</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">iga %d nädala järel</item>
+        <item quantity="other">iga %d nädala järel</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">iga %d kuu järel</item>
+        <item quantity="other">iga %d kuu järel</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">iga %d päeva järel</item>
+        <item quantity="other">iga %d päeva järel</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d kuu, mitte kordagi vahele jäetud</item>
+        <item quantity="other">%d kuud, mitte kordagi vahele jäetud</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d kuu järjest</item>
+        <item quantity="other">%d kuud järjest</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d päev järjest</item>
+        <item quantity="other">%d päeva järjest</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d kuu</item>
+        <item quantity="other">%d kuud</item>
+    </plurals>
+
+    <string name="tabs_new_step">Uus samm</string>
+    <string name="tabs_edit">Muuda</string>
+    <string name="tabs_delete">Kustuta</string>
+    <string name="tabs_done">Valmis</string>
+    <string name="tabs_back">Tagasi</string>
+    <string name="tabs_earlier">Varem</string>
+    <string name="tabs_later">Hiljem</string>
+    <string name="tabs_delete_title">Kas kustutada %1$s?</string>
+    <string name="tabs_eod_unlock">Õhtused harjumused avanevad kell %1$02d:00</string>
+    <string name="tabs_check_up">Kontroll</string>
+    <string name="tabs_one_off">Ühekordne</string>
+
+    <string name="tabs_checkin_from">Märkimine alates %1$02d:00</string>
+    <string name="tabs_checkin_daily">Päeva märkimine</string>
+    <string name="tabs_checkin_weekly">Nädala märkimine</string>
+    <string name="tabs_checkin_quarter">3 kuu kontroll</string>
+    <string name="tabs_checked_in">Märgitud</string>
+    <string name="tabs_quarter_section">3 KUU KONTROLL</string>
+    <string name="tabs_previous_week">Eelmine nädal</string>
+    <string name="tabs_next_week">Järgmine nädal</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d päev: %2$s!</item>
+        <item quantity="other">%1$d päeva: %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Väga hästi. Nüüd liigub see sinu 3 kuu kontrollidesse, igapäevast märkimist enam pole.</string>
+    <string name="tabs_celebrate_first">Esimene on %1$s.</string>
+    <string name="tabs_glance_title">Sinu nädal</string>
+    <string name="tabs_glance_ticks_kept">Tehtud märked</string>
+    <string name="tabs_glance_days_checked_in">Märgitud päevad</string>
+    <string name="tabs_glance_top_tag">Kõige sagedasem libastuse põhjus:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d kord</item>
+        <item quantity="other">%1$s, %2$d korda</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Kõige lihtsam:</string>
+    <string name="tabs_glance_hardest">Kõige raskem:</string>
+
+    <string name="tabs_changes_ongoing">Kestvad vahetused</string>
+    <string name="tabs_changes_ongoing_tip_title">Kestev vahetus</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Sama valik tuleb sul ikka ja jälle ette, nagu kohvitass või šampoonitükk. Seda märgitakse Harjumustes %1$d päeva ja siis kontrollitakse iga 3 kuu järel.</item>
+        <item quantity="other">Sama valik tuleb sul ikka ja jälle ette, nagu kohvitass või šampoonitükk. Seda märgitakse Harjumustes %1$d päeva ja siis kontrollitakse iga 3 kuu järel.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Vahetusi veel pole</string>
+    <string name="tabs_changes_day_badge">PÄEV %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">PÜSIB</string>
+    <string name="tabs_changes_one_off_todo">Ühekordsed, teha</string>
+    <string name="tabs_changes_one_off_tip">Teed seda korra ja ongi tehtud, nagu sahtli koristamine, rohelisele elektrile üleminek või jope parandamine. Märgi see ja see liigub jaotisse Lõpetatud.</string>
+    <string name="tabs_changes_nothing_waiting">Midagi ei oota</string>
+    <string name="tabs_changes_finished">LÕPETATUD · %1$d</string>
+
+    <string name="tabs_avoid_title">Välditavad</string>
+    <string name="tabs_avoid_search">Otsi…</string>
+    <string name="tabs_avoid_no_match">Midagi ei leitud</string>
+    <string name="tabs_avoid_companies">Ettevõtted</string>
+    <string name="tabs_avoid_food">Toit</string>
+    <string name="tabs_avoid_products">Tooted</string>
+
+    <string name="tabs_avoid_added">Lisatud</string>
+    <string name="tabs_avoid_why">Miks sa seda väldid</string>
+    <string name="tabs_avoid_own_words">Sinu enda sõnadega</string>
+    <string name="tabs_avoid_brands">Talle kuuluvad kaubamärgid · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Üks kaubamärk rea kohta</string>
+    <string name="tabs_avoid_more_brands">+%1$d veel</string>
+    <string name="tabs_avoid_instead">Võta parem see</string>
+    <string name="tabs_avoid_instead_hint">Üks rea kohta</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">libastus</item>
+        <item quantity="other">libastust</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">välditud</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">kuu nimekirjas</item>
+        <item quantity="other">kuud nimekirjas</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">See eemaldatakse sinu välditavate nimekirjast koos ajalooga.</string>
+
+    <string name="tabs_habit_delete_text">Kogu selle ajalugu kaob ka.</string>
+    <string name="tabs_habit_created">Loodud</string>
+    <string name="tabs_habit_to_do">Teha</string>
+    <string name="tabs_habit_daily_ticks">Igapäevased märked</string>
+    <string name="tabs_habit_day_of">Päev %1$d/%2$d</string>
+    <string name="tabs_habit_finished">Lõpetatud</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">päev käimas</item>
+        <item quantity="other">päeva käimas</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">kord katkenud</item>
+        <item quantity="other">korda katkenud</item>
+    </plurals>
+    <string name="tabs_habit_success">edukus</string>
+    <string name="tabs_habit_current_streak">Praegune seeria</string>
+    <string name="tabs_habit_longest_streak">Pikim seeria</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d päev</item>
+        <item quantity="other">%1$d päeva</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Miks see libastus</string>
+    <string name="tabs_habit_remove_reason">Eemalda see põhjus</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">viis, kuidas oma elu paremaks tegid</item>
+        <item quantity="other">viisi, kuidas oma elu paremaks tegid</item>
+    </plurals>
+    <string name="tabs_insights_habits">Harjumused</string>
+    <string name="tabs_insights_swaps">Vahetused</string>
+    <string name="tabs_insights_avoids">Välditavad</string>
+    <string name="tabs_insights_on_track_section">Rajal</string>
+    <string name="tabs_insights_avg_days">%1$d p</string>
+    <string name="tabs_insights_average_kept">keskmiselt tehtud</string>
+    <string name="tabs_insights_days_checked_in">märgitud päeva</string>
+    <string name="tabs_insights_on_track">rajal</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">libastus</item>
+        <item quantity="other">libastust</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">uus samm</item>
+        <item quantity="other">uut sammu</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">ühekordne tehtud</item>
+        <item quantity="other">ühekordset tehtud</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Suurimad libastuse põhjused</string>
+    <string name="tabs_insights_added_quarter">Selles kvartalis lisatud</string>
+    <string name="tabs_insights_past_summaries">Varasemad 3 kuu kokkuvõtted</string>
+    <string name="tabs_insights_first_on">Esimene tuleb %1$s</string>
+    <string name="tabs_insights_all_time">Kogu aeg</string>
+    <string name="tabs_insights_period">%1$s kuni %2$s %3$d</string>
+
+    <string name="forms_back">Tagasi</string>
+    <string name="forms_back_habits">Harjumused</string>
+    <string name="forms_back_settings">Seaded</string>
+    <string name="forms_add">Lisa</string>
+    <string name="forms_save">Salvesta</string>
+    <string name="forms_finish">Lõpeta</string>
+    <string name="forms_delete">Kustuta</string>
+    <string name="forms_why">Miks</string>
+    <string name="forms_never_show">Ära enam näita</string>
+    <string name="forms_every">Iga</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">päev</item>
+        <item quantity="other">päeva</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Samm %1$d/%2$d</string>
+    <string name="forms_checkin_next_weekly">Järgmiseks nädala märkimine ›</string>
+    <string name="forms_checkin_next_quarter">Järgmiseks 3 kuu kontroll ›</string>
+    <string name="forms_daily_title">Päeva märkimine</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d varasem päev täitmata</item>
+        <item quantity="other">%1$d varasemat päeva täitmata</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Jäta kõik vahele</string>
+    <string name="forms_daily_today">Täna · %1$s</string>
+    <string name="forms_daily_skip">Jäta vahele</string>
+    <string name="forms_daily_undo_skip">Võta tagasi</string>
+    <string name="forms_daily_new_tag">Uus põhjus</string>
+    <string name="forms_daily_new_tag_hint">Prügikast oli täis</string>
+    <string name="forms_weekly_title">Nädala märkimine</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d nädal on jäänud, üks uus samm katab need kõik.</item>
+        <item quantity="other">%1$d nädalat on jäänud, üks uus samm katab need kõik.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Sel nädalal uut sammu pole</string>
+    <string name="forms_quarter_title">3 kuu kontroll</string>
+    <string name="forms_quarter_nothing">Veel pole midagi kontrollida. Järgmisena tuleb sinu kokkuvõte.</string>
+    <string name="forms_quarter_habits">Harjumused</string>
+    <string name="forms_quarter_swaps">Vahetused</string>
+    <string name="forms_quarter_avoid">Väldi</string>
+    <string name="forms_quarter_missed">Vahele jäänud</string>
+    <string name="forms_quarter_missed_level">Vahele jäänud: %1$s</string>
+
+    <string name="forms_new_title">Uus samm</string>
+    <string name="forms_edit_title">Muuda: %1$s</string>
+    <string name="forms_add_kind">Lisa: %1$s</string>
+    <string name="forms_title_habit">Harjumus</string>
+    <string name="forms_title_swap">Vahetus</string>
+    <string name="forms_title_avoid">Väldi</string>
+    <string name="forms_save_changes">Salvesta muudatused</string>
+    <string name="forms_what_kind">Mis liiki?</string>
+    <string name="forms_name">Nimi</string>
+    <string name="forms_your_new_step">Sinu uus samm</string>
+    <string name="forms_hint_habit">Loe 10 lehekülge</string>
+    <string name="forms_hint_swap">Lufa, mitte käsn</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Mis liiki harjumus?</string>
+    <string name="forms_timing_tip_title">Millal tahes või õhtul</string>
+    <string name="forms_timing_tip">Millal tahes: midagi, mida teed korra, näiteks jooksuring. Märgi see kohe, kui see on tehtud.\n\nÕhtul: reegel, mida pead terve päeva, näiteks ei mingeid näkse. Saad selle märkida alles õhtul.</string>
+    <string name="forms_anytime">Millal tahes</string>
+    <string name="forms_end_of_day">Õhtul</string>
+    <string name="forms_what_is_it">Mis see on?</string>
+    <string name="forms_how_often">Kui tihti?</string>
+    <string name="forms_often_specific">Kindlatel päevadel</string>
+    <string name="forms_often_whenever">Millal iganes</string>
+    <string name="forms_often_once">Ainult korra</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">kord iga</item>
+        <item quantity="other">korda iga</item>
+    </plurals>
+    <string name="forms_unit_day">päev</string>
+    <string name="forms_unit_week">nädal</string>
+    <string name="forms_unit_month">kuu</string>
+    <string name="forms_unit_x_days">X päeva</string>
+    <string name="forms_ideas">Ideed</string>
+    <string name="forms_ideas_others">Muud</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Vaata kõiki %1$d ideed ›</item>
+        <item quantity="other">Vaata kõiki %1$d ideed ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Kõik sammuideed</string>
+    <string name="forms_search">Otsi…</string>
+    <string name="forms_all">Kõik</string>
+
+    <string name="forms_settings_title">Seaded</string>
+    <string name="forms_set_colours">Värvid</string>
+    <string name="forms_set_style">3 kuu kokkuvõtte stiil</string>
+    <string name="forms_set_checkins">Märkimised</string>
+    <string name="forms_set_checkin_hour">Päeva märkimine avaneb kell</string>
+    <string name="forms_set_checkin_hour_tip">Alates sellest kellaajast saad märkida õhtuseid harjumusi ja teha päeva märkimise.</string>
+    <string name="forms_set_week_start">Nädal algab</string>
+    <string name="forms_set_week_start_tip">Mis päevast algavad sinu Harjumuste ruudustik, nädalad ja graafikud.</string>
+    <string name="forms_monday">Esmaspäev</string>
+    <string name="forms_sunday">Pühapäev</string>
+    <string name="forms_set_new_step_every">Uus samm iga</string>
+    <string name="forms_set_new_step_every_tip">Mitu nädalat jääb nädala märkimiste vahele.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">nädal</item>
+        <item quantity="other">nädala järel</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Nädala märkimise päev</string>
+    <string name="forms_set_weekly_day_tip">Sel päeval järgneb päeva märkimisele järgmise nädala uue sammu valimine.</string>
+    <string name="forms_set_checkup">3 kuu kontroll</string>
+    <string name="forms_set_checkup_tip">Kõik teevad kontrolli samadel päevadel: 1. jaan, 1. apr, 1. juuli ja 1. okt, et saaksite oma kokkuvõtteid koos jagada. Võid valida ka oma kuupäeva.</string>
+    <string name="forms_set_same">Sama mis kõigil</string>
+    <string name="forms_set_own">Minu oma kuupäev</string>
+    <string name="forms_set_starting">Alates</string>
+    <string name="forms_set_starting_tip">Sinu esimese oma kontrolli kuu.</string>
+    <string name="forms_earlier">Varem</string>
+    <string name="forms_later">Hiljem</string>
+    <string name="forms_set_every_tip">Kuud kontrollide vahel.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">kuu</item>
+        <item quantity="other">kuu järel</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Kuupäev</string>
+    <string name="forms_set_day_of_month_tip">Mitmes päev selles kuus.</string>
+    <string name="forms_set_everyone">Kõik: 1. jaan · 1. apr · 1. juuli · 1. okt</string>
+    <string name="forms_set_days_build">Päevi harjumuse loomiseks</string>
+    <string name="forms_set_days_build_tip">Uuringud leidsid 18 kuni 254 päeva, kõige sagedamini nimetatakse 66 (Lally jt 2010, Singh jt 2024). Pärast nii mitut päeva liigub uus samm sinu kontrollidesse.</string>
+    <string name="forms_set_nudge">Igapäevane meeldetuletus</string>
+    <string name="forms_set_nudge_tip">Meeldetuletus sel kellaajal, ainult kui midagi on veel märkimata.</string>
+    <string name="forms_set_more">Veel</string>
+    <string name="forms_set_reasons">Libastuse põhjused</string>
+    <string name="forms_set_tutorial">Vaata juhendit uuesti</string>
+    <string name="forms_set_export">Ekspordi minu andmed</string>
+    <string name="forms_set_import">Impordi andmed</string>
+
+    <string name="forms_reasons_title">Libastuse põhjused</string>
+    <string name="forms_reasons_hint">Lisa oma põhjus</string>
+    <string name="forms_reasons_used">kasutatud %1$d×</string>
+    <string name="forms_reasons_delete_title">Kas kustutada %1$s?</string>
+    <string name="forms_reasons_delete_text">Libastused jäävad su ajalukku alles, lihtsalt ilma selle põhjuseta.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d harjumus</item>
+        <item quantity="other">%1$d harjumust</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d vahetus</item>
+        <item quantity="other">%1$d vahetust</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d välditav</item>
+        <item quantity="other">%1$d välditavat</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, märked alates %2$s</string>
+    <string name="forms_export_title">Ekspordi minu andmed</string>
+    <string name="forms_export_what">Mis faili läheb</string>
+    <string name="forms_export_ticks">Kõik märked, libastused ja põhjused</string>
+    <string name="forms_export_ticks_since">Kõik märked, libastused ja põhjused alates %1$s</string>
+    <string name="forms_export_summaries">Sinu 3 kuu kokkuvõtted</string>
+    <string name="forms_export_settings">Sinu seaded, värvid ja nimi</string>
+    <string name="forms_export_file">Fail</string>
+    <string name="forms_export_kb">%1$d kB</string>
+    <string name="forms_export_save">Salvesta fail</string>
+    <string name="forms_export_send">Saada…</string>
+    <string name="forms_export_send_title">Saada oma Alice\'i andmed</string>
+    <string name="forms_export_saved">Salvestatud: %1$s</string>
+    <string name="forms_export_save_failed">Faili salvestamine ei õnnestunud</string>
+
+    <string name="forms_import_title">Impordi andmed</string>
+    <string name="forms_import_choose">Vali Alice\'i varukoopia</string>
+    <string name="forms_import_choose_sub">.json, teise telefoni ekspordist</string>
+    <string name="forms_import_cant_open">Faili avamine ei õnnestunud.</string>
+    <string name="forms_import_not_backup">See fail pole Alice\'i varukoopia.</string>
+    <string name="forms_import_replace_mode">Asenda olemasolev</string>
+    <string name="forms_import_add_mode">Lisa olemasolevale</string>
+    <string name="forms_import_button">Impordi</string>
+    <string name="forms_import_replace_title">Kas asendada sinu andmed?</string>
+    <string name="forms_import_add_title">Kas lisada need andmed?</string>
+    <string name="forms_import_replace_text">Kõik selles telefonis asendatakse faili sisuga. Ekspordi enne, kui tahad seda alles hoida.</string>
+    <string name="forms_import_add_text">Faili harjumused ja ajalugu lisatakse sinu omadele.</string>
+    <string name="forms_import_done">Andmed imporditud</string>
+
+    <string name="look_share">Jaga</string>
+    <string name="look_save_image">Salvesta pilt</string>
+    <string name="look_next_week">Järgmiseks sinu nädal ›</string>
+    <string name="look_keep_going">Jätka</string>
+    <string name="look_storage_needed">Alice vajab pildi salvestamiseks juurdepääsu mälule</string>
+    <string name="look_share_caption">Minu kvartal Alice\'iga. Alusta enda oma: %1$s</string>
+    <string name="look_share_clip">Alice\'i kokkuvõte</string>
+    <string name="look_share_chooser">Jaga oma kvartalit</string>
+    <string name="look_saved">Salvestatud kausta Pictures/Alice</string>
+    <string name="look_save_failed">Pildi salvestamine ei õnnestunud</string>
+
+    <string name="look_style_poster">Plakat</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Karikakapp</string>
+    <string name="look_style_receipt">Kviitung</string>
+    <string name="look_style_report">Tunnistus</string>
+    <string name="look_style_boarding">Pardakaart</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalender</string>
+    <string name="look_style_trading">Kogumiskaart</string>
+
+    <string name="look_quote_1">Väikesed sammud, iga päev</string>
+    <string name="look_quote_2">Aitäh, et kohal olid</string>
+    <string name="look_quote_3">Areng, mitte täiuslikkus</string>
+    <string name="look_quote_4">Sa jätkasid. See loeb</string>
+    <string name="look_quote_5">Väikesed muutused, suur vahe</string>
+    <string name="look_quote_6">Iga päev valisid paremini</string>
+    <string name="look_quote_7">Aeglaselt on ka edasi</string>
+    <string name="look_quote_8">Sa ehitad elu, mis sulle meeldib</string>
+    <string name="look_quote_9">Samm sammu haaval koguneb palju</string>
+    <string name="look_quote_10">Ole jätkuvalt enda jaoks olemas</string>
+    <string name="look_quote_11">Tulevane sina ütleb aitäh</string>
+    <string name="look_quote_12">Vähehaaval saab palju</string>
+    <string name="look_quote_13">Järjekindlus on vaikne võlu</string>
+    <string name="look_quote_14">Vaata, kui kaugele oled jõudnud</string>
+    <string name="look_quote_15">Ole uhke väikeste võitude üle</string>
+    <string name="look_quote_16">Häid päevi ehitatakse, neid ei leita</string>
+
+    <string name="look_stamp_1">SUUREPÄRANE</string>
+    <string name="look_stamp_2">ERAKORDNE</string>
+    <string name="look_stamp_3">VÄGA HÄSTI</string>
+    <string name="look_stamp_4">HIILGAV</string>
+    <string name="look_stamp_5">SUPER</string>
+    <string name="look_stamp_6">TIPPHINNE</string>
+    <string name="look_stamp_7">KULDTÄHT</string>
+    <string name="look_stamp_8">TUBLI TÖÖ</string>
+
+    <string name="look_period">%1$s kuni %2$s</string>
+    <string name="look_scan">SKANNI JA\nALUSTA OMA\nTEEKONDA</string>
+    <string name="look_you">Sina</string>
+    <string name="look_on_track">rajal</string>
+    <string name="look_new_steps">uut sammu</string>
+    <string name="look_days_in">päeva märgitud</string>
+    <string name="look_new">uut</string>
+    <string name="look_week_by_week">Nädal nädala haaval</string>
+    <string name="look_coming_soon">Varsti tulekul</string>
+    <string name="look_new_this_quarter">Uus selles kvartalis</string>
+    <string name="look_kept_up_longest">Kõige kauem püsinud</string>
+    <string name="look_habits">Harjumused</string>
+    <string name="look_swaps">Vahetused</string>
+    <string name="look_avoids">Välditavad</string>
+    <string name="look_ways_improved">Paremaks tehtud</string>
+    <string name="look_improved_in">Tegid oma elu paremaks %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d harjumus</item>
+        <item quantity="other">%1$d harjumust</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d vahetus</item>
+        <item quantity="other">%1$d vahetust</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d välditav</item>
+        <item quantity="other">%1$d välditavat</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d libastus</item>
+        <item quantity="other">%1$d libastust</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d viisil</item>
+        <item quantity="other">%1$d viisil</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">harjumus</item>
+        <item quantity="other">harjumust</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">vahetus</item>
+        <item quantity="other">vahetust</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">välditav</item>
+        <item quantity="other">välditavat</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">libastus</item>
+        <item quantity="other">libastust</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">viis</item>
+        <item quantity="other">viisi</item>
+    </plurals>
+
+    <string name="look_poster_improved">Oled oma elu paremaks teinud %1$s</string>
+    <string name="look_poster_on_track">RAJAL</string>
+    <string name="look_poster_days">päeva</string>
+    <string name="look_poster_achievements">Saavutused</string>
+    <string name="look_poster_first_ones">Esimesed on tulekul</string>
+    <string name="look_poster_added">Mida sa selles kvartalis lisasid</string>
+
+    <string name="look_wrapped_stars">Sinu tähed</string>
+
+    <string name="look_trophy_ways">viisi, kuidas oma elu\nparemaks tegid</string>
+    <string name="look_trophy_next_quarter">Järgmine kvartal</string>
+    <string name="look_trophy_first_medal">sinu esimene medal</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Uus riiulil:</string>
+
+    <string name="look_receipt_title">3 kuu kontroll · %1$s</string>
+    <string name="look_receipt_customer">Klient: %1$s</string>
+    <string name="look_receipt_habits">Loodud harjumused</string>
+    <string name="look_receipt_swaps">Vahetatud asjad</string>
+    <string name="look_receipt_avoids">Välditud asjad</string>
+    <string name="look_receipt_ways">Viisid, kuidas oma elu paremaks tegid</string>
+    <string name="look_receipt_on_track">Rajal selles kvartalis</string>
+    <string name="look_receipt_slips">Libastused</string>
+    <string name="look_receipt_new_steps">Uued sammud</string>
+    <string name="look_receipt_new">Uus selles kvartalis: %1$s</string>
+
+    <string name="look_report_title">Väikeste sammude tunnistus</string>
+    <string name="look_report_pupil">%1$s · Õpilane: %2$s</string>
+    <string name="look_report_subject">AINE</string>
+    <string name="look_report_built">LOODUD</string>
+    <string name="look_report_grade">HINNE</string>
+    <string name="look_report_attendance">Kohalolek %1$s</string>
+    <string name="look_report_on_track">Rajal %1$s</string>
+    <string name="look_report_slips">Libastused %1$s</string>
+    <string name="look_report_achievements">SAAVUTUSED</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">UUED AINED SEL VEERANDIL (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Õpetaja kommentaar:</string>
+    <string name="look_report_calm">Rahulik ja ühtlane veerand.</string>
+    <string name="look_report_ups_downs">Tõusude ja mõõnadega veerand, ja sa pidasid vastu.</string>
+    <string name="look_report_star">%1$s on olnud erakordne. Jätka samas vaimus!</string>
+    <string name="look_report_keep_up">Jätka samas vaimus!</string>
+    <string name="look_report_week">NÄDAL NÄDALA HAAVAL</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Lend Q%1$d</string>
+    <string name="look_boarding_from">KUST</string>
+    <string name="look_boarding_old">VANAD</string>
+    <string name="look_boarding_habits">harjumused</string>
+    <string name="look_boarding_to">KUHU</string>
+    <string name="look_boarding_new">UUS</string>
+    <string name="look_boarding_better_you">parem sina</string>
+    <string name="look_boarding_passenger">Reisija</string>
+    <string name="look_boarding_dates">Kuupäevad</string>
+    <string name="look_boarding_miles">Lennatud miilid</string>
+    <string name="look_boarding_on_time">Õigel ajal</string>
+    <string name="look_boarding_turbulence">Turbulents</string>
+    <string name="look_boarding_days">Päevi pardal</string>
+    <string name="look_boarding_flyer">PÜSIKLIENT, SINU PIKIMAD KAASLASED</string>
+    <string name="look_boarding_log">LENNULOGI, NÄDAL NÄDALA HAAVAL</string>
+    <string name="look_boarding_stops">UUED PEATUSED, +%1$d</string>
+    <string name="look_boarding_note">KAPTENI MÄRKUS</string>
+
+    <string name="look_polaroid_life">SINU ELU</string>
+    <string name="look_polaroid_quarter">SEL KVARTALIL</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d päeva märgitud</string>
+    <string name="look_polaroid_longest">KÕIGE KAUEM PÜSINUD</string>
+    <string name="look_polaroid_new">UUS, +%1$d</string>
+
+    <string name="look_calendar_added">Lisatud</string>
+
+    <string name="look_trading_common">Tavaline</string>
+    <string name="look_trading_uncommon">Ebatavaline</string>
+    <string name="look_trading_rare">Haruldane</string>
+    <string name="look_trading_legendary">Legendaarne</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">VIIS</item>
+        <item quantity="other">VIISI</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">Nr %1$03d · sinu %2$s kvartal</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d päeva</string>
+    <string name="look_trading_power">Jõud, nädal nädala haaval</string>
+    <string name="look_trading_edition">%1$s · Q%2$d väljaanne</string>
+
+    <string name="look_sample_water_first">Kõigepealt vesi</string>
+    <string name="look_sample_own_bag">Oma kott</string>
+    <string name="look_sample_read_pages">Loe 10 lehekülge</string>
+    <string name="look_sample_reading">Iga päev lugemine</string>
+    <string name="look_sample_late_snacks">Hilisõhtul ei näksi</string>
+    <string name="look_sample_stretching">Venitamine</string>
+    <string name="look_sample_cooler_home">Jahedam kodu</string>
+    <string name="look_sample_loofah">Lufa, mitte käsn</string>
+    <string name="look_sample_palm_oil">Palmiõlivaba</string>
+    <string name="look_sample_stretch">Venita 10 min</string>
+
+    <string name="look_colours_title">Värvid</string>
+    <string name="look_colours_preview">Eelvaade</string>
+    <string name="look_colours_your_summary">Sinu 3 kuu kokkuvõte</string>
+    <string name="look_colours_light">Hele</string>
+    <string name="look_colours_dark">Tume</string>
+    <string name="look_styles_title">3 kuu kokkuvõtte stiil</string>
+    <string name="look_styles_all_pictures">Vaata kõiki 30 polaroidpilti</string>
+    <string name="look_styles_refresh">Värskenda</string>
+    <string name="look_pictures_title">Polaroidpildid</string>
+    <string name="look_pictures_back">Kokkuvõtte stiilid</string>
+
+    <string name="look_welcome_name">Sinu nimi</string>
+    <string name="look_welcome_start">Alusta</string>
+    <string name="look_welcome_import">Impordi minu andmed</string>
+
+    <string name="look_tut_skip">Jäta vahele</string>
+    <string name="look_tut_page">%1$d/%2$d</string>
+    <string name="look_tut_back">Tagasi</string>
+    <string name="look_tut_start">Alusta</string>
+    <string name="look_tut_next">Edasi</string>
+    <string name="look_tut1_title">Saa paremaks endaks, samm sammu haaval</string>
+    <string name="look_tut1_body">Loo uusi harjumusi, tee lahkemaid valikuid ja vaata, kuidas kõik su saavutused kokku kogunevad.</string>
+    <string name="look_tut1_habits">Loo häid harjumusi päev päeva järel ja saa selleks, kes tahad olla.</string>
+    <string name="look_tut1_swaps">Vaheta tooted lahkemate vastu, mis on paremad planeedile, inimestele või su tervisele.</string>
+    <string name="look_tut1_avoids">Pea arvet ettevõtete, toitude ja toodete üle, mida sa pigem ei toetaks.</string>
+    <string name="look_tut2_title">Märgi ära</string>
+    <string name="look_tut2_body">Puuduta ruutu, kui oled harjumuse ära teinud. Õhtused avanevad sinu märkimise ajal.</string>
+    <string name="look_tut3_title">%1$s, siis iga %2$s järel</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d päev</item>
+        <item quantity="other">%1$d päeva</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d kuu</item>
+        <item quantity="other">%1$d kuu</item>
+    </plurals>
+    <string name="look_tut3_body">Uuringute järgi kulub harjumuse loomiseks 18 kuni 254 päeva. Kõige sagedamini nimetatakse 66 päeva, seega sellest Alice alustabki.</string>
+    <string name="look_tut3_days_label">Päevi harjumuse loomiseks</string>
+    <string name="look_tut3_checkup">Kontroll iga</string>
+    <string name="look_tut3_small">Mõlemat saad muuta Seadetes.</string>
+    <string name="look_tut4_title">Kord nädalas üks uus samm</string>
+    <string name="look_tut4_body">Kui lisad korraga ühe uue sammu, saad kasvada rahulikult, ilma et võtaksid korraga liiga palju ette.</string>
+    <string name="look_tut4_day">Märkimise päev</string>
+    <string name="look_tut4_small">Ka seda saad muuta Seadetes.</string>
+    <string name="look_tut5_title">Iga kvartal sinu kokkuvõte</string>
+    <string name="look_tut5_body">Jaga oma sõprade ja lähedastega, kui kaugele oled jõudnud. Puuduta stiili, mis sulle meeldib:</string>
+    <string name="look_tut_change_mind">Võid alati ümber mõelda.</string>
+    <string name="look_tut6_title">Tee see enda omaks</string>
+    <string name="look_tut6_body">Vali värvid, mis tunduvad kõige mõnusamad. Kogu rakendus muutub kohe.</string>
+    <string name="look_tut7_title">Muuda mida iganes, millal iganes</string>
+    <string name="look_tut7_body">Märkimise ajad, harjumuse loomise päevad, kokkuvõtte stiil, värvid ja sinu andmed on kõik Seadetes.</string>
+    <string name="look_tut7_gear">Seadete avamiseks puuduta hammasratast Harjumuste ülaosas.</string>
+    <string name="look_tut7_open">Ava Seaded</string>
+
+    <string name="lang_title">Keel</string>
+    <string name="pron_title">Asesõnad</string>
+    <string name="pron_she">naine</string>
+    <string name="pron_he">mees</string>
+    <string name="pron_they">neutraalne</string>
+    <string name="lang_spotted">Märkasid oma keeles viga?</string>
+    <string name="lang_search">Otsi oma keelt</string>
+    <string name="lang_phone">Telefoni keel</string>
+    <string name="lang_follow">Järgi telefoni</string>
+    <string name="lang_note_title">Abi tõlgetega</string>
+    <string name="lang_note_1">Tere, mina olen Lucy ja tegin Alice\'i.</string>
+    <string name="lang_note_2">Räägin inglise, slovaki, tšehhi ja vene keelt, nii et need tõlked kontrollisin ise. Teisi keeli pole emakeelne kõneleja veel üle vaadanud.</string>
+    <string name="lang_note_3">Kui märkad oma keeles viga, anna mulle palun teada, et saaksin selle parandada. Ja kui oled Alice\'i oma keeles juba mõnda aega kasutanud ja kõik kõlab õigesti, ütle ka seda, et saaksin keele heakskiidetuks märkida.</string>
+    <string name="lang_note_4">Aitäh!</string>
+    <string name="lang_not_approved">VEEL HEAKS KIITMATA</string>
+    <string name="lang_report">Teata veast</string>
+    <string name="lang_all_correct">Minu keel on täiesti õige</string>
+    <string name="lang_mail_mistake_body">Mis kõlab valesti ja mis ekraanil:\n\n</string>
+    <string name="lang_mail_correct_body">Olen Alice\'i oma keeles mõnda aega kasutanud ja kõik kõlab õigesti.\n\n</string>
+    <string name="lang_no_mail">E-posti rakendust ei leitud</string>
+</resources>

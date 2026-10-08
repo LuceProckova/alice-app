@@ -1,0 +1,726 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">疲れすぎ</string>
+    <string name="core_reason_craving">どうしても欲しくなった</string>
+    <string name="core_reason_no_time">時間がない</string>
+    <string name="core_reason_forgot">忘れた</string>
+    <string name="core_reason_no_alternative">代わりがない</string>
+    <string name="core_reason_social">付き合い</string>
+    <string name="core_reason_impulse">衝動</string>
+    <string name="core_reason_too_expensive">高すぎる</string>
+    <string name="core_reason_away">外出中</string>
+
+    <string name="core_nudge_channel">毎日のリマインダー</string>
+    <string name="core_nudge_title">今日まだチェックしてないもの</string>
+    <string name="core_save_failed">保存できなかったよ。もう一度試してね</string>
+
+    <string name="core_kind_habit">習慣</string>
+    <string name="core_kind_swap">置き換え</string>
+    <string name="core_kind_avoid">回避</string>
+    <string name="core_about">%1$sについて</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">閉じる</string>
+    <string name="core_more">もっと見る</string>
+    <string name="core_cancel">キャンセル</string>
+    <string name="core_settings">設定</string>
+    <string name="core_span_week">週</string>
+    <string name="core_span_month">月</string>
+    <string name="core_span_year">年</string>
+    <string name="core_span_all">全期間</string>
+    <string name="core_tab_habits">習慣</string>
+    <string name="core_tab_changes">チェンジ</string>
+    <string name="core_tab_avoid">回避</string>
+    <string name="core_tab_insights">インサイト</string>
+
+    <string name="core_cell_spoken">%1$s、%2$s</string>
+    <string name="core_cell_kept">達成</string>
+    <string name="core_cell_missed">できなかった</string>
+    <string name="core_cell_partial">一部達成、ここまで%1$d回</string>
+    <string name="core_cell_unfilled">まだ記入してない</string>
+    <string name="core_cell_open">やること</string>
+    <string name="core_cell_locked">チェックインの時間までロック中</string>
+    <string name="core_cell_future">まだ先</string>
+    <string name="core_cell_empty">何もしなくてOK</string>
+    <string name="core_cell_band">この期間は達成済み</string>
+    <string name="core_cell_off">このステップの日じゃない</string>
+    <string name="core_cell_none">このステップを始める前</string>
+
+    <string name="core_rhythm_one_off">1回きり</string>
+    <string name="core_rhythm_end_of_day">毎日、1日の終わりにチェック</string>
+    <string name="core_rhythm_every_day">毎日</string>
+    <string name="core_rhythm_every_days">毎週%1$s</string>
+    <string name="core_rhythm_day_count">%1$s（%2$d×）</string>
+    <string name="core_rhythm_a_week">週に</string>
+    <string name="core_rhythm_a_month">月に</string>
+    <string name="core_rhythm_times_any_day">%2$s%1$s、いつでも</string>
+    <string name="core_list_separator">"、"</string>
+    <string name="core_list_last">%1$sと%2$s</string>
+
+    <string name="core_achievement_short_months">%1$dか月</string>
+    <string name="core_achievement_short_days">%1$d日</string>
+    <string name="core_glance_step">%1$s、%2$d/%3$d</string>
+
+    <string name="core_slip_never">一度もない</string>
+    <string name="core_slip_once">1回</string>
+    <string name="core_slip_a_few">数回</string>
+    <string name="core_slip_half">半分</string>
+    <string name="core_slip_most">ほとんど</string>
+    <string name="core_slip_always">毎回</string>
+
+    <string name="core_ideas_habit_anytime">習慣、いつでも</string>
+    <string name="core_ideas_habit_end">習慣、1日の終わり</string>
+    <string name="core_ideas_swap">置き換え</string>
+    <string name="core_ideas_avoid_product">回避、製品</string>
+    <string name="core_ideas_avoid_company">回避、企業</string>
+    <string name="core_ideas_avoid_food">回避、食べ物</string>
+
+    <string name="core_tag_ethical">倫理</string>
+    <string name="core_tag_health">健康</string>
+    <string name="core_tag_clutter">モノを増やさない</string>
+    <string name="core_tag_ecological">環境</string>
+    <string name="core_tag_animal_welfare">動物福祉</string>
+    <string name="core_tag_workers_rights">労働者の権利</string>
+    <string name="core_tag_plastic">プラスチック</string>
+    <string name="core_tag_palm_oil">パーム油</string>
+    <string name="core_tag_deforestation">森林破壊</string>
+    <string name="core_category_company">企業</string>
+    <string name="core_category_food">食べ物</string>
+    <string name="core_category_product">製品</string>
+    <string name="core_verdict_avoid">避ける</string>
+    <string name="core_verdict_edge">微妙</string>
+    <string name="core_verdict_fine">OK</string>
+
+    <string name="core_theme_off_white_honey">オフホワイト＆ハニー</string>
+    <string name="core_theme_vanilla_caramel">バニラ＆キャラメル</string>
+    <string name="core_theme_sunflower">ひまわり</string>
+    <string name="core_theme_latte">ラテ</string>
+    <string name="core_theme_cocoa_lemon">ココア＆レモン</string>
+    <string name="core_theme_espresso_butter">エスプレッソ＆バター</string>
+    <string name="core_theme_midnight_honey">ミッドナイト＆ハニー</string>
+    <string name="core_theme_forest_night">夜の森</string>
+    <string name="core_theme_plum_dusk">プラムの夕暮れ</string>
+    <string name="core_theme_charcoal_coral">チャコール＆コーラル</string>
+
+    <string name="core_pic_sunny_meadow">晴れた草原</string>
+    <string name="core_pic_sunset_hills">夕焼けの丘</string>
+    <string name="core_pic_starry_night">星空の夜</string>
+    <string name="core_pic_beach_day">ビーチの一日</string>
+    <string name="core_pic_mountain_lake">山の湖</string>
+    <string name="core_pic_snowy_village">雪の村</string>
+    <string name="core_pic_rainy_garden">雨の庭</string>
+    <string name="core_pic_autumn_forest">秋の森</string>
+    <string name="core_pic_cherry_blossom">桜</string>
+    <string name="core_pic_desert_cactus">砂漠のサボテン</string>
+    <string name="core_pic_lighthouse">灯台</string>
+    <string name="core_pic_rainbow_field">虹の野原</string>
+    <string name="core_pic_hot_air_balloon">熱気球</string>
+    <string name="core_pic_sailboat">ヨット</string>
+    <string name="core_pic_cabin_in_the_woods">森の小屋</string>
+    <string name="core_pic_tulip_field">チューリップ畑</string>
+    <string name="core_pic_campfire_night">焚き火の夜</string>
+    <string name="core_pic_misty_mountains">霧の山々</string>
+    <string name="core_pic_sunrise_sea">朝日の海</string>
+    <string name="core_pic_snowy_pines">雪の松林</string>
+    <string name="core_pic_lavender_field">ラベンダー畑</string>
+    <string name="core_pic_waterfall">滝</string>
+    <string name="core_pic_city_at_dusk">夕暮れの街</string>
+    <string name="core_pic_picnic">ピクニック</string>
+    <string name="core_pic_moon_over_the_lake">湖に浮かぶ月</string>
+    <string name="core_pic_palm_island">ヤシの島</string>
+    <string name="core_pic_windmill">風車</string>
+    <string name="core_pic_bike_path">サイクリングロード</string>
+    <string name="core_pic_greenhouse">温室</string>
+    <string name="core_pic_northern_lights">オーロラ</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="other">%d個のステップが待ってるよ。</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="other">達成、%d回</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="other">1日%d回</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="other">%d回</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="other">%d週ごとに</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="other">%dか月ごとに</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="other">%d日ごとに</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="other">%dか月、一度も欠かさず</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="other">%dか月継続中</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="other">%d日連続</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="other">%dか月</item>
+    </plurals>
+
+    <string name="tabs_new_step">新しいステップ</string>
+    <string name="tabs_edit">編集</string>
+    <string name="tabs_delete">削除</string>
+    <string name="tabs_done">完了</string>
+    <string name="tabs_back">戻る</string>
+    <string name="tabs_earlier">前へ</string>
+    <string name="tabs_later">次へ</string>
+    <string name="tabs_delete_title">%1$sを削除する？</string>
+    <string name="tabs_eod_unlock">1日の終わりの習慣は%1$02d:00にロック解除</string>
+    <string name="tabs_check_up">振り返り</string>
+    <string name="tabs_one_off">1回きり</string>
+
+    <string name="tabs_checkin_from">%1$02d:00からチェックイン</string>
+    <string name="tabs_checkin_daily">毎日のチェックイン</string>
+    <string name="tabs_checkin_weekly">毎週のチェックイン</string>
+    <string name="tabs_checkin_quarter">3か月の振り返り</string>
+    <string name="tabs_checked_in">チェックイン済み</string>
+    <string name="tabs_quarter_section">3か月の振り返り</string>
+    <string name="tabs_previous_week">前の週</string>
+    <string name="tabs_next_week">次の週</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="other">%2$sを%1$d日続けたね！</item>
+    </plurals>
+    <string name="tabs_celebrate_text">よくがんばったね。これからは3か月の振り返りに移るから、毎日のチェックはもういらないよ。</string>
+    <string name="tabs_celebrate_first">最初は%1$s。</string>
+    <string name="tabs_glance_title">あなたの1週間</string>
+    <string name="tabs_glance_ticks_kept">達成したチェック</string>
+    <string name="tabs_glance_days_checked_in">チェックインした日</string>
+    <string name="tabs_glance_top_tag">いちばん多いつまずきタグ：</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="other">%1$s、%2$d回</item>
+    </plurals>
+    <string name="tabs_glance_easiest">いちばん楽：</string>
+    <string name="tabs_glance_hardest">いちばん大変：</string>
+
+    <string name="tabs_changes_ongoing">続ける置き換え</string>
+    <string name="tabs_changes_ongoing_tip_title">続ける置き換え</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="other">コーヒーカップや固形シャンプーみたいに、同じ選択に何度も出会うもの。「習慣」で%1$d日チェックして、その後は3か月ごとに振り返るよ。</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">置き換えはまだないよ</string>
+    <string name="tabs_changes_day_badge">%1$d/%2$d日目</string>
+    <string name="tabs_changes_sticking">継続中</string>
+    <string name="tabs_changes_one_off_todo">1回きり、やること</string>
+    <string name="tabs_changes_one_off_tip">引き出しを片づける、電気をグリーン電力プランに切り替える、ジャケットを直すみたいに、1回やれば終わるもの。チェックすると「完了」に移るよ。</string>
+    <string name="tabs_changes_nothing_waiting">待っているものはないよ</string>
+    <string name="tabs_changes_finished">完了 · %1$d</string>
+
+    <string name="tabs_avoid_title">回避リスト</string>
+    <string name="tabs_avoid_search">検索…</string>
+    <string name="tabs_avoid_no_match">一致するものがないよ</string>
+    <string name="tabs_avoid_companies">企業</string>
+    <string name="tabs_avoid_food">食べ物</string>
+    <string name="tabs_avoid_products">製品</string>
+
+    <string name="tabs_avoid_added">追加日</string>
+    <string name="tabs_avoid_why">避ける理由</string>
+    <string name="tabs_avoid_own_words">自分の言葉で</string>
+    <string name="tabs_avoid_brands">傘下のブランド · %1$d</string>
+    <string name="tabs_avoid_brand_hint">1行に1ブランド</string>
+    <string name="tabs_avoid_more_brands">ほか%1$d件</string>
+    <string name="tabs_avoid_instead">代わりにこれ</string>
+    <string name="tabs_avoid_instead_hint">1行に1つ</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="other">回つまずき</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">回避中</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="other">か月リスト入り</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">記録ごと回避リストから消えるよ。</string>
+
+    <string name="tabs_habit_delete_text">これまでの記録もすべて消えるよ。</string>
+    <string name="tabs_habit_created">作成日</string>
+    <string name="tabs_habit_to_do">やること</string>
+    <string name="tabs_habit_daily_ticks">毎日のチェック</string>
+    <string name="tabs_habit_day_of">%2$d日中%1$d日目</string>
+    <string name="tabs_habit_finished">完了</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="other">日継続中</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="other">回途切れた</item>
+    </plurals>
+    <string name="tabs_habit_success">達成率</string>
+    <string name="tabs_habit_current_streak">現在の連続記録</string>
+    <string name="tabs_habit_longest_streak">最長の連続記録</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="other">%1$d日</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">つまずいた理由</string>
+    <string name="tabs_habit_remove_reason">この理由を外す</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="other">つの暮らしの改善</item>
+    </plurals>
+    <string name="tabs_insights_habits">習慣</string>
+    <string name="tabs_insights_swaps">置き換え</string>
+    <string name="tabs_insights_avoids">回避</string>
+    <string name="tabs_insights_on_track_section">順調</string>
+    <string name="tabs_insights_avg_days">%1$d日</string>
+    <string name="tabs_insights_average_kept">平均継続</string>
+    <string name="tabs_insights_days_checked_in">チェックインした日</string>
+    <string name="tabs_insights_on_track">順調</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="other">回つまずき</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="other">個の新しいステップ</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="other">個の1回きりを完了</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">つまずきの主な理由</string>
+    <string name="tabs_insights_added_quarter">この四半期に追加</string>
+    <string name="tabs_insights_past_summaries">これまでの3か月まとめ</string>
+    <string name="tabs_insights_first_on">最初のまとめは%1$s</string>
+    <string name="tabs_insights_all_time">全期間</string>
+    <string name="tabs_insights_period">%3$d年%1$s〜%2$s</string>
+
+    <string name="forms_back">戻る</string>
+    <string name="forms_back_habits">習慣</string>
+    <string name="forms_back_settings">設定</string>
+    <string name="forms_add">追加</string>
+    <string name="forms_save">保存</string>
+    <string name="forms_finish">完了</string>
+    <string name="forms_delete">削除</string>
+    <string name="forms_why">理由</string>
+    <string name="forms_never_show">今後表示しない</string>
+    <string name="forms_every">毎</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="other">日</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">ステップ %1$d/%2$d</string>
+    <string name="forms_checkin_next_weekly">次は毎週のチェックイン ›</string>
+    <string name="forms_checkin_next_quarter">次は3か月の振り返り ›</string>
+    <string name="forms_daily_title">毎日のチェックイン</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="other">未記入の日があと%1$d日</item>
+    </plurals>
+    <string name="forms_daily_skip_all">全部スキップ</string>
+    <string name="forms_daily_today">今日 · %1$s</string>
+    <string name="forms_daily_skip">スキップ</string>
+    <string name="forms_daily_undo_skip">スキップを取り消す</string>
+    <string name="forms_daily_new_tag">新しいタグ</string>
+    <string name="forms_daily_new_tag_hint">ゴミ箱がいっぱいだった</string>
+    <string name="forms_weekly_title">毎週のチェックイン</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="other">%1$d週分たまってるけど、新しいステップ1つでまとめてOK。</item>
+    </plurals>
+    <string name="forms_weekly_no_step">今週は新しいステップなし</string>
+    <string name="forms_quarter_title">3か月の振り返り</string>
+    <string name="forms_quarter_nothing">振り返るものはまだないよ。次はあなたのまとめ。</string>
+    <string name="forms_quarter_habits">習慣</string>
+    <string name="forms_quarter_swaps">置き換え</string>
+    <string name="forms_quarter_avoid">回避</string>
+    <string name="forms_quarter_missed">できなかった</string>
+    <string name="forms_quarter_missed_level">できなかった：%1$s</string>
+
+    <string name="forms_new_title">新しいステップ</string>
+    <string name="forms_edit_title">編集：%1$s</string>
+    <string name="forms_add_kind">追加：%1$s</string>
+    <string name="forms_title_habit">習慣</string>
+    <string name="forms_title_swap">置き換え</string>
+    <string name="forms_title_avoid">回避</string>
+    <string name="forms_save_changes">変更を保存</string>
+    <string name="forms_what_kind">どの種類？</string>
+    <string name="forms_name">名前</string>
+    <string name="forms_your_new_step">新しいステップ</string>
+    <string name="forms_hint_habit">本を10ページ読む</string>
+    <string name="forms_hint_swap">スポンジじゃなくヘチマ</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">どんな習慣？</string>
+    <string name="forms_timing_tip_title">いつでも、または1日の終わり</string>
+    <string name="forms_timing_tip">いつでも：ランニングみたいに1回やればいいこと。終わったらすぐチェック。\n\n1日の終わり：間食しないみたいに、1日中守るルール。チェックできるのは夜だけ。</string>
+    <string name="forms_anytime">いつでも</string>
+    <string name="forms_end_of_day">1日の終わり</string>
+    <string name="forms_what_is_it">何をする？</string>
+    <string name="forms_how_often">どのくらいの頻度？</string>
+    <string name="forms_often_specific">曜日を指定</string>
+    <string name="forms_often_whenever">いつでも</string>
+    <string name="forms_often_once">1回だけ</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="other">回、毎</item>
+    </plurals>
+    <string name="forms_unit_day">日</string>
+    <string name="forms_unit_week">週</string>
+    <string name="forms_unit_month">月</string>
+    <string name="forms_unit_x_days">X日</string>
+    <string name="forms_ideas">アイデア</string>
+    <string name="forms_ideas_others">その他</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="other">%1$d個のアイデアをすべて見る ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">ステップのアイデア一覧</string>
+    <string name="forms_search">検索…</string>
+    <string name="forms_all">すべて</string>
+
+    <string name="forms_settings_title">設定</string>
+    <string name="forms_set_colours">カラー</string>
+    <string name="forms_set_style">3か月まとめのスタイル</string>
+    <string name="forms_set_checkins">チェックイン</string>
+    <string name="forms_set_checkin_hour">毎日のチェックイン開始時刻</string>
+    <string name="forms_set_checkin_hour_tip">この時刻から、1日の終わりの習慣のチェックと毎日のチェックインができるよ。</string>
+    <string name="forms_set_week_start">週の始まり</string>
+    <string name="forms_set_week_start_tip">習慣のグリッド、週、グラフを何曜日から始めるか。</string>
+    <string name="forms_monday">月曜日</string>
+    <string name="forms_sunday">日曜日</string>
+    <string name="forms_set_new_step_every">新しいステップの間隔</string>
+    <string name="forms_set_new_step_every_tip">毎週のチェックインの間を何週あけるか。</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="other">週</item>
+    </plurals>
+    <string name="forms_set_weekly_day">毎週のチェックインの曜日</string>
+    <string name="forms_set_weekly_day_tip">この日は、毎日のチェックインのあとに来週の新しいステップを選ぶよ。</string>
+    <string name="forms_set_checkup">3か月の振り返り</string>
+    <string name="forms_set_checkup_tip">みんな同じ日に振り返るよ：1月1日、4月1日、7月1日、10月1日。だからまとめを一緒にシェアできる。自分で日付を選ぶこともできるよ。</string>
+    <string name="forms_set_same">みんなと同じ</string>
+    <string name="forms_set_own">自分の日付</string>
+    <string name="forms_set_starting">開始月</string>
+    <string name="forms_set_starting_tip">自分で決めた最初の振り返りの月。</string>
+    <string name="forms_earlier">前へ</string>
+    <string name="forms_later">次へ</string>
+    <string name="forms_set_every_tip">振り返りの間隔（月数）。</string>
+    <plurals name="forms_unit_months">
+        <item quantity="other">か月</item>
+    </plurals>
+    <string name="forms_set_day_of_month">日にち</string>
+    <string name="forms_set_day_of_month_tip">その月の何日か。</string>
+    <string name="forms_set_everyone">みんな：1月1日 · 4月1日 · 7月1日 · 10月1日</string>
+    <string name="forms_set_days_build">習慣化までの日数</string>
+    <string name="forms_set_days_build_tip">研究では18〜254日、よく引用されるのは66日（Lally et al. 2010、Singh et al. 2024）。この日数がたつと、新しいステップは振り返りに移るよ。</string>
+    <string name="forms_set_nudge">毎日のリマインダー</string>
+    <string name="forms_set_nudge_tip">この時刻にお知らせ。まだチェックしてないものがあるときだけ。</string>
+    <string name="forms_set_more">その他</string>
+    <string name="forms_set_reasons">つまずきの理由</string>
+    <string name="forms_set_tutorial">チュートリアルをもう一度見る</string>
+    <string name="forms_set_export">データをエクスポート</string>
+    <string name="forms_set_import">データをインポート</string>
+
+    <string name="forms_reasons_title">つまずきの理由</string>
+    <string name="forms_reasons_hint">自分の理由を追加</string>
+    <string name="forms_reasons_used">%1$d×使用</string>
+    <string name="forms_reasons_delete_title">%1$sを削除する？</string>
+    <string name="forms_reasons_delete_text">つまずきの記録は残るけど、このタグは外れるよ。</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="other">習慣%1$d個</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="other">置き換え%1$d個</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="other">回避%1$d個</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s、%2$s、%3$s</string>
+    <string name="forms_backup_since">%1$s、%2$s以降のチェック</string>
+    <string name="forms_export_title">データをエクスポート</string>
+    <string name="forms_export_what">ファイルに入るもの</string>
+    <string name="forms_export_ticks">すべてのチェック、つまずき、理由</string>
+    <string name="forms_export_ticks_since">%1$s以降のすべてのチェック、つまずき、理由</string>
+    <string name="forms_export_summaries">3か月まとめ</string>
+    <string name="forms_export_settings">設定、カラー、名前</string>
+    <string name="forms_export_file">ファイル</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">ファイルを保存</string>
+    <string name="forms_export_send">送る…</string>
+    <string name="forms_export_send_title">Aliceのデータを送る</string>
+    <string name="forms_export_saved">%1$sを保存したよ</string>
+    <string name="forms_export_save_failed">ファイルを保存できなかったよ</string>
+
+    <string name="forms_import_title">データをインポート</string>
+    <string name="forms_import_choose">Aliceのバックアップを選ぶ</string>
+    <string name="forms_import_choose_sub">.json、別のスマホでエクスポートしたもの</string>
+    <string name="forms_import_cant_open">そのファイルを開けなかったよ。</string>
+    <string name="forms_import_not_backup">そのファイルはAliceのバックアップじゃないよ。</string>
+    <string name="forms_import_replace_mode">今のデータと入れ替える</string>
+    <string name="forms_import_add_mode">今のデータに追加する</string>
+    <string name="forms_import_button">インポート</string>
+    <string name="forms_import_replace_title">データを入れ替える？</string>
+    <string name="forms_import_add_title">このデータを追加する？</string>
+    <string name="forms_import_replace_text">このスマホの中身がすべてファイルの内容に置き換わるよ。残したいなら先にエクスポートしてね。</string>
+    <string name="forms_import_add_text">ファイルの習慣と記録が、今のデータに追加されるよ。</string>
+    <string name="forms_import_done">データをインポートしたよ</string>
+
+    <string name="look_share">シェア</string>
+    <string name="look_save_image">画像を保存</string>
+    <string name="look_next_week">次はあなたの1週間 ›</string>
+    <string name="look_keep_going">この調子で</string>
+    <string name="look_storage_needed">画像を保存するには、Aliceにストレージへのアクセスが必要だよ</string>
+    <string name="look_share_caption">Aliceと過ごしたこの3か月。あなたも始めてみて：%1$s</string>
+    <string name="look_share_clip">Aliceのまとめ</string>
+    <string name="look_share_chooser">この3か月をシェア</string>
+    <string name="look_saved">Pictures/Aliceに保存したよ</string>
+    <string name="look_save_failed">画像を保存できなかったよ</string>
+
+    <string name="look_style_poster">ポスター</string>
+    <string name="look_style_wrapped">まとめ</string>
+    <string name="look_style_trophy">トロフィー棚</string>
+    <string name="look_style_receipt">レシート</string>
+    <string name="look_style_report">通知表</string>
+    <string name="look_style_boarding">搭乗券</string>
+    <string name="look_style_polaroid">ポラロイド</string>
+    <string name="look_style_calendar">カレンダー</string>
+    <string name="look_style_trading">トレカ</string>
+
+    <string name="look_quote_1">毎日、小さな一歩</string>
+    <string name="look_quote_2">続けてくれてありがとう</string>
+    <string name="look_quote_3">完璧より、前進</string>
+    <string name="look_quote_4">続けてきた、それがすごい</string>
+    <string name="look_quote_5">小さな変化、大きな違い</string>
+    <string name="look_quote_6">毎日、よりよい選択を</string>
+    <string name="look_quote_7">ゆっくりでも前に進んでる</string>
+    <string name="look_quote_8">好きな毎日をつくっている</string>
+    <string name="look_quote_9">一歩ずつが積み重なる</string>
+    <string name="look_quote_10">自分のために、続けよう</string>
+    <string name="look_quote_11">未来の自分がありがとうって</string>
+    <string name="look_quote_12">少しずつが、たくさんに</string>
+    <string name="look_quote_13">続けることは静かな魔法</string>
+    <string name="look_quote_14">こんなに遠くまで来たね</string>
+    <string name="look_quote_15">小さな成功を誇ろう</string>
+    <string name="look_quote_16">いい日は見つけるより、つくるもの</string>
+
+    <string name="look_stamp_1">たいへんよくできました</string>
+    <string name="look_stamp_2">ずば抜けてる</string>
+    <string name="look_stamp_3">よくできました</string>
+    <string name="look_stamp_4">すばらしい</string>
+    <string name="look_stamp_5">最高</string>
+    <string name="look_stamp_6">満点</string>
+    <string name="look_stamp_7">金メダル</string>
+    <string name="look_stamp_8">がんばりました</string>
+
+    <string name="look_period">%1$s〜%2$s</string>
+    <string name="look_scan">スキャンして\nあなたの旅を\nはじめよう</string>
+    <string name="look_you">あなた</string>
+    <string name="look_on_track">順調</string>
+    <string name="look_new_steps">新しいステップ</string>
+    <string name="look_days_in">日経過</string>
+    <string name="look_new">新規</string>
+    <string name="look_week_by_week">週ごと</string>
+    <string name="look_coming_soon">もうすぐ</string>
+    <string name="look_new_this_quarter">この3か月の新顔</string>
+    <string name="look_kept_up_longest">いちばん長く続いた</string>
+    <string name="look_habits">習慣</string>
+    <string name="look_swaps">置き換え</string>
+    <string name="look_avoids">回避</string>
+    <string name="look_ways_improved">暮らしの改善</string>
+    <string name="look_improved_in">%1$sで暮らしがよくなった</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="other">習慣%1$d個</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="other">置き換え%1$d個</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="other">回避%1$d個</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="other">つまずき%1$d回</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="other">%1$dつのこと</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="other">習慣</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="other">置き換え</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="other">回避</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="other">つまずき</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="other">改善</item>
+    </plurals>
+
+    <string name="look_poster_improved">%1$sで暮らしをよくしてきたね</string>
+    <string name="look_poster_on_track">順調</string>
+    <string name="look_poster_days">日</string>
+    <string name="look_poster_achievements">達成したこと</string>
+    <string name="look_poster_first_ones">最初の達成はもうすぐ</string>
+    <string name="look_poster_added">この3か月に加えたもの</string>
+
+    <string name="look_wrapped_stars">あなたのスター</string>
+
+    <string name="look_trophy_ways">つの暮らしの\n改善</string>
+    <string name="look_trophy_next_quarter">次の3か月</string>
+    <string name="look_trophy_first_medal">はじめてのメダル</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">新しく棚に：</string>
+
+    <string name="look_receipt_title">3か月の振り返り · %1$s</string>
+    <string name="look_receipt_customer">お客様：%1$s</string>
+    <string name="look_receipt_habits">身についた習慣</string>
+    <string name="look_receipt_swaps">置き換えたもの</string>
+    <string name="look_receipt_avoids">避けたもの</string>
+    <string name="look_receipt_ways">暮らしの改善</string>
+    <string name="look_receipt_on_track">この3か月で順調</string>
+    <string name="look_receipt_slips">つまずき</string>
+    <string name="look_receipt_new_steps">身についた新しいステップ</string>
+    <string name="look_receipt_new">この3か月の新顔：%1$s</string>
+
+    <string name="look_report_title">小さな一歩の通知表</string>
+    <string name="look_report_pupil">%1$s · 生徒：%2$s</string>
+    <string name="look_report_subject">科目</string>
+    <string name="look_report_built">習得</string>
+    <string name="look_report_grade">評価</string>
+    <string name="look_report_attendance">出席 %1$s</string>
+    <string name="look_report_on_track">順調 %1$s</string>
+    <string name="look_report_slips">つまずき %1$s</string>
+    <string name="look_report_achievements">達成したこと</string>
+    <string name="look_report_achievement">★ %1$s、%2$s</string>
+    <string name="look_report_new">今学期の新しい科目（%1$d）</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">先生から：</string>
+    <string name="look_report_calm">落ち着いて着実な学期でした。</string>
+    <string name="look_report_ups_downs">浮き沈みのある学期だったけど、最後まで続けました。</string>
+    <string name="look_report_star">%1$sがとてもよくできました。この調子で！</string>
+    <string name="look_report_keep_up">この調子で！</string>
+    <string name="look_report_week">週ごと</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">便名 Q%1$d</string>
+    <string name="look_boarding_from">出発</string>
+    <string name="look_boarding_old">これまでの</string>
+    <string name="look_boarding_habits">習慣</string>
+    <string name="look_boarding_to">到着</string>
+    <string name="look_boarding_new">新しい</string>
+    <string name="look_boarding_better_you">自分へ</string>
+    <string name="look_boarding_passenger">搭乗者</string>
+    <string name="look_boarding_dates">日程</string>
+    <string name="look_boarding_miles">飛行マイル</string>
+    <string name="look_boarding_on_time">定刻</string>
+    <string name="look_boarding_turbulence">乱気流</string>
+    <string name="look_boarding_days">搭乗日数</string>
+    <string name="look_boarding_flyer">常連さん、いちばん長い相棒</string>
+    <string name="look_boarding_log">フライトログ、週ごと</string>
+    <string name="look_boarding_stops">新しい経由地、+%1$d</string>
+    <string name="look_boarding_note">機長より</string>
+
+    <string name="look_polaroid_life">あなたの暮らし</string>
+    <string name="look_polaroid_quarter">この3か月</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d日経過</string>
+    <string name="look_polaroid_longest">いちばん長く続いた</string>
+    <string name="look_polaroid_new">新規、+%1$d</string>
+
+    <string name="look_calendar_added">追加</string>
+
+    <string name="look_trading_common">コモン</string>
+    <string name="look_trading_uncommon">アンコモン</string>
+    <string name="look_trading_rare">レア</string>
+    <string name="look_trading_legendary">レジェンド</string>
+    <plurals name="look_trading_ways">
+        <item quantity="other">改善</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d回目</string>
+    <string name="look_ordinal_nd">%1$d回目</string>
+    <string name="look_ordinal_rd">%1$d回目</string>
+    <string name="look_ordinal_th">%1$d回目</string>
+    <string name="look_trading_number">No. %1$03d · %2$sの3か月</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d日</string>
+    <string name="look_trading_power">パワー、週ごと</string>
+    <string name="look_trading_edition">%1$s · Q%2$d エディション</string>
+
+    <string name="look_sample_water_first">まず水を飲む</string>
+    <string name="look_sample_own_bag">マイバッグ</string>
+    <string name="look_sample_read_pages">本を10ページ読む</string>
+    <string name="look_sample_reading">毎日の読書</string>
+    <string name="look_sample_late_snacks">夜食なし</string>
+    <string name="look_sample_stretching">ストレッチ</string>
+    <string name="look_sample_cooler_home">暖房を控えめに</string>
+    <string name="look_sample_loofah">スポンジじゃなくヘチマ</string>
+    <string name="look_sample_palm_oil">パーム油フリー</string>
+    <string name="look_sample_stretch">10分ストレッチ</string>
+
+    <string name="look_colours_title">カラー</string>
+    <string name="look_colours_preview">プレビュー</string>
+    <string name="look_colours_your_summary">あなたの3か月まとめ</string>
+    <string name="look_colours_light">ライト</string>
+    <string name="look_colours_dark">ダーク</string>
+    <string name="look_styles_title">3か月まとめのスタイル</string>
+    <string name="look_styles_all_pictures">ポラロイドの絵を全30枚見る</string>
+    <string name="look_styles_refresh">更新</string>
+    <string name="look_pictures_title">ポラロイドの絵</string>
+    <string name="look_pictures_back">まとめのスタイル</string>
+
+    <string name="look_welcome_name">あなたの名前</string>
+    <string name="look_welcome_start">はじめる</string>
+    <string name="look_welcome_import">データをインポート</string>
+
+    <string name="look_tut_skip">スキップ</string>
+    <string name="look_tut_page">%1$d / %2$d</string>
+    <string name="look_tut_back">戻る</string>
+    <string name="look_tut_start">はじめる</string>
+    <string name="look_tut_next">次へ</string>
+    <string name="look_tut1_title">一歩ずつ、なりたい自分へ</string>
+    <string name="look_tut1_body">新しい習慣をつくって、やさしい選択をして、達成したことが積み重なっていくのを見よう。</string>
+    <string name="look_tut1_habits">毎日少しずついい習慣をつくって、なりたい自分になろう。</string>
+    <string name="look_tut1_swaps">地球や人、自分の健康にやさしいものに置き換えよう。</string>
+    <string name="look_tut1_avoids">応援したくない企業、食べ物、製品を記録しておこう。</string>
+    <string name="look_tut2_title">チェックしよう</string>
+    <string name="look_tut2_body">習慣ができたらマスをタップ。夜の習慣はチェックインの時間にロック解除されるよ。</string>
+    <string name="look_tut3_title">%1$s、その後は%2$sごと</string>
+    <plurals name="look_tut3_days">
+        <item quantity="other">%1$d日</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="other">%1$dか月</item>
+    </plurals>
+    <string name="look_tut3_body">研究によると、習慣が身につくまでには18日から254日かかるんだって。いちばんよく引用されるのが66日だから、Aliceはそこからスタートするよ。</string>
+    <string name="look_tut3_days_label">習慣化までの日数</string>
+    <string name="look_tut3_checkup">振り返りの間隔</string>
+    <string name="look_tut3_small">どちらも設定で変えられるよ。</string>
+    <string name="look_tut4_title">週に1回、新しいステップを1つ</string>
+    <string name="look_tut4_body">新しいステップを1つずつ足していけば、一度に抱えこみすぎず、ゆっくり成長できるよ。</string>
+    <string name="look_tut4_day">チェックインの曜日</string>
+    <string name="look_tut4_small">これも設定で変えられるよ。</string>
+    <string name="look_tut5_title">3か月ごとに、あなたのまとめ</string>
+    <string name="look_tut5_body">ここまでの歩みを、友だちや身近な人とシェアしよう。好きなデザインをタップしてね：</string>
+    <string name="look_tut_change_mind">あとからいつでも変えられるよ。</string>
+    <string name="look_tut6_title">自分好みに</string>
+    <string name="look_tut6_body">いちばん心地いい色を選んでね。アプリ全体がすぐに変わるよ。</string>
+    <string name="look_tut7_title">いつでも、なんでも変えられる</string>
+    <string name="look_tut7_body">チェックインの時刻、習慣化までの日数、まとめのスタイル、カラー、データは全部設定にあるよ。</string>
+    <string name="look_tut7_gear">「習慣」の上にある歯車をタップすると設定が開くよ。</string>
+    <string name="look_tut7_open">設定を開く</string>
+
+    <string name="lang_title">言語</string>
+    <string name="pron_title">呼び方</string>
+    <string name="pron_she">女性</string>
+    <string name="pron_he">男性</string>
+    <string name="pron_they">指定なし</string>
+    <string name="lang_spotted">あなたの言語でまちがいを見つけた？</string>
+    <string name="lang_search">言語を検索</string>
+    <string name="lang_phone">スマホの言語</string>
+    <string name="lang_follow">スマホに合わせる</string>
+    <string name="lang_note_title">翻訳を手伝って</string>
+    <string name="lang_note_1">こんにちは、Aliceをつくったルーシーです。</string>
+    <string name="lang_note_2">私は英語、スロバキア語、チェコ語、ロシア語を話せるので、その翻訳は自分でチェックしました。ほかの言語は、まだネイティブスピーカーのチェックを受けていません。</string>
+    <string name="lang_note_3">あなたの言語でまちがいを見つけたら、直せるように教えてね。しばらくあなたの言語でAliceを使ってみて、全部自然に読めたら、それも教えてね。承認済みにするから。</string>
+    <string name="lang_note_4">ありがとう！</string>
+    <string name="lang_not_approved">未承認</string>
+    <string name="lang_report">まちがいを報告</string>
+    <string name="lang_all_correct">私の言語は全部OK</string>
+    <string name="lang_mail_mistake_body">おかしいところと、その画面：\n\n</string>
+    <string name="lang_mail_correct_body">しばらく自分の言語でAliceを使ってみて、全部自然に読めました。\n\n</string>
+    <string name="lang_no_mail">メールアプリが見つからないよ</string>
+</resources>

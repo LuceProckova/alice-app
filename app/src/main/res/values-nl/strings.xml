@@ -1,0 +1,772 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Te moe</string>
+    <string name="core_reason_craving">Trek</string>
+    <string name="core_reason_no_time">Geen tijd</string>
+    <string name="core_reason_forgot">Vergeten</string>
+    <string name="core_reason_no_alternative">Geen alternatief</string>
+    <string name="core_reason_social">Sociaal</string>
+    <string name="core_reason_impulse">Impuls</string>
+    <string name="core_reason_too_expensive">Te duur</string>
+    <string name="core_reason_away">Weg</string>
+
+    <string name="core_nudge_channel">Dagelijkse herinnering</string>
+    <string name="core_nudge_title">Vandaag nog af te vinken</string>
+    <string name="core_save_failed">Opslaan lukte niet, probeer het nog eens</string>
+
+    <string name="core_kind_habit">Gewoonte</string>
+    <string name="core_kind_swap">Wissel</string>
+    <string name="core_kind_avoid">Vermijden</string>
+    <string name="core_about">Over %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Minder</string>
+    <string name="core_more">Meer</string>
+    <string name="core_cancel">Annuleren</string>
+    <string name="core_settings">Instellingen</string>
+    <string name="core_span_week">Week</string>
+    <string name="core_span_month">Maand</string>
+    <string name="core_span_year">Jaar</string>
+    <string name="core_span_all">Altijd</string>
+    <string name="core_tab_habits">Gewoonten</string>
+    <string name="core_tab_changes">Veranderingen</string>
+    <string name="core_tab_avoid">Vermijden</string>
+    <string name="core_tab_insights">Inzichten</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">volgehouden</string>
+    <string name="core_cell_missed">gemist</string>
+    <string name="core_cell_partial">deels gedaan, %1$d tot nu toe</string>
+    <string name="core_cell_unfilled">nog niet ingevuld</string>
+    <string name="core_cell_open">te doen</string>
+    <string name="core_cell_locked">vergrendeld tot de check-intijd</string>
+    <string name="core_cell_future">nog niet</string>
+    <string name="core_cell_empty">niets nodig</string>
+    <string name="core_cell_band">klaar voor deze periode</string>
+    <string name="core_cell_off">geen dag voor deze stap</string>
+    <string name="core_cell_none">voordat deze stap begon</string>
+
+    <string name="core_rhythm_one_off">Eenmalig</string>
+    <string name="core_rhythm_end_of_day">Elke dag, afgevinkt aan het eind van de dag</string>
+    <string name="core_rhythm_every_day">Elke dag</string>
+    <string name="core_rhythm_every_days">Elke %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">per week</string>
+    <string name="core_rhythm_a_month">per maand</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, op elke dag</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s en %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d mnd</string>
+    <string name="core_achievement_short_days">%1$d d</string>
+    <string name="core_glance_step">%1$s, %2$d van %3$d</string>
+
+    <string name="core_slip_never">Nooit</string>
+    <string name="core_slip_once">Eén keer</string>
+    <string name="core_slip_a_few">Een paar</string>
+    <string name="core_slip_half">De helft</string>
+    <string name="core_slip_most">Meestal</string>
+    <string name="core_slip_always">Altijd</string>
+
+    <string name="core_ideas_habit_anytime">Gewoonten, op elk moment</string>
+    <string name="core_ideas_habit_end">Gewoonten, eind van de dag</string>
+    <string name="core_ideas_swap">Wissels</string>
+    <string name="core_ideas_avoid_product">Vermijden, producten</string>
+    <string name="core_ideas_avoid_company">Vermijden, bedrijven</string>
+    <string name="core_ideas_avoid_food">Vermijden, eten</string>
+
+    <string name="core_tag_ethical">Ethisch</string>
+    <string name="core_tag_health">Gezondheid</string>
+    <string name="core_tag_clutter">Rommel</string>
+    <string name="core_tag_ecological">Ecologisch</string>
+    <string name="core_tag_animal_welfare">Dierenwelzijn</string>
+    <string name="core_tag_workers_rights">Arbeidsrechten</string>
+    <string name="core_tag_plastic">Plastic</string>
+    <string name="core_tag_palm_oil">Palmolie</string>
+    <string name="core_tag_deforestation">Ontbossing</string>
+    <string name="core_category_company">Bedrijf</string>
+    <string name="core_category_food">Eten</string>
+    <string name="core_category_product">Product</string>
+    <string name="core_verdict_avoid">VERMIJDEN</string>
+    <string name="core_verdict_edge">TWIJFELGEVAL</string>
+    <string name="core_verdict_fine">PRIMA</string>
+
+    <string name="core_theme_off_white_honey">Gebroken wit &amp; honing</string>
+    <string name="core_theme_vanilla_caramel">Vanille &amp; karamel</string>
+    <string name="core_theme_sunflower">Zonnebloem</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Cacao &amp; citroen</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; boter</string>
+    <string name="core_theme_midnight_honey">Middernacht &amp; honing</string>
+    <string name="core_theme_forest_night">Bosnacht</string>
+    <string name="core_theme_plum_dusk">Pruimenschemer</string>
+    <string name="core_theme_charcoal_coral">Antraciet &amp; koraal</string>
+
+    <string name="core_pic_sunny_meadow">Zonnige weide</string>
+    <string name="core_pic_sunset_hills">Heuvels bij zonsondergang</string>
+    <string name="core_pic_starry_night">Sterrennacht</string>
+    <string name="core_pic_beach_day">Stranddag</string>
+    <string name="core_pic_mountain_lake">Bergmeer</string>
+    <string name="core_pic_snowy_village">Besneeuwd dorp</string>
+    <string name="core_pic_rainy_garden">Regenachtige tuin</string>
+    <string name="core_pic_autumn_forest">Herfstbos</string>
+    <string name="core_pic_cherry_blossom">Kersenbloesem</string>
+    <string name="core_pic_desert_cactus">Woestijncactus</string>
+    <string name="core_pic_lighthouse">Vuurtoren</string>
+    <string name="core_pic_rainbow_field">Regenboogveld</string>
+    <string name="core_pic_hot_air_balloon">Luchtballon</string>
+    <string name="core_pic_sailboat">Zeilboot</string>
+    <string name="core_pic_cabin_in_the_woods">Hut in het bos</string>
+    <string name="core_pic_tulip_field">Tulpenveld</string>
+    <string name="core_pic_campfire_night">Kampvuuravond</string>
+    <string name="core_pic_misty_mountains">Mistige bergen</string>
+    <string name="core_pic_sunrise_sea">Zee bij zonsopgang</string>
+    <string name="core_pic_snowy_pines">Besneeuwde dennen</string>
+    <string name="core_pic_lavender_field">Lavendelveld</string>
+    <string name="core_pic_waterfall">Waterval</string>
+    <string name="core_pic_city_at_dusk">Stad in de schemering</string>
+    <string name="core_pic_picnic">Picknick</string>
+    <string name="core_pic_moon_over_the_lake">Maan boven het meer</string>
+    <string name="core_pic_palm_island">Palmeneiland</string>
+    <string name="core_pic_windmill">Windmolen</string>
+    <string name="core_pic_bike_path">Fietspad</string>
+    <string name="core_pic_greenhouse">Kas</string>
+    <string name="core_pic_northern_lights">Noorderlicht</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d stap wacht op je.</item>
+        <item quantity="other">%d stappen wachten op je.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">volgehouden, %d keer</item>
+        <item quantity="other">volgehouden, %d keer</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d keer per dag</item>
+        <item quantity="other">%d keer per dag</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Eén keer</item>
+        <item quantity="other">%d keer</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">elke %d week</item>
+        <item quantity="other">elke %d weken</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">elke %d maand</item>
+        <item quantity="other">elke %d maanden</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">elke %d dag</item>
+        <item quantity="other">elke %d dagen</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d maand, nooit gemist</item>
+        <item quantity="other">%d maanden, nooit gemist</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d maand volgehouden</item>
+        <item quantity="other">%d maanden volgehouden</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d dag op rij</item>
+        <item quantity="other">%d dagen op rij</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d maand</item>
+        <item quantity="other">%d maanden</item>
+    </plurals>
+
+    <string name="tabs_new_step">Nieuwe stap</string>
+    <string name="tabs_edit">Bewerken</string>
+    <string name="tabs_delete">Verwijderen</string>
+    <string name="tabs_done">Klaar</string>
+    <string name="tabs_back">Terug</string>
+    <string name="tabs_earlier">Eerder</string>
+    <string name="tabs_later">Later</string>
+    <string name="tabs_delete_title">%1$s verwijderen?</string>
+    <string name="tabs_eod_unlock">Avondgewoonten gaan open om %1$02d:00</string>
+    <string name="tabs_check_up">Check-up</string>
+    <string name="tabs_one_off">Eenmalig</string>
+
+    <string name="tabs_checkin_from">Check-in vanaf %1$02d:00</string>
+    <string name="tabs_checkin_daily">Dagelijkse check-in</string>
+    <string name="tabs_checkin_weekly">Wekelijkse check-in</string>
+    <string name="tabs_checkin_quarter">3-maandelijkse check-up</string>
+    <string name="tabs_checked_in">Ingecheckt</string>
+    <string name="tabs_quarter_section">3-MAANDELIJKSE CHECK-UP</string>
+    <string name="tabs_previous_week">Vorige week</string>
+    <string name="tabs_next_week">Volgende week</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d dag %2$s!</item>
+        <item quantity="other">%1$d dagen %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Goed gedaan. Hij gaat nu naar je 3-maandelijkse check-ups, geen dagelijks afvinken meer.</string>
+    <string name="tabs_celebrate_first">De eerste is op %1$s.</string>
+    <string name="tabs_glance_title">Jouw week</string>
+    <string name="tabs_glance_ticks_kept">Vinkjes gehaald</string>
+    <string name="tabs_glance_days_checked_in">Dagen ingecheckt</string>
+    <string name="tabs_glance_top_tag">Vaakst gebruikte uitglijder-tag:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d keer</item>
+        <item quantity="other">%1$s, %2$d keer</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Makkelijkst:</string>
+    <string name="tabs_glance_hardest">Moeilijkst:</string>
+
+    <string name="tabs_changes_ongoing">Doorlopende wissels</string>
+    <string name="tabs_changes_ongoing_tip_title">Doorlopende wissel</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Je staat steeds weer voor dezelfde keuze, zoals een koffiebeker of een shampoobar. Je vinkt hem %1$d dag af in Gewoonten, daarna wordt hij elke 3 maanden gecheckt.</item>
+        <item quantity="other">Je staat steeds weer voor dezelfde keuze, zoals een koffiebeker of een shampoobar. Je vinkt hem %1$d dagen af in Gewoonten, daarna wordt hij elke 3 maanden gecheckt.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Nog geen wissels</string>
+    <string name="tabs_changes_day_badge">DAG %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">BLIJFT HANGEN</string>
+    <string name="tabs_changes_one_off_todo">Eenmalig, te doen</string>
+    <string name="tabs_changes_one_off_tip">Je doet het één keer en dan is het klaar, zoals een la opruimen, overstappen op groene stroom of een jas repareren. Vink het af en het gaat naar Afgerond.</string>
+    <string name="tabs_changes_nothing_waiting">Niets wacht</string>
+    <string name="tabs_changes_finished">AFGEROND · %1$d</string>
+
+    <string name="tabs_avoid_title">Vermijdlijst</string>
+    <string name="tabs_avoid_search">Zoeken…</string>
+    <string name="tabs_avoid_no_match">Niets gevonden</string>
+    <string name="tabs_avoid_companies">Bedrijven</string>
+    <string name="tabs_avoid_food">Eten</string>
+    <string name="tabs_avoid_products">Producten</string>
+
+    <string name="tabs_avoid_added">Toegevoegd</string>
+    <string name="tabs_avoid_why">Waarom je het vermijdt</string>
+    <string name="tabs_avoid_own_words">In je eigen woorden</string>
+    <string name="tabs_avoid_brands">Merken van dit bedrijf · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Eén merk per regel</string>
+    <string name="tabs_avoid_more_brands">+%1$d meer</string>
+    <string name="tabs_avoid_instead">Neem dit in plaats daarvan</string>
+    <string name="tabs_avoid_instead_hint">Eén per regel</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">uitglijder</item>
+        <item quantity="other">uitglijders</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">vermeden</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">maand op de lijst</item>
+        <item quantity="other">maanden op de lijst</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Het gaat van je vermijdlijst af, samen met de geschiedenis.</string>
+
+    <string name="tabs_habit_delete_text">De hele geschiedenis gaat mee.</string>
+    <string name="tabs_habit_created">Aangemaakt</string>
+    <string name="tabs_habit_to_do">Te doen</string>
+    <string name="tabs_habit_daily_ticks">Dagelijkse vinkjes</string>
+    <string name="tabs_habit_day_of">Dag %1$d van %2$d</string>
+    <string name="tabs_habit_finished">Afgerond</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">dag bezig</item>
+        <item quantity="other">dagen bezig</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">keer onderbroken</item>
+        <item quantity="other">keer onderbroken</item>
+    </plurals>
+    <string name="tabs_habit_success">succes</string>
+    <string name="tabs_habit_current_streak">Huidige reeks</string>
+    <string name="tabs_habit_longest_streak">Langste reeks</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dagen</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Waarom het misging</string>
+    <string name="tabs_habit_remove_reason">Deze reden verwijderen</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">manier waarop je je leven verbeterde</item>
+        <item quantity="other">manieren waarop je je leven verbeterde</item>
+    </plurals>
+    <string name="tabs_insights_habits">Gewoonten</string>
+    <string name="tabs_insights_swaps">Wissels</string>
+    <string name="tabs_insights_avoids">Vermijdingen</string>
+    <string name="tabs_insights_on_track_section">Op koers</string>
+    <string name="tabs_insights_avg_days">%1$d d</string>
+    <string name="tabs_insights_average_kept">gemiddeld volgehouden</string>
+    <string name="tabs_insights_days_checked_in">dagen ingecheckt</string>
+    <string name="tabs_insights_on_track">op koers</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">uitglijder</item>
+        <item quantity="other">uitglijders</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">nieuwe stap</item>
+        <item quantity="other">nieuwe stappen</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">eenmalige klaar</item>
+        <item quantity="other">eenmalige klaar</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Grootste redenen voor uitglijders</string>
+    <string name="tabs_insights_added_quarter">Dit kwartaal toegevoegd</string>
+    <string name="tabs_insights_past_summaries">Eerdere 3-maandoverzichten</string>
+    <string name="tabs_insights_first_on">Je eerste komt op %1$s</string>
+    <string name="tabs_insights_all_time">Altijd</string>
+    <string name="tabs_insights_period">%1$s tot %2$s %3$d</string>
+
+    <string name="forms_back">Terug</string>
+    <string name="forms_back_habits">Gewoonten</string>
+    <string name="forms_back_settings">Instellingen</string>
+    <string name="forms_add">Toevoegen</string>
+    <string name="forms_save">Opslaan</string>
+    <string name="forms_finish">Afronden</string>
+    <string name="forms_delete">Verwijderen</string>
+    <string name="forms_why">Waarom</string>
+    <string name="forms_never_show">Nooit meer tonen</string>
+    <string name="forms_every">Elke</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">dag</item>
+        <item quantity="other">dagen</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Stap %1$d van %2$d</string>
+    <string name="forms_checkin_next_weekly">Volgende, wekelijkse check-in ›</string>
+    <string name="forms_checkin_next_quarter">Volgende, 3-maandelijkse check-up ›</string>
+    <string name="forms_daily_title">Dagelijkse check-in</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d eerdere dag niet ingevuld</item>
+        <item quantity="other">%1$d eerdere dagen niet ingevuld</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Alles overslaan</string>
+    <string name="forms_daily_today">Vandaag · %1$s</string>
+    <string name="forms_daily_skip">Overslaan</string>
+    <string name="forms_daily_undo_skip">Overslaan ongedaan maken</string>
+    <string name="forms_daily_new_tag">Nieuwe tag</string>
+    <string name="forms_daily_new_tag_hint">Prullenbak was vol</string>
+    <string name="forms_weekly_title">Wekelijkse check-in</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d week achter, één nieuwe stap dekt ze allemaal.</item>
+        <item quantity="other">%1$d weken achter, één nieuwe stap dekt ze allemaal.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Geen nieuwe stap deze week</string>
+    <string name="forms_quarter_title">3-maandelijkse check-up</string>
+    <string name="forms_quarter_nothing">Nog niets opgebouwd om te checken. Je overzicht komt hierna.</string>
+    <string name="forms_quarter_habits">Gewoonten</string>
+    <string name="forms_quarter_swaps">Wissels</string>
+    <string name="forms_quarter_avoid">Vermijden</string>
+    <string name="forms_quarter_missed">Gemist</string>
+    <string name="forms_quarter_missed_level">Gemist: %1$s</string>
+
+    <string name="forms_new_title">Nieuwe stap</string>
+    <string name="forms_edit_title">Bewerken: %1$s</string>
+    <string name="forms_add_kind">Toevoegen: %1$s</string>
+    <string name="forms_title_habit">Gewoonte</string>
+    <string name="forms_title_swap">Wissel</string>
+    <string name="forms_title_avoid">Vermijden</string>
+    <string name="forms_save_changes">Wijzigingen opslaan</string>
+    <string name="forms_what_kind">Wat voor soort?</string>
+    <string name="forms_name">Naam</string>
+    <string name="forms_your_new_step">Je nieuwe stap</string>
+    <string name="forms_hint_habit">10 bladzijden lezen</string>
+    <string name="forms_hint_swap">Loofah, geen spons</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Wat voor gewoonte?</string>
+    <string name="forms_timing_tip_title">Op elk moment of eind van de dag</string>
+    <string name="forms_timing_tip">Op elk moment: iets wat je één keer doet, zoals hardlopen. Vink het af zodra het gedaan is.\n\nEind van de dag: een regel die je de hele dag volhoudt, zoals niet snoepen. Die kun je pas \'s avonds afvinken.</string>
+    <string name="forms_anytime">Op elk moment</string>
+    <string name="forms_end_of_day">Eind van de dag</string>
+    <string name="forms_what_is_it">Wat is het?</string>
+    <string name="forms_how_often">Hoe vaak?</string>
+    <string name="forms_often_specific">Vaste dagen</string>
+    <string name="forms_often_whenever">Wanneer je wilt</string>
+    <string name="forms_often_once">Eén keer</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">keer per</item>
+        <item quantity="other">keer per</item>
+    </plurals>
+    <string name="forms_unit_day">dag</string>
+    <string name="forms_unit_week">week</string>
+    <string name="forms_unit_month">maand</string>
+    <string name="forms_unit_x_days">X dagen</string>
+    <string name="forms_ideas">Ideeën</string>
+    <string name="forms_ideas_others">Andere</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Bekijk %1$d idee ›</item>
+        <item quantity="other">Bekijk alle %1$d ideeën ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Alle ideeën voor stappen</string>
+    <string name="forms_search">Zoeken…</string>
+    <string name="forms_all">Alles</string>
+
+    <string name="forms_settings_title">Instellingen</string>
+    <string name="forms_set_colours">Kleuren</string>
+    <string name="forms_set_style">Stijl van het 3-maandoverzicht</string>
+    <string name="forms_set_checkins">Check-ins</string>
+    <string name="forms_set_checkin_hour">Dagelijkse check-in opent om</string>
+    <string name="forms_set_checkin_hour_tip">Vanaf dit tijdstip kun je avondgewoonten afvinken en de dagelijkse check-in doen.</string>
+    <string name="forms_set_week_start">Week begint op</string>
+    <string name="forms_set_week_start_tip">Op welke dag je gewoontenraster, weken en grafieken beginnen.</string>
+    <string name="forms_monday">Maandag</string>
+    <string name="forms_sunday">Zondag</string>
+    <string name="forms_set_new_step_every">Nieuwe stap elke</string>
+    <string name="forms_set_new_step_every_tip">Hoeveel weken er tussen de wekelijkse check-ins zitten.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">week</item>
+        <item quantity="other">weken</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Dag van de wekelijkse check-in</string>
+    <string name="forms_set_weekly_day_tip">Op deze dag kies je na de dagelijkse check-in de nieuwe stap voor volgende week.</string>
+    <string name="forms_set_checkup">3-maandelijkse check-up</string>
+    <string name="forms_set_checkup_tip">Iedereen doet de check-up op dezelfde dagen: 1 jan, 1 apr, 1 jul en 1 okt, zodat jullie je overzicht samen kunnen delen. Je kunt ook je eigen datum kiezen.</string>
+    <string name="forms_set_same">Zoals iedereen</string>
+    <string name="forms_set_own">Mijn eigen datum</string>
+    <string name="forms_set_starting">Vanaf</string>
+    <string name="forms_set_starting_tip">De maand van je eerste eigen check-up.</string>
+    <string name="forms_earlier">Eerder</string>
+    <string name="forms_later">Later</string>
+    <string name="forms_set_every_tip">Maanden tussen check-ups.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">maand</item>
+        <item quantity="other">maanden</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Dag van de maand</string>
+    <string name="forms_set_day_of_month_tip">Welke dag van die maand.</string>
+    <string name="forms_set_everyone">Iedereen: 1 jan · 1 apr · 1 jul · 1 okt</string>
+    <string name="forms_set_days_build">Dagen om een gewoonte op te bouwen</string>
+    <string name="forms_set_days_build_tip">Onderzoek vond 18 tot 254 dagen, het vaakst genoemd is 66 (Lally et al. 2010, Singh et al. 2024). Na zoveel dagen gaat een nieuwe stap naar je check-ups.</string>
+    <string name="forms_set_nudge">Dagelijkse herinnering</string>
+    <string name="forms_set_nudge_tip">Een herinnering op dit tijdstip, alleen als er nog iets niet is afgevinkt.</string>
+    <string name="forms_set_more">Meer</string>
+    <string name="forms_set_reasons">Redenen voor uitglijders</string>
+    <string name="forms_set_tutorial">Uitleg opnieuw bekijken</string>
+    <string name="forms_set_export">Mijn gegevens exporteren</string>
+    <string name="forms_set_import">Gegevens importeren</string>
+
+    <string name="forms_reasons_title">Redenen voor uitglijders</string>
+    <string name="forms_reasons_hint">Voeg je eigen reden toe</string>
+    <string name="forms_reasons_used">%1$d× gebruikt</string>
+    <string name="forms_reasons_delete_title">%1$s verwijderen?</string>
+    <string name="forms_reasons_delete_text">Uitglijders blijven in je geschiedenis staan, alleen zonder deze tag.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d gewoonte</item>
+        <item quantity="other">%1$d gewoonten</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d wissel</item>
+        <item quantity="other">%1$d wissels</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d vermijding</item>
+        <item quantity="other">%1$d vermijdingen</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, vinkjes sinds %2$s</string>
+    <string name="forms_export_title">Mijn gegevens exporteren</string>
+    <string name="forms_export_what">Wat er in het bestand komt</string>
+    <string name="forms_export_ticks">Elk vinkje, elke uitglijder en elke reden</string>
+    <string name="forms_export_ticks_since">Elk vinkje, elke uitglijder en elke reden sinds %1$s</string>
+    <string name="forms_export_summaries">Je 3-maandoverzichten</string>
+    <string name="forms_export_settings">Je instellingen, kleuren en naam</string>
+    <string name="forms_export_file">Bestand</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Bestand opslaan</string>
+    <string name="forms_export_send">Sturen naar…</string>
+    <string name="forms_export_send_title">Stuur je Alice-gegevens</string>
+    <string name="forms_export_saved">%1$s opgeslagen</string>
+    <string name="forms_export_save_failed">Bestand opslaan lukte niet</string>
+
+    <string name="forms_import_title">Gegevens importeren</string>
+    <string name="forms_import_choose">Kies een Alice-back-up</string>
+    <string name="forms_import_choose_sub">.json, via Exporteren op een andere telefoon</string>
+    <string name="forms_import_cant_open">Dat bestand kon niet worden geopend.</string>
+    <string name="forms_import_not_backup">Dat bestand is geen Alice-back-up.</string>
+    <string name="forms_import_replace_mode">Vervang wat er nu staat</string>
+    <string name="forms_import_add_mode">Voeg toe aan wat er nu staat</string>
+    <string name="forms_import_button">Importeren</string>
+    <string name="forms_import_replace_title">Je gegevens vervangen?</string>
+    <string name="forms_import_add_title">Deze gegevens toevoegen?</string>
+    <string name="forms_import_replace_text">Alles op deze telefoon wordt vervangen door het bestand. Exporteer eerst als je het wilt bewaren.</string>
+    <string name="forms_import_add_text">De gewoonten en geschiedenis uit het bestand worden bij de jouwe gevoegd.</string>
+    <string name="forms_import_done">Gegevens geïmporteerd</string>
+
+    <string name="look_share">Delen</string>
+    <string name="look_save_image">Afbeelding opslaan</string>
+    <string name="look_next_week">Volgende, jouw week ›</string>
+    <string name="look_keep_going">Ga zo door</string>
+    <string name="look_storage_needed">Alice heeft toegang tot opslag nodig om de afbeelding op te slaan</string>
+    <string name="look_share_caption">Mijn kwartaal met Alice. Begin zelf ook: %1$s</string>
+    <string name="look_share_clip">Alice-overzicht</string>
+    <string name="look_share_chooser">Deel je kwartaal</string>
+    <string name="look_saved">Opgeslagen in Pictures/Alice</string>
+    <string name="look_save_failed">Afbeelding opslaan lukte niet</string>
+
+    <string name="look_style_poster">Poster</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Prijzenkast</string>
+    <string name="look_style_receipt">Kassabon</string>
+    <string name="look_style_report">Rapport</string>
+    <string name="look_style_boarding">Instapkaart</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalender</string>
+    <string name="look_style_trading">Verzamelkaart</string>
+
+    <string name="look_quote_1">Kleine Stappen, Elke Dag</string>
+    <string name="look_quote_2">Bedankt Dat Je Er Was</string>
+    <string name="look_quote_3">Vooruitgang, Geen Perfectie</string>
+    <string name="look_quote_4">Je Bleef Doorgaan. Dat Telt</string>
+    <string name="look_quote_5">Kleine Veranderingen, Groot Verschil</string>
+    <string name="look_quote_6">Elke Dag Koos Je Beter</string>
+    <string name="look_quote_7">Langzaam Is Ook Vooruit</string>
+    <string name="look_quote_8">Je Bouwt een Leven Waar Je Blij van Wordt</string>
+    <string name="look_quote_9">Stap voor Stap Telt Het Op</string>
+    <string name="look_quote_10">Blijf Er Voor Jezelf Zijn</string>
+    <string name="look_quote_11">Je Toekomstige Ik Zegt Dankjewel</string>
+    <string name="look_quote_12">Beetje bij Beetje, Heel Veel</string>
+    <string name="look_quote_13">Volhouden Is Stille Magie</string>
+    <string name="look_quote_14">Kijk Hoe Ver Je Bent Gekomen</string>
+    <string name="look_quote_15">Wees Trots op de Kleine Overwinningen</string>
+    <string name="look_quote_16">Goede Dagen Bouw Je, Die Vind Je Niet</string>
+
+    <string name="look_stamp_1">UITSTEKEND</string>
+    <string name="look_stamp_2">FANTASTISCH</string>
+    <string name="look_stamp_3">GOED GEDAAN</string>
+    <string name="look_stamp_4">GEWELDIG</string>
+    <string name="look_stamp_5">SUPER</string>
+    <string name="look_stamp_6">TOPCIJFER</string>
+    <string name="look_stamp_7">GOUDEN STER</string>
+    <string name="look_stamp_8">GOED WERK</string>
+
+    <string name="look_period">%1$s tot %2$s</string>
+    <string name="look_scan">SCAN EN\nBEGIN JE\nEIGEN REIS</string>
+    <string name="look_you">Jij</string>
+    <string name="look_on_track">op koers</string>
+    <string name="look_new_steps">nieuwe stappen</string>
+    <string name="look_days_in">dagen bezig</string>
+    <string name="look_new">nieuw</string>
+    <string name="look_week_by_week">Week na week</string>
+    <string name="look_coming_soon">Binnenkort</string>
+    <string name="look_new_this_quarter">Nieuw dit kwartaal</string>
+    <string name="look_kept_up_longest">Langst volgehouden</string>
+    <string name="look_habits">Gewoonten</string>
+    <string name="look_swaps">Wissels</string>
+    <string name="look_avoids">Vermijdingen</string>
+    <string name="look_ways_improved">Manieren verbeterd</string>
+    <string name="look_improved_in">Je hebt je leven verbeterd op %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d gewoonte</item>
+        <item quantity="other">%1$d gewoonten</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d wissel</item>
+        <item quantity="other">%1$d wissels</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d vermijding</item>
+        <item quantity="other">%1$d vermijdingen</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d uitglijder</item>
+        <item quantity="other">%1$d uitglijders</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d manier</item>
+        <item quantity="other">%1$d manieren</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">gewoonte</item>
+        <item quantity="other">gewoonten</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">wissel</item>
+        <item quantity="other">wissels</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">vermijding</item>
+        <item quantity="other">vermijdingen</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">uitglijder</item>
+        <item quantity="other">uitglijders</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">manier</item>
+        <item quantity="other">manieren</item>
+    </plurals>
+
+    <string name="look_poster_improved">Je hebt je leven verbeterd op %1$s</string>
+    <string name="look_poster_on_track">OP KOERS</string>
+    <string name="look_poster_days">dagen</string>
+    <string name="look_poster_achievements">Prestaties</string>
+    <string name="look_poster_first_ones">Je eerste zijn onderweg</string>
+    <string name="look_poster_added">Wat je dit kwartaal toevoegde</string>
+
+    <string name="look_wrapped_stars">Jouw sterren</string>
+
+    <string name="look_trophy_ways">manieren waarop je\nje leven verbeterde</string>
+    <string name="look_trophy_next_quarter">Volgend kwartaal</string>
+    <string name="look_trophy_first_medal">je eerste medaille</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Nieuw op de plank:</string>
+
+    <string name="look_receipt_title">3-maandelijkse check-up · %1$s</string>
+    <string name="look_receipt_customer">Klant: %1$s</string>
+    <string name="look_receipt_habits">Gewoonten opgebouwd</string>
+    <string name="look_receipt_swaps">Dingen gewisseld</string>
+    <string name="look_receipt_avoids">Dingen vermeden</string>
+    <string name="look_receipt_ways">Manieren waarop je je leven verbeterde</string>
+    <string name="look_receipt_on_track">Op koers dit kwartaal</string>
+    <string name="look_receipt_slips">Uitglijders</string>
+    <string name="look_receipt_new_steps">Nieuwe stappen opgebouwd</string>
+    <string name="look_receipt_new">Nieuw dit kwartaal: %1$s</string>
+
+    <string name="look_report_title">Rapport van Kleine Stappen</string>
+    <string name="look_report_pupil">%1$s · Leerling: %2$s</string>
+    <string name="look_report_subject">VAK</string>
+    <string name="look_report_built">OPGEBOUWD</string>
+    <string name="look_report_grade">CIJFER</string>
+    <string name="look_report_attendance">Aanwezigheid %1$s</string>
+    <string name="look_report_on_track">Op koers %1$s</string>
+    <string name="look_report_slips">Uitglijders %1$s</string>
+    <string name="look_report_achievements">PRESTATIES</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">NIEUWE VAKKEN DIT TRIMESTER (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Opmerking van de leraar:</string>
+    <string name="look_report_calm">Een rustig, stabiel trimester.</string>
+    <string name="look_report_ups_downs">Een trimester met ups en downs, en je bleef erbij.</string>
+    <string name="look_report_star">%1$s heeft uitstekend gepresteerd. Ga zo door!</string>
+    <string name="look_report_keep_up">Ga zo door!</string>
+    <string name="look_report_week">WEEK NA WEEK</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Vlucht Q%1$d</string>
+    <string name="look_boarding_from">VAN</string>
+    <string name="look_boarding_old">OUDE</string>
+    <string name="look_boarding_habits">gewoonten</string>
+    <string name="look_boarding_to">NAAR</string>
+    <string name="look_boarding_new">NIEUWE</string>
+    <string name="look_boarding_better_you">betere jij</string>
+    <string name="look_boarding_passenger">Passagier</string>
+    <string name="look_boarding_dates">Data</string>
+    <string name="look_boarding_miles">Gevlogen mijlen</string>
+    <string name="look_boarding_on_time">Op tijd</string>
+    <string name="look_boarding_turbulence">Turbulentie</string>
+    <string name="look_boarding_days">Dagen aan boord</string>
+    <string name="look_boarding_flyer">FREQUENT FLYER, JE TROUWSTE REISGENOTEN</string>
+    <string name="look_boarding_log">VLUCHTLOG, WEEK NA WEEK</string>
+    <string name="look_boarding_stops">NIEUWE TUSSENSTOPS, +%1$d</string>
+    <string name="look_boarding_note">BERICHT VAN DE KAPITEIN</string>
+
+    <string name="look_polaroid_life">JOUW LEVEN</string>
+    <string name="look_polaroid_quarter">DIT KWARTAAL</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d dagen bezig</string>
+    <string name="look_polaroid_longest">LANGST VOLGEHOUDEN</string>
+    <string name="look_polaroid_new">NIEUW, +%1$d</string>
+
+    <string name="look_calendar_added">Toegevoegd</string>
+
+    <string name="look_trading_common">Gewoon</string>
+    <string name="look_trading_uncommon">Ongewoon</string>
+    <string name="look_trading_rare">Zeldzaam</string>
+    <string name="look_trading_legendary">Legendarisch</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">MANIER</item>
+        <item quantity="other">MANIEREN</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$de</string>
+    <string name="look_ordinal_nd">%1$de</string>
+    <string name="look_ordinal_rd">%1$de</string>
+    <string name="look_ordinal_th">%1$de</string>
+    <string name="look_trading_number">Nr. %1$03d · je %2$s kwartaal</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d dagen</string>
+    <string name="look_trading_power">Kracht, week na week</string>
+    <string name="look_trading_edition">%1$s · Q%2$d-editie</string>
+
+    <string name="look_sample_water_first">Eerst water</string>
+    <string name="look_sample_own_bag">Eigen tas</string>
+    <string name="look_sample_read_pages">10 bladzijden lezen</string>
+    <string name="look_sample_reading">Elke dag lezen</string>
+    <string name="look_sample_late_snacks">Geen late snacks</string>
+    <string name="look_sample_stretching">Stretchen</string>
+    <string name="look_sample_cooler_home">Koeler huis</string>
+    <string name="look_sample_loofah">Loofah, geen spons</string>
+    <string name="look_sample_palm_oil">Zonder palmolie</string>
+    <string name="look_sample_stretch">10 min stretchen</string>
+
+    <string name="look_colours_title">Kleuren</string>
+    <string name="look_colours_preview">Voorbeeld</string>
+    <string name="look_colours_your_summary">Je 3-maandoverzicht</string>
+    <string name="look_colours_light">Licht</string>
+    <string name="look_colours_dark">Donker</string>
+    <string name="look_styles_title">Stijl van het 3-maandoverzicht</string>
+    <string name="look_styles_all_pictures">Bekijk alle 30 polaroidfoto\'s</string>
+    <string name="look_styles_refresh">Vernieuwen</string>
+    <string name="look_pictures_title">Polaroidfoto\'s</string>
+    <string name="look_pictures_back">Overzichtsstijlen</string>
+
+    <string name="look_welcome_name">Je naam</string>
+    <string name="look_welcome_start">Beginnen</string>
+    <string name="look_welcome_import">Mijn gegevens importeren</string>
+
+    <string name="look_tut_skip">Overslaan</string>
+    <string name="look_tut_page">%1$d VAN %2$d</string>
+    <string name="look_tut_back">Terug</string>
+    <string name="look_tut_start">Beginnen</string>
+    <string name="look_tut_next">Volgende</string>
+    <string name="look_tut1_title">Word een betere jij, stap voor stap</string>
+    <string name="look_tut1_body">Bouw nieuwe gewoonten op, maak vriendelijkere keuzes en zie alles wat je bereikt bij elkaar optellen.</string>
+    <string name="look_tut1_habits">Bouw dag na dag goede gewoonten op en word wie je wilt zijn.</string>
+    <string name="look_tut1_swaps">Wissel producten voor vriendelijkere, beter voor de planeet, voor mensen of voor je gezondheid.</string>
+    <string name="look_tut1_avoids">Houd bij welke bedrijven, welk eten en welke producten je liever niet steunt.</string>
+    <string name="look_tut2_title">Vink het af</string>
+    <string name="look_tut2_body">Tik op een vakje als je een gewoonte hebt gedaan. Avondgewoonten gaan open op je check-intijd.</string>
+    <string name="look_tut3_title">%1$s, daarna elke %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dagen</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d maand</item>
+        <item quantity="other">%1$d maanden</item>
+    </plurals>
+    <string name="look_tut3_body">Onderzoek vond dat het 18 tot 254 dagen kost om een gewoonte op te bouwen. Het vaakst genoemde getal is 66 dagen, dus daar begint Alice mee.</string>
+    <string name="look_tut3_days_label">Dagen om een gewoonte op te bouwen</string>
+    <string name="look_tut3_checkup">Check-up elke</string>
+    <string name="look_tut3_small">Je kunt allebei aanpassen in Instellingen.</string>
+    <string name="look_tut4_title">Eén keer per week, één nieuwe stap</string>
+    <string name="look_tut4_body">Door steeds één nieuwe stap toe te voegen groei je rustig, zonder te veel tegelijk op je te nemen.</string>
+    <string name="look_tut4_day">Check-indag</string>
+    <string name="look_tut4_small">Ook dit kun je aanpassen in Instellingen.</string>
+    <string name="look_tut5_title">Elk kwartaal je overzicht</string>
+    <string name="look_tut5_body">Deel met je vrienden en de mensen om je heen hoe ver je bent gekomen. Tik op de stijl die je mooi vindt:</string>
+    <string name="look_tut_change_mind">Je kunt altijd van gedachten veranderen.</string>
+    <string name="look_tut6_title">Maak het van jou</string>
+    <string name="look_tut6_body">Kies de kleuren die het fijnst voelen. De hele app verandert meteen.</string>
+    <string name="look_tut7_title">Pas alles aan, wanneer je maar wilt</string>
+    <string name="look_tut7_body">Check-intijden, dagen om een gewoonte op te bouwen, je overzichtsstijl, kleuren en je gegevens staan allemaal in Instellingen.</string>
+    <string name="look_tut7_gear">Tik op het tandwiel boven in Gewoonten om Instellingen te openen.</string>
+    <string name="look_tut7_open">Instellingen openen</string>
+
+    <string name="lang_title">Taal</string>
+    <string name="pron_title">Voornaamwoorden</string>
+    <string name="pron_she">zij/haar</string>
+    <string name="pron_he">hij/hem</string>
+    <string name="pron_they">neutraal</string>
+    <string name="lang_spotted">Een fout gezien in jouw taal?</string>
+    <string name="lang_search">Zoek je taal</string>
+    <string name="lang_phone">Taal van je telefoon</string>
+    <string name="lang_follow">Volg je telefoon</string>
+    <string name="lang_note_title">Help met vertalingen</string>
+    <string name="lang_note_1">Hoi, ik ben Lucy en ik heb Alice gemaakt.</string>
+    <string name="lang_note_2">Ik spreek Engels, Slowaaks, Tsjechisch en Russisch, dus die vertalingen heb ik zelf gecontroleerd. De andere talen zijn nog niet door een moedertaalspreker nagekeken.</string>
+    <string name="lang_note_3">Zie je een fout in jouw taal, laat het me dan weten zodat ik het kan verbeteren. En als je Alice al een tijdje in jouw taal gebruikt en alles klopt, laat me dat dan ook weten, zodat ik hem als goedgekeurd kan markeren.</string>
+    <string name="lang_note_4">Dankjewel!</string>
+    <string name="lang_not_approved">NOG NIET GOEDGEKEURD</string>
+    <string name="lang_report">Fout melden</string>
+    <string name="lang_all_correct">Mijn taal klopt helemaal</string>
+    <string name="lang_mail_mistake_body">Wat klopt er niet, en op welk scherm:\n\n</string>
+    <string name="lang_mail_correct_body">Ik gebruik Alice al een tijdje in mijn taal en alles klopt.\n\n</string>
+    <string name="lang_no_mail">Geen e-mailapp gevonden</string>
+</resources>

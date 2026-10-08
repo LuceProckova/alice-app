@@ -1,0 +1,772 @@
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Ngikhathele kakhulu</string>
+    <string name="core_reason_craving">Isifiso</string>
+    <string name="core_reason_no_time">Asikho isikhathi</string>
+    <string name="core_reason_forgot">Ngikhohliwe</string>
+    <string name="core_reason_no_alternative">Akukho okunye</string>
+    <string name="core_reason_social">Nabantu</string>
+    <string name="core_reason_impulse">Umfutho</string>
+    <string name="core_reason_too_expensive">Kubiza kakhulu</string>
+    <string name="core_reason_away">Bengingekho</string>
+
+    <string name="core_nudge_channel">Isikhumbuzo sansuku zonke</string>
+    <string name="core_nudge_title">Okusasele ukuthikha namuhla</string>
+    <string name="core_save_failed">Akukwazanga ukulondoloza, sicela uzame futhi</string>
+
+    <string name="core_kind_habit">Umkhuba</string>
+    <string name="core_kind_swap">Ukushintsha</string>
+    <string name="core_kind_avoid">Ukugwema</string>
+    <string name="core_about">Mayelana ne-%1$s</string>
+    <string name="core_ok">Kulungile</string>
+    <string name="core_less">Okuncane</string>
+    <string name="core_more">Okuningi</string>
+    <string name="core_cancel">Khansela</string>
+    <string name="core_settings">Izilungiselelo</string>
+    <string name="core_span_week">Iviki</string>
+    <string name="core_span_month">Inyanga</string>
+    <string name="core_span_year">Unyaka</string>
+    <string name="core_span_all">Sonke isikhathi</string>
+    <string name="core_tab_habits">Imikhuba</string>
+    <string name="core_tab_changes">Izinguquko</string>
+    <string name="core_tab_avoid">Gwema</string>
+    <string name="core_tab_insights">Ukuqonda</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">kwenziwe</string>
+    <string name="core_cell_missed">kugejiwe</string>
+    <string name="core_cell_partial">kwenziwe ingxenye, okungu-%1$d kuze kube manje</string>
+    <string name="core_cell_unfilled">akukagcwaliswa</string>
+    <string name="core_cell_open">okufanele kwenziwe</string>
+    <string name="core_cell_locked">kukhiyiwe kuze kufike isikhathi sokuhlola</string>
+    <string name="core_cell_future">akukafiki</string>
+    <string name="core_cell_empty">akukho okudingekayo</string>
+    <string name="core_cell_band">kuqediwe kulesi sikhathi</string>
+    <string name="core_cell_off">akusilo usuku lwalesi sinyathelo</string>
+    <string name="core_cell_none">ngaphambi kokuba lesi sinyathelo siqale</string>
+
+    <string name="core_rhythm_one_off">Kanye nje</string>
+    <string name="core_rhythm_end_of_day">Nsuku zonke, kuthikhwa ekupheleni kosuku</string>
+    <string name="core_rhythm_every_day">Nsuku zonke</string>
+    <string name="core_rhythm_every_days">Njalo nge-%1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">ngeviki</string>
+    <string name="core_rhythm_a_month">ngenyanga</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, noma yiluphi usuku</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s no-%2$s</string>
+
+    <string name="core_achievement_short_months">%1$d nyanga</string>
+    <string name="core_achievement_short_days">%1$d nsuku</string>
+    <string name="core_glance_step">%1$s, %2$d kwezi-%3$d</string>
+
+    <string name="core_slip_never">Neze</string>
+    <string name="core_slip_once">Kanye</string>
+    <string name="core_slip_a_few">Kambalwa</string>
+    <string name="core_slip_half">Uhhafu</string>
+    <string name="core_slip_most">Kaningi</string>
+    <string name="core_slip_always">Njalo</string>
+
+    <string name="core_ideas_habit_anytime">Imikhuba, noma nini</string>
+    <string name="core_ideas_habit_end">Imikhuba, ekupheleni kosuku</string>
+    <string name="core_ideas_swap">Ukushintsha</string>
+    <string name="core_ideas_avoid_product">Gwema, imikhiqizo</string>
+    <string name="core_ideas_avoid_company">Gwema, izinkampani</string>
+    <string name="core_ideas_avoid_food">Gwema, ukudla</string>
+
+    <string name="core_tag_ethical">Ngokokuziphatha</string>
+    <string name="core_tag_health">Impilo</string>
+    <string name="core_tag_clutter">Izinto eziningi</string>
+    <string name="core_tag_ecological">Imvelo</string>
+    <string name="core_tag_animal_welfare">Inhlalakahle yezilwane</string>
+    <string name="core_tag_workers_rights">Amalungelo abasebenzi</string>
+    <string name="core_tag_plastic">Ipulasitiki</string>
+    <string name="core_tag_palm_oil">Uwoyela wesundu</string>
+    <string name="core_tag_deforestation">Ukugawulwa kwamahlathi</string>
+    <string name="core_category_company">Inkampani</string>
+    <string name="core_category_food">Ukudla</string>
+    <string name="core_category_product">Umkhiqizo</string>
+    <string name="core_verdict_avoid">GWEMA</string>
+    <string name="core_verdict_edge">EMNGCENENI</string>
+    <string name="core_verdict_fine">KULUNGILE</string>
+
+    <string name="core_theme_off_white_honey">Okumhlophe okuthambile &amp; uju</string>
+    <string name="core_theme_vanilla_caramel">I-vanilla &amp; i-caramel</string>
+    <string name="core_theme_sunflower">Ubhekilanga</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Ukhokho &amp; ulamula</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; ibhotela</string>
+    <string name="core_theme_midnight_honey">Phakathi kwamabili &amp; uju</string>
+    <string name="core_theme_forest_night">Ubusuku ehlathini</string>
+    <string name="core_theme_plum_dusk">Ukuhwalala okunsomi</string>
+    <string name="core_theme_charcoal_coral">Amalahle &amp; ikhorali</string>
+
+    <string name="core_pic_sunny_meadow">Idlelo elinelanga</string>
+    <string name="core_pic_sunset_hills">Amagquma ekushoneni kwelanga</string>
+    <string name="core_pic_starry_night">Ubusuku obunezinkanyezi</string>
+    <string name="core_pic_beach_day">Usuku olwandle</string>
+    <string name="core_pic_mountain_lake">Ichibi lasezintabeni</string>
+    <string name="core_pic_snowy_village">Isigodi esineqhwa</string>
+    <string name="core_pic_rainy_garden">Ingadi emvuleni</string>
+    <string name="core_pic_autumn_forest">Ihlathi ekwindla</string>
+    <string name="core_pic_cherry_blossom">Izimbali ze-cherry</string>
+    <string name="core_pic_desert_cactus">Ukhakhasi wasogwadule</string>
+    <string name="core_pic_lighthouse">Indlu yesibani</string>
+    <string name="core_pic_rainbow_field">Insimu yothingo lwenkosazana</string>
+    <string name="core_pic_hot_air_balloon">Ibhaluni lomoya oshisayo</string>
+    <string name="core_pic_sailboat">Isikebhe sanseyili</string>
+    <string name="core_pic_cabin_in_the_woods">Indlwana ehlathini</string>
+    <string name="core_pic_tulip_field">Insimu yama-tulip</string>
+    <string name="core_pic_campfire_night">Ubusuku bomlilo wekamu</string>
+    <string name="core_pic_misty_mountains">Izintaba ezinenkungu</string>
+    <string name="core_pic_sunrise_sea">Ulwandle ekuphumeni kwelanga</string>
+    <string name="core_pic_snowy_pines">Amaphayini aneqhwa</string>
+    <string name="core_pic_lavender_field">Insimu ye-lavender</string>
+    <string name="core_pic_waterfall">Impophoma</string>
+    <string name="core_pic_city_at_dusk">Idolobha ngokuhwalala</string>
+    <string name="core_pic_picnic">Ipikiniki</string>
+    <string name="core_pic_moon_over_the_lake">Inyanga phezu kwechibi</string>
+    <string name="core_pic_palm_island">Isiqhingi samasundu</string>
+    <string name="core_pic_windmill">Isigayo somoya</string>
+    <string name="core_pic_bike_path">Umzila wamabhayisikili</string>
+    <string name="core_pic_greenhouse">Indlu yezitshalo</string>
+    <string name="core_pic_northern_lights">Ukukhanya kwasenyakatho</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">Isinyathelo esingu-%d silindile.</item>
+        <item quantity="other">Izinyathelo ezingu-%d zilindile.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">kwenziwe, izikhathi ezingu-%d</item>
+        <item quantity="other">kwenziwe, izikhathi ezingu-%d</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">izikhathi ezingu-%d ngosuku</item>
+        <item quantity="other">izikhathi ezingu-%d ngosuku</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Kanye</item>
+        <item quantity="other">Izikhathi ezingu-%d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">njalo emavikini angu-%d</item>
+        <item quantity="other">njalo emavikini angu-%d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">njalo ezinyangeni ezingu-%d</item>
+        <item quantity="other">njalo ezinyangeni ezingu-%d</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">njalo ezinsukwini ezingu-%d</item>
+        <item quantity="other">njalo ezinsukwini ezingu-%d</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">inyanga engu-%d, ungagejanga neze</item>
+        <item quantity="other">izinyanga ezingu-%d, ungagejanga neze</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">inyanga engu-%d uqinile</item>
+        <item quantity="other">izinyanga ezingu-%d uqinile</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">usuku olu-%d ngokulandelana</item>
+        <item quantity="other">izinsuku ezingu-%d ngokulandelana</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">inyanga engu-%d</item>
+        <item quantity="other">izinyanga ezingu-%d</item>
+    </plurals>
+
+    <string name="tabs_new_step">Isinyathelo esisha</string>
+    <string name="tabs_edit">Hlela</string>
+    <string name="tabs_delete">Susa</string>
+    <string name="tabs_done">Kuqediwe</string>
+    <string name="tabs_back">Emuva</string>
+    <string name="tabs_earlier">Ngaphambili</string>
+    <string name="tabs_later">Kamuva</string>
+    <string name="tabs_delete_title">Susa i-%1$s?</string>
+    <string name="tabs_eod_unlock">Imikhuba yokuphela kosuku ivuleka ngo-%1$02d:00</string>
+    <string name="tabs_check_up">Ukuhlola</string>
+    <string name="tabs_one_off">Kanye nje</string>
+
+    <string name="tabs_checkin_from">Ukuhlola kusukela ngo-%1$02d:00</string>
+    <string name="tabs_checkin_daily">Ukuhlola Kwansuku Zonke</string>
+    <string name="tabs_checkin_weekly">Ukuhlola Kwamaviki</string>
+    <string name="tabs_checkin_quarter">Ukuhlola Kwezinyanga Ezi-3</string>
+    <string name="tabs_checked_in">Uhlolile</string>
+    <string name="tabs_quarter_section">UKUHLOLA KWEZINYANGA EZI-3</string>
+    <string name="tabs_previous_week">Iviki eledlule</string>
+    <string name="tabs_next_week">Iviki elizayo</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">Usuku olu-%1$d lwe-%2$s!</item>
+        <item quantity="other">Izinsuku ezingu-%1$d ze-%2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Wenze kahle. Manje kuya Ekuhloleni Kwezinyanga Ezi-3, akusekho ukuthikha kwansuku zonke.</string>
+    <string name="tabs_celebrate_first">Okokuqala kungu-%1$s.</string>
+    <string name="tabs_glance_title">Iviki lakho</string>
+    <string name="tabs_glance_ticks_kept">Amathikhi enziwe</string>
+    <string name="tabs_glance_days_checked_in">Izinsuku ohlolile</string>
+    <string name="tabs_glance_top_tag">Isizathu sokugeja esisetshenziswe kakhulu:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, izikhathi ezingu-%2$d</item>
+        <item quantity="other">%1$s, izikhathi ezingu-%2$d</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Okulula kakhulu:</string>
+    <string name="tabs_glance_hardest">Okunzima kakhulu:</string>
+
+    <string name="tabs_changes_ongoing">Ukushintsha okuqhubekayo</string>
+    <string name="tabs_changes_ongoing_tip_title">Ukushintsha okuqhubekayo</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Uzophinde ubhekane nalokho kukhetha futhi, njengenkomishi yekhofi noma insipho yezinwele eqinile. Kuthikhwa ku-Imikhuba izinsuku ezingu-%1$d, bese kuhlolwa njalo ezinyangeni ezi-3.</item>
+        <item quantity="other">Uzophinde ubhekane nalokho kukhetha futhi, njengenkomishi yekhofi noma insipho yezinwele eqinile. Kuthikhwa ku-Imikhuba izinsuku ezingu-%1$d, bese kuhlolwa njalo ezinyangeni ezi-3.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Akukabikho ukushintsha</string>
+    <string name="tabs_changes_day_badge">USUKU %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">KUYANAMATHELA</string>
+    <string name="tabs_changes_one_off_todo">Kanye nje, okufanele kwenziwe</string>
+    <string name="tabs_changes_one_off_tip">Ukwenza kanye bese kuphela, njengokuhlanza idilowa, ukushintshela kugesi ohlanzekile noma ukulungisa ijakhethi. Kuthikhe bese kuya Kokuqediwe.</string>
+    <string name="tabs_changes_nothing_waiting">Akukho okulindile</string>
+    <string name="tabs_changes_finished">KUQEDIWE · %1$d</string>
+
+    <string name="tabs_avoid_title">Uhlu lokugwema</string>
+    <string name="tabs_avoid_search">Sesha…</string>
+    <string name="tabs_avoid_no_match">Akukho okufanayo</string>
+    <string name="tabs_avoid_companies">Izinkampani</string>
+    <string name="tabs_avoid_food">Ukudla</string>
+    <string name="tabs_avoid_products">Imikhiqizo</string>
+
+    <string name="tabs_avoid_added">Kungeziwe</string>
+    <string name="tabs_avoid_why">Kungani ukugwema</string>
+    <string name="tabs_avoid_own_words">Ngamazwi akho</string>
+    <string name="tabs_avoid_brands">Imikhiqizo eyayo · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Uhlobo olulodwa emugqeni ngamunye</string>
+    <string name="tabs_avoid_more_brands">+%1$d ngaphezulu</string>
+    <string name="tabs_avoid_instead">Thatha lokhu esikhundleni</string>
+    <string name="tabs_avoid_instead_hint">Okukodwa emugqeni ngamunye</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">ukugeja</item>
+        <item quantity="other">ukugeja</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">kugwenyiwe</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">inyanga ohlwini</item>
+        <item quantity="other">izinyanga ohlwini</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Kuyaphuma ohlwini lwakho Lokugwema kanye nomlando wayo.</string>
+
+    <string name="tabs_habit_delete_text">Wonke umlando wawo uhamba nawo.</string>
+    <string name="tabs_habit_created">Kwakhiwe</string>
+    <string name="tabs_habit_to_do">Okufanele kwenziwe</string>
+    <string name="tabs_habit_daily_ticks">Amathikhi ansuku zonke</string>
+    <string name="tabs_habit_day_of">Usuku %1$d kwezi-%2$d</string>
+    <string name="tabs_habit_finished">Kuqediwe</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">usuku kuqhubeka</item>
+        <item quantity="other">izinsuku kuqhubeka</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">isikhathi kwephulwe</item>
+        <item quantity="other">izikhathi kwephulwe</item>
+    </plurals>
+    <string name="tabs_habit_success">impumelelo</string>
+    <string name="tabs_habit_current_streak">Uchungechunge lwamanje</string>
+    <string name="tabs_habit_longest_streak">Uchungechunge olude kakhulu</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">usuku olu-%1$d</item>
+        <item quantity="other">izinsuku ezingu-%1$d</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Kungani kugejiwe</string>
+    <string name="tabs_habit_remove_reason">Susa lesi sizathu</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">indlela othuthukise ngayo impilo yakho</item>
+        <item quantity="other">izindlela othuthukise ngazo impilo yakho</item>
+    </plurals>
+    <string name="tabs_insights_habits">Imikhuba</string>
+    <string name="tabs_insights_swaps">Ukushintsha</string>
+    <string name="tabs_insights_avoids">Okugwenywayo</string>
+    <string name="tabs_insights_on_track_section">Emgqeni</string>
+    <string name="tabs_insights_avg_days">%1$d nsuku</string>
+    <string name="tabs_insights_average_kept">isilinganiso esenziwe</string>
+    <string name="tabs_insights_days_checked_in">izinsuku ohlolile</string>
+    <string name="tabs_insights_on_track">emgqeni</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">ukugeja</item>
+        <item quantity="other">ukugeja</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">isinyathelo esisha</item>
+        <item quantity="other">izinyathelo ezintsha</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">okwenziwa kanye okuqediwe</item>
+        <item quantity="other">okwenziwa kanye okuqediwe</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Izizathu ezinkulu zokugeja</string>
+    <string name="tabs_insights_added_quarter">Okungezwe kule kota</string>
+    <string name="tabs_insights_past_summaries">Izifinyezo Zezinyanga Ezi-3 ezedlule</string>
+    <string name="tabs_insights_first_on">Esakho sokuqala sifika ngo-%1$s</string>
+    <string name="tabs_insights_all_time">Sonke isikhathi</string>
+    <string name="tabs_insights_period">%1$s kuya ku-%2$s %3$d</string>
+
+    <string name="forms_back">Emuva</string>
+    <string name="forms_back_habits">Imikhuba</string>
+    <string name="forms_back_settings">Izilungiselelo</string>
+    <string name="forms_add">Engeza</string>
+    <string name="forms_save">Londoloza</string>
+    <string name="forms_finish">Qeda</string>
+    <string name="forms_delete">Susa</string>
+    <string name="forms_why">Kungani</string>
+    <string name="forms_never_show">Ungaphinde ukhombise</string>
+    <string name="forms_every">Njalo</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">usuku</item>
+        <item quantity="other">izinsuku</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Isinyathelo %1$d kwezi-%2$d</string>
+    <string name="forms_checkin_next_weekly">Okulandelayo, Ukuhlola Kwamaviki ›</string>
+    <string name="forms_checkin_next_quarter">Okulandelayo, Ukuhlola Kwezinyanga Ezi-3 ›</string>
+    <string name="forms_daily_title">Ukuhlola Kwansuku Zonke</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">Usuku olu-%1$d olwedlule alugcwaliswanga</item>
+        <item quantity="other">Izinsuku ezingu-%1$d ezedlule azigcwaliswanga</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Yeqa konke</string>
+    <string name="forms_daily_today">Namuhla · %1$s</string>
+    <string name="forms_daily_skip">Yeqa</string>
+    <string name="forms_daily_undo_skip">Hlehlisa ukweqa</string>
+    <string name="forms_daily_new_tag">Ithegi entsha</string>
+    <string name="forms_daily_new_tag_hint">Umgqomo ubugcwele</string>
+    <string name="forms_weekly_title">Ukuhlola Kwamaviki</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">Iviki elingu-%1$d likweletwa, isinyathelo esisha esisodwa sikumboza konke.</item>
+        <item quantity="other">Amaviki angu-%1$d akweletwa, isinyathelo esisha esisodwa siwamboza wonke.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Asikho isinyathelo esisha kuleli viki</string>
+    <string name="forms_quarter_title">Ukuhlola Kwezinyanga Ezi-3</string>
+    <string name="forms_quarter_nothing">Akukakhiwa lutho okufanele luhlolwe. Isifinyezo sakho silandela.</string>
+    <string name="forms_quarter_habits">Imikhuba</string>
+    <string name="forms_quarter_swaps">Ukushintsha</string>
+    <string name="forms_quarter_avoid">Gwema</string>
+    <string name="forms_quarter_missed">Okugejiwe</string>
+    <string name="forms_quarter_missed_level">Okugejiwe: %1$s</string>
+
+    <string name="forms_new_title">Isinyathelo esisha</string>
+    <string name="forms_edit_title">Hlela: %1$s</string>
+    <string name="forms_add_kind">Engeza: %1$s</string>
+    <string name="forms_title_habit">Umkhuba</string>
+    <string name="forms_title_swap">Ukushintsha</string>
+    <string name="forms_title_avoid">Ukugwema</string>
+    <string name="forms_save_changes">Londoloza izinguquko</string>
+    <string name="forms_what_kind">Luhlobo luni?</string>
+    <string name="forms_name">Igama</string>
+    <string name="forms_your_new_step">Isinyathelo sakho esisha</string>
+    <string name="forms_hint_habit">Funda amakhasi ayi-10</string>
+    <string name="forms_hint_swap">Ilufa, hhayi isipontshi</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Umkhuba wohlobo luni?</string>
+    <string name="forms_timing_tip_title">Noma nini noma ekupheleni kosuku</string>
+    <string name="forms_timing_tip">Noma nini: into oyenza kanye, njengokugijima. Yithikhe uma nje usuqedile.\n\nEkupheleni kosuku: umthetho owugcina usuku lonke, njengokungadli okokuncinda. Ungayithikha kusihlwa kuphela.</string>
+    <string name="forms_anytime">Noma nini</string>
+    <string name="forms_end_of_day">Ekupheleni kosuku</string>
+    <string name="forms_what_is_it">Kuyini?</string>
+    <string name="forms_how_often">Kangaki?</string>
+    <string name="forms_often_specific">Izinsuku ezithile</string>
+    <string name="forms_often_whenever">Noma nini</string>
+    <string name="forms_often_once">Kanye nje</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">isikhathi njalo nge</item>
+        <item quantity="other">izikhathi njalo nge</item>
+    </plurals>
+    <string name="forms_unit_day">usuku</string>
+    <string name="forms_unit_week">iviki</string>
+    <string name="forms_unit_month">inyanga</string>
+    <string name="forms_unit_x_days">izinsuku ezi-X</string>
+    <string name="forms_ideas">Imibono</string>
+    <string name="forms_ideas_others">Abanye</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Bona umbono ongu-%1$d ›</item>
+        <item quantity="other">Bona yonke imibono engu-%1$d ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Yonke imibono yezinyathelo</string>
+    <string name="forms_search">Sesha…</string>
+    <string name="forms_all">Konke</string>
+
+    <string name="forms_settings_title">Izilungiselelo</string>
+    <string name="forms_set_colours">Imibala</string>
+    <string name="forms_set_style">Isitayela sesifinyezo Sezinyanga Ezi-3</string>
+    <string name="forms_set_checkins">Ukuhlola</string>
+    <string name="forms_set_checkin_hour">Ukuhlola Kwansuku Zonke kuvuleka ngo</string>
+    <string name="forms_set_checkin_hour_tip">Kusukela ngalesi sikhathi ungathikha imikhuba yokuphela kosuku futhi wenze Ukuhlola Kwansuku Zonke.</string>
+    <string name="forms_set_week_start">Iviki liqala ngo</string>
+    <string name="forms_set_week_start_tip">Usuku okuqala ngalo igridi yakho Yemikhuba, amaviki namashadi.</string>
+    <string name="forms_monday">uMsombuluko</string>
+    <string name="forms_sunday">iSonto</string>
+    <string name="forms_set_new_step_every">Isinyathelo esisha njalo</string>
+    <string name="forms_set_new_step_every_tip">Amaviki amangaki phakathi Kokuhlola Kwamaviki.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">iviki</item>
+        <item quantity="other">amaviki</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Usuku Lokuhlola Kwamaviki</string>
+    <string name="forms_set_weekly_day_tip">Ngalolu suku Ukuhlola Kwansuku Zonke kulandelwa ukukhetha isinyathelo esisha seviki elizayo.</string>
+    <string name="forms_set_checkup">Ukuhlola Kwezinyanga Ezi-3</string>
+    <string name="forms_set_checkup_tip">Wonke umuntu uhlola ngezinsuku ezifanayo: 1 Jan, 1 Apr, 1 Jul no-1 Oct, ukuze nabelane ngezifinyezo zenu ndawonye. Ungakhetha olwakho usuku esikhundleni salokho.</string>
+    <string name="forms_set_same">Njengawo wonke umuntu</string>
+    <string name="forms_set_own">Usuku lwami</string>
+    <string name="forms_set_starting">Kuqala ngo</string>
+    <string name="forms_set_starting_tip">Inyanga yokuhlola kwakho kokuqala.</string>
+    <string name="forms_earlier">Ngaphambili</string>
+    <string name="forms_later">Kamuva</string>
+    <string name="forms_set_every_tip">Izinyanga phakathi kokuhlola.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">inyanga</item>
+        <item quantity="other">izinyanga</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Usuku lwenyanga</string>
+    <string name="forms_set_day_of_month_tip">Yiluphi usuku lwaleyo nyanga.</string>
+    <string name="forms_set_everyone">Wonke umuntu: 1 Jan · 1 Apr · 1 Jul · 1 Oct</string>
+    <string name="forms_set_days_build">Izinsuku zokwakha umkhuba</string>
+    <string name="forms_set_days_build_tip">Ucwaningo luthole izinsuku eziyi-18 kuya ku-254, okuvame ukushiwo ngu-66 (Lally et al. 2010, Singh et al. 2024). Ngemuva kwalezi zinsuku isinyathelo esisha siya ekuhloleni kwakho.</string>
+    <string name="forms_set_nudge">Isikhumbuzo sansuku zonke</string>
+    <string name="forms_set_nudge_tip">Isikhumbuzo ngalesi sikhathi, kuphela uma kukhona okungakathikhwa.</string>
+    <string name="forms_set_more">Okunye</string>
+    <string name="forms_set_reasons">Izizathu zokugeja</string>
+    <string name="forms_set_tutorial">Phinda isifundo</string>
+    <string name="forms_set_export">Thumela idatha yami ngaphandle</string>
+    <string name="forms_set_import">Ngenisa idatha</string>
+
+    <string name="forms_reasons_title">Izizathu zokugeja</string>
+    <string name="forms_reasons_hint">Engeza isizathu sakho</string>
+    <string name="forms_reasons_used">kusetshenziswe %1$d×</string>
+    <string name="forms_reasons_delete_title">Susa i-%1$s?</string>
+    <string name="forms_reasons_delete_text">Ukugeja kuhlala emlandweni wakho, kodwa ngaphandle kwale thegi.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">umkhuba ongu-%1$d</item>
+        <item quantity="other">imikhuba engu-%1$d</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">ukushintsha okungu-%1$d</item>
+        <item quantity="other">ukushintsha okungu-%1$d</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">okugwenywayo okungu-%1$d</item>
+        <item quantity="other">okugwenywayo okungu-%1$d</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, amathikhi kusukela ngo-%2$s</string>
+    <string name="forms_export_title">Thumela idatha yami ngaphandle</string>
+    <string name="forms_export_what">Okungena efayeleni</string>
+    <string name="forms_export_ticks">Wonke amathikhi, ukugeja nezizathu</string>
+    <string name="forms_export_ticks_since">Wonke amathikhi, ukugeja nezizathu kusukela ngo-%1$s</string>
+    <string name="forms_export_summaries">Izifinyezo zakho Zezinyanga Ezi-3</string>
+    <string name="forms_export_settings">Izilungiselelo zakho, imibala negama</string>
+    <string name="forms_export_file">Ifayela</string>
+    <string name="forms_export_kb">%1$d KB</string>
+    <string name="forms_export_save">Londoloza ifayela</string>
+    <string name="forms_export_send">Thumela ku…</string>
+    <string name="forms_export_send_title">Thumela idatha yakho ye-Alice</string>
+    <string name="forms_export_saved">Kulondolozwe %1$s</string>
+    <string name="forms_export_save_failed">Akukwazanga ukulondoloza ifayela</string>
+
+    <string name="forms_import_title">Ngenisa idatha</string>
+    <string name="forms_import_choose">Khetha isipele se-Alice</string>
+    <string name="forms_import_choose_sub">.json, kusuka ku-Thumela ngaphandle kwenye ifoni</string>
+    <string name="forms_import_cant_open">Akukwazanga ukuvula lelo fayela.</string>
+    <string name="forms_import_not_backup">Lelo fayela akusona isipele se-Alice.</string>
+    <string name="forms_import_replace_mode">Faka esikhundleni salokho okukhona</string>
+    <string name="forms_import_add_mode">Engeza kulokho okukhona</string>
+    <string name="forms_import_button">Ngenisa</string>
+    <string name="forms_import_replace_title">Shintsha idatha yakho?</string>
+    <string name="forms_import_add_title">Engeza le datha?</string>
+    <string name="forms_import_replace_text">Konke okukule foni kuzoshintshwa yifayela. Thumela ngaphandle kuqala uma ufuna ukukugcina.</string>
+    <string name="forms_import_add_text">Imikhuba nomlando osefayeleni kuzongezwa kokwakho.</string>
+    <string name="forms_import_done">Idatha ingenisiwe</string>
+
+    <string name="look_share">Yabelana</string>
+    <string name="look_save_image">Londoloza isithombe</string>
+    <string name="look_next_week">Okulandelayo, iviki lakho ›</string>
+    <string name="look_keep_going">Qhubeka</string>
+    <string name="look_storage_needed">I-Alice idinga imvume yesitoreji ukuze ilondoloze isithombe</string>
+    <string name="look_share_caption">Ikota yami ne-Alice. Qala eyakho: %1$s</string>
+    <string name="look_share_clip">Isifinyezo se-Alice</string>
+    <string name="look_share_chooser">Yabelana ngekota yakho</string>
+    <string name="look_saved">Kulondolozwe ku-Pictures/Alice</string>
+    <string name="look_save_failed">Akukwazanga ukulondoloza isithombe</string>
+
+    <string name="look_style_poster">Iphosta</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Ikhabethe lezindebe</string>
+    <string name="look_style_receipt">Irisidi</string>
+    <string name="look_style_report">Umbiko wesikole</string>
+    <string name="look_style_boarding">Ithikithi lendiza</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Ikhalenda</string>
+    <string name="look_style_trading">Ikhadi lokushintshana</string>
+
+    <string name="look_quote_1">Izinyathelo Ezincane, Nsuku Zonke</string>
+    <string name="look_quote_2">Ngiyabonga Ngokuza</string>
+    <string name="look_quote_3">Intuthuko, Hhayi Ukuphelela</string>
+    <string name="look_quote_4">Uqhubekile. Lokho Kubalulekile</string>
+    <string name="look_quote_5">Izinguquko Ezincane, Umehluko Omkhulu</string>
+    <string name="look_quote_6">Nsuku Zonke Ukhethe Okungcono</string>
+    <string name="look_quote_7">Kancane Kusese Phambili</string>
+    <string name="look_quote_8">Wakha Impilo Oyithandayo</string>
+    <string name="look_quote_9">Isinyathelo Ngesinyathelo Kuyanqwabelana</string>
+    <string name="look_quote_10">Qhubeka Uzinakekela</string>
+    <string name="look_quote_11">Wena Wakusasa Uthi Ngiyabonga</string>
+    <string name="look_quote_12">Kancane Kancane, Kube Kuningi</string>
+    <string name="look_quote_13">Ukungaguquki Kungumlingo Othule</string>
+    <string name="look_quote_14">Bheka Ukuthi Usufike Kuphi</string>
+    <string name="look_quote_15">Ziqhenye Ngokunqoba Okuncane</string>
+    <string name="look_quote_16">Izinsuku Ezinhle Ziyakhiwa, Azitholakali</string>
+
+    <string name="look_stamp_1">KUHLE KAKHULU</string>
+    <string name="look_stamp_2">KUVELELE</string>
+    <string name="look_stamp_3">WENZE KAHLE</string>
+    <string name="look_stamp_4">UHLAKANIPHILE</string>
+    <string name="look_stamp_5">KUMANGALISA</string>
+    <string name="look_stamp_6">AMAMAKHI APHEZULU</string>
+    <string name="look_stamp_7">INKANYEZI YEGOLIDE</string>
+    <string name="look_stamp_8">UMSEBENZI OMUHLE</string>
+
+    <string name="look_period">%1$s kuya ku-%2$s</string>
+    <string name="look_scan">SKENA UKUZE\nUQALE OHAMBWENI\nLWAKHO</string>
+    <string name="look_you">Wena</string>
+    <string name="look_on_track">emgqeni</string>
+    <string name="look_new_steps">izinyathelo ezintsha</string>
+    <string name="look_days_in">izinsuku sezidlule</string>
+    <string name="look_new">okusha</string>
+    <string name="look_week_by_week">Iviki ngeviki</string>
+    <string name="look_coming_soon">Kuyeza maduze</string>
+    <string name="look_new_this_quarter">Okusha kule kota</string>
+    <string name="look_kept_up_longest">Okuqhubeke isikhathi eside</string>
+    <string name="look_habits">Imikhuba</string>
+    <string name="look_swaps">Ukushintsha</string>
+    <string name="look_avoids">Okugwenywayo</string>
+    <string name="look_ways_improved">Izindlela othuthuke ngazo</string>
+    <string name="look_improved_in">Uthuthukise impilo yakho ngo-%1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">umkhuba ongu-%1$d</item>
+        <item quantity="other">imikhuba engu-%1$d</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">ukushintsha okungu-%1$d</item>
+        <item quantity="other">ukushintsha okungu-%1$d</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">okugwenywayo okungu-%1$d</item>
+        <item quantity="other">okugwenywayo okungu-%1$d</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">ukugeja okungu-%1$d</item>
+        <item quantity="other">ukugeja okungu-%1$d</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">indlela engu-%1$d</item>
+        <item quantity="other">izindlela ezingu-%1$d</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">umkhuba</item>
+        <item quantity="other">imikhuba</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">ukushintsha</item>
+        <item quantity="other">ukushintsha</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">okugwenywayo</item>
+        <item quantity="other">okugwenywayo</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">ukugeja</item>
+        <item quantity="other">ukugeja</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">indlela</item>
+        <item quantity="other">izindlela</item>
+    </plurals>
+
+    <string name="look_poster_improved">Usuthuthukise impilo yakho ngo-%1$s</string>
+    <string name="look_poster_on_track">EMGQENI</string>
+    <string name="look_poster_days">izinsuku</string>
+    <string name="look_poster_achievements">Okuzuzile</string>
+    <string name="look_poster_first_ones">Okokuqala kwakho kusendleleni</string>
+    <string name="look_poster_added">Okungezile kule kota</string>
+
+    <string name="look_wrapped_stars">Izinkanyezi zakho</string>
+
+    <string name="look_trophy_ways">izindlela othuthukise\nngazo impilo yakho</string>
+    <string name="look_trophy_next_quarter">Ikota elandelayo</string>
+    <string name="look_trophy_first_medal">indondo yakho yokuqala</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Okusha eshalofini:</string>
+
+    <string name="look_receipt_title">Ukuhlola Kwezinyanga Ezi-3 · %1$s</string>
+    <string name="look_receipt_customer">Ikhasimende: %1$s</string>
+    <string name="look_receipt_habits">Imikhuba eyakhiwe</string>
+    <string name="look_receipt_swaps">Izinto ezishintshiwe</string>
+    <string name="look_receipt_avoids">Izinto ezigwenyiwe</string>
+    <string name="look_receipt_ways">Izindlela othuthukise ngazo impilo yakho</string>
+    <string name="look_receipt_on_track">Emgqeni kule kota</string>
+    <string name="look_receipt_slips">Ukugeja</string>
+    <string name="look_receipt_new_steps">Izinyathelo ezintsha ezakhiwe</string>
+    <string name="look_receipt_new">Okusha kule kota: %1$s</string>
+
+    <string name="look_report_title">Umbiko Wezinyathelo Ezincane</string>
+    <string name="look_report_pupil">%1$s · Umfundi: %2$s</string>
+    <string name="look_report_subject">ISIFUNDO</string>
+    <string name="look_report_built">KWAKHIWE</string>
+    <string name="look_report_grade">IBANGA</string>
+    <string name="look_report_attendance">Ukuba khona %1$s</string>
+    <string name="look_report_on_track">Emgqeni %1$s</string>
+    <string name="look_report_slips">Ukugeja %1$s</string>
+    <string name="look_report_achievements">OKUZUZIWE</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">IZIFUNDO EZINTSHA KULELI THEMU (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Amazwi kathisha:</string>
+    <string name="look_report_calm">Ithemu elizolile nelizinzile.</string>
+    <string name="look_report_ups_downs">Ithemu elinokwenyuka nokwehla, futhi waqhubeka nalo.</string>
+    <string name="look_report_star">U-%1$s wenze kahle kakhulu. Qhubeka kanjalo!</string>
+    <string name="look_report_keep_up">Qhubeka kanjalo!</string>
+    <string name="look_report_week">IVIKI NGEVIKI</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Indiza Q%1$d</string>
+    <string name="look_boarding_from">KUSUKA</string>
+    <string name="look_boarding_old">IMIDALA</string>
+    <string name="look_boarding_habits">imikhuba</string>
+    <string name="look_boarding_to">KUYA</string>
+    <string name="look_boarding_new">OMUSHA</string>
+    <string name="look_boarding_better_you">wena ongcono</string>
+    <string name="look_boarding_passenger">Umgibeli</string>
+    <string name="look_boarding_dates">Izinsuku</string>
+    <string name="look_boarding_miles">Amamayela andiziwe</string>
+    <string name="look_boarding_on_time">Ngesikhathi</string>
+    <string name="look_boarding_turbulence">Ukunyakaza</string>
+    <string name="look_boarding_days">Izinsuku ezindizeni</string>
+    <string name="look_boarding_flyer">UMHAMBI OVAMILE, ABANGANE BAKHO ABADALA KAKHULU</string>
+    <string name="look_boarding_log">ILOGI YENDIZA, IVIKI NGEVIKI</string>
+    <string name="look_boarding_stops">IZITOPHU EZINTSHA, +%1$d</string>
+    <string name="look_boarding_note">INOTHI LIKAKAPTENI</string>
+
+    <string name="look_polaroid_life">IMPILO YAKHO</string>
+    <string name="look_polaroid_quarter">LE KOTA</string>
+    <string name="look_polaroid_days_in">izinsuku %1$d/%2$d</string>
+    <string name="look_polaroid_longest">OKUQHUBEKE ISIKHATHI ESIDE</string>
+    <string name="look_polaroid_new">OKUSHA, +%1$d</string>
+
+    <string name="look_calendar_added">Kungeziwe</string>
+
+    <string name="look_trading_common">Okuvamile</string>
+    <string name="look_trading_uncommon">Okungavamile</string>
+    <string name="look_trading_rare">Okuyivelakancane</string>
+    <string name="look_trading_legendary">Okudumile</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">INDLELA</item>
+        <item quantity="other">IZINDLELA</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">No. %1$03d · ikota yakho ye-%2$s</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">izinsuku %1$d/%2$d</string>
+    <string name="look_trading_power">Amandla, iviki ngeviki</string>
+    <string name="look_trading_edition">%1$s · uhlelo lwe-Q%2$d</string>
+
+    <string name="look_sample_water_first">Amanzi kuqala</string>
+    <string name="look_sample_own_bag">Isikhwama sami</string>
+    <string name="look_sample_read_pages">Funda amakhasi ayi-10</string>
+    <string name="look_sample_reading">Ukufunda nsuku zonke</string>
+    <string name="look_sample_late_snacks">Akukho kudla ebusuku</string>
+    <string name="look_sample_stretching">Ukwelula umzimba</string>
+    <string name="look_sample_cooler_home">Ikhaya elipholile</string>
+    <string name="look_sample_loofah">Ilufa, hhayi isipontshi</string>
+    <string name="look_sample_palm_oil">Ngaphandle kukawoyela wesundu</string>
+    <string name="look_sample_stretch">Zelule imizuzu eyi-10</string>
+
+    <string name="look_colours_title">Imibala</string>
+    <string name="look_colours_preview">Ukubuka kuqala</string>
+    <string name="look_colours_your_summary">Isifinyezo sakho Sezinyanga Ezi-3</string>
+    <string name="look_colours_light">Ukukhanya</string>
+    <string name="look_colours_dark">Ubumnyama</string>
+    <string name="look_styles_title">Isitayela sesifinyezo Sezinyanga Ezi-3</string>
+    <string name="look_styles_all_pictures">Bona zonke izithombe ze-Polaroid ezingu-30</string>
+    <string name="look_styles_refresh">Vuselela</string>
+    <string name="look_pictures_title">Izithombe ze-Polaroid</string>
+    <string name="look_pictures_back">Izitayela zesifinyezo</string>
+
+    <string name="look_welcome_name">Igama lakho</string>
+    <string name="look_welcome_start">Qala</string>
+    <string name="look_welcome_import">Ngenisa idatha yami</string>
+
+    <string name="look_tut_skip">Yeqa</string>
+    <string name="look_tut_page">%1$d KWEZI-%2$d</string>
+    <string name="look_tut_back">Emuva</string>
+    <string name="look_tut_start">Qala</string>
+    <string name="look_tut_next">Okulandelayo</string>
+    <string name="look_tut1_title">Iba ngcono, isinyathelo ngesinyathelo</string>
+    <string name="look_tut1_body">Yakha imikhuba emisha, wenze ukukhetha okunomusa, bese ubona konke okuzuzayo kunqwabelana.</string>
+    <string name="look_tut1_habits">Yakha imikhuba emihle usuku nosuku bese uba yilokho ofuna ukuba yikho.</string>
+    <string name="look_tut1_swaps">Shintsha imikhiqizo ngenomusa ngokwengeziwe, engcono emhlabeni, kubantu noma empilweni yakho.</string>
+    <string name="look_tut1_avoids">Landelela izinkampani, ukudla nemikhiqizo ongathandi ukuyisekela.</string>
+    <string name="look_tut2_title">Kuthikhe</string>
+    <string name="look_tut2_body">Thepha isikwele uma usuwenzile umkhuba. Owakusihlwa uvuleka ngesikhathi sakho sokuhlola.</string>
+    <string name="look_tut3_title">%1$s, bese njalo ngo-%2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">usuku olu-%1$d</item>
+        <item quantity="other">izinsuku ezingu-%1$d</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">inyanga engu-%1$d</item>
+        <item quantity="other">izinyanga ezingu-%1$d</item>
+    </plurals>
+    <string name="look_tut3_body">Ucwaningo luthole ukuthi ukwakha umkhuba kuthatha noma yikuphi phakathi kwezinsuku eziyi-18 no-254. Inani elishiwo kakhulu yizinsuku ezingu-66, ngakho i-Alice iqala lapho.</string>
+    <string name="look_tut3_days_label">Izinsuku zokwakha umkhuba</string>
+    <string name="look_tut3_checkup">Ukuhlola njalo</string>
+    <string name="look_tut3_small">Ungashintsha kokubili ku-Izilungiselelo.</string>
+    <string name="look_tut4_title">Kanye ngeviki, isinyathelo esisha esisodwa</string>
+    <string name="look_tut4_body">Ukwengeza isinyathelo esisha esisodwa ngesikhathi kukuvumela ukuthi ukhule kancane, ngaphandle kokuthwala okuningi ngesikhathi esisodwa.</string>
+    <string name="look_tut4_day">Usuku lokuhlola</string>
+    <string name="look_tut4_small">Nalokhu ungakushintsha ku-Izilungiselelo.</string>
+    <string name="look_tut5_title">Njalo ngekota, isifinyezo sakho</string>
+    <string name="look_tut5_body">Yabelana nabangani bakho nabantu oseduze nabo ngokuthi usufike kuphi. Thepha ukubukeka okuthandayo:</string>
+    <string name="look_tut_change_mind">Ungashintsha umqondo noma nini.</string>
+    <string name="look_tut6_title">Kwenze kube ngokwakho</string>
+    <string name="look_tut6_body">Khetha imibala ekwenza uzizwe ukhululekile kakhulu. Lonke uhlelo lokusebenza lushintsha ngokushesha.</string>
+    <string name="look_tut7_title">Shintsha noma yini, noma nini</string>
+    <string name="look_tut7_body">Izikhathi zokuhlola, izinsuku zokwakha umkhuba, isitayela sesifinyezo sakho, imibala nedatha yakho konke kuku-Izilungiselelo.</string>
+    <string name="look_tut7_gear">Thepha igiya phezulu ku-Imikhuba ukuze uvule Izilungiselelo.</string>
+    <string name="look_tut7_open">Vula Izilungiselelo</string>
+
+    <string name="lang_title">Ulimi</string>
+    <string name="pron_title">Izabizwana</string>
+    <string name="pron_she">owesifazane</string>
+    <string name="pron_he">owesilisa</string>
+    <string name="pron_they">okungathathi hlangothi</string>
+    <string name="lang_spotted">Ubone iphutha olimini lwakho?</string>
+    <string name="lang_search">Sesha ulimi lwakho</string>
+    <string name="lang_phone">Ulimi lwefoni</string>
+    <string name="lang_follow">Landela ifoni yakho</string>
+    <string name="lang_note_title">Siza ngokuhumusha</string>
+    <string name="lang_note_1">Sawubona, ngingu-Lucy futhi ngenze i-Alice.</string>
+    <string name="lang_note_2">Ngikhuluma isiNgisi, isiSlovak, isiCzech nesiRashiya, ngakho lezo zinguqulo ngizihlolile ngokwami. Ezinye izilimi azikahlolwa yisikhulumi somdabu.</string>
+    <string name="lang_note_3">Uma ubona iphutha olimini lwakho, sicela ungazise ukuze ngililungise. Futhi uma usebenzise i-Alice olimini lwakho isikhashana futhi konke kufundeka kahle, ngitshele nalokho, ukuze ngikumake njengokugunyaziwe.</string>
+    <string name="lang_note_4">Ngiyabonga!</string>
+    <string name="lang_not_approved">AKUKAGUNYAZWA</string>
+    <string name="lang_report">Bika iphutha</string>
+    <string name="lang_all_correct">Ulimi lwami lulungile ngokuphelele</string>
+    <string name="lang_mail_mistake_body">Okufundeka kabi, nokuthi kusesikrinini esiphi:\n\n</string>
+    <string name="lang_mail_correct_body">Ngisebenzise i-Alice olimini lwami isikhashana futhi konke kufundeka kahle.\n\n</string>
+    <string name="lang_no_mail">Alutholakalanga uhlelo lwe-imeyili</string>
+</resources>

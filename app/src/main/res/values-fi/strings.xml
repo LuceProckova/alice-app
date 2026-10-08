@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alice</string>
+
+    <string name="core_reason_too_tired">Liian väsynyt</string>
+    <string name="core_reason_craving">Mielihalu</string>
+    <string name="core_reason_no_time">Ei aikaa</string>
+    <string name="core_reason_forgot">Unohdin</string>
+    <string name="core_reason_no_alternative">Ei vaihtoehtoa</string>
+    <string name="core_reason_social">Seura</string>
+    <string name="core_reason_impulse">Mielijohde</string>
+    <string name="core_reason_too_expensive">Liian kallis</string>
+    <string name="core_reason_away">Poissa kotoa</string>
+
+    <string name="core_nudge_channel">Päivän muistutus</string>
+    <string name="core_nudge_title">Vielä merkittävää tänään</string>
+    <string name="core_save_failed">Tallennus ei onnistunut, yritä uudelleen</string>
+
+    <string name="core_kind_habit">Tapa</string>
+    <string name="core_kind_swap">Vaihto</string>
+    <string name="core_kind_avoid">Vältä</string>
+    <string name="core_about">Tietoa: %1$s</string>
+    <string name="core_ok">OK</string>
+    <string name="core_less">Vähemmän</string>
+    <string name="core_more">Lisää</string>
+    <string name="core_cancel">Peruuta</string>
+    <string name="core_settings">Asetukset</string>
+    <string name="core_span_week">Viikko</string>
+    <string name="core_span_month">Kuukausi</string>
+    <string name="core_span_year">Vuosi</string>
+    <string name="core_span_all">Kaikki</string>
+    <string name="core_tab_habits">Tavat</string>
+    <string name="core_tab_changes">Muutokset</string>
+    <string name="core_tab_avoid">Vältä</string>
+    <string name="core_tab_insights">Tilastot</string>
+
+    <string name="core_cell_spoken">%1$s, %2$s</string>
+    <string name="core_cell_kept">pidetty</string>
+    <string name="core_cell_missed">väliin jäänyt</string>
+    <string name="core_cell_partial">osittain tehty, %1$d tähän mennessä</string>
+    <string name="core_cell_unfilled">ei vielä täytetty</string>
+    <string name="core_cell_open">tekemättä</string>
+    <string name="core_cell_locked">lukittu kirjausaikaan asti</string>
+    <string name="core_cell_future">ei vielä</string>
+    <string name="core_cell_empty">ei tarvita mitään</string>
+    <string name="core_cell_band">tehty tältä jaksolta</string>
+    <string name="core_cell_off">ei tämän askeleen päivä</string>
+    <string name="core_cell_none">ennen tämän askeleen alkua</string>
+
+    <string name="core_rhythm_one_off">Kertaluonteinen</string>
+    <string name="core_rhythm_end_of_day">Joka päivä, merkitään illalla</string>
+    <string name="core_rhythm_every_day">Joka päivä</string>
+    <string name="core_rhythm_every_days">Joka %1$s</string>
+    <string name="core_rhythm_day_count">%1$s (%2$d×)</string>
+    <string name="core_rhythm_a_week">viikossa</string>
+    <string name="core_rhythm_a_month">kuukaudessa</string>
+    <string name="core_rhythm_times_any_day">%1$s %2$s, minä päivänä tahansa</string>
+    <string name="core_list_separator">", "</string>
+    <string name="core_list_last">%1$s ja %2$s</string>
+
+    <string name="core_achievement_short_months">%1$d kk</string>
+    <string name="core_achievement_short_days">%1$d pv</string>
+    <string name="core_glance_step">%1$s, %2$d/%3$d</string>
+
+    <string name="core_slip_never">Ei koskaan</string>
+    <string name="core_slip_once">Kerran</string>
+    <string name="core_slip_a_few">Muutaman kerran</string>
+    <string name="core_slip_half">Puolet</string>
+    <string name="core_slip_most">Useimmiten</string>
+    <string name="core_slip_always">Aina</string>
+
+    <string name="core_ideas_habit_anytime">Tavat, milloin vain</string>
+    <string name="core_ideas_habit_end">Tavat, illalla</string>
+    <string name="core_ideas_swap">Vaihdot</string>
+    <string name="core_ideas_avoid_product">Vältä, tuotteet</string>
+    <string name="core_ideas_avoid_company">Vältä, yritykset</string>
+    <string name="core_ideas_avoid_food">Vältä, ruoka</string>
+
+    <string name="core_tag_ethical">Eettinen</string>
+    <string name="core_tag_health">Terveys</string>
+    <string name="core_tag_clutter">Tavararoina</string>
+    <string name="core_tag_ecological">Ekologinen</string>
+    <string name="core_tag_animal_welfare">Eläinten hyvinvointi</string>
+    <string name="core_tag_workers_rights">Työntekijöiden oikeudet</string>
+    <string name="core_tag_plastic">Muovi</string>
+    <string name="core_tag_palm_oil">Palmuöljy</string>
+    <string name="core_tag_deforestation">Metsäkato</string>
+    <string name="core_category_company">Yritys</string>
+    <string name="core_category_food">Ruoka</string>
+    <string name="core_category_product">Tuote</string>
+    <string name="core_verdict_avoid">VÄLTÄ</string>
+    <string name="core_verdict_edge">RAJALLA</string>
+    <string name="core_verdict_fine">OK</string>
+
+    <string name="core_theme_off_white_honey">Luonnonvalkoinen &amp; hunaja</string>
+    <string name="core_theme_vanilla_caramel">Vanilja &amp; kinuski</string>
+    <string name="core_theme_sunflower">Auringonkukka</string>
+    <string name="core_theme_latte">Latte</string>
+    <string name="core_theme_cocoa_lemon">Kaakao &amp; sitruuna</string>
+    <string name="core_theme_espresso_butter">Espresso &amp; voi</string>
+    <string name="core_theme_midnight_honey">Keskiyö &amp; hunaja</string>
+    <string name="core_theme_forest_night">Metsän yö</string>
+    <string name="core_theme_plum_dusk">Luumuhämärä</string>
+    <string name="core_theme_charcoal_coral">Hiili &amp; koralli</string>
+
+    <string name="core_pic_sunny_meadow">Aurinkoinen niitty</string>
+    <string name="core_pic_sunset_hills">Kukkulat auringonlaskussa</string>
+    <string name="core_pic_starry_night">Tähtiyö</string>
+    <string name="core_pic_beach_day">Rantapäivä</string>
+    <string name="core_pic_mountain_lake">Vuoristojärvi</string>
+    <string name="core_pic_snowy_village">Luminen kylä</string>
+    <string name="core_pic_rainy_garden">Sateinen puutarha</string>
+    <string name="core_pic_autumn_forest">Syysmetsä</string>
+    <string name="core_pic_cherry_blossom">Kirsikankukat</string>
+    <string name="core_pic_desert_cactus">Aavikkokaktus</string>
+    <string name="core_pic_lighthouse">Majakka</string>
+    <string name="core_pic_rainbow_field">Sateenkaaripelto</string>
+    <string name="core_pic_hot_air_balloon">Kuumailmapallo</string>
+    <string name="core_pic_sailboat">Purjevene</string>
+    <string name="core_pic_cabin_in_the_woods">Mökki metsässä</string>
+    <string name="core_pic_tulip_field">Tulppaanipelto</string>
+    <string name="core_pic_campfire_night">Nuotioilta</string>
+    <string name="core_pic_misty_mountains">Sumuiset vuoret</string>
+    <string name="core_pic_sunrise_sea">Auringonnousu merellä</string>
+    <string name="core_pic_snowy_pines">Lumiset männyt</string>
+    <string name="core_pic_lavender_field">Laventelipelto</string>
+    <string name="core_pic_waterfall">Vesiputous</string>
+    <string name="core_pic_city_at_dusk">Kaupunki hämärässä</string>
+    <string name="core_pic_picnic">Piknik</string>
+    <string name="core_pic_moon_over_the_lake">Kuu järven yllä</string>
+    <string name="core_pic_palm_island">Palmusaari</string>
+    <string name="core_pic_windmill">Tuulimylly</string>
+    <string name="core_pic_bike_path">Pyörätie</string>
+    <string name="core_pic_greenhouse">Kasvihuone</string>
+    <string name="core_pic_northern_lights">Revontulet</string>
+
+    <plurals name="core_nudge_text">
+        <item quantity="one">%d askel odottaa sinua.</item>
+        <item quantity="other">%d askelta odottaa sinua.</item>
+    </plurals>
+    <plurals name="core_cell_kept_times">
+        <item quantity="one">pidetty, %d kerran</item>
+        <item quantity="other">pidetty, %d kertaa</item>
+    </plurals>
+    <plurals name="core_rhythm_times_a_day">
+        <item quantity="one">%d kerran päivässä</item>
+        <item quantity="other">%d kertaa päivässä</item>
+    </plurals>
+    <plurals name="core_rhythm_times">
+        <item quantity="one">Kerran</item>
+        <item quantity="other">%d kertaa</item>
+    </plurals>
+    <plurals name="core_rhythm_every_weeks">
+        <item quantity="one">%d viikon välein</item>
+        <item quantity="other">%d viikon välein</item>
+    </plurals>
+    <plurals name="core_rhythm_every_months">
+        <item quantity="one">%d kuukauden välein</item>
+        <item quantity="other">%d kuukauden välein</item>
+    </plurals>
+    <plurals name="core_rhythm_every_n_days">
+        <item quantity="one">%d päivän välein</item>
+        <item quantity="other">%d päivän välein</item>
+    </plurals>
+    <plurals name="core_achievement_never_missed">
+        <item quantity="one">%d kuukausi, ei yhtään väliin</item>
+        <item quantity="other">%d kuukautta, ei yhtään väliin</item>
+    </plurals>
+    <plurals name="core_achievement_months_strong">
+        <item quantity="one">%d kuukausi putkeen</item>
+        <item quantity="other">%d kuukautta putkeen</item>
+    </plurals>
+    <plurals name="core_achievement_streak">
+        <item quantity="one">%d päivä putkeen</item>
+        <item quantity="other">%d päivää putkeen</item>
+    </plurals>
+    <plurals name="core_achievement_months">
+        <item quantity="one">%d kuukausi</item>
+        <item quantity="other">%d kuukautta</item>
+    </plurals>
+
+    <string name="tabs_new_step">Uusi askel</string>
+    <string name="tabs_edit">Muokkaa</string>
+    <string name="tabs_delete">Poista</string>
+    <string name="tabs_done">Valmis</string>
+    <string name="tabs_back">Takaisin</string>
+    <string name="tabs_earlier">Aiemmin</string>
+    <string name="tabs_later">Myöhemmin</string>
+    <string name="tabs_delete_title">Poistetaanko %1$s?</string>
+    <string name="tabs_eod_unlock">Illan tavat avautuvat klo %1$02d.00</string>
+    <string name="tabs_check_up">Katsaus</string>
+    <string name="tabs_one_off">Kertaluonteinen</string>
+
+    <string name="tabs_checkin_from">Kirjaus klo %1$02d.00 alkaen</string>
+    <string name="tabs_checkin_daily">Päivän kirjaus</string>
+    <string name="tabs_checkin_weekly">Viikon kirjaus</string>
+    <string name="tabs_checkin_quarter">3 kuukauden katsaus</string>
+    <string name="tabs_checked_in">Kirjattu</string>
+    <string name="tabs_quarter_section">3 KUUKAUDEN KATSAUS</string>
+    <string name="tabs_previous_week">Edellinen viikko</string>
+    <string name="tabs_next_week">Seuraava viikko</string>
+    <plurals name="tabs_celebrate_title">
+        <item quantity="one">%1$d päivä: %2$s!</item>
+        <item quantity="other">%1$d päivää: %2$s!</item>
+    </plurals>
+    <string name="tabs_celebrate_text">Hienosti tehty. Nyt se siirtyy 3 kuukauden katsauksiisi, eikä sitä tarvitse enää merkitä päivittäin.</string>
+    <string name="tabs_celebrate_first">Ensimmäinen on %1$s.</string>
+    <string name="tabs_glance_title">Viikkosi</string>
+    <string name="tabs_glance_ticks_kept">Pidetyt merkinnät</string>
+    <string name="tabs_glance_days_checked_in">Kirjatut päivät</string>
+    <string name="tabs_glance_top_tag">Yleisin lipsahduksen syy:</string>
+    <plurals name="tabs_glance_tag_times">
+        <item quantity="one">%1$s, %2$d kerran</item>
+        <item quantity="other">%1$s, %2$d kertaa</item>
+    </plurals>
+    <string name="tabs_glance_easiest">Helpoin:</string>
+    <string name="tabs_glance_hardest">Vaikein:</string>
+
+    <string name="tabs_changes_ongoing">Jatkuvat vaihdot</string>
+    <string name="tabs_changes_ongoing_tip_title">Jatkuva vaihto</string>
+    <plurals name="tabs_changes_ongoing_tip">
+        <item quantity="one">Sama valinta tulee vastaan uudelleen, kuten kahvikuppi tai shampoopala. Sitä merkitään Tavoissa %1$d päivän ajan ja sitten tarkistetaan 3 kuukauden välein.</item>
+        <item quantity="other">Sama valinta tulee vastaan uudelleen, kuten kahvikuppi tai shampoopala. Sitä merkitään Tavoissa %1$d päivän ajan ja sitten tarkistetaan 3 kuukauden välein.</item>
+    </plurals>
+    <string name="tabs_changes_no_swaps">Ei vielä vaihtoja</string>
+    <string name="tabs_changes_day_badge">PÄIVÄ %1$d/%2$d</string>
+    <string name="tabs_changes_sticking">PYSYY</string>
+    <string name="tabs_changes_one_off_todo">Kertaluonteiset, tekemättä</string>
+    <string name="tabs_changes_one_off_tip">Teet sen kerran ja se on valmis, kuten laatikon siivoaminen, vaihto vihreään sähköön tai takin korjaaminen. Merkitse se tehdyksi, niin se siirtyy kohtaan Valmiit.</string>
+    <string name="tabs_changes_nothing_waiting">Mikään ei odota</string>
+    <string name="tabs_changes_finished">VALMIIT · %1$d</string>
+
+    <string name="tabs_avoid_title">Vältettävät</string>
+    <string name="tabs_avoid_search">Hae…</string>
+    <string name="tabs_avoid_no_match">Ei osumia</string>
+    <string name="tabs_avoid_companies">Yritykset</string>
+    <string name="tabs_avoid_food">Ruoka</string>
+    <string name="tabs_avoid_products">Tuotteet</string>
+
+    <string name="tabs_avoid_added">Lisätty</string>
+    <string name="tabs_avoid_why">Miksi vältät sitä</string>
+    <string name="tabs_avoid_own_words">Omin sanoin</string>
+    <string name="tabs_avoid_brands">Sen omistamat brändit · %1$d</string>
+    <string name="tabs_avoid_brand_hint">Yksi brändi riville</string>
+    <string name="tabs_avoid_more_brands">+%1$d lisää</string>
+    <string name="tabs_avoid_instead">Valitse mieluummin tämä</string>
+    <string name="tabs_avoid_instead_hint">Yksi riville</string>
+    <plurals name="tabs_avoid_slips">
+        <item quantity="one">lipsahdus</item>
+        <item quantity="other">lipsahdusta</item>
+    </plurals>
+    <string name="tabs_avoid_avoided">vältetty</string>
+    <plurals name="tabs_avoid_months_on_list">
+        <item quantity="one">kuukausi listalla</item>
+        <item quantity="other">kuukautta listalla</item>
+    </plurals>
+    <string name="tabs_avoid_delete_text">Se poistetaan Vältettävistä historioineen.</string>
+
+    <string name="tabs_habit_delete_text">Koko sen historia poistuu samalla.</string>
+    <string name="tabs_habit_created">Luotu</string>
+    <string name="tabs_habit_to_do">Tekemättä</string>
+    <string name="tabs_habit_daily_ticks">Päivittäiset merkinnät</string>
+    <string name="tabs_habit_day_of">Päivä %1$d/%2$d</string>
+    <string name="tabs_habit_finished">Valmis</string>
+    <plurals name="tabs_habit_days_going">
+        <item quantity="one">päivä menossa</item>
+        <item quantity="other">päivää menossa</item>
+    </plurals>
+    <plurals name="tabs_habit_times_broken">
+        <item quantity="one">kerran katkennut</item>
+        <item quantity="other">kertaa katkennut</item>
+    </plurals>
+    <string name="tabs_habit_success">onnistuminen</string>
+    <string name="tabs_habit_current_streak">Nykyinen putki</string>
+    <string name="tabs_habit_longest_streak">Pisin putki</string>
+    <plurals name="tabs_habit_days">
+        <item quantity="one">%1$d päivä</item>
+        <item quantity="other">%1$d päivää</item>
+    </plurals>
+    <string name="tabs_habit_why_slipped">Miksi se lipsahti</string>
+    <string name="tabs_habit_remove_reason">Poista tämä syy</string>
+
+    <plurals name="tabs_insights_ways">
+        <item quantity="one">tapa, jolla paransit elämääsi</item>
+        <item quantity="other">tapaa, joilla paransit elämääsi</item>
+    </plurals>
+    <string name="tabs_insights_habits">Tavat</string>
+    <string name="tabs_insights_swaps">Vaihdot</string>
+    <string name="tabs_insights_avoids">Vältettävät</string>
+    <string name="tabs_insights_on_track_section">Raiteillaan</string>
+    <string name="tabs_insights_avg_days">%1$d pv</string>
+    <string name="tabs_insights_average_kept">pidetty keskimäärin</string>
+    <string name="tabs_insights_days_checked_in">kirjattua päivää</string>
+    <string name="tabs_insights_on_track">raiteillaan</string>
+    <plurals name="tabs_insights_slips">
+        <item quantity="one">lipsahdus</item>
+        <item quantity="other">lipsahdusta</item>
+    </plurals>
+    <plurals name="tabs_insights_new_steps">
+        <item quantity="one">uusi askel</item>
+        <item quantity="other">uutta askelta</item>
+    </plurals>
+    <plurals name="tabs_insights_one_offs_done">
+        <item quantity="one">kertaluonteinen tehty</item>
+        <item quantity="other">kertaluonteista tehty</item>
+    </plurals>
+    <string name="tabs_insights_slip_reasons">Yleisimmät lipsahduksen syyt</string>
+    <string name="tabs_insights_added_quarter">Lisätty tällä neljänneksellä</string>
+    <string name="tabs_insights_past_summaries">Aiemmat 3 kuukauden yhteenvedot</string>
+    <string name="tabs_insights_first_on">Ensimmäinen tulee %1$s</string>
+    <string name="tabs_insights_all_time">Kaikki</string>
+    <string name="tabs_insights_period">%1$s-%2$s %3$d</string>
+
+    <string name="forms_back">Takaisin</string>
+    <string name="forms_back_habits">Tavat</string>
+    <string name="forms_back_settings">Asetukset</string>
+    <string name="forms_add">Lisää</string>
+    <string name="forms_save">Tallenna</string>
+    <string name="forms_finish">Valmis</string>
+    <string name="forms_delete">Poista</string>
+    <string name="forms_why">Miksi</string>
+    <string name="forms_never_show">Älä näytä enää</string>
+    <string name="forms_every">Joka</string>
+    <plurals name="forms_unit_days_n">
+        <item quantity="one">päivä</item>
+        <item quantity="other">päivää</item>
+    </plurals>
+
+    <string name="forms_checkin_step_of">Vaihe %1$d/%2$d</string>
+    <string name="forms_checkin_next_weekly">Seuraavaksi viikon kirjaus ›</string>
+    <string name="forms_checkin_next_quarter">Seuraavaksi 3 kuukauden katsaus ›</string>
+    <string name="forms_daily_title">Päivän kirjaus</string>
+    <plurals name="forms_daily_earlier">
+        <item quantity="one">%1$d aiempi päivä täyttämättä</item>
+        <item quantity="other">%1$d aiempaa päivää täyttämättä</item>
+    </plurals>
+    <string name="forms_daily_skip_all">Ohita kaikki</string>
+    <string name="forms_daily_today">Tänään · %1$s</string>
+    <string name="forms_daily_skip">Ohita</string>
+    <string name="forms_daily_undo_skip">Peru ohitus</string>
+    <string name="forms_daily_new_tag">Uusi syy</string>
+    <string name="forms_daily_new_tag_hint">Roskis oli täynnä</string>
+    <string name="forms_weekly_title">Viikon kirjaus</string>
+    <plurals name="forms_weekly_owed">
+        <item quantity="one">%1$d viikko rästissä, yksi uusi askel kattaa ne kaikki.</item>
+        <item quantity="other">%1$d viikkoa rästissä, yksi uusi askel kattaa ne kaikki.</item>
+    </plurals>
+    <string name="forms_weekly_no_step">Ei uutta askelta tällä viikolla</string>
+    <string name="forms_quarter_title">3 kuukauden katsaus</string>
+    <string name="forms_quarter_nothing">Vielä ei ole mitään katsottavaa. Seuraavaksi yhteenvetosi.</string>
+    <string name="forms_quarter_habits">Tavat</string>
+    <string name="forms_quarter_swaps">Vaihdot</string>
+    <string name="forms_quarter_avoid">Vältä</string>
+    <string name="forms_quarter_missed">Väliin jäänyt</string>
+    <string name="forms_quarter_missed_level">Väliin jäänyt: %1$s</string>
+
+    <string name="forms_new_title">Uusi askel</string>
+    <string name="forms_edit_title">Muokkaa: %1$s</string>
+    <string name="forms_add_kind">Lisää: %1$s</string>
+    <string name="forms_title_habit">Tapa</string>
+    <string name="forms_title_swap">Vaihto</string>
+    <string name="forms_title_avoid">Vältä</string>
+    <string name="forms_save_changes">Tallenna muutokset</string>
+    <string name="forms_what_kind">Millainen?</string>
+    <string name="forms_name">Nimi</string>
+    <string name="forms_your_new_step">Uusi askeleesi</string>
+    <string name="forms_hint_habit">Lue 10 sivua</string>
+    <string name="forms_hint_swap">Luffa pesusienen sijaan</string>
+    <string name="forms_hint_avoid">Nestlé</string>
+    <string name="forms_habit_kind">Millainen tapa?</string>
+    <string name="forms_timing_tip_title">Milloin vain vai illalla</string>
+    <string name="forms_timing_tip">Milloin vain: jotain, minkä teet kerran, kuten lenkki. Merkitse se heti, kun se on tehty.\n\nIllalla: sääntö, jota noudatat koko päivän, kuten ei herkkuja. Voit merkitä sen vasta illalla.</string>
+    <string name="forms_anytime">Milloin vain</string>
+    <string name="forms_end_of_day">Illalla</string>
+    <string name="forms_what_is_it">Mikä se on?</string>
+    <string name="forms_how_often">Kuinka usein?</string>
+    <string name="forms_often_specific">Tiettyinä päivinä</string>
+    <string name="forms_often_whenever">Milloin vain</string>
+    <string name="forms_often_once">Vain kerran</string>
+    <string name="forms_day_count">%1$d×</string>
+    <plurals name="forms_times_every">
+        <item quantity="one">kerran joka</item>
+        <item quantity="other">kertaa joka</item>
+    </plurals>
+    <string name="forms_unit_day">päivä</string>
+    <string name="forms_unit_week">viikko</string>
+    <string name="forms_unit_month">kuukausi</string>
+    <string name="forms_unit_x_days">X päivää</string>
+    <string name="forms_ideas">Ideoita</string>
+    <string name="forms_ideas_others">Muut</string>
+    <plurals name="forms_see_all_ideas">
+        <item quantity="one">Katso kaikki %1$d idea ›</item>
+        <item quantity="other">Katso kaikki %1$d ideaa ›</item>
+    </plurals>
+
+    <string name="forms_ideas_title">Kaikki askelideat</string>
+    <string name="forms_search">Hae…</string>
+    <string name="forms_all">Kaikki</string>
+
+    <string name="forms_settings_title">Asetukset</string>
+    <string name="forms_set_colours">Värit</string>
+    <string name="forms_set_style">3 kuukauden yhteenvedon tyyli</string>
+    <string name="forms_set_checkins">Kirjaukset</string>
+    <string name="forms_set_checkin_hour">Päivän kirjaus avautuu klo</string>
+    <string name="forms_set_checkin_hour_tip">Tästä kellonajasta alkaen voit merkitä illan tavat ja tehdä päivän kirjauksen.</string>
+    <string name="forms_set_week_start">Viikko alkaa</string>
+    <string name="forms_set_week_start_tip">Minä päivänä Tavat-ruudukko, viikot ja kaaviot alkavat.</string>
+    <string name="forms_monday">Maanantai</string>
+    <string name="forms_sunday">Sunnuntai</string>
+    <string name="forms_set_new_step_every">Uusi askel joka</string>
+    <string name="forms_set_new_step_every_tip">Montako viikkoa viikon kirjausten välillä on.</string>
+    <plurals name="forms_unit_weeks">
+        <item quantity="one">viikko</item>
+        <item quantity="other">viikko</item>
+    </plurals>
+    <string name="forms_set_weekly_day">Viikon kirjauksen päivä</string>
+    <string name="forms_set_weekly_day_tip">Tänä päivänä päivän kirjauksen jälkeen valitset ensi viikon uuden askeleen.</string>
+    <string name="forms_set_checkup">3 kuukauden katsaus</string>
+    <string name="forms_set_checkup_tip">Kaikki tekevät katsauksen samoina päivinä: 1.1., 1.4., 1.7. ja 1.10., jotta voitte jakaa yhteenvetonne yhdessä. Voit myös valita oman päivämäärän.</string>
+    <string name="forms_set_same">Sama kuin muilla</string>
+    <string name="forms_set_own">Oma päivämäärä</string>
+    <string name="forms_set_starting">Alkaen</string>
+    <string name="forms_set_starting_tip">Ensimmäisen oman katsauksesi kuukausi.</string>
+    <string name="forms_earlier">Aiemmin</string>
+    <string name="forms_later">Myöhemmin</string>
+    <string name="forms_set_every_tip">Kuukausia katsausten välillä.</string>
+    <plurals name="forms_unit_months">
+        <item quantity="one">kuukausi</item>
+        <item quantity="other">kuukausi</item>
+    </plurals>
+    <string name="forms_set_day_of_month">Kuukauden päivä</string>
+    <string name="forms_set_day_of_month_tip">Mikä päivä siinä kuussa.</string>
+    <string name="forms_set_everyone">Kaikki: 1.1. · 1.4. · 1.7. · 1.10.</string>
+    <string name="forms_set_days_build">Päiviä tavan rakentamiseen</string>
+    <string name="forms_set_days_build_tip">Tutkimuksissa tulos oli 18-254 päivää, ja useimmiten mainitaan 66 (Lally ym. 2010, Singh ym. 2024). Näin monen päivän jälkeen uusi askel siirtyy katsauksiisi.</string>
+    <string name="forms_set_nudge">Päivän muistutus</string>
+    <string name="forms_set_nudge_tip">Muistutus tähän aikaan, vain jos jotain on vielä merkitsemättä.</string>
+    <string name="forms_set_more">Lisää</string>
+    <string name="forms_set_reasons">Lipsahdusten syyt</string>
+    <string name="forms_set_tutorial">Näytä esittely uudelleen</string>
+    <string name="forms_set_export">Vie tietoni</string>
+    <string name="forms_set_import">Tuo tiedot</string>
+
+    <string name="forms_reasons_title">Lipsahdusten syyt</string>
+    <string name="forms_reasons_hint">Lisää oma syy</string>
+    <string name="forms_reasons_used">käytetty %1$d×</string>
+    <string name="forms_reasons_delete_title">Poistetaanko %1$s?</string>
+    <string name="forms_reasons_delete_text">Lipsahdukset pysyvät historiassasi, vain ilman tätä syytä.</string>
+
+    <plurals name="forms_backup_habits">
+        <item quantity="one">%1$d tapa</item>
+        <item quantity="other">%1$d tapaa</item>
+    </plurals>
+    <plurals name="forms_backup_swaps">
+        <item quantity="one">%1$d vaihto</item>
+        <item quantity="other">%1$d vaihtoa</item>
+    </plurals>
+    <plurals name="forms_backup_avoids">
+        <item quantity="one">%1$d vältettävä</item>
+        <item quantity="other">%1$d vältettävää</item>
+    </plurals>
+    <string name="forms_backup_kinds">%1$s, %2$s, %3$s</string>
+    <string name="forms_backup_since">%1$s, merkinnät alkaen %2$s</string>
+    <string name="forms_export_title">Vie tietoni</string>
+    <string name="forms_export_what">Mitä tiedostoon tulee</string>
+    <string name="forms_export_ticks">Kaikki merkinnät, lipsahdukset ja syyt</string>
+    <string name="forms_export_ticks_since">Kaikki merkinnät, lipsahdukset ja syyt alkaen %1$s</string>
+    <string name="forms_export_summaries">3 kuukauden yhteenvetosi</string>
+    <string name="forms_export_settings">Asetuksesi, värisi ja nimesi</string>
+    <string name="forms_export_file">Tiedosto</string>
+    <string name="forms_export_kb">%1$d kt</string>
+    <string name="forms_export_save">Tallenna tiedosto</string>
+    <string name="forms_export_send">Lähetä…</string>
+    <string name="forms_export_send_title">Lähetä Alice-tietosi</string>
+    <string name="forms_export_saved">Tallennettu %1$s</string>
+    <string name="forms_export_save_failed">Tiedoston tallennus ei onnistunut</string>
+
+    <string name="forms_import_title">Tuo tiedot</string>
+    <string name="forms_import_choose">Valitse Alice-varmuuskopio</string>
+    <string name="forms_import_choose_sub">.json, toisen puhelimen Vie-toiminnosta</string>
+    <string name="forms_import_cant_open">Tiedoston avaaminen ei onnistunut.</string>
+    <string name="forms_import_not_backup">Tiedosto ei ole Alice-varmuuskopio.</string>
+    <string name="forms_import_replace_mode">Korvaa nykyiset</string>
+    <string name="forms_import_add_mode">Lisää nykyisiin</string>
+    <string name="forms_import_button">Tuo</string>
+    <string name="forms_import_replace_title">Korvataanko tietosi?</string>
+    <string name="forms_import_add_title">Lisätäänkö nämä tiedot?</string>
+    <string name="forms_import_replace_text">Kaikki tämän puhelimen tiedot korvataan tiedostolla. Vie ne ensin, jos haluat säilyttää ne.</string>
+    <string name="forms_import_add_text">Tiedoston tavat ja historia lisätään omiisi.</string>
+    <string name="forms_import_done">Tiedot tuotu</string>
+
+    <string name="look_share">Jaa</string>
+    <string name="look_save_image">Tallenna kuva</string>
+    <string name="look_next_week">Seuraavaksi viikkosi ›</string>
+    <string name="look_keep_going">Jatka</string>
+    <string name="look_storage_needed">Alice tarvitsee tallennustilan käyttöoikeuden kuvan tallentamiseen</string>
+    <string name="look_share_caption">Neljännekseni Alicen kanssa. Aloita omasi: %1$s</string>
+    <string name="look_share_clip">Alice-yhteenveto</string>
+    <string name="look_share_chooser">Jaa neljänneksesi</string>
+    <string name="look_saved">Tallennettu kansioon Pictures/Alice</string>
+    <string name="look_save_failed">Kuvan tallennus ei onnistunut</string>
+
+    <string name="look_style_poster">Juliste</string>
+    <string name="look_style_wrapped">Wrapped</string>
+    <string name="look_style_trophy">Pokaalikaappi</string>
+    <string name="look_style_receipt">Kuitti</string>
+    <string name="look_style_report">Todistus</string>
+    <string name="look_style_boarding">Tarkastuskortti</string>
+    <string name="look_style_polaroid">Polaroid</string>
+    <string name="look_style_calendar">Kalenteri</string>
+    <string name="look_style_trading">Keräilykortti</string>
+
+    <string name="look_quote_1">Pieniä askelia, joka päivä</string>
+    <string name="look_quote_2">Kiitos, että olit paikalla</string>
+    <string name="look_quote_3">Edistystä, ei täydellisyyttä</string>
+    <string name="look_quote_4">Jatkoit eteenpäin. Se merkitsee</string>
+    <string name="look_quote_5">Pienet muutokset, iso ero</string>
+    <string name="look_quote_6">Joka päivä valitsit paremmin</string>
+    <string name="look_quote_7">Hitaastikin pääsee eteenpäin</string>
+    <string name="look_quote_8">Rakennat elämää, josta pidät</string>
+    <string name="look_quote_9">Askel kerrallaan kertyy paljon</string>
+    <string name="look_quote_10">Pidä huolta itsestäsi jatkossakin</string>
+    <string name="look_quote_11">Tuleva sinä kiittää</string>
+    <string name="look_quote_12">Vähitellen paljon</string>
+    <string name="look_quote_13">Sinnikkyys on hiljaista taikaa</string>
+    <string name="look_quote_14">Katso, kuinka pitkälle olet tullut</string>
+    <string name="look_quote_15">Ole ylpeä pienistä voitoista</string>
+    <string name="look_quote_16">Hyvät päivät rakennetaan, niitä ei löydetä</string>
+
+    <string name="look_stamp_1">ERINOMAINEN</string>
+    <string name="look_stamp_2">LOISTAVA</string>
+    <string name="look_stamp_3">HIENOSTI TEHTY</string>
+    <string name="look_stamp_4">MAHTAVA</string>
+    <string name="look_stamp_5">SUPER</string>
+    <string name="look_stamp_6">TÄYDET PISTEET</string>
+    <string name="look_stamp_7">KULTATÄHTI</string>
+    <string name="look_stamp_8">HYVÄÄ TYÖTÄ</string>
+
+    <string name="look_period">%1$s-%2$s</string>
+    <string name="look_scan">SKANNAA JA\nALOITA OMA\nMATKASI</string>
+    <string name="look_you">Sinä</string>
+    <string name="look_on_track">raiteillaan</string>
+    <string name="look_new_steps">uutta askelta</string>
+    <string name="look_days_in">päivää mukana</string>
+    <string name="look_new">uutta</string>
+    <string name="look_week_by_week">Viikko viikolta</string>
+    <string name="look_coming_soon">Tulossa pian</string>
+    <string name="look_new_this_quarter">Uutta tällä neljänneksellä</string>
+    <string name="look_kept_up_longest">Pisimpään pidetyt</string>
+    <string name="look_habits">Tavat</string>
+    <string name="look_swaps">Vaihdot</string>
+    <string name="look_avoids">Vältettävät</string>
+    <string name="look_ways_improved">Parannuksia</string>
+    <string name="look_improved_in">Paransit elämääsi %1$s</string>
+
+    <plurals name="look_habits_n">
+        <item quantity="one">%1$d tapa</item>
+        <item quantity="other">%1$d tapaa</item>
+    </plurals>
+    <plurals name="look_swaps_n">
+        <item quantity="one">%1$d vaihto</item>
+        <item quantity="other">%1$d vaihtoa</item>
+    </plurals>
+    <plurals name="look_avoids_n">
+        <item quantity="one">%1$d vältettävä</item>
+        <item quantity="other">%1$d vältettävää</item>
+    </plurals>
+    <plurals name="look_slips_n">
+        <item quantity="one">%1$d lipsahdus</item>
+        <item quantity="other">%1$d lipsahdusta</item>
+    </plurals>
+    <plurals name="look_ways_n">
+        <item quantity="one">%1$d tavalla</item>
+        <item quantity="other">%1$d tavalla</item>
+    </plurals>
+    <plurals name="look_habits_word">
+        <item quantity="one">tapa</item>
+        <item quantity="other">tapaa</item>
+    </plurals>
+    <plurals name="look_swaps_word">
+        <item quantity="one">vaihto</item>
+        <item quantity="other">vaihtoa</item>
+    </plurals>
+    <plurals name="look_avoids_word">
+        <item quantity="one">vältettävä</item>
+        <item quantity="other">vältettävää</item>
+    </plurals>
+    <plurals name="look_slips_word">
+        <item quantity="one">lipsahdus</item>
+        <item quantity="other">lipsahdusta</item>
+    </plurals>
+    <plurals name="look_ways_word">
+        <item quantity="one">tapa</item>
+        <item quantity="other">tapaa</item>
+    </plurals>
+
+    <string name="look_poster_improved">Olet parantanut elämääsi %1$s</string>
+    <string name="look_poster_on_track">RAITEILLAAN</string>
+    <string name="look_poster_days">päivää</string>
+    <string name="look_poster_achievements">Saavutukset</string>
+    <string name="look_poster_first_ones">Ensimmäiset ovat tulossa</string>
+    <string name="look_poster_added">Mitä lisäsit tällä neljänneksellä</string>
+
+    <string name="look_wrapped_stars">Tähtesi</string>
+
+    <string name="look_trophy_ways">tapaa, joilla paransit\nelämääsi</string>
+    <string name="look_trophy_next_quarter">Ensi neljännes</string>
+    <string name="look_trophy_first_medal">ensimmäinen mitalisi</string>
+    <string name="look_trophy_new">%1$s %2$s</string>
+    <string name="look_trophy_new_label">Uutta hyllyssä:</string>
+
+    <string name="look_receipt_title">3 kuukauden katsaus · %1$s</string>
+    <string name="look_receipt_customer">Asiakas: %1$s</string>
+    <string name="look_receipt_habits">Rakennetut tavat</string>
+    <string name="look_receipt_swaps">Vaihdetut asiat</string>
+    <string name="look_receipt_avoids">Vältetyt asiat</string>
+    <string name="look_receipt_ways">Tavat, joilla paransit elämääsi</string>
+    <string name="look_receipt_on_track">Raiteillaan tällä neljänneksellä</string>
+    <string name="look_receipt_slips">Lipsahdukset</string>
+    <string name="look_receipt_new_steps">Uudet askeleet</string>
+    <string name="look_receipt_new">Uutta tällä neljänneksellä: %1$s</string>
+
+    <string name="look_report_title">Pienten askelten todistus</string>
+    <string name="look_report_pupil">%1$s · Oppilas: %2$s</string>
+    <string name="look_report_subject">AINE</string>
+    <string name="look_report_built">RAKENNETTU</string>
+    <string name="look_report_grade">ARVOSANA</string>
+    <string name="look_report_attendance">Läsnäolo %1$s</string>
+    <string name="look_report_on_track">Raiteillaan %1$s</string>
+    <string name="look_report_slips">Lipsahdukset %1$s</string>
+    <string name="look_report_achievements">SAAVUTUKSET</string>
+    <string name="look_report_achievement">★ %1$s, %2$s</string>
+    <string name="look_report_new">UUDET AINEET TÄLLÄ JAKSOLLA (%1$d)</string>
+    <string name="look_report_comment">%1$s %2$s %3$s</string>
+    <string name="look_report_comment_label">Opettajan kommentti:</string>
+    <string name="look_report_calm">Rauhallinen, tasainen jakso.</string>
+    <string name="look_report_ups_downs">Jakso täynnä ylä- ja alamäkiä, ja pysyit mukana.</string>
+    <string name="look_report_star">%1$s on ollut erinomainen. Jatka samaan malliin!</string>
+    <string name="look_report_keep_up">Jatka samaan malliin!</string>
+    <string name="look_report_week">VIIKKO VIIKOLTA</string>
+
+    <string name="look_boarding_airline">ALICE AIR</string>
+    <string name="look_boarding_flight">Lento Q%1$d</string>
+    <string name="look_boarding_from">MISTÄ</string>
+    <string name="look_boarding_old">VANHAT</string>
+    <string name="look_boarding_habits">tavat</string>
+    <string name="look_boarding_to">MINNE</string>
+    <string name="look_boarding_new">UUSI</string>
+    <string name="look_boarding_better_you">parempi sinä</string>
+    <string name="look_boarding_passenger">Matkustaja</string>
+    <string name="look_boarding_dates">Päivämäärät</string>
+    <string name="look_boarding_miles">Lennetyt mailit</string>
+    <string name="look_boarding_on_time">Ajallaan</string>
+    <string name="look_boarding_turbulence">Turbulenssi</string>
+    <string name="look_boarding_days">Päiviä koneessa</string>
+    <string name="look_boarding_flyer">KANTA-ASIAKAS, PISIMMÄT MATKAKUMPPANISI</string>
+    <string name="look_boarding_log">LENTOLOKI, VIIKKO VIIKOLTA</string>
+    <string name="look_boarding_stops">UUDET PYSÄHDYKSET, +%1$d</string>
+    <string name="look_boarding_note">KAPTEENIN VIESTI</string>
+
+    <string name="look_polaroid_life">ELÄMÄSI</string>
+    <string name="look_polaroid_quarter">TÄLLÄ NELJÄNNEKSELLÄ</string>
+    <string name="look_polaroid_days_in">%1$d/%2$d päivää mukana</string>
+    <string name="look_polaroid_longest">PISIMPÄÄN PIDETYT</string>
+    <string name="look_polaroid_new">UUTTA, +%1$d</string>
+
+    <string name="look_calendar_added">Lisätty</string>
+
+    <string name="look_trading_common">Tavallinen</string>
+    <string name="look_trading_uncommon">Harvinaisehko</string>
+    <string name="look_trading_rare">Harvinainen</string>
+    <string name="look_trading_legendary">Legendaarinen</string>
+    <plurals name="look_trading_ways">
+        <item quantity="one">TAPA</item>
+        <item quantity="other">TAPAA</item>
+    </plurals>
+    <string name="look_ordinal_st">%1$d.</string>
+    <string name="look_ordinal_nd">%1$d.</string>
+    <string name="look_ordinal_rd">%1$d.</string>
+    <string name="look_ordinal_th">%1$d.</string>
+    <string name="look_trading_number">Nro %1$03d · %2$s neljänneksesi</string>
+    <string name="look_trading_quarter">Q%1$d · %2$s</string>
+    <string name="look_trading_hp">HP</string>
+    <string name="look_trading_days">%1$d/%2$d päivää</string>
+    <string name="look_trading_power">Voima, viikko viikolta</string>
+    <string name="look_trading_edition">%1$s · Q%2$d-painos</string>
+
+    <string name="look_sample_water_first">Ensin vettä</string>
+    <string name="look_sample_own_bag">Oma kassi</string>
+    <string name="look_sample_read_pages">Lue 10 sivua</string>
+    <string name="look_sample_reading">Lukemista joka päivä</string>
+    <string name="look_sample_late_snacks">Ei iltanapostelua</string>
+    <string name="look_sample_stretching">Venyttely</string>
+    <string name="look_sample_cooler_home">Viileämpi koti</string>
+    <string name="look_sample_loofah">Luffa pesusienen sijaan</string>
+    <string name="look_sample_palm_oil">Ei palmuöljyä</string>
+    <string name="look_sample_stretch">Venyttele 10 min</string>
+
+    <string name="look_colours_title">Värit</string>
+    <string name="look_colours_preview">Esikatselu</string>
+    <string name="look_colours_your_summary">3 kuukauden yhteenvetosi</string>
+    <string name="look_colours_light">Vaalea</string>
+    <string name="look_colours_dark">Tumma</string>
+    <string name="look_styles_title">3 kuukauden yhteenvedon tyyli</string>
+    <string name="look_styles_all_pictures">Katso kaikki 30 polaroidkuvaa</string>
+    <string name="look_styles_refresh">Päivitä</string>
+    <string name="look_pictures_title">Polaroidkuvat</string>
+    <string name="look_pictures_back">Yhteenvetotyylit</string>
+
+    <string name="look_welcome_name">Nimesi</string>
+    <string name="look_welcome_start">Aloita</string>
+    <string name="look_welcome_import">Tuo tietoni</string>
+
+    <string name="look_tut_skip">Ohita</string>
+    <string name="look_tut_page">%1$d/%2$d</string>
+    <string name="look_tut_back">Takaisin</string>
+    <string name="look_tut_start">Aloita</string>
+    <string name="look_tut_next">Seuraava</string>
+    <string name="look_tut1_title">Paremmaksi itseksesi askel kerrallaan</string>
+    <string name="look_tut1_body">Rakenna uusia tapoja, tee ystävällisempiä valintoja ja katso, miten kaikki saavutuksesi kertyvät.</string>
+    <string name="look_tut1_habits">Rakenna hyviä tapoja päivä päivältä ja tule siksi, joka haluat olla.</string>
+    <string name="look_tut1_swaps">Vaihda tuotteita ystävällisempiin, jotka ovat parempia planeetalle, ihmisille tai terveydellesi.</string>
+    <string name="look_tut1_avoids">Pidä kirjaa yrityksistä, ruoista ja tuotteista, joita et mieluiten tukisi.</string>
+    <string name="look_tut2_title">Merkitse tehdyksi</string>
+    <string name="look_tut2_body">Napauta ruutua, kun olet tehnyt tavan. Illan tavat avautuvat kirjausaikanasi.</string>
+    <string name="look_tut3_title">%1$s, sitten joka %2$s</string>
+    <plurals name="look_tut3_days">
+        <item quantity="one">%1$d päivä</item>
+        <item quantity="other">%1$d päivää</item>
+    </plurals>
+    <plurals name="look_tut3_months">
+        <item quantity="one">%1$d kuukausi</item>
+        <item quantity="other">%1$d kuukautta</item>
+    </plurals>
+    <string name="look_tut3_body">Tutkimusten mukaan tavan rakentamiseen kuluu 18-254 päivää. Useimmin mainittu luku on 66 päivää, joten siitä Alice aloittaa.</string>
+    <string name="look_tut3_days_label">Päiviä tavan rakentamiseen</string>
+    <string name="look_tut3_checkup">Katsaus joka</string>
+    <string name="look_tut3_small">Voit muuttaa molempia Asetuksissa.</string>
+    <string name="look_tut4_title">Kerran viikossa yksi uusi askel</string>
+    <string name="look_tut4_body">Kun lisäät yhden uuden askeleen kerrallaan, voit kasvaa rauhassa ottamatta liikaa kerralla.</string>
+    <string name="look_tut4_day">Kirjauspäivä</string>
+    <string name="look_tut4_small">Tämänkin voit muuttaa Asetuksissa.</string>
+    <string name="look_tut5_title">Joka neljännes yhteenvetosi</string>
+    <string name="look_tut5_body">Jaa ystävillesi ja läheisillesi, kuinka pitkälle olet tullut. Napauta tyyliä, josta pidät:</string>
+    <string name="look_tut_change_mind">Voit aina muuttaa mieltäsi.</string>
+    <string name="look_tut6_title">Tee siitä omasi</string>
+    <string name="look_tut6_body">Valitse värit, jotka tuntuvat mukavimmilta. Koko sovellus vaihtuu heti.</string>
+    <string name="look_tut7_title">Muuta mitä vain, milloin vain</string>
+    <string name="look_tut7_body">Kirjausajat, tavan rakentamisen päivät, yhteenvetosi tyyli, värit ja tietosi löytyvät kaikki Asetuksista.</string>
+    <string name="look_tut7_gear">Avaa Asetukset napauttamalla rataskuvaketta Tavat-näkymän yläreunassa.</string>
+    <string name="look_tut7_open">Avaa Asetukset</string>
+
+    <string name="lang_title">Kieli</string>
+    <string name="pron_title">Pronominit</string>
+    <string name="pron_she">nainen</string>
+    <string name="pron_he">mies</string>
+    <string name="pron_they">neutraali</string>
+    <string name="lang_spotted">Löysitkö virheen omalla kielelläsi?</string>
+    <string name="lang_search">Hae kieltäsi</string>
+    <string name="lang_phone">Puhelimen kieli</string>
+    <string name="lang_follow">Käytä puhelimen kieltä</string>
+    <string name="lang_note_title">Auta käännöksissä</string>
+    <string name="lang_note_1">Hei, olen Lucy ja tein Alicen.</string>
+    <string name="lang_note_2">Puhun englantia, slovakkia, tšekkiä ja venäjää, joten tarkistin ne käännökset itse. Muita kieliä ei ole vielä tarkistanut kukaan äidinkielinen puhuja.</string>
+    <string name="lang_note_3">Jos huomaat virheen omalla kielelläsi, kerro siitä minulle, niin korjaan sen. Ja jos olet käyttänyt Alicea omalla kielelläsi jonkin aikaa ja kaikki kuulostaa oikealta, kerro sekin, niin voin merkitä kielen hyväksytyksi.</string>
+    <string name="lang_note_4">Kiitos!</string>
+    <string name="lang_not_approved">EI VIELÄ HYVÄKSYTTY</string>
+    <string name="lang_report">Ilmoita virheestä</string>
+    <string name="lang_all_correct">Kieleni on täysin oikein</string>
+    <string name="lang_mail_mistake_body">Mikä kuulostaa väärältä ja missä näkymässä:\n\n</string>
+    <string name="lang_mail_correct_body">Olen käyttänyt Alicea omalla kielelläni jonkin aikaa, ja kaikki kuulostaa oikealta.\n\n</string>
+    <string name="lang_no_mail">Sähköpostisovellusta ei löytynyt</string>
+</resources>
